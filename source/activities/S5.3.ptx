@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 5.3: Modeling with Polynomials</title>
+
+  <p>
+    <ul>
+      <li><p>Volume of a 3D box: length <m>\times</m> width <m>\times</m> height</p></li>
+      <li><p>Surface area of a 3D box: add up the area of each of the 6 sides</p></li>
+    </ul>
+  </p>
+
+  <activity>
+    <title>Activity 5.3.1</title>
+    <introduction>
+      <p>A piece of cardboard that is <m>12\times 18</m>
+ (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the cardboard and the remaining sides are folded up.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Let <m>x</m>
+ be the side length of the squares being cut from the corners of the cardboard. Draw a labeled diagram that shows the given information and the variable being used.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Determine a formula for the function <m>V</m>
+ whose output is the volume of the box that results from a square of size <m>x\times x</m>
+ being cut from each corner of the cardboard.</p>
+      </statement>
+    </task>
+    <task workspace="0.6in">
+      <statement>
+        <p>What familiar kind of function is <m>V</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>If we start with a small positive value for <m>x</m>
+ and let that value get larger and larger, what is the first value of <m>x</m>
+we encounter that makes it impossible to remove <m>x\times x</m>
+ squares from the cardboard and still form a box?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What are the zeros of <m>V</m>?
+ What is the domain of the model <m>V</m>
+ in the context of the rectangular box?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <p>
+    <ul>
+      <li><p>Volume of a 3D box: length <m>\times</m> width <m>\times</m> height</p></li>
+      <li><p>Surface area of a 3D box: add up the area of each of the 6 sides</p></li>
+    </ul>
+  </p>
+
+  <activity>
+    <title>Activity 5.3.2</title>
+    <introduction>
+      <p>According to a shipping company’s regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed 120
+ inches, where by girth we mean the perimeter of one end.</p>
+      <image source="images/5.3.png" width="50%"/>
+      <p>Suppose that we want to ship a parcel that has a square end of width <m>x</m>
+ and an overall length of <m>y</m>,
+ both measured in inches.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Label the provided picture, using <m>x</m>
+ for the length of each side of the square end, and <m>y</m>
+ for the other edge of the package.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>How does the length plus girth of 120
+ inches result in an equation (often called a constraint equation) that relates <m>x</m>
+ and <m>y</m>?
+ Explain, and state the equation.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Solve the equation you found in (b) for one of the variables present.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Hence determine the volume, <m>V</m>,
+ of the package as a function of a single variable.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the domain of the function <m>V</m>
+ in the context of the physical setting of this problem? (Hint: neither <m>x</m>
+ nor <m>y</m>
+ can equal 0.)</p>
+      </statement>
+    </task>
+  </activity>
+
+  <p>
+    <ul>
+      <li><p>Volume of a cylinder: <m>\pi r^2 h</m></p></li>
+      <li><p>Surface area of a cylinder: <m>2\pi r^2 + 2\pi r h</m></p></li>
+    </ul>
+  </p>
+
+  <activity>
+    <title>Activity 5.3.3</title>
+    <introduction>
+      <p>Suppose that we want to construct a cylindrical can using <m>60</m>
+ square inches of material for the surface of the can. In this context, how does the can’s volume depend on the radius we choose?
+Let the cylindrical can have base radius <m>r</m>
+ and height <m>h</m>.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Use the formula for the surface area of a cylinder and the given constraint that the can’s surface area is 60
+ square inches to write an equation that connects the radius <m>r</m>
+ and height <m>h</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Solve the equation you found in (a) for <m>h</m>
+ in terms of <m>r</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Recall that the volume of a cylinder is <m>V=\pi r^2 h</m>.
+ Use your work in (b) to write <m>V</m>
+ as a function of the single variable <m>r</m>;
+ simplify the formula as much as possible.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the domain of the function <m>V</m>
+ in the context of the physical setting of this problem? (Hint: how does the constraint on surface area provide an upper bound for the value of <m>r</m>?
+ Think about the maximum area that can be allocated to the top and bottom of the can.)</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity</title>
+    <statement>
+      <p>The Heat Index combines the temperature of the air and the relative humidity to determine how hot it feels, that is, what humans would perceive as the temperature.</p>
+    </statement>
+  </activity>
+
+</handout>

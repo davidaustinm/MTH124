@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 4.3: Inverses of Trig Functions</title>
+
+  <activity>
+    <introduction>
+      <image source="images/alltrig.png" width="50%"/>
+      <p><term>Arccosine</term></p>
+      <p>Consider the <m>g(t)</m> to be only the part of <m>\cos(t)</m> function restricted to the input <m>[0,\pi]</m></p>
+      <image source="images/4.3.1" width="50%"/>
+    </introduction>
+    <task workspace=".8cm">
+      <statement>
+        <p>What is the domain of <m>g</m>? (Not <m>\cos(t)</m>!)</p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p>What is the range of <m>g</m>?</p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p>Does <m>g</m> pass the horizontal line test?</p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p>Does <m>g</m> have an inverse function?</p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p>We know <m>\cos(\frac{\pi}{4}) = \frac{\sqrt{2}}{2}</m>, so since <m>\frac{\pi}{4}</m> is in <m>[0,\pi]</m>, then <m>g(\frac{\pi}{4}) = \frac{\sqrt{2}}{2}</m>.  What then is <m>g^{-1}(\frac{\sqrt{2}}{2})</m>?</p>
+      </statement>
+    </task>
+    <task workspace="2cm">
+      <statement>
+        <p>Use your unit circle to find the following:  
+    <md>g^{-1}(-\frac{\sqrt{2}}{2})  ~~~ g^{-1}(-\frac12) ~~~g^{-1}(0) ~~~</md></p>
+      </statement>
+    </task>
+  </activity>
+
+  <definition>
+    <title>Definition 4.3.2</title>
+    <statement>
+      <p>Let <m>g(t)=\cos(t)</m> defined ONLY on the domain <m>[0,\pi]</m>, and note the range is <m>[-1,1]</m>.  For any real number <m>y</m> where <m>-1\le y \le 1</m>, the <term>arccosine of <m>y</m></term> is denoted <md>t=\arccos(y)</md> and is the angle <m>t</m> where <m>0\le t \le \pi</m> and <m>\cos(t)=y</m>.</p>
+    </statement>
+  </definition>
+
+  <image source="images/ac" width="50%"/>
+  <p workspace=".15in"><term>** What does arccosine output???  An ANGLE! **</term></p>
+
+  <activity>
+    <title>Activity 4.3.2</title>
+    <introduction>
+      <p>Use the special points on the unit circle to determine the exact values of each of the following numerical expressions. Do so without using a computational device.</p>
+    </introduction>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(\frac12)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(\frac{\sqrt{2}}2)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(\frac{\sqrt{3}}2)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(-\frac12)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(-\frac{\sqrt{2}}2)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(-\frac{\sqrt{3}}2)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(-1)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(0)</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\cos(\arccos(-\frac12))</m></p>
+      </statement>
+    </task>
+    <task workspace=".8cm">
+      <statement>
+        <p><m>\arccos(\cos(\frac{7\pi}6))</m></p>
+      </statement>
+    </task>
+  </activity>
+
+  <p><term>Arcsine</term></p>
+
+  <definition workspace="0.15in">
+    <title>Definition 4.3.3</title>
+    <statement>
+      <p>Let <m>f(t)=\sin(t)</m> defined ONLY on the domain <m>[-\frac{\pi}2,\frac{\pi}2]</m>, and note the range is <m>[-1,1]</m>.  For any real number <m>y</m> where <m>-1\le y \le 1</m>, the <term>arcsine of <m>y</m></term> is denoted <md>t=\arcsin(y)</md> and is the angle <m>t</m> where <m>-\frac{\pi}2 \le t \le \frac{\pi}2</m> and <m>\sin(t)=y</m>.</p>
+    </statement>
+  </definition>
+
+  <activity>
+    <title>Activity 4.3.3</title>
+    <introduction>
+      <p>The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>According to the definition of arcsine above, what is the domain of arcsine?  The range?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Use your unit circle and your knowledge of inverses to determine exactly:  (Recall, all answers are angles between <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2}</m>).
+        <m>\arcsin(-1) ~~~\arcsin(-\frac{\sqrt{2}}{2})~~~\arcsin(0)~~~\arcsin(\frac12)~~~\arcsin(\frac{\sqrt{3}}{2})~~~</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Sketch a careful plot of the restricted sine function on the interval <m>-\frac{\pi}2 \le t \le \frac{\pi}2</m>.  Then plot the inverse, <m>\arcsin(t)</m> on the same graph.  
+ (They should look like reflections of each other across the line <m>y=x</m>, do they?)</p>
+      </statement>
+    </task>
+    <task workspace="1cm">
+      <statement>
+        <p>True or false:  <m>\arcsin(\sin(5\pi)) = 5\pi</m>.  Why/why not?</p>
+        <image source="images/4.3.3" width="50%"/>
+      </statement>
+    </task>
+  </activity>
+
+  <p><term>Arctangent</term></p>
+  <p>** Note: <m>\tan(t)</m> does not exist everywhere!  So we need to choose where to restrict it to very carefully...</p>
+
+  <definition workspace="0.15in">
+    <title>Definition 4.3.5</title>
+    <statement>
+      <p>Let <m>f(t)=\tan(t)</m> defined ONLY on the domain <m>(-\frac{\pi}2,\frac{\pi}2)</m>, and note the range is all real numbers!  For any real number <m>y</m>, the <term>arctangent of <m>y</m></term> is denoted <md>t=\arctan(y)</md> and is the angle <m>t</m> where <m>-\frac{\pi}2 &lt; t &lt; \frac{\pi}2</m> and <m>\tan(t)=y</m>.</p>
+    </statement>
+  </definition>
+
+  <activity>
+    <title>Activity 4.3.4</title>
+    <introduction>
+      <p>The goal of this activity is to understand key properties of the arctangent function.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>According to the definition of arctangent above, what is the domain of arctangent?  The range?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Use your unit circle and your knowledge of inverses to determine exactly:  (Recall, all answers are angles between <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2}</m>).
+        <m>\arctan(-\sqrt{3}) ~~~ \arctan(-1)~~~\arctan(0)~~~\arctan(\frac1{\sqrt{3}})~~~</m></p>
+      </statement>
+    </task>
+    <task workspace="1cm">
+      <statement>
+        <p>The restricted tangent function on the interval <m>-\frac{\pi}2 &lt; t &lt; \frac{\pi}2</m> is shown.  Plot the inverse, <m>\arctan(t)</m> on the same graph.</p>
+        <p>(Note, a vertical asymptote on the original function corresponds to what kind of asymptote on the inverse function?)</p>
+        <image source="images/4.3.4" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Complete the sentence: <q>as <m>t</m> increases without bound (as <m>t\rightarrow \infty</m>), the function <m>\arctan(t)</m>...</q></p>
+        <p><term>Practice:</term></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Solve the equations below exactly. Give your answers in radians, and find all possible values for <m>t</m>
+ in the interval <m>0\le t\le 2\pi</m>.
+ There may be more than one answer!</p>
+        <p>
+          <ul>
+            <li><p><m>\sin(t)=\frac{\sqrt3}{2}</m>, when <m>t=</m><fillin/></p></li>
+            <li><p><m>\cos(t)=\frac{\sqrt2}{2}</m>, when <m>t=</m><fillin/></p></li>
+            <li><p><m>\tan(t)=-\sqrt3</m>, when <m>t=</m><fillin/></p></li>
+          </ul>
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Suppose <m>\sin(t)=\frac{x}{5}</m> and <m>t</m> is in the first quadrant.  Draw a right triangle that matches this criteria.  Can you find an expression for <m>\cos(t)</m>?  For <m>\tan(t)</m>?  Both expressions will involve <m>x</m>.</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

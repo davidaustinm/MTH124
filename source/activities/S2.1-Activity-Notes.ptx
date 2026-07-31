@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>S2.1-Activity-Notes</title>
+
+  <p workspace=".5cm">Circumference: <fillin/> Radius: <fillin/> Center: <fillin/></p>
+  <tabular>
+    <row>
+      <cell>Fraction of circle</cell>
+      <cell>d</cell>
+      <cell>h</cell>
+    </row>
+    <row>
+      <cell>0</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>1/8</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>1/4</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>3/8</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>1/2</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>5/8</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>3/4</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>7/8</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>9/8</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>3/2</cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+  </tabular>
+  <image source="images/gg" width="50%"/>
+  <p><term>Notes</term></p>
+
+</handout>

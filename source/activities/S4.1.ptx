@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 4.1: Right Triangles</title>
+
+  <sidebyside widths="45% 45%">
+    <image source="images/4.1"/>
+    <p>Pythagorean Theorem for right triangles:
+<md>a^2+b^2 = c^2</md>
+Fundamental Trig Identity:
+<md>\cos^2(\theta) + \sin^2(\theta) = 1</md></p>
+  </sidebyside>
+  <p workspace=".8in">Angles of a triangle:</p>
+  <p workspace=".8in">Right Triangles:</p>
+  <p workspace="3in"><term>Similar Triangles:</term></p>
+  <p workspace="1in"><term>(Brief and incomplete) explanation of trig inverse:</term></p>
+
+  <activity>
+    <title>Activity 4.1.2</title>
+    <introduction>
+      <p>Consider right triangle <m>OPQ</m>
+ given in the figure below, and assume that the length of the hypotenuse is <m>OP=r</m>
+ for some constant <m>r&gt;1</m>.
+ The point <m>M</m>
+ lies on the line segment between 
+ <m>O</m> and <m>P</m> in such a way that the length <m>OM=1</m> , and point <m>N</m>
+ lies on the line segment between <m>O</m> and <m>Q</m>
+ so that the angle <m>\langle ONM</m> 
+ is a right angle, as pictured. In addition, assume that point <m>O</m>
+ corresponds to <m>(0,0)</m>,
+ point <m>Q</m>
+ to <m>(x,0)</m>,
+ and point <m>P</m>
+ to <m>(x,y)</m>
+ so that <m>OQ=x</m>
+ and <m>PQ=y</m>.
+ Finally, let <m>\theta</m>
+ be the measure of angle <m>\langle POQ</m>.</p>
+      <image source="images/4.1.2" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Explain why <m>\triangle OPQ</m>
+ and <m>\triangle OMN</m>
+ are similar triangles.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the value of the ratio 
+ <m>\frac{OP}{OM}</m>?
+ According to the definition of similar triangles, what does this tell you about the ratios 
+ <m>\frac{OQ}{ON}</m>
+ and <m>\frac{PQ}{MN}</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the value of <m>ON</m>
+ in terms of <m>\theta</m>?
+ What is the value of <m>MN</m>
+ in terms of <m>\theta</m>? (Think unit circle! Top of page!)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Use your conclusions in (b) and (c) to express the values of <m>x</m>
+ and <m>y</m>
+ in terms of <m>r</m>
+ and <m>\theta</m>.</p>
+      </statement>
+    </task>
+  </activity>
+
+  <assemblage>
+    <title>Ratios in right triangles</title>
+    <sidebyside widths="45% 45%">
+      <stack>
+        <p>In a right triangle where one of the non-right angles is <m>\theta</m>:</p>
+        <p>
+          <ul>
+            <li><p>“adj” is the length of the leg adjacent to <m>\theta</m>,</p></li>
+            <li><p>“opp” is the length the side opposite <m>\theta</m>,</p></li>
+            <li><p>“hyp” is the length of the hypotenuse,</p></li>
+          </ul>
+        </p>
+        <p><md>\cos(\theta) = \frac{\text{adj}}{\text{hyp}} \ \ \ \text{ and } \ \ \ \sin(\theta) = \frac{\text{opp}}{\text{hyp}}</md></p>
+      </stack>
+      <image source="images/4.1r"/>
+    </sidebyside>
+  </assemblage>
+
+  <activity>
+    <title>Activity 4.1.3</title>
+    <introduction>
+      <p>In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation.  (Pictures help!)</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>A right triangle with hypotenuse <m>7</m>
+ and one non-right angle of measure 
+ <m>\frac{\pi}{7}</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A right triangle with non-right angle <m>\alpha</m>
+ that satisfies 
+<m>\sin(\alpha)=\frac35</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A right triangle where one of the non-right angles has measure 
+ <m>1.2</m> and the hypotenuse has length <m>2.7</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A right triangle with hypotenuse <m>13</m>
+ and one leg of length <m>6.5</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A right triangle with legs of length <m>5</m>
+ and <m>12</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A right triangle where one of the non-right angles has measure 
+ <m>\frac{\pi}{5}</m>
+ and the leg opposite this angle has length <m>4</m>.</p>
+      </statement>
+    </task>
+  </activity>
+
+  <assemblage>
+    <title>Missing info in right triangles</title>
+    <tabular>
+      <row>
+        <cell><term>Known</term></cell>
+        <cell><term>Can Find</term></cell>
+      </row>
+      <row>
+        <cell>Two leg lengths</cell>
+        <cell>Third leg length</cell>
+      </row>
+      <row>
+        <cell>One non-right angle</cell>
+        <cell>Remaining non-right angle</cell>
+      </row>
+      <row>
+        <cell>One non-right angle &amp; hypotenuse</cell>
+        <cell>Remaining angle and both leg lengths</cell>
+      </row>
+    </tabular>
+  </assemblage>
+
+  <activity>
+    <title>Activity 4.1.4</title>
+    <statement>
+      <p>We want to determine the distance between two points <m>A</m>
+ and <m>B</m>
+ that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk <m>50</m>
+ meters downstream from <m>B</m>
+ to point <m>P</m> 
+ and use the bubble level app on your phone to measure <m>\langle BPA</m>.
+ If the measure of <m>\langle BPA</m>
+ is <m>56.4^{\circ}</m>,
+ how wide is the river? What other information about the situation can you determine?</p>
+      <image source="images/4.1.4" width="50%"/>
+    </statement>
+  </activity>
+
+</handout>

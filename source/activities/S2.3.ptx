@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 2.3: The Sine and Cosine Functions</title>
+
+  <definition workspace=".5cm">
+    <title>Definition 2.3.4</title>
+    <statement>
+      <p>Given a central angle in the unit circle with angle <m>t</m>
+ radians and the terminal point <m>(a,b)</m>,
+ as shown to the right, we define the <term>sine of <m>t</m></term>, denoted <m>\sin(t)</m>,
+ by the rule <md>\sin(t) = b.</md>
+ That is, the <m>y</m>-coordinate on the unit circle IS the <m>\sin(t)</m>!</p>
+    </statement>
+  </definition>
+
+  <p>A table of values and a graph of the function <m>\sin(t)</m> are below.</p>
+  <image source="images/sine" width="50%"/>
+  <image source="images/sinetable" width="50%"/>
+  <image source="images/sinegraph" width="50%"/>
+
+  <definition>
+    <title>Definition 2.3.8.</title>
+    <statement>
+      <p>Given a central angle in the unit circle that measures <m>t</m>
+ radians and the terminal point <m>(a,b)</m>,
+ as shown to the right, we define the <term>cosine of <m>t</m></term>, denoted <m>\cos(t)</m>,
+ by the rule <md>\cos(t) = a.</md>
+ That is, the <m>x</m>-coordinate on the unit circle IS the <m>\cos(t)</m>!</p>
+    </statement>
+  </definition>
+
+  <image source="images/cos" width="50%"/>
+
+  <activity>
+    <title>Activity 2.3.2. The cosine function</title>
+    <introduction>
+      <p>Let <m>k=g(t)</m>
+ be the function that tracks the <m>x</m>-coordinate of a point traversing the unit circle counterclockwise from <m>(1,0)</m>.
+ That is, <m>g(t) = \cos(t)</m>.
+ Use the information we know about the unit circle to respond to the following questions.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>What is the exact value of 
+ <m>\cos(\frac{\pi}{6})</m>?
+ of <m>\cos(\frac{5\pi}{6})</m>
+? <m>\cos(-\frac{\pi}{3})</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Complete the following table with the exact values of <m>k=g(t) = \cos(t)</m>
+ that correspond to the stated inputs <m>t</m>.</p>
+        <image source="images/2.3.2b" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>On the axes provided below, sketch an accurate graph of <m>k=g(t) = \cos(t)</m>.
+ Label the exact location of several key points on the curve.</p>
+        <image source="images/2.3.2c.png" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the exact value of 
+ <m>\cos(\frac{11\pi}{4})</m>?
+ of <m>\cos(\frac{14\pi}{3})</m>
+?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Give four different values of <m>t</m>
+ for which <m>\cos(t) = -\frac{\sqrt{3}}{2}</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>How is the graph of <m>\cos(t)</m>
+ different from the graph of <m>\sin(t)</m>?
+ How are the graphs similar?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <p>Recall that the sine and cosine functions are just tracking the <m>x</m> and <m>y</m>-coordinates as we move around the unit circle. See <url href="https://gvsu.edu/s/0xe">gvsu.edu/s/0xe</url>
+and click on sine or cosine for an animation.</p>
+
+  <assemblage>
+    <title>Properties of the sine and cosine functions</title>
+    <p>For both <m>f(t) = \sin(t)</m> and <m>g(t) =\cos(t)</m>:</p>
+    <p>
+      <ul>
+        <li><p>the domain is all real numbers</p></li>
+        <li><p>the range is <m>[-1,1]</m></p></li>
+        <li><p>the midline is <m>y=0</m></p></li>
+        <li><p>the amplitude is <m>a=1</m></p></li>
+        <li><p>the period is <m>p=2\pi</m></p></li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <assemblage>
+    <title>The Fundamental Trigonometric Identity</title>
+    <p>For any real number <m>t</m>, <md>\sin^2(t) + \cos^2(t) = 1.</md></p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 2.3.3</title>
+    <introduction>
+      <p>Use the graph below that shows both <m>\sin(t)</m> and <m>\cos(t)</m> on the same plot to help answer the following questions.</p>
+      <image source="images/sincos" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Give an example of the largest interval you can find on which <m>\sin(t)</m>
+ is decreasing.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Give an example of the largest interval you can find on which <m>\sin(t)</m>
+ is decreasing and concave down.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Give an example of the largest interval you can find on which <m>\cos(t)</m>
+ is increasing.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Give an example of the largest interval you can find on which <m>\cos(t)</m>
+ is increasing and concave up.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Without doing any computation, on which interval is the average rate of change of <m>g(t)=\cos(t)</m>
+ greater: <m>[\pi,\pi+0.01]</m>
+ or <m>[\frac{3\pi}{2},\frac{3\pi}{2}+0.01]</m>?
+ Why?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Thinking from the perspective of the unit circle, for which quadrants of the <m>x</m>-<m>y</m>
+ plane is <m>\cos(t)</m>
+ negative for an angle <m>t</m> 
+ that lies in that quadrant?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 2.2.4 Going between</title>
+    <introduction>
+      <p>Note that almost all computing devices can evaluate <m>\sin(t)</m> and <m>\cos(t)</m> for different values of <m>t</m>, but we need to be <term>careful to tell it whether we are in degrees or radians!</term>  In desmos, the option to choose is within the wrench at the top right of the page.  Being aware of that, find the exact values whenever possible, otherwise round to at least 4 decimal places below.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>The <m>x</m>-coordinate of the point on the unit circle that lies in the third quadrant and whose 
+<m>y</m>-coordinate is 
+<m>y=-\frac34</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The <m>y</m>-coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive 
+<m>x</m>-axis that measures 
+<m>t=2</m> radians.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The 
+<m>x</m>-coordinate of the point on the unit circle generated by a central angle with one side on the positive 
+<m>x</m>-axis that measures 
+<m>t=-3.05</m> radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive 
+<m>x</m>-axis.)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The value of <m>\cos(t)</m>
+ where <m>t</m>
+ is an angle in Quadrant II that satisfies 
+ <m>\sin(t)=\frac12</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The value of <m>\sin(t)</m>
+ where <m>t</m>
+ is an angle in Quadrant III for which <m>\cos(t) = -0.7</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The average rate of change of <m>f(t) = \sin(t)</m>
+ on the intervals <m>[0.1,0.2]</m>
+ and <m>[0.8,0.9]</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The average rate of change of <m>g(t) = \cos(t)</m> 
+ on the intervals <m>[0.1,0.2]</m>
+ and <m>[0.8,0.9]</m>.</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

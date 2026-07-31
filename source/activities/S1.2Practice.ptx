@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 1.1 - 1.2 Practice</title>
+
+  <activity>
+    <task>
+      <introduction>
+        <p>Let <m>M(t)</m> denote an account balance <m>M</m> measured in dollars on day <m>t</m>.  We'll take <m>t=0</m> to be first day the account was opened.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>What does it mean to say <m>M(0)=1000</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>What does it mean to say <m>M(365) = 3000</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If on day 2 of opening the account, the account balance was <m>\</m>1012$, how would you write that in function notation?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>What does the following statement mean: "<m>M(30) - M(0) = 100</m>"?</p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>There is a specific breed of bacteria whose global population after <m>t</m> months is given by the function <m>p(t) = 4t^5 + 4t^2+4240.</m></p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>What is the population of bacteria after <m>t=6</m> months?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>What does it mean to say <m>p(1) = 4248</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>How would you find what time the global population was <m>5000</m>?  Set up!  No need to solve!</p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>Consider that graph below for a function <m>y=f(x)</m>.</p>
+        <image source="images/4-graph" width="50%"/>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>What is <m>f(2)</m>?  <m>f(8)</m>?  <m>f(10)</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Find all values of <m>x</m> such that <m>f(x) = 4</m>.</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>Find all values of <m>x</m> such that <m>f(x) = 2</m>.</p>
+        </statement>
+      </task>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A book store has an interesting model for the cost of books, depending on how many you buy.  Let <m>C(n)</m> be a function describing the cost (in dollars) of buying <m>n</m> books, given by the table:</p>
+        <tabular>
+          <row>
+            <cell><m>n</m></cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+          </row>
+          <row>
+            <cell><m>C(n)</m></cell>
+            <cell>10</cell>
+            <cell>19</cell>
+            <cell>27</cell>
+            <cell>36</cell>
+            <cell>42</cell>
+            <cell>46</cell>
+            <cell>50</cell>
+          </row>
+        </tabular>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What does it mean to say <m>C(4)=36</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the value of <m>n</m> such that <m>C(n) = 19</m>, and what does it mean in context?</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

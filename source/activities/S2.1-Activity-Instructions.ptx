@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Traversing Circles</title>
+
+  <activity>
+    <introduction>
+      <p workspace="0.15in"></p>
+      <p><term>Circle Activity Instructions</term>  To be completed with your table.</p>
+      <p>
+        <ol>
+          <li><p>Fill in the circumference (given on your circle page), the radius of your circle, and the coordinates for the center of your circle on the notes sheet.</p></li>
+          <li><p>On the circle itself, fill in the EXACT (no rounding for <m>\pi</m>) coordinates for the top, bottom, left, and right of the circle.</p></li>
+          <li><p>At the starting point, the "Fraction of the Circle" is 0.  The distance traveled will also be <m>0</m>.  At what height is the starting point?  Put this in the first row of the table.  (You can round the heights here or not!)</p></li>
+          <li><p>At 1/4 of the way around, you’ve traveled 1/4 of the circumference. Write this value
+under <m>d</m> in the 1/4 row. At what height are you at now? Can you find it exactly? (No rounding, leave <m>\pi</m> as <m>\pi</m>).</p></li>
+          <li><p>Fill in the whole table, filling in as many values as you can exactly.</p></li>
+          <li><p>Plot the points on the graph on the notes sheet.
+
+ -------- CHECK YOUR POINTS WITH DR. BAILEY! ---------</p></li>
+          <li><p>Connect the dots to make the height graph. Consider whether the curve is “speeding up”/ “curving up” at each point.</p></li>
+          <li><p>If the graph continued, what would it look like? (Fill this in with a dotted line.)</p></li>
+          <li><p>On the bottom write (at least) one thing you notice, and one thing you wonder.</p></li>
+          <li><p>Discuss: How would a different circle change your graph?
+
+
+ -------- TAPE YOUR WORK AND CIRCLE TO A WALL! ---------</p></li>
+          <li><p>Walk around and see other graphs. Check the first couple of points - does the work
+look correct?</p></li>
+          <li><p>What’s similar about the graph? What’s different?</p></li>
+        </ol>
+      </p>
+      <p><term>Definitions we'll fill in together</term></p>
+      <p>
+        <ul>
+          <li><p>A <term>circular function</term></p></li>
+          <li><p>The <term>midline</term> of a circular function</p></li>
+          <li><p>The <term>amplitude</term> of a circular function</p></li>
+          <li><p>When a function is <term>periodic</term></p></li>
+          <li><p>The <term>period</term> of a periodic function</p></li>
+        </ul>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Pick a circle as a table and write on the notes sheet the midline, amplitude, and period.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Pick another circle and check another team’s work.</p>
+      </statement>
+    </task>
+    <task workspace="1cm">
+      <statement>
+        <p>Discuss - how do the numbers found for each correspond to the circle given?</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

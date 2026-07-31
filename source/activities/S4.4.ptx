@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 4.4 &amp; 4.5: Finding Angles</title>
+
+  <p><md>\cos(\theta)=x \iff \arccos(x)=\theta, \ \ \ \ \ \ \theta \text{ in } [0,\pi]</md>
+<md>\sin(\theta) = y \iff \arcsin(y)=\theta, \ \ \ \ \ \ \theta \text{ in } \left[-\frac{\pi}{2},\frac{\pi}{2}\right]</md> <md>\tan(\theta)=z \iff \arctan(z)=\theta,  \ \ \ \ \ \ \theta \text{ in } \left(-\frac{\pi}{2},\frac{\pi}{2}\right)</md></p>
+  <p><term>6 trig functions:</term></p>
+  <sidebyside widths="45% 45%">
+    <p>
+      <ul>
+        <li><p><m>\sin(\theta)</m></p></li>
+        <li><p><m>\cos(\theta)</m></p></li>
+        <li><p><m>\tan(\theta)=\frac{\sin(\theta)}{\cos(\theta)}</m></p></li>
+      </ul>
+    </p>
+    <p>
+      <ul>
+        <li><p><m>\csc(\theta)=\frac{1}{\sin(\theta)} </m></p></li>
+        <li><p><m>\sec(\theta)=\frac{1}{\cos(\theta)} </m></p></li>
+        <li><p><m>\cot(\theta)=\frac{\cos(\theta)}{\sin(\theta)} = \frac{1}{\tan(\theta)}</m></p></li>
+      </ul>
+    </p>
+  </sidebyside>
+  <p><m>\csc(x):</m></p>
+  <image source="images/csc.png" width="50%"/>
+  <p><m>\sec(x):</m></p>
+  <image source="images/sec.png" width="50%"/>
+
+  <activity>
+    <title>Activity 4.4.2. More Practice</title>
+    <introduction>
+      <p>For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Consider an angle <m>\alpha</m>
+ in standard position on the unit circle (vertex at the origin, one side on the positive 
+<m>x</m>-axis (making the angle more than <m>90^{\circ} = \frac{\pi}{2}</m> radians)) for which we know 
+ <m>\cos(\alpha)=-\frac12</m>
+ and <m>\alpha</m>
+ lies in quadrant III. What is the measure of <m>\alpha</m>
+ in radians? In addition, what is the value of <m>\sin(\alpha)</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Consider an angle <m>\beta</m>
+ in standard position on the unit circle for which we know <m>\sin(\beta)=0.1</m> 
+ and <m>\beta</m> 
+ lies in quadrant II. What is the measure of <m>\beta</m>
+ in radians? In addition, what is the value of <m>\cos(\beta)</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Consider a right triangle with legs of length 
+ <m>11</m> and <m>13</m>.
+ What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <p workspace="0.15in"><term>Now let's look at a few applications...</term></p>
+
+  <activity>
+    <title>Activity 4.4.3</title>
+    <statement>
+      <p workspace="1in">A roof is being built with a ``7-12 pitch.” This means that the roof rises 7
+ inches vertically for every 12
+ inches of horizontal span; in other words, the slope of the roof is 
+ <m>\frac{7}{12}</m>.
+ What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?</p>
+    </statement>
+  </activity>
+
+  <activity>
+    <title>Activity 4.4.4</title>
+    <statement>
+      <p workspace="1in">On a baseball diamond (which is a square with 
+90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10
+ feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.</p>
+      <p workspace="1in">What angles arise if he throws the ball to second base instead?</p>
+    </statement>
+  </activity>
+
+  <activity>
+    <title>Activity 4.4.5</title>
+    <statement>
+      <p workspace="1in">A camera is tracking the launch of a rocket. The camera is located 4000
+ feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle <m>\theta</m>
+ (in radians) is the camera tilted when the rocket is 
+3000 feet off the ground? Answer both exactly and approximately.</p>
+      <p workspace="1in">Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height <m>h</m>.
+ Determine the camera’s angle, <m>\theta</m>,
+ as a function of <m>h</m>, (so <m>\theta = ...</m> and <m>h</m> will show up on the right),
+ and use Desmos to help compute the average rate of change of <m>\theta</m>
+ on the intervals <m>[3000,3500]</m>,
+<m>[5000,5500]</m>,
+ and <m>[7000,7500]</m>.
+ What do you observe about how the camera angle is changing?</p>
+    </statement>
+  </activity>
+
+</handout>

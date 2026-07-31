@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 3.2: Modeling with Exponential Functions</title>
+
+  <assemblage>
+    <title>Long-term behavior of exponential functions</title>
+    <p>Let <m>f(t) = b^t</m>
+ with <m>b&gt;0</m>
+ and <m>b\ne 1</m>.</p>
+    <p>
+      <ul>
+        <li><p>If <m>0&lt;b&lt;1</m>, (exponential decay),
+ then <m>b^t \rightarrow 0</m>
+ as <m>t\rightarrow \infty</m>, “<m>b^t</m>
+ tends to <m>0</m>
+ as <m>t</m>
+ increases without bound.”</p></li>
+        <li><p>If <m>b&gt;1</m>, (exponential growth),
+ then <m>b^t\rightarrow \infty</m>
+ as <m>t\rightarrow \infty</m>,  “<m>b^t</m>
+ increases without bound as <m>t</m>
+ increases without bound.”</p></li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <sidebyside widths="45% 45%">
+    <image source="images/3.2"/>
+    <p>Consider <m>q(t) = \left(\frac{1}{2}\right)^t</m>. Note that with a little fraction knowledge we can write <m>\left(\frac{1}{2}\right)^t = \frac{1}{2^t} = 2^{-t}</m>.  So <m>p(t) = 2^t</m> and <m>q(t) = \left(\frac12\right)^t = 2^{-t}</m> are reflections of each other across the <m>y-</m>axis, as seen to the left.  This is true for any positive <m>b\ne 1</m>: <m>b^t</m> and <m>\frac{1}{b^t} = b^{-t}</m> are reflections of each other in this way.</p>
+  </sidebyside>
+
+  <assemblage>
+    <title>Behavior of vertically shifted exponential functions</title>
+    <p>Let <md>g(t) = ab^t+c</md>
+ with <m>a&gt;0</m>, <m>b&gt;0</m>
+ and <m>b\ne 1</m>,
+ and <m>c</m>
+ any real number.</p>
+    <tabular>
+      <row>
+        <cell><term><em>If <m>0&lt;b&lt;1</m>, (exponential decay):</em></term></cell>
+        <cell><term><em>If <m>b&gt;1</m>, (exponential growth):</em></term></cell>
+      </row>
+      <row>
+        <cell>- As <m>t\rightarrow \infty</m>, <m>g(t) = ab^t+c\rightarrow c</m></cell>
+        <cell>- As <m>t\rightarrow \infty</m>, <m>g(t) = ab^t+c\rightarrow \infty</m></cell>
+      </row>
+      <row>
+        <cell>- <m>g(t)</m> is always decreasing,</cell>
+        <cell>- <m>g(t)</m> is always increasing</cell>
+      </row>
+      <row>
+        <cell>- <m>g(t)</m> is always concave up,</cell>
+        <cell>- <m>g(t)</m> is always concave up</cell>
+      </row>
+      <row>
+        <cell>- <m>g(t)</m> has <m>y</m>-intercept <m>(0,a+c)</m></cell>
+        <cell>- <m>g(t)</m> has <m>y</m>-intercept <m>(0,a+c)</m></cell>
+      </row>
+      <row>
+        <cell>- Range: all real numbers greater than <m>c</m>.</cell>
+        <cell>- Range: all real numbers greater than <m>c</m></cell>
+      </row>
+    </tabular>
+  </assemblage>
+
+  <activity>
+    <title>Activity 3.2.2</title>
+    <introduction>
+      <p>For each of the following functions, without using graphing technology, determine whether the function is:</p>
+      <p>
+        <ol>
+          <li><p>always increasing or always decreasing;</p></li>
+          <li><p>always concave up or always concave down; and</p></li>
+          <li><p>increasing without bound, decreasing without bound, or increasing/decreasing toward a finite value.</p></li>
+          <li><p>In addition, state the 
+<m>y</m>-intercept and the range of the function.</p></li>
+          <li><p>Sketch a rough graph of how the function appears.</p></li>
+        </ol>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p><m>p(t) = 4372(1.000235)^t + 92856</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>q(t) = 27931(0.97231)^t + 549786</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>r(t) = -17398(0.85234)^t</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>s(t) = -17398(0.85234)^t + 19411</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>u(t) = -7522(1.03817)^t</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>v(t) = -7522(1.03817)^t + 6731</m></p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 3.2.3. Modeling Temperature with Data</title>
+    <introduction>
+      <p>A can of soda (at room temperature) is placed in a refrigerator at time <m>t=0</m>
+ (in minutes) and its temperature, <m>F(t)</m>,
+ in degrees Fahrenheit, is computed at regular intervals. Based on the data, a model is formulated for the object’s temperature, given by
+ <md>F(t) = 42+30(0.95)^t.</md></p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Consider the simpler (parent) function <m>p(t) = (0.95)^t</m>.
+ How do you expect the graph of this function to appear? How will it behave as time increases? Without using graphing technology, sketch a rough graph of <m>p</m>
+ and write a sentence of explanation.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>For the slightly more complicated function <m>r(t) = 30(0.95)^t</m>,
+ how do you expect this function to look in comparison to <m>p(t)</m>?
+ What is the long-range behavior of this function as <m>t</m> 
+ increases? Without using graphing technology, sketch a rough graph of <m>r</m>
+ and write a sentence of explanation.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Finally, how do you expect the graph of <m>F(t) = 42+30(0.95)^t</m>
+ to appear? Why? First sketch a rough graph without graphing technology, and then use technology to check your thinking and report an accurate, labeled graph on the axes provided in the figure below.</p>
+        <image source="images/3.2.3c" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the temperature of the refrigerator? What is the room temperature of the surroundings outside the refrigerator? Why?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>(Skip unless time:) Determine the average rate of change of <m>F</m>
+ on the intervals <m>[10,20]</m>,
+ <m>[20,30]</m>,
+ and <m>[30,40]</m>.
+ Write at least two careful sentences that explain the meaning of the values you found, including units, and discuss any overall trend in how the average rate of change is changing.</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 3.2.4</title>
+    <introduction>
+      <p>A potato initially at room temperature (<m>68^{\circ}</m>) is placed in an oven (at <m>350^{\circ}</m>) at time <m>t=0</m>.
+ It is known that the potato’s temperature at time <m>t</m>
+ is given by the function <m>F(t) = k-r(0.98)^t</m>
+ for some positive constants <m>k</m>
+ and <m>r</m>,
+ where <m>F</m>
+ is measured in degrees Fahrenheit and <m>t</m>
+ is time in minutes.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>What is the numerical value of <m>F(0)</m>?
+ What does this tell you about the value of <m>k-r</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Based on the context of the problem, what should be the long-range behavior of the function <m>F(t)</m>?
+ Use this fact along with the behavior of <m>(0.98)^t</m>
+ to determine the value of <m>k</m>.
+ Write a sentence to explain your thinking.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the value of <m>r</m>?
+ Why?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Check your work above by plotting the function <m>F</m>
+ using graphing technology in an appropriate window. Record your results on the axes provided below, labeling the scale on the axes. Then, use the graph to estimate the time at which the potato’s temperature reaches <m>325</m>
+ degrees.</p>
+        <image source="images/3.2.3c" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>How can we view the function <m>F(t) = k-r(0.98)^t</m> 
+ as a transformation of the parent function <m>f(t) = (0.98)^t</m>?
+ Explain.</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

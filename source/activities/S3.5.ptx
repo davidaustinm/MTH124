@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 3.5: Properties and Applications of Logarithms</title>
+
+  <sidebyside widths="45% 45%">
+    <p><md>y = 10^t ~~~ \iff ~~~ \log_{10}(\underline{\ \ \ \ }) = {\underline{\ \ \ \ }}</md>
+<md>\log_{10}(10^t) = {\underline{\ \ \ \ }}</md>
+<md>10^{\log_{10}(y)} = {\underline{\ \ \ \ }}</md></p>
+    <p><md>y = e^t ~~~ \iff ~~~ \ln(\underline{\ \ \ \ }) = {\underline{\ \ \ \ }}</md>
+<md>\ln(e^t) = {\underline{\ \ \ \ }}</md>
+<md>e^{\ln(y)} = {\underline{\ \ \ \ }}</md></p>
+  </sidebyside>
+
+  <assemblage>
+    <title>Property 1</title>
+    <p>Multiplication inside logs.</p>
+  </assemblage>
+
+  <assemblage>
+    <title>Property 2</title>
+    <p>Division inside logs.</p>
+  </assemblage>
+
+  <assemblage>
+    <title>Property 3</title>
+    <p>Powers inside logs.</p>
+  </assemblage>
+
+  <p workspace="0.15in">* Use to solve any exponential function, regardless of base!</p>
+  <tabular>
+    <row>
+      <cell>Class ex: <m>4^t = 7</m></cell>
+      <cell>Class ex: <m>7\cdot 3^{2t}=6</m></cell>
+    </row>
+    <row>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell></cell>
+      <cell></cell>
+    </row>
+  </tabular>
+
+  <activity>
+    <title>Activity 3.5.2</title>
+    <introduction>
+      <p>Solve each of the following equations <term>exactly</term> and then find an estimate that is accurate to 5 decimal places.</p>
+    </introduction>
+    <task workspace="4cm">
+      <statement>
+        <p><m>3^t = 5</m></p>
+      </statement>
+    </task>
+    <task workspace="4cm">
+      <statement>
+        <p><m>4\cdot 2^t-2=3</m></p>
+      </statement>
+    </task>
+    <task workspace="4cm">
+      <statement>
+        <p><m>3.7\cdot(0.9)^{0.3t}+1.5 = 2.1</m></p>
+      </statement>
+    </task>
+    <task workspace="4cm">
+      <statement>
+        <p><m>72 - 30(0.7)^{0.05t}=60</m></p>
+      </statement>
+    </task>
+    <task workspace="4cm">
+      <statement>
+        <p><m>\ln(t)=-2</m></p>
+      </statement>
+    </task>
+    <task workspace="4cm">
+      <statement>
+        <p><m>3+2\log_{10}(t)=3.5</m></p>
+      </statement>
+    </task>
+  </activity>
+
+  <image source="images/3.5g.png" width="50%"/>
+
+  <assemblage>
+    <title>The graph of <m>y=\ln(x)</m></title>
+    <p>Graph <m>e^x</m> is shown above the line <m>y=x</m>, and <m>\ln(x)</m> is shown below the line <m>y=x</m>. Left is zoomed in, right is zoomed out.</p>
+    <p>The graph of <m>y=\ln(x)</m>:</p>
+    <p>
+      <ul>
+        <li><p>vertical asymptote at <m>x=0</m></p></li>
+        <li><p>passes through <m>(1,0)</m></p></li>
+        <li><p>is always increasing</p></li>
+        <li><p>is always concave down</p></li>
+        <li><p>increases without bound</p></li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 3.5.3</title>
+    <introduction>
+      <p>In the questions that follow, we compare and contrast the properties and behaviors of exponential and logarithmic functions.</p>
+    </introduction>
+    <task workspace="1cm">
+      <statement>
+        <p>Go to Desmos and plot <m>f(x)=-e^{-(x-1)}+1</m>
+ and <m>g(x) = \ln(x)</m>.
+ Compare the properties of the two, noting what they have in common and what they don't.</p>
+        <tabular>
+          <row>
+            <cell></cell>
+            <cell><m>-e^{-(x-1)}+1</m></cell>
+            <cell><m>\ln(x)</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>Domain:</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>Range:</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>x</m>-intercept</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>y</m>-intercept</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>increasing or decreasing:</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>concave up or down:</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>grow to <m>\infty</m> or bounded:</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+    </task>
+    <task workspace="1cm">
+      <statement>
+        <p>Let <m>h(t)=-ae^{-k(t-b)}+c</m>,
+ where <m>a</m>,
+ <m>b</m>,
+ <m>c</m>,
+ and <m>k</m>
+ are positive constants. Describe <m>h</m>
+ as a transformation of the function <m>y=e^{t}</m>.  (How does <m>c</m> transform <m>e^{t}</m>, ..., think shifts and stretches vertically or horizontally. Can use Desmos to help you)</p>
+        <p>
+          <ul>
+            <li><p><m>a</m>:</p></li>
+            <li><p><m>b</m>:</p></li>
+            <li><p><m>c</m>:</p></li>
+            <li><p><m>k</m>:</p></li>
+          </ul>
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Let <m>r(t) = a\ln(t-b)+c</m>,
+ where <m>a</m>,
+ <m>b</m>,
+ and <m>c</m>
+ are positive constants. Describe <m>r</m>
+ as a transformation of the function <m>y=\ln(t)</m>.  (Can use Desmos to help you.)</p>
+        <p>
+          <ul>
+            <li><p><m>a</m>:</p></li>
+            <li><p><m>b</m>:</p></li>
+            <li><p><m>c</m>:</p></li>
+          </ul>
+        </p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Data for the height of a tree is given in the table below; time 
+ is measured in years and height of the tree is given in feet. At <url href="https://gvsu.edu/s/0yy">gvsu.edu/s/0yy</url>, you can find a Desmos worksheet with this data already input.</p>
+        <tabular>
+          <row>
+            <cell>t</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+            <cell>5</cell>
+            <cell>6</cell>
+            <cell>7</cell>
+            <cell>8</cell>
+            <cell>9</cell>
+            <cell>10</cell>
+            <cell>11</cell>
+          </row>
+          <row>
+            <cell>h(t)</cell>
+            <cell>6</cell>
+            <cell>9.5</cell>
+            <cell>13</cell>
+            <cell>15</cell>
+            <cell>16.5</cell>
+            <cell>17.5</cell>
+            <cell>18.5</cell>
+            <cell>19</cell>
+            <cell>19.5</cell>
+            <cell>19.7</cell>
+            <cell>19.8</cell>
+          </row>
+        </tabular>
+        <p>Do you think this data is better modeled by a logarithmic function of form  <m>p(t)=a\ln(t-b)+c</m>
+ or by an exponential function of form <m>q(t)=me^{-rt}+n</m>.
+ Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 3.5.4</title>
+    <introduction>
+      <p>Solve each of the following equations for the exact value of the unknown variable (<m>k</m>).</p>
+    </introduction>
+    <task workspace="6cm">
+      <statement>
+        <p><m>41 = 50e^{-7k}</m></p>
+      </statement>
+    </task>
+    <task workspace="6cm">
+      <statement>
+        <p><m>65=34+47e^{-45k}</m></p>
+      </statement>
+    </task>
+    <task workspace="6cm">
+      <statement>
+        <p><m>7e^{2k-1}+4=32</m></p>
+      </statement>
+    </task>
+    <task workspace="6cm">
+      <statement>
+        <p><m>\frac{5}{1+2e^{-10k}}=4</m></p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Example: Logs in the <q>wild.</q></title>
+    <introduction>
+      <p>When a population grows (decays) at a rate proportional to the current population, the population follows the model of exponential growth (decay): <md>P(t)=Ae^{kt}</md> where <m>P(t)</m> is the population at time <m>t</m>, <m>A</m> and <m>k</m> are constants.  If <m>k&gt;0</m> we are talking about growth (<m>P</m> is increasing), if <m>k&lt;0</m> we are talking about decay (<m>P</m> is decreasing).  Many populations grow/decay exponentially; one of the most common is bacteria.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Consider a population of bacteria <m>P(t)</m> where <m>P</m> is measure in millions of cells and <m>t</m> is in hours.  We know <m>P(0)=2.475</m>, and <m>P(10)=4.298</m>.  Find a model of the form <m>P(t)=Ae^{kt}</m> that fits this data by first plugging in <m>P(0)</m> to determine <m>A</m>, and then plugging in <m>P(10)</m> to determine <m>k</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>How many bacteria are there after 20 hours (<m>t=20</m>)?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

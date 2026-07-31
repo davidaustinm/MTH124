@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 2.2: The Unit Circle</title>
+
+  <sidebyside widths="45% 45%">
+    <image source="images/Unit"/>
+    <p>The <term>unit circle</term> is a circle of radius <m>1</m> that is centered at the origin, <m>(0,0)</m>. A point on the circle has some coordinates <m>(x,y)</m>, and we can form a triangle with the <m>x</m>-axis where the horizontal leg has length <m>|x|</m>, the vertical leg has length <m>|y|</m>, and the hypotenuse (the radius of the circle) is length 1.  Pythagorean Theorem then tells us that <md>x^2 + y^2 = 1!</md> This means we can determine some coordinates <q>nicely.</q></p>
+  </sidebyside>
+
+  <activity>
+    <title>Activity 2.2.1</title>
+    <statement>
+      <p>
+        <ul>
+          <li><p>We start at the right side of the circle <m>(1,0)</m> and travel around it counter-clockwise.  Label that point <m>t=0</m>.</p></li>
+          <li><p>The circumference of the circle is <m>2\pi</m>, so halfway around the circle is <m>\pi</m>.  Label that point <m>t=\pi</m>.</p></li>
+          <li><p>Similarly, we can divide the circumference (<m>2\pi</m>) nicely into 24 pieces, each with a length of <m>\frac{\pi}{12}</m> around the edge of the circle.  Fill them in (simplify the fractions as much as possible, so <m>\frac{2\pi}{12} = \frac{\pi}{6}</m>, <m>\frac{3\pi}{12} = \frac{\pi}{4}</m>, \ldots.)</p></li>
+        </ul>
+      </p>
+      <image source="images/unit_fill.png" width="50%"/>
+    </statement>
+  </activity>
+
+  <definition workspace="0.15in">
+    <title>Definition 2.2.5.</title>
+    <statement>
+      <p>An angle whose vertex is at the center of a circle measures <term>1 radian</term> provided the arc the angle intercepts on the circle equals the radius of the circle.</p>
+    </statement>
+  </definition>
+
+  <p workspace="0.15in">Which just means: the distance along the edge of the circle is the <fillin/> as the angle between the <m>x-</m>axis and the point on the circle!  (This is why we use radians...)</p>
+
+  <assemblage>
+    <title>Converting between radians and degrees</title>
+    <p><m>1</m> radian <m>=</m> <m>\frac{180}{\pi}^{\circ}</m>.</p>
+    <p><m>1^{\circ}</m> <m>=</m> <m>\frac{\pi}{180}</m> radians.</p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 2.2.2. Converting between radians and degrees</title>
+    <introduction>
+      <p>Convert each of the following quantities to the alternative measure: degrees to radians or radians to degrees.</p>
+    </introduction>
+    <task workspace=".3in">
+      <statement>
+        <p><m>30^{\circ}</m></p>
+      </statement>
+    </task>
+    <task workspace=".3in">
+      <statement>
+        <p><m>\frac{2\pi}{3}</m> radians</p>
+      </statement>
+    </task>
+    <task workspace=".3in">
+      <statement>
+        <p><m>\frac{5\pi}{4}</m> radians</p>
+      </statement>
+    </task>
+    <task workspace=".3in">
+      <statement>
+        <p><m>240^{\circ}</m></p>
+      </statement>
+    </task>
+    <task workspace=".3in">
+      <statement>
+        <p><m>17^{\circ}</m></p>
+      </statement>
+    </task>
+    <task workspace=".3in">
+      <statement>
+        <p><m>2</m> radians</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 2.2.3 Special points on the unit circle</title>
+    <introduction>
+      <p>In what follows, we work to understand key relationships in <m>45^{\circ} - 45^{\circ} - 90^{\circ}</m>
+ and <m>30^{\circ} - 60^{\circ} - 90^{\circ}</m> right
+ triangles. (This will help us find exact coordinates on the unit circle.)</p>
+      <image source="images/2.2.3" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>For the 
+<m>45^{\circ} - 45^{\circ} - 90^{\circ}</m>
+ triangle with legs of length <m>x</m> and <m>y</m> 
+ and hypotenuse of length 1,
+ because the triangle is an isosceles triangle, what is the relationship between <m>x</m> and <m>y</m>?  Use this fact to simplify the Pythagorean Theorem <m>x^2+y^2 = 1</m>  - what are the exact values of <m>x</m> and <m>y</m>?  (Exact means leave <m>\pi</m>'s or square roots or fractions in your answer so you do not round!)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Now consider the 
+<m>30^{\circ} - 60^{\circ} - 90^{\circ}</m>
+ triangle with hypotenuse of length 1
+ and the longer leg (of length <m>x</m>
+) lying along the positive <m>x</m>
+-axis. Reflect this triangle across the 
+-axis, what special triangle is formed (look at the angles)? Can we use this to find the exact length of <m>y</m>?  Once we have <m>y</m>, go back and find the exact value of <m>x</m> using <m>x^2 + y^2 = 1</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Note we can take the same <m>30^{\circ} - 60^{\circ} - 90^{\circ}</m> and flip it so <m>y</m> corresponds to the smaller, horizontal leg.  What are the <m>x</m> and <m>y</m> values in this case?  (Hint, by looking at (b) you can save yourself a lot of work!)</p>
+        <image source="images/2.2.3c" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>We know from the conversion factor from degrees to radians that an angle of <m>30^{\circ}</m>
+ corresponds to an angle measuring <m>\frac{\pi}{6}</m>
+ radians,  <m>45^{\circ}</m>
+ corresponds to <m>\frac{\pi}{4}</m>
+ radians, and <m>60^{\circ}</m>
+ corresponds to <m>\frac{\pi}{3}</m> 
+ radians.  Use parts (a) - (c) to label the coordinate points <m>(x,y)</m> with the exact values of <m>x</m> and <m>y</m> on the three triangles below.</p>
+        <image source="images/2.2.3e.png" width="50%"/>
+      </statement>
+    </task>
+  </activity>
+
+  <sidebyside widths="45% 45%">
+    <stack>
+      <p>The coordinates are called <term>terminal points.</term></p>
+      <p>The far right of the circle we know is terminal point <m>(1,0)</m> because the radius is 1 and we are on the <m>x</m>-axis.  Since we start on the far right of the circle, that corresponds to angle <m>t=0</m>.  Similarly the point at the top of the circle is the terminal point <m>(0,1)</m>, corresponding to <m>t=\frac{\pi}{2}</m>.  Fill in those points to the right.   Then use the previous activity (and symmetry of the coordinates) to fill in the other points on the unit circle to the right. We have 16 specials points total whose location we can determine exactly!</p>
+    </stack>
+    <image source="images/unit2"/>
+  </sidebyside>
+
+  <assemblage>
+    <title>Connecting arc length and angles in non-unit circles</title>
+    <p>In a circle of radius <m>r</m>, a central angle measuring <m>\theta</m>
+ radians intercepts an arc of the circle, and the arc has length <m>s</m> where <md>s=r\theta.</md></p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 2.2.4 Non-unit circles</title>
+    <introduction>
+      <p>In a circle of radius <m>r</m>, each point of the unit circle is a distance <m>r</m> further away from the origin.  So <m>(1,0)</m> on the unit circle would correspond to <m>(r,0)</m>, and so on.  That is, each terminal point on the unit circle corresponds to the same point, except each coordinate is multiplied by the new radius <m>r</m>.  Find the following values or points on the non-unit circles below exactly.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>In a circle of radius <m>11</m>,
+ the arc length intercepted by a central angle of 
+ <m>\frac{5\pi}{3}</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>In a circle of radius <m>3</m>,
+ the central angle measure that intercepts an arc of length <m>\frac{\pi}{4}</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The radius of the circle in which an angle of 
+ <m>\frac{7\pi}{6}</m>
+ intercepts an arc of length <m>\frac{\pi}{2}</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The exact coordinates of the point on the circle of radius <m>5</m>
+ that lies <m>\frac{25\pi}{6}</m> 
+ units counterclockwise along the circle from <m>(5,0)</m>.</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

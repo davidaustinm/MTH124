@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 3.4: Logarithms</title>
+
+  <definition workspace="0.15in">
+    <title>Definition 3.4.3</title>
+    <statement>
+      <p>Given a positive real number <m>y</m>,
+ the <term>base-10 logarithm of <m>y</m></term>
+ is the power to which we raise 10
+ to get <m>y</m>.
+ We use the notation ``<m>\log_{10}(y)</m>” to denote the base-10
+ logarithm of <m>y</m>.</p>
+    </statement>
+  </definition>
+
+  <p>Fill in the following:</p>
+  <p workspace="0.15in"><md>\begin{array}{ccc c ccc}
+10^1 \amp  = \amp   10\amp  \Longleftrightarrow \amp \log_{10}(10) \amp  = \amp  1\\
+10^2 \amp =\amp  {\underline{~~~}}\amp  \Longleftrightarrow \amp  \log_{10}(10^2) \amp  = \amp  {\underline{~~~}}\\
+10^3 \amp =\amp  {\underline{~~~}}\amp  \Longleftrightarrow \amp  \log_{10}(10^3) \amp  = \amp  {\underline{~~~}}\\
+10^6 \amp =\amp  {\underline{~~~}}\amp  \Longleftrightarrow \amp  \log_{10}(10^6) \amp  = \amp  {\underline{~~~}}\\
+10^{-3} \amp =\amp  {\underline{~~~}}\amp  \Longleftrightarrow \amp  \log_{10}(\frac{1}{1000}) \amp  = \amp  {\underline{~~~}}\\
+10^{1.3} \amp =\amp  {\underline{~~~}}\amp  \Longleftrightarrow \amp  \log_{10}(10^{1.3}) \amp  = \amp  {\underline{~~~}}\\
+10^{0} \amp =\amp  {\underline{~~~}}\amp  \Longleftrightarrow \amp  \log_{10}(1) \amp  = \amp  {\underline{~~~}}\\
+\end{array}</md></p>
+
+  <assemblage>
+    <tabular>
+      <row>
+        <cell><em><m>y = P(t) = 10^t</m></em></cell>
+        <cell><em><m>L(y) = \log_{10}(y)</m></em></cell>
+      </row>
+      <row>
+        <cell>- Domain:</cell>
+        <cell>- Domain:</cell>
+      </row>
+      <row>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>- Range:</cell>
+        <cell>- Range:</cell>
+      </row>
+      <row>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>-</cell>
+        <cell>-</cell>
+      </row>
+      <row>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>-</cell>
+        <cell>-</cell>
+      </row>
+      <row>
+        <cell></cell>
+        <cell></cell>
+      </row>
+    </tabular>
+  </assemblage>
+
+  <p>** Note 1. ** Most calculators assume base-10, so <c>log(y)</c> in a calculator is the equivalent of <m>\log_{10}(y)</m>.</p>
+  <p>** Note 2. ** Some values of <m>\log_{10}(y)</m> are easier to find than others.  The value <m>\log_{10}(5)</m> is an exact number (like <m>\pi</m> or <m>\cos(1)</m>), where <m>\log_{10}(5)\approx 0.699</m>.</p>
+  <p workspace="1.8in">Examples:</p>
+
+  <activity>
+    <title>Activity 3.4.2</title>
+    <introduction>
+      <p>Find the <term>exact</term> value and approximate value of the unknown variable (<m>t</m> or <m>y</m>). For instance, if the exact value is <m>y=\log_{10}(2)</m>,
+ you can also note that <m>y\approx 0.301</m>.</p>
+    </introduction>
+    <task workspace="1cm">
+      <statement>
+        <p><m>10^t = 0.00001</m></p>
+      </statement>
+    </task>
+    <task workspace="1.8cm">
+      <statement>
+        <p><m>\log_{10}(1000000) = t</m></p>
+      </statement>
+    </task>
+    <task workspace="1.8cm">
+      <statement>
+        <p><m>10^t = 37</m></p>
+      </statement>
+    </task>
+    <task workspace="1.8cm">
+      <statement>
+        <p><m>2\log_{10}(y)+5 = 1</m></p>
+      </statement>
+    </task>
+    <task workspace="1cm">
+      <statement>
+        <p><m>\log_{10}(y) = 1.375</m></p>
+      </statement>
+    </task>
+    <task workspace="1.8cm">
+      <statement>
+        <p><m>10^t = 0.04</m></p>
+      </statement>
+    </task>
+    <task workspace="3.6cm">
+      <statement>
+        <p><m>3 \cdot 10^t + 11 = 147</m></p>
+        <p><em>Class Notes</em>
+ ** Now consider <m>y = e^t.</m></p>
+      </statement>
+    </task>
+  </activity>
+
+  <definition workspace="0.15in">
+    <title>Definition 3.4.4</title>
+    <statement>
+      <p>Given a positive real number <m>y</m>,
+ the <term>natural logarithm of <m>y</m></term>
+ is the power to which we raise <m>e</m>
+ to get <m>y</m>.
+ We denote ``<m>\ln(y)</m>” as the natural logarithm of <m>y</m>.</p>
+    </statement>
+  </definition>
+
+  <p workspace="0.15in">** <m>\ln(y)</m> is shorthand for <m>\log_{e}(y).</m>  Examples:  <m>\ln(e^1) = 1</m>,    <m>\ln(e^{-1}) = -1</m>,   <m>\ln(e^7) = 7</m>.</p>
+
+  <activity>
+    <title>Activity 3.4.3</title>
+    <introduction>
+      <p>Let <m>E(t) = e^t</m>
+ and <m>N(x)=\ln(x)</m>
+ be the natural exponential function and the natural logarithm function, respectively.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>What are the domain and range of <m>E(t) = e^t</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What are the domain and range of <m>N(x) = \ln(x)</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What can you say about <m>\ln(e^t)</m>?  Think about inverse functions. (Note, this is the composition <m>N(E(t))</m>.)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What can you say about <m>e^{\ln(x)}</m>?  (Note, this is the composition <m>E(N(x))</m>.)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Complete the tables below with both exact and approximate values. Then sketch both <m>y=e^t</m> and <m>y=\ln(t)</m> on the graph below.</p>
+        <p>*Values of <m>E(t) = e^t:</m></p>
+        <tabular>
+          <row>
+            <cell>t</cell>
+            <cell>-2</cell>
+            <cell>-1</cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+          </row>
+          <row>
+            <cell>e^t</cell>
+            <cell>e^-2\approx0.135</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+        <p>*Values of <m>N(x) = \ln(x):</m></p>
+        <tabular>
+          <row>
+            <cell>x</cell>
+            <cell>e^-2\approx0.135</cell>
+            <cell>e^-1\approx 0.368</cell>
+            <cell>1</cell>
+            <cell>e^1\approx 2.718</cell>
+            <cell>e^2\approx 7.389</cell>
+          </row>
+          <row>
+            <cell>\ln(x)</cell>
+            <cell>-2 \</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+        <image source="images/3.4.3g" width="50%"/>
+        <p>(Both plots have the first row of the table as input, the second row as output.)</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 3.4.4</title>
+    <introduction>
+      <p>Solve each of the following equations for the exact value of the unknown variable (<m>t</m>). If there is no solution to the equation, explain why not.</p>
+    </introduction>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>e^t = \frac{1}{10}</m></p>
+      </statement>
+    </task>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>5e^t = 7</m></p>
+      </statement>
+    </task>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>\ln(t)=\frac{-1}{3}</m></p>
+      </statement>
+    </task>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>2\ln(t)+1 = 4</m></p>
+      </statement>
+    </task>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>e^{1-3t}=4</m></p>
+      </statement>
+    </task>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>4-3e^{2t} = 2</m></p>
+      </statement>
+    </task>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>4+3e^{2t}=2</m></p>
+      </statement>
+    </task>
+    <task workspace="2.5cm">
+      <statement>
+        <p><m>\ln(5-6t) = -2</m></p>
+        <p>Example: Certain radioactive material decays in such a way that the mass remaining after 
+ years is given by the function <m>m(t)</m> measured in grams, given below for some unknown values of <m>A, k</m>: <md>m(t) = Ae^{kt}</md></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>If the mass at time <m>t=0</m> is 200 grams, find <m>A</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>After 15 years, 100 grams were left.  Now that we know <m>A</m> from part (a), can we use this to find <m>k</m>?  Keep your answer exact, that is, don't round!  (Leave <m>\ln(b)</m> as <m>\ln(b)</m>.)</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 1.8: Transformations of Functions</title>
+
+  <assemblage>
+    <title>Vertical Translation of a Function</title>
+    <p>The transformation <m>y=g(x)=f(x)+a</m>
+ is a <em>vertical translation</em> of the graph of <m>f</m>.
+ That is, every point <m>(x,f(x))</m>
+ on the graph of <m>f</m>
+ gets shifted vertically to the corresponding point <m>(x,f(x)+a)</m>
+ on the graph of <m>g</m>.</p>
+  </assemblage>
+
+  <p workspace="0.15in">That is, <m>f(x)+a</m> shifts <m>f(x)</m> <fillin/> by <fillin/>.</p>
+
+  <assemblage>
+    <title>Horizontal Translation of a Function</title>
+    <p>The transformation <m>y=h(x)=f(x-b)</m>
+ is a <em>horizontal translation</em> of the graph of <m>f</m>.
+ That is, every point <m>(x,f(x))</m>
+ on the graph of <m>f</m>
+ gets shifted horizontally to the corresponding point <m>(x+b,f(x))</m>
+ on the graph of <m>h</m>.</p>
+  </assemblage>
+
+  <p workspace="0.15in">That is, <m>f(x-b)</m> shifts <m>f(x)</m> <fillin/> by <fillin/>.
+**It's <term>opposite</term> the direction you probably think it moves! Ex: <m>f(x-2)</m> moves <term>right</term> by 2!**</p>
+  <p workspace="0.1in">The graph on the left shows the vertical translation of the function <m>y=f(x)=|x|</m>, it is shifted vertically downward by 3, so it becomes the graph <m>g(x) = f(x) - 3</m>.</p>
+  <image source="images/1.8" width="50%"/>
+  <p>The graph on the right shows the horizontal translation of a function <m>f(x)</m> (given by a piecewise linear equation). Since <m>f</m> is shifted horizontally to the right by <m>2</m>, so it becomes the graph <m>h(x) = f(x-2)</m>.</p>
+
+  <activity>
+    <title>Activity 1.8.2. Vertical and Horizontal Translations</title>
+    <introduction>
+      <p>Consider the functions <m>r</m> (on left)
+ and <m>s</m> (on right)
+ given in the figure below.</p>
+      <image source="images/1.8.2" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>On the same axes as the plot of <m>y=r(x)</m>,
+ sketch the following graphs: <m>y=g(x)=r(x)+2</m>,
+ <m>y=h(x)=r(x+1)</m>,
+ and <m>y=f(x)=r(x+1)+2</m>.
+ Be sure to label the point on each of <m>g</m>,
+ <m>h</m>,
+ and <m>f</m>
+ that corresponds to <m>(-2,-1)</m>
+ on the original graph of <m>r</m>.
+ In addition, write briefly to explain the overall transformations that have resulted in <m>g</m>,
+ <m>h</m>,
+ and <m>f</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>On the same axes as the plot of <m>y=s(x)</m>,
+ sketch the following graphs: <m>y=k(x)=s(x)-1</m>,
+ <m>y=j(x) = s(x-2)</m>,
+ and <m>y=m(x)=s(x-2)-1</m>.
+ Be sure to label the point on each of <m>k</m>,
+ <m>j</m>,
+ and <m>m</m> 
+ that corresponds to <m>(-2,-3)</m>
+ on the original graph of <m>s</m>.
+ In addition, write briefly to explain the overall transformations that have resulted in <m>k</m>,
+ <m>j</m>,
+ and <m>m</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Now consider the function <m>q(x)=x^2</m> (not plotted).
+ Determine a formula for the function that is given by <m>p(x) = q(x+3)-4</m>.
+ How is <m>p</m>
+ a transformation of <m>q</m>?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <assemblage>
+    <title>Vertical Scaling of a Function</title>
+    <p>The transformation <m>y=v(x)=cf(x)</m>
+ is a <em>vertical stretch</em> of the graph of <m>f</m>.
+ Every point <m>(x,f(x))</m>
+ on the graph of <m>f</m>
+ gets stretched vertically to the corresponding point <m>(x,cf(x))</m> 
+ on the graph of <m>v</m>.
+ If <m>0&lt;c&lt;1</m>,
+ the graph of <m>v</m>
+ is a compression of <m>f</m>
+ toward the <m>x</m>-axis.  If <m>c&gt;1</m>,
+ the graph of <m>v</m>
+ is a stretch of <m>f</m>
+ away from the 
+<m>x</m>-axis. 
+If <m>c&lt;0</m>,
+ the transformed function <m>y=v(x)=cf(x)</m>
+ is a reflection of the graph of <m>f</m>
+ across the <m>x</m>-axis followed by a vertical stretch by a factor of <m>|c|</m>.</p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 1.8.3. Vertical Stretch</title>
+    <introduction>
+      <p>Consider the functions <m>r</m> (on left)
+ and <m>s</m> (on right)
+ given in the figure below.</p>
+      <image source="images/1.8.2" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>On the same axes as the plot of <m>y=r(x)</m>,
+ sketch the following graphs: <m>y=g(x)=3r(x)</m>, and
+ <m>y=h(x)=\frac13r(x)</m>.
+ Be sure to label the point on <m>g</m> and
+ <m>h</m>
+ that corresponds to <m>(-2,-1)</m>
+ on the original graph of <m>r</m>.
+ In addition, write briefly to explain the overall transformations that have resulted in <m>g</m> and
+ <m>h</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>On the same axes as the plot of <m>y=s(x)</m>,
+ sketch the following graphs: <m>y=k(x)=-s(x)</m>, and
+ <m>y=j(x) = -\frac12s(x)</m>.
+ Be sure to label the point on each of <m>k</m> and
+ <m>j</m> 
+ that corresponds to <m>(-2,-3)</m>
+ on the original graph of <m>s</m>.
+ In addition, write briefly to explain the overall transformations that have resulted in <m>k</m> and
+ <m>j</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>On the additional copies of the two figures below, sketch the graphs of the following transformations: 
+ <m>y=m(x)=2r(x+1)-1</m> on the left, and <m>y=n(x) = \frac12s(x-2)+2</m> on the right.  As above, be sure to label a key point on each graph that corresponds to the labeled point on the original parent function.</p>
+        <image source="images/1.8.2" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Describe in words how the function <m>y=m(x)=2r(x+1)-1</m>
+ is the result of three elementary transformations of <m>y=r(x)</m>.
+ Does the order in which these transformations occur matter? Why or why not?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 1.8.4. Combining shifts and stretches</title>
+    <introduction>
+      <p>Consider the functions <m>f</m> (on the left)
+ and <m>g</m> (on the right)
+ given below.</p>
+      <image source="images/1.8.4" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Sketch an accurate graph of the transformation 
+ <m>y=p(x)=-\frac12f(x-1)+2</m>.
+ Write at least one sentence to explain how you developed the graph of <m>p</m>,
+ and identify the point on <m>p</m>
+ that corresponds to the original point <m>(-2,2)</m>
+ on the graph of <m>f</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Sketch an accurate graph of the transformation <m>y=q(x)=2g(x+0.5)-0.75</m>.
+ Write at least one sentence to explain how you developed the graph of <m>q</m>,
+ and identify the point on <m>q</m>
+ that corresponds to the original point <m>(1.5,1.5)</m>
+ on the graph of <m>g</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Is the function 
+ <m>y=r(x)=\frac12(-f(x-1)-4)</m>
+ the same function as <m>p</m>
+ or different? Why? Explain in two different ways: discuss the algebraic similarities and differences between <m>p</m>
+ and <m>r</m>,
+ and also discuss how each is a transformation of <m>f</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Find a formula for a function <m>y=s(x)</m>
+ (in terms of <m>g</m>) that represents this transformation of <m>g</m>:
+ a horizontal shift of <m>1.25</m>
+ units left, followed by a reflection across the <m>x</m>-axis and a vertical stretch by a factor of <m>2.5</m>
+ units, followed by a vertical shift of <m>1.75</m>
+ units. Sketch an accurate, labeled graph of <m>s</m>
+ on the following axes along with the given parent function <m>g</m>.</p>
+        <image source="images/1.8.4d" width="50%"/>
+      </statement>
+    </task>
+  </activity>
+
+  <p>Combining Functions (Section 1.9)</p>
+  <p>Note we can also combine two functions by adding, subtracting, multiplying, or even dividing functions, and this will create a new function.  For instance if <m>f(x) = 3x + 1</m> and <m>g(x) = 2x - 4</m>, then we can take a new function <m>h(x)</m> to be the sum of <m>f</m> and <m>g</m>, so 
+<md>h(x) = f(x) + g(x) = (3x + 1) + (2x - 4) = 5x - 3.</md>
+We can also subtract, multiply, and divide.  For example we may choose to make a new function <m>k(x) = \frac{f(x)}{g(x)}</m>, which we could simplify in this case to 
+<md>k(x) = \frac{f(x)}{g(x)} = \frac{3x+1}{2x-4}.</md></p>
+
+  <activity>
+    <title>Activity 1.9.1</title>
+    <introduction>
+      <p>Consider the functions <m>f</m> 
+ and <m>g</m>
+ defined by the table below and the piecewise linear functions <m>p</m>
+ and <m>q</m>
+ defined by the graph below. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, <m>(2,2)</m>
+ lies on the graph of <m>q</m>,
+ and <m>(3,-3)</m>
+ lies on the graph of <m>p</m>.</p>
+      <image source="images/1.9.1f" width="50%"/>
+      <image source="images/1.9.1" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Let <m>h(x) = f(x)+g(x)</m>.
+ Determine <m>h(3)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Let <m>r(x) = p(x) -q(x)</m>.
+ Determine <m>r(-1)</m> 
+ exactly.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Are there any values of <m>x</m>
+ for which <m>r(x) = 0</m>?
+ If not, explain why; if so, determine all such values, with justification.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Let <m>k(x) = f(x) \cdot g(x)</m>.
+ Determine <m>k(0)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Let 
+<m>s(x) = \frac{p(x)}{q(x)}</m>.
+ Determine <m>s(1)</m>
+ exactly.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Are there any values of <m>x</m>
+ in the interval <m>-4\le x \le 4</m>
+ for which <m>s(x)</m>
+ is not defined? If not, explain why; if so, determine all such values, with justification.</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 5.1: Infinity, Limits, Power Functions</title>
+
+  <p workspace="3in"><term>Infinity &amp; Limits</term></p>
+
+  <definition workspace="0.3in">
+    <title>Definition 5.1.3.</title>
+    <statement>
+      <p><term>Limit Notation.</term></p>
+      <p><md>\lim_{t\rightarrow\infty} f(t) = L</md> 
+ <q>the <term>limit of <m>f</m>
+ as <m>t</m>
+ goes to infinity is <m>L</m></term>.</q></p>
+      <p>** If <m>f</m>
+ doesn’t increase without bound, doesn’t decrease without bound, and doesn’t approach a single value <m>L</m>
+ as <m>t\rightarrow\infty</m>,
+ we say that <term><m>f</m>
+ does not have a limit as <m>t\rightarrow\infty</m></term>.</p>
+    </statement>
+  </definition>
+
+  <activity>
+    <title>Activity 5.1.1</title>
+    <introduction>
+      <p>Complete each of the following statements with an appropriate number or the symbols <m>\infty</m>
+ or <m>-\infty</m>.
+ Do your best to do so without using a graphing utility; instead use your understanding of the function’s graph.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>As <m>t\rightarrow\infty</m>, <m>e^{-t} \rightarrow </m> <fillin/>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>As <m>t\rightarrow\infty</m>, <m>\ln(t) \rightarrow </m> <fillin/>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>As <m>t\rightarrow\infty</m>, <m>e^{t} \rightarrow </m> <fillin/>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>As <m>t\rightarrow\infty</m>, <m>35+53e^{-0.025t} \rightarrow </m> <fillin/>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>As <m>t\rightarrow -\infty</m>, <m>e^{-t} \rightarrow </m> <fillin/>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>As <m>t\rightarrow -\infty</m>, <m>\ln(t) \rightarrow </m> <fillin/>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>As <m>t\rightarrow -\infty</m>, <m>e^t \rightarrow </m> <fillin/>.</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 5.1.2</title>
+    <statement>
+      <p>Complete the table by entering <m>\infty</m>, <m>-\infty</m>, <m>0</m>, or <q>no limit</q> as appropriate to identify the function behavior as <m>x \rightarrow \infty</m> (increases without bound) or as <m>x\rightarrow - \infty</m> (decreases without bound).  As much as possible, try to do it without a graphing utility.</p>
+      <p workspace="0.15in"><m>\begin{array}{c | p{2in} | p{2in}}
+f(x) \amp  \lim\limits_{x\rightarrow\infty} f(x) \amp  \lim\limits_{x\rightarrow -\infty} f(x) \\ \hline\hline
+e^x \amp \amp \\[4pt] \hline
+e^{-x} \amp \amp \\[4pt] \hline
+\ln(x) \amp \amp \\[4pt] \hline
+x \amp \amp \\[4pt] \hline
+x^2 \amp \amp \\[4pt] \hline
+x^3 \amp \amp \\[4pt] \hline
+x^4 \amp \amp \\[4pt] \hline
+\frac1x \amp \amp \\[4pt] \hline
+\frac1{x^2} \amp \amp \\[4pt] \hline
+\sin(x) \amp \amp \\[4pt] \hline
+\end{array}</m></p>
+      <p><term>Power Functions</term></p>
+    </statement>
+  </activity>
+
+  <definition workspace="0.15in">
+    <title>Definition 5.1.5</title>
+    <statement>
+      <p>A function of the form <m>f(x)=x^p</m> where <m>p</m> is any real number is a <term>power function</term>.</p>
+    </statement>
+  </definition>
+
+  <activity workspace="1in">
+    <title>Activity 5.1.3. Power functions with positive integer powers</title>
+    <introduction>
+      <p>Point your browser to the Desmos worksheet at <url href="https://gvsu.edu/s/0zu">gvsu.edu/s/0zu</url>. In what follows, we explore the behavior of power functions of the form <m>y=x^n</m>
+ where <m>n\ge 1</m>.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Click the icons next to each of the following 8 functions so that you can see all of <m>y=x</m>,
+ <m>y=x^2</m>,
+ <m>y=x^3</m>, \ldots, <m>y=x^8</m>
+ graphed at once. On the interval <m>0&lt;x&lt;1</m>,
+ how do the graphs of <m>x^a</m>
+ and <m>x^b</m>
+ compare if <m>a&lt;b</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to <m>-10\le x \le 10</m>
+ and <m>-10,000 \le y \le 10,000</m>.
+ Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Click the icons next to each of the following 8 functions so that you can see all of <m>y=x</m>,
+ <m>y=x^2</m>,
+ <m>y=x^3</m>, \ldots, <m>y=x^8</m>
+ graphed at once. On the interval <m>x&gt;1</m>,
+ how do the graphs of <m>x^a</m>
+ and <m>x^b</m>
+ compare if <m>a&lt;b</m>?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <p><term>Negative powers</term>
+<md>x^{-n} = \frac1{x^n}</md></p>
+
+  <activity workspace="1in">
+    <title>Activity 5.1.4. Power functions with negative powers</title>
+    <introduction>
+      <p>Point your browser to the Desmos worksheet at <url href="https://gvsu.edu/s/0zv">gvsu.edu/s/0zv</url>. In what follows, we explore the behavior of power functions of the form <m>y=x^n</m>
+ where <m>n\le -1</m>.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Click the icons next to each of the following 8 functions so that you can see all of <m>y=x^{-1}</m>,
+ <m>y=x^{-2}</m>,
+ <m>y=x^{-3}</m>, \ldots, <m>y=x^{-8}</m>
+ graphed at once. On the interval <m>1&lt;x</m>,
+ how do the graphs of <m>x^a</m>
+ and <m>x^b</m>
+ compare if <m>a&lt;b</m>?  (Be careful with negative numbers here: e.g., <m>-3&lt;-2</m>.)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>How do your answers change on the interval <m>0&lt;x&lt;1</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to <m>-10\le x \le 10</m>
+ and <m>-10,000 \le y \le 10,000</m>.
+ Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Explain why <m>\lim_{x\rightarrow\infty} \frac{1}{x^n} = 0</m> for any choice of <m>n=1,2,\ldots</m>.</p>
+        <p>Practice finding limits (can you try it first without graphing?)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow \infty} -6x^{-3}</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow \infty} \frac{1}{x}</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow -\infty} \frac{1}{x}</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow \infty} 17-6x^{-3}</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow -\infty} \frac{1}{x}+2</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow -\infty} \frac{1}{x^2} + x^2</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow -\infty} \frac{1}{x} + x</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow \infty} x^{2.4}</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow \infty} x^2</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>\lim\limits_{x\rightarrow \infty} e^x</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>You hopefully noticed both <m>x^2\rightarrow\infty</m> and <m>e^x\rightarrow\infty</m> as <m>x\rightarrow\infty</m>.  Graph <m>\frac{x^2}{e^x}</m>, and use the graph to find <m>\lim\limits_{x\rightarrow\infty} \frac{x^2}{e^x}</m>.  Any guesses why this is the limit?  (Hint: look at the graph of <m>x^2</m> and the graph of <m>e^x</m> separately.)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Graph <m>\frac{e^x}{x^2}</m>, what does it approach as <m>x\rightarrow\infty</m>?  Any guesses why?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Both <m>7x^2\rightarrow\infty</m> and <m>x^2+2x+15\rightarrow\infty</m> as <m>x\rightarrow \infty</m>.  Graph <m>\frac{7x^2}{x^2+2x+15}</m> and use it to determine <m>\lim\limits_{x\rightarrow\infty} \frac{7x^2}{x^2+2x+15}</m>.  Any guesses why this is the limit?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <p>** Infinities are weird!</p>
+
+</handout>

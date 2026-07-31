@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 2.1: Traversing Circles</title>
+
+  <assemblage>
+    <p>
+      <ul>
+        <li><p><term>Midline:</term> the <em>line</em> of form <q><m>y=m</m></q> that cuts the circle in half vertically</p></li>
+        <li><p><term>Amplitude:</term> the distance from the midline to the highest point</p></li>
+        <li><p><term>Periodic:</term> a function that repeats itself exactly over and over again, (<m>f(x+k) = f(x)</m> for some <m>k</m>)</p></li>
+        <li><p><term>Period:</term> the smallest number <m>p</m> such that the function repeats itself exactly (<m>f(x+p)=f(x)</m>)</p></li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 2.1.3</title>
+    <introduction>
+      <p>A weight is placed on a frictionless table next to a wall and attached to a spring that is fixed to the wall. From its natural position of rest, the weight is imparted an initial velocity that sets it in motion. The weight then oscillates back and forth, and we can measure its distance, <m>h=f(t)</m>
+ (in inches) from the wall at any given time, <m>t</m>
+ (in seconds). A graph of 
+ and a table of select values are given below.</p>
+      <image source="images/2.1.3" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Determine the period <m>p</m>,
+ midline <m>y=m</m>,
+ and amplitude <m>a</m>
+ of the function <m>f(t)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the greatest distance the weight is displaced from the wall? What is the least distance the weight is displaced from the wall? What is the range of <m>f</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Determine the average rate of change of <m>f</m>
+ on the intervals <m>[4,4.25]</m>
+ and <m>[4.75,5]</m>.
+ Write one careful sentence to explain the meaning of each (including units). In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Based on the periodicity of the function, what is the value of <m>f(6.75)</m>?
+ of <m>f(11.25)</m>?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 2.1.4</title>
+    <introduction>
+      <p>Consider the same setting as Activity 2.1.3: a weight oscillates back and forth on a frictionless table with distance from the wall given by, <m>h=f(t)</m>
+ (in inches) at any given time, <m>t</m>
+ (in seconds). A graph of 
+ and a table of select values are given below.</p>
+      <image source="images/2.1.3" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Give an example of an interval of length <m>0.25</m>
+ units on which <m>f</m>
+ has its most negative average rate of change. Justify your choice.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Give an example of the longest interval you can find on which <m>f</m>
+ is decreasing.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Give an example of an interval on which <m>f</m>
+ is curving up (or speeding up).</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>On an interval where <m>f</m>
+ is both decreasing and curving down (slowing down), what does this tell us about how the weight is moving on that interval? For instance, is the weight moving toward or away from the wall? is it speeding up or slowing down?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points? about its average rate of change on intervals near the function’s midline?</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

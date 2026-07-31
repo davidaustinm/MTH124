@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 3.3: The Special Number <m>e</m></title>
+
+  <p>For any base <m>b</m>, we can find some <m>k</m> so that <md>b^t = 2^{kt}.</md></p>
+  <p>Base <m>2</m> is arbitrary!  So instead we use <m>e^t</m>.</p>
+  <p workspace="0.6in">The function <m>e^t</m> is unique!  Why?</p>
+  <p workspace="0.15in">What is <m>e</m>?</p>
+
+  <definition workspace="0.15in">
+    <title>Definition 3.3.2</title>
+    <statement>
+      <p><term>The natural base, <m>e</m>.</term>  The number <m>e</m> is the infinite sum
+    <md>e = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \cdots </md>
+    It's an irrational number very similar to <m>\pi</m>, and it is approximately <m>e\approx 2.718281828.</m></p>
+    </statement>
+  </definition>
+
+  <sidebyside widths="22% 22% 22% 22%">
+    <stack>
+      <p>Since <m>2&lt;e&lt;3</m> and <m>\frac{1}{3} &lt; \frac{1}{e} &lt; \frac{1}{2}</m>, we expect <m>e^t</m> to be between <m>2^t</m> and <m>3^t</m> for both positive and negative values of <m>t</m>.  We can see that from the table below, as well as the graph to the right.</p>
+      <tabular>
+        <row>
+          <cell>t</cell>
+          <cell>-2</cell>
+          <cell>-1</cell>
+          <cell>0</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+        </row>
+        <row>
+          <cell>2^t</cell>
+          <cell>0.25</cell>
+          <cell>0.5</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>4</cell>
+        </row>
+        <row>
+          <cell>\rightarrow e^t</cell>
+          <cell>0.135</cell>
+          <cell>0.368</cell>
+          <cell>1</cell>
+          <cell>2.718</cell>
+          <cell>7.389 \leftarrow</cell>
+        </row>
+        <row>
+          <cell>3^t</cell>
+          <cell>0.111</cell>
+          <cell>0.333</cell>
+          <cell>1</cell>
+          <cell>3</cell>
+          <cell>9</cell>
+        </row>
+      </tabular>
+    </stack>
+    <image source="images/3.3g"/>
+    <image source="images/3"/>
+    <p>For any <m>b^t</m>, we can write it as a scaling of <m>e^t</m>: 
+<md>b^t = e^{kt} = (e^k)^t.</md>
+So there must be a <m>k</m> such that 
+<md>b = e^k</md> 
+How to find it?</p>
+  </sidebyside>
+  <p workspace="3in">Example:</p>
+
+  <assemblage>
+    <title>Recall</title>
+    <p>Average rate of change of <m>f</m> on <m>[a,b]</m> is
+ <md>AV_{[a,b]} = \frac{f(b) - f(a)}{b-a}.</md></p>
+    <p workspace="1.5in">**New perspective:** Start with <m>a</m>, take a small distance <m>h</m>, and look at <m>[a,a+h]</m>:</p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 3.3.2</title>
+    <introduction>
+      <p>We'll use the formula above to explore the average rate of change of <m>f(t) = e^t</m> near <m>t=1</m> and <m>t=2</m>.
+In a new Desmos worksheet, define <m>f(t) = e^t</m> (type it in exactly like that).  Then in a new cell, type the following:
+<md>A(h) = \frac{f(1+h) - f(1)}{h}</md></p>
+    </introduction>
+    <task workspace="1cm">
+      <statement>
+        <p>What is the approximate value of <m>f(1) = e^1</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What is the meaning of <m>A(0.5)</m>
+ in terms of the function <m>f</m>
+ and its graph?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Compute the value of <m>A(h)</m>
+ for at least <m>6</m>
+ different small values of <m>h</m>,
+ both positive and negative. For instance, one value to try might be <m>h=0.0001</m>, another <m>h=0.00001</m>, a third <m>h=0.0000001</m>, and maybe three negative <m>h</m>'s.  (Use Desmos!  Type <m>A(0.0001)</m> and so on).
+ Record a table of your results.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What do you notice about the values you found in (b)? How do they compare to an important number?  What is <m>f(1) = e^1 = e</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Explain why the following sentence makes sense: “The function <m>e^t</m>
+ is increasing at an average rate that is about the same as its value <m>f(1)=e</m> on small intervals near <m>t=1</m>.”</p>
+      </statement>
+    </task>
+    <task workspace="1cm">
+      <statement>
+        <p>What is the approximate value of <m>f(2) = e^2</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Adjust your definition of <m>A(h)</m>
+ in Desmos by changing <m>1</m>
+ to <m>2</m>
+ so that
+<md>A(h) = \frac{f(2+h) - f(2)}{h}.</md> 
+How does the value of <m>A(h)</m>
+ compare to <m>f(2)</m>
+ for small values of <m>h</m>?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 3.3.3</title>
+    <introduction>
+      <p>By graphing <m>E(t) = e^t</m>
+ and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of <m>t</m> that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.</p>
+    </introduction>
+    <task workspace="2cm">
+      <statement>
+        <p><m>e^t = 2</m></p>
+      </statement>
+    </task>
+    <task workspace="3cm">
+      <statement>
+        <p><m>e^{3t} = 5</m></p>
+      </statement>
+    </task>
+    <task workspace="3cm">
+      <statement>
+        <p><m>2e^t - 4 = 7</m></p>
+      </statement>
+    </task>
+    <task workspace="2cm">
+      <statement>
+        <p><m>3e^{0.25t}+2=6</m></p>
+      </statement>
+    </task>
+    <task workspace="3cm">
+      <statement>
+        <p><m>4 - 2e^{-0.7t} = 3</m></p>
+      </statement>
+    </task>
+    <task workspace="3cm">
+      <statement>
+        <p><m>2e^{1.2t} = 1.5e^{1.6t}</m></p>
+        <p>Example: Certain radioactive material decays in such a way that the mass remaining after 
+ years is given by the function <m>m(t)</m> measured in grams, given below: <md>m(t) = 175e^{-0.015t}</md></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Find the mass at time <m>t=0</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Approximately how much of the mass remains after 15 years?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>How much time passes before there are only 100 grams left?</p>
+        <p>(If Time):  Earthquakes are on what's called a <q>logarithmic</q> scale.  Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are <m>10</m> times greater in amplitude/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Fill in the rest of the table.</p>
+        <tabular>
+          <row>
+            <cell>Richter Scale number</cell>
+            <cell>Magnitude of Earthquake</cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>10^1 = 10</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>10^2 = 100</cell>
+          </row>
+          <row>
+            <cell>2.2</cell>
+            <cell>10^2.2 \approx 158.489</cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>4.5</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>4.9</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>7</cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale.  What was the actual magnitude of that earthquake?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>If an earthquake had a magnitude of <m>10^{6.2}</m>, what would it measure on the Richter Scale?  What about a magnitude of <m>378</m>?</p>
+        <p>While seismic waves are about 10 times larger, the energy released is even greater.  For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately <m>31.6</m> times.  
+So an earthquake of 6.5 on the Richter Scale releases <m>31.6</m> times the energy of one that measures 5.5 on the Richter Scale.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Fill in the rest of the table.</p>
+        <tabular>
+          <row>
+            <cell>Richter Scale Magnitude</cell>
+            <cell>Energy Released by Earthquake</cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>31.6^1 = 31.6</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>31.6^2 = 998.56</cell>
+          </row>
+          <row>
+            <cell>2.2</cell>
+            <cell>31.6^2.2 \approx 1992.102</cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>4.5</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>4.9</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>7</cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale.  What was the amount of energy release by that earthquake?</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

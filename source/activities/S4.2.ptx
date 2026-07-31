@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 4.2: The Tangent Function</title>
+
+  <image source="images/4.2c" width="50%"/>
+  <image source="images/4.2t" width="50%"/>
+
+  <definition>
+    <title>Definition 4.2.2</title>
+    <statement>
+      <p><term>Tangent.</term>
+    <md>\tan(\theta)=\frac{\sin(\theta)}{\cos(\theta)}, \ \ \ \text{if } \cos(\theta)\ne 0</md></p>
+    </statement>
+  </definition>
+
+  <p workspace="1in">For triangles:</p>
+  <p>The special values on the unit circle for angles <m>t</m> are shown below:</p>
+  <image source="images/4.2t1" width="50%"/>
+  <image source="images/4.2t2" width="50%"/>
+  <image source="images/4.2g" width="50%"/>
+
+  <assemblage>
+    <title>Properties of the tangent function: <m>h(t)=\tan(t)</m></title>
+    <p>
+      <ul>
+        <li><p>Domain:  all real numbers except 
+ <m>t=\frac{\pi}{2}\pm k\pi</m>
+ where <m>k</m>
+ is any whole number;</p></li>
+        <li><p>Range: all real numbers;</p></li>
+        <li><p>Period: <m>\pi</m>;</p></li>
+        <li><p>it is increasing on any interval on which the function is defined at every point in the interval.</p></li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 4.2.2</title>
+    <statement>
+      <p workspace="1in">The top of a 225
+ foot tower is to be anchored by four cables that each make an angle of <m>32.5^{\circ}</m>
+ with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?</p>
+    </statement>
+  </activity>
+
+  <activity>
+    <title>Activity 4.2.3</title>
+    <statement>
+      <p><q>Supertall</q> high rises have changed the Manhattan skyline. These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most <m>1:10</m>,
+ and some as extreme as <m>1:25</m>.
+ Suppose that a relatively short <q>supertall</q> has been built to a height of 635
+ feet, as pictured in the figure, and that a second <q>supertall</q> is built nearby. Given the two angles that are computed from the new building, how tall, <m>s</m>,
+ is the new building, and how far apart, <m>d</m>,
+ are the two towers?</p>
+      <image source="images/4.2.3" width="50%"/>
+    </statement>
+  </activity>
+
+  <activity>
+    <title>Activity 4.2.4</title>
+    <introduction>
+      <p>Surveyors are trying to determine the height of a hill relative to sea level. First, they choose a point to take an initial measurement with a sextant that shows the angle of elevation from the ground to the peak of the hill is <m>19^{\circ}</m>.
+ Next, they move 1000
+ feet closer to the hill, staying at the same elevation relative to sea level, and find that the angle of elevation has increased to <m>25^{\circ}</m>,
+ as pictured in the figure. We let <m>h</m>
+ represent the height of the hill relative to the two measurements, and <m>x</m>
+ represent the distance from the second measurement location to the “center” of the hill that lies directly under the peak.</p>
+      <image source="images/4.2.4" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Using the right triangle with the <m>25^{\circ}</m>
+ angle, find an equation that relates <m>x</m>
+ and <m>h</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Using the right triangle with the <m>19^{\circ}</m>
+ angle, find a second equation that relates <m>x</m>
+ and <m>h</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Our work in (a) and (b) results in a system of two equations in the two unknowns <m>x</m>
+ and <m>h</m>.
+ Solve each of the two equations for <m>h</m>
+ and then substitute appropriately in order to find a single equation in the variable <m>x</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Solve the equation from (c) to find the exact value of <m>x</m>
+ and determine an approximate value accurate to 3
+ decimal places.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Use your preceding work to solve for <m>h</m>
+ exactly, plus determine an estimate accurate to 3
+ decimal places.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>If the surveyors’ initial measurements were taken from an elevation of 78
+ feet above sea level, how high above sea level is the peak of the hill?</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

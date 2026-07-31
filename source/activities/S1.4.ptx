@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 1.4: Linear Functions</title>
+
+  <p workspace="0.15in">Functions that are straight lines are both the simplest and the most important functions in mathematics!  And linear functions are directly related to the average rate of change...</p>
+
+  <definition workspace="0.15in">
+    <title>Definition 1.4.3</title>
+    <statement>
+      <p>A <term>linear</term> function has a constant average rate of change.  So for ANY initial and final inputs <m>a</m> and <m>b</m> (as long as <m>a\ne b</m>), it follows that 
+<md>\frac{f(b) - f(a)}{b-a} = m</md>
+for a fixed constant <m>m</m>.  This <m>m</m> is called the <term>slope</term> of the linear function <m>f</m>.</p>
+    </statement>
+  </definition>
+
+  <assemblage>
+    <title>Point-slope form of a line</title>
+    <p>A line with slope <m>m</m>
+ (equivalently, average rate of change <m>m</m>
+) that passes through the point <m>(x_0,y_0)</m>
+ has equation
+<md>y = y_0 + m(x-x_0).</md></p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 1.4.2</title>
+    <introduction>
+      <p>Find an equation for the line that is determined by the following conditions; write your answer in point-slope form wherever possible.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>The line with slope <m>\frac37</m>
+ that passes through <m>(-11,-17)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The line passing through the points <m>(-2,5)</m>
+ and <m>(3,-1)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>The line passing through <m>(4,9)</m>
+ that is parallel to the line <m>2x - 3y = 5</m>. (What do you know about slopes of parallel lines?)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Explain why the function <m>f</m>
+ given by the table below appears to be linear and find a formula for <m>f(x)</m>.</p>
+        <image source="images/1.4.2d" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Find a formula for the linear function shown in the graph below.</p>
+        <image source="images/1.4.2e" width="50%"/>
+      </statement>
+    </task>
+  </activity>
+
+  <assemblage>
+    <title>Slope-intercept form</title>
+    <p>For the line with slope <m>m</m>
+ that passes through the point <m>(0,y_0)</m>, 
+its equation is
+<md>y = mx+y_0.</md></p>
+  </assemblage>
+
+  <p>We usually see this as <m>y = mx+b</m>, where <m>b</m> is the <m>y-</m>intercept, and <m>m</m> is the same slope.</p>
+
+  <activity>
+    <title>Activity 1.4.3. Linear Functions in Context</title>
+    <introduction>
+      <p>The summit of Africa’s largest peak, Mt. Kilimanjaro, has two main ice fields and a glacier at its peak. Geologists measured the ice cover in the year 2000 (<m>t=0</m>) to be approximately <m>1951</m>
+ <m>m^2</m>;
+ in the year 2007, the ice cover measured <m>1555</m>
+<m> m^2</m>.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Suppose that the amount of ice cover at the peak of Mt. Kilimanjaro is changing at a constant average rate from year to year. Find a linear model <m>A=f(t)</m>
+ whose output is the area of the ice cover, <m>A</m>,
+ in square meters in year <m>t</m>
+ (where <m>t</m>
+ is the number of years after 2000).</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What do the slope and <m>A</m>-intercept mean in the model you found in (a)? In particular, what are the units on the slope?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Compute <m>f(17)</m>.
+ What does this quantity measure? Write a complete sentence to explain.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>If the model holds further into the future, when do we predict the ice cover will vanish?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>In light of your work above, what is a reasonable domain to use for the model <m>A=f(t)</m>?
+ What is the corresponding range?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity>
+    <title>Activity 1.4.4. Context</title>
+    <introduction>
+      <p>In each of the following prompts, we investigate linear functions in context.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>A town’s population initially has 28750
+ people present and then grows at a constant rate of <m>825</m>
+ people per year. Find a linear model <m>P=f(t)</m>
+ for the number of people in the town in year <m>t</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A different town’s population <m>Q</m>
+ is given by the function <m>Q=g(t) = 42505-465t</m>.
+ What is the slope of this function and what is its meaning in the model? Write a complete sentence to explain.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A spherical tank is being drained with a pump. Initially the tank is full with 
+<m>\frac{32\pi}{3}</m> 
+ cubic feet of water. Assume the tank is drained at a constant rate of <m>1.2</m>
+ cubic feet per minute. Find a linear model <m>V=p(t)</m>
+ for the total amount of water in the tank at time <m>t</m>.
+ In addition, what is a reasonable approximate domain for the model?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A conical tank is being filled in such a way that the height of the water in the tank, <m>h</m>
+ (in feet), at time <m>t</m>
+ (in minutes) is given by the function <m>h=q(t)=0.65t</m>.
+ What can you say about how the water level is rising? Write at least one careful sentence to explain.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Suppose we know that a <m>5</m>-year old car’s value is <m>\</m>10200<m>,
+ and that after </m>10<m>
+ years its value is </m>\<m>4600</m>.
+ Assuming that the car’s value depreciates linearly, find a function <m>C=L(t)</m>
+ whose output is the value of the car in year <m>t</m>.
+ What is a reasonable domain for the model? What is the value and meaning of the slope of the line? Write at least one careful sentence to explain.</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

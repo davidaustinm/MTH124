@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 5.2: Polynomials</title>
+
+  <definition workspace="0.15in">
+    <title>Definition 5.2.1</title>
+    <statement>
+      <p><term>Polynomial of degree 
+<m>n</m></term>
+<md>p(x)=a_0+a_1x+a_2x^2+\cdots +a_{n-1}x^{n-1} + a_n x^n</md></p>
+      <p>
+        <ul>
+          <li><p><term>coefficients</term></p></li>
+          <li><p><term>terms</term></p></li>
+          <li><p><term>degree</term></p></li>
+          <li><p><term>zeros/roots</term></p></li>
+          <li><p><term>turning points</term></p></li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <p workspace="2in">ex:</p>
+  <p workspace="1in">Factored form: <m>p(x)=a(x-r_1)(x-r_2)\cdots (x-r_n)</m></p>
+  <p workspace="1in">Sign Chart Example as a Class: <m>p(x) = k(x-1)(x-2)(x-b)</m>, with <m>b&gt;2, k&lt;0</m>.</p>
+
+  <activity>
+    <title>Activity 5.2.2</title>
+    <introduction>
+      <p>By experimenting with coefficients in Desmos, find a formula for a polynomial function that has the stated properties, or explain why no such polynomial exists. (If you enter <md>p(x)=a+bx+cx^2+dx^3+fx^4+gx^5</md> in Desmos, you’ll get prompted to add sliders that make it easy to explore a degree <m>5</m>
+ polynomial.)</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>p</m>
+ of degree 5
+ with exactly 3 
+ real zeros, 4
+ turning points, and such that <m>\lim\limits_{x\rightarrow -\infty} p(x) = +\infty</m>
+ and <m>\lim\limits_{x\rightarrow\infty} p(x) = -\infty</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>p</m>
+ of degree 4
+ with exactly 4 
+ real zeros, 3
+ turning points, and such that <m>\lim\limits_{x\rightarrow -\infty} p(x) = +\infty</m>
+ and <m>\lim\limits_{x\rightarrow\infty} p(x) = -\infty</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>p</m>
+ of degree 6
+ with exactly 2 
+ real zeros, 3
+ turning points, and such that <m>\lim\limits_{x\rightarrow -\infty} p(x) = -\infty</m>
+ and <m>\lim\limits_{x\rightarrow\infty} p(x) = -\infty</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>p</m>
+ of degree 5
+ with exactly 5 
+ real zeros, 3
+ turning points, and such that <m>\lim\limits_{x\rightarrow -\infty} p(x) = +\infty</m>
+ and <m>\lim\limits_{x\rightarrow\infty} p(x) = -\infty</m>.</p>
+      </statement>
+    </task>
+  </activity>
+
+  <activity workspace="1in">
+    <title>Activity 5.2.3</title>
+    <introduction>
+      <p>Consider the polynomial function given by
+<md>p(x)=4692(x+1520)(x^2+10000)(x-3471)^2(x-9738)</md></p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>What is the degree of <m>p(x)</m>?
+ How can you tell without fully expanding the factored form of the function?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What can you always say about the sign of the factor <m>(x^2+10000)</m>? (Positive, negative, either, can you tell?)</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>What are the zeros of the polynomial <m>p(x)</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Construct a sign chart for <m>p(x)</m> 
+ by using the zeros you identified in (c) and then analyzing the sign of each factor of <m>p(x)</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Without using a graphing utility, construct an approximate graph of <m>p(x)</m>
+ that has the zeros of <m>p(x)</m>
+ carefully labeled on the <m>x</m>-axis.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Use a graphing utility to check your earlier work. What is challenging or misleading when using technology to graph ?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <p><term>Multiplicities</term> (as a class)</p>
+  <image source="images/mult1.png" width="50%"/>
+  <image source="images/mult2.png" width="50%"/>
+  <image source="images/mult3.png" width="50%"/>
+  <image source="images/mult4.png" width="50%"/>
+
+  <activity>
+    <title>Activity 5.2.4. Multiplicities</title>
+    <introduction>
+      <p>For each of the following prompts, try to determine a formula for a polynomial that satisfies the given criteria. If no such polynomial exists, explain why.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>f(x)</m>
+ of degree <m>10</m>
+ whose zeros are <m>x=12</m>
+ (multiplicity 3), <m>x=-9</m>
+ (multiplicity 2), <m>x=4</m>
+ (multiplicity 4), and <m>x=10</m>
+ (multiplicity 1), and <m>f</m>
+ satisfies <m>f(0)=21</m>.
+ What can you say about the values of <m>\lim\limits_{x\rightarrow -\infty} f(x)</m> and <m>\lim\limits_{x\rightarrow \infty} f(x)</m>?</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>p(x)</m>
+ of degree 9
+ that satisfies <m>p(0)=-2</m>
+ and has the graph shown in the figure below. Assume that all of the zeros of <m>p(x)</m>
+ are shown in the figure.</p>
+        <image source="images/5.2.4b" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>q(x)</m>
+ of degree 8
+ with 3
+ distinct real zeros (possibly of different multiplicities) such that <m>q(x)</m>
+ has the sign chart in below and satisfies <m>q(0)=-10</m>.</p>
+        <image source="images/5.2.4c" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>q(x)</m> 
+ of degree 9
+ with 3
+ distinct real zeros (possibly of different multiplicities) such that <m>q(x)</m>
+ satisfies the sign chart in part (c) and satisfies <m>q(0)=-10</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>A polynomial <m>p(x)</m>
+ of degree 11
+ that satisfies <m>p(0)=-2</m>
+ and <m>p</m>
+ has the graph shown in the figure in part (b). Assume that all of the zeros of <m>p</m>
+ are shown in the figure.</p>
+      </statement>
+    </task>
+  </activity>
+
+</handout>

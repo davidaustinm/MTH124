@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 2.4: Sinusoidal Functions</title>
+
+  <p workspace="0.40in">Recall transformations of a function <m>f(x)</m>, make sure you know what <m>a, b,</m> and <m>c</m> do to <m>f(x)</m> below:
+<md>g(x) = af(x-b)+c</md></p>
+  <p>For the normal standard functions <m>f(t) = \sin(t)</m> and <m>g(t)=\cos(t)</m>, both are circular functions with the same values:</p>
+  <p>
+    <ul>
+      <li><p>midline: <fillin/></p></li>
+      <li><p>amplitude: <fillin/></p></li>
+      <li><p>period: <fillin/></p></li>
+      <li><p>range: <fillin/></p></li>
+    </ul>
+  </p>
+  <p>The <q>starting point</q> is where the normal <m>\sin(t)</m> and <m>\cos(t)</m> functions start at <m>t=0</m>.</p>
+  <p>
+    <ul>
+      <li><p>starting point for <m>\sin(t)</m>: <fillin/></p></li>
+      <li><p>starting point for <m>\cos(t)</m>:<fillin/></p></li>
+    </ul>
+  </p>
+
+  <assemblage>
+    <title>Transformations of sine and cosine</title>
+    <p>The real numbers <m>a</m>, <m>b</m>,
+ and <m>c</m>
+ with <m>a\ne 0</m>, we transform <m>\cos(t)</m> and <m>\sin(t)</m> by: <md>k(t) = a\cos(t-b)+c
+  \text{   \ \ \  and  \ \ \   }  h(t) = a\sin(t-b)+c</md></p>
+    <p>
+      <ol>
+        <li><p>horizontal shift by <m>b</m>
+ units to the right (if <m>b&gt;0</m>),</p></li>
+        <li><p>then a vertical stretch by <m>|a|</m>
+ units (if <m>a&lt;0</m>,
+ we also reflect across the <m>y</m>-axis),</p></li>
+        <li><p>then by a vertical shift of <m>c</m>
+ units.</p></li>
+      </ol>
+    </p>
+    <p>The resulting circular functions have</p>
+    <p>
+      <ul>
+        <li><p>midline <m>y=c</m>,</p></li>
+        <li><p>amplitude <m>|a|</m>,</p></li>
+        <li><p>range <m>[c-|a|, c+|a|]</m>,</p></li>
+        <li><p>and period <m>2\pi</m>.</p></li>
+        <li><p>The point <m>(b,a+c)</m>
+ lies on the graph of <m>k</m> 
+ and the point <m>(b,c)</m>
+ on <m>h</m>.</p></li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <p>The <term>anchor point</term> is where the starting point of the standard <m>\cos(t)</m> and <m>\sin(t)</m> functions shift under these transformations.</p>
+  <p>
+    <ul>
+      <li><p>the <term>anchor point</term>
+for <m>k(t) = a\cos(t-b)+c</m> (the shifted <m>\cos(t)</m>) is:  <fillin/></p></li>
+      <li><p>the <term>anchor point</term>
+for <m>h(t) = a\sin(t-b)+c</m> (the shifted <m>\sin(t)</m>) is: <fillin/></p></li>
+    </ul>
+  </p>
+
+  <activity>
+    <title>Activity 2.4.2</title>
+    <statement>
+      <p>Consider a spring-mass system where a weight is resting on a frictionless table. We let <m>d(t)</m>
+ denote the distance from the wall (where the spring is attached) to the weight at time <m>t</m>
+ in seconds and know that the weight oscillates periodically with a minimum value of <m>2</m>
+ feet and a maximum value of <m>7</m>
+ feet with a period of <m>2\pi</m>.
+ We also know that <m>d(0)=4.5</m>
+ and <m>d(\frac{\pi}{2}) = 2</m>.</p>
+      <p workspace="1in">Determine a formula for <m>d(t)</m>
+ in the form <m>d(t) = a\cos(t-b)+c</m>
+ or <m>d(t) = a\sin(t-b)+c</m>.  (It will help to start with identifying the key information, such as the midline, the amplitude, \ldots)
+ Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.</p>
+      <p><term>Horizontal Scaling</term></p>
+      <p>A horizontal scaling of <m>f(x)</m> is <m>g(x) = f(kx)</m>, where <m>k</m> is a positive, real number.</p>
+    </statement>
+  </activity>
+
+  <assemblage>
+    <title>Horizontal scaling</title>
+    <p>Given a function <m>y=f(t)</m>
+ and a real number <m>k&gt;0</m>,
+ <m>y=h(t)=f(kt)</m>
+ is a <term>horizontal stretch</term> of the graph of <m>f</m>, that is <em>we multiply the <m>x-</m>coordinate by <m>\frac{1}{k}</m></em>.</p>
+    <p>The point <m>(t,f(t))</m>
+ then stretches to the point 
+ <m>(\frac{1}{k}t, f(t))</m>.</p>
+    <p>If <m>0&lt;k&lt;1</m>,
+ the graph of <m>h</m>
+ is a stretch of <m>f</m>
+ away from the <m>y</m>-axis by a factor of 
+ <m>\frac{1}{k}</m>;
+ if <m>k&gt;1</m>,
+ the graph of <m>h</m>
+ is a compression of <m>f</m>
+ toward the 
+<m>y</m>-axis by a factor of <m>\frac{1}{k}</m>.</p>
+    <p>The only point on the graph of <m>f</m>
+ that is unchanged by the transformation is <m>(0,f(0))</m>.</p>
+  </assemblage>
+
+  <activity>
+    <title>Activity 2.4.3</title>
+    <introduction>
+      <p>Consider the functions <m>f</m> and <m>g</m> given ni the figure below (<m>f</m> on the left, <m>g</m> on the right).</p>
+      <image source="images/2.4.3" width="50%"/>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>On the same axes as the plot of <m>y=f(t)</m>,
+ sketch the following graphs: 
+ <m>y=h(t) = f(\frac{1}{3}t)</m>
+ and <m>y=j(t) = f(4t)</m>.
+ Be sure to label several points on each of <m>f</m>,
+ <m>h</m>,
+ and <m>j</m>
+ with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in <m>h</m>
+ and <m>j</m>
+ from <m>f</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>On the same axes as the plot of <m>y=g(t)</m> above,
+ sketch the following graphs: <m>y=k(t)=g(2t)</m>
+ and <m>y=m(t)=g(\frac{1}{2}t)</m>.
+ Be sure to label several points on each of <m>g</m>, <m>k</m>,
+ and <m>m</m>
+ with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in <m>k</m>
+ and <m>m</m>
+ from <m>g</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>On the additional copies of the two figures below, sketch the graphs of the following transformed functions: 
+ <m>y=r(t) = 2f(\frac12 t)</m>
+ (at left) and 
+ <m>y=s(t) = \frac12g(2t)</m> (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.</p>
+        <image source="images/2.4.3" width="50%"/>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Describe in words how the function 
+ <m>y=r(t) = 2f(\frac12 t)</m>
+ is the result of composing two elementary transformations of <m>y=f(t)</m>.
+ Does the order in which these transformations are composed matter? Why or why not?</p>
+      </statement>
+    </task>
+  </activity>
+
+  <assemblage>
+    <title>The period of a circular function</title>
+    <p>For any constant <m>k&gt;0</m>,
+ the period of the functions <m>\sin(kt)</m>
+ and <m>\cos(kt)</m>
+ is 
+ <md>P = \frac{2\pi}{k}</md></p>
+  </assemblage>
+
+  <activity workspace=".5cm">
+    <title>Activity 2.4.4</title>
+    <introduction>
+      <p>Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos, and then use the program to check your work.</p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p><m>p(x) = \sin(10x)+2</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>q(x) = -3\cos(0.25x)-4</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>r(x) = 2\sin(\frac{\pi}{4}x)+5</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>w(x) = 2\cos\left(\frac{\pi}{2}(x-3)\right)+5</m></p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p><m>u(x) = -0.25\sin(3x-6)+5</m></p>
+      </statement>
+    </task>
+  </activity>
+
+  <p workspace="1.5in">If we are given the period of a sine or cosine function, we can rearrange the equation for the period <m>P=\frac{2\pi}{k}</m> to solve for the <m>k</m>.  Do so; what is <m>k</m> equal to in terms of the period <m>P</m>?</p>
+  <p workspace=".5cm">This will help us build a circular function, see the next activity.</p>
+
+  <activity>
+    <title>Activity 2.4.5</title>
+    <statement>
+      <p>Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let <m>d(t)</m>
+ denote the distance from the ceiling to the weight at time <m>t</m>
+ in seconds and know that the weight oscillates periodically with a minimum value of <m>1.5</m>
+ feet and a maximum value of <m>4</m>
+ feet, with a period of <m>3</m>,
+ and you know <m>d(0.5) = 2.75</m>
+ and <m>d(1.25) = 4</m>.</p>
+      <p workspace="1in">State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for <m>d(t)</m>
+ in the form <m>a\cos(k(t-b))+c</m>
+ or <m>a\sin(k(t-b))+c</m>.
+ Show your work and thinking, and use Desmos appropriately to check that your formula generates the desired behavior.</p>
+    </statement>
+  </activity>
+
+</handout>

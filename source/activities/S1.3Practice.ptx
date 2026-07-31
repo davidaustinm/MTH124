@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Section 1.3 Practice</title>
+
+  <activity>
+    <task>
+      <introduction>
+        <p>Suppose the total cost in dollars to produce x
+items is given by the function <m>C(x)</m>, and that <m>AV_{[100,200]} = 24.04</m>.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>What are the units of the average rate of change?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>What does <m>AV_{[100,200]} = 24.04</m> mean in context?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If <m>AV_{[100,200]} = 24.04</m> and <m>AV_{[200,300]}=36.04</m>, what can you say about <m>C(x)</m>.</p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>Suppose an object is thrown upward with
+initial velocity of 32 feet per second from a
+height of 50 feet. The height of the object t
+seconds after it is thrown is given by a function <m>h(t)</m>.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>If <m>AV_{[0,2]} = 0</m>, what are the units, and what does that mean in context?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If <m>AV_{[2,4]} = -64</m>, what are the units, and what does that mean in context?</p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>There is a specific breed of bacteria whose global population after <m>t</m> months is given by the function <m>p(t) = 4t^5 + 4t^2+4240.</m></p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>If the average rate of change of <m>p(t)</m> on the interval from 0 to 6 is 5208, what does 5208 mean in context (include units!)?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>What is <m>AV_{[6,12]}</m>?  Include units.</p>
+        </statement>
+      </task>
+    </task>
+    <task>
+      <introduction>
+        <p>The velocity of a skydiver is given by a function <m>v(t)</m>, where <m>v(t)</m> is in feet per second and <m>t</m> is in seconds.</p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+          <p>What would be the units or the average rate of change of <m>v(t)</m>?</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>If <m>AV_{[0,10]}=147</m>, what would that mean in context?  Use the units to help you!</p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>The table below gives the velocity <m>v(t)</m> in 10 second intervals.</p>
+          <image source="images/skydive.png" width="50%"/>
+          <p>Find <m>AV_{[50,60]}</m>. What does it mean about the skydiver?</p>
+        </statement>
+      </task>
+    </task>
+  </activity>
+
+</handout>
