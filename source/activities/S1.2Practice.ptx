@@ -1,79 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
-  <title>Section 1.1 - 1.2 Practice</title>
+  <title>Function Practice! Sections 1.1 and 1.2</title>
+  <alert>MTH 124</alert>
 
   <activity>
-    <task>
+   
       <introduction>
         <p>Let <m>M(t)</m> denote an account balance <m>M</m> measured in dollars on day <m>t</m>.  We'll take <m>t=0</m> to be first day the account was opened.</p>
       </introduction>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>What does it mean to say <m>M(0)=1000</m>?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>What does it mean to say <m>M(365) = 3000</m>?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>If on day 2 of opening the account, the account balance was <m>\</m>1012$, how would you write that in function notation?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>What does the following statement mean: "<m>M(30) - M(0) = 100</m>"?</p>
         </statement>
       </task>
-    </task>
-    <task>
+  </activity>
+  <activity>
+   
       <introduction>
         <p>There is a specific breed of bacteria whose global population after <m>t</m> months is given by the function <m>p(t) = 4t^5 + 4t^2+4240.</m></p>
       </introduction>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>What is the population of bacteria after <m>t=6</m> months?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>What does it mean to say <m>p(1) = 4248</m>?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>How would you find what time the global population was <m>5000</m>?  Set up!  No need to solve!</p>
         </statement>
       </task>
-    </task>
-    <task>
+  </activity>
+  <activity>
       <introduction>
-        <p>Consider that graph below for a function <m>y=f(x)</m>.</p>
-        <image source="images/4-graph" width="50%"/>
-      </introduction>
-      <task workspace="1in">
+        <p>Consider the graph below for a function <m>y=f(x)</m>.</p>
+<image width="35%">
+                        <shortdescription>
+                            A piecewise function f(x).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-2-7">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                              <definition> f(x)= 2 </definition>
+                              <definition> g(x)=7/3*x-29/3</definition>
+                              <definition> h(x) = -(x-8)+9</definition>
+                                <coordinates bbox="[-2,-2,13,13]">
+                                    <grid-axes spacings="((-2,1,13),(-2,1,13)" hticks="(-2,1,13)" vticks="(-2,1,13)"  
+                                    decorations="yes" hlabels="(2,2,12)" vlabels="(2,2,12)"/>
+                                    <graph function="f" domain="(0,5)"/>
+                                    <point p="(0,f(0))" fill="blue" stroke="blue" />
+                                    <graph function="g" domain="(5,8)"/>
+                                    <graph function="h" domain="(8,10)"/>
+                                    <point p="(10,h(10))" fill="white" stroke="blue" />
+
+                                </coordinates>
+                    
+                            </diagram>
+                        </prefigure>
+                    </image>      </introduction>
+      <task workspace="0.7in">
         <statement>
           <p>What is <m>f(2)</m>?  <m>f(8)</m>?  <m>f(10)</m>?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>Find all values of <m>x</m> such that <m>f(x) = 4</m>.</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.7in">
         <statement>
           <p>Find all values of <m>x</m> such that <m>f(x) = 2</m>.</p>
         </statement>
       </task>
-    </task>
-    <task workspace="1in">
-      <statement>
+      </activity>
+      <activity>
+      <introduction>
         <p>A book store has an interesting model for the cost of books, depending on how many you buy.  Let <m>C(n)</m> be a function describing the cost (in dollars) of buying <m>n</m> books, given by the table:</p>
         <tabular>
-          <row>
+          <row header="yes" bottom="major">
             <cell><m>n</m></cell>
             <cell>1</cell>
             <cell>2</cell>
@@ -94,14 +118,13 @@
             <cell>50</cell>
           </row>
         </tabular>
-      </statement>
-    </task>
-    <task workspace="1in">
+      </introduction>
+    <task workspace="0.7in">
       <statement>
         <p>What does it mean to say <m>C(4)=36</m>?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.7in">
       <statement>
         <p>What is the value of <m>n</m> such that <m>C(n) = 19</m>, and what does it mean in context?</p>
       </statement>

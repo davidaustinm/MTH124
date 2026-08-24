@@ -2,60 +2,72 @@
 <handout>
   <title>Day 1. Intro Activity: Height vs. Wingspan</title>
 
+  <alert>MTH 124</alert>
+
   <activity>
     <introduction>
       <p>Your wingspan is the distance between your left fingertip and right fingertip if you hold your arms out straight horizontally.  In this activity we will compare your wingspan with your height.</p>
     </introduction>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p>Discuss: what do you think the relationship between height and wingspan will look like?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
-        <p>Measure the height and wingspan of each member of your table IN CENTIMETERS.  Find a reliable and consistent method. Record the values in the table below.</p>
+        <p>Measure the height and wingspan of each member of your table IN CENTIMETERS.  Find a reliable and consistent method. Record the values in the table below.
+        THEN share your table's data with the another table.</p>
         <tabular>
-          <row>
+          <row header="yes" bottom="major">
+            <cell></cell>
             <cell>Group Member</cell>
             <cell>Height (cm)</cell>
             <cell>Wingspan (cm)</cell>
           </row>
-          <row>
+          <row bottom="minor">
+            <cell>1.</cell>
+            <cell> </cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row bottom="minor">
+            <cell>2.</cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
           </row>
-          <row>
+          <row bottom="minor">
+            <cell>3.</cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
           </row>
-          <row>
+          <row bottom="minor">
+            <cell>4.</cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
           </row>
-          <row>
+          <row bottom="minor">
+            <cell>5.</cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
           </row>
-          <row>
+          <row bottom="minor">
+            <cell>6.</cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
           </row>
-          <row>
+          <row bottom="minor">
+            <cell>7.</cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
           </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
+          <row bottom="minor">
+            <cell>8.</cell>
             <cell></cell>
             <cell></cell>
             <cell></cell>
@@ -63,22 +75,17 @@
         </tabular>
       </statement>
     </task>
-    <task workspace="1in">
-      <statement>
-        <p>Share data with the another table.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p>Discuss with your table and plan a way to visualize the data (some sort of graph perhaps?).  I recommend sketching out a quick version before the final version (you can use the back of this worksheet).</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
-        <p>Sketch a <q>final</q> version of your visual on the blue paper.  You can use the grid if it helps you, or not.  Make sure to label everything.</p>
+        <p>Sketch a <q>final</q> version of your visual on the colored paper.  You can use the grid if it helps you, or not.  Make sure to label everything.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p>Look at your table and / or your visualization.  Discuss the following as a table:</p>
         <p>

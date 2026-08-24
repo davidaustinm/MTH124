@@ -1,93 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handout>
-  <title>Section 1.1: Changing in Tandem</title>
+    <title>Section 1.1: Changing in Tandem</title>
 
-  <activity>
-    <title>Activity 1.1.2. Using graphs to represent relationships</title>
-    <introduction>
-      <p>Consider a tank in the shape of an inverted circular cone (point down) where the tank’s radius is 2
- feet and its depth is 4
- feet. Suppose that the tank is being filled with water that is entering at a constant rate of 0.75
- cubic feet per minute.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Sketch a labeled picture of the tank, including a snapshot of there being water in the tank prior to the tank being completely full.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>What are some quantities that are changing in this scenario? What are some quantities that are not changing?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Fill in the following table of values to determine how much water, <m>V</m>,
- is in the tank at a given time in minutes, <m>t</m>,
- and thus generate a graph of the relationship between volume and time by plotting the data on the provided axes.</p>
-        <image source="images/1.1.2c" width="50%"/>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Finally, think about how the height, <m>h</m>,
- of the water changes in tandem with time. Without attempting to determine specific values of <m>h</m>
- at particular values of <m>t</m>,
- how would you expect the data for the relationship between 
- and <m>h</m> and <m>t</m>
- to appear? Use the provided axes to sketch at least two possibilities; write at least one sentence to explain how you think the graph should appear.</p>
-        <image source="images/1.1.2d" width="50%"/>
-      </statement>
-    </task>
-  </activity>
+    <alert>
+        MTH 124
+    </alert>
 
-  <activity>
-    <title>Activity 1.1.3. Using algebra to add perspective</title>
-    <introduction>
-      <p>Consider a tank in the shape of a sphere where the tank’s radius is 3
- feet. Suppose that the tank is initially completely full and that it is being drained by a pump at a constant rate of <m>1.2</m>
- cubic feet per minute.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Sketch a labeled picture of the tank, including a snapshot of some water remaining in the tank prior to the tank being completely empty.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>What are some quantities that are changing in this scenario? What are some quantities that are not changing?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Recall that the volume of a sphere of radius 
- is 
- <m>V = \frac43 \pi r^3</m>.
- When the tank is completely full at time 
- right before it starts being drained, how much water is present?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>How long will it take for the tank to drain completely?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Fill in the following table of values to determine how much water, <m>V</m>,
- is in the tank at a given time in minutes, <m>t</m>,
- and thus generate a graph of the relationship between volume and time. Write a sentence to explain why the data’s graph appears the way that it does.</p>
-        <image source="images/1.1.3e" width="50%"/>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Finally, think about how the height of the water changes in tandem with time. What is the height of the water when <m>t = 0</m>?
- What is the height when the tank is empty? How would you expect the data for the relationship between <m>h</m> and <m>t</m>
- to appear? Use the provided axes to sketch at least two possibilities; write at least one sentence to explain how you think the graph should appear.</p>
-        <image source="images/1.1.3f" width="50%"/>
-      </statement>
-    </task>
-  </activity>
+    <activity>
+        <title>Activity 1.1.2. Using graphs to represent relationships</title>
 
+        <introduction>
+            <p>
+                Consider a tank in the shape of an inverted circular cone (point
+                down) where the tank’s radius is 2 feet and its depth is 4 feet.
+                Suppose that the tank is being filled with water that is
+                entering at a constant rate of 0.75 cubic feet per minute.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Sketch a labeled picture of the tank, including a snapshot
+                    of there being water in the tank prior to the tank being
+                    completely full.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What are some quantities that are changing in this scenario?
+                    What are some quantities that are not changing?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    Fill in the following table of values to determine how much
+                    water, <m>V</m>, is in the tank at a given time in minutes,
+                    <m>t</m>, and thus generate a graph of the relationship
+                    between volume and time by plotting the data on the provided
+                    axes.
+                </p>
+
+                <sidebyside widths="40% 30%">
+                    <table>
+                        <title>
+                            Record data on the volume of water <m>V</m> in the
+                            tank at time <m>t</m>.
+                        </title>
+
+                        <tabular>
+                            <row header="yes" bottom="major">
+                                <cell><m>t</m></cell>
+                                <cell><m>V</m></cell>
+                            </row>
+
+                            <row>
+                                <cell>0</cell>
+                            </row>
+
+                            <row>
+                                <cell>1</cell>
+                            </row>
+
+                            <row>
+                                <cell>2</cell>
+                            </row>
+
+                            <row>
+                                <cell>3</cell>
+                            </row>
+
+                            <row>
+                                <cell>4</cell>
+                            </row>
+
+                            <row>
+                                <cell>5</cell>
+                            </row>
+                        </tabular>
+                    </table>
+
+                    <image>
+                        <shortdescription>
+                            A graph to plot the volume of water in the tank over
+                            time in the conical tank.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-1">
+                            <diagram dimensions="(180,180)" margins="5">
+                                <coordinates bbox="[-1,-1,6,6]">
+                                    <grid-axes hticks="(-1,1,6)" vticks="(-1,1,6)" xlabel="t" ylabel="V" decorations="no" spacings="((-1,1/2,6),(-1,1/2,6))"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    Finally, think about how the height, <m>h</m>, of the water
+                    changes in tandem with time.
+                    Without attempting to determine specific values of <m>h</m>
+                    at particular values of <m>t</m>, how would you expect the
+                    data for the relationship between and <m>h</m> and <m>t</m>
+                    to appear?
+                    Use the provided axes to sketch at least two possibilities;
+                    write at least one sentence to explain how you think the
+                    graph should appear.
+                </p>
+
+                <sidebyside widths="30% 30%">
+                    <image>
+                        <shortdescription>
+                            A graph to plot the possible height of water in the
+                            tank over time.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-2">
+                            <diagram dimensions="(180,180)" margins="5">
+                                <coordinates bbox="[-1,-1,6,6]">
+                                    <grid-axes hticks="(-1,1,6)" vticks="(-1,1,6)" xlabel="t" ylabel="h" decorations="no" spacings="((-1,1/2,6),(-1,1/2,6))"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            A graph to plot the possible height of water in the
+                            tank over time.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-3">
+                            <diagram dimensions="(180,180)" margins="5">
+                                <coordinates bbox="[-1,-1,6,6]">
+                                    <grid-axes hticks="(-1,1,6)" vticks="(-1,1,6)" xlabel="t" ylabel="h" decorations="no" spacings="((-1,1/2,6),(-1,1/2,6))"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <title>Activity 1.1.3. Using algebra to add perspective</title>
+
+        <introduction>
+            <p>
+                Consider a tank in the shape of a sphere where the tank’s radius
+                is 3 feet.
+                Suppose that the tank is initially completely full and that it
+                is being drained by a pump at a constant rate of <m>1.2</m>
+                cubic feet per minute.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Sketch a labeled picture of the tank, including a snapshot
+                    of some water remaining in the tank prior to the tank being
+                    completely empty.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What are some quantities that are changing in this scenario?
+                    What are some quantities that are not changing?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Recall that the volume of a sphere of radius is
+                    <m>V = \frac43 \pi r^3</m>.
+                    When the tank is completely full at time right before it
+                    starts being drained, how much water is present?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    How long will it take for the tank to drain completely?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    Fill in the following table of values to determine how much
+                    water, <m>V</m>, is in the tank at a given time in minutes,
+                    <m>t</m>, and thus generate a graph of the relationship
+                    between volume and time.
+                    Write a sentence to explain why the data’s graph appears the
+                    way that it does.
+                </p>
+
+                <sidebyside widths="40% 40%">
+                    <table>
+                        <title>
+                            Record data on the volume of water <m>V</m> in the
+                            tank at time <m>t</m>.
+                        </title>
+
+                        <tabular>
+                            <row header="yes" bottom="major">
+                                <cell><m>t</m></cell>
+                                <cell><m>V</m></cell>
+                            </row>
+
+                            <row>
+                                <cell>0</cell>
+                            </row>
+
+                            <row>
+                                <cell>20</cell>
+                            </row>
+
+                            <row>
+                                <cell>40</cell>
+                            </row>
+
+                            <row>
+                                <cell>60</cell>
+                            </row>
+
+                            <row>
+                                <cell>80</cell>
+                            </row>
+
+                            <row>
+                                <cell>94.24</cell>
+                            </row>
+                        </tabular>
+                    </table>
+
+                    <image>
+                        <shortdescription>
+                            A graph to plot the volume of water in the tank over
+                            time in a draining spherical tank.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-5">
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-20,-20,120,120]">
+                                    <grid-axes hlabels="(20,40,100)" hticks="(-20,20,120)" vticks="(-20,20,120)" xlabel="t" ylabel="V" decorations="yes" spacings="((-20,10,120),(-20,10,120))"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    Finally, think about how the height of the water changes in
+                    tandem with time.
+                    What is the height of the water when <m>t = 0</m>?
+                    What is the height when the tank is empty?
+                    How would you expect the data for the relationship between
+                    <m>h</m> and <m>t</m> to appear?
+                    Use the provided axes to sketch at least two possibilities;
+                    write at least one sentence to explain how you think the
+                    graph should appear.
+                </p>
+
+                <sidebyside widths="30% 30%">
+                    <image>
+                        <shortdescription>
+                            A graph to plot the possible height of water in the
+                            tank over time.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-6">
+                            <diagram dimensions="(180,180)" margins="5">
+                                <coordinates bbox="[-1,-1,6,6]">
+                                    <grid-axes hticks="(-1,1,6)" vticks="(-1,1,6)" xlabel="t" ylabel="h" decorations="no" spacings="((-1,1/2,6),(-1,1/2,6))"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            A graph to plot the possible height of water in the
+                            tank over time.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-7">
+                            <diagram dimensions="(180,180)" margins="5">
+                                <coordinates bbox="[-1,-1,6,6]">
+                                    <grid-axes hticks="(-1,1,6)" vticks="(-1,1,6)" xlabel="t" ylabel="h" decorations="no" spacings="((-1,1/2,6),(-1,1/2,6))"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </statement>
+        </task>
+    </activity>
 </handout>

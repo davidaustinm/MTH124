@@ -1,237 +1,379 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handout>
-  <title>Section 1.5 &amp; 1.6: Quadratic Functions</title>
+    <title>Section 1.5 &amp; 1.6: Quadratic Functions</title>
 
-  <p workspace="0.15in">A <em>quadratic function</em> is one that may be written in the form <md>q(x)=ax^2 + bx + c</md>
-where <m>a \ne 0</m>.  That is, there is an <m>x^2</m> term but no higher powers of <m>x</m>.</p>
+    <alert>
+        MTH 124
+    </alert>
 
-  <activity>
-    <title>Activity 1.5.2</title>
-    <introduction>
-      <p>Open a browser and go to Desmos, <term>desmos.com</term>. In a cell in Desmos, enter <m>q(x) = ax^2 + bx + c</m> in exactly that form; you will be prompted to add sliders for <m>a, b,</m> and <m>c</m>.
- Do so. Then begin exploring with the sliders and respond to the following questions.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Describe how changing the value of <m>a</m>
- affects the graph of <m>q</m>.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Describe how changing the value of <m>b</m>
- affects the graph of <m>q</m>.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Describe how changing the value of <m>c</m>
- affects the graph of <m>q</m>.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Which parameter seems to have the simplest effect? Which parameter seems to have the most complicated effect? Why?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Is it possible to find a formula for a quadratic function that passes through the points <m>(0,8), (1,12), (2,12)</m>?
- If yes, do so; if not, explain why not.</p>
-      </statement>
-    </task>
-  </activity>
+    <p workspace="0.15in">
+        A <em>quadratic function</em> is one that may be written in the form
+        <md>
+            q(x)=ax^2 + bx + c
+        </md>
+        where <m>a \ne 0</m>.
+        That is, there is an <m>x^2</m> term but no higher powers of <m>x</m>.
+    </p>
 
-  <assemblage>
-    <title>Quadratic Formula - Solutions to <m>q(x)=0</m></title>
-    <p>Let <m>a</m>, <m>b</m>,
- and <m>c</m>
- be real numbers with <m>a\ne0</m>.
- The equation <m>ax^2+bx+c =0</m>
- can have <m>0, 1</m>, or <m>2</m> 
- real solutions. These real solutions are given by the <term>quadratic formula</term>,
- <md>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}</md>
-provided <m>b^2 - 4ac \ge 0</m>.</p>
-  </assemblage>
+    <activity>
+        <title>Activity 1.5.2</title>
 
-  <activity>
-    <task workspace="1in">
-      <statement>
-        <p>Find the solutions to <m>3x^2-18x-21=0</m> using the quadratic formula from the last page.</p>
-      </statement>
-    </task>
-  </activity>
+        <introduction>
+            <p>
+                Open a browser and go to Desmos, <term>desmos.com</term>.
+                In a cell in Desmos, enter <m>q(x) = ax^2 + bx + c</m> in
+                exactly that form; you will be prompted to add sliders for
+                <m>a, b,</m> and <m>c</m>.
+                Do so.
+                Then begin exploring with the sliders and respond to the
+                following questions.
+            </p>
+        </introduction>
 
-  <assemblage>
-    <title>The vertex of a parabola</title>
-    <p>The quadratic function <m>y=q(x) = ax^2+bx+c</m> has its vertex at the <m>x-</m>coordinate <m>x = -\frac{b}{2a}</m>.</p>
-    <p>When <m>a&gt;0</m>,
-the graph opens upward, and thus the vertex is the lowest point on the graph of <m>q</m> (see example on the left).  When <m>a&lt;0</m>, the graph opens downward, and so
- the vertex is the highest point (see example on the right).</p>
-    <p>The graph is symmetric around the line <m>x = -\frac{b}{2a}</m>.</p>
-  </assemblage>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Describe how changing the value of <m>a</m> affects the
+                    graph of <m>q</m>.
+                </p>
+            </statement>
+        </task>
 
-  <image source="images/1.5" width="50%"/>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Describe how changing the value of <m>b</m> affects the
+                    graph of <m>q</m>.
+                </p>
+            </statement>
+        </task>
 
-  <assemblage>
-    <title>Vertex form of a quadratic function</title>
-    <p>A quadratic function with vertex <m>(h,k)</m>
- may be written in the form <m>y = a(x-h)^2+k</m>.
- The constant <m>a</m>
- may be determined from one other function value for an input <m>x\ne h</m>.</p>
-  </assemblage>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Describe how changing the value of <m>c</m> affects the
+                    graph of <m>q</m>.
+                </p>
+            </statement>
+        </task>
 
-  <activity>
-    <task workspace="1in">
-      <statement>
-        <p>Find an equation for the parabola that has the vertex <m>(1,4)</m> and goes through the point <m>(3,2)</m>.</p>
-      </statement>
-    </task>
-  </activity>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Which parameter seems to have the simplest effect?
+                    Which parameter seems to have the most complicated effect?
+                    Why?
+                </p>
+            </statement>
+        </task>
 
-  <p>Just a note: objects that fall under the force of gravity, like baseballs or water balloons or anything, can be modeled by quadratic curves.</p>
-  <p><term>Composite Functions</term></p>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Is it possible to find a formula for a quadratic function
+                    that passes through the points <m>(0,8), (1,12), (2,12)</m>?
+                    If yes, do so; if not, explain why not.
+                </p>
+            </statement>
+        </task>
+    </activity>
 
-  <definition>
-    <title>Definition 1.6.2</title>
-    <statement>
-      <p>If <m>f</m>
- and <m>g</m>
- are functions such that <m>g:A\rightarrow B</m>
- and <m>f:B\rightarrow C</m>,
- we define the <term>composition of <m>f</m> and <m>g</m></term> 
- to be the new function <m>h:A\rightarrow C</m>
- given by <md>h(t) = f(g(t)).</md>
-We also sometimes use the notation <m>h = f\circ g</m>,
- where <m>f\circ g</m>
- is the single function defined by <m>(f\circ g)(t) = f(g(t))</m>.</p>
-    </statement>
-  </definition>
+    <assemblage>
+        <title>Quadratic Formula - Solutions to <m>q(x)=0</m></title>
 
-  <activity>
-    <title>Activity 1.6.2</title>
-    <introduction>
-      <p>Let functions <m>p</m>
- and <m>q</m>
- be given by the graphs below (which are each piecewise linear - that is, parts that look like straight lines are straight lines) and let <m>f</m>
- and <m>g</m>
- be given by the table below.</p>
-      <image source="images/1.6.2g" width="50%"/>
-      <image source="images/1.6.2t" width="50%"/>
-      <p>Compute each of the following quantities or explain why they are not defined.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p><m>p(q(0))</m></p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p><m>q(p(0))</m></p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p><m>(p\circ p)(-1)</m></p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p><m>(f\circ g)(2)</m></p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p><m>(g\circ f)(3)</m></p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p><m>g(f(0))</m></p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>For what value(s) of <m>x</m> is <m>f(g(x)) = 4</m>?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>For what value(s) of <m>x</m> is <m>q(p(x)) = 1</m>?</p>
-      </statement>
-    </task>
-  </activity>
+        <p>
+            Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers with
+            <m>a\ne0</m>.
+            The equation <m>ax^2+bx+c =0</m> can have <m>0, 1</m>, or <m>2</m>
+            real solutions.
+            These real solutions are given by the
+            <term>quadratic formula</term>,
+            <md>
+                x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+            </md>
+            provided <m>b^2 - 4ac \ge 0</m>.
+        </p>
+    </assemblage>
 
-  <activity>
-    <title>Activity 1.6.3. Context</title>
-    <introduction>
-      <p>Let <m>F = D(N) = 40+0.25N</m>
- be Dolbear’s function that converts an input of number of chirps per minute to degrees Fahrenheit.</p>
-      <p>Let <m>C = G(F) = \frac{5}{9} (F-32)</m> 
- be the function that converts an input of degrees Fahrenheit to an output of degrees Celsius.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Determine a formula for the new function <m>H = G(D(N))</m>
- that depends only on the variable <m>N</m>.  That is <m>H</m> should equal some function of <m>N</m> and only <m>N</m>.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>What is the meaning of the function you found in (a)?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>How does a plot of the new function <m>H = G(D(N))</m>
- compare to that of Dolbear’s function? Sketch a plot of this new function <m>H</m> 
- on the blank axes to the right of the plot of Dolbear’s function, and discuss the similarities and differences between them. Be sure to label the vertical scale on your axes.</p>
-        <image source="images/1.6.3c" width="50%"/>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>What is the domain of the function <m>H = G(D(N))</m>?
- What is its range?</p>
-      </statement>
-    </task>
-  </activity>
+    <activity>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the solutions to <m>3x^2-18x-21=0</m> using the
+                    quadratic formula from the last page.
+                </p>
+            </statement>
+        </task>
+    </activity>
 
-  <activity>
-    <title>Activity 1.6.4</title>
-    <introduction>
-      <p>Let <m>f(x) = 2x^2-3x+1</m> and <m>g(x) = \frac{5}{x}</m>.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Compute <m>f(1+h)</m> for an unknown variable <m>h</m>
- and expand and simplify the result as much as possible by combining like terms.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Use part (a) to determine the most simplified expression you can for the average rate of change of <m>f</m>
- on the interval <m>[1,1+h]</m>.
- That is, determine <m>AV_{[1,1+h]}</m> for <m>f</m> 
- and simplify the result as much as possible.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Compute <m>g(1+h)</m>.
- Is there any valid algebra you can do to write 
- more simply?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Determine the most simplified expression you can for the average rate of change of <m>g</m>
- on the interval <m>[1,1+h]</m>.
- That is, determine <m>AV_{[1,1+h]}</m>
- for <m>g</m>
- and simplify the result.</p>
-      </statement>
-    </task>
-  </activity>
+    <assemblage>
+        <title>The vertex of a parabola</title>
 
+        <p>
+            The quadratic function <m>y=q(x) = ax^2+bx+c</m> has its vertex at
+            the <m>x-</m> coordinate <m>x = -\frac{b}{2a}</m>.
+        </p>
+
+        <p>
+            When <m>a&gt;0</m>, the graph opens upward, and thus the vertex is
+            the lowest point on the graph of <m>q</m> (see example on the left).
+            When <m>a&lt;0</m>, the graph opens downward, and so the vertex is
+            the highest point (see example on the right).
+        </p>
+
+        <p>
+            The graph is symmetric around the line <m>x = -\frac{b}{2a}</m>.
+        </p>
+    </assemblage>
+
+    <image source="images/1.5" width="50%"/>
+    <assemblage>
+        <title>Vertex form of a quadratic function</title>
+
+        <p>
+            A quadratic function with vertex <m>(h,k)</m> may be written in the
+            form <m>y = a(x-h)^2+k</m>.
+            The constant <m>a</m> may be determined from one other function
+            value for an input <m>x\ne h</m>.
+        </p>
+    </assemblage>
+
+    <activity>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find an equation for the parabola that has the vertex
+                    <m>(1,4)</m> and goes through the point <m>(3,2)</m>.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <p>
+        Just a note: objects that fall under the force of gravity, like
+        baseballs or water balloons or anything, can be modeled by quadratic
+        curves.
+    </p>
+
+    <p>
+        <term>Composite Functions</term>
+    </p>
+
+    <definition>
+        <title>Definition 1.6.2</title>
+
+        <statement>
+            <p>
+                If <m>f</m> and <m>g</m> are functions such that
+                <m>g:A\rightarrow B</m> and <m>f:B\rightarrow C</m>, we define
+                the <term>composition of <m>f</m> and <m>g</m></term> to be the
+                new function <m>h:A\rightarrow C</m> given by
+                <md>
+                    h(t) = f(g(t)).
+                </md>
+                We also sometimes use the notation <m>h = f\circ g</m>, where
+                <m>f\circ g</m> is the single function defined by
+                <m>(f\circ g)(t) = f(g(t))</m>.
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        <title>Activity 1.6.2</title>
+
+        <introduction>
+            <p>
+                Let functions <m>p</m> and <m>q</m> be given by the graphs below
+                (which are each piecewise linear - that is, parts that look like
+                straight lines are straight lines) and let <m>f</m> and <m>g</m>
+                be given by the table below.
+            </p>
+
+            <image source="images/1.6.2g" width="50%"/>
+            <image source="images/1.6.2t" width="50%"/>
+            <p>
+                Compute each of the following quantities or explain why they are
+                not defined.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>p(q(0))</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>q(p(0))</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(p\circ p)(-1)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(f\circ g)(2)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>(g\circ f)(3)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>g(f(0))</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    For what value(s) of <m>x</m> is <m>f(g(x)) = 4</m>?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    For what value(s) of <m>x</m> is <m>q(p(x)) = 1</m>?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <title>Activity 1.6.3. Context</title>
+
+        <introduction>
+            <p>
+                Let <m>F = D(N) = 40+0.25N</m> be Dolbear’s function that
+                converts an input of number of chirps per minute to degrees
+                Fahrenheit.
+            </p>
+
+            <p>
+                Let <m>C = G(F) = \frac{5}{9} (F-32)</m> be the function that
+                converts an input of degrees Fahrenheit to an output of degrees
+                Celsius.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Determine a formula for the new function <m>H = G(D(N))</m>
+                    that depends only on the variable <m>N</m>.
+                    That is <m>H</m> should equal some function of <m>N</m> and
+                    only <m>N</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What is the meaning of the function you found in (a)?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    How does a plot of the new function <m>H = G(D(N))</m>
+                    compare to that of Dolbear’s function?
+                    Sketch a plot of this new function <m>H</m> on the blank
+                    axes to the right of the plot of Dolbear’s function, and
+                    discuss the similarities and differences between them.
+                    Be sure to label the vertical scale on your axes.
+                </p>
+
+                <image source="images/1.6.3c" width="50%"/>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What is the domain of the function <m>H = G(D(N))</m>?
+                    What is its range?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <title>Activity 1.6.4</title>
+
+        <introduction>
+            <p>
+                Let <m>f(x) = 2x^2-3x+1</m> and <m>g(x) = \frac{5}{x}</m>.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Compute <m>f(1+h)</m> for an unknown variable <m>h</m> and
+                    expand and simplify the result as much as possible by
+                    combining like terms.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Use part (a) to determine the most simplified expression you
+                    can for the average rate of change of <m>f</m> on the
+                    interval <m>[1,1+h]</m>.
+                    That is, determine <m>AV_{[1,1+h]}</m> for <m>f</m> and
+                    simplify the result as much as possible.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Compute <m>g(1+h)</m>.
+                    Is there any valid algebra you can do to write more simply?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Determine the most simplified expression you can for the
+                    average rate of change of <m>g</m> on the interval
+                    <m>[1,1+h]</m>.
+                    That is, determine <m>AV_{[1,1+h]}</m> for <m>g</m> and
+                    simplify the result.
+                </p>
+            </statement>
+        </task>
+    </activity>
 </handout>

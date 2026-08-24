@@ -1,150 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handout>
-  <title>Section 1.3: Average Rate of Change of a Function</title>
+    <title>Section 1.3: Average Rate of Change of a Function</title>
 
-  <definition workspace="0.1in">
-    <title>Definition 1.3.4</title>
-    <statement>
-      <p>For a function <m>f</m> defined on an interval <m>[a,b]</m>, the <term>average rate of change of <m>f</m> on <m>[a,b]</m></term> is the quantity 
-<md> AV_{[a,b]} = \frac{f(b) - f(a)}{b-a}. </md></p>
-    </statement>
-  </definition>
+    <alert>
+        MTH 124
+    </alert>
 
-  <activity>
-    <title>Activity 1.3.2</title>
-    <introduction>
-      <p>According to the US census, the populations of Kent and Ottawa Counties in Michigan where GVSU is located from 1960 to 2010 measured in 10-year intervals are given in the following tables.</p>
-      <image source="images/1.3.2" width="50%"/>
-      <p>Let <m>K(Y)</m>
- represent the population of Kent County in year <m>Y</m>
- and <m>W(Y)</m>
- the population of Ottawa County in year <m>Y</m>.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Compute <m>AV_{[1990,2010]}</m>
- for both <m>K</m>
- and <m>W</m>.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>What are the units on each of the quantities you computed in (a.)?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Write a careful sentence that explains the meaning of the average rate of change of the Ottawa county population on the time interval <m>[1990,2010]</m>.
- Your sentence should begin something like “In an average year between 1990 and 2010, the population of Ottawa County was <m>\ldots</m>
-”</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Which county had a greater average rate of change during the time interval <m>[2000,2010]</m>?
- Were there any intervals in which one of the counties had a negative average rate of change?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Using the given data, what do you predict will be the population of Ottawa County in 2018? Why?</p>
-      </statement>
-    </task>
-  </activity>
+    <definition workspace="0in">
+        <title>Definition 1.3.4</title>
 
-  <definition workspace="0.15in">
-    <title>Definition 1.3.7</title>
-    <statement>
-      <p workspace="1cm">Given a function <m>f</m>, we say it
- is <term>increasing on the interval <m>(a,b)</m></term>
- provided:</p>
-      <p workspace="1cm">Similarly, we say that <m>f</m>
- is <term>decreasing on the interval <m>(a,b)</m></term>
- provided:</p>
-    </statement>
-  </definition>
+        <statement>
+            <p>
+                For a function <m>f</m> defined on an interval <m>[a,b]</m>, the
+                <term>average rate of change of <m>f</m> on <m>[a,b]</m></term>
+                is the quantity
+                <md>
+                    AV_{[a,b]} = \frac{f(b) - f(a)}{b-a}.
+                </md>
+            </p>
+        </statement>
+    </definition>
 
-  <activity>
-    <title>Activity 1.3.3. Function Trends</title>
-    <introduction>
-      <p>Let’s consider two different functions and see how different computations of their average rate of change tells us about their respective behavior. Plots of <m>q</m>
- and <m>h</m>
- are shown below. (Plot of <m>q</m> is on the left, <m>h</m> is on the right).</p>
-      <image source="images/1.3.3" width="50%"/>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Consider the function <m>q(x) = 4-(x-2)^2</m> shown in the left graph.
- Compute <m>AV_{[0,1]}</m>,
- <m>AV_{[1,2]}</m>,
- <m>AV_{[2,3]}</m>,
- and <m>AV_{[3,4]}</m>.
- What do your last two computations tell you about the behavior of the function <m>q</m>
- on the interval <m>[2,4]</m>]?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Consider the function <m>h(t) = 3-2(0.5)^t</m> shown in the right graph.
- Compute <m>AV_{[-1,1]}</m>,
- <m>AV_{[1,3]}</m>,
- and <m>AV_{[3,5]}</m>.
- What do your computations tell you about the behavior of the function <m>h</m>
- on the interval <m>[-1,5]</m>]?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>On the graphs on the previous page, plot the line segments whose respective slopes are the average rates of change you computed in (a) and (b).</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>True or false: Since <m>AV_{[0,3]} = 1</m>,
- the function <m>q</m>
- is increasing on the interval <m>(0,3)</m>.
- Justify your decision.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Give an example of a function that has the same average rate of change no matter what interval you choose. You can provide your example through a table, a graph, or a formula; regardless of your choice, write a sentence to explain.</p>
-      </statement>
-    </task>
-  </activity>
+    <p workspace="0.5in">
+        Think about it: what is this related to if you have two points?
+        (We will use this often! Take your own notes if you need to!)
+    </p>
 
-  <activity>
-    <title>Activity 1.3.4</title>
-    <introduction>
-      <p>Sketch at least two different possible graphs that satisfy the criteria for the function stated in each part. Make your graphs as significantly different as you can. If it is impossible for a graph to satisfy the criteria, explain why.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p><m>f</m> is a function defined on <m>[-1,7]</m>
- such that <m>f(1) = 4</m>
- and <m>AV_{[1,3]} = -2</m>.</p>
-        <image source="images/1.3.4" width="50%"/>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p><m>g</m> is a function defined on <m>[-1,7]</m>
- such that <m>g(4) =3</m>,
- <m>AV_{[0,4]} = 0.5</m>,
- and <m>g</m>
- is not always increasing on the interval <m>(0,4)</m>.</p>
-        <image source="images/1.3.4" width="50%"/>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p><m>h</m> is a function defined on <m>[-1,7]</m>
- such that <m>h(2) = 5</m>,
-<m>h(4) = 3</m> 
- and <m>AV_{[2,4]} = -2</m>.</p>
-        <image source="images/1.3.4" width="50%"/>
-      </statement>
-    </task>
-  </activity>
+    <activity>
+        <title>Activity 1.3.2</title>
 
+        <introduction>
+            <p>
+                According to the US census, the populations of Kent and Ottawa
+                Counties in Michigan where GVSU is located from 1960 to 2010
+                measured in 10-year intervals are given in the following tables.
+            </p>
+            <table>
+              <title>Kent County population data.</title>
+              <tabular>
+                <row bottom="minor">
+                  <cell>Year (<m>Y</m>)</cell>
+                  <cell>1960</cell>
+                  <cell>1970</cell>
+                  <cell>1980</cell>
+                  <cell>1990</cell>
+                  <cell>2000</cell>
+                  <cell>2010</cell>
+                </row>
+                <row>
+                  <cell>Population (<m>K(Y)</m>)</cell>
+                  <cell>363,187</cell>
+                  <cell>411,044</cell>
+                  <cell>444,506</cell>
+                  <cell>500,631</cell>
+                  <cell>574,336</cell>
+                  <cell>602,622</cell>
+                </row>
+              </tabular>
+            </table>
+
+                      <table>
+              <title>Ottawa County population data.</title>
+              <tabular>
+                <row bottom="minor">
+                  <cell>Year (<m>Y</m>)</cell>
+                  <cell>1960</cell>
+                  <cell>1970</cell>
+                  <cell>1980</cell>
+                  <cell>1990</cell>
+                  <cell>2000</cell>
+                  <cell>2010</cell>
+                </row>
+                <row>
+                  <cell>Population (<m>W(Y)</m>)</cell>
+                  <cell>98,719</cell>
+                  <cell>128,181</cell>
+                  <cell>157,174</cell>
+                  <cell>187,768</cell>
+                  <cell>238,313</cell>
+                  <cell>263,801</cell>
+                </row>
+              </tabular>
+            </table>
+
+            <p>
+                Let <m>K(Y)</m> represent the population of Kent County in year
+                <m>Y</m> and <m>W(Y)</m> the population of Ottawa County in year
+                <m>Y</m>.
+            </p>
+        </introduction>
+
+        <task workspace="1.3in">
+            <statement>
+                <p>
+                    Compute <m>AV_{[1990,2010]}</m> for both <m>K</m> and
+                    <m>W</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What are the units on each of the quantities you computed in
+                    (a)?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    Write a careful sentence that explains the meaning of the
+                    average rate of change of the Ottawa county population on
+                    the time interval <m>[1990,2010]</m>.
+                    Your sentence should begin something like “In an average
+                    year between 1990 and 2010, the population of Ottawa County
+                    was <m>\ldots</m> ”
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    Which county had a greater average rate of change during the
+                    time interval <m>[2000,2010]</m>?
+                    Were there any intervals in which one of the counties had a
+                    negative average rate of change?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    Using the given data, what do you predict will be the
+                    population of Ottawa County in 2018?
+                    Why?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <definition workspace="0.15in">
+        <title>Definition 1.3.7</title>
+
+        <statement>
+            <p workspace="1cm">
+                Given a function <m>f</m>, we say it is
+                <term>increasing on the interval <m>(a,b)</m></term> provided:
+            </p>
+
+            <p workspace="1cm">
+                Similarly, we say that <m>f</m> is
+                <term>decreasing on the interval <m>(a,b)</m></term> provided:
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        <title>Activity 1.3.3. Function Trends</title>
+
+        <introduction>
+            <p>
+                Let’s consider two different functions and see how different
+                computations of their average rate of change tells us about
+                their respective behavior.
+                Plots of <m>q</m> and <m>h</m> are shown below.
+                (Plot of <m>q</m> is on the left, <m>h</m> is on the right).
+            </p>
+            <sidebyside widths="30% 30%">
+              <image>
+                        <shortdescription>
+                            The parabola centered at (2,4) and opening down.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-1">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                              <definition> f(x)= 4 - (x-2)^2 </definition>
+                              <definition> g(x)=3 - 2*(0.5)^t</definition>
+                                <coordinates bbox="[-1,-1,5,5]">
+                                    <grid-axes xlabel="x" ylabel="y" hticks="(2,1,13)" vticks="(-5,1,14)"  
+                                    decorations="yes" hlabels="(2,2,12)" vlabels="(2,2,12)"/>
+                                    <graph function="f" domain="(0,5)"/>
+                                    <label anchor="(3,4.3)"><m>q(x)=4-(x-2)^2</m></label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                    <image>
+                        <shortdescription>
+                            The parabola centered at (2,4) and opening down.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-2">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                              <definition> f(x)= 4 - (x-2)^2 </definition>
+                              <definition> g(x)=3 - 2*(0.5)^x</definition>
+                                <coordinates bbox="[-1,-1,5,5]">
+                                    <grid-axes xlabel="x" ylabel="y" hticks="(2,1,13)" vticks="(-5,1,14)"  
+                                    decorations="yes" hlabels="(2,2,12)" vlabels="(2,2,12)"/>
+                                    <graph function="g"/>
+                                    <label anchor="(3,4.3)"><m>h(t)=3-2(0.5)^t</m></label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+            </sidebyside>
+
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Consider the function <m>q(x) = 4-(x-2)^2</m> shown in the
+                    left graph.
+                    Compute <m>AV_{[0,1]}</m>, <m>AV_{[1,2]}</m>,
+                    <m>AV_{[2,3]}</m>, and <m>AV_{[3,4]}</m>.
+                    What do your last two computations tell you about the
+                    behavior of the function <m>q</m> on the interval
+                    <m>[2,4]</m>?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Consider the function <m>h(t) = 3-2(0.5)^t</m> shown in the
+                    right graph.
+                    Compute <m>AV_{[-1,1]}</m>, <m>AV_{[1,3]}</m>, and
+                    <m>AV_{[3,5]}</m>.
+                    What do your computations tell you about the behavior of the
+                    function <m>h</m> on the interval <m>[-1,5]</m> ]?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    On the graphs in the introduction to this activity, plot the line segments
+                    whose respective slopes are the average rates of change you
+                    computed in (a) and (b).
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    True or false: Since <m>AV_{[0,3]} = 1</m>, the function
+                    <m>q</m> is increasing on the interval <m>(0,3)</m>.
+                    Justify your decision.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Give an example of a function that has the same average rate
+                    of change no matter what interval you choose.
+                    You can provide your example through a table, a graph, or a
+                    formula; regardless of your choice, write a sentence to
+                    explain.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <activity>
+        <title>Activity 1.3.4</title>
+
+        <introduction>
+            <p>
+                Sketch at least two different possible graphs that satisfy the
+                criteria for the function stated in each part.
+                Make your graphs as significantly different as you can.
+                If it is impossible for a graph to satisfy the criteria, explain
+                why.
+            </p>
+        </introduction>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    <m>f</m> is a function defined on <m>[-1,7]</m> such that
+                    <m>f(1) = 4</m> and <m>AV_{[1,3]} = -2</m>.
+                </p>
+                <sidebyside widths="35% 35%">
+                  <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-3">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-4,-4,16,16]">
+                                    <grid-axes spacings="((-4,1,16),(-4,1,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="no"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                    <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-4">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-4,-4,16,16]">
+                                    <grid-axes spacings="((-4,1,16),(-4,1,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="no"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+
+
+            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    <m>g</m> is a function defined on <m>[-1,7]</m> such that
+                    <m>g(4) =3</m>, <m>AV_{[0,4]} = 0.5</m>, and <m>g</m> is not
+                    always increasing on the interval <m>(0,4)</m>.
+                </p>
+
+    <sidebyside widths="35% 35%">
+                  <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-5">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-4,-4,16,16]">
+                                    <grid-axes spacings="((-4,1,16),(-4,1,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="no"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                    <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-6">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-4,-4,16,16]">
+                                    <grid-axes spacings="((-4,1,16),(-4,1,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="no"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    <m>h</m> is a function defined on <m>[-1,7]</m> such that
+                    <m>h(2) = 5</m>, <m>h(4) = 3</m> and <m>AV_{[2,4]} = -2</m>.
+                </p>
+
+    <sidebyside widths="35% 35%">
+                  <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-7">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-4,-4,16,16]">
+                                    <grid-axes spacings="((-4,1,16),(-4,1,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="no"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                    <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-8">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-4,-4,16,16]">
+                                    <grid-axes spacings="((-4,1,16),(-4,1,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="no"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>            </statement>
+        </task>
+    </activity>
 </handout>

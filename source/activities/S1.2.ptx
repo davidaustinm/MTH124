@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
   <title>Section 1.2: Functions: Modeling Relationships</title>
+  <alert>MTH 124</alert>
 
   <p>For ease of recall, here are 3 important definitions:</p>
 
-  <definition workspace="0.15in">
+  <definition workspace="0in">
     <title>Definition 1.2.4</title>
     <statement>
       <p>A <term>function</term> is a process that produces one and only one output value for any single input value.</p>
     </statement>
   </definition>
 
-  <definition workspace="0.15in">
+  <definition workspace="0in">
     <title>Definition 1.2.5</title>
     <statement>
       <p>Let <m>F</m>
@@ -24,7 +25,7 @@
     </statement>
   </definition>
 
-  <definition workspace="0.15in">
+  <definition workspace="0in">
     <title>Definition 1.2.6</title>
     <statement>
       <p>Let <m>F</m>
@@ -67,10 +68,10 @@
     <task workspace="1in">
       <statement>
         <p>Consider the claim: “since 
-<m>f(9) = \frac{\pi}{3} 9^2(12-9) = 81\pi \approx 254.47</m>, 
+<m>\ds f(9) = \frac{\pi}{3} 9^2(12-9) = 81\pi \approx 254.47</m>, 
  when the water is <m>9</m>
  meters deep, there is about <m>254.14</m>
- cubic meters of water in the tank”. Is this claim valid? Why or why not? Further, does it make sense to observe that “<m>f(13) = -\frac{169\pi}{3}</m> 
+ cubic meters of water in the tank”. Is this claim valid? Why or why not? Further, does it make sense to observe that “<m>\ds f(13) = -\frac{169\pi}{3}</m> 
 ”? Why or why not?</p>
       </statement>
     </task>
@@ -156,7 +157,50 @@
  is related to the <m>x</m>
 -value <m>-3</m>.
  In the right figure, an unfilled circle indicates that there is not a point on the graph at that specific location.</p>
-        <image source="images/1.2.4a" width="50%"/>
+                        <sidebyside widths="30% 30%">
+                    <image>
+                        <shortdescription>
+                            The graph of a circle centered at the origin with radius 4. 
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-2-3">
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-5,-5,5,5]">
+                                    <grid-axes hticks="(-5,1,5)" vticks="(-5,1,5)"  decorations="no"/>
+                                    <circle center="(0,0)" radius="4" stroke="blue"/>
+                                    <point p="(-3,sqrt(7))" offset="(0,-14)"> <m>(3,\sqrt7)</m> </point>
+                                    <point p="(-3,-sqrt(7))"/>
+                                    <label anchor="(-3,4.5)"><m>x^2+y^2 = 16</m></label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+   <image>
+                        <shortdescription>
+                            A piecewise function.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-2-4">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                              <definition> f(x)= -x^2+4 </definition>
+                              <definition> g(x)=3-x</definition>
+                                <coordinates bbox="[-2.5,-1.5,3.5,4.5]">
+                                    <grid-axes hticks="(-2,1,3)" vticks="(-5,1,5)"  decorations="yes"/>
+                                    <graph function="f" domain="(-5,1)"/>
+                                    <point p="(0,f(0))" fill="white" stroke="blue" />
+                                    <point p="(1,f(1))" fill="blue" stroke="blue" />
+                                    <point p="(0,1)" fill="blue" stroke="blue" />
+                                    <graph function="g" domain="(1,5)"/>
+                                    
+                                    <point p="(1,g(1))" fill="white" stroke="blue" />
+                                    <point p="(2,g(2))" fill="white" stroke="blue" />
+
+                                </coordinates>
+                    
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
       </statement>
     </task>
     <task workspace="1in">
@@ -196,6 +240,7 @@
     </task>
   </activity>
 
+<insight>
   <p><term>Vertical Line Test:</term> A graph in the plane represents a function if and only if every vertical line intersects the graph at most once. When the graph passes this test, the vertical coordinate of each point on the graph can be viewed as a function of the horizontal coordinate of the point.</p>
-
+</insight>
 </handout>
