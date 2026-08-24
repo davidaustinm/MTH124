@@ -75,9 +75,7 @@ seconds after it is thrown is given by a function <m>h(t)</m>.</p>
       <task workspace="1in">
         <statement>
           <p>The table below gives the velocity <m>v(t)</m> in 10 second intervals. Velocity is measured in feet per second (fps).</p>
-            <table>
-              <title>The velocity in 10 second intervals.</title>
-              <tabular>
+                <tabular>
                 <row bottom="minor">
                   <cell><term>Time in seconds</term></cell>
                   <cell>0</cell>
@@ -99,7 +97,6 @@ seconds after it is thrown is given by a function <m>h(t)</m>.</p>
                   <cell>176</cell>
                 </row>
               </tabular>
-            </table>
           <p>Find <m>AV_{[50,60]}</m>. What does it mean about the skydiver?</p>
         </statement>
       </task>

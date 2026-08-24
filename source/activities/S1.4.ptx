@@ -98,8 +98,6 @@
                     appears to be linear and find a formula for <m>f(x)</m>.
                 </p>
 
-                <table>
-                    <title>A function <m>f(x)</m> in table form.</title>
 
                     <tabular margins="0% 70%">
                         <row header="yes" bottom="minor">
@@ -127,7 +125,6 @@
                             <cell>-5</cell>
                         </row>
                     </tabular>
-                </table>
             </statement>
         </task>
 
