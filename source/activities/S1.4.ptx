@@ -307,10 +307,10 @@
             <statement>
                 <p>
                     Suppose we know that a <m>5</m>-year old car’s value is
-                    <m>\</m> 10200 <m>,
- and that after </m> 10
-                    <m>
- years its value is </m> \ <m>4600</m>.
+                    <m> 10200 </m>,
+ and that after <m> 10
+                    </m>
+ years its value is <m> 4600</m>.
                     Assuming that the car’s value depreciates linearly, find a
                     function <m>C=L(t)</m> whose output is the value of the car
                     in year <m>t</m>.

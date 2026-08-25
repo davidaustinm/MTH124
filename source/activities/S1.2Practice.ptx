@@ -64,7 +64,7 @@
                               <definition> g(x)=7/3*x-29/3</definition>
                               <definition> h(x) = -(x-8)+9</definition>
                                 <coordinates bbox="[-2,-2,13,13]">
-                                    <grid-axes spacings="((-2,1,13),(-2,1,13)" hticks="(-2,1,13)" vticks="(-2,1,13)"  
+                                    <grid-axes spacings="((-2,1,13),(-2,1,13))" hticks="(-2,1,13)" vticks="(-2,1,13)"  
                                     decorations="yes" hlabels="(2,2,12)" vlabels="(2,2,12)"/>
                                     <graph function="f" domain="(0,5)"/>
                                     <point p="(0,f(0))" fill="blue" stroke="blue" />

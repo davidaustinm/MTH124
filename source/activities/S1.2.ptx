@@ -219,7 +219,7 @@
  that is given in the following table where we attempt to view <m>y</m>
  as depending on <m>x</m>.</p>
         <tabular>
-          <row>
+          <row bottom="minor">
             <cell><m>x</m></cell>
             <cell>1</cell>
             <cell>2</cell>
