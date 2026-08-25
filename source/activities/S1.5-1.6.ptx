@@ -544,7 +544,7 @@
                         Be sure to label the vertical scale on your axes.
                     </p>
 
-                    <sidebyside widths="30% 30% 35%">
+                    <sidebyside widths="30% 30%" margins="0% 40%">
                         <image>
                             <shortdescription>
                                 A plot of Dolbear's function, a linear function
