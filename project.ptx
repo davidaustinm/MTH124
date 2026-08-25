@@ -17,7 +17,7 @@
     <!-- 
     <target name="slides-annotated" source="slides/slides.ptx" format="revealjs"
             publication="publication-slides-annotated.ptx" deploy-dir="slides-annotated"
-            output-filename="index.html"/>
+            output-filename="index.html"/>Í
     -->
 
 
