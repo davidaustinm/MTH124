@@ -169,8 +169,8 @@
                     <title>Class Meetings</title>
 
                     <p>
-                        M 12:00 - 12:50pm, MAK D-1-227
-                        TR 12:00 - 1:50pm, MAK BLL 118
+                        M 12:00 - 12:50pm, MAK D-1-227 TR 12:00 - 1:50pm, MAK
+                        BLL 118
                     </p>
                 </li>
 
@@ -178,23 +178,23 @@
                     <title>Office Hours</title>
 
                     <p>
-                        TBD
+                        Mondays 3:00 - 4:00pm (MAK A-2-610)
+                    </p>
+
+                    <p>
+                        Wednesdays 9:00 - 9:50am (MAK A-2-610)
+                    </p>
+
+                    <p>
+                        Thursdays 11:00 - 11:50am (MAK A-2-610)
                     </p>
                 </li>
 
                 <li>
-                    <title>Course Description</title>
+                    <title>Course web page</title>
 
                     <p>
-                        course description from catalog
-                    </p>
-                </li>
-
-                <li>
-                    <title>Prerequisite</title>
-
-                    <p>
-                        list of prerequisites
+                        <url href="https://lms.gvsu.edu">Blackboard</url>
                     </p>
                 </li>
 
@@ -202,22 +202,1177 @@
                     <title>Textbook and course materials</title>
 
                     <p>
-                        <pubtitle>textbook name</pubtitle> by textbook author.
+                        <url href="https://activecalculus.org/APC.html"><pubtitle>Active Prelude to Calculus</pubtitle></url>
+                        by Matt Boelkins, available online for free.
+                        It is in an interactive HTML version and downloadable as
+                        a PDF.
+                        Print copies are available if you want one.
+                        The print version of the
+                        <pubtitle>Active Prelude to Calculus
+                        Workbook</pubtitle>
+                        by Matt Boelkins is optional for this course, and can be
+                        found in the GVSU bookstore, or Amazon.
+                    </p>
+
+                    <p>
+                        Roughly every class period you will receive a worksheet
+                        that will serve as your notes and your practice and is
+                        something that you will want to refer back to throughout
+                        this course.
+                        It will be extremely wise to buy a three-ring notebook
+                        (you can get them very cheap at any dollar store), and
+                        keep all the worksheets together and in order.
                     </p>
                 </li>
             </dl>
         </p>
         <!-- Use paragraphs to break apart subsections -->
         <paragraphs>
-            <title>Course Overview</title>
+            <title>What to call me</title>
 
-            <p/>
+            <p>
+                Please call me Dr.
+                Bailey or Prof.
+                Bailey.
+                Please feel free to contact me at any time!
+                Email is the best way to reach me (
+                <url href="mailto:baileylo@gvsu.edu">baileylo@gvsu.edu</url> ).
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Email Policy</title>
+
+            <p>
+                I will check email several times a day Monday-Friday between
+                9am-5pm.
+                Please do not expect immediate responses or responses outside of
+                those times, and plan appropriately.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Office Hours</title>
+
+            <p>
+                Office hours are times I guarantee I will be available to you,
+                and do not require an appointment – walk right in!
+                Whether it be related to this course, or resources that you
+                might find useful, or career opportunities, or current events,
+                or...
+                This is time for you, and I'm happy to talk about whatever is on
+                your mind.
+            </p>
+
+            <p>
+                I understand these times may not be available for everyone, and
+                can meet with you by appointment (either in person or Zoom) –
+                just send me an email and we will find a time that works for
+                both of us.
+                I want you to succeed!
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>AI Policy</title>
+
+            <p>
+                This is complicated, and we'll talk about it in class, but
+                please don’t use generative AI to complete any assignments or to
+                check your work in this course.
+                You may think:
+                <ul>
+                    <li>
+                        <p>
+                            “I will be using AI in my career.” With the current
+                            state of AI, you won’t be using it to learn new ways
+                            of thinking, like we’re trying to do in our course.
+                            AI will help you develop an understanding of
+                            mathematics.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <q>I only use it to check my work when I don’t feel totally
+          confident.</q>
+                            I am part of a math education research study that
+                            investigates how students learn math from textbooks.
+                            Interviews with students clearly show how using AI
+                            causes students to become less confident over time
+                            since they come to trust what comes from AI more
+                            than they trust their own work.
+                            Learning will be challenging and facing challenges
+                            requires you to have the confidence that you can do
+                            it.
+                            Please don’t surrender the trust that you have in
+                            your own abilities.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+
+            <p>
+                Here is one research study, among many others:
+                <url href="https://www.media.mit.edu/publications/your-brain-on-chatgpt/">
+          <em>Your Brain on ChatGPT</em>.
+        </url>
+                From the abstract:
+                <blockquote>
+                    <em>
+                        Over four months, LLM users consistently underperformed at
+            neural, linguistic, and behavioral levels. These results
+            raise concerns about the long-term educational
+            implications of LLM reliance and underscore the need for
+            deeper inquiry into AI's role in learning.
+                    </em>
+                </blockquote>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Phone policy</title>
+
+            <p>
+                Inside our classroom, please keep your phone stored with your
+                belongings and away from your work space, unless you have an
+                exceptional situation such as concern for a friend or family
+                member.
+                This includes time when you are waiting for class to begin as
+                this provides everyone with the opportunity to develop
+                productive working relationships.
+            </p>
+
+            <p>
+                We live in an age where your attention is being monetized by
+                others, and it is not readily apparent the price that you are
+                paying.
+                An overwhelming amount of research, however, plainly shows how
+                disruptive this technology is to your learning.
+                <url href="https://www.nytimes.com/2018/10/26/style/phones-children-silicon-valley.html?unlocked_article_code=1.dk8.6ygB.2TOc7QaMEx3N=url-share">
+          “On the scale between candy
+          and crack cocaine, it’s closer to crack cocaine,” Mr. Anderson
+          [former editor of Wired magazine] said of screens.
+        </url>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Technology</title>
+
+            <p>
+                If you have a laptop/tablet/Chromebook, please bring it to
+                class.
+                We will not use it all the time, but we will use free tools,
+                such as Desmos, which is a free online calculator.
+                If you have your own calculator you would prefer to bring to
+                class, that is fine too.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Communication</title>
+
+            <p>
+                I will be posting assignments, activities, and other relevant
+                information on our course Blackboard page.
+                I will also be communicating with you frequently through email.
+                Please make sure that you check your Grand Valley email on a
+                daily basis.
+                Please don’t send messages to me through Blackboard’s messaging
+                system because I am unlikely to see them in a timely fashion.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Late work and deadline freebies</title>
+
+            <p>
+                While assignments will always have due dates, I recognize that
+                life happens and that you don’t owe me an explanation when it
+                does.
+                Throughout the semester, you are allowed to submit an assignment
+                late on three occasions provided you write to me beforehand and
+                let me know when you will complete it.
+                Please note that this policy does not apply to the final exam or
+                to learning target quizzes.
+                If you are habitually having a hard time handing things in on
+                time, please come and talk with me.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Attendance and making up attendance</title>
+
+            <p>
+                This is a fully in person class, and everyone is expected to
+                attend each day unless extenuating circumstances prevent
+                attendance.
+                Attendance will be a small part of your grade, but missing class
+                will also affect your ability to continue new content, as the
+                content builds on itself.
+                Please do not let yourself fall behind.
+            </p>
+
+            <p>
+                If you miss class up to four times, you do have an opportunity
+                to make up that attendance as well as keep on top of the work.
+                Firstly, please email Dr.
+                Bailey ASAP to let me know you will not be in class, as I worry
+                about you.
+                To make up the points themselves:
+                <ul>
+                    <li>
+                        <p>
+                            You have 4 vouches given to you on your first day of
+                            class on yellow paper.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Bring a voucher to the Math Tutoring Center in MAK
+                            A-2-601.
+                            More details below.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Work on the worksheet for the day you missed class
+                            with the help of the free tutors in the tutoring
+                            center.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Ask a tutor to sign a voucher, and bring that
+                            voucher and the activities you worked on to show me
+                            during the next class or during office hours.
+                        </p>
+                    </li>
+                </ul>
+                If you miss more than four days of class, you should really be
+                talking to Dr.
+                Bailey.
+                Attendance is critical to your success in this class, as well as
+                the success of those around you.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Math Tutoring Center</title>
+
+            <p>
+                GVSU’s Math Tutoring Center offers both in-person and online
+                drop-in tutoring this semester, starting Wednesday, September 2.
+                You can access the most up-to-date information on
+                <url href=" http://gvsu.edu/tutoring/math/">
+          our website.
+        </url>
+                There you will find our current hours, information on how to
+                access online tutoring with Discord Voice and a schedule of when
+                you can find tutors to help with your specific course.
+                Bring questions to any center about using technology (calculator
+                or Desmos), on methods and concepts, or on specific problems.
+                All Math Center tutoring is FREE, so stop by early and often.
+            </p>
+
+            <p>
+                The Math Tutoring Center offers:
+                <ul>
+                    <li>
+                        <p>
+                            in-person tutoring on the Allendale campus (MAK
+                            A-2-601): Monday – Thursday 10am – 5pm and Friday
+                            10am – 2pm
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            in-person tutoring on the Pew campus (Steelcase
+                            Library Collaboration Zone DeVos A): Tuesday –
+                            Thursday 12pm – 4pm (check website, hours can
+                            change)
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            online tutoring via Discord Voice: Sunday – Thursday
+                            5pm – 8pm.
+                        </p>
+                    </li>
+                </ul>
+                To access virtual drop-in tutoring, you can use the link in your
+                Blackboard course called Math Tutoring Center or visit our
+                website.
+                Then you will need to click on the “Online Math Tutoring Center”
+                button, which will require a GVSU login.
+                We ask that when you enter our Discord server, please change
+                your username to your first and last name so we can get you
+                signed in and connected with a tutor.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Tutoring and Reading Center Appointments</title>
+
+            <p>
+                GVSU’s Tutoring and Reading Center offers appointment tutoring
+                both in-person and virtually.
+                You can sign up for 50-minute tutoring appointments for many
+                Math courses.
+                <url href="https://www.gvsu.edu/trc/">
+        Request a tutor here
+      </url>
+                or schedule directly on
+                <url href="https://www.gvsu.edu/navigate">
+        Navigate.
+      </url>
+            </p>
+        </paragraphs>
+    </subsection>
+
+    <subsection xml:id="subsec-">
+        <title>About this course</title>
+
+        <paragraphs>
+            <title>What is PreCalculus?</title>
+
+            <p>
+                Precalculus is meant to prepare GVSU students for calculus.
+                The focus is to understand how math can be used to model and
+                help us better understand the world around us.
+                Math is less about the right answer, and much more about
+                reasoning, critical thinking, problem solving, and making
+                connections.
+                Important goals of this class are also to be able to work
+                creatively and independently, and to collaborate and communicate
+                well with others.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Course Description from the Catalog</title>
+
+            <p>
+                Study of preparatory material for calculus using symbolic
+                algebra and trigonometry for solving equations, representing
+                functions, and modeling, plus appropriate technology.
+                Core topics: concept of function, average rate of change of a
+                function, inverse and composite functions, trigonometric
+                functions, exponential and logarithmic functions, and right
+                triangle trigonometry.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Course Objectives</title>
+
+            <p>
+                After successful completion of this course, you will be able to…
+                <ol>
+                    <li>
+                        <p>
+                            Demonstrate broad algebraic and trigonometric skills
+                            for manipulations expressions, solving equations,
+                            and understanding and representing functions, along
+                            with graphical and numerical perspectives that
+                            support analytical work.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Identify the average rate of change of a function
+                            and be able to compute and interpret it, with units,
+                            in a wide range of settings.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Demonstrate communication and problem-solving skills
+                            that enable you to meaningfully investigate,
+                            discuss, and solve authentic problems using proper
+                            language, syntax, and notation, both orally and in
+                            writing.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Demonstrate understanding of the concept of a
+                            function, and use functions to build models of
+                            real-world quantitative phenomena.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Use a variety of computing technology as tools for
+                            making sense of mathematical concepts, creating and
+                            exploring models, and developing communications
+                            skills.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Workload</title>
+
+            <p>
+                This is a five-credit class, which carries an expectation of
+                roughly 10 hours of work each week outside of class.
+                This course also aims to prepare you for calculus, and will help
+                you hone skills such as critical thinking, problem solving,
+                communication of complex ideas, or working with others.
+                It is more important than ever to be able to solve non-routine
+                problems and be confident in learning new ideas.
+                If you work to make sense of ideas, you will be able to think
+                creatively in new ways.
+            </p>
+
+            <p>
+                You should therefore expect to work hard for this course.
+                <em>Please do not allow yourself to fall behind</em> —you will
+                find it much more difficult to catch up than to stay on top of
+                the material.
+                I have high expectations of you in this course and will provide
+                a lot of support to help you realize them.
+            </p>
+
+            <p>
+                Questions are always encouraged, never judged, and always
+                answered to the best of abilities.
+            </p>
         </paragraphs>
     </subsection>
     <!-- Other subsections for larger dividers -->
     <subsection xml:id="sec-assessments">
         <title>Assessments and Grades</title>
 
-        <p/>
+        <paragraphs>
+            <title>The overall grades</title>
+
+            <p>
+                Assigning grades is the probably the most frustrating aspect of
+                teaching.
+                Each of you is a unique learner who brings a different
+                perspective and background into our course.
+                It’s therefore important to build some flexibility into any
+                grading scheme.
+                Given below is the percentage required to obtain a particular
+                grade.
+                However, I reserve the right to raise your grade if I see that
+                you are working diligently and that you grow intellectually
+                during the semester.
+            </p>
+
+            <tabular>
+                <row bottom="minor">
+                    <cell>A</cell>
+                    <cell>A-</cell>
+                    <cell>B+</cell>
+                    <cell>B</cell>
+                    <cell>B-</cell>
+                    <cell>C+</cell>
+                    <cell>C</cell>
+                    <cell>C-</cell>
+                    <cell>D+</cell>
+                    <cell>D</cell>
+                    <cell>F</cell>
+                </row>
+
+                <row>
+                    <cell>93%</cell>
+                    <cell>90%</cell>
+                    <cell>87%</cell>
+                    <cell>83%</cell>
+                    <cell>80%</cell>
+                    <cell>77%</cell>
+                    <cell>73%</cell>
+                    <cell>70%</cell>
+                    <cell>67%</cell>
+                    <cell>63%</cell>
+                    <cell><m>\lt</m> 63%</cell>
+                </row>
+            </tabular>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Determination of Grades</title>
+
+            <p>
+                Your grade in this class will be determined in the following
+                way:
+                <dl>
+                    <li>
+                        <title>Daily Prep (DP) - 5%</title>
+
+                        <p>
+                            There will be an assignment due before class on
+                            Tuesdays and Thursdays that is meant to get you
+                            thinking about the content.
+                            They will be accessible in Desmos, and the questions
+                            will be graded based on effort and participation,
+                            not correctness.
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Attendance (A) - 5%</title>
+
+                        <p>
+                            I will take attendance in this class and it will
+                            count towards your grade.
+                            You can make up up to four missed classes by
+                            following the instructions above in the section
+                            "Attendance and making up attendance."
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Online Homework or WeBWorK (WW) - 10%</title>
+
+                        <p>
+                            WeBWork is an online homework platform.
+                            There will be a WeBWork set each week consisting of
+                            10 exercises per set, relating to the content of the
+                            course.
+                            Each exercise is worth 1 point, and so each set will
+                            be worth 10 points.
+                            For each problem, you will have 8 attempts to
+                            answer; before you reach your 8th try, come and talk
+                            to me!
+                            Your lowest WeBWork score will be dropped.
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Written Homework (HW) - 24%</title>
+
+                        <p>
+                            Homework problems are more extended and involved
+                            multi-part problems to solve that involve a formal
+                            writeup.
+                            You are expected to give solutions, not just
+                            answers.
+                            Each problem is marked on a scale of 10 points, and
+                            there will be approximately 1 per week.
+                            You can resubmit up to 2 problems per week on
+                            problems that were submitted on time (or with a
+                            deadline extension) and completed with effort.
+                        </p>
+                        <p>
+                            Please see the "Written work expectations" section below.
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Targets (T) - 36%</title>
+
+                        <p>
+                            Each week Monday in class you’ll complete a weekly
+                            checkpoint to assess your understanding of up to 4
+                            CORE learning targets in the course.
+                            The 12 learning targets are outlined below in the
+                            next section.
+                            Each target receives “Excellent,” “Satisfactory,” or
+                            “Not Yet.”
+                        </p>
+
+                        <p>
+                            You’ll have two attempts at each of the 12 CORE
+                            learning targets in class on Mondays over two
+                            consecutive checkpoints.
+                            If you earn “Excellent” target 1 on the one
+                            checkpoint, you do not need to answer that target’s
+                            question on the next checkpoint, but if you receive
+                            a “Satisfactory” or “Not Yet”, you have one more
+                            checkpoint to earn an “Excellent” mark.
+                            If you need a third attempt on a target, you need to
+                            come to see me within two weeks of getting back the
+                            feedback.
+                        </p>
+
+                        <p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        “E” = “Excellent”: you get full credit
+                                        for this target, 1 point out of 1 point,
+                                        so each “E” target is worth 3% of your
+                                        total grade.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        “S” = “Satisfactory”: you are very close
+                                        to an “Excellent”, but there is
+                                        something that still can be improved,
+                                        0.75 points out of 1 point.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        “NY” = “Not Yet”: you don’t quite have
+                                        it yet, but have opportunities to try
+                                        again, 0 points out of 1 point.
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Final Exam - 20%</title>
+
+                        <p>
+                            The final exam will consist of questions that
+                            address big-picture ideas in the course.
+                            More details to come.
+                        </p>
+                    </li>
+                </dl>
+            </p>
+        </paragraphs>
+
+    <paragraphs>
+        <title>CORE Learning Targets</title>
+        <p>
+            The following are the 12 Core Learning Targets for this semester. The successful demonstration of Excellence (E) on one of these targets is worth 3% of your semester grade, therefore Excellence on all the targets is worth 36% of your grade. You will have up to 2 attempts at each of these targets during your weekly checkpoints, where each week up to 4 targets may appear. You may have an additional attempt during office hours, or during an appointment with Dr. Bailey. Once you have demonstrated Excellence for a specific target on a weekly checkpoint, you will no longer need to answer the question related to that target on the other checkpoints. 
+        <ol>
+            <li>
+                <p>
+                            I can use function notation, find and simplify the output of a function given an input, and find an input that produces a given output; I can do this for functions given by a formula, a table, and a graph.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can find the average rate of change in a function on a given interval and state the units and interpret the meaning of the average rate of change in applied contexts.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can find an equation for any linear function in point-slope and slope-intercept form, given appropriate data or information.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can find and simplify values of the composition of two functions.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can determine whether a function has an inverse and find values of the inverse given input-output pairs of the original.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can generate an accurate, labeled graph of a circular function given appropriate information about the circle being traversed, and describe key features of the function.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can find the amplitude, period, and midline of a transformed version of the basic sine or cosine function; and I can find the formulas for transformed versions of the basic sine or cosine function that have certain described properties.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    Given two points or an appropriate collection of features, I can find a formula for an exponential function that has those characteristics.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can identify the intervals where a function is increasing, decreasing, concave down, or concave up, and I can provide examples of familiar functions that have given increasing / decreasing and concave down / concave up behaviors.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can find exact values for exponential models and exact values of solutions to equations involving exponential and logarithmic expressions in contextual settings.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    Given a right triangle with partial information about its sides and angles, I can determine the missing information for the remaining sides and angles, even if the quantities involve an unknown variable.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can identify the degree, coefficients, constant and linear terms, and leading coefficient of a polynomial, and identify zeroes, the multiplicity of zeroes, and turning points of a polynomial given its graph.
+
+                </p>
+            </li>
+        </ol>
+
+        </p>
+        
+    </paragraphs>
+
+        <paragraphs>
+            <title>Written work expectations</title>
+
+            <p>
+                One important part of mathematics is its emphasis on the clear
+                and careful presentation of reasoning.
+                This includes clearly stating the problem, making important
+                observations in complete sentences, writing additional thoughts
+                to clarify symbolic expressions, and showing a clear overall
+                progression from problem to solution.
+                The quality of your communication will count in all of your
+                graded work.
+                You will generally be marked on the methods used to solve a
+                problem rather than just the final answer; answers alone will
+                receive little credit.
+                Therefore, it is very important that you include all of your
+                work when writing a solution.
+                The clarity with which you express your thinking will be an
+                important part of your grade as well.
+            </p>
+
+            <p>
+                Please take advantage of the opportunity to resubmit homework
+                assignments after incorporating my feedback.
+                I want you to be motivated from <em>within</em>, not by a
+                somewhat arbitrary grade, and I want to allow you the
+                opportunity to make mistakes and learn from them.
+                It is my belief that you will learn more if you are internally
+                motivated and able to resubmit your work.
+            </p>
+
+            <p>
+                "The goal of training a mathematician is not achieved by
+                producing correct homework." ~Terry Tao.
+                Terry Tao is a very famous mathematician.
+                You can read his full essay for free,
+                <url href="https://arxiv.org/pdf/2608.16753"><pubtitle>Mathematics in the Age of AI</pubtitle></url>.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Feedback or concerns</title>
+
+            <p>
+                Any thoughts, concerns, ideas are welcome, including those
+                concerning either your performance or mine.
+                Please let me know if there is something that is working well
+                for you or if I can be doing better.
+            </p>
+        </paragraphs>
+    </subsection>
+
+    <subsection xml:id="subsec-Other-Information">
+        <title>Other Information</title>
+
+        <paragraphs>
+            <title>Resources</title>
+
+            <p>
+                I am a resource for you, and so are your classmates.
+                You may also need help with other aspects of life that go beyond
+                our coursework.
+                <ul>
+                    <li>
+                        <p>
+                            If you have special needs because of learning,
+                            physical, or other disabilities, please contact
+                            <url href="https://www.gvsu.edu/accessibility">
+                Student Accessibility Resources.
+              </url>
+                            They will help arrange accommodations; please inform
+                            me of any ways I can be supportive.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            If you have difficulty affording groceries or
+                            accessing sufficient food to eat every day, or if
+                            you lack a safe and stable place to live, I
+                            encourage you to visit
+                            <url href="https://www.gvsu.edu/basic/">
+                Replenish,
+              </url>
+                            a food and living resource for GVSU students.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Mental health concerns, including overwhelming
+                            stress, excessive worry, difficulty participating in
+                            daily activities, and changes in mood, appetite, or
+                            sleep patterns can interfere with your academic
+                            performance.
+                            College student surveys report that roughly 1 out of
+                            3 students screen positive for a current mental
+                            health concern (Healthy Minds Study).
+                            GVSU values your health and wellness and provides
+                            services to support your mental health.
+                            If you would like mental health support or are
+                            concerned for another member of our campus
+                            community, reach out to the
+                            <url href="https://www.gvsu.edu/counsel">
+                University Counseling Center
+              </url>
+                            for free resources, self-help options, and services.
+                            Also, visit
+                            <url href="https://www.gvsu.edu/studentwellness/">
+                Campus Recreation &amp; Wellness
+              </url>
+                            for additional health and wellness programming.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            If you are comfortable doing so, you are welcome to
+                            speak with me about your circumstances so that I can
+                            advocate for you and connect you with other campus
+                            resources.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Key Dates</title>
+
+            <p>
+                <dl>
+                    <li>
+                        <title>September 4</title>
+
+                        <p>
+                            Last Day to Add or Drop (5pm)
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>September 25</title>
+
+                        <p>
+                            75% Tuition Refund deadline
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>October 22</title>
+
+                        <p>
+                            Mid-term Grades available
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>October 26-27</title>
+
+                        <p>
+                            Fall Break (no classes)
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>November 13</title>
+
+                        <p>
+                            Withdrawal Deadline (5pm)
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>November 25-29</title>
+
+                        <p>
+                            Thanksgiving Recess (no classes)
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>December 12</title>
+
+                        <p>
+                            Classes End
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>December 14-18</title>
+
+                        <p>
+                            Final Exams (see Registrar page for schedule)
+                        </p>
+                    </li>
+                </dl>
+            </p>
+
+            <p>
+                More information is available at the
+                <url href="https://www.gvsu.edu/registrar/academiccalendar.htm">
+        University academic calendar.
+      </url>
+            </p>
+
+            <p>
+                Please inform me if you withdraw from the class.
+                If you stop working on assignments or logging into Blackboard,
+                you are NOT automatically withdrawn from the course.
+                Failure to follow proper withdrawal procedures will result in a
+                grade of F.
+            </p>
+        </paragraphs>
+    
+    <paragraphs>
+        <title>General Education Requirements</title>
+        <p>
+            This course satisfies the Mathematical Sciences Foundation requirement for the <url href="https://www.gvsu.edu/gened/">General Education program</url>. In particular:
+            <em>The General Education program prepares students for informed citizenship, leading to responsible participation in local, national, and global communities.</em>
+        </p>
+        <p>
+            Knowledge Student Learning Outcomes
+            <ol>
+                <li>
+                    <p>
+                        Explain principles and questions that define computer science, logic, mathematics, or statistics.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Apply techniques for problem solving including recognition of key elements, the choice of suitable methods
+for solving a problem, and the appropriate application of these methods.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Essential Skills Student Learning Outcomes
+            <ol>
+                <li>
+                    <p>
+                        Collaboration: Effectively work on a team. 
+                    
+                    <ul>
+                        <li>
+                            <p>
+                                Creates an environment in which everyone feels they can contribute as well as constructively
+building on or synthesizing the contributions of others. Notices when someone is not participating and
+works to engage them. Provides a way to assess and address team members' concerns as the project
+proceeds.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Participates in creating a plan that effectively utilizes members' strengths or helps them develop
+new skills, clearly articulates and allocates roles and tasks to meet deadlines, and establishes a
+mutually agreed upon accountability system.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Completes all assigned tasks by the deadline, revising and adjusting plans as needed; proactively
+helps other team members complete their assigned tasks.
+                            </p>
+                        </li>
+                    </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Quantitative Literacy: Work effectively with numerical data.
+                        <ul>
+                            <li>
+                                <p>
+                                    Calculations are correct, solve the problem, and are presented clearly and concisely.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Skillfully converts data into an insightful mathematical portrayal in a way that contributes to a
+deeper understanding.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Uses the quantitative analysis of data as the basis for deep and thoughtful judgments, drawing
+insightful, carefully qualified conclusions.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </paragraphs>
+
+        <paragraphs>
+            <title>University Policies</title>
+
+            <p>
+                This course is subject to these
+                <url href="http://www.gvsu.edu/coursepolicies/">
+              GVSU policies.
+            </url>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Academic Integrity Policies</title>
+
+            <p>
+                Students are expected to be familiar with and comply with GVSU’s
+                academic misconduct policies and procedures (sections 5.1 and
+                6.1) in the
+                <url href="https://www.gvsu.edu/policies/category.htm?categoryId=2D0C8EF7-9959-9B01-959C403E725313F3">
+              Student Code: The Anchor of
+              Student Rights and Responsibilities.
+            </url>
+                I generally have a zero-tolerance policy for academic
+                misconduct, and all suspected violations will result in a
+                referral to the Student Integrity Team in the
+                <url href="https://www.gvsu.edu/dso/">
+              Dean of Students Office.
+            </url>
+                If you have any doubts or questions about what constitutes
+                academic misconduct, please do not hesitate to contact me.
+            </p>
+
+            <p>
+                Plagiarism: Any ideas or material taken from another source for
+                either written or oral presentation must be fully acknowledged.
+                Offering the work of someone else as one’s own is plagiarism.
+                The language or ideas taken from another may range from isolated
+                formulas, sentences, or paragraphs to entire articles copied
+                from books, periodicals, speeches, or the writing of other
+                students.
+                The offering of materials assembled or collected by others in
+                the form of projects or collections without acknowledgment also
+                is considered plagiarism.
+                Any student who fails to give credit in written or oral work for
+                the ideas or materials that have been taken from another is
+                guilty of plagiarism.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Classroom and Campus Safety</title>
+
+            <p>
+                Classroom and campus safety are our shared responsibility.
+                Please familiarize yourself with the classroom emergency
+                placard, which contains important information that could prove
+                useful should an emergency arise.
+                Emergency situations could include a fire alarm, tornado
+                warning, medical emergency, or hostile intruder, and our
+                response might consist of evacuating MAK Hall in an orderly
+                manner, moving as a group to a different location in the
+                building, rendering assistance to a class member, or staying put
+                and locking the classroom door.
+                Please make sure to have your primary mobile number listed in
+                Banner so that you will automatically receive any campus alerts.
+            </p>
+
+            <p>
+                Additional information about campus safety can be found at the
+                following sites:
+                <ul>
+                    <li>
+                        <p>
+                            Directions for
+                            <url href="https://www.gvsu.edu/dps/warnings-and-alerts-133.htm">
+                  enabling additional contact means</url>
+                            to the campus alert system.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <url href="https://www.gvsu.edu/emergency/">
+                    Emergency alert information
+                  </url>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            List of campus
+                            <url href="https://www.gvsu.edu/emergency/tornado-safety-location-2.htm">
+                    tornado safety locations
+                  </url>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <url href="https://www.gvsu.edu/emergency/medical-emergency-15.htm">
+                    ﻿﻿Medical emergencies
+                  </url>
+                            and
+                            <url href="https://www.gvsu.edu/emergency/automated-external-defibrillator-33.htm">
+                    campus AED locations:
+                  </url>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <url href="https://www.gvsu.edu/dps/active-shooter-response-85.htm">
+                    ﻿﻿Active shooter response
+                  </url>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Religious Accomodation</title>
+
+            <p>
+                In accordance with the
+                <url href="https://www.gvsu.edu/policies/policy.htm?policyId=129535EB-9F42-2683-61E9033594C870D2">
+              Religious Inclusion Policy,
+            </url>
+                GVSU will provide reasonable accommodations for faculty, staff
+                and students to observe their religious beliefs, except where
+                accommodating the request would result in undue hardship on the
+                University in its mission, operation or in meeting its academic
+                standards.
+                If you would like to request a reasonable accommodation, please
+                complete this form and submit it to your professor within the
+                first two weeks of each semester or as soon as reasonably
+                possible.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Changes</title>
+
+            <p>
+                I reserve the right to make changes to this syllabus.
+                Any changes made will be announced on Blackboard and in class as
+                well as marked in this file.
+            </p>
+        </paragraphs>
     </subsection>
 </section>

@@ -284,12 +284,14 @@
             <p>
                 Suppose <m>f</m> is a function with <m>f(3)=4</m> and <m>g</m>
                 is a function with <m>g(4)=5</m>.
-                Let's look at
+                Let's find
                 <md>
                     g(f(3)).
                 </md>
-                Since we work from the inside out, and we know <m>f(3)=4</m>, we
-                can replace <m>f(3)</m> with <m>4</m>, and so we can simplify
+                That is, we want to find "<m>g</m> or <m>f</m> of <m>3</m>." Since we work from the inside out, we will
+                plug <m>3</m> into <m>f</m> and then whatever that outputs we plug back into <m>g</m>.
+                We know <m>f(3)=4</m>, so we
+                can replace <m>f(3)</m> with <m>4</m>. Then we can simplify
                 just that part first:
                 <md>
                     g(f(3)) = g(4).
@@ -319,9 +321,9 @@
             <introduction>
                 <p>
                     Let functions <m>p</m> and <m>q</m> be given by the graphs
-                    below (which are each piecewise linear - that is, parts that
+                    below on the left (which are each piecewise linear - that is, parts that
                     look like straight lines are straight lines) and let
-                    <m>f</m> and <m>g</m> be given by the table below.
+                    <m>f</m> and <m>g</m> be given by the table below. (They're unrelated to each other.)
                 </p>
 
                 <sidebyside widths="30% 70%">
