@@ -128,7 +128,93 @@
 
     <subsection xml:id="sec-course-info">
         <title>Course Information</title>
-
+            <paragraphs>
+        <title>Timing</title>
+        <p>
+            This is what you should expect every week. If this changes for whatever reason, I will announce it on Blackboard and in class.
+            
+        </p>
+        <tabular>
+                <row header="yes" bottom="major">
+                    <cell></cell>
+                    <cell>Monday</cell>
+                    <cell>Tuesday</cell>
+                    <cell>Wednesday</cell>
+                    <cell>Thursday</cell>
+                    <cell>Friday</cell>
+                </row>
+                <row>
+                    <cell>9 - 10</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell><em>Office Hours, A-2-610</em></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>10 - 11</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                
+                </row>
+                <row>
+                    <cell>11-12</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell><em>Office Hours, A-2-610</em></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>12-1</cell>
+                    <cell>Class, D-1-227</cell>
+                    <cell>Class, BLL 118</cell>
+                    <cell></cell>
+                    <cell>Class, BLL 118</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>1-2</cell>
+                    <cell></cell>
+                    <cell>Class, BLL 118</cell>
+                    <cell></cell>
+                    <cell>Class, BLL 118</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>2-3</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row bottom="major">
+                    <cell>3-4</cell>
+                    <cell><em>Office Hours, A-2-610</em></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row >
+                    <cell>Assignments Due</cell>
+                    <cell>Target quiz by end of class</cell>
+                    <cell><p>Daily Prep by 10:30am,</p><p>WW by beginning of class</p>
+                    </cell>
+                    <cell></cell>
+                    <cell><p>Daily Prep by 10:30am,</p><p>HW by beginning of class</p></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+    </paragraphs>
+<paragraphs>
+    <title>Detail Overview</title>
+    
+    
         <p>
             <!-- use a description list (dl) for short items -->
             <dl>
@@ -226,6 +312,7 @@
                 </li>
             </dl>
         </p>
+        </paragraphs>
         <!-- Use paragraphs to break apart subsections -->
         <paragraphs>
             <title>What to call me</title>
@@ -704,6 +791,7 @@
                 </row>
             </tabular>
         </paragraphs>
+
 
         <paragraphs>
             <title>Determination of Grades</title>
