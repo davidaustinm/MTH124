@@ -18,6 +18,7 @@
 
       <!-- Course syllabus -->
       <xi:include href="./syllabus/syllabus.ptx" />
+      <xi:include href="./syllabus/timing.ptx" />
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 

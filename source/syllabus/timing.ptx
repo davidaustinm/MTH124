@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="timing" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Weekly Timing and What to Expect</title>
+
+    <alert>
+        MTH 124
+    </alert>
+
+
+
+
+        <paragraphs>
+            <title>Timing</title>
+
+            <p>
+                This is what you should expect every week.
+                If this changes for whatever reason, I will announce it on
+                Blackboard and in class. Recall that the Math Tutoring center 
+                is free to you and can be a great resource for you as well!
+            </p>
+
+            <tabular>
+                <row header="yes" bottom="major">
+                    <cell/>
+                    <cell>Monday</cell>
+                    <cell>Tuesday</cell>
+                    <cell>Wednesday</cell>
+                    <cell>Thursday</cell>
+                    <cell>Friday</cell>
+                </row>
+
+                <row>
+                    <cell>9 - 10</cell>
+                    <cell/>
+                    <cell/>
+                    <cell><em>Office Hours, A-2-610</em></cell>
+                    <cell/>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>10 - 11</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>11-12</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell><em>Office Hours, A-2-610</em></cell>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>12-1</cell>
+                    <cell>Class, D-1-227</cell>
+                    <cell>Class, BLL 118</cell>
+                    <cell/>
+                    <cell>Class, BLL 118</cell>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>1-2</cell>
+                    <cell/>
+                    <cell>Class, BLL 118</cell>
+                    <cell/>
+                    <cell>Class, BLL 118</cell>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>2-3</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+
+                <row bottom="major">
+                    <cell>3-4</cell>
+                    <cell><em>Office Hours, A-2-610</em></cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+
+                <row>
+                    <cell>Assignments Due</cell>
+                    <cell>Target quiz by end of class</cell>
+                    <cell>
+                        <p>
+                            Daily Prep by 10:30am,
+                        </p>
+
+                        <p>
+                            WW by beginning of class
+                        </p>
+                    </cell>
+                    <cell/>
+                    <cell>
+                        <p>
+                            Daily Prep by 10:30am,
+                        </p>
+
+                        <p>
+                            HW by beginning of class
+                        </p>
+                    </cell>
+                    <cell/>
+                </row>
+            </tabular>
+        </paragraphs>
+
+
+
+
+    
+
+
+
+        <paragraphs>
+            <title>Late work and deadline freebies</title>
+
+            <p>
+                While assignments will always have due dates, I recognize that
+                life happens and that you don’t owe me an explanation when it
+                does.
+                Throughout the semester, you are allowed to submit an assignment
+                late on three occasions provided you <em>write to me beforehand and
+                let me know when you will complete it</em>.
+                Please note that this policy does not apply to the final exam or
+                to learning target quizzes.
+                If you are habitually having a hard time handing things in on
+                time, please come and talk with me.
+            </p>
+        </paragraphs>
+
+
+        <paragraphs>
+            <title>Math Tutoring Center</title>
+
+            <p>
+                GVSU’s Math Tutoring Center offers both in-person and online
+                drop-in tutoring this semester, starting Wednesday, September 2.
+                You can access the most up-to-date information on
+                <url href=" http://gvsu.edu/tutoring/math/">
+          our website.
+        </url>
+                There you will find our current hours, information on how to
+                access online tutoring with Discord Voice and a schedule of when
+                you can find tutors to help with your specific course.
+                Bring questions to any center about using technology (calculator
+                or Desmos), on methods and concepts, or on specific problems.
+                All Math Center tutoring is FREE, so stop by early and often.
+            </p>
+
+            <p>
+                The Math Tutoring Center offers:
+                <ul>
+                    <li>
+                        <p>
+                            in-person tutoring on the Allendale campus (MAK
+                            A-2-601): Monday – Thursday 10am – 5pm and Friday
+                            10am – 2pm
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            in-person tutoring on the Pew campus (Steelcase
+                            Library Collaboration Zone DeVos A): Tuesday –
+                            Thursday 12pm – 4pm (check website, hours can
+                            change)
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            online tutoring via Discord Voice: Sunday – Thursday
+                            5pm – 8pm.
+                        </p>
+                    </li>
+                </ul>
+                To access virtual drop-in tutoring, you can use the link in your
+                Blackboard course called Math Tutoring Center or visit our
+                website.
+                Then you will need to click on the “Online Math Tutoring Center”
+                button, which will require a GVSU login.
+                We ask that when you enter our Discord server, please change
+                your username to your first and last name so we can get you
+                signed in and connected with a tutor.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Tutoring and Reading Center Appointments</title>
+
+            <p>
+                GVSU’s Tutoring and Reading Center offers appointment tutoring
+                both in-person and virtually.
+                You can sign up for 50-minute tutoring appointments for many
+                Math courses.
+                <url href="https://www.gvsu.edu/trc/">
+        Request a tutor here
+      </url>
+                or schedule directly on
+                <url href="https://www.gvsu.edu/navigate">
+        Navigate.
+      </url>
+            </p>
+        </paragraphs>
+
+
+ 
+    <!-- Other subsections for larger dividers -->
+  
+
+   
+</section>
