@@ -95,24 +95,27 @@
 
                 <row>
                     <cell>Assignments Due</cell>
-                    <cell>Target quiz by end of class</cell>
+                    <cell><em>Target quiz</em> by end of class</cell>
                     <cell>
                         <p>
-                            Daily Prep by 10:30am,
+                            <url href="learning.amplify.com/join/#/A38ND9"><em>Daily Prep</em></url>
+                            by 10:30am,
                         </p>
 
                         <p>
-                            WW by beginning of class
+                            <url href="https://webwork-math.gvsu.edu/webwork2/MTH124-15"><em>WW</em></url>
+                            by beginning of class
                         </p>
                     </cell>
                     <cell/>
                     <cell>
                         <p>
-                            Daily Prep by 10:30am,
+                            <url href="learning.amplify.com/join/#/A38ND9"><em>Daily Prep</em></url>
+                            by 10:30am,
                         </p>
 
                         <p>
-                            HW by beginning of class
+                            <em>HW</em> by beginning of class
                         </p>
                     </cell>
                     <cell/>
