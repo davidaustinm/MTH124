@@ -1,246 +1,496 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handout>
-  <title>Section 1.2: Functions: Modeling Relationships</title>
-  <alert>MTH 124</alert>
+    <title>Section 1.2: Functions: Modeling Relationships</title>
 
-  <p>For ease of recall, here are 3 important definitions:</p>
+    <alert>
+        MTH 124
+    </alert>
 
-  <definition workspace="0in">
-    <title>Definition 1.2.4</title>
-    <statement>
-      <p>A <term>function</term> is a process that produces one and only one output value for any single input value.</p>
-    </statement>
-  </definition>
+    <p>
+        For ease of recall, here are 3 important definitions:
+    </p>
 
-  <definition workspace="0in">
-    <title>Definition 1.2.5</title>
-    <statement>
-      <p>Let <m>F</m>
- be a function from <m>A</m>
- to <m>B</m>.
- The <term>domain</term> is the set <m>A</m>
- of possible inputs to <m>F</m>;
- the <term>codomain</term> is the set <m>B</m>
- of potential outputs from <m>F</m>.</p>
-    </statement>
-  </definition>
+    <definition workspace="0in">
+        <title>Definition 1.2.4</title>
 
-  <definition workspace="0in">
-    <title>Definition 1.2.6</title>
-    <statement>
-      <p>Let <m>F</m>
- be a function from 
-<m>A</m> to <m>B</m>.
- The <term>range</term> of <m>F</m>
- is the collection of all <em>actual</em> outputs of the function.</p>
-    </statement>
-  </definition>
+        <statement>
+            <p>
+                A <term>function</term> is a process that produces one and only
+                one output value for any single input value.
+            </p>
+        </statement>
+    </definition>
 
-  <activity>
-    <title>Activity 1.2.2</title>
-    <introduction>
-      <p>Consider a spherical tank of radius <m>4</m>
- m that is filling with water. Let <m>V</m>
- be the volume of water in the tank (in cubic meters) at a given time, and <m>h</m>
- the depth of the water (in meters) at the same time. It can be shown using calculus that <m>V</m>
- is a function of <m>h</m>
- according to the rule
-<md>V = f(h) = \frac{\pi}{3} h^2 (12 - h)</md></p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>What values of <m>h</m>
- make sense to consider in the context of this function? What values of <m>V</m>
- make sense in the same context?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>What is the domain of the function <m>f</m>
- in the context of the spherical tank? Why? What is the corresponding codomain? Why?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Determine and interpret (with appropriate units) the values <m>f(2), f(4)</m>, and <m>f(8)</m>. What is important about the value of <m>f(8)</m>?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Consider the claim: “since 
-<m>\ds f(9) = \frac{\pi}{3} 9^2(12-9) = 81\pi \approx 254.47</m>, 
- when the water is <m>9</m>
- meters deep, there is about <m>254.14</m>
- cubic meters of water in the tank”. Is this claim valid? Why or why not? Further, does it make sense to observe that “<m>\ds f(13) = -\frac{169\pi}{3}</m> 
-”? Why or why not?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Can you determine a value of <m>h</m>
- for which <m>f(h) = 300</m>
- cubic meters?</p>
-      </statement>
-    </task>
-  </activity>
+    <definition workspace="0in">
+        <title>Definition 1.2.5</title>
 
-  <activity>
-    <title>Activity 1.2.3</title>
-    <introduction>
-      <p>Consider a spherical tank of radius 4
- m that is completely full of water. Suppose that the tank is being drained by regulating an exit valve in such a way that the height of the water in the tank is always decreasing at a rate of 0.5
- meters per minute. Let <m>V</m>
- be the volume of water in the tank (in cubic meters) at a given time <m>t</m>
- (in minutes), and <m>h</m>
- the depth of the water (in meters) at the same time. It can be shown using calculus that 
- <m>V</m>
- is a function of 
- according to the model
- <md>V = p(t) = \frac{256\pi}{3} - \frac{\pi}{24}t^2(24-t).</md>
- That is, <m>p(t)</m> is a function that inputs time <m>t</m> and outputs a volume for that given time.</p>
-      <p>In addition, we'll define an additional function <m>h=q(t)</m> that inputs a time <m>t</m> and outputs the depth (height) of water in the tank at time <m>t</m>.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>What is the height of the water when <m>t=0</m>?
- When <m>t=1</m>?
- When <m>t=2</m>?
- How long will it take the tank to completely drain? Why?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>What is the domain of the model <m>h=q(t)</m>?
- What is the domain of the model <m>V=p(t)</m>?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>How much water is in the tank when the tank is full? What is the range of the model <m>h=q(t)</m>?
- What is the range of the model <m>V=p(t)</m>?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>We will frequently use a graphing utility to help us understand function behavior, and strongly recommend <term>desmos.com/calculator</term> because it is intuitive, online, and free. There is a prepared Desmos worksheet you can find at <term>gvsu.edu/s/30v</term> (capital letters matter), and you can see how we enter the function <m>p(t)</m>, as well as the graph it generates.  Make as many observations as you can about the model <m>V=p(t)</m>.
- You should discuss its shape and overall behavior, its domain, its range, and more.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>How does the model <m>V = p(t)</m> (in reality's context)  
- differ from the abstract function  
- <md>y = r(x) = \frac{256\pi}{3} - \frac{\pi}{24}x^2(24-x)?</md>
- In particular, how do the domain and range of the model differ from those of the abstract function, if at all?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>How should the graph of the height function <m>h=q(t)</m>
- appear? Can you determine a formula for <m>q(t)</m>?
- Explain your thinking.</p>
-      </statement>
-    </task>
-  </activity>
+        <statement>
+            <p>
+                Let <m>F</m> be a function from <m>A</m> to <m>B</m>.
+                The <term>domain</term> is the set <m>A</m> of possible inputs
+                to <m>F</m>; the <term>codomain</term> is the set <m>B</m> of
+                potential outputs from <m>F</m>.
+            </p>
+        </statement>
+    </definition>
 
-  <activity>
-    <title>Activity 1.2.4. Function or not?</title>
-    <introduction>
-      <p>Each of the following prompts describes a relationship between two quantities. For each, your task is to decide whether or not the relationship can be thought of as a function. If not, explain why. If so, state the domain and codomain of the function and write at least one sentence to explain the process that leads from the collection of inputs to the collection of outputs.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>The relationship between <m>x</m> and <m>y</m>
- in each of the graphs below.  In the left figure, any point on the circle relates 
- and <m>x</m> and <m>y</m>.
- For instance, the <m>y</m>-value <m>\sqrt{7}</m> 
- is related to the <m>x</m>
--value <m>-3</m>.
- In the right figure, an unfilled circle indicates that there is not a point on the graph at that specific location.</p>
-                        <sidebyside widths="30% 30%">
+    <definition workspace="0in">
+        <title>Definition 1.2.6</title>
+
+        <statement>
+            <p>
+                Let <m>F</m> be a function from <m>A</m> to <m>B</m>.
+                The <term>range</term> of <m>F</m> is the collection of all
+                <em>actual</em> outputs of the function.
+            </p>
+        </statement>
+    </definition>
+
+    <activity>
+        <title>Activity 1.2.2</title>
+
+        <introduction>
+            <p>
+                Consider a spherical tank of radius <m>4</m> m that is filling
+                with water.
+                Let <m>V</m> be the volume of water in the tank (in cubic
+                meters) at a given time, and <m>h</m> the depth of the water (in
+                meters) at the same time.
+                It can be shown using calculus that <m>V</m> is a function of
+                <m>h</m> according to the rule
+                <md>
+                    V = f(h) = \frac{\pi}{3} h^2 (12 - h)
+                </md>
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What values of <m>h</m> make sense to consider in the
+                    context of this function?
+                    What values of <m>V</m> make sense in the same context?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Since the radius is 4 meters, the height of the tank is 8 meters, so <m>0 \le h \le 8</m> 
+                meters makes sense. Negative heights or heights above the tank don't make sense. Simmilarly with volume.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What is the domain of the function <m>f</m> in the context
+                    of the spherical tank?
+                    Why?
+                    What is the corresponding codomain?
+                    Why?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Domain is the input: <m>0\le h \le 8</m> or <m>[0,8]</m> because the max height is 8 and you cannot have height less than 0.
+
+              </p>
+              <p>
+                The codomain is possible outputs, and volume 0 or more could be possible (there is leeway on interpretation of this question). 
+                If any non-negative volume is possilbe, then <m>0 \le V \lt \infty</m>, or <m>[0,\infty)</m>.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Determine and interpret (with appropriate units) the values
+                    <m>f(2), f(4)</m>, and <m>f(8)</m>.
+                    What is important about the value of <m>f(8)</m>?
+                </p>
+            </statement>
+            <solution component = "aaa-soln">
+              <p>
+                <m>f(2) = \frac{\pi}{3} (2)^2(12-2) = 41.888</m> cubic meters (it's a volume!)
+              </p>
+              <p>
+                <m>f(4) =\frac{\pi}{3} (4)^2(12-4) = 134.04</m> cubic meters
+              </p>
+              <p>
+                <m>f() =\frac{\pi}{3} (8)^2(12-8) = 268.0826</m> cubic meters
+              </p>
+              <p>
+                Since <m>h=8</m> is the height of the tank, then <m>f(8)</m> is the full volume of the tank.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Consider the claim: “since
+                    <m>\ds f(9) = \frac{\pi}{3} 9^2(12-9) = 81\pi \approx 254.47</m>,
+                    when the water is <m>9</m> meters deep, there is about
+                    <m>254.14</m> cubic meters of water in the tank”.
+                    Is this claim valid?
+                    Why or why not?
+                    Further, does it make sense to observe that “
+                    <m>\ds f(13) = -\frac{169\pi}{3}</m> ”?
+                    Why or why not?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                <m>f(9)</m> doesn't make sense in context because the tank is only 8 meters deep, so there cannot be a height of 9. 
+                Similarly, the volumne can't be negative, so <m>f(13)</m> makes even less sense.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Can you determine a value of <m>h</m> for which
+                    <m>f(h) = 300</m> cubic meters?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                If <m>f(h)=300</m>, then <m>300=\frac{\pi}{3} h^2 (12-h)</m>. Algebra is hard here, but using a graph
+                we know this can happen aht <m>h~-4.2</m>. This doesn't make sense for our problem. Alternatively, we know 
+                from the previous part that the volume in the tank cannot be more than 268 cubic meters, so 300 is too big for our tank.
+              </p>
+            </solution>
+        </task>
+    </activity>
+
+    <activity>
+        <title>Activity 1.2.3</title>
+
+        <introduction>
+            <p>
+                Consider a spherical tank of radius 4 m that is completely full
+                of water.
+                Suppose that the tank is being drained by regulating an exit
+                valve in such a way that the height of the water in the tank is
+                always decreasing at a rate of 0.5 meters per minute.
+                Let <m>V</m> be the volume of water in the tank (in cubic
+                meters) at a given time <m>t</m> (in minutes), and <m>h</m> the
+                depth of the water (in meters) at the same time.
+                It can be shown using calculus that <m>V</m> is a function of
+                according to the model
+                <md>
+                    V = p(t) = \frac{256\pi}{3} - \frac{\pi}{24}t^2(24-t).
+                </md>
+                That is, <m>p(t)</m> is a function that inputs time <m>t</m> and
+                outputs a volume for that given time.
+            </p>
+
+            <p>
+                In addition, we'll define an additional function <m>h=q(t)</m>
+                that inputs a time <m>t</m> and outputs the depth (height) of
+                water in the tank at time <m>t</m>.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What is the height of the water when <m>t=0</m>?
+                    When <m>t=1</m>?
+                    When <m>t=2</m>?
+                    How long will it take the tank to completely drain?
+                    Why?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Initial height when <m>t=0</m>: <m>h=8</m>m. When <m>t=1, h=8-0.5 = 7.5</m>m.  When 
+                <m>t=2, h=8-2(0.5)=7</m>m.  Will take <m>8/0.5 = 16</m> minutes to drain.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What is the domain of the model <m>h=q(t)</m>?
+                    What is the domain of the model <m>V=p(t)</m>?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Domain: <m>0\le t \le 16</m> (positives times when tank is not empty).
+                Same domain for both. 
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    How much water is in the tank when the tank is full?
+                    What is the range of the model <m>h=q(t)</m>?
+                    What is the range of the model <m>V=p(t)</m>?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Full when <m>t=0</m>, so <m>V = p(0) = \frac{256\pi}{3} - \frac{\pi}{24}(0)^2(24-0)=\frac{256\pi}{3}\approx 268.08</m>
+                cubic meters. 
+              </p>
+              <p>
+                Range of <m>h</m> is the actual heights, <m>0\le h \le 8</m>m (or <m>[0,8]</m>.)
+              </p>
+              <p>
+                Range of <m>V</m> is <m>0\le V \le 268.08</m> cubic meters or <m>[0,268.08]</m>.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    We will frequently use a graphing utility to help us
+                    understand function behavior, and strongly recommend
+                    <term>desmos.com/calculator</term> because it is intuitive,
+                    online, and free.
+                    There is a prepared Desmos worksheet you can find at
+                    <term>gvsu.edu/s/30v</term> (capital letters matter), and
+                    you can see how we enter the function <m>p(t)</m>, as well
+                    as the graph it generates.
+                    Make as many observations as you can about the model
+                    <m>V=p(t)</m>.
+                    You should discuss its shape and overall behavior, its
+                    domain, its range, and more.
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Between <m>0\le t \le 16</m> the function is always decreasing, but it 
+                changes slowly at first, quicker in the middle, and slowly at the end. The 
+                model in context has domain <m>0\le t \le 16</m> and range <m>0\le V \le 268.08</m>, ...
+                there is a lot you could say here, what else can you come up with?
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    How does the model <m>V = p(t)</m> (in reality's context)
+                    differ from the abstract function
+                    <md>
+                        y = r(x) = \frac{256\pi}{3} - \frac{\pi}{24}x^2(24-x)?
+                    </md>
+                    In particular, how do the domain and range of the model
+                    differ from those of the abstract function, if at all?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                With no context, <m>x</m> can be any real number, so the domain would be <m>-\infty
+                \lt x \lt \infty</m>, or <m>(-\infty, \infty)</m>. Similarly we can get out any y- value, so the range would 
+                be the same as the domain in this case (all real numbers).
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    How should the graph of the height function <m>h=q(t)</m>
+                    appear?
+                    Can you determine a formula for <m>q(t)</m>?
+                    Explain your thinking.
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Since <m>h=q(t)</m> is decreasing at a constant rate, it should be linear (just a line!).
+                Using form <m>h=mt+b</m>, the slope is <m>m=-0.5</m> since that's the rate at which the height decreases.  The initial
+                height is the y-intercept, so <m>b=8</m>. Thus <m>h=q(t) = -0.5t+8</m>.
+              </p>
+            </solution>
+        </task>
+    </activity>
+
+    <activity>
+        <title>Activity 1.2.4. Function or not?</title>
+
+        <introduction>
+            <p>
+                Each of the following prompts describes a relationship between
+                two quantities.
+                For each, your task is to decide whether or not the relationship
+                can be thought of as a function.
+                If not, explain why.
+                If so, state the domain and codomain of the function and write
+                at least one sentence to explain the process that leads from the
+                collection of inputs to the collection of outputs.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The relationship between <m>x</m> and <m>y</m> in each of
+                    the graphs below.
+                    In the left figure, any point on the circle relates and
+                    <m>x</m> and <m>y</m>.
+                    For instance, the <m>y</m>-value <m>\sqrt{7}</m> is related
+                    to the <m>x</m>-value <m>-3</m>.
+                    In the right figure, an unfilled circle indicates that there
+                    is not a point on the graph at that specific location.
+                </p>
+
+                <sidebyside widths="30% 30%">
                     <image>
                         <shortdescription>
-                            The graph of a circle centered at the origin with radius 4. 
+                            The graph of a circle centered at the origin with
+                            radius 4.
                         </shortdescription>
                         <prefigure xmlns="https://prefigure.org" label="prefigure-1-2-3">
                             <diagram dimensions="(250,250)" margins="5">
                                 <coordinates bbox="[-5,-5,5,5]">
-                                    <grid-axes hticks="(-5,1,5)" vticks="(-5,1,5)"  decorations="no"/>
+                                    <grid-axes hticks="(-5,1,5)" vticks="(-5,1,5)" decorations="no"/>
                                     <circle center="(0,0)" radius="4" stroke="blue"/>
-                                    <point p="(-3,sqrt(7))" offset="(0,-14)"> <m>(3,\sqrt7)</m> </point>
+                                    <point p="(-3,sqrt(7))" offset="(0,-14)">
+                                        <m>
+                                            (3,\sqrt7)
+                                        </m>
+                                    </point>
                                     <point p="(-3,-sqrt(7))"/>
-                                    <label anchor="(-3,4.5)"><m>x^2+y^2 = 16</m></label>
+                                    <label anchor="(-3,4.5)">
+                                        <m>
+                                            x^2+y^2 = 16
+                                        </m>
+                                    </label>
                                 </coordinates>
                             </diagram>
                         </prefigure>
                     </image>
 
-   <image>
+                    <image>
                         <shortdescription>
                             A piecewise function.
                         </shortdescription>
                         <prefigure xmlns="https://prefigure.org" label="prefigure-1-2-4">
-                            
                             <diagram dimensions="(250,250)" margins="5">
-                              <definition> f(x)= -x^2+4 </definition>
-                              <definition> g(x)=3-x</definition>
-                                <coordinates bbox="[-2.5,-1.5,3.5,4.5]">
-                                    <grid-axes hticks="(-2,1,3)" vticks="(-5,1,5)"  decorations="yes"/>
-                                    <graph function="f" domain="(-5,1)"/>
-                                    <point p="(0,f(0))" fill="white" stroke="blue" />
-                                    <point p="(1,f(1))" fill="blue" stroke="blue" />
-                                    <point p="(0,1)" fill="blue" stroke="blue" />
-                                    <graph function="g" domain="(1,5)"/>
-                                    
-                                    <point p="(1,g(1))" fill="white" stroke="blue" />
-                                    <point p="(2,g(2))" fill="white" stroke="blue" />
+                                <definition>
+                                    f(x)= -x^2+4
+                                </definition>
 
+                                <definition>
+                                    g(x)=3-x
+                                </definition>
+                                <coordinates bbox="[-2.5,-1.5,3.5,4.5]">
+                                    <grid-axes hticks="(-2,1,3)" vticks="(-5,1,5)" decorations="yes"/>
+                                    <graph function="f" domain="(-5,1)"/>
+                                    <point p="(0,f(0))" fill="white" stroke="blue"/>
+                                    <point p="(1,f(1))" fill="blue" stroke="blue"/>
+                                    <point p="(0,1)" fill="blue" stroke="blue"/>
+                                    <graph function="g" domain="(1,5)"/>
+                                    <point p="(1,g(1))" fill="white" stroke="blue"/>
+                                    <point p="(2,g(2))" fill="white" stroke="blue"/>
                                 </coordinates>
-                    
                             </diagram>
                         </prefigure>
                     </image>
                 </sidebyside>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>The relationship between the day of the year and the value of the S&amp;P500 stock index (at the close of trading on a given day), where we attempt to consider the index’s value (at the close of trading) as a function of the day of the year.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>The relationship between a car’s velocity and its odometer, where we attempt to view the car’s odometer reading as a function of its velocity.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>The relationship between <m>x</m> and <m>y</m> 
- that is given in the following table where we attempt to view <m>y</m>
- as depending on <m>x</m>.</p>
-        <tabular>
-          <row bottom="minor">
-            <cell><m>x</m></cell>
-            <cell>1</cell>
-            <cell>2</cell>
-            <cell>3</cell>
-            <cell>2</cell>
-            <cell>1</cell>
-          </row>
-          <row>
-            <cell><m>y</m></cell>
-            <cell>11</cell>
-            <cell>12</cell>
-            <cell>13</cell>
-            <cell>14</cell>
-            <cell>15</cell>
-          </row>
-        </tabular>
-      </statement>
-    </task>
-  </activity>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                The first graph does not show a function as it fails the vertical line test. (ex: the input
+                of <m>-3</m> corresponds to two outputs, <m>\sqrt{7}</m> and <m>-\sqrt{7}</m>.)
+              </p>
+              <p>
+                The second graph is a function.  It has domain <m>-\infty \le x \lt 2, 2\lt x \le \infty</m> (or 
+                you can limit the domain between <m>-2.5</m> and <m>3.5</m> if you do not extend beyond the graph). 
+                The codomain is all real numbers, or I would accept the range shown as <m>-1.5 \le y \lt 4</m>.
+              </p>
+            </solution>
+        </task>
 
-<insight>
-  <p><term>Vertical Line Test:</term> A graph in the plane represents a function if and only if every vertical line intersects the graph at most once. When the graph passes this test, the vertical coordinate of each point on the graph can be viewed as a function of the horizontal coordinate of the point.</p>
-</insight>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The relationship between the day of the year and the value
+                    of the S&amp;P500 stock index (at the close of trading on a
+                    given day), where we attempt to consider the index’s value
+                    (at the close of trading) as a function of the day of the
+                    year.
+                </p>
+            </statement>
+            <solution component ="aaa-soln">
+              <p>
+                Function!  Each day of the year corresponds to exactly one index value at the close of day.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The relationship between a car’s velocity and its odometer,
+                    where we attempt to view the car’s odometer reading as a
+                    function of its velocity.
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Function! Each speed corresponds to exactly one reading on the odometer.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The relationship between <m>x</m> and <m>y</m> that is given
+                    in the following table where we attempt to view <m>y</m> as
+                    depending on <m>x</m>.
+                </p>
+
+                <tabular>
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>2</cell>
+                        <cell>1</cell>
+                    </row>
+
+                    <row>
+                        <cell><m>y</m></cell>
+                        <cell>11</cell>
+                        <cell>12</cell>
+                        <cell>13</cell>
+                        <cell>14</cell>
+                        <cell>15</cell>
+                    </row>
+                </tabular>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Not a function. For the input <m>x=2</m> for example, you could get out either <m>y=12</m> or 
+                <m>y=14</m>. (There is another example of this, what is it?)
+              </p>
+            </solution>
+        </task>
+    </activity>
+
+    <insight>
+        <p>
+            <term>Vertical Line Test:</term> A graph in the plane represents a
+            function if and only if every vertical line intersects the graph at
+            most once.
+            When the graph passes this test, the vertical coordinate of each
+            point on the graph can be viewed as a function of the horizontal
+            coordinate of the point.
+        </p>
+    </insight>
 </handout>

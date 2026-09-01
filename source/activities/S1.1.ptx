@@ -6,10 +6,13 @@
     <alert>
         MTH 124
     </alert>
+
     <p>
-        Mathematics is the art of making sense of patterns. In particular, in this section we want to understand
-        relationship between quantities that change.  We commonly use graphs and tables in addition to algebra 
-        to get a better picture of what is happening.
+        Mathematics is the art of making sense of patterns.
+        In particular, in this section we want to understand relationship
+        between quantities that change.
+        We commonly use graphs and tables in addition to algebra to get a better
+        picture of what is happening.
     </p>
 
     <activity>
@@ -32,40 +35,33 @@
                     completely full.
                 </p>
             </statement>
-        <solution component="aaa-soln">
-            
+
+            <solution component="aaa-soln">
                 <image width="30%">
-    <shortdescription>
-      A picture of the tank described in the problem, partly full of water.
-      </shortdescription>
-    <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-1-soln">
-        
-        <diagram dimensions="(250,250)" margins="5">
-
-            <coordinates bbox="[0,0,6,6]">
-                  <definition>points=((5,5),(3,1),(1,5))</definition>
-
-                <grid 
-                decorations="no" />
-                <arc points="points" radius="4.5" range="(63.3,117)" arrows="0"
-         stroke="blue" reverse="yes"/>
-         <arc center="(3,9)" radius="4.5" range="(63.8+180,116+180)" arrows="0"
-         stroke="blue" reverse="yes"/>
-          <polygon points="points" stroke="blue"/>
-
-          <arc points="points" radius="2"
-         sector="yes" fill="lightblue"/>
-         <arc points="points" radius="2" stroke="black"/>
-         <arc center="(3,4.6)" radius="2" stroke="black" range="(63.8+180,116+180)"/>
-          <line endpoints="((3,5.6), (5,5.6))" stroke="black" thickness="1"
-          arrows="2">2 ft</line>
-          <line endpoints="((0.8,1),(0.8,5))" thickness="1" arrows="2">4 ft</line>
-            </coordinates>
-        </diagram>
-    </prefigure>
-</image>
-            
-        </solution>
+                    <shortdescription>
+                        A picture of the tank described in the problem, partly
+                        full of water.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-1-soln">
+                        <diagram dimensions="(250,250)" margins="5">
+                            <coordinates bbox="[0,0,6,6]">
+                                <definition>
+                                    points=((5,5),(3,1),(1,5))
+                                </definition>
+                                <grid/>
+                                <arc points="points" radius="4.5" range="(63.3,117)" arrows="0" stroke="blue" reverse="yes"/>
+                                <arc center="(3,9)" radius="4.5" range="(63.8+180,116+180)" arrows="0" stroke="blue" reverse="yes"/>
+                                <polygon points="points" stroke="blue"/>
+                                <arc points="points" radius="2" sector="yes" fill="lightblue"/>
+                                <arc points="points" radius="2" stroke="black"/>
+                                <arc center="(3,4.6)" radius="2" stroke="black" range="(63.8+180,116+180)"/>
+                                <line endpoints="((3,5.6), (5,5.6))" stroke="black" thickness="1" arrows="2">2 ft</line>
+                                <line endpoints="((0.8,1),(0.8,5))" thickness="1" arrows="2">4 ft</line>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -75,9 +71,13 @@
                     What are some quantities that are not changing?
                 </p>
             </statement>
+
             <solution component="aaa-soln">
                 <p>
-                    Some quantities are the volume, depth, and radius of water in the tank, as well as time. However, the volume, depth, and radius of the tank itself do not change.
+                    Some quantities are the volume, depth, and radius of water
+                    in the tank, as well as time.
+                    However, the volume, depth, and radius of the tank itself do
+                    not change.
                 </p>
             </solution>
         </task>
@@ -146,6 +146,82 @@
                     </image>
                 </sidebyside>
             </statement>
+
+            <solution component="aaa-soln">
+                <sidebyside widths="40% 30%">
+                    <table>
+                        <title>
+                            Data on the volume of water <m>V</m> in the
+                            tank at time <m>t</m>.
+                        </title>
+
+                        <tabular>
+                            <row header="yes" bottom="major">
+                                <cell><m>t</m></cell>
+                                <cell><m>V</m></cell>
+                            </row>
+
+                            <row>
+                                <cell>0</cell>
+                                <cell>0</cell>
+                            </row>
+
+                            <row>
+                                <cell>1</cell>
+                                <cell>0.75</cell>
+                            </row>
+
+                            <row>
+                                <cell>2</cell>
+                                <cell>1.5</cell>
+                            </row>
+
+                            <row>
+                                <cell>3</cell>
+                                <cell>2.25</cell>
+                            </row>
+
+                            <row>
+                                <cell>4</cell>
+                                <cell>3</cell>
+                            </row>
+
+                            <row>
+                                <cell>5</cell>
+                                <cell>3.75</cell>
+                            </row>
+                        </tabular>
+                    </table>
+
+                    <image>
+                        <shortdescription>
+                            A graph to plot the volume of water in the tank over
+                            time in the conical tank.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-1c-soln">
+                            <diagram dimensions="(180,180)" margins="5">
+                              <definition>f(x)=0.75*x</definition>
+                                <coordinates bbox="[-1,-1,6,6]">
+                                    <grid-axes hticks="(-1,1,6)" vticks="(-1,1,6)" xlabel="t" ylabel="V" decorations="yes" spacings="((-1,1/2,6),(-1,1/2,6))"/>
+                                    <point p="(0,f(0))"/>
+                                    <point p="(1,f(1))"/>
+                                    <point p="(2,f(2))"/>
+                                    <point p="(3,f(3))"/>
+                                    <point p="(4,f(4))"/>
+                                    <point p="(5,f(5))"/>
+                                    <graph function="f" dash="4 4"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+                <p>
+                    Looks like the relationship between time and volume is a straight line!
+                </p>
+            </solution>
+
+
+
         </task>
 
         <task workspace="0in">
@@ -192,6 +268,11 @@
                     </image>
                 </sidebyside>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    The height will grow quickly at first, and then grow a lot slower over time.  What might that look like?
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -216,6 +297,25 @@
                     completely empty.
                 </p>
             </statement>
+             <solution component="aaa-soln">
+                 <image width="30%">
+                    <shortdescription>
+                        A picture of the tank described in the problem.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-3a-soln">
+                        <diagram dimensions="(250,250)" margins="5">
+                            <coordinates bbox="[0,0,6,6]">
+                               
+                                <grid/>
+                                <circle center="(3,3)" radius="3"/>
+                                <arc center="(3,8.2)" radius="6" range="(60+180,120+180)" arrows="0" stroke="black" reverse="yes"/>
+                                <arc center="(3,-2.2)" radius="6" stroke="gray" range="(60,120)" dash="4 4"/>
+                                <line endpoints="((3,3), (6,3))" stroke="black" thickness="1" arrows="2">3 ft</line>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -225,6 +325,11 @@
                     What are some quantities that are not changing?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    Changing: time, volume and height and radius of water. Not changing: dimensions of the tank.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -236,6 +341,11 @@
                     starts being drained, how much water is present?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    <m>\ds V = \frac{4}{3}\pi(3)^3 = 36\pi</m> cubic feet <m>~113.097</m>
+                </p>
+            </solution>
         </task>
 
         <task workspace="2in">
@@ -244,6 +354,11 @@
                     How long will it take for the tank to drain completely?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    <m>\ds \frac{36 \pi}{1.2}</m> total cubic feet / cubic feet per minute <m>= 94.25</m> minutes.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0in">
@@ -311,6 +426,78 @@
                     </image>
                 </sidebyside>
             </statement>
+            <solution component="aaa-soln">
+                <sidebyside widths="40% 40%">
+                    <table>
+                        <title>
+                            Data on the volume of water <m>V</m> in the
+                            tank at time <m>t</m>.
+                        </title>
+
+                        <tabular>
+                            <row header="yes" bottom="major">
+                                <cell><m>t</m></cell>
+                                <cell><m>V</m></cell>
+                            </row>
+
+                            <row>
+                                <cell>0</cell>
+                                <cell>113.097</cell>
+                            </row>
+
+                            <row>
+                                <cell>20</cell>
+                                <cell>89.097</cell>
+                            </row>
+
+                            <row>
+                                <cell>40</cell>
+                                <cell>65.097</cell>
+                            </row>
+
+                            <row>
+                                <cell>60</cell>
+                                <cell>41.097</cell>
+                            </row>
+
+                            <row>
+                                <cell>80</cell>
+                                <cell>17.097</cell>
+                            </row>
+
+                            <row>
+                                <cell>94.24</cell>
+                                <cell>0.0093</cell>
+                            </row>
+                        </tabular>
+                    </table>
+
+                    <image>
+                        <shortdescription>
+                            A graph to plot the volume of water in the tank over
+                            time in a draining spherical tank.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-1-5-soln">
+                            <diagram dimensions="(250,250)" margins="5">
+                                <coordinates bbox="[-20,-20,120,120]">
+                                  <definition>V(t)=36*pi - 1.2*t</definition>
+                                    <grid-axes hlabels="(20,40,100)" hticks="(-20,20,120)" vticks="(-20,20,120)" xlabel="t" ylabel="V" decorations="yes" spacings="((-20,10,120),(-20,10,120))"/>
+                                    <point p="(0,V(0))"/>
+                                    <point p="(20,V(20))"/>
+                                    <point p="(40,V(40))"/>
+                                    <point p="(60,V(60))"/>
+                                    <point p="(80,V(80))"/>
+                                    <point p="(94.24,V(94.24))"/>
+                                    <graph function="V" dash="4 4"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+                <p>
+                    For each minute that passes, the volume goes down by 1.2 cubic feet, so it's a decreasing function that decreases at a constant rate.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0in">
@@ -357,6 +544,13 @@
                     </image>
                 </sidebyside>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    The height starts at 6, which is the height of the tank. But there's not much volume at the top so the height of the 
+                    water drops very quickly. But is starts dropping a lot slower once the height of the water nears the middle of the tank, 
+                    so it starts to flatten out. Then when you enter the bottom part of the tank the height starts to drop quicker and quicker again.
+                </p>
+            </solution>
         </task>
     </activity>
 </handout>
