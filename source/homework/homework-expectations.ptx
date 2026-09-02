@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+    <title>Homework Expectations</title>
+
+    <introduction>
+        <p>
+            <alert>MTH 124</alert>
+        </p>
+
+        <p>
+            <alert>Instructions:</alert> Complete all the exercises below and
+            submit your work by the due date.
+        </p>
+    </introduction>
+
+    <page>
+        <p>
+            <alert>Directions.</alert> By 12:00 PM each Thursday at the
+            beginning of class, a homework problem will be due.
+            You will turn in this paper copy of your homework.
+        </p>
+
+        <p>
+            <alert>Expectations.</alert>
+            <ol>
+                <li>
+                    <p>
+                        Your solutions should be written as if you are
+                        explaining the solution to other students in this class
+                        that have not seen this problem before.
+                        Remind the reader of relevant facts and details.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Explain your work in <em>complete sentences</em>.
+                        You should have complete thoughts.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        You do not need to write out every trivial step (too
+                        many details can be a bad thing).
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        <p>
+            <alert>Not So Good Example.</alert>
+        </p>
+
+        <assemblage>
+            <p>
+                <md>
+                    <mrow> (0-3)^2 + (x-2)^2  = 25 </mrow>
+                    <mrow> 3^2 = 9+(x^2-4x+4)  = 25 </mrow>
+                    <mrow> x^2 - 4x - 12   </mrow>
+                    <mrow> (x-6)(x+2) \implies x=-2,6, \ \ x\gt 0 \ \ x = 6 </mrow>
+                </md>
+            </p>
+        </assemblage>
+
+        <p>
+            Why this is not so good:
+            <ul>
+                <li>
+                    <p>
+                        You don't know what problem the writer was solving.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        You can't tell what's an assumption and what's a
+                        conclusion.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Where does one thought end and another begin?
+                        There are no sentences!
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        In the 2nd line: combining two thoughts can create
+                        untruths ( <m>3^{2}</m> is 9 but it isn't 25).
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The 3rd line dangles; what's being asserted here?
+                        It's not a sentence.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        What's the relationship between all these phrases?
+                        Connective phrases would help!
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            <alert>Good Example.</alert>
+        </p>
+
+        <assemblage>
+            <p>
+              <em>Problem:</em> Find a point in the plane on the 
+              positive x-axis that has distance 5 from the point <m>(2,3)</m>.
+              </p>
+              <p>
+                <em>Solution:</em> To find this, we note that if <m>(x,0)</m>
+                is a solution, then <m>x</m> must satisfy the equation
+                <m>{(x-2)^2 + (0-3)^2 = 25}</m>, which follows from the planar distance formula betewen
+                the points <m>(x,0)</m> and <m>(2,3)</m>. It follows that 
+                <m>x^2 - 4x+13 = 25</m>. Then
+                <m>
+                    x^2 - 4x - 12=0.
+                                    </m>
+                      Factoring, we obtain
+                      <md>
+                        (x-6)(x+2)=0, 
+                      </md>
+                      which is satisfied by either <m>x=-2</m>
+                      or <m>x=6</m>. Since we assumed <m>x\gt 0</m> and 
+                      <m>y=0</m>, then it must be that the desired point 
+                      is <m>(6,0)</m>.
+            </p>
+        </assemblage>
+    </page>
+</worksheet>

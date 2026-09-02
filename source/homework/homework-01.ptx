@@ -1,21 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 01</title>
-  <introduction>
-    <p>
-      <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
-    </p>
-  </introduction>
+    <title>Homework 01</title>
 
-  <page>
-    <exercise>
-      <statement>
+    <introduction>
         <p>
-          This is the first homework exercise.
+            <alert>MTH 124</alert>
         </p>
-      </statement>
-    </exercise>
+    </introduction>
 
-  </page>
+    <p>
+        <alert>Due Thursday, 9/10/26 at 12:00pm (the beginning of class)</alert>
+    </p>
+    <p>
+      Make sure you are following the homework expectations!  Example: complete sentences!
+    </p>
+
+    <exercise>
+        <introduction>
+            <p>
+                The data from this website
+                <url href="https://irma.nps.gov/Stats/SSRSReports/Park\%20Specific\%20Reports/Annual\%20Park\%20Recreation\%20Visitation\%20(1904\%20-\%20Last\%20Calendar\%20Year)?Park=GRCA">National Park Service Website</url>
+                shows the number of visitors to the Grand Canyon National Park
+                every year since 1919 (corresponding to <m>t=0</m>).
+                You'll use a table in Desmos for this problem,
+                <url href="https://www.desmos.com/calculator/tgjn9iuce7">here's the data imported in Desmos</url>
+                also at <alert>gvsu.edu/s/3MM</alert>.
+                (Capital letters matter.)
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    When you go to the
+                    <url href="https://www.desmos.com/calculator/tgjn9iuce7">Desmos link</url>
+                    ( <alert>gvsu.edu/s/3MM</alert> ) you'll see a table.
+                    Use the wrench tool (upper right) to change your window so
+                    that you can see all the data plotted.
+                    What window did you use?
+                    How do you know this includes all the points?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    This data represents a function which we'll call
+                    <m>V = G(t)</m>.
+                    Explain why it is a function (hint, use
+                    <url href="https://activecalculus.org/prelude/sec-changing-functions-models.html#def-function-process">Definition 1.2.4</url>
+                    from your text).
+                    In this case, what is <m>t</m> and what is <m>V</m> or
+                    <m>G(t)</m>?
+                    (Be precise, what does <m>t=0</m> mean?
+                    Compare it to the data on
+                    <url href="https://irma.nps.gov/Stats/SSRSReports/Park\%20Specific\%20Reports/Annual\%20Park\%20Recreation\%20Visitation\%20(1904\%20-\%20Last\%20Calendar\%20Year)?Park=GRCA">National Park Service Website</url>.)
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What are the domain and codomain of <m>V</m>?
+                    What is the range of <m>V</m>?
+                    (You don't need to list all values, explain in words!) It
+                    may help to consult
+                    <url href="https://activecalculus.org/prelude/sec-changing-functions-models.html#def-function-domain-codomain">Definition 1.2.5</url>
+                    and
+                    <url href=" https://activecalculus.org/prelude/sec-changing-functions-models.html#def-function-range">Definition 1.2.6</url>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What is the meaning of <m>G(99)=6,380,495</m>?
+                    Explain in a complete sentence.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What sticks out to you about the graph (e.g., what looks
+                    unusual)?
+                    Do you have an explanation for why it looks unusual?
+                </p>
+            </statement>
+        </task>
+    </exercise>
 </worksheet>

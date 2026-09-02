@@ -11,17 +11,17 @@
         <p>Suppose the total cost in dollars to produce x
 items is given by the function <m>C(x)</m>, and that <m>AV_{[100,200]} = 24.04</m>.</p>
       </introduction>
-      <task workspace="1in">
+      <task workspace="0.3in">
         <statement>
           <p>What are the units of the average rate of change?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.5in">
         <statement>
           <p>What does <m>AV_{[100,200]} = 24.04</m> mean in context?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="0.5in">
         <statement>
           <p>If <m>AV_{[100,200]} = 24.04</m> and <m>AV_{[200,300]}=36.04</m>, what can you say about <m>C(x)</m>.</p>
         </statement>
@@ -54,7 +54,7 @@ seconds after it is thrown is given by a function <m>h(t)</m>.</p>
           <p>If the average rate of change of <m>p(t)</m> on the interval from 0 to 6 is 5208, what does 5208 mean in context (include units!)?</p>
         </statement>
       </task>
-      <task workspace="1in">
+      <task workspace="2in">
         <statement>
           <p>What is <m>AV_{[6,12]}</m>?  Include units.</p>
         </statement>
