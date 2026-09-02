@@ -1612,13 +1612,31 @@ var ptx_lunr_docs = [
   "body": " Handouts    "
 },
 {
-  "id": "homework",
+  "id": "homework-2",
   "level": "1",
-  "url": "homework.html",
-  "type": "Chapter",
+  "url": "homework-2.html",
+  "type": "Worksheet",
   "number": "",
-  "title": "Homework",
-  "body": " Homework    "
+  "title": "Homework Expectations",
+  "body": " Homework Expectations    MTH 124    Instructions: Complete all the exercises below and submit your work by the due date.     Directions. By 12:00 PM each Thursday at the beginning of class, a homework problem will be due. You will turn in this paper copy of your homework.   Expectations.    Your solutions should be written as if you are explaining the solution to other students in this class that have not seen this problem before. Remind the reader of relevant facts and details.    Explain your work in complete sentences . You should have complete thoughts.    You do not need to write out every trivial step (too many details can be a bad thing).      Not So Good Example.        Why this is not so good:   You don't know what problem the writer was solving.    You can't tell what's an assumption and what's a conclusion.    Where does one thought end and another begin? There are no sentences!    In the 2nd line: combining two thoughts can create untruths ( is 9 but it isn't 25).    The 3rd line dangles; what's being asserted here? It's not a sentence.    What's the relationship between all these phrases? Connective phrases would help!      Good Example.     Problem: Find a point in the plane on the positive x-axis that has distance 5 from the point .   Solution: To find this, we note that if is a solution, then must satisfy the equation , which follows from the planar distance formula betewen the points and . It follows that . Then Factoring, we obtain which is satisfied by either or . Since we assumed and , then it must be that the desired point is .    "
+},
+{
+  "id": "homework-3",
+  "level": "1",
+  "url": "homework-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 01",
+  "body": " Homework 01    MTH 124     Due Thursday, 9\/10\/26 at 12:00pm (the beginning of class)   Make sure you are following the homework expectations! Example: complete sentences!    The data from this website National Park Service Website shows the number of visitors to the Grand Canyon National Park every year since 1919 (corresponding to ). You'll use a table in Desmos for this problem, here's the data imported in Desmos also at gvsu.edu\/s\/3MM . (Capital letters matter.)     When you go to the Desmos link ( gvsu.edu\/s\/3MM ) you'll see a table. Use the wrench tool (upper right) to change your window so that you can see all the data plotted. What window did you use? How do you know this includes all the points?      This data represents a function which we'll call . Explain why it is a function (hint, use Definition 1.2.4 from your text). In this case, what is and what is or ? (Be precise, what does mean? Compare it to the data on National Park Service Website .)      What are the domain and codomain of ? What is the range of ? (You don't need to list all values, explain in words!) It may help to consult Definition 1.2.5 and Definition 1.2.6 .      What is the meaning of ? Explain in a complete sentence.      What sticks out to you about the graph (e.g., what looks unusual)? Do you have an explanation for why it looks unusual?     "
+},
+{
+  "id": "homework-3-5",
+  "level": "2",
+  "url": "homework-3.html#homework-3-5",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The data from this website National Park Service Website shows the number of visitors to the Grand Canyon National Park every year since 1919 (corresponding to ). You'll use a table in Desmos for this problem, here's the data imported in Desmos also at gvsu.edu\/s\/3MM . (Capital letters matter.)     When you go to the Desmos link ( gvsu.edu\/s\/3MM ) you'll see a table. Use the wrench tool (upper right) to change your window so that you can see all the data plotted. What window did you use? How do you know this includes all the points?      This data represents a function which we'll call . Explain why it is a function (hint, use Definition 1.2.4 from your text). In this case, what is and what is or ? (Be precise, what does mean? Compare it to the data on National Park Service Website .)      What are the domain and codomain of ? What is the range of ? (You don't need to list all values, explain in words!) It may help to consult Definition 1.2.5 and Definition 1.2.6 .      What is the meaning of ? Explain in a complete sentence.      What sticks out to you about the graph (e.g., what looks unusual)? Do you have an explanation for why it looks unusual?    "
 }
 ]
 
