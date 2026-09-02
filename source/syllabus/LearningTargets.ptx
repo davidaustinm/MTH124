@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="targets" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Learning Target Quizzes</title>
+
+    <p>
+        <alert>
+        MTH 124
+    </alert>
+    </p>
+
+<p>
+    Each week we will have a learning target quiz.  Each quiz will ask 
+    you content about 1-4 of the target topics below. Each target will
+    appear on two successive quizzes, and you can take a third attempt 
+    in office hours.  Once you are satisfied with your grade on a target, 
+    you never have to take it again!
+    </p>
+    <p>
+        Scoring:
+        <ul>
+            <li>
+                <p>
+                    The successful demonstration of Excellence (E) on one of these
+            targets gets you 100% on that target.  That amounts to 3% of your semester grade, therefore Excellence on
+            all the targets is worth 36% of your final grade in the course.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                     A demonstration of Satisfactory (S) on a target is like scoring a 75% 
+        on that target.  
+                </p>
+            </li>
+            <li>
+                <p>
+                    A Not Yet (NY) on a target is 0%.  Try it again!  (Maybe ask during 
+        office hours or at the tutoring center?)
+                </p>
+            </li>
+        </ul>
+  </p>
+
+    <paragraphs>
+        <title>CORE Learning Targets</title>
+
+        <p>
+            The following are the 12 Core Learning Targets for this semester.
+            
+           
+            <ol>
+                <li>
+                    <p>
+                        I can use function notation, find and simplify the
+                        output of a function given an input, and find an input
+                        that produces a given output; I can do this for
+                        functions given by a formula, a table, and a graph.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can find the average rate of change in a function on a
+                        given interval and state the units and interpret the
+                        meaning of the average rate of change in applied
+                        contexts.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can find an equation for any linear function in
+                        point-slope and slope-intercept form, given appropriate
+                        data or information.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can find and simplify values of the composition of two
+                        functions.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can determine whether a function has an inverse and
+                        find values of the inverse given input-output pairs of
+                        the original.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can generate an accurate, labeled graph of a circular
+                        function given appropriate information about the circle
+                        being traversed, and describe key features of the
+                        function.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can find the amplitude, period, and midline of a
+                        transformed version of the basic sine or cosine
+                        function; and I can find the formulas for transformed
+                        versions of the basic sine or cosine function that have
+                        certain described properties.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Given two points or an appropriate collection of
+                        features, I can find a formula for an exponential
+                        function that has those characteristics.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can identify the intervals where a function is
+                        increasing, decreasing, concave down, or concave up, and
+                        I can provide examples of familiar functions that have
+                        given increasing / decreasing and concave down / concave
+                        up behaviors.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can find exact values for exponential models and exact
+                        values of solutions to equations involving exponential
+                        and logarithmic expressions in contextual settings.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Given a right triangle with partial information about
+                        its sides and angles, I can determine the missing
+                        information for the remaining sides and angles, even if
+                        the quantities involve an unknown variable.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        I can identify the degree, coefficients, constant and
+                        linear terms, and leading coefficient of a polynomial,
+                        and identify zeroes, the multiplicity of zeroes, and
+                        turning points of a polynomial given its graph.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </paragraphs>
+</section>
