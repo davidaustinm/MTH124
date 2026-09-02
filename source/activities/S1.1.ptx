@@ -36,7 +36,7 @@
                 </p>
             </statement>
 
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <image width="30%">
                     <shortdescription>
                         A picture of the tank described in the problem, partly
@@ -72,7 +72,7 @@
                 </p>
             </statement>
 
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <p>
                     Some quantities are the volume, depth, and radius of water
                     in the tank, as well as time.
@@ -147,7 +147,7 @@
                 </sidebyside>
             </statement>
 
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <sidebyside widths="40% 30%">
                     <table>
                         <title>
@@ -268,7 +268,7 @@
                     </image>
                 </sidebyside>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <p>
                     The height will grow quickly at first, and then grow a lot slower over time.  What might that look like?
                 </p>
@@ -297,7 +297,7 @@
                     completely empty.
                 </p>
             </statement>
-             <solution component="aaa-soln">
+             <solution component="show-soln">
                  <image width="30%">
                     <shortdescription>
                         A picture of the tank described in the problem.
@@ -325,7 +325,7 @@
                     What are some quantities that are not changing?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <p>
                     Changing: time, volume and height and radius of water. Not changing: dimensions of the tank.
                 </p>
@@ -341,7 +341,7 @@
                     starts being drained, how much water is present?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <p>
                     <m>\ds V = \frac{4}{3}\pi(3)^3 = 36\pi</m> cubic feet <m>~113.097</m>
                 </p>
@@ -354,7 +354,7 @@
                     How long will it take for the tank to drain completely?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <p>
                     <m>\ds \frac{36 \pi}{1.2}</m> total cubic feet / cubic feet per minute <m>= 94.25</m> minutes.
                 </p>
@@ -426,7 +426,7 @@
                     </image>
                 </sidebyside>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <sidebyside widths="40% 40%">
                     <table>
                         <title>
@@ -544,7 +544,7 @@
                     </image>
                 </sidebyside>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
                 <p>
                     The height starts at 6, which is the height of the tank. But there's not much volume at the top so the height of the 
                     water drops very quickly. But is starts dropping a lot slower once the height of the water nears the middle of the tank, 
