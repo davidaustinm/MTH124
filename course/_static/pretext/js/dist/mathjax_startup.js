@@ -60,7 +60,6 @@ function startMathJax(opts) {
   } else {
     mathJaxOpts["startup"] = {
       ready() {
-        window.PTX_MACROS = document.getElementById("latex-macros").textContent;
         const { Configuration } = MathJax._.input.tex.Configuration;
         const configuration = Configuration.create("knowl", {
           handler: {
