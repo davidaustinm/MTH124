@@ -441,7 +441,9 @@
             </statement>
             <solution component="aaa-soln">
               <p>
-                Function! Each speed corresponds to exactly one reading on the odometer.
+                Not a function.  I could be going to school and from school every day at 
+                55 mph, but the odometer will be different most every time.  It might be 
+                40,000 miles at one point, but on the way home it will probably be higher.
               </p>
             </solution>
         </task>
