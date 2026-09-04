@@ -73,7 +73,7 @@
                     What values of <m>V</m> make sense in the same context?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Since the radius is 4 meters, the height of the tank is 8 meters, so <m>0 \le h \le 8</m> 
                 meters makes sense. Negative heights or heights above the tank don't make sense. Simmilarly with volume.
@@ -91,7 +91,7 @@
                     Why?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Domain is the input: <m>0\le h \le 8</m> or <m>[0,8]</m> because the max height is 8 and you cannot have height less than 0.
 
@@ -111,7 +111,7 @@
                     What is important about the value of <m>f(8)</m>?
                 </p>
             </statement>
-            <solution component = "aaa-soln">
+            <solution component = "show-soln">
               <p>
                 <m>f(2) = \frac{\pi}{3} (2)^2(12-2) = 41.888</m> cubic meters (it's a volume!)
               </p>
@@ -141,7 +141,7 @@
                     Why or why not?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 <m>f(9)</m> doesn't make sense in context because the tank is only 8 meters deep, so there cannot be a height of 9. 
                 Similarly, the volumne can't be negative, so <m>f(13)</m> makes even less sense.
@@ -156,7 +156,7 @@
                     <m>f(h) = 300</m> cubic meters?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 If <m>f(h)=300</m>, then <m>300=\frac{\pi}{3} h^2 (12-h)</m>. Algebra is hard here, but using a graph
                 we know this can happen aht <m>h~-4.2</m>. This doesn't make sense for our problem. Alternatively, we know 
@@ -205,7 +205,7 @@
                     Why?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Initial height when <m>t=0</m>: <m>h=8</m>m. When <m>t=1, h=8-0.5 = 7.5</m>m.  When 
                 <m>t=2, h=8-2(0.5)=7</m>m.  Will take <m>8/0.5 = 16</m> minutes to drain.
@@ -220,7 +220,7 @@
                     What is the domain of the model <m>V=p(t)</m>?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Domain: <m>0\le t \le 16</m> (positives times when tank is not empty).
                 Same domain for both. 
@@ -236,7 +236,7 @@
                     What is the range of the model <m>V=p(t)</m>?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Full when <m>t=0</m>, so <m>V = p(0) = \frac{256\pi}{3} - \frac{\pi}{24}(0)^2(24-0)=\frac{256\pi}{3}\approx 268.08</m>
                 cubic meters. 
@@ -267,7 +267,7 @@
                     domain, its range, and more.
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Between <m>0\le t \le 16</m> the function is always decreasing, but it 
                 changes slowly at first, quicker in the middle, and slowly at the end. The 
@@ -289,7 +289,7 @@
                     differ from those of the abstract function, if at all?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 With no context, <m>x</m> can be any real number, so the domain would be <m>-\infty
                 \lt x \lt \infty</m>, or <m>(-\infty, \infty)</m>. Similarly we can get out any y- value, so the range would 
@@ -307,7 +307,7 @@
                     Explain your thinking.
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Since <m>h=q(t)</m> is decreasing at a constant rate, it should be linear (just a line!).
                 Using form <m>h=mt+b</m>, the slope is <m>m=-0.5</m> since that's the rate at which the height decreases.  The initial
@@ -401,7 +401,7 @@
                     </image>
                 </sidebyside>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 The first graph does not show a function as it fails the vertical line test. (ex: the input
                 of <m>-3</m> corresponds to two outputs, <m>\sqrt{7}</m> and <m>-\sqrt{7}</m>.)
@@ -424,7 +424,7 @@
                     year.
                 </p>
             </statement>
-            <solution component ="aaa-soln">
+            <solution component ="show-soln">
               <p>
                 Function!  Each day of the year corresponds to exactly one index value at the close of day.
               </p>
@@ -439,7 +439,7 @@
                     function of its velocity.
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Not a function.  I could be going to school and from school every day at 
                 55 mph, but the odometer will be different most every time.  It might be 
@@ -476,7 +476,7 @@
                     </row>
                 </tabular>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="show-soln">
               <p>
                 Not a function. For the input <m>x=2</m> for example, you could get out either <m>y=12</m> or 
                 <m>y=14</m>. (There is another example of this, what is it?)

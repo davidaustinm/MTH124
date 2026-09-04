@@ -12,7 +12,7 @@
         <statement>
           <p>What does it mean to say <m>M(0)=1000</m>?</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
         <p>
           The account balance when you initially open the account was $1000.
         </p>
@@ -23,7 +23,7 @@
         <statement>
           <p>What does it mean to say <m>M(365) = 3000</m>?</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             On day 366 (one year later) there was $3000 in the account.
           </p>
@@ -33,7 +33,7 @@
         <statement>
           <p>If on day 2 of opening the account, the account balance was <m>\</m>1012$, how would you write that in function notation?</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             Day 2 is <m>t=1</m>, so <m>M(1) = 1012</m>
           </p>
@@ -43,7 +43,7 @@
         <statement>
           <p>What does the following statement mean: "<m>M(30) - M(0) = 100</m>"?</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             Since <m>t=30</m> is day 31, the account balance 
             changed (went up) by $100 in the first 31 days.
@@ -60,7 +60,7 @@
         <statement>
           <p>What is the population of bacteria after <m>t=6</m> months?</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             <m>p(6)=35,488</m> bacteria
           </p>
@@ -70,7 +70,7 @@
         <statement>
           <p>What does it mean to say <m>p(1) = 4248</m>?</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             After 1 month the global population of bacteria is 4,248.
           </p>
@@ -80,7 +80,7 @@
         <statement>
           <p>How would you find what time the global population was <m>5000</m>?  Set up!  No need to solve!</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             You want to solve <m>p(t)=5000</m>, or <m>5000 = 4t^5+4t^2+4240</m>, and solve for 
             <m>t</m>.  I'd suggest graphing it...
@@ -119,7 +119,7 @@
         <statement>
           <p>What is <m>f(2)</m>?  <m>f(8)</m>?  <m>f(10)</m>?</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             <m>f(2)=2, \ \ f(8)=9, \ \ f(10)</m> does not exist (DNE)
           </p>
@@ -129,7 +129,7 @@
         <statement>
           <p>Find all values of <m>x</m> such that <m>f(x) = 4</m>.</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             When <m>x\approx 5.9</m>, that is <m>f(5.9)=4</m>
           </p>
@@ -139,7 +139,7 @@
         <statement>
           <p>Find all values of <m>x</m> such that <m>f(x) = 2</m>.</p>
         </statement>
-        <solution component="aaa-soln">
+        <solution component="show-soln">
           <p>
             It's the whole first interval: <m>0\le x \le 5</m>, or <m>[0,5]</m>
           </p>
@@ -176,7 +176,7 @@
       <statement>
         <p>What does it mean to say <m>C(4)=36</m>?</p>
       </statement>
-      <solution component="aaa-soln">
+      <solution component="show-soln">
           <p>
             Buying 4 books costs $36.
           </p>
@@ -186,7 +186,7 @@
       <statement>
         <p>What is the value of <m>n</m> such that <m>C(n) = 19</m>, and what does it mean in context?</p>
       </statement>
-      <solution component="aaa-soln">
+      <solution component="show-soln">
           <p>
             If <m>n=2</m>, then <m>C(2)=19</m>, that is for the 
             cost to be $19 you would have bought to books.
