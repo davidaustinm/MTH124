@@ -1,206 +1,472 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handout>
-  <title>Section 1.7: Inverse Functions</title>
+    <title>Section 1.7: Inverse Functions</title>
 
-  <definition workspace="0.3in">
-    <title>Definition 1.7.1</title>
-    <statement>
-      <p>Let <m>f:A\rightarrow B</m>
- be a function. If there exists a function <m>g:B\rightarrow A</m>
- such that <md>g(f(a)) = a, \ \ \ \text{ and } \ \ \ f(g(b))=b</md>
- for each <m>a</m>
- in <m>A</m>
- and each <m>b</m>
- in <m>B</m>,
- then we say that <m>f</m>
- has an <term>inverse function</term> and that the function <m>g</m>
- is <term>the inverse of <m>f</m>.</term>
-(In other words, they undo each other!)</p>
-    </statement>
-  </definition>
-
-  <p workspace="0.3in"><term>Big picture: if <m>y=f(x)</m> is a function with an inverse, <m>f(x)</m> inputs <m>x</m> and outputs <m>y</m>.  So the inverse of <m>f</m> would input <fillin/> and output <fillin/>.</term></p>
-  <p workspace="0.15in">Notation:  We write the inverse of <m>f</m> as <m>f^{-1}</m>, and we read it as <m>f-</m>inverse.  Essentially, the inverse of a function <q>undoes</q> the original function, so you get back to where you started.</p>
-
-  <activity>
-    <title>Activity 1.7.2</title>
-    <introduction>
-      <p>Recall Dolbear’s function 
- <m>F = D(N) = 40 + \frac14N</m>
- that converts the number, <m>N</m>,
- of snowy tree cricket chirps per minute to a corresponding Fahrenheit temperature. We have earlier established that the domain of <m>D</m>
- is <m>[40,180]</m>
- and the range of <m>D</m>
- is <m>[50,85]</m>.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Solve the equation 
- <m>F = 40+\frac14N</m>
- for <m>N</m>
- in terms of <m>F</m>.  (That is we should get <m>N=</m> stuff in terms of <m>F</m>.)
- Call the resulting function <m>N=E(F)</m>.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Explain in words the process or effect of the function <m>N=E(F)</m>.
- What does it take as input? What does it generate as output?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Use the function <m>E</m>
- that you found in (a.) to compute <m>E(D(N))</m>.
- Simplify your result as much as possible. Do likewise for <m>D(E(F))</m>.
- What do you notice about these two composite functions?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Consider the equations 
- <m>F = 40+\frac14N</m>
- and <m>N=4(F-40)</m>.
- Do these equations express different relationships between <m>F</m>
- and <m>N</m>,
- or do they express the same relationship in two different ways? Explain.</p>
-      </statement>
-    </task>
-  </activity>
-
-  <assemblage>
-    <title>Two perspectives from a function and its inverse function</title>
-    <p>If <m>y=f(t)</m>
- has an inverse function, then the equations <md>y=f(t) \text{  and  } t=f^{-1}(y)</md>
-say the exact same thing but from two different perspectives.</p>
-  </assemblage>
-
-  <assemblage>
-    <title>Horizontal Line Test</title>
-    <p>A function whose graph lies in the <m>x</m>-<m>y</m>
- plane has a corresponding inverse function if and only if every horizontal line intersects the graph at most once. When the graph passes this test, the horizontal coordinate of each point on the graph can be viewed as a function of the vertical coordinate of the point.</p>
-  </assemblage>
-
-  <p workspace=".7cm">Think about it in terms of inputs and outputs.  An inverse function flips the input and the output, so what was formerly on the <m>y-</m>axis is now the input, and what was formerly on the <m>x-</m>axis is now the output.</p>
-
-  <activity>
-    <title>Activity 1.7.3. Determining if a function has an inverse</title>
-    <introduction>
-      <p>Each relationship below describes a function.  Determine whether the function has an inverse function. If it does give two examples of values of the inverse function by writing statements such as “<m>s^{-1}(3) = 1</m>”.</p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>The function <m>f:S\rightarrow S</m> given by the table below, where <m>S={0,1,2,3,4}</m>.</p>
-        <image source="images/1.7.3a" width="50%"/>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>The function <m>g:S\rightarrow S</m> given by the table below, where <m>S={0,1,2,3,4}</m>.</p>
-        <image source="images/1.7.3b" width="50%"/>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>The function <m>p</m>
- given by <m>p(t)=7-\frac35t</m>. 
- Assume that the domain and codomain of <m>p</m>
- are both “all real numbers”.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>The function <m>q</m>
- given by <m>q(t)=7-\frac35t^4</m>.
- Assume that the domain and codomain of <m>q</m>
- are both “all real numbers”.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>The functions <m>r</m>
- and <m>s</m>
- given by the graphs below. Assume that the graphs show all of the important behavior of the functions and that the apparent trends continue beyond what is pictured.</p>
-        <image source="images/1.7.3e" width="50%"/>
-      </statement>
-    </task>
-  </activity>
-
-  <p>Read carefully and check if each property makes sense:</p>
-
-  <assemblage>
-    <title>Properties of an inverse function</title>
-    <p>Let <m>f</m>
- be a function with an inverse function, <m>f^{-1}</m>.
- Then:</p>
     <p>
-      <ul>
-        <li><p>if <m>f</m> has domain <m>A</m> and range <m>B</m>, then <m>f^{-1}</m> has domain <m>B</m> and range <m>A</m> (domain and range swap!)</p></li>
-        <li><p>The functions <m>f</m>
- and <m>f^{-1}</m>
- <em>reverse one anothers’ processes</em>. Symbolically, <m>f^{-1}(f(a))=a</m>
- for every input <m>a</m>
- in the domain of <m>f</m>,
- and similarly, <m>f(f^{-1}(b))=b</m>
- for every input <m>b</m>
- in the domain of <m>f^{-1}</m>.</p></li>
-        <li><p>Both <m>f</m> and <m>f^{-1}</m>
- express the exact same relationship from a different perspective.</p></li>
-        <li><p>If <m>y=f(x)</m>, then the points <m>(x,y)</m>
- lies on the graph of <m>f</m>.  Then <m>x=f^{-1}(y)</m>, and the point <m>(y,x)</m>
- lies on the graph of <m>f^{-1}</m>.</p></li>
-      </ul>
+        <alert>MTH 124</alert>
     </p>
-  </assemblage>
 
-  <p>The last point for example says that if <m>(0,1)</m> is a point on the graph of <m>f</m>, then <m>(1,0)</m> is a point on the graph of <m>f^{-1}</m>, because the input and output switch!</p>
-  <image source="images/1.7.3" width="50%"/>
-  <p workspace="0.15in">Graphically, an inverse function is a reflection across the line <m>y=x</m>.  See the picture of <m>f</m> (the top curve) and <m>f^{-1}</m> (the bottom curve) below, and the line <m>y=x</m> between them. (Graph is not for the next activity.)</p>
+    <definition workspace="0.0in">
+        <title>Definition 1.7.1</title>
 
-  <activity>
-    <title>Activity 1.7.4</title>
-    <introduction>
-      <p>During a major rainstorm, the rainfall at Gerald R. Ford Airport is measured on a frequent basis for a 10-hour period of time. The following function <m>g</m>
- models the <term>rate</term>, <m>R</m>,
- at which the rain falls (in cm/hr) on the time interval <m>t=0</m>
- to <m>t=10</m>:
- <md>R = g(t) = \frac{4}{t+2} +1.</md></p>
-    </introduction>
-    <task workspace="1in">
-      <statement>
-        <p>Compute <m>g(3)</m>
- and write a complete sentence to explain its meaning in the given context, including units.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Compute the average rate of change of <m>g</m>
- on the time interval <m>[3,5]</m>
- and write two careful complete sentences to explain the meaning of this value in the context of the problem, including units. Explicitly address what the value you compute tells you about how rain is falling over a certain time interval, and what you should expect as time goes on.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Plot the function <m>y=g(t)</m>
- using a computational device (desmos?). On the domain <m>[0,10]</m>,
- what is the corresponding range of <m>g</m>?
- Why does the function <m>g</m>
- have an inverse function?</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>Determine <m>g^{-1}(\frac95)</m> 
- and write a complete sentence to explain its meaning in the given context.</p>
-      </statement>
-    </task>
-    <task workspace="1in">
-      <statement>
-        <p>According to the model <m>g</m>,
- is there ever a time during the storm that the rain falls at a rate of exactly <m>1</m>
- centimeter per hour? Why or why not? Provide an algebraic justification for your answer.</p>
-      </statement>
-    </task>
-  </activity>
+        <statement>
+            <p>
+                Let <m>f:A\rightarrow B</m> be a function.
+                If there exists a function <m>g:B\rightarrow A</m> such that
+                <md>
+                    g(f(a)) = a, \ \ \ \text{ and } \ \ \ f(g(b))=b
+                </md>
+                for each <m>a</m> in <m>A</m> and each <m>b</m> in <m>B</m>,
+                then we say that <m>f</m> has an <term>inverse function</term>
+                and that the function <m>g</m> is
+                <term>the inverse of <m>f</m>.</term>
+            </p>
 
+            <p>
+                (In other words, they swap inputs and outputs and undo each
+                other!)
+            </p>
+        </statement>
+    </definition>
+
+    <p workspace="0.0in">
+        <term>Big picture:</term> if <m>y=f(x)</m> is a function with an
+        inverse, <m>f(x)</m> inputs <m>x</m> and outputs <m>y</m>.
+        So the inverse of <m>f</m> would input <fillin/> and output <fillin/>.
+    </p>
+
+    <p workspace="0.0in">
+        Notation: We write the inverse of <m>f</m> as <m>f^{-1}</m>, and we read
+        it as "<m>f</m> inverse".
+        Essentially, the inverse of a function <q>undoes</q> the original
+        function, so you get back to where you started.
+    </p>
+
+    <activity>
+        <title>Activity 1.7.2</title>
+
+        <introduction>
+            <p>
+                Recall Dolbear’s function <m>{F = D(N) = 40 + \frac14N}</m> that
+                converts the number, <m>N</m>, of snowy tree cricket chirps per
+                minute to a corresponding Fahrenheit temperature.
+                We have earlier established that the domain of <m>D</m> is
+                <m>[40,180]</m> and the range of <m>D</m> is <m>[50,85]</m>.
+            </p>
+        </introduction>
+
+        <task workspace="0.8in">
+            <statement>
+                <p>
+                    Solve the equation <m>{F = 40+\frac14N}</m> for <m>N</m> in
+                    terms of <m>F</m>.
+                    (That is we should get <m>N=</m> stuff in terms of
+                    <m>F</m>.) Call the resulting function <m>N=E(F)</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.8in">
+            <statement>
+                <p>
+                    Explain in words the process or effect of the function
+                    <m>N=E(F)</m>.
+                    What does it take as input?
+                    What does it generate as output?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.8in">
+            <statement>
+                <p>
+                    Use the function <m>E</m> that you found in (a.) to compute
+                    <m>E(D(N))</m>.
+                    Simplify your result as much as possible.
+                    Do likewise for <m>D(E(F))</m>.
+                    What do you notice about these two composite functions?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.8in">
+            <statement>
+                <p>
+                    Consider the equations <m>F = 40+\frac14N</m> and
+                    <m>N=4(F-40)</m>.
+                    Do these equations express different relationships between
+                    <m>F</m> and <m>N</m>, or do they express the same
+                    relationship in two different ways?
+                    Explain.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <assemblage>
+        <title>Two perspectives from a function and its inverse function</title>
+
+        <p>
+            If <m>y=f(t)</m> has an inverse function, then the equations
+            <md>
+                y=f(t) \text{  and  } t=f^{-1}(y)
+            </md>
+            say the exact same thing but from two different perspectives.
+        </p>
+    </assemblage>
+    <p>
+      Note:  You've likely been taught to switch the 
+      variables.  The reason is usually so you can
+      plot them.  But not switching them can often help
+      us understand the meaning of the inverse function.
+    </p>
+
+    <assemblage>
+        <title>Horizontal Line Test</title>
+
+        <p>
+            A function whose graph lies in the <m>x</m>- <m>y</m> plane has a
+            corresponding inverse function if and only if every horizontal line
+            intersects the graph at most once.
+            When the graph passes this test, the horizontal coordinate of each
+            point on the graph can be viewed as a function of the vertical
+            coordinate of the point.
+        </p>
+    </assemblage>
+
+    <p workspace="0.0cm">
+        Think about it in terms of inputs and outputs.
+        An inverse function flips the input and the output, so what was formerly
+        on the <m>y-</m> axis is now the input, and what was formerly on the
+        <m>x-</m> axis is now the output.
+    </p>
+
+    <activity>
+        <title>Activity 1.7.3. Determining if a function has an inverse</title>
+
+        <introduction>
+            <p>
+                Each relationship below describes a function.
+                Determine whether the function has an inverse function.
+                If it does give two examples of values of the inverse function
+                by writing statements such as “ <m>{s^{-1}(3) = 1}</m> ”.
+            </p>
+        </introduction>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    The function <m>f:S\rightarrow S</m> given by the table
+                    below, where <m>S={0,1,2,3,4}</m>.
+                </p>
+
+                <tabular>
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>4</cell>
+                    </row>
+
+                    <row>
+                        <cell><m>f(x)</m></cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                        <cell>3</cell>
+                        <cell>2</cell>
+                    </row>
+                </tabular>
+            </statement>
+        </task>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    The function <m>g:S\rightarrow S</m> given by the table
+                    below, where <m>S={0,1,2,3,4}</m>.
+                </p>
+
+                <tabular>
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>4</cell>
+                    </row>
+
+                    <row>
+                        <cell><m>g(x)</m></cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                        <cell>3</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                    </row>
+                </tabular>
+            </statement>
+        </task>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    The function <m>p</m> given by <m>p(t)=7-\frac35t</m>.
+                    Assume that the domain and codomain of <m>p</m> are both
+                    “all real numbers”.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    The function <m>q</m> given by <m>q(t)=7-\frac35t^4</m>.
+                    Assume that the domain and codomain of <m>q</m> are both
+                    “all real numbers”.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.7in">
+            <statement>
+                <p>
+                    The functions <m>r</m> and <m>s</m> given by the graphs
+                    below.
+                    Assume that the graphs show all of the important behavior of
+                    the functions and that the apparent trends continue beyond
+                    what is pictured.
+                </p>
+
+                <sidebyside widths="30% 30%">
+                    <image>
+                        <shortdescription>
+                            A function to determine if it has an inverse.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-7-3-1">
+                            <diagram dimensions="(300,300)" margins="10">
+                                <definition>
+                                    r(x)=(2/-(1/(1+e^(-1))-1/2))*(1/(1+e^(-x))-1/2)
+                                </definition>
+                                <coordinates bbox="[-5,-5,5,5]">
+                                    <grid-axes/>
+                                    <graph function="r"/>
+                                    <label p="(-2,4.5)">
+                                        <m>
+                                            y = r(t)
+                                        </m>
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            A function to determine if it has an inverse.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-7-3-2">
+                            <diagram dimensions="(300,300)" margins="10">
+                                <definition>
+                                    f(x)=-2*(x+3)+1
+                                </definition>
+
+                                <definition>
+                                    g(x)=2/3*(x+3)-2
+                                </definition>
+
+                                <definition>
+                                    h(x)=-1*(x-3)-3
+                                </definition>
+                                <coordinates bbox="[-5,-5,5,5]">
+                                    <grid-axes/>
+                                    <graph function="f" domain="(-5,-3)"/>
+                                    <graph function="g" domain="(-3,3)"/>
+                                    <graph function="h" domain="(3,5)"/>
+                                    <point p="(-3,1)" fill="white"/>
+                                    <point p="(3,2)" fill="white"/>
+                                    <point p="(-3,-2)" fill="blue"/>
+                                    <point p="(3,-3)" fill="blue"/>
+                                    <label p="(-2,4.5)">
+                                        <m>
+                                            y = s(t)
+                                        </m>
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </statement>
+        </task>
+    </activity>
+
+    <p>
+        Read carefully and check if each property makes sense:
+    </p>
+
+    <assemblage>
+        <title>Properties of an inverse function</title>
+
+        <p>
+            Let <m>f</m> be a function with an inverse function, <m>f^{-1}</m>.
+            Then:
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        if <m>f</m> has domain <m>A</m> and range <m>B</m>, then
+                        <m>f^{-1}</m> has domain <m>B</m> and range <m>A</m>
+                        (domain and range swap!)
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The functions <m>f</m> and <m>f^{-1}</m>
+                        <em>reverse one anothers’ processes</em>.
+                        Symbolically, <m>f^{-1}(f(a))=a</m> for every input
+                        <m>a</m> in the domain of <m>f</m>, and similarly,
+                        <m>f(f^{-1}(b))=b</m> for every input <m>b</m> in the
+                        domain of <m>f^{-1}</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Both <m>f</m> and <m>f^{-1}</m> express the exact same
+                        relationship from a different perspective.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        If <m>y=f(x)</m>, then the points <m>(x,y)</m> lies on
+                        the graph of <m>f</m>.
+                        Then <m>{x=f^{-1}(y)}</m>, and the point <m>(y,x)</m> lies
+                        on the graph of <m>f^{-1}</m>. (If <m>(1,0)</m> is a point
+                        for <m>f</m>, then <m>(0,1)</m> is a point on <m>f^{-1}</m>!)
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+
+    
+    <p>
+        Graphically, an inverse function is a reflection across the line
+        <m>{y=x}</m>.
+        See the picture of <m>f</m> (the top curve) and <m>f^{-1}</m> (the
+        bottom curve) below, and the line <m>{y=x}</m> between them.
+        (Graph is not for the next activity.)
+    </p>
+    <image width="30%">
+      <shortdescription>A graph f(x) and it's inverse shown on one graph, along with the reflecting line y=x.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-1-7-4">
+ <diagram dimensions="(300,300)" margins="10">
+  <definition>f(x)= 2^x</definition>
+  <definition>g(x)= ln(x)/ln(2) </definition>
+  <definition>h(x)=x</definition>
+  <coordinates bbox="[-5,-5,5,5]">
+    <grid-axes />
+    <graph function="f"/>
+    <graph function="g" />
+    <graph function="h" dash="4 4"/>
+    <point p="(-1,1/2)" fill="blue" alignment="nw" ><m>(-1,\frac12)</m></point>
+    <point p="(1/2,-1)" fill="blue" alignment="se" ><m>(\frac12,-1)</m></point>
+
+
+
+    <label p="(-2,4.5)"><m>y = f(x)</m></label>
+    <label p="(2,-4.5)"><m>y = f^{-1}(x)</m></label>
+
+  </coordinates>
+</diagram>
+                        </prefigure>
+
+    </image>
+
+
+    
+   
+
+    <activity>
+        <title>Activity 1.7.4</title>
+
+        <introduction>
+            <p>
+                During a major rainstorm, the rainfall at Gerald R.
+                Ford Airport is measured on a frequent basis for a 10-hour
+                period of time.
+                The following function <m>g</m> models the <term>rate</term>,
+                <m>R</m>, at which the rain falls (in cm/hr) on the time
+                interval <m>t=0</m> to <m>t=10</m>:
+                <md>
+                    R = g(t) = \frac{4}{t+2} +1.
+                </md>
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Compute <m>g(3)</m> and write a complete sentence to explain
+                    its meaning in the given context, including units.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Compute the average rate of change of <m>g</m> on the time
+                    interval <m>[3,5]</m> and write two careful complete
+                    sentences to explain the meaning of this value in the
+                    context of the problem, including units.
+                    Explicitly address what the value you compute tells you
+                    about how rain is falling over a certain time interval, and
+                    what you should expect as time goes on.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Plot the function <m>y=g(t)</m> using a computational device
+                    (desmos?).
+                    On the domain <m>[0,10]</m>, what is the corresponding range
+                    of <m>g</m>?
+                    Why does the function <m>g</m> have an inverse function?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Determine <m>g^{-1}(\frac95)</m> and write a complete
+                    sentence to explain its meaning in the given context.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    According to the model <m>g</m>, is there ever a time during
+                    the storm that the rain falls at a rate of exactly <m>1</m>
+                    centimeter per hour?
+                    Why or why not?
+                    Provide an algebraic justification for your answer.
+                </p>
+            </statement>
+        </task>
+    </activity>
 </handout>

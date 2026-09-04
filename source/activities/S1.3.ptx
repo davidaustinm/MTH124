@@ -2,10 +2,11 @@
 
 <handout>
     <title>Section 1.3: Average Rate of Change of a Function</title>
-
+<p>
     <alert>
         MTH 124
     </alert>
+    </p>
 
     <definition workspace="0in">
         <title>Definition 1.3.4</title>
@@ -98,6 +99,16 @@
                     <m>W</m>.
                 </p>
             </statement>
+            <solution component="aaa-soln">
+          <p>
+            Kent: <m>AV_{[1990,2010]} = \frac{K(2010)-K(1990)}{2010-1990}=
+            \frac{602,622 - 500,631}{20}=5099.55</m>
+          </p>
+          <p>
+            Ottawa: <m>AV_{[1990,2010]} = \frac{W(2010)-W(1990)}{2010-1990}=
+            \frac{263,801 - 187,768}{20}=3801.65</m>
+          </p>
+        </solution>
         </task>
 
         <task workspace="0.5in">
@@ -107,6 +118,11 @@
                     (a)?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    people per year (output/input)
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.7in">
@@ -120,6 +136,12 @@
                     was <m>\ldots</m> ”
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    Between 1990 and 2010, the population of Ottawa County
+                    grew on average by 3802 people per year.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.7in">
@@ -131,16 +153,35 @@
                     negative average rate of change?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    During <m>[2000,2010]</m>, Kent county had 
+                    a larger total growth, and thus a larger average rate of change over 
+                    that time period. For a negative average rate of change, 
+                    the population would need to decrease, which doesn't look like it 
+                    happens in the table (at least for the years we are shown).
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.7in">
             <statement>
                 <p>
-                    Using the given data, what do you predict will be the
+                    Using the given data only, what do you predict was the
                     population of Ottawa County in 2018?
                     Why?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    In Ottawa, the latest change is 
+                    <m>AV_{[2000,2010]}=\frac{W(2010)-W(2000)}{2010-2000}
+                    =\frac{263,801 - 238,313}{10}=2548.8</m> people per year. 
+                    In 2010 the population is 263,801. If we expect the population to go up by about 
+                    2548.8 people per year, then 8 years later in 2018 we would 
+                    expect the population to be <m>263,801 + 8(2548.8)\approx 284,191</m> people.
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -223,6 +264,20 @@
                     <m>[2,4]</m>?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    <m>AV_{[0,1]}=\frac{q(1)-q(0)}{1-0}=\frac{3-0}{1}=3</m>
+                    </p>
+                <p> <m>AV_{[1,2]}=\frac{q(2)-q(1)}{2-1}=\frac{4-3}{1}=1</m>
+                    </p>
+                    <p>
+                    <m>AV_{[2,3]}=\frac{q(3)-q(2)}{3-2}=\frac{3-4}{1}=-1</m> 
+                    </p><p> <m>AV_{[3,4]}=\frac{q(4)-q(3)}{4-3}=\frac{0-3}{1}=-3</m>
+                </p>
+                <p>
+                    The last two computations are negative, so the function/graph is decreasing on average.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -236,6 +291,34 @@
                     function <m>h</m> on the interval <m>[-1,5]</m> ]?
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    <m>AV_{[-1,1]}=
+                    \frac{h(1)-h(-1)}{1-(-1)}=
+                    \frac{(3-2(0.5)^1) - (3-2(0.5)^{-1})}{2}=
+                    \frac{2-(-1)}{2}=
+                    1.5</m>
+                </p>
+                 <p>
+                    <m>AV_{[1,3]}=
+                    \frac{h(3)-h(1)}{3-1}=
+                    \frac{(3-2(0.5)^3) - (3-2(0.5)^1)}{2}=
+                    \frac{2.75-2}{2}=
+                    0.375</m>
+                </p>
+                <p>
+                    <m>AV_{[3,5]}=
+                    \frac{h(5)-h(3)}{5-3}=
+                    \frac{(3-2(0.5)^5) - (3-2(0.5)^3)}{2}=
+                    \frac{2.94-2.75}{2}=
+                    0.094</m>
+                </p>
+                <p>
+                    The function is increasing on <m>[-1,5]</m> because
+                    they are all positive, but it increases slower and slower...
+                    (it increases at a decreasing rate!)
+                </p>
+            </solution>
         </task>
 
         <task workspace="0in">
@@ -246,6 +329,57 @@
                     computed in (a) and (b).
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    <sidebyside widths="30% 30%">
+              <image>
+                        <shortdescription>
+                            The parabola centered at (2,4) and opening down.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-1-soln">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                              <definition> f(x)= 4 - (x-2)^2 </definition>
+                                <coordinates bbox="[-1,-1,5,5]">
+                                    <grid-axes xlabel="x" ylabel="y" hticks="(2,1,13)" vticks="(-5,1,14)"  
+                                    decorations="yes" hlabels="(2,2,12)" vlabels="(2,2,12)"/>
+                                    <graph function="f" domain="(0,5)"/>
+                                    <label anchor="(3,4.3)"><m>q(x)=4-(x-2)^2</m></label>
+                                    <line p1="(0,f(0))" p2="(1,f(1))" dash="4 4"/>
+                                    <line p1="(1,f(1))" p2="(2,f(2))" dash="4 4"/>
+                                    <line p1="(2,f(2))" p2="(3,f(3))" dash="4 4"/>
+
+                                    <line p1="(4,f(4))" p2="(3,f(3))" dash="4 4"/>
+
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                    <image>
+                        <shortdescription>
+                            The parabola centered at (2,4) and opening down.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-2-soln">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                              <definition> f(x)= 4 - (x-2)^2 </definition>
+                              <definition> g(x)=3 - 2*(0.5)^x</definition>
+                                <coordinates bbox="[-1,-1,5,5]">
+                                    <grid-axes xlabel="x" ylabel="y" hticks="(2,1,13)" vticks="(-5,1,14)"  
+                                    decorations="yes" hlabels="(2,2,12)" vlabels="(2,2,12)"/>
+                                    <graph function="g"/>
+                                    <label anchor="(3,4.3)"><m>h(t)=3-2(0.5)^t</m></label>
+                                    <line p1="(-1,g(-1))" p2="(1,g(1))" dash="4 4"/>
+                                    <line p1="(3,g(3))" p2="(1,g(1))" dash="4 4"/>
+                                    <line p1="(3,g(3))" p2="(5,g(5))" dash="4 4"/>
+
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+            </sidebyside>
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -256,6 +390,15 @@
                     Justify your decision.
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    Although it increases <em>on average</em>, 
+                    it is not increasing everywhere, it actually 
+                    decreases on <m>(2,3)</m>. Since the 
+                    average rate of change is positive, it increases more than it 
+                    decreases, but doesn't increase throughout the entire interval.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -268,6 +411,11 @@
                     explain.
                 </p>
             </statement>
+            <solution component="aaa-soln">
+                <p>
+                    Linear functions!  The slope is always constant!
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -323,6 +471,50 @@
 
 
             </statement>
+            <solution component="aaa-soln">
+                
+                    <sidebyside widths="35% 35%">
+                  <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                         <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-3-soln">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                              <definition>f(x)=-2*(x-1)+4</definition>
+                                <coordinates bbox="[-2,-2,8,8]">
+                                    <grid-axes spacings="((-4,1/2,16),(-4,1/2,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="yes"/>
+                                    <graph function="f"/>
+                                    <point p="(1,4)"/>
+                                    <point p="(3,0)"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                    <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-4-soln">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <definition>f(x)=1/18*(x+2)*(x-3)*(x-5)*(x^2+2)</definition>
+                                <coordinates bbox="[-2,-2,8,8]">
+                                    <grid-axes spacings="((-4,1/2,16),(-4,1/2,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="yes"/>
+                                    <graph function="f"/>
+                                    <point p="(1,4)"/>
+                                    <point p="(3,0)"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+                <p>
+                    There are many many possibilities.  These are two.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0in">
@@ -362,7 +554,53 @@
                             </diagram>
                         </prefigure>
                     </image>
-                </sidebyside>            </statement>
+                </sidebyside>            
+                </statement>
+
+                <solution component="aaa-soln">
+                
+                         <sidebyside widths="35% 35%">
+                  <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-5-soln">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <definition>f(x)=-0.5*x^2+2.5*x+1</definition>
+                                <coordinates bbox="[-2,-2,8,8]">
+                                    <grid-axes spacings="((-4,1/2,16),(-4,1/2,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="yes"/>
+                                    <graph function="f"/>
+                                    <point p="(4,3)"/>
+                                    <point p="(0,1)"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                    <image>
+                        <shortdescription>
+                            A square grid between -2 and 8 to plot the function that meets the requirements (if possible).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-3-6-soln">
+                            
+                            <diagram dimensions="(250,250)" margins="5">
+                                <definition>f(x)=1.57218*sin(x-1.20391)+2.46755</definition>
+                                <coordinates bbox="[-2,-2,8,8]">
+                                    <grid-axes spacings="((-4,1/2,16),(-4,1/2,16))" xlabel="x" ylabel="y" hticks="(-4,2,16)" vticks="(-4,2,16)"  
+                                    decorations="yes"/>
+                                    <graph function="f"/>
+                                    <point p="(4,3)"/>
+                                    <point p="(0,1)"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>  
+                    <p>
+                    There are many many possibilities.  These are two.
+                </p>
+                </solution>
         </task>
 
         <task workspace="0in">
@@ -402,6 +640,14 @@
                         </prefigure>
                     </image>
                 </sidebyside>            </statement>
+                <solution component="aaa-soln">
+                    <p>
+                        If we must go through <m>(2,5)</m> 
+                        and <m>(4,3)</m>, then the slope between them 
+                        must be <m>AV_{[2,4]}=\frac{h(4)-h(2)}{4-2}=\frac{3-5}{2}=-1</m>, not <m>-2</m>. 
+                        Problem!  This is not possible.
+                    </p>
+                </solution>
         </task>
     </activity>
 </handout>

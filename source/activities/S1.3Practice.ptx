@@ -1,107 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handout>
-  <title>Average Rate of Change Practice! Section 1.3</title>
-  <p>
-  <alert>MTH 124</alert>
-  </p>
+    <title>Average Rate of Change Practice! Section 1.3</title>
 
-  <activity>
-    
-      <introduction>
-        <p>Suppose the total cost in dollars to produce x
-items is given by the function <m>C(x)</m>, and that <m>AV_{[100,200]} = 24.04</m>.</p>
-      </introduction>
-      <task workspace="0.3in">
-        <statement>
-          <p>What are the units of the average rate of change?</p>
-        </statement>
-      </task>
-      <task workspace="0.5in">
-        <statement>
-          <p>What does <m>AV_{[100,200]} = 24.04</m> mean in context?</p>
-        </statement>
-      </task>
-      <task workspace="0.5in">
-        <statement>
-          <p>If <m>AV_{[100,200]} = 24.04</m> and <m>AV_{[200,300]}=36.04</m>, what can you say about <m>C(x)</m>.</p>
-        </statement>
-      </task>
-      </activity>
-      <activity>
-      <introduction>
-        <p>Suppose an object is thrown upward with
-initial velocity of 32 feet per second from a
-height of 50 feet. The height of the object t
-seconds after it is thrown is given by a function <m>h(t)</m>.</p>
-      </introduction>
-      <task workspace="1in">
-        <statement>
-          <p>If <m>AV_{[0,2]} = 0</m>, what are the units, and what does that mean in context?</p>
-        </statement>
-      </task>
-      <task workspace="1in">
-        <statement>
-          <p>If <m>AV_{[2,4]} = -64</m>, what are the units, and what does that mean in context?</p>
-        </statement>
-      </task>
-    </activity>
+    <p>
+        <alert>MTH 124</alert>
+    </p>
+
     <activity>
-      <introduction>
-        <p>There is a specific breed of bacteria whose global population after <m>t</m> months is given by the function <m>p(t) = 4t^5 + 4t^2+4240.</m></p>
-      </introduction>
-      <task workspace="1in">
-        <statement>
-          <p>If the average rate of change of <m>p(t)</m> on the interval from 0 to 6 is 5208, what does 5208 mean in context (include units!)?</p>
-        </statement>
-      </task>
-      <task workspace="2in">
-        <statement>
-          <p>What is <m>AV_{[6,12]}</m>?  Include units.</p>
-        </statement>
-      </task>
-      </activity>
-      <activity>
-      <introduction>
-        <p>The velocity of a skydiver is given by a function <m>v(t)</m>, where <m>v(t)</m> is in feet per second and <m>t</m> is in seconds.</p>
-      </introduction>
-      <task workspace="1in">
-        <statement>
-          <p>What would be the units or the average rate of change of <m>v(t)</m>?</p>
-        </statement>
-      </task>
-      <task workspace="1in">
-        <statement>
-          <p>If <m>AV_{[0,10]}=147</m>, what would that mean in context?  Use the units to help you!</p>
-        </statement>
-      </task>
-      <task workspace="1in">
-        <statement>
-          <p>The table below gives the velocity <m>v(t)</m> in 10 second intervals. Velocity is measured in feet per second (fps).</p>
-                <tabular>
-                <row bottom="minor">
-                  <cell><term>Time in seconds</term></cell>
-                  <cell>0</cell>
-                  <cell>10</cell>
-                  <cell>20</cell>
-                  <cell>30</cell>
-                  <cell>40</cell>
-                  <cell>50</cell>
-                  <cell>60</cell>
-                </row>
-                <row bottom="minor">
-                  <cell><term>Velocity in fps</term></cell>
-                  <cell>0</cell>
-                  <cell>147</cell>
-                  <cell>171</cell>
-                  <cell>175</cell>
-                  <cell>175.8</cell>
-                  <cell>176</cell>
-                  <cell>176</cell>
-                </row>
-              </tabular>
-          <p>Find <m>AV_{[50,60]}</m>. What does it mean about the skydiver?</p>
-        </statement>
-      </task>
-  </activity>
+        <introduction>
+            <p>
+                Suppose the total cost in dollars to produce x items is given by
+                the function <m>C(x)</m>, and that
+                <m>AV_{[100,200]} = 24.04</m>.
+            </p>
+        </introduction>
 
+        <task workspace="0.3in">
+            <statement>
+                <p>
+                    What are the units of the average rate of change?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                Output is cost in $, input is item, so units are $/item.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What does <m>AV_{[100,200]} = 24.04</m> mean in context?
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                On average when producing between 100 and 200 items it
+                costs $24.04 per item produced.
+              </p>
+            </solution>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    If <m>AV_{[100,200]} = 24.04</m> and
+                    <m>AV_{[200,300]}=36.04</m>, what can you say about
+                    <m>C(x)</m>.
+                </p>
+            </statement>
+            <solution component="aaa-soln">
+              <p>
+                On average it costs more to produce an additional item if we have 
+                between 200 and 300 items already, than it does 
+                to produce an additional item if we have between 100 and 200 items already.
+              </p>
+            </solution>
+        </task>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                Suppose an object is thrown upward with initial velocity of 32
+                feet per second from a height of 50 feet.
+                The height of the object t seconds after it is thrown is given
+                by a function <m>h(t)</m>.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If <m>AV_{[0,2]} = 0</m>, what are the units, and what does
+                    that mean in context?
+                </p>
+            </statement>
+             <solution component="aaa-soln">
+              <p>
+                Output is height in feet, input is time in seconds, so the units are: ft/s. 
+                On average during the first 2 seconds the height was decreasing 0 ft/s, i.e. 
+                the velocity was 0ft/s on average. (The key here is on average! It did go up and down...)
+              </p> 
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If <m>AV_{[2,4]} = -64</m>, what are the units, and what
+                    does that mean in context?
+                </p>
+            </statement>
+           <solution component="aaa-soln">
+            <p>
+              On average between 2 and 4 seconds the height 
+              was decreasing 64 ft/s, or the velocity was -64ft/s on average
+              between 2 and 4 seconds.
+            </p>
+           </solution>
+        </task>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                There is a specific breed of bacteria whose global population
+                after <m>t</m> months is given by the function
+                <m>p(t) = 4t^5 + 4t^2+4240.</m>
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If the average rate of change of <m>p(t)</m> on the interval
+                    from 0 to 6 is 5208, what does 5208 mean in context (include
+                    units!)?
+                </p>
+            </statement>
+             <solution component="aaa-soln">
+              <p>
+                On average during the first 6 months the population of 
+                bacteria is increasing by 5208 bacteria per month.
+              </p> 
+            </solution>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    What is <m>AV_{[6,12]}</m>?
+                    Include units.
+                </p>
+            </statement>
+             <solution component="aaa-soln">
+              <p>
+                <m>AV_{[6,12]}=\frac{p(12)-p(6)}{12-6}=160,776</m> bacteria per month
+              </p> 
+            </solution>
+        </task>
+    </activity>
+
+    <activity>
+        <introduction>
+            <p>
+                The velocity of a skydiver is given by a function <m>v(t)</m>,
+                where <m>v(t)</m> is in feet per second and <m>t</m> is in
+                seconds.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What would be the units or the average rate of change of
+                    <m>v(t)</m>?
+                </p>
+            </statement>
+             <solution component="aaa-soln">
+              <p>
+                Since output is velocity in ft/s and input is time in s, then the units are output over input, 
+                or <m>\frac{ft/s}{s}</m>.  This is the same as <m>ft/s^2</m>, it's an acceleration!
+              </p> 
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    If <m>AV_{[0,10]}=147</m>, what would that mean in context?
+                    Use the units to help you!
+                </p>
+            </statement>
+             <solution component="aaa-soln">
+              <p>
+                On average in the first 10 seconds the acceleration is <m>147 ft/s^2</m>, or 
+                on average in the first 10 seconds the velocity is increasing by 147 ft/s per second.
+              </p> 
+            </solution>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The table below gives the velocity <m>v(t)</m> in 10 second
+                    intervals.
+                    Velocity is measured in feet per second (fps).
+                </p>
+
+                <tabular>
+                    <row bottom="minor">
+                        <cell><term>Time in seconds</term></cell>
+                        <cell>0</cell>
+                        <cell>10</cell>
+                        <cell>20</cell>
+                        <cell>30</cell>
+                        <cell>40</cell>
+                        <cell>50</cell>
+                        <cell>60</cell>
+                    </row>
+
+                    <row bottom="minor">
+                        <cell><term>Velocity in fps</term></cell>
+                        <cell>0</cell>
+                        <cell>147</cell>
+                        <cell>171</cell>
+                        <cell>175</cell>
+                        <cell>175.8</cell>
+                        <cell>176</cell>
+                        <cell>176</cell>
+                    </row>
+                </tabular>
+
+                <p>
+                    Find <m>AV_{[50,60]}</m>.
+                    What does it mean about the skydiver?
+                </p>
+            </statement>
+             <solution component="aaa-soln">
+              <p>
+                <m>AV_{[50,60]}=\frac{v(60)-v(50)}{60-50}=\frac{176-176}{10}=0 ft/s^2</m>. 
+                During that 10 second interval between 50 and 60 seconds, the skydiver has stopped accelerating (i.e.
+                their velocity is not changing on average).  Free fall!
+              </p> 
+            </solution>
+        </task>
+    </activity>
 </handout>
