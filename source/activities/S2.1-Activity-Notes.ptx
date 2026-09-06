@@ -1,71 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
-  <title>S2.1-Activity-Notes</title>
+  <title>S2.1 Activity: Tables, Graphs, and Notes</title>
 
-  <p workspace=".5cm">Circumference: <fillin/> Radius: <fillin/> Center: <fillin/></p>
-  <tabular>
-    <row>
-      <cell>Fraction of circle</cell>
-      <cell>d</cell>
-      <cell>h</cell>
+  <p>Circumference: <fillin/>
+    </p><p>
+     Radius: <fillin/> 
+     </p><p>Center: <fillin/></p>
+  <tabular >
+    <row bottom="major" header="yes">
+      <cell right="minor" halign="center">Fraction of circle</cell>
+      <cell colspan="8" right="minor">distance around (d)</cell>
+      <cell colspan="8">height of point (h)</cell>
     </row>
-    <row>
-      <cell>0</cell>
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell>1/8</cell>
-      <cell></cell>
+    <row bottom="minor">
+      <cell halign="center" right="minor">0</cell>
+      <cell colspan="8" right="minor"></cell>
       <cell></cell>
     </row>
-    <row>
-      <cell>1/4</cell>
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell>3/8</cell>
-      <cell></cell>
+    <row bottom="minor">
+      <cell halign="center" right="minor">1/8</cell>
+      <cell  colspan="8" right="minor"></cell>
       <cell></cell>
     </row>
-    <row>
-      <cell>1/2</cell>
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell>5/8</cell>
-      <cell></cell>
+    <row bottom="minor">
+      <cell halign="center" right="minor">1/4</cell>
+      <cell   colspan="8" right="minor"></cell>
       <cell></cell>
     </row>
-    <row>
-      <cell>3/4</cell>
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell>7/8</cell>
-      <cell></cell>
+    <row bottom="minor">
+      <cell halign="center" right="minor">3/8</cell>
+      <cell   colspan="8" right="minor"></cell>
       <cell></cell>
     </row>
-    <row>
-      <cell>1</cell>
-      <cell></cell>
-      <cell></cell>
-    </row>
-    <row>
-      <cell>9/8</cell>
-      <cell></cell>
+    <row bottom="minor">
+      <cell halign="center" right="minor">1/2</cell>
+      <cell   colspan="8" right="minor"></cell>
       <cell></cell>
     </row>
-    <row>
-      <cell>3/2</cell>
+    <row bottom="minor">
+      <cell halign="center" right="minor">5/8</cell>
+      <cell   colspan="8" right="minor"></cell>
       <cell></cell>
+    </row>
+    <row bottom="minor">
+      <cell halign="center" right="minor">3/4</cell>
+      <cell   colspan="8" right="minor"></cell>
+      <cell></cell>
+    </row>
+    <row bottom="minor">
+      <cell halign="center" right="minor">7/8</cell>
+      <cell   colspan="8" right="minor"></cell>
+      <cell></cell>
+    </row>
+    <row bottom="minor">
+      <cell halign="center" right="minor">1</cell>
+      <cell   colspan="8" right="minor"></cell>
+      <cell></cell>
+    </row>
+    <row bottom="minor">
+      <cell halign="center" right="minor">9/8</cell>
+      <cell   colspan="8" right="minor"></cell>
+      <cell></cell>
+    </row>
+    <row bottom="minor">
+      <cell halign="center" right="minor">3/2</cell>
+      <cell   colspan="8" right="minor"></cell>
       <cell></cell>
     </row>
   </tabular>
-  <image source="images/gg" width="50%"/>
-  <p><term>Notes</term></p>
+  <image>
+    <shortdescription>A blank plot.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-plot-circle">
+                        <diagram dimensions="(300,200)" margins="5">
+                          
+                            <coordinates bbox="[-1,-4,17,10]">
+                                <grid-axes xlabel="d" ylabel="h" decorations="no"
+                                spacings="((-1,1,17),(-4,1,10))" />
+
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+  <paragraphs><title>Notes</title></paragraphs>
 
 </handout>

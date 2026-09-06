@@ -104,6 +104,13 @@
         </task>
     </activity>
 
+      <p workspace="0in">
+      Note:  You've likely been taught to switch the 
+      variables.  The reason is usually so you can
+      plot them.  But not switching them can often help
+      us understand the meaning of the inverse function.
+    </p>
+
     <assemblage>
         <title>Two perspectives from a function and its inverse function</title>
 
@@ -115,14 +122,9 @@
             say the exact same thing but from two different perspectives.
         </p>
     </assemblage>
-    <p>
-      Note:  You've likely been taught to switch the 
-      variables.  The reason is usually so you can
-      plot them.  But not switching them can often help
-      us understand the meaning of the inverse function.
-    </p>
+  
 
-    <assemblage>
+    <assemblage >
         <title>Horizontal Line Test</title>
 
         <p>
@@ -232,7 +234,7 @@
             </statement>
         </task>
 
-        <task workspace="0.7in">
+        <task workspace="0.1in">
             <statement>
                 <p>
                     The functions <m>r</m> and <m>s</m> given by the graphs
@@ -242,8 +244,8 @@
                     what is pictured.
                 </p>
 
-                <sidebyside widths="30% 30%">
-                    <image>
+                <sidebyside widths="25% 25%" margins="0% 0%">
+                    <image >
                         <shortdescription>
                             A function to determine if it has an inverse.
                         </shortdescription>
@@ -255,7 +257,7 @@
                                 <coordinates bbox="[-5,-5,5,5]">
                                     <grid-axes/>
                                     <graph function="r"/>
-                                    <label p="(-2,4.5)">
+                                    <label anchor="(-2,4.5)">
                                         <m>
                                             y = r(t)
                                         </m>
@@ -291,7 +293,7 @@
                                     <point p="(3,2)" fill="white"/>
                                     <point p="(-3,-2)" fill="blue"/>
                                     <point p="(3,-3)" fill="blue"/>
-                                    <label p="(-2,4.5)">
+                                    <label anchor="(-2,4.5)">
                                         <m>
                                             y = s(t)
                                         </m>
@@ -383,8 +385,8 @@
 
 
 
-    <label p="(-2,4.5)"><m>y = f(x)</m></label>
-    <label p="(2,-4.5)"><m>y = f^{-1}(x)</m></label>
+    <label anchor="(-2,4.5)"><m>y = f(x)</m></label>
+    <label anchor="(2,-4.5)"><m>y = f^{-1}(x)</m></label>
 
   </coordinates>
 </diagram>
@@ -440,7 +442,7 @@
             <statement>
                 <p>
                     Plot the function <m>y=g(t)</m> using a computational device
-                    (desmos?).
+                    (Desmos?).
                     On the domain <m>[0,10]</m>, what is the corresponding range
                     of <m>g</m>?
                     Why does the function <m>g</m> have an inverse function?

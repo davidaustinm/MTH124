@@ -1,14 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
-  <title>S2.1-Activity-Circles</title>
+<title>S2.1 Activity: Circles</title>
+  <!--<paragraphs><title>S2.1-Activity-Circles</title></paragraphs>
+-->
+  <image>
+    <shortdescription>A circle for the activity.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-circle1">
+                        <diagram dimensions="(200,200)" margins="5">
+                          <definition>c=((4,5))</definition>
+                          <definition>c1=4</definition>
+                          <definition>c2=5</definition>
+                          <definition>rad=12/pi</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[-1,-1,10,10]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="(4,5)" radius="rad" />
+                                <point p="c" ><m>(4,5)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(1,9.)" alignment="ne">Circumference = 24</label>
 
-  <image source="images/C1" width="50%"/>
-  <image source="images/C2" width="50%"/>
-  <image source="images/C3" width="50%"/>
-  <image source="images/C4" width="50%"/>
-  <image source="images/C5" width="50%"/>
-  <image source="images/C6" width="50%"/>
-  <image source="images/C7" width="50%"/>
-  <image source="images/C8" width="50%"/>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+
+<image>
+    <shortdescription>A circle for the activity.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-circle2">
+                        <diagram dimensions="(200,200)" margins="5">
+                          
+                          <definition>c1=1</definition>
+                          <definition>c2=3</definition>
+                          <definition>c=((c1,c2))</definition>
+                          <definition>rad=6/pi</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[-2,-1,5,6]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="c" radius="rad" />
+                                <point p="c" ><m>(1,3)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(0,0.)" alignment="ne">Circumference = 12</label>
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+
+
+  <image>
+    <shortdescription>A circle for the activity.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-circle3">
+                        <diagram dimensions="(200,200)" margins="5">
+                          
+                          <definition>c1=2</definition>
+                          <definition>c2=2</definition>
+                          <definition>c=((c1,c2))</definition>
+                          <definition>rad=16/(2*pi)</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[-2,-1,5,6]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="c" radius="rad" />
+                                <point p="c" ><m>(2,2)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(0,5.)" alignment="ne">Circumference = 16</label>
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+
+
+  <image>
+    <shortdescription>A circle for the activity.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-circle4">
+                        <diagram dimensions="(200,200)" margins="5">
+                          
+                          <definition>c1=2</definition>
+                          <definition>c2=0</definition>
+                          <definition>c=((c1,c2))</definition>
+                          <definition>rad=18/(2*pi)</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[-2,-4,6,4]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="c" radius="rad" />
+                                <point p="c" ><m>(2,0)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(0,3.)" alignment="ne">Circumference = 18</label>
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+
+
+  <image>
+    <shortdescription>A circle for the activity.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-circle5">
+                        <diagram dimensions="(200,200)" margins="5">
+                          
+                          <definition>c1=0</definition>
+                          <definition>c2=7</definition>
+                          <definition>c=((c1,c2))</definition>
+                          <definition>rad=22/(2*pi)</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[-5,0,6,11]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="c" radius="rad" />
+                                <point p="c" ><m>(0,7)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(0,1.)" alignment="ne">Circumference = 22</label>
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+
+  <image>
+    <shortdescription>A circle for the activity.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-circle6">
+                        <diagram dimensions="(200,200)" margins="5">
+                          
+                          <definition>c1=1</definition>
+                          <definition>c2=5</definition>
+                          <definition>c=((c1,c2))</definition>
+                          <definition>rad=30/(2*pi)</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[-5,0,6,11]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="c" radius="rad" />
+                                <point p="c" ><m>(1,5)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(0,10.)" alignment="ne">Circumference = 30</label>
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+
+
+
+    <image>
+    <shortdescription>A circle for the activity.</shortdescription>
+    <prefigure xmlns="https://prefigure.org" label="prefigure-circle7">
+                        <diagram dimensions="(200,200)" margins="5">
+                          
+                          <definition>c1=3</definition>
+                          <definition>c2=2</definition>
+                          <definition>c=((c1,c2))</definition>
+                          <definition>rad=8/(2*pi)</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[0,0,5,5]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="c" radius="rad" />
+                                <point p="c" ><m>(3,2)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(0,4.)" alignment="ne">Circumference = 8</label>
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+  </image>
+
+    <image>
+      <shortdescription>A circle for the activity.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-circle8">
+                        <diagram dimensions="(200,200)" margins="5">
+                          
+                          <definition>c1=3</definition>
+                          <definition>c2=1</definition>
+                          <definition>c=((c1,c2))</definition>
+                          <definition>rad=14/(2*pi)</definition>
+                          <definition>r=((c1+rad,c2))</definition>
+                          <definition>l=((c1-rad,c2))</definition>
+                          <definition>u=((c1,c2+rad))</definition>
+                          <definition>d=((c1,c2-rad))</definition>
+                            <coordinates bbox="[0,-2,6,4]">
+                                <grid-axes decorations="yes"/>
+                                <circle center="c" radius="rad" />
+                                <point p="c" ><m>(3,1)</m></point>
+                                <point p="r"/>
+                                <point p="l"/>
+                                <point p="u"/>
+                                <point p="d"/>
+                                <label anchor="(0,3.5)" alignment="ne">Circumference = 14</label>
+
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+    </image>
+
+
 
 </handout>
