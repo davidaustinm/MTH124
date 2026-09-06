@@ -22,7 +22,7 @@
                     What are the units of the average rate of change?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="S1-3-extra-soln">
               <p>
                 Output is cost in $, input is item, so units are $/item.
               </p>
@@ -35,7 +35,7 @@
                     What does <m>AV_{[100,200]} = 24.04</m> mean in context?
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="S1-3-extra-soln">
               <p>
                 On average when producing between 100 and 200 items it
                 costs $24.04 per item produced.
@@ -51,7 +51,7 @@
                     <m>C(x)</m>.
                 </p>
             </statement>
-            <solution component="aaa-soln">
+            <solution component="S1-3-extra-soln">
               <p>
                 On average it costs more to produce an additional item if we have 
                 between 200 and 300 items already, than it does 
@@ -78,7 +78,7 @@
                     that mean in context?
                 </p>
             </statement>
-             <solution component="aaa-soln">
+             <solution component="S1-3-extra-soln">
               <p>
                 Output is height in feet, input is time in seconds, so the units are: ft/s. 
                 On average during the first 2 seconds the height was decreasing 0 ft/s, i.e. 
@@ -94,7 +94,7 @@
                     does that mean in context?
                 </p>
             </statement>
-           <solution component="aaa-soln">
+           <solution component="S1-3-extra-soln">
             <p>
               On average between 2 and 4 seconds the height 
               was decreasing 64 ft/s, or the velocity was -64ft/s on average
@@ -121,7 +121,7 @@
                     units!)?
                 </p>
             </statement>
-             <solution component="aaa-soln">
+             <solution component="S1-3-extra-soln">
               <p>
                 On average during the first 6 months the population of 
                 bacteria is increasing by 5208 bacteria per month.
@@ -136,7 +136,7 @@
                     Include units.
                 </p>
             </statement>
-             <solution component="aaa-soln">
+             <solution component="S1-3-extra-soln">
               <p>
                 <m>AV_{[6,12]}=\frac{p(12)-p(6)}{12-6}=160,776</m> bacteria per month
               </p> 
@@ -160,7 +160,7 @@
                     <m>v(t)</m>?
                 </p>
             </statement>
-             <solution component="aaa-soln">
+             <solution component="S1-3-extra-soln">
               <p>
                 Since output is velocity in ft/s and input is time in s, then the units are output over input, 
                 or <m>\frac{ft/s}{s}</m>.  This is the same as <m>ft/s^2</m>, it's an acceleration!
@@ -175,7 +175,7 @@
                     Use the units to help you!
                 </p>
             </statement>
-             <solution component="aaa-soln">
+             <solution component="S1-3-extra-soln">
               <p>
                 On average in the first 10 seconds the acceleration is <m>147 ft/s^2</m>, or 
                 on average in the first 10 seconds the velocity is increasing by 147 ft/s per second.
@@ -220,7 +220,7 @@
                     What does it mean about the skydiver?
                 </p>
             </statement>
-             <solution component="aaa-soln">
+             <solution component="S1-3-extra-soln">
               <p>
                 <m>AV_{[50,60]}=\frac{v(60)-v(50)}{60-50}=\frac{176-176}{10}=0 ft/s^2</m>. 
                 During that 10 second interval between 50 and 60 seconds, the skydiver has stopped accelerating (i.e.
