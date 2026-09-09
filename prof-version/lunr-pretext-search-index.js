@@ -1682,6 +1682,24 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": "  The data from this website National Park Service Website shows the number of visitors to the Grand Canyon National Park every year since 1919 (corresponding to ). You'll use a table in Desmos for this problem, here's the data imported in Desmos also at gvsu.edu\/s\/3MM . (Capital letters matter.)     When you go to the Desmos link ( gvsu.edu\/s\/3MM ) you'll see a table. Use the wrench tool (upper right) to change your window so that you can see all the data plotted. What window did you use? How do you know this includes all the points?      This data represents a function which we'll call . Explain why it is a function (hint, use Definition 1.2.4 from your text). In this case, what is and what is or ? (Be precise, what does mean? Compare it to the data on National Park Service Website .)      What are the domain and codomain of ? What is the range of ? (You don't need to list all values, explain in words!) It may help to consult Definition 1.2.5 and Definition 1.2.6 .      What is the meaning of ? Explain in a complete sentence.      What sticks out to you about the graph (e.g., what looks unusual)? Do you have an explanation for why it looks unusual?    "
+},
+{
+  "id": "homework-4",
+  "level": "1",
+  "url": "homework-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Homework 02",
+  "body": " Homework 02    MTH 124     Due Thursday, 9\/17\/26 at 12:00pm (the beginning of class)   Make sure you are following the homework expectations! Example: complete sentences!    You are ordering a hot chocolate from Biggby (because why not?). Let be the cost of the hot chocolate that is ounces. (For the sake of the graph, assume you can buy any number of ounces.)     Which of the following do you expect would be the graph of ? Explain in complete sentences why.    Graphs describing the possible behavior of C=f(z).    f(x)=(-(0.5)^x +1)*2.1          Graphs describing the possible behavior of C=f(z).    f(x)=((2)^x -1)*0.4          Graphs describing the possible behavior of C=f(z).    f(x)=(-(2)^x +6)*0.4          Graphs describing the possible behavior of C=f(z).    f(x)=((1\/2)^x-0.1)*2.1          Graphs describing the possible behavior of C=f(z).    f(x)=x              Write a statement that explains the significance of .      Write a statement that explains the significance of the expression .      Write a statement that explains the significance of the expression .      What is a reasonable domain, codomain, and range for the function , and why?      Here's a table showing the function values for certain hot chocolate sizes at Biggby (as seen on GrubHub):    drink size (oz)  16  20  24    cost ($)  5.87  6.22  7.17    Using the table, find the cost per ounce for each size.      Using the table, what is ? What is ? For each, include units, and explain the significance of the values. (Bonus: Your professor found these values surprising, why?)      If Biggby was to introduce a 28 oz hot chocolate, what would be a reasonable price? Explain how you came to that price. (The point is your argument! Not your answer.)     "
+},
+{
+  "id": "homework-4-5",
+  "level": "2",
+  "url": "homework-4.html#homework-4-5",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  You are ordering a hot chocolate from Biggby (because why not?). Let be the cost of the hot chocolate that is ounces. (For the sake of the graph, assume you can buy any number of ounces.)     Which of the following do you expect would be the graph of ? Explain in complete sentences why.    Graphs describing the possible behavior of C=f(z).    f(x)=(-(0.5)^x +1)*2.1          Graphs describing the possible behavior of C=f(z).    f(x)=((2)^x -1)*0.4          Graphs describing the possible behavior of C=f(z).    f(x)=(-(2)^x +6)*0.4          Graphs describing the possible behavior of C=f(z).    f(x)=((1\/2)^x-0.1)*2.1          Graphs describing the possible behavior of C=f(z).    f(x)=x              Write a statement that explains the significance of .      Write a statement that explains the significance of the expression .      Write a statement that explains the significance of the expression .      What is a reasonable domain, codomain, and range for the function , and why?      Here's a table showing the function values for certain hot chocolate sizes at Biggby (as seen on GrubHub):    drink size (oz)  16  20  24    cost ($)  5.87  6.22  7.17    Using the table, find the cost per ounce for each size.      Using the table, what is ? What is ? For each, include units, and explain the significance of the values. (Bonus: Your professor found these values surprising, why?)      If Biggby was to introduce a 28 oz hot chocolate, what would be a reasonable price? Explain how you came to that price. (The point is your argument! Not your answer.)    "
 }
 ]
 
