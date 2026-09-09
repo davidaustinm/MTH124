@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+    <title>Homework 02</title>
+
+    <introduction>
+        <p>
+            <alert>MTH 124</alert>
+        </p>
+    </introduction>
+
+    <p>
+        <alert>Due Thursday, 9/17/26 at 12:00pm (the beginning of class)</alert>
+    </p>
+
+    <p>
+        Make sure you are following the homework expectations!
+        Example: complete sentences!
+    </p>
+
+    <exercise>
+        <introduction>
+            <p>
+                You are ordering a hot chocolate from Biggby (because why not?).
+                Let <m>C = f(z)</m> be the cost of the hot chocolate that is
+                <m>z</m> ounces.
+                (For the sake of the graph, assume you can buy any number of
+                ounces.)
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Which of the following do you expect would be the graph of
+                    <m>C=f(z)</m>?
+                    Explain in complete sentences why.
+                </p>
+
+                <sidebyside>
+                    <image>
+                        <shortdescription>
+                            Graphs describing the possible behavior of C=f(z).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-hw2-g1">
+                            <diagram dimensions="(250,250)" margins="10">
+                                <definition>
+                                    f(x)=(-(0.5)^x +1)*2.1
+                                </definition>
+                                <coordinates bbox="[0,0,3,3]">
+                                    <grid-axes decorations="no" ylabel="(i)"/>
+                                    <graph function="f"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            Graphs describing the possible behavior of C=f(z).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-hw2-g2">
+                            <diagram dimensions="(250,250)" margins="10">
+                                <definition>
+                                    f(x)=((2)^x -1)*0.4
+                                </definition>
+                                <coordinates bbox="[0,0,3,3]">
+                                    <grid-axes decorations="no" ylabel="(ii)"/>
+                                    <graph function="f"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            Graphs describing the possible behavior of C=f(z).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-hw2-g3">
+                            <diagram dimensions="(250,250)" margins="10">
+                                <definition>
+                                    f(x)=(-(2)^x +6)*0.4
+                                </definition>
+                                <coordinates bbox="[0,0,3,3]">
+                                    <grid-axes decorations="no" ylabel="(iii)"/>
+                                    <graph function="f"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            Graphs describing the possible behavior of C=f(z).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-hw2-g4">
+                            <diagram dimensions="(250,250)" margins="10">
+                                <definition>
+                                    f(x)=((1/2)^x-0.1)*2.1
+                                </definition>
+                                <coordinates bbox="[0,0,3,3]">
+                                    <grid-axes decorations="no" ylabel="(iv)"/>
+                                    <graph function="f"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            Graphs describing the possible behavior of C=f(z).
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-hw2-g5">
+                            <diagram dimensions="(250,250)" margins="10">
+                                <definition>
+                                    f(x)=x
+                                </definition>
+                                <coordinates bbox="[0,0,3,3]">
+                                    <grid-axes decorations="no" ylabel="(v)"/>
+                                    <graph function="f"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write a statement that explains the significance of
+                    <m>{f(20) = 6.22}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write a statement that explains the significance of the
+                    expression <m>{f(a) = 10}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Write a statement that explains the significance of the
+                    expression <m>{f(10) = b}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    What is a reasonable domain, codomain, and range for the
+                    function <m>C=f(z)</m>, and why?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Here's a table showing the function values for certain hot
+                    chocolate sizes at Biggby (as seen on GrubHub):
+                </p>
+
+                <tabular>
+                    <row bottom="minor">
+                        <cell>drink size (oz)</cell>
+                        <cell>16</cell>
+                        <cell>20</cell>
+                        <cell>24</cell>
+                    </row>
+
+                    <row>
+                        <cell>cost ($)</cell>
+                        <cell>5.87</cell>
+                        <cell>6.22</cell>
+                        <cell>7.17</cell>
+                    </row>
+                </tabular>
+
+                <p>
+                    Using the table, find the cost per ounce for each size.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Using the table, what is <m>AV_{[16,20]}</m>?
+                    What is <m>AV_{[20, 24]}</m>?
+                    For each, include units, and explain the significance of the
+                    values.
+                    (Bonus: Your professor found these values surprising, why?)
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    If Biggby was to introduce a 28 oz hot chocolate, what would be a reasonable price? Explain how you came to that price. (The point is your argument! Not your answer.)
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet>
