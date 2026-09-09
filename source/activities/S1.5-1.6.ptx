@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <handout>
-    <title>Section 1.5 &amp; 1.6: Quadratic  and Composite Functions</title>
+    <title>Section 1.5 &amp; 1.6: Quadratic and Composite Functions</title>
 
     <page>
-        <alert>
+        <p>
+            <alert>
         MTH 124
     </alert>
+        </p>
 
-         <paragraphs>
+        <paragraphs>
             <title>Quadratic Functions</title>
 
         </paragraphs>
+
         <p workspace="0in">
             A <term>quadratic function</term> is one that may be written in the
             form
@@ -28,7 +31,8 @@
 
             <introduction>
                 <p>
-                    Open a browser and go to Desmos, <term>desmos.com</term>.
+                    Open a browser and go to
+                    <url href="https://www.desmos.com/calculator">Desmos</url>.
                     In a cell in Desmos, enter <m>q(x) = ax^2 + bx + c</m> in
                     exactly that form; you will be prompted to add sliders for
                     <m>a, b,</m> and <m>c</m>.
@@ -45,6 +49,14 @@
                         graph of <m>q</m>.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        Makes it skinnier/wider.
+                        If <m>a\lt 0</m> it also flips the graph so it opens
+                        downward.
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0.5in">
@@ -54,6 +66,13 @@
                         graph of <m>q</m>.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        It keeps the y-intercept, but shifts mostly left and
+                        right (and a little up and down).
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0.5in">
@@ -63,6 +82,12 @@
                         graph of <m>q</m>.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        It shifts the graph up and down.
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0.5in">
@@ -74,6 +99,14 @@
                         Why?
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        The parameter <m>c</m> seems simple, <m>b</m> seems...
+                        a little more...
+                        complicated...
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0.5in">
@@ -85,6 +118,34 @@
                         If yes, do so; if not, explain why not.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        Yes.
+                        You can mess with the graph or plug in the three points
+                        and solve for <m>a, b, c</m>.
+                    </p>
+
+                    <p>
+                        I would plug in <m>(0,8)</m> first because the 0 is your
+                        friend.
+                        That gives <m>8=0+0+c</m>, or <m>c=8</m>.
+                    </p>
+
+                    <p>
+                        The order of the other two don't matter.
+                        For <m>(1,12)</m> we find <m>{12=a(1)^2+b(1)+8}</m>, or
+                        <m>a+b=4</m>.
+                        For <m>(2,12)</m> we find <m>{12=a(2)^2+b(2)+8}</m>, or
+                        <m>4a+2b=4</m>.
+                        Solving those two together we find <m>b=6, a=-2</m>.
+                        Thus
+                        <m>
+                           {y=-2x^2 + 6x+8}
+                        </m>
+                        is a quadratic that goes through all three points.
+                    </p>
+                </solution>
             </task>
         </activity>
     </page>
@@ -115,6 +176,18 @@
                         quadratic formula.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        For the quadratic formula in this case,
+                        <m>a=3, b=-18, c=-21</m>.
+                        So
+                        <md>
+                            x = \frac{-(-18)\pm \sqrt{(-18)^2-4(3)(-21)}}{2(3)},
+                        </md>
+                        which simplifies to <m>x= 7 , -1</m>.
+                    </p>
+                </solution>
             </task>
         </activity>
 
@@ -236,6 +309,27 @@
                         <m>(1,4)</m> and goes through the point <m>(3,2)</m>.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        So <m>h=1</m> and <m>k=4</m>, plugging that in already
+                        gives <m>
+                        {y=a(x-1)^2+4}</m>.
+                        We just need to find <m>a</m>.
+                        But we know it goes through <m>(3,2)</m>, so that point
+                        has to satisfy our equation.
+                        Plug it in:
+                        <md>
+                            2 = a(3-1)^2 + 4.
+                        </md>
+                        Solve with algebra...
+                        for <m>a=-\frac12</m>.
+                        Thus the complete equation is
+                        <md>
+                            y = -\frac12(x-1)^2 + 4.
+                        </md>
+                    </p>
+                </solution>
             </task>
         </activity>
 
@@ -288,11 +382,13 @@
                 <md>
                     g(f(3)).
                 </md>
-                That is, we want to find "<m>g</m> or <m>f</m> of <m>3</m>." Since we work from the inside out, we will
-                plug <m>3</m> into <m>f</m> and then whatever that outputs we plug back into <m>g</m>.
-                We know <m>f(3)=4</m>, so we
-                can replace <m>f(3)</m> with <m>4</m>. Then we can simplify
-                just that part first:
+                That is, we want to find " <m>g</m> or <m>f</m> of <m>3</m>."
+                Since we work from the inside out, we will plug <m>3</m> into
+                <m>f</m> and then whatever that outputs we plug back into
+                <m>g</m>.
+                We know <m>f(3)=4</m>, so we can replace <m>f(3)</m> with
+                <m>4</m>.
+                Then we can simplify just that part first:
                 <md>
                     g(f(3)) = g(4).
                 </md>
@@ -321,9 +417,10 @@
             <introduction>
                 <p>
                     Let functions <m>p</m> and <m>q</m> be given by the graphs
-                    below on the left (which are each piecewise linear - that is, parts that
-                    look like straight lines are straight lines) and let
-                    <m>f</m> and <m>g</m> be given by the table below. (They're unrelated to each other.)
+                    below on the left (which are each piecewise linear - that
+                    is, parts that look like straight lines are straight lines)
+                    and let <m>f</m> and <m>g</m> be given by the table below.
+                    (They're unrelated to each other.)
                 </p>
 
                 <sidebyside widths="30% 70%">
@@ -437,6 +534,16 @@
                         <m>p(q(0))</m>
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>p(q(0)) = p(2)=2</m>.
+                        Since <m>q(0)=2</m> according to the graph, we can just
+                        replace <m>q(0)</m> with 2 on the inside, then we
+                        simplify to just finding <m>p(2)</m>, which we can also
+                        get from the graph.
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0in">
@@ -445,6 +552,13 @@
                         <m>q(p(0))</m>
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>q(p(0)) = q(-0.5)=2</m> (since <m>p(0)=-0.5</m>, see
+                        graph)
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0in">
@@ -453,6 +567,12 @@
                         <m>(p\circ p)(-1)</m>
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>(p\circ p)(-1) = p(p(-1))=p(-1)=-1</m>
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0in">
@@ -461,6 +581,13 @@
                         <m>(f\circ g)(2)</m>
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>(f\circ g)(2)=f(g(2))=f(0)=6</m> (since <m>g(2)</m>
+                        can be replaced with 0, see table this time not graph)
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0in">
@@ -469,6 +596,12 @@
                         <m>(g\circ f)(3)</m>
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>(g\circ f)(3)=g(f(3))=g(4)=2</m>
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0in">
@@ -477,6 +610,14 @@
                         <m>g(f(0))</m>
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>g(f(0)) = g(6) = ....</m> DNE!
+                        Does Not Exist!
+                        No solution!
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0in">
@@ -485,6 +626,22 @@
                         For what value(s) of <m>x</m> is <m>f(g(x)) = 4</m>?
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        Let's work backwards.
+                        If <m>f(g(x)) = 4</m>, then the output of <m>f</m> is 4
+                        for some inputs.
+                        It so happens that <m>f(1)=4</m> and <m>f(3)=4</m>.
+                        So we have to input 1 or 3 into <m>f</m>.
+                        But the thing we input into <m>f</m> is <m>g(x)</m>, so
+                        we need either <m>g(x)=1</m> or <m>g(x)=3</m>.
+                        For <m>g(x)=1</m>, the only <m>x</m> that makes that
+                        true is <m>x=0</m>.
+                        For <m>g(x)=3</m>, it must be that <m>x=1</m>.
+                        So all together if <m>f(g(x))=4</m> then <m>x=0, 1</m>.
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0in">
@@ -493,6 +650,23 @@
                         For what value(s) of <m>x</m> is <m>q(p(x)) = 1</m>?
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        If <m>q(p(x)) = 1</m>, then the output of <m>q</m> is 1
+                        for some inputs.
+                        It so happens that <m>q(-1.4)=1</m> and <m>q(2)=1</m>.
+                        So we have to input -1.4 or 2 into <m>q</m>.
+                        But the thing we input into <m>q</m> is <m>p(x)</m>, so
+                        we need either <m>p(x)=-1.4</m> or <m>p(x)=2</m>.
+                        For <m>p(x)=-1.4</m>, there is no <m>x</m> that makes
+                        that true.
+                        For <m>p(x)=2</m>, it must be that <m>x=-2.5</m> or that
+                        <m>x=2</m>.
+                        So all together if <m>q(p(x)) = 1</m> then <m>x=-2.5</m>
+                        or <m>x=2</m>.
+                    </p>
+                </solution>
             </task>
         </activity>
     </page>
@@ -525,6 +699,22 @@
                         and only <m>N</m>.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        We plug the entire <m>D(N)=40+0.25N</m> into
+                        <m>G(F)</m>, so we replace <m>F</m> with
+                        <m>40+0.25N</m>.
+                        That is (with simplification):
+                        <md>
+                            <mrow>
+                            H = G(D(N)) = G(40+0.25N) = \frac59((40+0.25N)-32) 
+                            </mrow>
+                            <mrow>
+                            = \frac59(8+0.25N)=\frac{40}{9}+\frac{5}{36}N</mrow>
+                        </md>
+                    </p>
+                </solution>
             </task>
 
             <task workspace="1in">
@@ -533,6 +723,13 @@
                         What is the meaning of the function you found in (a)?
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        It is a function that gives the temperature in degrees
+                        Celsius based on the input number of chirps per minute.
+                    </p>
+                </solution>
             </task>
 
             <task workspace="0.4in">
@@ -550,8 +747,8 @@
                         <image>
                             <shortdescription>
                                 A plot of Dolbear's function, a linear function
-                                with chirps per minute on the x-axis and temperature in
-                                degrees Fahrenheit on the y-axis.
+                                with chirps per minute on the x-axis and
+                                temperature in degrees Fahrenheit on the y-axis.
                             </shortdescription>
                             <prefigure xmlns="https://prefigure.org" label="prefigure-1-5-4">
                                 <diagram dimensions="(250,250)" margins="5">
@@ -577,7 +774,9 @@
 
                         <image>
                             <shortdescription>
-                                A grid with the number of chirps per minute on the x-axis and the y-axis left blank for you to plot the composite function.
+                                A grid with the number of chirps per minute on
+                                the x-axis and the y-axis left blank for you to
+                                plot the composite function.
                             </shortdescription>
                             <prefigure xmlns="https://prefigure.org" label="prefigure-1-5-5">
                                 <diagram dimensions="(250,250)" margins="5">
@@ -589,6 +788,34 @@
                         </image>
                     </sidebyside>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <sidebyside widths="25% 60%">
+                        <image>
+                            <shortdescription>
+                                A grid with the number of chirps per minute on
+                                the x-axis and the y-axis as degrees Celsius.
+                            </shortdescription>
+                            <prefigure xmlns="https://prefigure.org" label="prefigure-1-5-5-soln">
+                                <diagram dimensions="(250,250)" margins="10">
+                                    <coordinates bbox="[-20,-10,200,100]">
+                                        <grid-axes xlabel="N (chirps/min)" ylabel="T (degrees C)" decorations="yes" hlabels="(40,40,160)" vlabels="(10,10,50)"/>
+                                        <line endpoints="((40,10),(180,30))" stroke="blue"/>
+                                        <point p="(40,10)"/>
+                                        <point p="(180,30)"/>
+                                    </coordinates>
+                                </diagram>
+                            </prefigure>
+                        </image>
+
+                        <p>
+                            It's still linear, but with a smaller slope and
+                            different y-intercept.
+                            It also appears shifted down.
+                            There's a lot we could say here...
+                        </p>
+                    </sidebyside>
+                </solution>
             </task>
 
             <task workspace="1in">
@@ -598,6 +825,26 @@
                         What is its range?
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        (Input <m>N</m>, output degrees C).
+                    </p>
+
+                    <p>
+                        Domain: <m>40\le N \le 180</m>.
+                    </p>
+
+                    <p>
+                        Range: <m>10 \le H \le 29.44</m>.
+                    </p>
+
+                    <p>
+                        (When <m>N=400</m> we have the lowest temp possible
+                        which is 10 degrees C, when <m>N=180</m> we have the
+                        highest temp possible, which is 29.44 degrees C.)
+                    </p>
+                </solution>
             </task>
         </activity>
     </page>
@@ -620,6 +867,18 @@
                         by combining like terms.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        FOIL is your friend.
+                        <md>
+                            <mrow> f(1+h) \amp = 2(1+h)^2 - 3(1+h) + 1 </mrow>
+                            <mrow> \amp 2(1+2h+h^2)-3-3h + 1 </mrow>
+                            <mrow> \amp 2+4h+2h^2-3-3h+1 </mrow>
+                            <mrow> \amp 2h^2+h</mrow>
+                        </md>
+                    </p>
+                </solution>
             </task>
 
             <task workspace="1in">
@@ -632,6 +891,17 @@
                         simplify the result as much as possible.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>AV_{[1,1+h]} = \frac{f(1+h)-f(1)}{(1+h)-1} = \frac{(2h^2+h)-(0)}{h} = \frac{h(2h+1)}{h} = 2h+1</m>
+                    </p>
+
+                    <p>
+                        Note, <m>f(1+h)</m> comes from the previous part, and
+                        <m>f(1)=2(1)^2-3(1)+1=0.</m>
+                    </p>
+                </solution>
             </task>
 
             <task workspace="1in">
@@ -642,6 +912,13 @@
                         simply?
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        <m>g(1+h) = \frac{5}{1+h}</m>.
+                        We seem to be stuck here...
+                    </p>
+                </solution>
             </task>
 
             <task workspace="1in">
@@ -654,6 +931,31 @@
                         simplify the result.
                     </p>
                 </statement>
+
+                <solution component="S1-5-soln">
+                    <p>
+                        This is tricky.
+                        <md>
+                            AV_{[1,1+h]}=\frac{g(1+h)-g(1)}{(1+h)-1} = \frac{\frac{5}{1+h} - \frac{5}{1}}{h}.
+                        </md>
+                        Get a common denominator by multiplying
+                        <m>\ds \frac51</m> by <m>\ds \frac{(1+h)}{(1+h)}</m>, so
+                        we simplify to
+                        <md>
+                            \frac{\frac{5}{1+h} - \frac{5+5h}{1+h}}{h}
+                        = \frac{\frac{5-5-5h}{1+h}}{h} = \frac{\frac{-5h}{1+h}}{h}.
+                        </md>
+                        Either multiply the numerator and denominator by
+                        <m>\frac{1}{h}</m> or solve however you choose to solve
+                        a fraction divided by a fraction, we get
+                        <md>
+                            \frac{-5h}{1+h}\cdot \frac{1}{h} = \frac{-5}{1+h}.
+                        </md>
+                        The point: Now we can use this new formula to quickly
+                        find the average rate of change between 1 and
+                        <em>any</em> number!
+                    </p>
+                </solution>
             </task>
         </activity>
     </page>

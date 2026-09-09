@@ -21,8 +21,8 @@
             <p>
                 A <term>linear</term> function has a constant average rate of
                 change.
-                So for ANY initial and final inputs <m>a</m> and <m>b</m> (as
-                long as <m>a\ne b</m> ), it follows that
+                So for <em>any</em> initial and final inputs <m>a</m> and <m>b</m> (as
+                long as <m>a\ne b</m>), it follows that
                 <md>
                     \frac{f(b) - f(a)}{b-a} = m
                 </md>
@@ -70,6 +70,15 @@
                     <m>(-11,-17)</m>.
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    <m>m=\frac37, \ (x_0,y_0)=(-11,-17)</m>.  So the line is 
+                    <md>
+                        y=-17+\frac37(x+11)
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -79,6 +88,20 @@
                     <m>(3,-1)</m>.
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    <m>m=\frac{5-(-1)}{-2-3}=\frac{6}{-5}=-\frac65, \ (x_0,y_0)=(-2,5)</m>.  
+                    So the line is 
+                    <md>
+                        y=5-\frac65(x-(-2))
+                    </md>
+                    or if you use <m>(x_0,y_0)=(3,-1)</m> then the line is the same as 
+                    <md>
+                        y=-1-\frac65(x-3).
+                    </md>
+                    These are actually the same.  You only need one.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -89,6 +112,20 @@
                     (What do you know about slopes of parallel lines?)
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Parallel lines have the same slope, so rewriting the line 
+                    so it is in a form where we can pick out the slope:
+                    <md>
+                        2x - 3y = 5 \implies 3y=2x-5 \implies y=\frac23 x - \frac53
+                    </md>
+                    so the slope is <m>m=\frac23</m>.  The point is <m>(x_0,y_0)=(4,9)</m> so
+                    <md>
+                        y=9+\frac23(x-4)
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.5in">
@@ -126,6 +163,17 @@
                         </row>
                     </tabular>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    As <m>x</m> goes up by 1, <m>f(x)</m> goes down by 2, so the function
+                    has a constant slope of <m>m=-2</m> and thus is linear. Choose any point in 
+                    the table and use point-slope form.  I'll choose <m>(1,7)</m>:
+                    <md>
+                        y=7-2(x-1).
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0in">
@@ -155,6 +203,17 @@
                     </prefigure>
                 </image>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Choose two "easy-to-see" points to find the slope. Ex: <m>(1,2)</m> and 
+                    <m>(4,1)</m>.  Then <m>m=\frac{2-1}{1-4}=-\frac13</m>. (Or you can count from the graph.)
+                    Choose any point, I'll use <m>(1,2)</m>.  Then the equation is
+                    <md>
+                        y=2-\frac13(x-1).
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -199,6 +258,15 @@
                     <m>t</m> (where <m>t</m> is the number of years after 2000).
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    There are two points we can pick out from the context: <m>(0,1951)</m>
+                    and <m>(7,1555)</m>. Then <m>{m=\frac{1555-1951}{7-0}=-\frac{396}{7}}</m>.
+                    If we choose point <m>(0,1951)</m>, then point-slope form and y-intercept
+                    form are the same!  (Though you can choose the other point if you like.)
+                    <md>A=f(t)=1951 - \frac{396}{7}(t-0).</md>
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -209,6 +277,15 @@
                     In particular, what are the units on the slope?
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Slope is the average rate of change, units m^2 / year, so it's the average loss
+                    of ice cover in m^2 / year.
+                </p>
+                <p>
+                    The A-intercept is the initial amount of ice cover in year <m>t=0</m> (year 2000).
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -219,6 +296,12 @@
                     Write a complete sentence to explain.
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Plug in: <m>{f(17) = 1951 - \frac{396}{7}(17)\approx 989 m^2}</m>. In 2017 the model 
+                    predicts that the ice field at the top of Mt. Kilimanjaro will have an area of 989 square meters.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -228,6 +311,12 @@
                     predict the ice cover will vanish?
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    We look for the time when <m>f(t)=0</m>, that is <m>{0 = 1951 - \frac{396}{7}t}</m>. 
+                    Solving, we find <m>t \approx 34.5 years</m>. So halfway through the year 2034.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -238,6 +327,17 @@
                     What is the corresponding range?
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Domain: <m>0\le t \le 34.5</m> (or <m>[0,34.5]</m>) since negative years or years after the ice cover vanishes don't make sense.
+
+                </p>
+                <p>
+                    Range: <m>0\le A \le 1951</m> (or <m>[0,1951]</m>) since once the ice cover completely 
+                    melts you can output 0 square meters of ice, and the max is year 0 which is 1951 square 
+                    meters, since the ice only melts it will not get higher.
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -260,6 +360,15 @@
                     in the town in year <m>t</m>.
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Slope: <m>825</m>, P-intercept: <m>28750</m>. So slope-intercept form gives
+                    <md>
+                        P=f(t)=825t+28,750.
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -272,6 +381,12 @@
                     Write a complete sentence to explain.
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Slope is -465, with units of people per year. It means the town population
+                    decreases by about 465 people each year.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -288,6 +403,16 @@
                     model?
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    Slope is -1.2, and the V-intercept is <m>\frac{32\pi}{3}</m>. So slope-intercept 
+                    form gives <md>
+                        V=p(t)=-1.2t+\frac{32\pi}{3}.
+                    </md>
+                    The model is no longer valid once the tank is empty, which takes <m>\frac{32\pi/3}{1.2}\approx
+                    27.9</m> minutes. So a reasonable domain for times that make sense: <m>{0\le t \le 27.9}</m>.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -301,6 +426,13 @@
                     Write at least one careful sentence to explain.
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    The tank is initially empty since the initial height of the water is 0
+                    (<m>q(0)=0</m>), and the height of the water in the tank is increasing
+                    at a constant rate of 0.65 ft per minute. 
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -319,6 +451,20 @@
                     Write at least one careful sentence to explain.
                 </p>
             </statement>
+            <solution component="S1-4-soln">
+                <p>
+                    We have two points from the model: <m>{(5,10200)}</m> and 
+                    <m>{(10,4600)}</m>, so the slope is 
+                    <m>{m=\frac{4600-10200}{10-5}=-1120}</m>.  Picking the first point
+                    for no reason whatsoever (and including a simplified version because why not):
+                    <md>
+                        C=L(t)=10200-1120(t-5) = 15800-1120t.
+                    </md>
+                    The reasonable domain ends when cost (<m>C</m>) is 0, that is when 
+                    <m>{0=15800-1120t}</m>, which happens when <m>t=14.1</m> years, so the 
+                    domain would be <m>0\le t \le 14.1</m>.
+                </p>
+            </solution>
         </task>
     </activity>
 </handout>
