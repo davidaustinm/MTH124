@@ -357,116 +357,17 @@ var ptx_lunr_docs = [
   "url": "activities-10.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 1.5 &amp; 1.6: Quadratic and Composite Functions",
-  "body": " Section 1.5 & 1.6: Quadratic and Composite Functions    MTH 124    Quadratic Functions   A quadratic function is one that may be written in the form where . That is, there is an term but no higher powers of .   Activity 1.5.2   Open a browser and go to Desmos . In a cell in Desmos, enter in exactly that form; you will be prompted to add sliders for and . Do so. Then begin exploring with the sliders and respond to the following questions.     Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Which parameter seems to have the simplest effect? Which parameter seems to have the most complicated effect? Why?      Is it possible to find a formula for a quadratic function that passes through the points ? If yes, do so; if not, explain why not.        Quadratic Formula - Solutions to  Let , , and be real numbers with . The equation can have , or real solutions. These real solutions are given by the quadratic formula , provided .      Find the solutions to using the quadratic formula.      The vertex of a parabola  The quadratic function has its vertex at the -coordinate .  When , the graph opens upward , and thus the vertex is the lowest point on the graph of (see example on the left below). When , the graph opens downward , and so the vertex is the highest point (see example on the right below).  The graph is symmetric around the line (the vertical line that passes through the vertex!).     A parabola that opens upward.    p(x)=1\/5*(x-3)^2+4      p(x)      (-\\frac{b}{2a},p(-\\frac{b}{2a}))     x=-\\frac{b}{2a}        A parabola that opens downward.    h(x)=-1\/5*(x-3)^2+4      h(x)      (-\\frac{b}{2a},h(-\\frac{b}{2a}))     x=-\\frac{b}{2a}         Vertex form of a quadratic function  A quadratic function with vertex may be written in the form . The constant may be determined from one other function value for an input .        Find an equation for the parabola that has the vertex and goes through the point .     Just a note: objects that fall under the force of gravity, like baseballs or water balloons or anything, can be modeled by quadratic curves.   Composite Functions    Definition 1.6.2   If and are functions such that and , we define the composition of and to be the new function given by We also sometimes use the notation (said \" compose \" or \" of \"), where is the single function defined by .    It's a function within a function! Work inside out. Take the result of one function, and plug it right back into another function.   Suppose is a function with and is a function with . Let's find That is, we want to find \" or of .\" Since we work from the inside out, we will plug into and then whatever that outputs we plug back into . We know , so we can replace with . Then we can simplify just that part first: But now we are looking for which we know is 5. So thinking in stages we have On the other hand, if we were to switch and have we would need to take first since it is on the inside. We don't know what that is... So at the moment, we cannot simplify until we have more information.      Activity 1.6.2   Let functions and be given by the graphs below on the left (which are each piecewise linear - that is, parts that look like straight lines are straight lines) and let and be given by the table below. (They're unrelated to each other.)    Two piecewise linear functions p and q.    p1(x)=-2*(x+3)+3  p2(x)=1\/2*(x+1)-1  p3(x)=2*(x-1)  q1(x)=3*(x+2.5)-2.5  q2(x)=2  q3(x)=-1*(x-1)+2        p       q        A table of two functions entirely UNRELATED to those graphed to the left.         0  6  1    1  4  3    2  3  0    3  4  4    4  6  2      Compute each of the following quantities or explain why they are not defined.                                               For what value(s) of is ?      For what value(s) of is ?        Activity 1.6.3. Context   Let be Dolbear’s function that converts an input of number of chirps per minute to degrees Fahrenheit.  Let be the function that converts an input of degrees Fahrenheit to an output of degrees Celsius.     Determine a formula for the new function that depends only on the variable . That is should equal some function of and only .      What is the meaning of the function you found in (a)?      How does a plot of the new function compare to that of Dolbear’s function? Sketch a plot of this new function on the blank axes to the right of the plot of Dolbear’s function, and discuss the similarities and differences between them. Be sure to label the vertical scale on your axes.    A plot of Dolbear's function, a linear function with chirps per minute on the x-axis and temperature in degrees Fahrenheit on the y-axis.    D(N)=10\/40*(N-40)+50        (120,70)          A grid with the number of chirps per minute on the x-axis and the y-axis left blank for you to plot the composite function.               What is the domain of the function ? What is its range?        Activity 1.6.4   Let and .     Compute for an unknown variable and expand and simplify the result as much as possible by combining like terms.      Use part (a) to determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result as much as possible.      Compute . Is there any valid algebra you can do to write more simply?      Determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result.      "
+  "title": "Practice Through Section 1.4",
+  "body": " Practice Through Section 1.4   MTH 124     Consider .     Is a function?      What is ?      What is       How would you find where ? At minimum, set it up mathematically      What is the domain of ? What is the range?      Find .      Use the previous problem (hint) to find an equation of a line that goes through and .      Find .      Use the previous problem (hint) to find an equation of a line that goes through and .     "
 },
 {
-  "id": "activities-10-2-3",
+  "id": "activities-10-3",
   "level": "2",
-  "url": "activities-10.html#activities-10-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "quadratic function "
-},
-{
-  "id": "activities-10-2-4",
-  "level": "2",
-  "url": "activities-10.html#activities-10-2-4",
+  "url": "activities-10.html#activities-10-3",
   "type": "Activity",
   "number": "34",
-  "title": "Activity 1.5.2.",
-  "body": " Activity 1.5.2   Open a browser and go to Desmos . In a cell in Desmos, enter in exactly that form; you will be prompted to add sliders for and . Do so. Then begin exploring with the sliders and respond to the following questions.     Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Which parameter seems to have the simplest effect? Which parameter seems to have the most complicated effect? Why?      Is it possible to find a formula for a quadratic function that passes through the points ? If yes, do so; if not, explain why not.    "
-},
-{
-  "id": "activities-10-3-1-2",
-  "level": "2",
-  "url": "activities-10.html#activities-10-3-1-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
   "title": "",
-  "body": "quadratic formula "
-},
-{
-  "id": "activities-10-3-2",
-  "level": "2",
-  "url": "activities-10.html#activities-10-3-2",
-  "type": "Activity",
-  "number": "35",
-  "title": "",
-  "body": "   Find the solutions to using the quadratic formula.    "
-},
-{
-  "id": "activities-10-3-3-2",
-  "level": "2",
-  "url": "activities-10.html#activities-10-3-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "vertex "
-},
-{
-  "id": "activities-10-3-3-3",
-  "level": "2",
-  "url": "activities-10.html#activities-10-3-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "opens upward opens downward "
-},
-{
-  "id": "activities-10-4-1",
-  "level": "2",
-  "url": "activities-10.html#activities-10-4-1",
-  "type": "Activity",
-  "number": "36",
-  "title": "",
-  "body": "   Find an equation for the parabola that has the vertex and goes through the point .    "
-},
-{
-  "id": "activities-10-4-4",
-  "level": "2",
-  "url": "activities-10.html#activities-10-4-4",
-  "type": "Definition",
-  "number": "37",
-  "title": "Definition 1.6.2.",
-  "body": " Definition 1.6.2   If and are functions such that and , we define the composition of and to be the new function given by We also sometimes use the notation (said \" compose \" or \" of \"), where is the single function defined by .   "
-},
-{
-  "id": "activities-10-4-6",
-  "level": "2",
-  "url": "activities-10.html#activities-10-4-6",
-  "type": "Example",
-  "number": "38",
-  "title": "",
-  "body": " Suppose is a function with and is a function with . Let's find That is, we want to find \" or of .\" Since we work from the inside out, we will plug into and then whatever that outputs we plug back into . We know , so we can replace with . Then we can simplify just that part first: But now we are looking for which we know is 5. So thinking in stages we have On the other hand, if we were to switch and have we would need to take first since it is on the inside. We don't know what that is... So at the moment, we cannot simplify until we have more information.  "
-},
-{
-  "id": "activities-10-5-1",
-  "level": "2",
-  "url": "activities-10.html#activities-10-5-1",
-  "type": "Activity",
-  "number": "39",
-  "title": "Activity 1.6.2.",
-  "body": " Activity 1.6.2   Let functions and be given by the graphs below on the left (which are each piecewise linear - that is, parts that look like straight lines are straight lines) and let and be given by the table below. (They're unrelated to each other.)    Two piecewise linear functions p and q.    p1(x)=-2*(x+3)+3  p2(x)=1\/2*(x+1)-1  p3(x)=2*(x-1)  q1(x)=3*(x+2.5)-2.5  q2(x)=2  q3(x)=-1*(x-1)+2        p       q        A table of two functions entirely UNRELATED to those graphed to the left.         0  6  1    1  4  3    2  3  0    3  4  4    4  6  2      Compute each of the following quantities or explain why they are not defined.                                               For what value(s) of is ?      For what value(s) of is ?    "
-},
-{
-  "id": "activities-10-6-1",
-  "level": "2",
-  "url": "activities-10.html#activities-10-6-1",
-  "type": "Activity",
-  "number": "41",
-  "title": "Activity 1.6.3. Context.",
-  "body": " Activity 1.6.3. Context   Let be Dolbear’s function that converts an input of number of chirps per minute to degrees Fahrenheit.  Let be the function that converts an input of degrees Fahrenheit to an output of degrees Celsius.     Determine a formula for the new function that depends only on the variable . That is should equal some function of and only .      What is the meaning of the function you found in (a)?      How does a plot of the new function compare to that of Dolbear’s function? Sketch a plot of this new function on the blank axes to the right of the plot of Dolbear’s function, and discuss the similarities and differences between them. Be sure to label the vertical scale on your axes.    A plot of Dolbear's function, a linear function with chirps per minute on the x-axis and temperature in degrees Fahrenheit on the y-axis.    D(N)=10\/40*(N-40)+50        (120,70)          A grid with the number of chirps per minute on the x-axis and the y-axis left blank for you to plot the composite function.               What is the domain of the function ? What is its range?    "
-},
-{
-  "id": "activities-10-7-1",
-  "level": "2",
-  "url": "activities-10.html#activities-10-7-1",
-  "type": "Activity",
-  "number": "42",
-  "title": "Activity 1.6.4.",
-  "body": " Activity 1.6.4   Let and .     Compute for an unknown variable and expand and simplify the result as much as possible by combining like terms.      Use part (a) to determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result as much as possible.      Compute . Is there any valid algebra you can do to write more simply?      Determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result.    "
+  "body": "  Consider .     Is a function?      What is ?      What is       How would you find where ? At minimum, set it up mathematically      What is the domain of ? What is the range?      Find .      Use the previous problem (hint) to find an equation of a line that goes through and .      Find .      Use the previous problem (hint) to find an equation of a line that goes through and .    "
 },
 {
   "id": "activities-11",
@@ -474,53 +375,116 @@ var ptx_lunr_docs = [
   "url": "activities-11.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 1.7: Inverse Functions",
-  "body": " Section 1.7: Inverse Functions   MTH 124    Definition 1.7.1   Let be a function. If there exists a function such that for each in and each in , then we say that has an inverse function and that the function is the inverse of .   (In other words, they swap inputs and outputs and undo each other!)     Big picture: if is a function with an inverse, inputs and outputs . So the inverse of would input and output .  Notation: We write the inverse of as , and we read it as \" inverse\". Essentially, the inverse of a function undoes the original function, so you get back to where you started.   Activity 1.7.2   Recall Dolbear’s function that converts the number, , of snowy tree cricket chirps per minute to a corresponding Fahrenheit temperature. We have earlier established that the domain of is and the range of is .     Solve the equation for in terms of . (That is we should get stuff in terms of .) Call the resulting function .      Explain in words the process or effect of the function . What does it take as input? What does it generate as output?      Use the function that you found in (a.) to compute . Simplify your result as much as possible. Do likewise for . What do you notice about these two composite functions?      Consider the equations and . Do these equations express different relationships between and , or do they express the same relationship in two different ways? Explain.     Note: You've likely been taught to switch the variables. The reason is usually so you can plot them. But not switching them can often help us understand the meaning of the inverse function.   Two perspectives from a function and its inverse function  If has an inverse function, then the equations say the exact same thing but from two different perspectives.    Horizontal Line Test  A function whose graph lies in the - plane has a corresponding inverse function if and only if every horizontal line intersects the graph at most once. When the graph passes this test, the horizontal coordinate of each point on the graph can be viewed as a function of the vertical coordinate of the point.   Think about it in terms of inputs and outputs. An inverse function flips the input and the output, so what was formerly on the axis is now the input, and what was formerly on the axis is now the output.   Activity 1.7.3. Determining if a function has an inverse   Each relationship below describes a function. Determine whether the function has an inverse function. If it does give two examples of values of the inverse function by writing statements such as “ ”.     The function given by the table below, where .     0  1  2  3  4     1  2  4  3  2        The function given by the table below, where .     0  1  2  3  4     4  0  3  1  2        The function given by . Assume that the domain and codomain of are both “all real numbers”.      The function given by . Assume that the domain and codomain of are both “all real numbers”.      The functions and given by the graphs below. Assume that the graphs show all of the important behavior of the functions and that the apparent trends continue beyond what is pictured.    A function to determine if it has an inverse.    r(x)=(2\/-(1\/(1+e^(-1))-1\/2))*(1\/(1+e^(-x))-1\/2)      y = r(t)        A function to determine if it has an inverse.    f(x)=-2*(x+3)+1  g(x)=2\/3*(x+3)-2  h(x)=-1*(x-3)-3            y = s(t)           Read carefully and check if each property makes sense:   Properties of an inverse function  Let be a function with an inverse function, . Then:     if has domain and range , then has domain and range (domain and range swap!)    The functions and  reverse one anothers’ processes . Symbolically, for every input in the domain of , and similarly, for every input in the domain of .    Both and express the exact same relationship from a different perspective.    If , then the points lies on the graph of . Then , and the point lies on the graph of . (If is a point for , then is a point on !)      Graphically, an inverse function is a reflection across the line . See the picture of (the top curve) and (the bottom curve) below, and the line between them. (Graph is not for the next activity.)   A graph f(x) and it's inverse shown on one graph, along with the reflecting line y=x.    f(x)= 2^x  g(x)= ln(x)\/ln(2)  h(x)=x       (-1,\\frac12)  (\\frac12,-1)  y = f(x)  y = f^{-1}(x)       Activity 1.7.4   During a major rainstorm, the rainfall at Gerald R. Ford Airport is measured on a frequent basis for a 10-hour period of time. The following function models the rate , , at which the rain falls (in cm\/hr) on the time interval to :      Compute and write a complete sentence to explain its meaning in the given context, including units.      Compute the average rate of change of on the time interval and write two careful complete sentences to explain the meaning of this value in the context of the problem, including units. Explicitly address what the value you compute tells you about how rain is falling over a certain time interval, and what you should expect as time goes on.      Plot the function using a computational device (Desmos?). On the domain , what is the corresponding range of ? Why does the function have an inverse function?      Determine and write a complete sentence to explain its meaning in the given context.      According to the model , is there ever a time during the storm that the rain falls at a rate of exactly centimeter per hour? Why or why not? Provide an algebraic justification for your answer.     "
+  "title": "Section 1.5 &amp; 1.6: Quadratic and Composite Functions",
+  "body": " Section 1.5 & 1.6: Quadratic and Composite Functions    MTH 124    Quadratic Functions   A quadratic function is one that may be written in the form where . That is, there is an term but no higher powers of .   Activity 1.5.2   Open a browser and go to Desmos . In a cell in Desmos, enter in exactly that form; you will be prompted to add sliders for and . Do so. Then begin exploring with the sliders and respond to the following questions.     Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Which parameter seems to have the simplest effect? Which parameter seems to have the most complicated effect? Why?      Is it possible to find a formula for a quadratic function that passes through the points ? If yes, do so; if not, explain why not.        Quadratic Formula - Solutions to  Let , , and be real numbers with . The equation can have , or real solutions. These real solutions are given by the quadratic formula , provided .      Find the solutions to using the quadratic formula.      The vertex of a parabola  The quadratic function has its vertex at the -coordinate .  When , the graph opens upward , and thus the vertex is the lowest point on the graph of (see example on the left below). When , the graph opens downward , and so the vertex is the highest point (see example on the right below).  The graph is symmetric around the line (the vertical line that passes through the vertex!).     A parabola that opens upward.    p(x)=1\/5*(x-3)^2+4      p(x)      (-\\frac{b}{2a},p(-\\frac{b}{2a}))     x=-\\frac{b}{2a}        A parabola that opens downward.    h(x)=-1\/5*(x-3)^2+4      h(x)      (-\\frac{b}{2a},h(-\\frac{b}{2a}))     x=-\\frac{b}{2a}         Vertex form of a quadratic function  A quadratic function with vertex may be written in the form . The constant may be determined from one other function value for an input .        Find an equation for the parabola that has the vertex and goes through the point .     Just a note: objects that fall under the force of gravity, like baseballs or water balloons or anything, can be modeled by quadratic curves.   Composite Functions    Definition 1.6.2   If and are functions such that and , we define the composition of and to be the new function given by We also sometimes use the notation (said \" compose \" or \" of \"), where is the single function defined by .    It's a function within a function! Work inside out. Take the result of one function, and plug it right back into another function.   Suppose is a function with and is a function with . Let's find That is, we want to find \" or of .\" Since we work from the inside out, we will plug into and then whatever that outputs we plug back into . We know , so we can replace with . Then we can simplify just that part first: But now we are looking for which we know is 5. So thinking in stages we have On the other hand, if we were to switch and have we would need to take first since it is on the inside. We don't know what that is... So at the moment, we cannot simplify until we have more information.      Activity 1.6.2   Let functions and be given by the graphs below on the left (which are each piecewise linear - that is, parts that look like straight lines are straight lines) and let and be given by the table below. (They're unrelated to each other.)    Two piecewise linear functions p and q.    p1(x)=-2*(x+3)+3  p2(x)=1\/2*(x+1)-1  p3(x)=2*(x-1)  q1(x)=3*(x+2.5)-2.5  q2(x)=2  q3(x)=-1*(x-1)+2        p       q        A table of two functions entirely UNRELATED to those graphed to the left.         0  6  1    1  4  3    2  3  0    3  4  4    4  6  2      Compute each of the following quantities or explain why they are not defined.                                               For what value(s) of is ?      For what value(s) of is ?        Activity 1.6.3. Context   Let be Dolbear’s function that converts an input of number of chirps per minute to degrees Fahrenheit.  Let be the function that converts an input of degrees Fahrenheit to an output of degrees Celsius.     Determine a formula for the new function that depends only on the variable . That is should equal some function of and only .      What is the meaning of the function you found in (a)?      How does a plot of the new function compare to that of Dolbear’s function? Sketch a plot of this new function on the blank axes to the right of the plot of Dolbear’s function, and discuss the similarities and differences between them. Be sure to label the vertical scale on your axes.    A plot of Dolbear's function, a linear function with chirps per minute on the x-axis and temperature in degrees Fahrenheit on the y-axis.    D(N)=10\/40*(N-40)+50        (120,70)          A grid with the number of chirps per minute on the x-axis and the y-axis left blank for you to plot the composite function.               What is the domain of the function ? What is its range?        Activity 1.6.4   Let and .     Compute for an unknown variable and expand and simplify the result as much as possible by combining like terms.      Use part (a) to determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result as much as possible.      Compute . Is there any valid algebra you can do to write more simply?      Determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result.      "
 },
 {
-  "id": "activities-11-3",
+  "id": "activities-11-2-3",
   "level": "2",
-  "url": "activities-11.html#activities-11-3",
-  "type": "Definition",
-  "number": "43",
-  "title": "Definition 1.7.1.",
-  "body": " Definition 1.7.1   Let be a function. If there exists a function such that for each in and each in , then we say that has an inverse function and that the function is the inverse of .   (In other words, they swap inputs and outputs and undo each other!)   "
-},
-{
-  "id": "activities-11-4",
-  "level": "2",
-  "url": "activities-11.html#activities-11-4",
+  "url": "activities-11.html#activities-11-2-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Big picture: "
+  "body": "quadratic function "
 },
 {
-  "id": "activities-11-6",
+  "id": "activities-11-2-4",
   "level": "2",
-  "url": "activities-11.html#activities-11-6",
+  "url": "activities-11.html#activities-11-2-4",
   "type": "Activity",
-  "number": "44",
-  "title": "Activity 1.7.2.",
-  "body": " Activity 1.7.2   Recall Dolbear’s function that converts the number, , of snowy tree cricket chirps per minute to a corresponding Fahrenheit temperature. We have earlier established that the domain of is and the range of is .     Solve the equation for in terms of . (That is we should get stuff in terms of .) Call the resulting function .      Explain in words the process or effect of the function . What does it take as input? What does it generate as output?      Use the function that you found in (a.) to compute . Simplify your result as much as possible. Do likewise for . What do you notice about these two composite functions?      Consider the equations and . Do these equations express different relationships between and , or do they express the same relationship in two different ways? Explain.    "
+  "number": "35",
+  "title": "Activity 1.5.2.",
+  "body": " Activity 1.5.2   Open a browser and go to Desmos . In a cell in Desmos, enter in exactly that form; you will be prompted to add sliders for and . Do so. Then begin exploring with the sliders and respond to the following questions.     Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Describe how changing the value of affects the graph of .      Which parameter seems to have the simplest effect? Which parameter seems to have the most complicated effect? Why?      Is it possible to find a formula for a quadratic function that passes through the points ? If yes, do so; if not, explain why not.    "
 },
 {
-  "id": "activities-11-11",
+  "id": "activities-11-3-1-2",
   "level": "2",
-  "url": "activities-11.html#activities-11-11",
-  "type": "Activity",
-  "number": "45",
-  "title": "Activity 1.7.3. Determining if a function has an inverse.",
-  "body": " Activity 1.7.3. Determining if a function has an inverse   Each relationship below describes a function. Determine whether the function has an inverse function. If it does give two examples of values of the inverse function by writing statements such as “ ”.     The function given by the table below, where .     0  1  2  3  4     1  2  4  3  2        The function given by the table below, where .     0  1  2  3  4     4  0  3  1  2        The function given by . Assume that the domain and codomain of are both “all real numbers”.      The function given by . Assume that the domain and codomain of are both “all real numbers”.      The functions and given by the graphs below. Assume that the graphs show all of the important behavior of the functions and that the apparent trends continue beyond what is pictured.    A function to determine if it has an inverse.    r(x)=(2\/-(1\/(1+e^(-1))-1\/2))*(1\/(1+e^(-x))-1\/2)      y = r(t)        A function to determine if it has an inverse.    f(x)=-2*(x+3)+1  g(x)=2\/3*(x+3)-2  h(x)=-1*(x-3)-3            y = s(t)          "
+  "url": "activities-11.html#activities-11-3-1-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "quadratic formula "
 },
 {
-  "id": "activities-11-16",
+  "id": "activities-11-3-2",
   "level": "2",
-  "url": "activities-11.html#activities-11-16",
+  "url": "activities-11.html#activities-11-3-2",
   "type": "Activity",
-  "number": "46",
-  "title": "Activity 1.7.4.",
-  "body": " Activity 1.7.4   During a major rainstorm, the rainfall at Gerald R. Ford Airport is measured on a frequent basis for a 10-hour period of time. The following function models the rate , , at which the rain falls (in cm\/hr) on the time interval to :      Compute and write a complete sentence to explain its meaning in the given context, including units.      Compute the average rate of change of on the time interval and write two careful complete sentences to explain the meaning of this value in the context of the problem, including units. Explicitly address what the value you compute tells you about how rain is falling over a certain time interval, and what you should expect as time goes on.      Plot the function using a computational device (Desmos?). On the domain , what is the corresponding range of ? Why does the function have an inverse function?      Determine and write a complete sentence to explain its meaning in the given context.      According to the model , is there ever a time during the storm that the rain falls at a rate of exactly centimeter per hour? Why or why not? Provide an algebraic justification for your answer.    "
+  "number": "36",
+  "title": "",
+  "body": "   Find the solutions to using the quadratic formula.    "
+},
+{
+  "id": "activities-11-3-3-2",
+  "level": "2",
+  "url": "activities-11.html#activities-11-3-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "vertex "
+},
+{
+  "id": "activities-11-3-3-3",
+  "level": "2",
+  "url": "activities-11.html#activities-11-3-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "opens upward opens downward "
+},
+{
+  "id": "activities-11-4-1",
+  "level": "2",
+  "url": "activities-11.html#activities-11-4-1",
+  "type": "Activity",
+  "number": "37",
+  "title": "",
+  "body": "   Find an equation for the parabola that has the vertex and goes through the point .    "
+},
+{
+  "id": "activities-11-4-4",
+  "level": "2",
+  "url": "activities-11.html#activities-11-4-4",
+  "type": "Definition",
+  "number": "38",
+  "title": "Definition 1.6.2.",
+  "body": " Definition 1.6.2   If and are functions such that and , we define the composition of and to be the new function given by We also sometimes use the notation (said \" compose \" or \" of \"), where is the single function defined by .   "
+},
+{
+  "id": "activities-11-4-6",
+  "level": "2",
+  "url": "activities-11.html#activities-11-4-6",
+  "type": "Example",
+  "number": "39",
+  "title": "",
+  "body": " Suppose is a function with and is a function with . Let's find That is, we want to find \" or of .\" Since we work from the inside out, we will plug into and then whatever that outputs we plug back into . We know , so we can replace with . Then we can simplify just that part first: But now we are looking for which we know is 5. So thinking in stages we have On the other hand, if we were to switch and have we would need to take first since it is on the inside. We don't know what that is... So at the moment, we cannot simplify until we have more information.  "
+},
+{
+  "id": "activities-11-5-1",
+  "level": "2",
+  "url": "activities-11.html#activities-11-5-1",
+  "type": "Activity",
+  "number": "40",
+  "title": "Activity 1.6.2.",
+  "body": " Activity 1.6.2   Let functions and be given by the graphs below on the left (which are each piecewise linear - that is, parts that look like straight lines are straight lines) and let and be given by the table below. (They're unrelated to each other.)    Two piecewise linear functions p and q.    p1(x)=-2*(x+3)+3  p2(x)=1\/2*(x+1)-1  p3(x)=2*(x-1)  q1(x)=3*(x+2.5)-2.5  q2(x)=2  q3(x)=-1*(x-1)+2        p       q        A table of two functions entirely UNRELATED to those graphed to the left.         0  6  1    1  4  3    2  3  0    3  4  4    4  6  2      Compute each of the following quantities or explain why they are not defined.                                               For what value(s) of is ?      For what value(s) of is ?    "
+},
+{
+  "id": "activities-11-6-1",
+  "level": "2",
+  "url": "activities-11.html#activities-11-6-1",
+  "type": "Activity",
+  "number": "42",
+  "title": "Activity 1.6.3. Context.",
+  "body": " Activity 1.6.3. Context   Let be Dolbear’s function that converts an input of number of chirps per minute to degrees Fahrenheit.  Let be the function that converts an input of degrees Fahrenheit to an output of degrees Celsius.     Determine a formula for the new function that depends only on the variable . That is should equal some function of and only .      What is the meaning of the function you found in (a)?      How does a plot of the new function compare to that of Dolbear’s function? Sketch a plot of this new function on the blank axes to the right of the plot of Dolbear’s function, and discuss the similarities and differences between them. Be sure to label the vertical scale on your axes.    A plot of Dolbear's function, a linear function with chirps per minute on the x-axis and temperature in degrees Fahrenheit on the y-axis.    D(N)=10\/40*(N-40)+50        (120,70)          A grid with the number of chirps per minute on the x-axis and the y-axis left blank for you to plot the composite function.               What is the domain of the function ? What is its range?    "
+},
+{
+  "id": "activities-11-7-1",
+  "level": "2",
+  "url": "activities-11.html#activities-11-7-1",
+  "type": "Activity",
+  "number": "43",
+  "title": "Activity 1.6.4.",
+  "body": " Activity 1.6.4   Let and .     Compute for an unknown variable and expand and simplify the result as much as possible by combining like terms.      Use part (a) to determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result as much as possible.      Compute . Is there any valid algebra you can do to write more simply?      Determine the most simplified expression you can for the average rate of change of on the interval . That is, determine for and simplify the result.    "
 },
 {
   "id": "activities-12",
@@ -528,53 +492,53 @@ var ptx_lunr_docs = [
   "url": "activities-12.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 1.8: Transformations of Functions",
-  "body": " Section 1.8: Transformations of Functions  MTH 124   Vertical Translation of a Function  The transformation is a vertical translation of the graph of . That is, every point on the graph of gets shifted vertically to the corresponding point on the graph of .   That is, shifts  (up?\/down?\/right?\/left?) by .   Horizontal Translation of a Function  The transformation is a horizontal translation of the graph of . That is, every point on the graph of gets shifted horizontally to the corresponding point on the graph of .   That is, shifts  by . **It's opposite the direction you probably think it moves! Ex: moves right by 2!**  The graph on the left shows the vertical translation of the function , it is shifted vertically downward by 3, so it becomes the graph .    A piecewise graph f(x) shifted down by 3 under the transformation g(x)=f(x)-3.    f(x) = abs(x)  g(x)=f(x)-3          (0,0)  (0,-3)    f(x)  g(x)      The graph on the right shows the horizontal translation of a function (given by a piecewise linear equation). Since is shifted horizontally to the right by , so it becomes the graph .   A piecewise graph f(x) shifted right by 2 under the transformation h(x)=f(x-2).    f(x) = 2*(x+2)+1  g(x)=1\/2*(x+2)+1  h(x)=f(x-2)  k(x)=g(x-2)        (-2,1)  (0,1)        f(x)  h(x)       Can plot the original, pick an individual point, transform it, pick another, .... until you see the pattern.   Activity 1.8.2. Vertical and Horizontal Translations   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      Now consider the function (not plotted). Determine a formula for the function that is given by . How is a transformation of ?      Vertical Scaling of a Function  The transformation is a vertical stretch of the graph of . Every point on the graph of gets stretched vertically to the corresponding point on the graph of . If , the graph of is a compression of toward the -axis. If , the graph of is a stretch of away from the -axis. If , the transformed function is a reflection of the graph of across the -axis followed by a vertical stretch by a factor of .    Activity 1.8.3. Vertical Stretch   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on each of and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the additional copies of the two figures below, sketch the graphs of the following transformations: on the left, and on the right. As above, be sure to label a key point on each graph that corresponds to the labeled point on the original parent function.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s           Describe in words how the function is the result of three elementary transformations of . Does the order in which these transformations occur matter? Why or why not?      Activity 1.8.4. Combining shifts and stretches   Consider the functions (on the left) and (on the right) given below.    The function f(x) which you will transform in the following problems.         (-2,-2)   f       The function g(x) which you will transform in the following problems.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g          Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Is the function the same function as or different? Why? Explain in two different ways: discuss the algebraic similarities and differences between and , and also discuss how each is a transformation of .      Find a formula for a function (in terms of ) that represents this transformation of : a horizontal shift of units left, followed by a reflection across the -axis and a vertical stretch by a factor of units, followed by a vertical shift of units. Sketch an accurate, labeled graph of on the following axes along with the given parent function .   The graph f(x) for you to transform.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g          Combining Functions (Section 1.9)   Note we can also combine two functions by adding, subtracting, multiplying, or even dividing functions, and this will create a new function. For instance if and , then we can take a new function to be the sum of and , so We can also subtract, multiply, and divide. For example we may choose to make a new function , which we could simplify in this case to    Activity 1.9.1   Consider the functions and defined by the table below and the piecewise linear functions and defined by the graph below. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, lies on the graph of , and lies on the graph of .      0  1  2  3  4     5  10  15  20  25     9  5  3  2  3     The graphs of p and q for you to combine.         p    q          Let . Determine .      Let . Determine exactly.      Are there any values of for which ? If not, explain why; if so, determine all such values, with justification.      Let . Determine .      Let . Determine exactly.      Are there any values of in the interval for which is not defined? If not, explain why; if so, determine all such values, with justification.     "
+  "title": "Section 1.7: Inverse Functions",
+  "body": " Section 1.7: Inverse Functions   MTH 124    Definition 1.7.1   Let be a function. If there exists a function such that for each in and each in , then we say that has an inverse function and that the function is the inverse of .   (In other words, they swap inputs and outputs and undo each other!)     Big picture: if is a function with an inverse, inputs and outputs . So the inverse of would input and output .  Notation: We write the inverse of as , and we read it as \" inverse\". Essentially, the inverse of a function undoes the original function, so you get back to where you started.   Activity 1.7.2   Recall Dolbear’s function that converts the number, , of snowy tree cricket chirps per minute to a corresponding Fahrenheit temperature. We have earlier established that the domain of is and the range of is .     Solve the equation for in terms of . (That is we should get stuff in terms of .) Call the resulting function .      Explain in words the process or effect of the function . What does it take as input? What does it generate as output?      Use the function that you found in (a.) to compute . Simplify your result as much as possible. Do likewise for . What do you notice about these two composite functions?      Consider the equations and . Do these equations express different relationships between and , or do they express the same relationship in two different ways? Explain.     Note: You've likely been taught to switch the variables. The reason is usually so you can plot them. But not switching them can often help us understand the meaning of the inverse function.   Two perspectives from a function and its inverse function  If has an inverse function, then the equations say the exact same thing but from two different perspectives.    Horizontal Line Test  A function whose graph lies in the - plane has a corresponding inverse function if and only if every horizontal line intersects the graph at most once. When the graph passes this test, the horizontal coordinate of each point on the graph can be viewed as a function of the vertical coordinate of the point.   Think about it in terms of inputs and outputs. An inverse function flips the input and the output, so what was formerly on the axis is now the input, and what was formerly on the axis is now the output.   Activity 1.7.3. Determining if a function has an inverse   Each relationship below describes a function. Determine whether the function has an inverse function. If it does give two examples of values of the inverse function by writing statements such as “ ”.     The function given by the table below, where .     0  1  2  3  4     1  2  4  3  2        The function given by the table below, where .     0  1  2  3  4     4  0  3  1  2        The function given by . Assume that the domain and codomain of are both “all real numbers”.      The function given by . Assume that the domain and codomain of are both “all real numbers”.      The functions and given by the graphs below. Assume that the graphs show all of the important behavior of the functions and that the apparent trends continue beyond what is pictured.    A function to determine if it has an inverse.    r(x)=(2\/-(1\/(1+e^(-1))-1\/2))*(1\/(1+e^(-x))-1\/2)      y = r(t)        A function to determine if it has an inverse.    f(x)=-2*(x+3)+1  g(x)=2\/3*(x+3)-2  h(x)=-1*(x-3)-3            y = s(t)           Read carefully and check if each property makes sense:   Properties of an inverse function  Let be a function with an inverse function, . Then:     if has domain and range , then has domain and range (domain and range swap!)    The functions and  reverse one anothers’ processes . Symbolically, for every input in the domain of , and similarly, for every input in the domain of .    Both and express the exact same relationship from a different perspective.    If , then the points lies on the graph of . Then , and the point lies on the graph of . (If is a point for , then is a point on !)      Graphically, an inverse function is a reflection across the line . See the picture of (the top curve) and (the bottom curve) below, and the line between them. (Graph is not for the next activity.)   A graph f(x) and it's inverse shown on one graph, along with the reflecting line y=x.    f(x)= 2^x  g(x)= ln(x)\/ln(2)  h(x)=x       (-1,\\frac12)  (\\frac12,-1)  y = f(x)  y = f^{-1}(x)       Activity 1.7.4   During a major rainstorm, the rainfall at Gerald R. Ford Airport is measured on a frequent basis for a 10-hour period of time. The following function models the rate , , at which the rain falls (in cm\/hr) on the time interval to :      Compute and write a complete sentence to explain its meaning in the given context, including units.      Compute the average rate of change of on the time interval and write two careful complete sentences to explain the meaning of this value in the context of the problem, including units. Explicitly address what the value you compute tells you about how rain is falling over a certain time interval, and what you should expect as time goes on.      Plot the function using a computational device (Desmos?). On the domain , what is the corresponding range of ? Why does the function have an inverse function?      Determine and write a complete sentence to explain its meaning in the given context.      According to the model , is there ever a time during the storm that the rain falls at a rate of exactly centimeter per hour? Why or why not? Provide an algebraic justification for your answer.     "
+},
+{
+  "id": "activities-12-3",
+  "level": "2",
+  "url": "activities-12.html#activities-12-3",
+  "type": "Definition",
+  "number": "44",
+  "title": "Definition 1.7.1.",
+  "body": " Definition 1.7.1   Let be a function. If there exists a function such that for each in and each in , then we say that has an inverse function and that the function is the inverse of .   (In other words, they swap inputs and outputs and undo each other!)   "
+},
+{
+  "id": "activities-12-4",
+  "level": "2",
+  "url": "activities-12.html#activities-12-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Big picture: "
 },
 {
   "id": "activities-12-6",
   "level": "2",
   "url": "activities-12.html#activities-12-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "opposite right "
+  "type": "Activity",
+  "number": "45",
+  "title": "Activity 1.7.2.",
+  "body": " Activity 1.7.2   Recall Dolbear’s function that converts the number, , of snowy tree cricket chirps per minute to a corresponding Fahrenheit temperature. We have earlier established that the domain of is and the range of is .     Solve the equation for in terms of . (That is we should get stuff in terms of .) Call the resulting function .      Explain in words the process or effect of the function . What does it take as input? What does it generate as output?      Use the function that you found in (a.) to compute . Simplify your result as much as possible. Do likewise for . What do you notice about these two composite functions?      Consider the equations and . Do these equations express different relationships between and , or do they express the same relationship in two different ways? Explain.    "
 },
 {
-  "id": "activities-12-10",
+  "id": "activities-12-11",
   "level": "2",
-  "url": "activities-12.html#activities-12-10",
+  "url": "activities-12.html#activities-12-11",
   "type": "Activity",
-  "number": "47",
-  "title": "Activity 1.8.2. Vertical and Horizontal Translations.",
-  "body": " Activity 1.8.2. Vertical and Horizontal Translations   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      Now consider the function (not plotted). Determine a formula for the function that is given by . How is a transformation of ?    "
-},
-{
-  "id": "activities-12-12",
-  "level": "2",
-  "url": "activities-12.html#activities-12-12",
-  "type": "Activity",
-  "number": "48",
-  "title": "Activity 1.8.3. Vertical Stretch.",
-  "body": " Activity 1.8.3. Vertical Stretch   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on each of and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the additional copies of the two figures below, sketch the graphs of the following transformations: on the left, and on the right. As above, be sure to label a key point on each graph that corresponds to the labeled point on the original parent function.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s           Describe in words how the function is the result of three elementary transformations of . Does the order in which these transformations occur matter? Why or why not?    "
-},
-{
-  "id": "activities-12-13",
-  "level": "2",
-  "url": "activities-12.html#activities-12-13",
-  "type": "Activity",
-  "number": "49",
-  "title": "Activity 1.8.4. Combining shifts and stretches.",
-  "body": " Activity 1.8.4. Combining shifts and stretches   Consider the functions (on the left) and (on the right) given below.    The function f(x) which you will transform in the following problems.         (-2,-2)   f       The function g(x) which you will transform in the following problems.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g          Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Is the function the same function as or different? Why? Explain in two different ways: discuss the algebraic similarities and differences between and , and also discuss how each is a transformation of .      Find a formula for a function (in terms of ) that represents this transformation of : a horizontal shift of units left, followed by a reflection across the -axis and a vertical stretch by a factor of units, followed by a vertical shift of units. Sketch an accurate, labeled graph of on the following axes along with the given parent function .   The graph f(x) for you to transform.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g        "
+  "number": "46",
+  "title": "Activity 1.7.3. Determining if a function has an inverse.",
+  "body": " Activity 1.7.3. Determining if a function has an inverse   Each relationship below describes a function. Determine whether the function has an inverse function. If it does give two examples of values of the inverse function by writing statements such as “ ”.     The function given by the table below, where .     0  1  2  3  4     1  2  4  3  2        The function given by the table below, where .     0  1  2  3  4     4  0  3  1  2        The function given by . Assume that the domain and codomain of are both “all real numbers”.      The function given by . Assume that the domain and codomain of are both “all real numbers”.      The functions and given by the graphs below. Assume that the graphs show all of the important behavior of the functions and that the apparent trends continue beyond what is pictured.    A function to determine if it has an inverse.    r(x)=(2\/-(1\/(1+e^(-1))-1\/2))*(1\/(1+e^(-x))-1\/2)      y = r(t)        A function to determine if it has an inverse.    f(x)=-2*(x+3)+1  g(x)=2\/3*(x+3)-2  h(x)=-1*(x-3)-3            y = s(t)          "
 },
 {
   "id": "activities-12-16",
   "level": "2",
   "url": "activities-12.html#activities-12-16",
   "type": "Activity",
-  "number": "50",
-  "title": "Activity 1.9.1.",
-  "body": " Activity 1.9.1   Consider the functions and defined by the table below and the piecewise linear functions and defined by the graph below. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, lies on the graph of , and lies on the graph of .      0  1  2  3  4     5  10  15  20  25     9  5  3  2  3     The graphs of p and q for you to combine.         p    q          Let . Determine .      Let . Determine exactly.      Are there any values of for which ? If not, explain why; if so, determine all such values, with justification.      Let . Determine .      Let . Determine exactly.      Are there any values of in the interval for which is not defined? If not, explain why; if so, determine all such values, with justification.    "
+  "number": "47",
+  "title": "Activity 1.7.4.",
+  "body": " Activity 1.7.4   During a major rainstorm, the rainfall at Gerald R. Ford Airport is measured on a frequent basis for a 10-hour period of time. The following function models the rate , , at which the rain falls (in cm\/hr) on the time interval to :      Compute and write a complete sentence to explain its meaning in the given context, including units.      Compute the average rate of change of on the time interval and write two careful complete sentences to explain the meaning of this value in the context of the problem, including units. Explicitly address what the value you compute tells you about how rain is falling over a certain time interval, and what you should expect as time goes on.      Plot the function using a computational device (Desmos?). On the domain , what is the corresponding range of ? Why does the function have an inverse function?      Determine and write a complete sentence to explain its meaning in the given context.      According to the model , is there ever a time during the storm that the rain falls at a rate of exactly centimeter per hour? Why or why not? Provide an algebraic justification for your answer.    "
 },
 {
   "id": "activities-13",
@@ -582,35 +546,53 @@ var ptx_lunr_docs = [
   "url": "activities-13.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 2.1: Traversing Circles",
-  "body": " Section 2.1: Traversing Circles     Midline: the line of form that cuts the circle in half vertically  Amplitude: the distance from the midline to the highest point  Periodic: a function that repeats itself exactly forever, ( for some )  Period: the smallest number such that the function repeats itself exactly ( )      Activity 2.1.3   A weight is placed on a frictionless table next to a wall and attached to a spring that is fixed to the wall. From its natural position of rest, the weight is imparted an initial velocity that sets it in motion. The weight then oscillates back and forth, and we can measure its distance, (in inches) from the wall at any given time, (in seconds). A graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Determine the period , midline , and amplitude of the function .      What is the greatest distance the weight is displaced from the wall? What is the least distance the weight is displaced from the wall? What is the range of ?      Determine the average rate of change of on the intervals and . Write one careful sentence to explain the meaning of each (including units). In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.      Based on the periodicity of the function, what is the value of ? of ?      Activity 2.1.4   Consider the same setting as Activity 2.1.3: a weight oscillates back and forth on a frictionless table with distance from the wall given by, (in inches) at any given time, (in seconds). The same graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Give an example of an interval of length units on which has its most negative average rate of change. Justify your choice.      Give an example of the longest interval you can find on which is decreasing.      Give an example of an interval on which is curving up (or speeding up).      On an interval where is both decreasing and curving down (slowing down), what does this tell us about how the weight is moving on that interval? For instance, is the weight moving toward or away from the wall? is it speeding up or slowing down?      What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points? about its average rate of change on intervals near the function’s midline?     "
+  "title": "Section 1.8: Transformations of Functions",
+  "body": " Section 1.8: Transformations of Functions  MTH 124   Vertical Translation of a Function  The transformation is a vertical translation of the graph of . That is, every point on the graph of gets shifted vertically to the corresponding point on the graph of .   That is, shifts  (up?\/down?\/right?\/left?) by .   Horizontal Translation of a Function  The transformation is a horizontal translation of the graph of . That is, every point on the graph of gets shifted horizontally to the corresponding point on the graph of .   That is, shifts  by . **It's opposite the direction you probably think it moves! Ex: moves right by 2!**  The graph on the left shows the vertical translation of the function , it is shifted vertically downward by 3, so it becomes the graph .    A piecewise graph f(x) shifted down by 3 under the transformation g(x)=f(x)-3.    f(x) = abs(x)  g(x)=f(x)-3          (0,0)  (0,-3)    f(x)  g(x)      The graph on the right shows the horizontal translation of a function (given by a piecewise linear equation). Since is shifted horizontally to the right by , so it becomes the graph .   A piecewise graph f(x) shifted right by 2 under the transformation h(x)=f(x-2).    f(x) = 2*(x+2)+1  g(x)=1\/2*(x+2)+1  h(x)=f(x-2)  k(x)=g(x-2)        (-2,1)  (0,1)        f(x)  h(x)       Can plot the original, pick an individual point, transform it, pick another, .... until you see the pattern.   Activity 1.8.2. Vertical and Horizontal Translations   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      Now consider the function (not plotted). Determine a formula for the function that is given by . How is a transformation of ?      Vertical Scaling of a Function  The transformation is a vertical stretch of the graph of . Every point on the graph of gets stretched vertically to the corresponding point on the graph of . If , the graph of is a compression of toward the -axis. If , the graph of is a stretch of away from the -axis. If , the transformed function is a reflection of the graph of across the -axis followed by a vertical stretch by a factor of .    Activity 1.8.3. Vertical Stretch   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on each of and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the additional copies of the two figures below, sketch the graphs of the following transformations: on the left, and on the right. As above, be sure to label a key point on each graph that corresponds to the labeled point on the original parent function.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s           Describe in words how the function is the result of three elementary transformations of . Does the order in which these transformations occur matter? Why or why not?      Activity 1.8.4. Combining shifts and stretches   Consider the functions (on the left) and (on the right) given below.    The function f(x) which you will transform in the following problems.         (-2,-2)   f       The function g(x) which you will transform in the following problems.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g          Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Is the function the same function as or different? Why? Explain in two different ways: discuss the algebraic similarities and differences between and , and also discuss how each is a transformation of .      Find a formula for a function (in terms of ) that represents this transformation of : a horizontal shift of units left, followed by a reflection across the -axis and a vertical stretch by a factor of units, followed by a vertical shift of units. Sketch an accurate, labeled graph of on the following axes along with the given parent function .   The graph f(x) for you to transform.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g          Combining Functions (Section 1.9)   Note we can also combine two functions by adding, subtracting, multiplying, or even dividing functions, and this will create a new function. For instance if and , then we can take a new function to be the sum of and , so We can also subtract, multiply, and divide. For example we may choose to make a new function , which we could simplify in this case to    Activity 1.9.1   Consider the functions and defined by the table below and the piecewise linear functions and defined by the graph below. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, lies on the graph of , and lies on the graph of .      0  1  2  3  4     5  10  15  20  25     9  5  3  2  3     The graphs of p and q for you to combine.         p    q          Let . Determine .      Let . Determine exactly.      Are there any values of for which ? If not, explain why; if so, determine all such values, with justification.      Let . Determine .      Let . Determine exactly.      Are there any values of in the interval for which is not defined? If not, explain why; if so, determine all such values, with justification.     "
 },
 {
-  "id": "activities-13-2-1",
+  "id": "activities-13-6",
   "level": "2",
-  "url": "activities-13.html#activities-13-2-1",
+  "url": "activities-13.html#activities-13-6",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Midline: Amplitude: Periodic: Period: "
+  "body": "opposite right "
 },
 {
-  "id": "activities-13-3",
+  "id": "activities-13-10",
   "level": "2",
-  "url": "activities-13.html#activities-13-3",
+  "url": "activities-13.html#activities-13-10",
+  "type": "Activity",
+  "number": "48",
+  "title": "Activity 1.8.2. Vertical and Horizontal Translations.",
+  "body": " Activity 1.8.2. Vertical and Horizontal Translations   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      On the same axes as the plot of , sketch the following graphs: , , and . Be sure to label the point on each of , , and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in , , and .      Now consider the function (not plotted). Determine a formula for the function that is given by . How is a transformation of ?    "
+},
+{
+  "id": "activities-13-12",
+  "level": "2",
+  "url": "activities-13.html#activities-13-12",
+  "type": "Activity",
+  "number": "49",
+  "title": "Activity 1.8.3. Vertical Stretch.",
+  "body": " Activity 1.8.3. Vertical Stretch   Consider the functions (on left) and (on right) given in the figure below.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s          On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the same axes as the plot of , sketch the following graphs: , and . Be sure to label the point on each of and that corresponds to on the original graph of . In addition, write briefly to explain the overall transformations that have resulted in and .      On the additional copies of the two figures below, sketch the graphs of the following transformations: on the left, and on the right. As above, be sure to label a key point on each graph that corresponds to the labeled point on the original parent function.    A graph r(x) that you will transform in the following problems.          (-2,-1)   r       A graph s(x) that you will transform in the following problems        (-2,-3)  s           Describe in words how the function is the result of three elementary transformations of . Does the order in which these transformations occur matter? Why or why not?    "
+},
+{
+  "id": "activities-13-13",
+  "level": "2",
+  "url": "activities-13.html#activities-13-13",
+  "type": "Activity",
+  "number": "50",
+  "title": "Activity 1.8.4. Combining shifts and stretches.",
+  "body": " Activity 1.8.4. Combining shifts and stretches   Consider the functions (on the left) and (on the right) given below.    The function f(x) which you will transform in the following problems.         (-2,-2)   f       The function g(x) which you will transform in the following problems.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g          Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Sketch an accurate graph of the transformation . Write at least one sentence to explain how you developed the graph of , and identify the point on that corresponds to the original point on the graph of .      Is the function the same function as or different? Why? Explain in two different ways: discuss the algebraic similarities and differences between and , and also discuss how each is a transformation of .      Find a formula for a function (in terms of ) that represents this transformation of : a horizontal shift of units left, followed by a reflection across the -axis and a vertical stretch by a factor of units, followed by a vertical shift of units. Sketch an accurate, labeled graph of on the following axes along with the given parent function .   The graph f(x) for you to transform.    f(x)=-1.5*sin(2*pi\/2*x)     (1.5,1.5)   g        "
+},
+{
+  "id": "activities-13-16",
+  "level": "2",
+  "url": "activities-13.html#activities-13-16",
   "type": "Activity",
   "number": "51",
-  "title": "Activity 2.1.3.",
-  "body": " Activity 2.1.3   A weight is placed on a frictionless table next to a wall and attached to a spring that is fixed to the wall. From its natural position of rest, the weight is imparted an initial velocity that sets it in motion. The weight then oscillates back and forth, and we can measure its distance, (in inches) from the wall at any given time, (in seconds). A graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Determine the period , midline , and amplitude of the function .      What is the greatest distance the weight is displaced from the wall? What is the least distance the weight is displaced from the wall? What is the range of ?      Determine the average rate of change of on the intervals and . Write one careful sentence to explain the meaning of each (including units). In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.      Based on the periodicity of the function, what is the value of ? of ?    "
-},
-{
-  "id": "activities-13-4",
-  "level": "2",
-  "url": "activities-13.html#activities-13-4",
-  "type": "Activity",
-  "number": "52",
-  "title": "Activity 2.1.4.",
-  "body": " Activity 2.1.4   Consider the same setting as Activity 2.1.3: a weight oscillates back and forth on a frictionless table with distance from the wall given by, (in inches) at any given time, (in seconds). The same graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Give an example of an interval of length units on which has its most negative average rate of change. Justify your choice.      Give an example of the longest interval you can find on which is decreasing.      Give an example of an interval on which is curving up (or speeding up).      On an interval where is both decreasing and curving down (slowing down), what does this tell us about how the weight is moving on that interval? For instance, is the weight moving toward or away from the wall? is it speeding up or slowing down?      What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points? about its average rate of change on intervals near the function’s midline?    "
+  "title": "Activity 1.9.1.",
+  "body": " Activity 1.9.1   Consider the functions and defined by the table below and the piecewise linear functions and defined by the graph below. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, lies on the graph of , and lies on the graph of .      0  1  2  3  4     5  10  15  20  25     9  5  3  2  3     The graphs of p and q for you to combine.         p    q          Let . Determine .      Let . Determine exactly.      Are there any values of for which ? If not, explain why; if so, determine all such values, with justification.      Let . Determine .      Let . Determine exactly.      Are there any values of in the interval for which is not defined? If not, explain why; if so, determine all such values, with justification.    "
 },
 {
   "id": "activities-14",
@@ -618,71 +600,35 @@ var ptx_lunr_docs = [
   "url": "activities-14.html",
   "type": "Handout",
   "number": "",
-  "title": "S2.1 Activity: Traversing Circles",
-  "body": " S2.1 Activity: Traversing Circles  MTH 124     Circle Activity Instructions To be completed with your table.   Fill in the circumference (given on your circle page), the radius of your circle, and the coordinates for the center of your circle on the notes sheet.    On the circle itself, fill in the EXACT (no rounding for ) coordinates for the top, bottom, left, and right of the circle.   At the starting point, the \"Fraction of the Circle\" is 0. The distance traveled will also be . At what height is the starting point? Put this in the first row of the table. (You can round the heights here or not!)   At 1\/4 of the way around, you’ve traveled 1\/4 of the circumference. Write this value under in the 1\/4 row. At what height are you at now? Can you find it exactly? (No rounding, leave as ).   Fill in the whole table, filling in as many values as you can exactly.   Plot the points on the graph on the notes sheet. -------- CHECK YOUR POINTS WITH DR. BAILEY! ---------   Connect the dots to make the height graph. Consider whether the curve is “speeding up”\/ “curving up” at each point.   If the graph continued, what would it look like? (Fill this in with a dotted line.)   On the bottom write (at least) one thing you notice, and one thing you wonder.   Discuss: How would a different circle change your graph? -------- TAPE YOUR WORK AND CIRCLE TO A WALL! ---------    Walk around and see other graphs. Check the first couple of points - does the work look correct?   What’s similar about the graph? What’s different?     Definitions we'll fill in together     A circular function       The midline of a circular function      The amplitude of a circular function      When a function is periodic       The period of a periodic function       Pick a circle as a table and write on the notes sheet the midline, amplitude, and period.      Pick another circle and check another team’s work.      Discuss - how do the numbers found for each correspond to the circle given?      "
+  "title": "Section 2.1: Traversing Circles",
+  "body": " Section 2.1: Traversing Circles     Midline: the line of form that cuts the circle in half vertically  Amplitude: the distance from the midline to the highest point  Periodic: a function that repeats itself exactly forever, ( for some )  Period: the smallest number such that the function repeats itself exactly ( )      Activity 2.1.3   A weight is placed on a frictionless table next to a wall and attached to a spring that is fixed to the wall. From its natural position of rest, the weight is imparted an initial velocity that sets it in motion. The weight then oscillates back and forth, and we can measure its distance, (in inches) from the wall at any given time, (in seconds). A graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Determine the period , midline , and amplitude of the function .      What is the greatest distance the weight is displaced from the wall? What is the least distance the weight is displaced from the wall? What is the range of ?      Determine the average rate of change of on the intervals and . Write one careful sentence to explain the meaning of each (including units). In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.      Based on the periodicity of the function, what is the value of ? of ?      Activity 2.1.4   Consider the same setting as Activity 2.1.3: a weight oscillates back and forth on a frictionless table with distance from the wall given by, (in inches) at any given time, (in seconds). The same graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Give an example of an interval of length units on which has its most negative average rate of change. Justify your choice.      Give an example of the longest interval you can find on which is decreasing.      Give an example of an interval on which is curving up (or speeding up).      On an interval where is both decreasing and curving down (slowing down), what does this tell us about how the weight is moving on that interval? For instance, is the weight moving toward or away from the wall? is it speeding up or slowing down?      What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points? about its average rate of change on intervals near the function’s midline?     "
 },
 {
-  "id": "activities-14-3-1",
+  "id": "activities-14-2-1",
   "level": "2",
-  "url": "activities-14.html#activities-14-3-1",
+  "url": "activities-14.html#activities-14-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Midline: Amplitude: Periodic: Period: "
+},
+{
+  "id": "activities-14-3",
+  "level": "2",
+  "url": "activities-14.html#activities-14-3",
+  "type": "Activity",
+  "number": "52",
+  "title": "Activity 2.1.3.",
+  "body": " Activity 2.1.3   A weight is placed on a frictionless table next to a wall and attached to a spring that is fixed to the wall. From its natural position of rest, the weight is imparted an initial velocity that sets it in motion. The weight then oscillates back and forth, and we can measure its distance, (in inches) from the wall at any given time, (in seconds). A graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Determine the period , midline , and amplitude of the function .      What is the greatest distance the weight is displaced from the wall? What is the least distance the weight is displaced from the wall? What is the range of ?      Determine the average rate of change of on the intervals and . Write one careful sentence to explain the meaning of each (including units). In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.      Based on the periodicity of the function, what is the value of ? of ?    "
+},
+{
+  "id": "activities-14-4",
+  "level": "2",
+  "url": "activities-14.html#activities-14-4",
   "type": "Activity",
   "number": "53",
-  "title": "",
-  "body": "  Circle Activity Instructions To be completed with your table.   Fill in the circumference (given on your circle page), the radius of your circle, and the coordinates for the center of your circle on the notes sheet.    On the circle itself, fill in the EXACT (no rounding for ) coordinates for the top, bottom, left, and right of the circle.   At the starting point, the \"Fraction of the Circle\" is 0. The distance traveled will also be . At what height is the starting point? Put this in the first row of the table. (You can round the heights here or not!)   At 1\/4 of the way around, you’ve traveled 1\/4 of the circumference. Write this value under in the 1\/4 row. At what height are you at now? Can you find it exactly? (No rounding, leave as ).   Fill in the whole table, filling in as many values as you can exactly.   Plot the points on the graph on the notes sheet. -------- CHECK YOUR POINTS WITH DR. BAILEY! ---------   Connect the dots to make the height graph. Consider whether the curve is “speeding up”\/ “curving up” at each point.   If the graph continued, what would it look like? (Fill this in with a dotted line.)   On the bottom write (at least) one thing you notice, and one thing you wonder.   Discuss: How would a different circle change your graph? -------- TAPE YOUR WORK AND CIRCLE TO A WALL! ---------    Walk around and see other graphs. Check the first couple of points - does the work look correct?   What’s similar about the graph? What’s different?  "
-},
-{
-  "id": "def-circular-function",
-  "level": "2",
-  "url": "activities-14.html#def-circular-function",
-  "type": "Definition",
-  "number": "54",
-  "title": "",
-  "body": "  A circular function    "
-},
-{
-  "id": "def-midline",
-  "level": "2",
-  "url": "activities-14.html#def-midline",
-  "type": "Definition",
-  "number": "55",
-  "title": "",
-  "body": "  The midline of a circular function   "
-},
-{
-  "id": "def-amp",
-  "level": "2",
-  "url": "activities-14.html#def-amp",
-  "type": "Definition",
-  "number": "56",
-  "title": "",
-  "body": "  The amplitude of a circular function   "
-},
-{
-  "id": "def-periodic",
-  "level": "2",
-  "url": "activities-14.html#def-periodic",
-  "type": "Definition",
-  "number": "57",
-  "title": "",
-  "body": "  When a function is periodic    "
-},
-{
-  "id": "def-period",
-  "level": "2",
-  "url": "activities-14.html#def-period",
-  "type": "Definition",
-  "number": "58",
-  "title": "",
-  "body": "  The period of a periodic function   "
-},
-{
-  "id": "activities-14-4-7",
-  "level": "2",
-  "url": "activities-14.html#activities-14-4-7",
-  "type": "Activity",
-  "number": "59",
-  "title": "",
-  "body": "   Pick a circle as a table and write on the notes sheet the midline, amplitude, and period.      Pick another circle and check another team’s work.      Discuss - how do the numbers found for each correspond to the circle given?    "
+  "title": "Activity 2.1.4.",
+  "body": " Activity 2.1.4   Consider the same setting as Activity 2.1.3: a weight oscillates back and forth on a frictionless table with distance from the wall given by, (in inches) at any given time, (in seconds). The same graph of and a table of select values are given below.         0  8.000    0.25  6.087    0.5  4.464    0.75  3.381    1  3.000    1.25  3.381    1.5  4.464    1.75  6.087    2  8.000          2.25  9.913    2.5  11.536    2.75  12.619    3  13.000    3.25  12.619    3.5  11.536    3.75  9.913    4  8.000     A periodic function f(t) representing the weight attached to a spring fixed to the wall.    f(x) = -5*sin((2*pi)\/4*x)+8             Give an example of an interval of length units on which has its most negative average rate of change. Justify your choice.      Give an example of the longest interval you can find on which is decreasing.      Give an example of an interval on which is curving up (or speeding up).      On an interval where is both decreasing and curving down (slowing down), what does this tell us about how the weight is moving on that interval? For instance, is the weight moving toward or away from the wall? is it speeding up or slowing down?      What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points? about its average rate of change on intervals near the function’s midline?    "
 },
 {
   "id": "activities-15",
@@ -690,8 +636,71 @@ var ptx_lunr_docs = [
   "url": "activities-15.html",
   "type": "Handout",
   "number": "",
-  "title": "S2.1 Activity: Circles",
-  "body": " S2.1 Activity: Circles    A circle for the activity.    c=((4,5))  c1=4  c2=5  rad=12\/pi  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (4,5)      Circumference = 24       A circle for the activity.    c1=1  c2=3  c=((c1,c2))  rad=6\/pi  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (1,3)      Circumference = 12       A circle for the activity.    c1=2  c2=2  c=((c1,c2))  rad=16\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (2,2)      Circumference = 16       A circle for the activity.    c1=2  c2=0  c=((c1,c2))  rad=18\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (2,0)      Circumference = 18       A circle for the activity.    c1=0  c2=7  c=((c1,c2))  rad=22\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (0,7)      Circumference = 22       A circle for the activity.    c1=1  c2=5  c=((c1,c2))  rad=30\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (1,5)      Circumference = 30       A circle for the activity.    c1=3  c2=2  c=((c1,c2))  rad=8\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (3,2)      Circumference = 8       A circle for the activity.    c1=3  c2=1  c=((c1,c2))  rad=14\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (3,1)      Circumference = 14      "
+  "title": "S2.1 Activity: Traversing Circles",
+  "body": " S2.1 Activity: Traversing Circles  MTH 124     Circle Activity Instructions To be completed with your table.   Fill in the circumference (given on your circle page), the radius of your circle, and the coordinates for the center of your circle on the notes sheet.    On the circle itself, fill in the EXACT (no rounding for ) coordinates for the top, bottom, left, and right of the circle.   At the starting point, the \"Fraction of the Circle\" is 0. The distance traveled will also be . At what height is the starting point? Put this in the first row of the table. (You can round the heights here or not!)   At 1\/4 of the way around, you’ve traveled 1\/4 of the circumference. Write this value under in the 1\/4 row. At what height are you at now? Can you find it exactly? (No rounding, leave as ).   Fill in the whole table, filling in as many values as you can exactly.   Plot the points on the graph on the notes sheet. -------- CHECK YOUR POINTS WITH DR. BAILEY! ---------   Connect the dots to make the height graph. Consider whether the curve is “speeding up”\/ “curving up” at each point.   If the graph continued, what would it look like? (Fill this in with a dotted line.)   On the bottom write (at least) one thing you notice, and one thing you wonder.   Discuss: How would a different circle change your graph? -------- TAPE YOUR WORK AND CIRCLE TO A WALL! ---------    Walk around and see other graphs. Check the first couple of points - does the work look correct?   What’s similar about the graph? What’s different?     Definitions we'll fill in together     A circular function       The midline of a circular function      The amplitude of a circular function      When a function is periodic       The period of a periodic function       Pick a circle as a table and write on the notes sheet the midline, amplitude, and period.      Pick another circle and check another team’s work.      Discuss - how do the numbers found for each correspond to the circle given?      "
+},
+{
+  "id": "activities-15-3-1",
+  "level": "2",
+  "url": "activities-15.html#activities-15-3-1",
+  "type": "Activity",
+  "number": "54",
+  "title": "",
+  "body": "  Circle Activity Instructions To be completed with your table.   Fill in the circumference (given on your circle page), the radius of your circle, and the coordinates for the center of your circle on the notes sheet.    On the circle itself, fill in the EXACT (no rounding for ) coordinates for the top, bottom, left, and right of the circle.   At the starting point, the \"Fraction of the Circle\" is 0. The distance traveled will also be . At what height is the starting point? Put this in the first row of the table. (You can round the heights here or not!)   At 1\/4 of the way around, you’ve traveled 1\/4 of the circumference. Write this value under in the 1\/4 row. At what height are you at now? Can you find it exactly? (No rounding, leave as ).   Fill in the whole table, filling in as many values as you can exactly.   Plot the points on the graph on the notes sheet. -------- CHECK YOUR POINTS WITH DR. BAILEY! ---------   Connect the dots to make the height graph. Consider whether the curve is “speeding up”\/ “curving up” at each point.   If the graph continued, what would it look like? (Fill this in with a dotted line.)   On the bottom write (at least) one thing you notice, and one thing you wonder.   Discuss: How would a different circle change your graph? -------- TAPE YOUR WORK AND CIRCLE TO A WALL! ---------    Walk around and see other graphs. Check the first couple of points - does the work look correct?   What’s similar about the graph? What’s different?  "
+},
+{
+  "id": "def-circular-function",
+  "level": "2",
+  "url": "activities-15.html#def-circular-function",
+  "type": "Definition",
+  "number": "55",
+  "title": "",
+  "body": "  A circular function    "
+},
+{
+  "id": "def-midline",
+  "level": "2",
+  "url": "activities-15.html#def-midline",
+  "type": "Definition",
+  "number": "56",
+  "title": "",
+  "body": "  The midline of a circular function   "
+},
+{
+  "id": "def-amp",
+  "level": "2",
+  "url": "activities-15.html#def-amp",
+  "type": "Definition",
+  "number": "57",
+  "title": "",
+  "body": "  The amplitude of a circular function   "
+},
+{
+  "id": "def-periodic",
+  "level": "2",
+  "url": "activities-15.html#def-periodic",
+  "type": "Definition",
+  "number": "58",
+  "title": "",
+  "body": "  When a function is periodic    "
+},
+{
+  "id": "def-period",
+  "level": "2",
+  "url": "activities-15.html#def-period",
+  "type": "Definition",
+  "number": "59",
+  "title": "",
+  "body": "  The period of a periodic function   "
+},
+{
+  "id": "activities-15-4-7",
+  "level": "2",
+  "url": "activities-15.html#activities-15-4-7",
+  "type": "Activity",
+  "number": "60",
+  "title": "",
+  "body": "   Pick a circle as a table and write on the notes sheet the midline, amplitude, and period.      Pick another circle and check another team’s work.      Discuss - how do the numbers found for each correspond to the circle given?    "
 },
 {
   "id": "activities-16",
@@ -699,8 +708,8 @@ var ptx_lunr_docs = [
   "url": "activities-16.html",
   "type": "Handout",
   "number": "",
-  "title": "S2.1 Activity: Tables, Graphs, and Notes",
-  "body": " S2.1 Activity: Tables, Graphs, and Notes  Circumference:  Radius:  Center:    Fraction of circle  distance around (d)  height of point (h)    0      1\/8      1\/4      3\/8      1\/2      5\/8      3\/4      7\/8      1      9\/8      3\/2       A blank plot.          Notes  "
+  "title": "S2.1 Activity: Circles",
+  "body": " S2.1 Activity: Circles    A circle for the activity.    c=((4,5))  c1=4  c2=5  rad=12\/pi  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (4,5)      Circumference = 24       A circle for the activity.    c1=1  c2=3  c=((c1,c2))  rad=6\/pi  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (1,3)      Circumference = 12       A circle for the activity.    c1=2  c2=2  c=((c1,c2))  rad=16\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (2,2)      Circumference = 16       A circle for the activity.    c1=2  c2=0  c=((c1,c2))  rad=18\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (2,0)      Circumference = 18       A circle for the activity.    c1=0  c2=7  c=((c1,c2))  rad=22\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (0,7)      Circumference = 22       A circle for the activity.    c1=1  c2=5  c=((c1,c2))  rad=30\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (1,5)      Circumference = 30       A circle for the activity.    c1=3  c2=2  c=((c1,c2))  rad=8\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (3,2)      Circumference = 8       A circle for the activity.    c1=3  c2=1  c=((c1,c2))  rad=14\/(2*pi)  r=((c1+rad,c2))  l=((c1-rad,c2))  u=((c1,c2+rad))  d=((c1,c2-rad))     (3,1)      Circumference = 14      "
 },
 {
   "id": "activities-17",
@@ -708,71 +717,8 @@ var ptx_lunr_docs = [
   "url": "activities-17.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 2.2: The Unit Circle",
-  "body": " Section 2.2: The Unit Circle    The unit circle is a circle of radius that is centered at the origin, . A point on the circle has some coordinates , and we can form a triangle with the -axis where the horizontal leg has length , the vertical leg has length , and the hypotenuse (the radius of the circle) is length 1. Pythagorean Theorem then tells us that This means we can determine some coordinates nicely.    Activity 2.2.1     We start at the right side of the circle and travel around it counter-clockwise. Label that point .  The circumference of the circle is , so halfway around the circle is . Label that point .  Similarly, we can divide the circumference ( ) nicely into 24 pieces, each with a length of around the edge of the circle. Fill them in (simplify the fractions as much as possible, so , , \\ldots.)        Definition 2.2.5.   An angle whose vertex is at the center of a circle measures 1 radian provided the arc the angle intercepts on the circle equals the radius of the circle.    Which just means: the distance along the edge of the circle is the as the angle between the axis and the point on the circle! (This is why we use radians...)   Converting between radians and degrees  radian  .    radians.    Activity 2.2.2. Converting between radians and degrees   Convert each of the following quantities to the alternative measure: degrees to radians or radians to degrees.          radians      radians                radians      Activity 2.2.3 Special points on the unit circle   In what follows, we work to understand key relationships in and right triangles. (This will help us find exact coordinates on the unit circle.)      For the triangle with legs of length and and hypotenuse of length 1, because the triangle is an isosceles triangle, what is the relationship between and ? Use this fact to simplify the Pythagorean Theorem - what are the exact values of and ? (Exact means leave 's or square roots or fractions in your answer so you do not round!)      Now consider the triangle with hypotenuse of length 1 and the longer leg (of length ) lying along the positive -axis. Reflect this triangle across the -axis, what special triangle is formed (look at the angles)? Can we use this to find the exact length of ? Once we have , go back and find the exact value of using .      Note we can take the same and flip it so corresponds to the smaller, horizontal leg. What are the and values in this case? (Hint, by looking at (b) you can save yourself a lot of work!)       We know from the conversion factor from degrees to radians that an angle of corresponds to an angle measuring radians, corresponds to radians, and corresponds to radians. Use parts (a) - (c) to label the coordinate points with the exact values of and on the three triangles below.        The coordinates are called terminal points.  The far right of the circle we know is terminal point because the radius is 1 and we are on the -axis. Since we start on the far right of the circle, that corresponds to angle . Similarly the point at the top of the circle is the terminal point , corresponding to . Fill in those points to the right. Then use the previous activity (and symmetry of the coordinates) to fill in the other points on the unit circle to the right. We have 16 specials points total whose location we can determine exactly!      Connecting arc length and angles in non-unit circles  In a circle of radius , a central angle measuring radians intercepts an arc of the circle, and the arc has length where    Activity 2.2.4 Non-unit circles   In a circle of radius , each point of the unit circle is a distance further away from the origin. So on the unit circle would correspond to , and so on. That is, each terminal point on the unit circle corresponds to the same point, except each coordinate is multiplied by the new radius . Find the following values or points on the non-unit circles below exactly.     In a circle of radius , the arc length intercepted by a central angle of .      In a circle of radius , the central angle measure that intercepts an arc of length .      The radius of the circle in which an angle of intercepts an arc of length .      The exact coordinates of the point on the circle of radius that lies units counterclockwise along the circle from .     "
-},
-{
-  "id": "activities-17-2-2",
-  "level": "2",
-  "url": "activities-17.html#activities-17-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "unit circle "
-},
-{
-  "id": "activities-17-3",
-  "level": "2",
-  "url": "activities-17.html#activities-17-3",
-  "type": "Activity",
-  "number": "60",
-  "title": "Activity 2.2.1.",
-  "body": " Activity 2.2.1     We start at the right side of the circle and travel around it counter-clockwise. Label that point .  The circumference of the circle is , so halfway around the circle is . Label that point .  Similarly, we can divide the circumference ( ) nicely into 24 pieces, each with a length of around the edge of the circle. Fill them in (simplify the fractions as much as possible, so , , \\ldots.)      "
-},
-{
-  "id": "activities-17-4",
-  "level": "2",
-  "url": "activities-17.html#activities-17-4",
-  "type": "Definition",
-  "number": "61",
-  "title": "Definition 2.2.5..",
-  "body": " Definition 2.2.5.   An angle whose vertex is at the center of a circle measures 1 radian provided the arc the angle intercepts on the circle equals the radius of the circle.   "
-},
-{
-  "id": "activities-17-7",
-  "level": "2",
-  "url": "activities-17.html#activities-17-7",
-  "type": "Activity",
-  "number": "62",
-  "title": "Activity 2.2.2. Converting between radians and degrees.",
-  "body": " Activity 2.2.2. Converting between radians and degrees   Convert each of the following quantities to the alternative measure: degrees to radians or radians to degrees.          radians      radians                radians    "
-},
-{
-  "id": "activities-17-8",
-  "level": "2",
-  "url": "activities-17.html#activities-17-8",
-  "type": "Activity",
-  "number": "63",
-  "title": "Activity 2.2.3 Special points on the unit circle.",
-  "body": " Activity 2.2.3 Special points on the unit circle   In what follows, we work to understand key relationships in and right triangles. (This will help us find exact coordinates on the unit circle.)      For the triangle with legs of length and and hypotenuse of length 1, because the triangle is an isosceles triangle, what is the relationship between and ? Use this fact to simplify the Pythagorean Theorem - what are the exact values of and ? (Exact means leave 's or square roots or fractions in your answer so you do not round!)      Now consider the triangle with hypotenuse of length 1 and the longer leg (of length ) lying along the positive -axis. Reflect this triangle across the -axis, what special triangle is formed (look at the angles)? Can we use this to find the exact length of ? Once we have , go back and find the exact value of using .      Note we can take the same and flip it so corresponds to the smaller, horizontal leg. What are the and values in this case? (Hint, by looking at (b) you can save yourself a lot of work!)       We know from the conversion factor from degrees to radians that an angle of corresponds to an angle measuring radians, corresponds to radians, and corresponds to radians. Use parts (a) - (c) to label the coordinate points with the exact values of and on the three triangles below.     "
-},
-{
-  "id": "activities-17-9-1-1",
-  "level": "2",
-  "url": "activities-17.html#activities-17-9-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "terminal points. "
-},
-{
-  "id": "activities-17-11",
-  "level": "2",
-  "url": "activities-17.html#activities-17-11",
-  "type": "Activity",
-  "number": "64",
-  "title": "Activity 2.2.4 Non-unit circles.",
-  "body": " Activity 2.2.4 Non-unit circles   In a circle of radius , each point of the unit circle is a distance further away from the origin. So on the unit circle would correspond to , and so on. That is, each terminal point on the unit circle corresponds to the same point, except each coordinate is multiplied by the new radius . Find the following values or points on the non-unit circles below exactly.     In a circle of radius , the arc length intercepted by a central angle of .      In a circle of radius , the central angle measure that intercepts an arc of length .      The radius of the circle in which an angle of intercepts an arc of length .      The exact coordinates of the point on the circle of radius that lies units counterclockwise along the circle from .    "
+  "title": "S2.1 Activity: Tables, Graphs, and Notes",
+  "body": " S2.1 Activity: Tables, Graphs, and Notes  Circumference:  Radius:  Center:    Fraction of circle  distance around (d)  height of point (h)    0      1\/8      1\/4      3\/8      1\/2      5\/8      3\/4      7\/8      1      9\/8      3\/2       A blank plot.          Notes  "
 },
 {
   "id": "activities-18",
@@ -780,53 +726,71 @@ var ptx_lunr_docs = [
   "url": "activities-18.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 2.3: The Sine and Cosine Functions",
-  "body": " Section 2.3: The Sine and Cosine Functions   Definition 2.3.4   Given a central angle in the unit circle with angle radians and the terminal point , as shown to the right, we define the sine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !    A table of values and a graph of the function are below.      Definition 2.3.8.   Given a central angle in the unit circle that measures radians and the terminal point , as shown to the right, we define the cosine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !      Activity 2.3.2. The cosine function   Let be the function that tracks the -coordinate of a point traversing the unit circle counterclockwise from . That is, . Use the information we know about the unit circle to respond to the following questions.     What is the exact value of ? of ? ?      Complete the following table with the exact values of that correspond to the stated inputs .       On the axes provided below, sketch an accurate graph of . Label the exact location of several key points on the curve.       What is the exact value of ? of ?      Give four different values of for which .      How is the graph of different from the graph of ? How are the graphs similar?     Recall that the sine and cosine functions are just tracking the and -coordinates as we move around the unit circle. See gvsu.edu\/s\/0xe and click on sine or cosine for an animation.   Properties of the sine and cosine functions  For both and :    the domain is all real numbers  the range is  the midline is  the amplitude is  the period is      The Fundamental Trigonometric Identity  For any real number ,    Activity 2.3.3   Use the graph below that shows both and on the same plot to help answer the following questions.      Give an example of the largest interval you can find on which is decreasing.      Give an example of the largest interval you can find on which is decreasing and concave down.      Give an example of the largest interval you can find on which is increasing.      Give an example of the largest interval you can find on which is increasing and concave up.      Without doing any computation, on which interval is the average rate of change of greater: or ? Why?      In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?      Thinking from the perspective of the unit circle, for which quadrants of the - plane is negative for an angle that lies in that quadrant?      Activity 2.2.4 Going between   Note that almost all computing devices can evaluate and for different values of , but we need to be careful to tell it whether we are in degrees or radians! In desmos, the option to choose is within the wrench at the top right of the page. Being aware of that, find the exact values whenever possible, otherwise round to at least 4 decimal places below.     The -coordinate of the point on the unit circle that lies in the third quadrant and whose -coordinate is .      The -coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive -axis that measures radians.      The -coordinate of the point on the unit circle generated by a central angle with one side on the positive -axis that measures radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive -axis.)      The value of where is an angle in Quadrant II that satisfies .      The value of where is an angle in Quadrant III for which .      The average rate of change of on the intervals and .      The average rate of change of on the intervals and .     "
+  "title": "Section 2.2: The Unit Circle",
+  "body": " Section 2.2: The Unit Circle    The unit circle is a circle of radius that is centered at the origin, . A point on the circle has some coordinates , and we can form a triangle with the -axis where the horizontal leg has length , the vertical leg has length , and the hypotenuse (the radius of the circle) is length 1. Pythagorean Theorem then tells us that This means we can determine some coordinates nicely.    Activity 2.2.1     We start at the right side of the circle and travel around it counter-clockwise. Label that point .  The circumference of the circle is , so halfway around the circle is . Label that point .  Similarly, we can divide the circumference ( ) nicely into 24 pieces, each with a length of around the edge of the circle. Fill them in (simplify the fractions as much as possible, so , , \\ldots.)        Definition 2.2.5.   An angle whose vertex is at the center of a circle measures 1 radian provided the arc the angle intercepts on the circle equals the radius of the circle.    Which just means: the distance along the edge of the circle is the as the angle between the axis and the point on the circle! (This is why we use radians...)   Converting between radians and degrees  radian  .    radians.    Activity 2.2.2. Converting between radians and degrees   Convert each of the following quantities to the alternative measure: degrees to radians or radians to degrees.          radians      radians                radians      Activity 2.2.3 Special points on the unit circle   In what follows, we work to understand key relationships in and right triangles. (This will help us find exact coordinates on the unit circle.)      For the triangle with legs of length and and hypotenuse of length 1, because the triangle is an isosceles triangle, what is the relationship between and ? Use this fact to simplify the Pythagorean Theorem - what are the exact values of and ? (Exact means leave 's or square roots or fractions in your answer so you do not round!)      Now consider the triangle with hypotenuse of length 1 and the longer leg (of length ) lying along the positive -axis. Reflect this triangle across the -axis, what special triangle is formed (look at the angles)? Can we use this to find the exact length of ? Once we have , go back and find the exact value of using .      Note we can take the same and flip it so corresponds to the smaller, horizontal leg. What are the and values in this case? (Hint, by looking at (b) you can save yourself a lot of work!)       We know from the conversion factor from degrees to radians that an angle of corresponds to an angle measuring radians, corresponds to radians, and corresponds to radians. Use parts (a) - (c) to label the coordinate points with the exact values of and on the three triangles below.        The coordinates are called terminal points.  The far right of the circle we know is terminal point because the radius is 1 and we are on the -axis. Since we start on the far right of the circle, that corresponds to angle . Similarly the point at the top of the circle is the terminal point , corresponding to . Fill in those points to the right. Then use the previous activity (and symmetry of the coordinates) to fill in the other points on the unit circle to the right. We have 16 specials points total whose location we can determine exactly!      Connecting arc length and angles in non-unit circles  In a circle of radius , a central angle measuring radians intercepts an arc of the circle, and the arc has length where    Activity 2.2.4 Non-unit circles   In a circle of radius , each point of the unit circle is a distance further away from the origin. So on the unit circle would correspond to , and so on. That is, each terminal point on the unit circle corresponds to the same point, except each coordinate is multiplied by the new radius . Find the following values or points on the non-unit circles below exactly.     In a circle of radius , the arc length intercepted by a central angle of .      In a circle of radius , the central angle measure that intercepts an arc of length .      The radius of the circle in which an angle of intercepts an arc of length .      The exact coordinates of the point on the circle of radius that lies units counterclockwise along the circle from .     "
 },
 {
-  "id": "activities-18-2",
+  "id": "activities-18-2-2",
   "level": "2",
-  "url": "activities-18.html#activities-18-2",
+  "url": "activities-18.html#activities-18-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "unit circle "
+},
+{
+  "id": "activities-18-3",
+  "level": "2",
+  "url": "activities-18.html#activities-18-3",
+  "type": "Activity",
+  "number": "61",
+  "title": "Activity 2.2.1.",
+  "body": " Activity 2.2.1     We start at the right side of the circle and travel around it counter-clockwise. Label that point .  The circumference of the circle is , so halfway around the circle is . Label that point .  Similarly, we can divide the circumference ( ) nicely into 24 pieces, each with a length of around the edge of the circle. Fill them in (simplify the fractions as much as possible, so , , \\ldots.)      "
+},
+{
+  "id": "activities-18-4",
+  "level": "2",
+  "url": "activities-18.html#activities-18-4",
   "type": "Definition",
-  "number": "65",
-  "title": "Definition 2.3.4.",
-  "body": " Definition 2.3.4   Given a central angle in the unit circle with angle radians and the terminal point , as shown to the right, we define the sine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !   "
+  "number": "62",
+  "title": "Definition 2.2.5..",
+  "body": " Definition 2.2.5.   An angle whose vertex is at the center of a circle measures 1 radian provided the arc the angle intercepts on the circle equals the radius of the circle.   "
 },
 {
   "id": "activities-18-7",
   "level": "2",
   "url": "activities-18.html#activities-18-7",
-  "type": "Definition",
-  "number": "66",
-  "title": "Definition 2.3.8..",
-  "body": " Definition 2.3.8.   Given a central angle in the unit circle that measures radians and the terminal point , as shown to the right, we define the cosine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !   "
+  "type": "Activity",
+  "number": "63",
+  "title": "Activity 2.2.2. Converting between radians and degrees.",
+  "body": " Activity 2.2.2. Converting between radians and degrees   Convert each of the following quantities to the alternative measure: degrees to radians or radians to degrees.          radians      radians                radians    "
 },
 {
-  "id": "activities-18-9",
+  "id": "activities-18-8",
   "level": "2",
-  "url": "activities-18.html#activities-18-9",
+  "url": "activities-18.html#activities-18-8",
   "type": "Activity",
-  "number": "67",
-  "title": "Activity 2.3.2. The cosine function.",
-  "body": " Activity 2.3.2. The cosine function   Let be the function that tracks the -coordinate of a point traversing the unit circle counterclockwise from . That is, . Use the information we know about the unit circle to respond to the following questions.     What is the exact value of ? of ? ?      Complete the following table with the exact values of that correspond to the stated inputs .       On the axes provided below, sketch an accurate graph of . Label the exact location of several key points on the curve.       What is the exact value of ? of ?      Give four different values of for which .      How is the graph of different from the graph of ? How are the graphs similar?    "
+  "number": "64",
+  "title": "Activity 2.2.3 Special points on the unit circle.",
+  "body": " Activity 2.2.3 Special points on the unit circle   In what follows, we work to understand key relationships in and right triangles. (This will help us find exact coordinates on the unit circle.)      For the triangle with legs of length and and hypotenuse of length 1, because the triangle is an isosceles triangle, what is the relationship between and ? Use this fact to simplify the Pythagorean Theorem - what are the exact values of and ? (Exact means leave 's or square roots or fractions in your answer so you do not round!)      Now consider the triangle with hypotenuse of length 1 and the longer leg (of length ) lying along the positive -axis. Reflect this triangle across the -axis, what special triangle is formed (look at the angles)? Can we use this to find the exact length of ? Once we have , go back and find the exact value of using .      Note we can take the same and flip it so corresponds to the smaller, horizontal leg. What are the and values in this case? (Hint, by looking at (b) you can save yourself a lot of work!)       We know from the conversion factor from degrees to radians that an angle of corresponds to an angle measuring radians, corresponds to radians, and corresponds to radians. Use parts (a) - (c) to label the coordinate points with the exact values of and on the three triangles below.     "
 },
 {
-  "id": "activities-18-13",
+  "id": "activities-18-9-1-1",
   "level": "2",
-  "url": "activities-18.html#activities-18-13",
-  "type": "Activity",
-  "number": "68",
-  "title": "Activity 2.3.3.",
-  "body": " Activity 2.3.3   Use the graph below that shows both and on the same plot to help answer the following questions.      Give an example of the largest interval you can find on which is decreasing.      Give an example of the largest interval you can find on which is decreasing and concave down.      Give an example of the largest interval you can find on which is increasing.      Give an example of the largest interval you can find on which is increasing and concave up.      Without doing any computation, on which interval is the average rate of change of greater: or ? Why?      In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?      Thinking from the perspective of the unit circle, for which quadrants of the - plane is negative for an angle that lies in that quadrant?    "
+  "url": "activities-18.html#activities-18-9-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "terminal points. "
 },
 {
-  "id": "activities-18-14",
+  "id": "activities-18-11",
   "level": "2",
-  "url": "activities-18.html#activities-18-14",
+  "url": "activities-18.html#activities-18-11",
   "type": "Activity",
-  "number": "69",
-  "title": "Activity 2.2.4 Going between.",
-  "body": " Activity 2.2.4 Going between   Note that almost all computing devices can evaluate and for different values of , but we need to be careful to tell it whether we are in degrees or radians! In desmos, the option to choose is within the wrench at the top right of the page. Being aware of that, find the exact values whenever possible, otherwise round to at least 4 decimal places below.     The -coordinate of the point on the unit circle that lies in the third quadrant and whose -coordinate is .      The -coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive -axis that measures radians.      The -coordinate of the point on the unit circle generated by a central angle with one side on the positive -axis that measures radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive -axis.)      The value of where is an angle in Quadrant II that satisfies .      The value of where is an angle in Quadrant III for which .      The average rate of change of on the intervals and .      The average rate of change of on the intervals and .    "
+  "number": "65",
+  "title": "Activity 2.2.4 Non-unit circles.",
+  "body": " Activity 2.2.4 Non-unit circles   In a circle of radius , each point of the unit circle is a distance further away from the origin. So on the unit circle would correspond to , and so on. That is, each terminal point on the unit circle corresponds to the same point, except each coordinate is multiplied by the new radius . Find the following values or points on the non-unit circles below exactly.     In a circle of radius , the arc length intercepted by a central angle of .      In a circle of radius , the central angle measure that intercepts an arc of length .      The radius of the circle in which an angle of intercepts an arc of length .      The exact coordinates of the point on the circle of radius that lies units counterclockwise along the circle from .    "
 },
 {
   "id": "activities-19",
@@ -834,71 +798,53 @@ var ptx_lunr_docs = [
   "url": "activities-19.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 2.4: Sinusoidal Functions",
-  "body": " Section 2.4: Sinusoidal Functions  Recall transformations of a function , make sure you know what and do to below:  For the normal standard functions and , both are circular functions with the same values:    midline:  amplitude:  period:  range:    The starting point is where the normal and functions start at .    starting point for :  starting point for :     Transformations of sine and cosine  The real numbers , , and with , we transform and by:    horizontal shift by units to the right (if ),  then a vertical stretch by units (if , we also reflect across the -axis),  then by a vertical shift of units.    The resulting circular functions have    midline ,  amplitude ,  range ,  and period .  The point lies on the graph of and the point on .     The anchor point is where the starting point of the standard and functions shift under these transformations.    the anchor point for (the shifted ) is:  the anchor point for (the shifted ) is:     Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, \\ldots) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.  Horizontal Scaling  A horizontal scaling of is , where is a positive, real number.     Horizontal scaling  Given a function and a real number , is a horizontal stretch of the graph of , that is we multiply the coordinate by .  The point then stretches to the point .  If , the graph of is a stretch of away from the -axis by a factor of ; if , the graph of is a compression of toward the -axis by a factor of .  The only point on the graph of that is unchanged by the transformation is .    Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).      On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.       Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?      The period of a circular function  For any constant , the period of the functions and is    Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos, and then use the program to check your work.                             If we are given the period of a sine or cosine function, we can rearrange the equation for the period to solve for the . Do so; what is equal to in terms of the period ?  This will help us build a circular function, see the next activity.   Activity 2.4.5   Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let denote the distance from the ceiling to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet, with a period of , and you know and .  State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for in the form or . Show your work and thinking, and use Desmos appropriately to check that your formula generates the desired behavior.    "
+  "title": "Section 2.3: The Sine and Cosine Functions",
+  "body": " Section 2.3: The Sine and Cosine Functions   Definition 2.3.4   Given a central angle in the unit circle with angle radians and the terminal point , as shown to the right, we define the sine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !    A table of values and a graph of the function are below.      Definition 2.3.8.   Given a central angle in the unit circle that measures radians and the terminal point , as shown to the right, we define the cosine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !      Activity 2.3.2. The cosine function   Let be the function that tracks the -coordinate of a point traversing the unit circle counterclockwise from . That is, . Use the information we know about the unit circle to respond to the following questions.     What is the exact value of ? of ? ?      Complete the following table with the exact values of that correspond to the stated inputs .       On the axes provided below, sketch an accurate graph of . Label the exact location of several key points on the curve.       What is the exact value of ? of ?      Give four different values of for which .      How is the graph of different from the graph of ? How are the graphs similar?     Recall that the sine and cosine functions are just tracking the and -coordinates as we move around the unit circle. See gvsu.edu\/s\/0xe and click on sine or cosine for an animation.   Properties of the sine and cosine functions  For both and :    the domain is all real numbers  the range is  the midline is  the amplitude is  the period is      The Fundamental Trigonometric Identity  For any real number ,    Activity 2.3.3   Use the graph below that shows both and on the same plot to help answer the following questions.      Give an example of the largest interval you can find on which is decreasing.      Give an example of the largest interval you can find on which is decreasing and concave down.      Give an example of the largest interval you can find on which is increasing.      Give an example of the largest interval you can find on which is increasing and concave up.      Without doing any computation, on which interval is the average rate of change of greater: or ? Why?      In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?      Thinking from the perspective of the unit circle, for which quadrants of the - plane is negative for an angle that lies in that quadrant?      Activity 2.2.4 Going between   Note that almost all computing devices can evaluate and for different values of , but we need to be careful to tell it whether we are in degrees or radians! In desmos, the option to choose is within the wrench at the top right of the page. Being aware of that, find the exact values whenever possible, otherwise round to at least 4 decimal places below.     The -coordinate of the point on the unit circle that lies in the third quadrant and whose -coordinate is .      The -coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive -axis that measures radians.      The -coordinate of the point on the unit circle generated by a central angle with one side on the positive -axis that measures radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive -axis.)      The value of where is an angle in Quadrant II that satisfies .      The value of where is an angle in Quadrant III for which .      The average rate of change of on the intervals and .      The average rate of change of on the intervals and .     "
 },
 {
-  "id": "activities-19-8",
+  "id": "activities-19-2",
   "level": "2",
-  "url": "activities-19.html#activities-19-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "anchor point "
+  "url": "activities-19.html#activities-19-2",
+  "type": "Definition",
+  "number": "66",
+  "title": "Definition 2.3.4.",
+  "body": " Definition 2.3.4   Given a central angle in the unit circle with angle radians and the terminal point , as shown to the right, we define the sine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !   "
+},
+{
+  "id": "activities-19-7",
+  "level": "2",
+  "url": "activities-19.html#activities-19-7",
+  "type": "Definition",
+  "number": "67",
+  "title": "Definition 2.3.8..",
+  "body": " Definition 2.3.8.   Given a central angle in the unit circle that measures radians and the terminal point , as shown to the right, we define the cosine of , denoted , by the rule That is, the -coordinate on the unit circle IS the !   "
 },
 {
   "id": "activities-19-9",
   "level": "2",
   "url": "activities-19.html#activities-19-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "anchor point anchor point "
-},
-{
-  "id": "activities-19-10",
-  "level": "2",
-  "url": "activities-19.html#activities-19-10",
   "type": "Activity",
-  "number": "70",
-  "title": "Activity 2.4.2.",
-  "body": " Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, \\ldots) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.  Horizontal Scaling  A horizontal scaling of is , where is a positive, real number.   "
+  "number": "68",
+  "title": "Activity 2.3.2. The cosine function.",
+  "body": " Activity 2.3.2. The cosine function   Let be the function that tracks the -coordinate of a point traversing the unit circle counterclockwise from . That is, . Use the information we know about the unit circle to respond to the following questions.     What is the exact value of ? of ? ?      Complete the following table with the exact values of that correspond to the stated inputs .       On the axes provided below, sketch an accurate graph of . Label the exact location of several key points on the curve.       What is the exact value of ? of ?      Give four different values of for which .      How is the graph of different from the graph of ? How are the graphs similar?    "
 },
 {
-  "id": "activities-19-11-2",
+  "id": "activities-19-13",
   "level": "2",
-  "url": "activities-19.html#activities-19-11-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "horizontal stretch "
-},
-{
-  "id": "activities-19-12",
-  "level": "2",
-  "url": "activities-19.html#activities-19-12",
+  "url": "activities-19.html#activities-19-13",
   "type": "Activity",
-  "number": "71",
-  "title": "Activity 2.4.3.",
-  "body": " Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).      On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.       Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?    "
+  "number": "69",
+  "title": "Activity 2.3.3.",
+  "body": " Activity 2.3.3   Use the graph below that shows both and on the same plot to help answer the following questions.      Give an example of the largest interval you can find on which is decreasing.      Give an example of the largest interval you can find on which is decreasing and concave down.      Give an example of the largest interval you can find on which is increasing.      Give an example of the largest interval you can find on which is increasing and concave up.      Without doing any computation, on which interval is the average rate of change of greater: or ? Why?      In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?      Thinking from the perspective of the unit circle, for which quadrants of the - plane is negative for an angle that lies in that quadrant?    "
 },
 {
   "id": "activities-19-14",
   "level": "2",
   "url": "activities-19.html#activities-19-14",
   "type": "Activity",
-  "number": "72",
-  "title": "Activity 2.4.4.",
-  "body": " Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos, and then use the program to check your work.                            "
-},
-{
-  "id": "activities-19-17",
-  "level": "2",
-  "url": "activities-19.html#activities-19-17",
-  "type": "Activity",
-  "number": "73",
-  "title": "Activity 2.4.5.",
-  "body": " Activity 2.4.5   Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let denote the distance from the ceiling to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet, with a period of , and you know and .  State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for in the form or . Show your work and thinking, and use Desmos appropriately to check that your formula generates the desired behavior.   "
+  "number": "70",
+  "title": "Activity 2.2.4 Going between.",
+  "body": " Activity 2.2.4 Going between   Note that almost all computing devices can evaluate and for different values of , but we need to be careful to tell it whether we are in degrees or radians! In desmos, the option to choose is within the wrench at the top right of the page. Being aware of that, find the exact values whenever possible, otherwise round to at least 4 decimal places below.     The -coordinate of the point on the unit circle that lies in the third quadrant and whose -coordinate is .      The -coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive -axis that measures radians.      The -coordinate of the point on the unit circle generated by a central angle with one side on the positive -axis that measures radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive -axis.)      The value of where is an angle in Quadrant II that satisfies .      The value of where is an angle in Quadrant III for which .      The average rate of change of on the intervals and .      The average rate of change of on the intervals and .    "
 },
 {
   "id": "activities-20",
@@ -906,44 +852,8 @@ var ptx_lunr_docs = [
   "url": "activities-20.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 3.1: Exponential Functions <span class=\"process-math\">\\(f(t)=ab^t\\)<\/span>",
-  "body": " Section 3.1: Exponential Functions   Definition 3.1.2   Let be a real number such that and . We call the function defined by an exponential function with base  . ** So is a vertical stretch of . **    Important!  for ANY . We call the growth factor . If , we call the growth rate .  If , we call  exponential growth. If we call it exponential decay.   Activity 3.1.2   In Desmos, define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions and provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?      All you need to find the formula of an exponential function is two points!   Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is 12500 \\ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than 1000$.      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth 1000$.      Which model do you think is more realistic? Why?     Notice below we have two exponential functions. On the left we have exponential growth ( ), and on the right we have exponential decay ( ). The exponential growth model corresponds to an increasing function, while exponential decay corresponds to a decreasing function. BUT EACH bends upwards always, and therefore each is concave up .    Trends in exponential function behavior  For an exponential function of the form where and are both positive with ,    if , then is always increasing and always increases at an increasing rate;  if , then is always decreasing and always decreases at an increasing rate.      Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph.     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.     "
-},
-{
-  "id": "activities-20-2",
-  "level": "2",
-  "url": "activities-20.html#activities-20-2",
-  "type": "Definition",
-  "number": "74",
-  "title": "Definition 3.1.2.",
-  "body": " Definition 3.1.2   Let be a real number such that and . We call the function defined by an exponential function with base  . ** So is a vertical stretch of . **   "
-},
-{
-  "id": "activities-20-3",
-  "level": "2",
-  "url": "activities-20.html#activities-20-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "growth factor growth rate "
-},
-{
-  "id": "activities-20-5",
-  "level": "2",
-  "url": "activities-20.html#activities-20-5",
-  "type": "Activity",
-  "number": "75",
-  "title": "Activity 3.1.2.",
-  "body": " Activity 3.1.2   In Desmos, define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions and provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?     "
-},
-{
-  "id": "activities-20-7",
-  "level": "2",
-  "url": "activities-20.html#activities-20-7",
-  "type": "Activity",
-  "number": "76",
-  "title": "Activity 3.1.3. Finding Formulas.",
-  "body": " Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is 12500 \\ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than 1000$.      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth 1000$.      Which model do you think is more realistic? Why?    "
+  "title": "Section 2.4: Sinusoidal Functions",
+  "body": " Section 2.4: Sinusoidal Functions  Recall transformations of a function , make sure you know what and do to below:  For the normal standard functions and , both are circular functions with the same values:    midline:  amplitude:  period:  range:    The starting point is where the normal and functions start at .    starting point for :  starting point for :     Transformations of sine and cosine  The real numbers , , and with , we transform and by:    horizontal shift by units to the right (if ),  then a vertical stretch by units (if , we also reflect across the -axis),  then by a vertical shift of units.    The resulting circular functions have    midline ,  amplitude ,  range ,  and period .  The point lies on the graph of and the point on .     The anchor point is where the starting point of the standard and functions shift under these transformations.    the anchor point for (the shifted ) is:  the anchor point for (the shifted ) is:     Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, \\ldots) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.  Horizontal Scaling  A horizontal scaling of is , where is a positive, real number.     Horizontal scaling  Given a function and a real number , is a horizontal stretch of the graph of , that is we multiply the coordinate by .  The point then stretches to the point .  If , the graph of is a stretch of away from the -axis by a factor of ; if , the graph of is a compression of toward the -axis by a factor of .  The only point on the graph of that is unchanged by the transformation is .    Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).      On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.       Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?      The period of a circular function  For any constant , the period of the functions and is    Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos, and then use the program to check your work.                             If we are given the period of a sine or cosine function, we can rearrange the equation for the period to solve for the . Do so; what is equal to in terms of the period ?  This will help us build a circular function, see the next activity.   Activity 2.4.5   Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let denote the distance from the ceiling to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet, with a period of , and you know and .  State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for in the form or . Show your work and thinking, and use Desmos appropriately to check that your formula generates the desired behavior.    "
 },
 {
   "id": "activities-20-8",
@@ -952,16 +862,61 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "concave up "
+  "body": "anchor point "
 },
 {
-  "id": "activities-20-11",
+  "id": "activities-20-9",
   "level": "2",
-  "url": "activities-20.html#activities-20-11",
+  "url": "activities-20.html#activities-20-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "anchor point anchor point "
+},
+{
+  "id": "activities-20-10",
+  "level": "2",
+  "url": "activities-20.html#activities-20-10",
   "type": "Activity",
-  "number": "77",
-  "title": "Activity 3.1.4.",
-  "body": " Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph.     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.    "
+  "number": "71",
+  "title": "Activity 2.4.2.",
+  "body": " Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, \\ldots) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.  Horizontal Scaling  A horizontal scaling of is , where is a positive, real number.   "
+},
+{
+  "id": "activities-20-11-2",
+  "level": "2",
+  "url": "activities-20.html#activities-20-11-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "horizontal stretch "
+},
+{
+  "id": "activities-20-12",
+  "level": "2",
+  "url": "activities-20.html#activities-20-12",
+  "type": "Activity",
+  "number": "72",
+  "title": "Activity 2.4.3.",
+  "body": " Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).      On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.       Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?    "
+},
+{
+  "id": "activities-20-14",
+  "level": "2",
+  "url": "activities-20.html#activities-20-14",
+  "type": "Activity",
+  "number": "73",
+  "title": "Activity 2.4.4.",
+  "body": " Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos, and then use the program to check your work.                            "
+},
+{
+  "id": "activities-20-17",
+  "level": "2",
+  "url": "activities-20.html#activities-20-17",
+  "type": "Activity",
+  "number": "74",
+  "title": "Activity 2.4.5.",
+  "body": " Activity 2.4.5   Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let denote the distance from the ceiling to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet, with a period of , and you know and .  State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for in the form or . Show your work and thinking, and use Desmos appropriately to check that your formula generates the desired behavior.   "
 },
 {
   "id": "activities-21",
@@ -969,35 +924,62 @@ var ptx_lunr_docs = [
   "url": "activities-21.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 3.2: Modeling with Exponential Functions",
-  "body": " Section 3.2: Modeling with Exponential Functions   Long-term behavior of exponential functions  Let with and .    If , (exponential decay), then as , “ tends to as increases without bound.”  If , (exponential growth), then as , “ increases without bound as increases without bound.”       Consider . Note that with a little fraction knowledge we can write . So and are reflections of each other across the axis, as seen to the left. This is true for any positive : and are reflections of each other in this way.    Behavior of vertically shifted exponential functions  Let with , and , and any real number.    If , (exponential decay):  If , (exponential growth):    - As ,  - As ,    - is always decreasing,  - is always increasing    - is always concave up,  - is always concave up    - has -intercept  - has -intercept    - Range: all real numbers greater than .  - Range: all real numbers greater than      Activity 3.2.2   For each of the following functions, without using graphing technology, determine whether the function is:    always increasing or always decreasing;  always concave up or always concave down; and  increasing without bound, decreasing without bound, or increasing\/decreasing toward a finite value.  In addition, state the -intercept and the range of the function.  Sketch a rough graph of how the function appears.                                     Activity 3.2.3. Modeling Temperature with Data   A can of soda (at room temperature) is placed in a refrigerator at time (in minutes) and its temperature, , in degrees Fahrenheit, is computed at regular intervals. Based on the data, a model is formulated for the object’s temperature, given by     Consider the simpler (parent) function . How do you expect the graph of this function to appear? How will it behave as time increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      For the slightly more complicated function , how do you expect this function to look in comparison to ? What is the long-range behavior of this function as increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      Finally, how do you expect the graph of to appear? Why? First sketch a rough graph without graphing technology, and then use technology to check your thinking and report an accurate, labeled graph on the axes provided in the figure below.       What is the temperature of the refrigerator? What is the room temperature of the surroundings outside the refrigerator? Why?      (Skip unless time:) Determine the average rate of change of on the intervals , , and . Write at least two careful sentences that explain the meaning of the values you found, including units, and discuss any overall trend in how the average rate of change is changing.      Activity 3.2.4   A potato initially at room temperature ( ) is placed in an oven (at ) at time . It is known that the potato’s temperature at time is given by the function for some positive constants and , where is measured in degrees Fahrenheit and is time in minutes.     What is the numerical value of ? What does this tell you about the value of ?      Based on the context of the problem, what should be the long-range behavior of the function ? Use this fact along with the behavior of to determine the value of . Write a sentence to explain your thinking.      What is the value of ? Why?      Check your work above by plotting the function using graphing technology in an appropriate window. Record your results on the axes provided below, labeling the scale on the axes. Then, use the graph to estimate the time at which the potato’s temperature reaches degrees.       How can we view the function as a transformation of the parent function ? Explain.     "
+  "title": "Section 3.1: Exponential Functions <span class=\"process-math\">\\(f(t)=ab^t\\)<\/span>",
+  "body": " Section 3.1: Exponential Functions   Definition 3.1.2   Let be a real number such that and . We call the function defined by an exponential function with base  . ** So is a vertical stretch of . **    Important!  for ANY . We call the growth factor . If , we call the growth rate .  If , we call  exponential growth. If we call it exponential decay.   Activity 3.1.2   In Desmos, define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions and provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?      All you need to find the formula of an exponential function is two points!   Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is 12500 \\ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than 1000$.      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth 1000$.      Which model do you think is more realistic? Why?     Notice below we have two exponential functions. On the left we have exponential growth ( ), and on the right we have exponential decay ( ). The exponential growth model corresponds to an increasing function, while exponential decay corresponds to a decreasing function. BUT EACH bends upwards always, and therefore each is concave up .    Trends in exponential function behavior  For an exponential function of the form where and are both positive with ,    if , then is always increasing and always increases at an increasing rate;  if , then is always decreasing and always decreases at an increasing rate.      Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph.     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.     "
+},
+{
+  "id": "activities-21-2",
+  "level": "2",
+  "url": "activities-21.html#activities-21-2",
+  "type": "Definition",
+  "number": "75",
+  "title": "Definition 3.1.2.",
+  "body": " Definition 3.1.2   Let be a real number such that and . We call the function defined by an exponential function with base  . ** So is a vertical stretch of . **   "
+},
+{
+  "id": "activities-21-3",
+  "level": "2",
+  "url": "activities-21.html#activities-21-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "growth factor growth rate "
 },
 {
   "id": "activities-21-5",
   "level": "2",
   "url": "activities-21.html#activities-21-5",
   "type": "Activity",
-  "number": "78",
-  "title": "Activity 3.2.2.",
-  "body": " Activity 3.2.2   For each of the following functions, without using graphing technology, determine whether the function is:    always increasing or always decreasing;  always concave up or always concave down; and  increasing without bound, decreasing without bound, or increasing\/decreasing toward a finite value.  In addition, state the -intercept and the range of the function.  Sketch a rough graph of how the function appears.                                   "
-},
-{
-  "id": "activities-21-6",
-  "level": "2",
-  "url": "activities-21.html#activities-21-6",
-  "type": "Activity",
-  "number": "79",
-  "title": "Activity 3.2.3. Modeling Temperature with Data.",
-  "body": " Activity 3.2.3. Modeling Temperature with Data   A can of soda (at room temperature) is placed in a refrigerator at time (in minutes) and its temperature, , in degrees Fahrenheit, is computed at regular intervals. Based on the data, a model is formulated for the object’s temperature, given by     Consider the simpler (parent) function . How do you expect the graph of this function to appear? How will it behave as time increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      For the slightly more complicated function , how do you expect this function to look in comparison to ? What is the long-range behavior of this function as increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      Finally, how do you expect the graph of to appear? Why? First sketch a rough graph without graphing technology, and then use technology to check your thinking and report an accurate, labeled graph on the axes provided in the figure below.       What is the temperature of the refrigerator? What is the room temperature of the surroundings outside the refrigerator? Why?      (Skip unless time:) Determine the average rate of change of on the intervals , , and . Write at least two careful sentences that explain the meaning of the values you found, including units, and discuss any overall trend in how the average rate of change is changing.    "
+  "number": "76",
+  "title": "Activity 3.1.2.",
+  "body": " Activity 3.1.2   In Desmos, define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions and provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?     "
 },
 {
   "id": "activities-21-7",
   "level": "2",
   "url": "activities-21.html#activities-21-7",
   "type": "Activity",
-  "number": "80",
-  "title": "Activity 3.2.4.",
-  "body": " Activity 3.2.4   A potato initially at room temperature ( ) is placed in an oven (at ) at time . It is known that the potato’s temperature at time is given by the function for some positive constants and , where is measured in degrees Fahrenheit and is time in minutes.     What is the numerical value of ? What does this tell you about the value of ?      Based on the context of the problem, what should be the long-range behavior of the function ? Use this fact along with the behavior of to determine the value of . Write a sentence to explain your thinking.      What is the value of ? Why?      Check your work above by plotting the function using graphing technology in an appropriate window. Record your results on the axes provided below, labeling the scale on the axes. Then, use the graph to estimate the time at which the potato’s temperature reaches degrees.       How can we view the function as a transformation of the parent function ? Explain.    "
+  "number": "77",
+  "title": "Activity 3.1.3. Finding Formulas.",
+  "body": " Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is 12500 \\ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than 1000$.      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth 1000$.      Which model do you think is more realistic? Why?    "
+},
+{
+  "id": "activities-21-8",
+  "level": "2",
+  "url": "activities-21.html#activities-21-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "concave up "
+},
+{
+  "id": "activities-21-11",
+  "level": "2",
+  "url": "activities-21.html#activities-21-11",
+  "type": "Activity",
+  "number": "78",
+  "title": "Activity 3.1.4.",
+  "body": " Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph.     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.    "
 },
 {
   "id": "activities-22",
@@ -1005,35 +987,35 @@ var ptx_lunr_docs = [
   "url": "activities-22.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 3.3: The Special Number <span class=\"process-math\">\\(e\\)<\/span>",
-  "body": " Section 3.3: The Special Number  For any base , we can find some so that  Base is arbitrary! So instead we use .  The function is unique! Why?  What is ?   Definition 3.3.2   The natural base, . The number is the infinite sum It's an irrational number very similar to , and it is approximately      Since and , we expect to be between and for both positive and negative values of . We can see that from the table below, as well as the graph to the right.    t  -2  -1  0  1  2    2^t  0.25  0.5  1  2  4    \\rightarrow e^t  0.135  0.368  1  2.718  7.389 \\leftarrow    3^t  0.111  0.333  1  3  9       For any , we can write it as a scaling of : So there must be a such that How to find it?   Example:   Recall  Average rate of change of on is  **New perspective:** Start with , take a small distance , and look at :    Activity 3.3.2   We'll use the formula above to explore the average rate of change of near and . In a new Desmos worksheet, define (type it in exactly like that). Then in a new cell, type the following:     What is the approximate value of ?      What is the meaning of in terms of the function and its graph?      Compute the value of for at least different small values of , both positive and negative. For instance, one value to try might be , another , a third , and maybe three negative 's. (Use Desmos! Type and so on). Record a table of your results.      What do you notice about the values you found in (b)? How do they compare to an important number? What is ?      Explain why the following sentence makes sense: “The function is increasing at an average rate that is about the same as its value on small intervals near .”      What is the approximate value of ?      Adjust your definition of in Desmos by changing to so that How does the value of compare to for small values of ?      Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                               Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?  (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake    1  10^1 = 10    2  10^2 = 100    2.2  10^2.2 \\approx 158.489    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?  While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake    1  31.6^1 = 31.6    2  31.6^2 = 998.56    2.2  31.6^2.2 \\approx 1992.102    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?     "
+  "title": "Section 3.2: Modeling with Exponential Functions",
+  "body": " Section 3.2: Modeling with Exponential Functions   Long-term behavior of exponential functions  Let with and .    If , (exponential decay), then as , “ tends to as increases without bound.”  If , (exponential growth), then as , “ increases without bound as increases without bound.”       Consider . Note that with a little fraction knowledge we can write . So and are reflections of each other across the axis, as seen to the left. This is true for any positive : and are reflections of each other in this way.    Behavior of vertically shifted exponential functions  Let with , and , and any real number.    If , (exponential decay):  If , (exponential growth):    - As ,  - As ,    - is always decreasing,  - is always increasing    - is always concave up,  - is always concave up    - has -intercept  - has -intercept    - Range: all real numbers greater than .  - Range: all real numbers greater than      Activity 3.2.2   For each of the following functions, without using graphing technology, determine whether the function is:    always increasing or always decreasing;  always concave up or always concave down; and  increasing without bound, decreasing without bound, or increasing\/decreasing toward a finite value.  In addition, state the -intercept and the range of the function.  Sketch a rough graph of how the function appears.                                     Activity 3.2.3. Modeling Temperature with Data   A can of soda (at room temperature) is placed in a refrigerator at time (in minutes) and its temperature, , in degrees Fahrenheit, is computed at regular intervals. Based on the data, a model is formulated for the object’s temperature, given by     Consider the simpler (parent) function . How do you expect the graph of this function to appear? How will it behave as time increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      For the slightly more complicated function , how do you expect this function to look in comparison to ? What is the long-range behavior of this function as increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      Finally, how do you expect the graph of to appear? Why? First sketch a rough graph without graphing technology, and then use technology to check your thinking and report an accurate, labeled graph on the axes provided in the figure below.       What is the temperature of the refrigerator? What is the room temperature of the surroundings outside the refrigerator? Why?      (Skip unless time:) Determine the average rate of change of on the intervals , , and . Write at least two careful sentences that explain the meaning of the values you found, including units, and discuss any overall trend in how the average rate of change is changing.      Activity 3.2.4   A potato initially at room temperature ( ) is placed in an oven (at ) at time . It is known that the potato’s temperature at time is given by the function for some positive constants and , where is measured in degrees Fahrenheit and is time in minutes.     What is the numerical value of ? What does this tell you about the value of ?      Based on the context of the problem, what should be the long-range behavior of the function ? Use this fact along with the behavior of to determine the value of . Write a sentence to explain your thinking.      What is the value of ? Why?      Check your work above by plotting the function using graphing technology in an appropriate window. Record your results on the axes provided below, labeling the scale on the axes. Then, use the graph to estimate the time at which the potato’s temperature reaches degrees.       How can we view the function as a transformation of the parent function ? Explain.     "
+},
+{
+  "id": "activities-22-5",
+  "level": "2",
+  "url": "activities-22.html#activities-22-5",
+  "type": "Activity",
+  "number": "79",
+  "title": "Activity 3.2.2.",
+  "body": " Activity 3.2.2   For each of the following functions, without using graphing technology, determine whether the function is:    always increasing or always decreasing;  always concave up or always concave down; and  increasing without bound, decreasing without bound, or increasing\/decreasing toward a finite value.  In addition, state the -intercept and the range of the function.  Sketch a rough graph of how the function appears.                                   "
 },
 {
   "id": "activities-22-6",
   "level": "2",
   "url": "activities-22.html#activities-22-6",
-  "type": "Definition",
+  "type": "Activity",
+  "number": "80",
+  "title": "Activity 3.2.3. Modeling Temperature with Data.",
+  "body": " Activity 3.2.3. Modeling Temperature with Data   A can of soda (at room temperature) is placed in a refrigerator at time (in minutes) and its temperature, , in degrees Fahrenheit, is computed at regular intervals. Based on the data, a model is formulated for the object’s temperature, given by     Consider the simpler (parent) function . How do you expect the graph of this function to appear? How will it behave as time increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      For the slightly more complicated function , how do you expect this function to look in comparison to ? What is the long-range behavior of this function as increases? Without using graphing technology, sketch a rough graph of and write a sentence of explanation.      Finally, how do you expect the graph of to appear? Why? First sketch a rough graph without graphing technology, and then use technology to check your thinking and report an accurate, labeled graph on the axes provided in the figure below.       What is the temperature of the refrigerator? What is the room temperature of the surroundings outside the refrigerator? Why?      (Skip unless time:) Determine the average rate of change of on the intervals , , and . Write at least two careful sentences that explain the meaning of the values you found, including units, and discuss any overall trend in how the average rate of change is changing.    "
+},
+{
+  "id": "activities-22-7",
+  "level": "2",
+  "url": "activities-22.html#activities-22-7",
+  "type": "Activity",
   "number": "81",
-  "title": "Definition 3.3.2.",
-  "body": " Definition 3.3.2   The natural base, . The number is the infinite sum It's an irrational number very similar to , and it is approximately   "
-},
-{
-  "id": "activities-22-10",
-  "level": "2",
-  "url": "activities-22.html#activities-22-10",
-  "type": "Activity",
-  "number": "82",
-  "title": "Activity 3.3.2.",
-  "body": " Activity 3.3.2   We'll use the formula above to explore the average rate of change of near and . In a new Desmos worksheet, define (type it in exactly like that). Then in a new cell, type the following:     What is the approximate value of ?      What is the meaning of in terms of the function and its graph?      Compute the value of for at least different small values of , both positive and negative. For instance, one value to try might be , another , a third , and maybe three negative 's. (Use Desmos! Type and so on). Record a table of your results.      What do you notice about the values you found in (b)? How do they compare to an important number? What is ?      Explain why the following sentence makes sense: “The function is increasing at an average rate that is about the same as its value on small intervals near .”      What is the approximate value of ?      Adjust your definition of in Desmos by changing to so that How does the value of compare to for small values of ?    "
-},
-{
-  "id": "activities-22-11",
-  "level": "2",
-  "url": "activities-22.html#activities-22-11",
-  "type": "Activity",
-  "number": "83",
-  "title": "Activity 3.3.3.",
-  "body": " Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                               Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?  (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake    1  10^1 = 10    2  10^2 = 100    2.2  10^2.2 \\approx 158.489    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?  While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake    1  31.6^1 = 31.6    2  31.6^2 = 998.56    2.2  31.6^2.2 \\approx 1992.102    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?    "
+  "title": "Activity 3.2.4.",
+  "body": " Activity 3.2.4   A potato initially at room temperature ( ) is placed in an oven (at ) at time . It is known that the potato’s temperature at time is given by the function for some positive constants and , where is measured in degrees Fahrenheit and is time in minutes.     What is the numerical value of ? What does this tell you about the value of ?      Based on the context of the problem, what should be the long-range behavior of the function ? Use this fact along with the behavior of to determine the value of . Write a sentence to explain your thinking.      What is the value of ? Why?      Check your work above by plotting the function using graphing technology in an appropriate window. Record your results on the axes provided below, labeling the scale on the axes. Then, use the graph to estimate the time at which the potato’s temperature reaches degrees.       How can we view the function as a transformation of the parent function ? Explain.    "
 },
 {
   "id": "activities-23",
@@ -1041,53 +1023,35 @@ var ptx_lunr_docs = [
   "url": "activities-23.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 3.4: Logarithms",
-  "body": " Section 3.4: Logarithms   Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation `` ” to denote the base-10 logarithm of .    Fill in the following:          - Domain:  - Domain:        - Range:  - Range:        -  -        -  -         ** Note 1. ** Most calculators assume base-10, so log(y) in a calculator is the equivalent of .  ** Note 2. ** Some values of are easier to find than others. The value is an exact number (like or ), where .  Examples:   Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                                    Class Notes ** Now consider      Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote `` ” as the natural logarithm of .    ** is shorthand for Examples: , , .   Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values. Then sketch both and on the graph below.  *Values of    t  -2  -1  0  1  2    e^t  e^-2\\approx0.135        *Values of    x  e^-2\\approx0.135  e^-1\\approx 0.368  1  e^1\\approx 2.718  e^2\\approx 7.389    \\ln(x)  -2 \\         (Both plots have the first row of the table as input, the second row as output.)      Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                                         Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :      If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)     "
+  "title": "Section 3.3: The Special Number <span class=\"process-math\">\\(e\\)<\/span>",
+  "body": " Section 3.3: The Special Number  For any base , we can find some so that  Base is arbitrary! So instead we use .  The function is unique! Why?  What is ?   Definition 3.3.2   The natural base, . The number is the infinite sum It's an irrational number very similar to , and it is approximately      Since and , we expect to be between and for both positive and negative values of . We can see that from the table below, as well as the graph to the right.    t  -2  -1  0  1  2    2^t  0.25  0.5  1  2  4    \\rightarrow e^t  0.135  0.368  1  2.718  7.389 \\leftarrow    3^t  0.111  0.333  1  3  9       For any , we can write it as a scaling of : So there must be a such that How to find it?   Example:   Recall  Average rate of change of on is  **New perspective:** Start with , take a small distance , and look at :    Activity 3.3.2   We'll use the formula above to explore the average rate of change of near and . In a new Desmos worksheet, define (type it in exactly like that). Then in a new cell, type the following:     What is the approximate value of ?      What is the meaning of in terms of the function and its graph?      Compute the value of for at least different small values of , both positive and negative. For instance, one value to try might be , another , a third , and maybe three negative 's. (Use Desmos! Type and so on). Record a table of your results.      What do you notice about the values you found in (b)? How do they compare to an important number? What is ?      Explain why the following sentence makes sense: “The function is increasing at an average rate that is about the same as its value on small intervals near .”      What is the approximate value of ?      Adjust your definition of in Desmos by changing to so that How does the value of compare to for small values of ?      Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                               Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?  (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake    1  10^1 = 10    2  10^2 = 100    2.2  10^2.2 \\approx 158.489    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?  While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake    1  31.6^1 = 31.6    2  31.6^2 = 998.56    2.2  31.6^2.2 \\approx 1992.102    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?     "
 },
 {
-  "id": "activities-23-2",
+  "id": "activities-23-6",
   "level": "2",
-  "url": "activities-23.html#activities-23-2",
+  "url": "activities-23.html#activities-23-6",
   "type": "Definition",
-  "number": "84",
-  "title": "Definition 3.4.3.",
-  "body": " Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation `` ” to denote the base-10 logarithm of .   "
-},
-{
-  "id": "activities-23-9",
-  "level": "2",
-  "url": "activities-23.html#activities-23-9",
-  "type": "Activity",
-  "number": "85",
-  "title": "Activity 3.4.2.",
-  "body": " Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                                    Class Notes ** Now consider    "
+  "number": "82",
+  "title": "Definition 3.3.2.",
+  "body": " Definition 3.3.2   The natural base, . The number is the infinite sum It's an irrational number very similar to , and it is approximately   "
 },
 {
   "id": "activities-23-10",
   "level": "2",
   "url": "activities-23.html#activities-23-10",
-  "type": "Definition",
-  "number": "86",
-  "title": "Definition 3.4.4.",
-  "body": " Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote `` ” as the natural logarithm of .   "
+  "type": "Activity",
+  "number": "83",
+  "title": "Activity 3.3.2.",
+  "body": " Activity 3.3.2   We'll use the formula above to explore the average rate of change of near and . In a new Desmos worksheet, define (type it in exactly like that). Then in a new cell, type the following:     What is the approximate value of ?      What is the meaning of in terms of the function and its graph?      Compute the value of for at least different small values of , both positive and negative. For instance, one value to try might be , another , a third , and maybe three negative 's. (Use Desmos! Type and so on). Record a table of your results.      What do you notice about the values you found in (b)? How do they compare to an important number? What is ?      Explain why the following sentence makes sense: “The function is increasing at an average rate that is about the same as its value on small intervals near .”      What is the approximate value of ?      Adjust your definition of in Desmos by changing to so that How does the value of compare to for small values of ?    "
 },
 {
-  "id": "activities-23-12",
+  "id": "activities-23-11",
   "level": "2",
-  "url": "activities-23.html#activities-23-12",
+  "url": "activities-23.html#activities-23-11",
   "type": "Activity",
-  "number": "87",
-  "title": "Activity 3.4.3.",
-  "body": " Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values. Then sketch both and on the graph below.  *Values of    t  -2  -1  0  1  2    e^t  e^-2\\approx0.135        *Values of    x  e^-2\\approx0.135  e^-1\\approx 0.368  1  e^1\\approx 2.718  e^2\\approx 7.389    \\ln(x)  -2 \\         (Both plots have the first row of the table as input, the second row as output.)    "
-},
-{
-  "id": "activities-23-13",
-  "level": "2",
-  "url": "activities-23.html#activities-23-13",
-  "type": "Activity",
-  "number": "88",
-  "title": "Activity 3.4.4.",
-  "body": " Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                                         Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :      If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)    "
+  "number": "84",
+  "title": "Activity 3.3.3.",
+  "body": " Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                               Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?  (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake    1  10^1 = 10    2  10^2 = 100    2.2  10^2.2 \\approx 158.489    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?  While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake    1  31.6^1 = 31.6    2  31.6^2 = 998.56    2.2  31.6^2.2 \\approx 1992.102    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?    "
 },
 {
   "id": "activities-24",
@@ -1095,44 +1059,53 @@ var ptx_lunr_docs = [
   "url": "activities-24.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 3.5: Properties and Applications of Logarithms",
-  "body": " Section 3.5: Properties and Applications of Logarithms           Property 1  Multiplication inside logs.    Property 2  Division inside logs.    Property 3  Powers inside logs.   * Use to solve any exponential function, regardless of base!    Class ex:  Class ex:                     Activity 3.5.2   Solve each of the following equations exactly and then find an estimate that is accurate to 5 decimal places.                                    The graph of  Graph is shown above the line , and is shown below the line . Left is zoomed in, right is zoomed out.  The graph of :    vertical asymptote at  passes through  is always increasing  is always concave down  increases without bound      Activity 3.5.3   In the questions that follow, we compare and contrast the properties and behaviors of exponential and logarithmic functions.     Go to Desmos and plot and . Compare the properties of the two, noting what they have in common and what they don't.              Domain:           Range:           -intercept           -intercept           increasing or decreasing:           concave up or down:           grow to or bounded:            Let , where , , , and are positive constants. Describe as a transformation of the function . (How does transform , ..., think shifts and stretches vertically or horizontally. Can use Desmos to help you)    :  :  :  :        Let , where , , and are positive constants. Describe as a transformation of the function . (Can use Desmos to help you.)    :  :  :        Data for the height of a tree is given in the table below; time is measured in years and height of the tree is given in feet. At gvsu.edu\/s\/0yy , you can find a Desmos worksheet with this data already input.    t  1  2  3  4  5  6  7  8  9  10  11    h(t)  6  9.5  13  15  16.5  17.5  18.5  19  19.5  19.7  19.8    Do you think this data is better modeled by a logarithmic function of form or by an exponential function of form . Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)      Activity 3.5.4   Solve each of the following equations for the exact value of the unknown variable ( ).                         Example: Logs in the wild.   When a population grows (decays) at a rate proportional to the current population, the population follows the model of exponential growth (decay): where is the population at time , and are constants. If we are talking about growth ( is increasing), if we are talking about decay ( is decreasing). Many populations grow\/decay exponentially; one of the most common is bacteria.     Consider a population of bacteria where is measure in millions of cells and is in hours. We know , and . Find a model of the form that fits this data by first plugging in to determine , and then plugging in to determine .      How many bacteria are there after 20 hours ( )?      How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?     "
+  "title": "Section 3.4: Logarithms",
+  "body": " Section 3.4: Logarithms   Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation `` ” to denote the base-10 logarithm of .    Fill in the following:          - Domain:  - Domain:        - Range:  - Range:        -  -        -  -         ** Note 1. ** Most calculators assume base-10, so log(y) in a calculator is the equivalent of .  ** Note 2. ** Some values of are easier to find than others. The value is an exact number (like or ), where .  Examples:   Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                                    Class Notes ** Now consider      Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote `` ” as the natural logarithm of .    ** is shorthand for Examples: , , .   Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values. Then sketch both and on the graph below.  *Values of    t  -2  -1  0  1  2    e^t  e^-2\\approx0.135        *Values of    x  e^-2\\approx0.135  e^-1\\approx 0.368  1  e^1\\approx 2.718  e^2\\approx 7.389    \\ln(x)  -2 \\         (Both plots have the first row of the table as input, the second row as output.)      Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                                         Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :      If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)     "
 },
 {
-  "id": "activities-24-8",
+  "id": "activities-24-2",
   "level": "2",
-  "url": "activities-24.html#activities-24-8",
-  "type": "Activity",
-  "number": "89",
-  "title": "Activity 3.5.2.",
-  "body": " Activity 3.5.2   Solve each of the following equations exactly and then find an estimate that is accurate to 5 decimal places.                                 "
+  "url": "activities-24.html#activities-24-2",
+  "type": "Definition",
+  "number": "85",
+  "title": "Definition 3.4.3.",
+  "body": " Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation `` ” to denote the base-10 logarithm of .   "
 },
 {
-  "id": "activities-24-11",
+  "id": "activities-24-9",
   "level": "2",
-  "url": "activities-24.html#activities-24-11",
+  "url": "activities-24.html#activities-24-9",
   "type": "Activity",
-  "number": "90",
-  "title": "Activity 3.5.3.",
-  "body": " Activity 3.5.3   In the questions that follow, we compare and contrast the properties and behaviors of exponential and logarithmic functions.     Go to Desmos and plot and . Compare the properties of the two, noting what they have in common and what they don't.              Domain:           Range:           -intercept           -intercept           increasing or decreasing:           concave up or down:           grow to or bounded:            Let , where , , , and are positive constants. Describe as a transformation of the function . (How does transform , ..., think shifts and stretches vertically or horizontally. Can use Desmos to help you)    :  :  :  :        Let , where , , and are positive constants. Describe as a transformation of the function . (Can use Desmos to help you.)    :  :  :        Data for the height of a tree is given in the table below; time is measured in years and height of the tree is given in feet. At gvsu.edu\/s\/0yy , you can find a Desmos worksheet with this data already input.    t  1  2  3  4  5  6  7  8  9  10  11    h(t)  6  9.5  13  15  16.5  17.5  18.5  19  19.5  19.7  19.8    Do you think this data is better modeled by a logarithmic function of form or by an exponential function of form . Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)    "
+  "number": "86",
+  "title": "Activity 3.4.2.",
+  "body": " Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                                    Class Notes ** Now consider    "
+},
+{
+  "id": "activities-24-10",
+  "level": "2",
+  "url": "activities-24.html#activities-24-10",
+  "type": "Definition",
+  "number": "87",
+  "title": "Definition 3.4.4.",
+  "body": " Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote `` ” as the natural logarithm of .   "
 },
 {
   "id": "activities-24-12",
   "level": "2",
   "url": "activities-24.html#activities-24-12",
   "type": "Activity",
-  "number": "91",
-  "title": "Activity 3.5.4.",
-  "body": " Activity 3.5.4   Solve each of the following equations for the exact value of the unknown variable ( ).                       "
+  "number": "88",
+  "title": "Activity 3.4.3.",
+  "body": " Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values. Then sketch both and on the graph below.  *Values of    t  -2  -1  0  1  2    e^t  e^-2\\approx0.135        *Values of    x  e^-2\\approx0.135  e^-1\\approx 0.368  1  e^1\\approx 2.718  e^2\\approx 7.389    \\ln(x)  -2 \\         (Both plots have the first row of the table as input, the second row as output.)    "
 },
 {
   "id": "activities-24-13",
   "level": "2",
   "url": "activities-24.html#activities-24-13",
   "type": "Activity",
-  "number": "92",
-  "title": "Example: Logs in the “wild.”.",
-  "body": " Example: Logs in the wild.   When a population grows (decays) at a rate proportional to the current population, the population follows the model of exponential growth (decay): where is the population at time , and are constants. If we are talking about growth ( is increasing), if we are talking about decay ( is decreasing). Many populations grow\/decay exponentially; one of the most common is bacteria.     Consider a population of bacteria where is measure in millions of cells and is in hours. We know , and . Find a model of the form that fits this data by first plugging in to determine , and then plugging in to determine .      How many bacteria are there after 20 hours ( )?      How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?    "
+  "number": "89",
+  "title": "Activity 3.4.4.",
+  "body": " Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                                         Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :      If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)    "
 },
 {
   "id": "activities-25",
@@ -1140,62 +1113,44 @@ var ptx_lunr_docs = [
   "url": "activities-25.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 3.6: Modeling Temperature and Population",
-  "body": " Section 3.6: Modeling Temperature and Population  Recall:              Newton’s Law of Cooling  Temp of a warming\/cooling object ( ):    : surrounding temp\/long-term behavior  : (NOT the initial temp) but use initial temp to find , since  : use one known temperature at a nonzero time .      Example:       Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?     Reality check: Populations don't usually grow forever with no limits, resources limit growth. Calculus can help us develop a more realistic model called the Logistic Model .   Logistic Model  of population growth with positive constants :  Since, , then ! Thus in the long-term.  ** is the carrying capacity of the population, i.e. the long-term behavior\/max capacity.    Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .       On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?      Activity 3.6.4   Suppose that a population of animals (measured in thousands) that lives on an island is known to grow according to the logistic model, where is measured in years. We know the following information: , , and given the resources availabe the island cannot support more than thousand animals.     Determine the values of , , and in the logist model below. Try to find exact. (For approximate, if you round, include 4 decimal places).      Find the approximate time value when the population will be (thousand). Show your work. Hint: You may find it easier to not plug in and until you get .      Plot your model from (a) and check that its values match the desired characteristics. Then, use Desmos to compute the average rate of change of on the intervals , , , and . What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?     "
+  "title": "Section 3.5: Properties and Applications of Logarithms",
+  "body": " Section 3.5: Properties and Applications of Logarithms           Property 1  Multiplication inside logs.    Property 2  Division inside logs.    Property 3  Powers inside logs.   * Use to solve any exponential function, regardless of base!    Class ex:  Class ex:                     Activity 3.5.2   Solve each of the following equations exactly and then find an estimate that is accurate to 5 decimal places.                                    The graph of  Graph is shown above the line , and is shown below the line . Left is zoomed in, right is zoomed out.  The graph of :    vertical asymptote at  passes through  is always increasing  is always concave down  increases without bound      Activity 3.5.3   In the questions that follow, we compare and contrast the properties and behaviors of exponential and logarithmic functions.     Go to Desmos and plot and . Compare the properties of the two, noting what they have in common and what they don't.              Domain:           Range:           -intercept           -intercept           increasing or decreasing:           concave up or down:           grow to or bounded:            Let , where , , , and are positive constants. Describe as a transformation of the function . (How does transform , ..., think shifts and stretches vertically or horizontally. Can use Desmos to help you)    :  :  :  :        Let , where , , and are positive constants. Describe as a transformation of the function . (Can use Desmos to help you.)    :  :  :        Data for the height of a tree is given in the table below; time is measured in years and height of the tree is given in feet. At gvsu.edu\/s\/0yy , you can find a Desmos worksheet with this data already input.    t  1  2  3  4  5  6  7  8  9  10  11    h(t)  6  9.5  13  15  16.5  17.5  18.5  19  19.5  19.7  19.8    Do you think this data is better modeled by a logarithmic function of form or by an exponential function of form . Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)      Activity 3.5.4   Solve each of the following equations for the exact value of the unknown variable ( ).                         Example: Logs in the wild.   When a population grows (decays) at a rate proportional to the current population, the population follows the model of exponential growth (decay): where is the population at time , and are constants. If we are talking about growth ( is increasing), if we are talking about decay ( is decreasing). Many populations grow\/decay exponentially; one of the most common is bacteria.     Consider a population of bacteria where is measure in millions of cells and is in hours. We know , and . Find a model of the form that fits this data by first plugging in to determine , and then plugging in to determine .      How many bacteria are there after 20 hours ( )?      How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?     "
 },
 {
-  "id": "activities-25-5",
+  "id": "activities-25-8",
   "level": "2",
-  "url": "activities-25.html#activities-25-5",
+  "url": "activities-25.html#activities-25-8",
+  "type": "Activity",
+  "number": "90",
+  "title": "Activity 3.5.2.",
+  "body": " Activity 3.5.2   Solve each of the following equations exactly and then find an estimate that is accurate to 5 decimal places.                                 "
+},
+{
+  "id": "activities-25-11",
+  "level": "2",
+  "url": "activities-25.html#activities-25-11",
+  "type": "Activity",
+  "number": "91",
+  "title": "Activity 3.5.3.",
+  "body": " Activity 3.5.3   In the questions that follow, we compare and contrast the properties and behaviors of exponential and logarithmic functions.     Go to Desmos and plot and . Compare the properties of the two, noting what they have in common and what they don't.              Domain:           Range:           -intercept           -intercept           increasing or decreasing:           concave up or down:           grow to or bounded:            Let , where , , , and are positive constants. Describe as a transformation of the function . (How does transform , ..., think shifts and stretches vertically or horizontally. Can use Desmos to help you)    :  :  :  :        Let , where , , and are positive constants. Describe as a transformation of the function . (Can use Desmos to help you.)    :  :  :        Data for the height of a tree is given in the table below; time is measured in years and height of the tree is given in feet. At gvsu.edu\/s\/0yy , you can find a Desmos worksheet with this data already input.    t  1  2  3  4  5  6  7  8  9  10  11    h(t)  6  9.5  13  15  16.5  17.5  18.5  19  19.5  19.7  19.8    Do you think this data is better modeled by a logarithmic function of form or by an exponential function of form . Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)    "
+},
+{
+  "id": "activities-25-12",
+  "level": "2",
+  "url": "activities-25.html#activities-25-12",
+  "type": "Activity",
+  "number": "92",
+  "title": "Activity 3.5.4.",
+  "body": " Activity 3.5.4   Solve each of the following equations for the exact value of the unknown variable ( ).                       "
+},
+{
+  "id": "activities-25-13",
+  "level": "2",
+  "url": "activities-25.html#activities-25-13",
   "type": "Activity",
   "number": "93",
-  "title": "Example:.",
-  "body": " Example:     "
-},
-{
-  "id": "activities-25-6",
-  "level": "2",
-  "url": "activities-25.html#activities-25-6",
-  "type": "Activity",
-  "number": "94",
-  "title": "Activity 3.6.2.",
-  "body": " Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?    "
-},
-{
-  "id": "activities-25-7",
-  "level": "2",
-  "url": "activities-25.html#activities-25-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Reality check: Logistic Model "
-},
-{
-  "id": "activities-25-8-4",
-  "level": "2",
-  "url": "activities-25.html#activities-25-8-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "carrying capacity "
-},
-{
-  "id": "activities-25-9",
-  "level": "2",
-  "url": "activities-25.html#activities-25-9",
-  "type": "Activity",
-  "number": "95",
-  "title": "Activity 3.6.3. Logistic Model.",
-  "body": " Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .       On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?    "
-},
-{
-  "id": "activities-25-10",
-  "level": "2",
-  "url": "activities-25.html#activities-25-10",
-  "type": "Activity",
-  "number": "96",
-  "title": "Activity 3.6.4.",
-  "body": " Activity 3.6.4   Suppose that a population of animals (measured in thousands) that lives on an island is known to grow according to the logistic model, where is measured in years. We know the following information: , , and given the resources availabe the island cannot support more than thousand animals.     Determine the values of , , and in the logist model below. Try to find exact. (For approximate, if you round, include 4 decimal places).      Find the approximate time value when the population will be (thousand). Show your work. Hint: You may find it easier to not plug in and until you get .      Plot your model from (a) and check that its values match the desired characteristics. Then, use Desmos to compute the average rate of change of on the intervals , , , and . What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?    "
+  "title": "Example: Logs in the “wild.”.",
+  "body": " Example: Logs in the wild.   When a population grows (decays) at a rate proportional to the current population, the population follows the model of exponential growth (decay): where is the population at time , and are constants. If we are talking about growth ( is increasing), if we are talking about decay ( is decreasing). Many populations grow\/decay exponentially; one of the most common is bacteria.     Consider a population of bacteria where is measure in millions of cells and is in hours. We know , and . Find a model of the form that fits this data by first plugging in to determine , and then plugging in to determine .      How many bacteria are there after 20 hours ( )?      How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?    "
 },
 {
   "id": "activities-26",
@@ -1203,53 +1158,62 @@ var ptx_lunr_docs = [
   "url": "activities-26.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 4.1: Right Triangles",
-  "body": " Section 4.1: Right Triangles    Pythagorean Theorem for right triangles: Fundamental Trig Identity:   Angles of a triangle:  Right Triangles:  Similar Triangles:  (Brief and incomplete) explanation of trig inverse:   Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .      Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .      Ratios in right triangles    In a right triangle where one of the non-right angles is :    “adj” is the length of the leg adjacent to ,  “opp” is the length the side opposite ,  “hyp” is the length of the hypotenuse,          Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .      Missing info in right triangles    Known  Can Find    Two leg lengths  Third leg length    One non-right angle  Remaining non-right angle    One non-right angle & hypotenuse  Remaining angle and both leg lengths      Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?     "
+  "title": "Section 3.6: Modeling Temperature and Population",
+  "body": " Section 3.6: Modeling Temperature and Population  Recall:              Newton’s Law of Cooling  Temp of a warming\/cooling object ( ):    : surrounding temp\/long-term behavior  : (NOT the initial temp) but use initial temp to find , since  : use one known temperature at a nonzero time .      Example:       Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?     Reality check: Populations don't usually grow forever with no limits, resources limit growth. Calculus can help us develop a more realistic model called the Logistic Model .   Logistic Model  of population growth with positive constants :  Since, , then ! Thus in the long-term.  ** is the carrying capacity of the population, i.e. the long-term behavior\/max capacity.    Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .       On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?      Activity 3.6.4   Suppose that a population of animals (measured in thousands) that lives on an island is known to grow according to the logistic model, where is measured in years. We know the following information: , , and given the resources availabe the island cannot support more than thousand animals.     Determine the values of , , and in the logist model below. Try to find exact. (For approximate, if you round, include 4 decimal places).      Find the approximate time value when the population will be (thousand). Show your work. Hint: You may find it easier to not plug in and until you get .      Plot your model from (a) and check that its values match the desired characteristics. Then, use Desmos to compute the average rate of change of on the intervals , , , and . What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?     "
 },
 {
   "id": "activities-26-5",
   "level": "2",
   "url": "activities-26.html#activities-26-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Similar Triangles: "
+  "type": "Activity",
+  "number": "94",
+  "title": "Example:.",
+  "body": " Example:     "
 },
 {
   "id": "activities-26-6",
   "level": "2",
   "url": "activities-26.html#activities-26-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "(Brief and incomplete) explanation of trig inverse: "
+  "type": "Activity",
+  "number": "95",
+  "title": "Activity 3.6.2.",
+  "body": " Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?    "
 },
 {
   "id": "activities-26-7",
   "level": "2",
   "url": "activities-26.html#activities-26-7",
-  "type": "Activity",
-  "number": "97",
-  "title": "Activity 4.1.2.",
-  "body": " Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .      Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .    "
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Reality check: Logistic Model "
+},
+{
+  "id": "activities-26-8-4",
+  "level": "2",
+  "url": "activities-26.html#activities-26-8-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "carrying capacity "
 },
 {
   "id": "activities-26-9",
   "level": "2",
   "url": "activities-26.html#activities-26-9",
   "type": "Activity",
-  "number": "98",
-  "title": "Activity 4.1.3.",
-  "body": " Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .    "
+  "number": "96",
+  "title": "Activity 3.6.3. Logistic Model.",
+  "body": " Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .       On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?    "
 },
 {
-  "id": "activities-26-11",
+  "id": "activities-26-10",
   "level": "2",
-  "url": "activities-26.html#activities-26-11",
+  "url": "activities-26.html#activities-26-10",
   "type": "Activity",
-  "number": "99",
-  "title": "Activity 4.1.4.",
-  "body": " Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?    "
+  "number": "97",
+  "title": "Activity 3.6.4.",
+  "body": " Activity 3.6.4   Suppose that a population of animals (measured in thousands) that lives on an island is known to grow according to the logistic model, where is measured in years. We know the following information: , , and given the resources availabe the island cannot support more than thousand animals.     Determine the values of , , and in the logist model below. Try to find exact. (For approximate, if you round, include 4 decimal places).      Find the approximate time value when the population will be (thousand). Show your work. Hint: You may find it easier to not plug in and until you get .      Plot your model from (a) and check that its values match the desired characteristics. Then, use Desmos to compute the average rate of change of on the intervals , , , and . What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?    "
 },
 {
   "id": "activities-27",
@@ -1257,44 +1221,53 @@ var ptx_lunr_docs = [
   "url": "activities-27.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 4.2: The Tangent Function",
-  "body": " Section 4.2: The Tangent Function     Definition 4.2.2   Tangent.     For triangles:  The special values on the unit circle for angles are shown below:      Properties of the tangent function:    Domain: all real numbers except where is any whole number;  Range: all real numbers;  Period: ;  it is increasing on any interval on which the function is defined at every point in the interval.      Activity 4.2.2   The top of a 225 foot tower is to be anchored by four cables that each make an angle of with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?     Activity 4.2.3   Supertall high rises have changed the Manhattan skyline. These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most , and some as extreme as . Suppose that a relatively short supertall has been built to a height of 635 feet, as pictured in the figure, and that a second supertall is built nearby. Given the two angles that are computed from the new building, how tall, , is the new building, and how far apart, , are the two towers?      Activity 4.2.4   Surveyors are trying to determine the height of a hill relative to sea level. First, they choose a point to take an initial measurement with a sextant that shows the angle of elevation from the ground to the peak of the hill is . Next, they move 1000 feet closer to the hill, staying at the same elevation relative to sea level, and find that the angle of elevation has increased to , as pictured in the figure. We let represent the height of the hill relative to the two measurements, and represent the distance from the second measurement location to the “center” of the hill that lies directly under the peak.      Using the right triangle with the angle, find an equation that relates and .      Using the right triangle with the angle, find a second equation that relates and .      Our work in (a) and (b) results in a system of two equations in the two unknowns and . Solve each of the two equations for and then substitute appropriately in order to find a single equation in the variable .      Solve the equation from (c) to find the exact value of and determine an approximate value accurate to 3 decimal places.      Use your preceding work to solve for exactly, plus determine an estimate accurate to 3 decimal places.      If the surveyors’ initial measurements were taken from an elevation of 78 feet above sea level, how high above sea level is the peak of the hill?     "
+  "title": "Section 4.1: Right Triangles",
+  "body": " Section 4.1: Right Triangles    Pythagorean Theorem for right triangles: Fundamental Trig Identity:   Angles of a triangle:  Right Triangles:  Similar Triangles:  (Brief and incomplete) explanation of trig inverse:   Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .      Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .      Ratios in right triangles    In a right triangle where one of the non-right angles is :    “adj” is the length of the leg adjacent to ,  “opp” is the length the side opposite ,  “hyp” is the length of the hypotenuse,          Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .      Missing info in right triangles    Known  Can Find    Two leg lengths  Third leg length    One non-right angle  Remaining non-right angle    One non-right angle & hypotenuse  Remaining angle and both leg lengths      Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?     "
 },
 {
-  "id": "activities-27-4",
+  "id": "activities-27-5",
   "level": "2",
-  "url": "activities-27.html#activities-27-4",
-  "type": "Definition",
-  "number": "100",
-  "title": "Definition 4.2.2.",
-  "body": " Definition 4.2.2   Tangent.    "
+  "url": "activities-27.html#activities-27-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Similar Triangles: "
+},
+{
+  "id": "activities-27-6",
+  "level": "2",
+  "url": "activities-27.html#activities-27-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "(Brief and incomplete) explanation of trig inverse: "
+},
+{
+  "id": "activities-27-7",
+  "level": "2",
+  "url": "activities-27.html#activities-27-7",
+  "type": "Activity",
+  "number": "98",
+  "title": "Activity 4.1.2.",
+  "body": " Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .      Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .    "
+},
+{
+  "id": "activities-27-9",
+  "level": "2",
+  "url": "activities-27.html#activities-27-9",
+  "type": "Activity",
+  "number": "99",
+  "title": "Activity 4.1.3.",
+  "body": " Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .    "
 },
 {
   "id": "activities-27-11",
   "level": "2",
   "url": "activities-27.html#activities-27-11",
   "type": "Activity",
-  "number": "101",
-  "title": "Activity 4.2.2.",
-  "body": " Activity 4.2.2   The top of a 225 foot tower is to be anchored by four cables that each make an angle of with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?   "
-},
-{
-  "id": "activities-27-12",
-  "level": "2",
-  "url": "activities-27.html#activities-27-12",
-  "type": "Activity",
-  "number": "102",
-  "title": "Activity 4.2.3.",
-  "body": " Activity 4.2.3   Supertall high rises have changed the Manhattan skyline. These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most , and some as extreme as . Suppose that a relatively short supertall has been built to a height of 635 feet, as pictured in the figure, and that a second supertall is built nearby. Given the two angles that are computed from the new building, how tall, , is the new building, and how far apart, , are the two towers?    "
-},
-{
-  "id": "activities-27-13",
-  "level": "2",
-  "url": "activities-27.html#activities-27-13",
-  "type": "Activity",
-  "number": "103",
-  "title": "Activity 4.2.4.",
-  "body": " Activity 4.2.4   Surveyors are trying to determine the height of a hill relative to sea level. First, they choose a point to take an initial measurement with a sextant that shows the angle of elevation from the ground to the peak of the hill is . Next, they move 1000 feet closer to the hill, staying at the same elevation relative to sea level, and find that the angle of elevation has increased to , as pictured in the figure. We let represent the height of the hill relative to the two measurements, and represent the distance from the second measurement location to the “center” of the hill that lies directly under the peak.      Using the right triangle with the angle, find an equation that relates and .      Using the right triangle with the angle, find a second equation that relates and .      Our work in (a) and (b) results in a system of two equations in the two unknowns and . Solve each of the two equations for and then substitute appropriately in order to find a single equation in the variable .      Solve the equation from (c) to find the exact value of and determine an approximate value accurate to 3 decimal places.      Use your preceding work to solve for exactly, plus determine an estimate accurate to 3 decimal places.      If the surveyors’ initial measurements were taken from an elevation of 78 feet above sea level, how high above sea level is the peak of the hill?    "
+  "number": "100",
+  "title": "Activity 4.1.4.",
+  "body": " Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?    "
 },
 {
   "id": "activities-28",
@@ -1302,98 +1275,44 @@ var ptx_lunr_docs = [
   "url": "activities-28.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 4.3: Inverses of Trig Functions",
-  "body": " Section 4.3: Inverses of Trig Functions     Arccosine  Consider the to be only the part of function restricted to the input      What is the domain of ? (Not !)      What is the range of ?      Does pass the horizontal line test?      Does have an inverse function?      We know , so since is in , then . What then is ?      Use your unit circle to find the following:      Definition 4.3.2   Let defined ONLY on the domain , and note the range is . For any real number where , the arccosine of is denoted and is the angle where and .     ** What does arccosine output??? An ANGLE! **   Activity 4.3.2   Use the special points on the unit circle to determine the exact values of each of the following numerical expressions. Do so without using a computational device.                                                      Arcsine   Definition 4.3.3   Let defined ONLY on the domain , and note the range is . For any real number where , the arcsine of is denoted and is the angle where and .     Activity 4.3.3   The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function.     According to the definition of arcsine above, what is the domain of arcsine? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      Sketch a careful plot of the restricted sine function on the interval . Then plot the inverse, on the same graph. (They should look like reflections of each other across the line , do they?)      True or false: . Why\/why not?      Arctangent  ** Note: does not exist everywhere! So we need to choose where to restrict it to very carefully...   Definition 4.3.5   Let defined ONLY on the domain , and note the range is all real numbers! For any real number , the arctangent of is denoted and is the angle where and .     Activity 4.3.4   The goal of this activity is to understand key properties of the arctangent function.     According to the definition of arctangent above, what is the domain of arctangent? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      The restricted tangent function on the interval is shown. Plot the inverse, on the same graph.  (Note, a vertical asymptote on the original function corresponds to what kind of asymptote on the inverse function?)       Complete the sentence: as increases without bound (as ), the function ...  Practice:      Solve the equations below exactly. Give your answers in radians, and find all possible values for in the interval . There may be more than one answer!    , when  , when  , when        Suppose and is in the first quadrant. Draw a right triangle that matches this criteria. Can you find an expression for ? For ? Both expressions will involve .     "
+  "title": "Section 4.2: The Tangent Function",
+  "body": " Section 4.2: The Tangent Function     Definition 4.2.2   Tangent.     For triangles:  The special values on the unit circle for angles are shown below:      Properties of the tangent function:    Domain: all real numbers except where is any whole number;  Range: all real numbers;  Period: ;  it is increasing on any interval on which the function is defined at every point in the interval.      Activity 4.2.2   The top of a 225 foot tower is to be anchored by four cables that each make an angle of with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?     Activity 4.2.3   Supertall high rises have changed the Manhattan skyline. These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most , and some as extreme as . Suppose that a relatively short supertall has been built to a height of 635 feet, as pictured in the figure, and that a second supertall is built nearby. Given the two angles that are computed from the new building, how tall, , is the new building, and how far apart, , are the two towers?      Activity 4.2.4   Surveyors are trying to determine the height of a hill relative to sea level. First, they choose a point to take an initial measurement with a sextant that shows the angle of elevation from the ground to the peak of the hill is . Next, they move 1000 feet closer to the hill, staying at the same elevation relative to sea level, and find that the angle of elevation has increased to , as pictured in the figure. We let represent the height of the hill relative to the two measurements, and represent the distance from the second measurement location to the “center” of the hill that lies directly under the peak.      Using the right triangle with the angle, find an equation that relates and .      Using the right triangle with the angle, find a second equation that relates and .      Our work in (a) and (b) results in a system of two equations in the two unknowns and . Solve each of the two equations for and then substitute appropriately in order to find a single equation in the variable .      Solve the equation from (c) to find the exact value of and determine an approximate value accurate to 3 decimal places.      Use your preceding work to solve for exactly, plus determine an estimate accurate to 3 decimal places.      If the surveyors’ initial measurements were taken from an elevation of 78 feet above sea level, how high above sea level is the peak of the hill?     "
 },
 {
-  "id": "activities-28-2",
+  "id": "activities-28-4",
   "level": "2",
-  "url": "activities-28.html#activities-28-2",
-  "type": "Activity",
-  "number": "104",
-  "title": "",
-  "body": "   Arccosine  Consider the to be only the part of function restricted to the input      What is the domain of ? (Not !)      What is the range of ?      Does pass the horizontal line test?      Does have an inverse function?      We know , so since is in , then . What then is ?      Use your unit circle to find the following:    "
-},
-{
-  "id": "activities-28-3",
-  "level": "2",
-  "url": "activities-28.html#activities-28-3",
+  "url": "activities-28.html#activities-28-4",
   "type": "Definition",
-  "number": "105",
-  "title": "Definition 4.3.2.",
-  "body": " Definition 4.3.2   Let defined ONLY on the domain , and note the range is . For any real number where , the arccosine of is denoted and is the angle where and .   "
+  "number": "101",
+  "title": "Definition 4.2.2.",
+  "body": " Definition 4.2.2   Tangent.    "
 },
 {
-  "id": "activities-28-5",
+  "id": "activities-28-11",
   "level": "2",
-  "url": "activities-28.html#activities-28-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "** What does arccosine output??? An ANGLE! ** "
-},
-{
-  "id": "activities-28-6",
-  "level": "2",
-  "url": "activities-28.html#activities-28-6",
+  "url": "activities-28.html#activities-28-11",
   "type": "Activity",
-  "number": "106",
-  "title": "Activity 4.3.2.",
-  "body": " Activity 4.3.2   Use the special points on the unit circle to determine the exact values of each of the following numerical expressions. Do so without using a computational device.                                                     "
-},
-{
-  "id": "activities-28-7",
-  "level": "2",
-  "url": "activities-28.html#activities-28-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Arcsine "
-},
-{
-  "id": "activities-28-8",
-  "level": "2",
-  "url": "activities-28.html#activities-28-8",
-  "type": "Definition",
-  "number": "107",
-  "title": "Definition 4.3.3.",
-  "body": " Definition 4.3.3   Let defined ONLY on the domain , and note the range is . For any real number where , the arcsine of is denoted and is the angle where and .   "
-},
-{
-  "id": "activities-28-9",
-  "level": "2",
-  "url": "activities-28.html#activities-28-9",
-  "type": "Activity",
-  "number": "108",
-  "title": "Activity 4.3.3.",
-  "body": " Activity 4.3.3   The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function.     According to the definition of arcsine above, what is the domain of arcsine? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      Sketch a careful plot of the restricted sine function on the interval . Then plot the inverse, on the same graph. (They should look like reflections of each other across the line , do they?)      True or false: . Why\/why not?     "
-},
-{
-  "id": "activities-28-10",
-  "level": "2",
-  "url": "activities-28.html#activities-28-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Arctangent "
+  "number": "102",
+  "title": "Activity 4.2.2.",
+  "body": " Activity 4.2.2   The top of a 225 foot tower is to be anchored by four cables that each make an angle of with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?   "
 },
 {
   "id": "activities-28-12",
   "level": "2",
   "url": "activities-28.html#activities-28-12",
-  "type": "Definition",
-  "number": "109",
-  "title": "Definition 4.3.5.",
-  "body": " Definition 4.3.5   Let defined ONLY on the domain , and note the range is all real numbers! For any real number , the arctangent of is denoted and is the angle where and .   "
+  "type": "Activity",
+  "number": "103",
+  "title": "Activity 4.2.3.",
+  "body": " Activity 4.2.3   Supertall high rises have changed the Manhattan skyline. These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most , and some as extreme as . Suppose that a relatively short supertall has been built to a height of 635 feet, as pictured in the figure, and that a second supertall is built nearby. Given the two angles that are computed from the new building, how tall, , is the new building, and how far apart, , are the two towers?    "
 },
 {
   "id": "activities-28-13",
   "level": "2",
   "url": "activities-28.html#activities-28-13",
   "type": "Activity",
-  "number": "110",
-  "title": "Activity 4.3.4.",
-  "body": " Activity 4.3.4   The goal of this activity is to understand key properties of the arctangent function.     According to the definition of arctangent above, what is the domain of arctangent? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      The restricted tangent function on the interval is shown. Plot the inverse, on the same graph.  (Note, a vertical asymptote on the original function corresponds to what kind of asymptote on the inverse function?)       Complete the sentence: as increases without bound (as ), the function ...  Practice:      Solve the equations below exactly. Give your answers in radians, and find all possible values for in the interval . There may be more than one answer!    , when  , when  , when        Suppose and is in the first quadrant. Draw a right triangle that matches this criteria. Can you find an expression for ? For ? Both expressions will involve .    "
+  "number": "104",
+  "title": "Activity 4.2.4.",
+  "body": " Activity 4.2.4   Surveyors are trying to determine the height of a hill relative to sea level. First, they choose a point to take an initial measurement with a sextant that shows the angle of elevation from the ground to the peak of the hill is . Next, they move 1000 feet closer to the hill, staying at the same elevation relative to sea level, and find that the angle of elevation has increased to , as pictured in the figure. We let represent the height of the hill relative to the two measurements, and represent the distance from the second measurement location to the “center” of the hill that lies directly under the peak.      Using the right triangle with the angle, find an equation that relates and .      Using the right triangle with the angle, find a second equation that relates and .      Our work in (a) and (b) results in a system of two equations in the two unknowns and . Solve each of the two equations for and then substitute appropriately in order to find a single equation in the variable .      Solve the equation from (c) to find the exact value of and determine an approximate value accurate to 3 decimal places.      Use your preceding work to solve for exactly, plus determine an estimate accurate to 3 decimal places.      If the surveyors’ initial measurements were taken from an elevation of 78 feet above sea level, how high above sea level is the peak of the hill?    "
 },
 {
   "id": "activities-29",
@@ -1401,26 +1320,71 @@ var ptx_lunr_docs = [
   "url": "activities-29.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 4.4 &amp; 4.5: Finding Angles",
-  "body": " Section 4.4 & 4.5: Finding Angles     6 trig functions:                       Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?     Now let's look at a few applications...   Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?     Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?     Activity 4.4.5   A camera is tracking the launch of a rocket. The camera is located 4000 feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle (in radians) is the camera tilted when the rocket is 3000 feet off the ground? Answer both exactly and approximately.  Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height . Determine the camera’s angle, , as a function of , (so and will show up on the right), and use Desmos to help compute the average rate of change of on the intervals , , and . What do you observe about how the camera angle is changing?    "
+  "title": "Section 4.3: Inverses of Trig Functions",
+  "body": " Section 4.3: Inverses of Trig Functions     Arccosine  Consider the to be only the part of function restricted to the input      What is the domain of ? (Not !)      What is the range of ?      Does pass the horizontal line test?      Does have an inverse function?      We know , so since is in , then . What then is ?      Use your unit circle to find the following:      Definition 4.3.2   Let defined ONLY on the domain , and note the range is . For any real number where , the arccosine of is denoted and is the angle where and .     ** What does arccosine output??? An ANGLE! **   Activity 4.3.2   Use the special points on the unit circle to determine the exact values of each of the following numerical expressions. Do so without using a computational device.                                                      Arcsine   Definition 4.3.3   Let defined ONLY on the domain , and note the range is . For any real number where , the arcsine of is denoted and is the angle where and .     Activity 4.3.3   The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function.     According to the definition of arcsine above, what is the domain of arcsine? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      Sketch a careful plot of the restricted sine function on the interval . Then plot the inverse, on the same graph. (They should look like reflections of each other across the line , do they?)      True or false: . Why\/why not?      Arctangent  ** Note: does not exist everywhere! So we need to choose where to restrict it to very carefully...   Definition 4.3.5   Let defined ONLY on the domain , and note the range is all real numbers! For any real number , the arctangent of is denoted and is the angle where and .     Activity 4.3.4   The goal of this activity is to understand key properties of the arctangent function.     According to the definition of arctangent above, what is the domain of arctangent? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      The restricted tangent function on the interval is shown. Plot the inverse, on the same graph.  (Note, a vertical asymptote on the original function corresponds to what kind of asymptote on the inverse function?)       Complete the sentence: as increases without bound (as ), the function ...  Practice:      Solve the equations below exactly. Give your answers in radians, and find all possible values for in the interval . There may be more than one answer!    , when  , when  , when        Suppose and is in the first quadrant. Draw a right triangle that matches this criteria. Can you find an expression for ? For ? Both expressions will involve .     "
+},
+{
+  "id": "activities-29-2",
+  "level": "2",
+  "url": "activities-29.html#activities-29-2",
+  "type": "Activity",
+  "number": "105",
+  "title": "",
+  "body": "   Arccosine  Consider the to be only the part of function restricted to the input      What is the domain of ? (Not !)      What is the range of ?      Does pass the horizontal line test?      Does have an inverse function?      We know , so since is in , then . What then is ?      Use your unit circle to find the following:    "
 },
 {
   "id": "activities-29-3",
   "level": "2",
   "url": "activities-29.html#activities-29-3",
+  "type": "Definition",
+  "number": "106",
+  "title": "Definition 4.3.2.",
+  "body": " Definition 4.3.2   Let defined ONLY on the domain , and note the range is . For any real number where , the arccosine of is denoted and is the angle where and .   "
+},
+{
+  "id": "activities-29-5",
+  "level": "2",
+  "url": "activities-29.html#activities-29-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "6 trig functions: "
+  "body": "** What does arccosine output??? An ANGLE! ** "
+},
+{
+  "id": "activities-29-6",
+  "level": "2",
+  "url": "activities-29.html#activities-29-6",
+  "type": "Activity",
+  "number": "107",
+  "title": "Activity 4.3.2.",
+  "body": " Activity 4.3.2   Use the special points on the unit circle to determine the exact values of each of the following numerical expressions. Do so without using a computational device.                                                     "
+},
+{
+  "id": "activities-29-7",
+  "level": "2",
+  "url": "activities-29.html#activities-29-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Arcsine "
+},
+{
+  "id": "activities-29-8",
+  "level": "2",
+  "url": "activities-29.html#activities-29-8",
+  "type": "Definition",
+  "number": "108",
+  "title": "Definition 4.3.3.",
+  "body": " Definition 4.3.3   Let defined ONLY on the domain , and note the range is . For any real number where , the arcsine of is denoted and is the angle where and .   "
 },
 {
   "id": "activities-29-9",
   "level": "2",
   "url": "activities-29.html#activities-29-9",
   "type": "Activity",
-  "number": "111",
-  "title": "Activity 4.4.2. More Practice.",
-  "body": " Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?    "
+  "number": "109",
+  "title": "Activity 4.3.3.",
+  "body": " Activity 4.3.3   The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function.     According to the definition of arcsine above, what is the domain of arcsine? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      Sketch a careful plot of the restricted sine function on the interval . Then plot the inverse, on the same graph. (They should look like reflections of each other across the line , do they?)      True or false: . Why\/why not?     "
 },
 {
   "id": "activities-29-10",
@@ -1429,34 +1393,25 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Now let's look at a few applications... "
-},
-{
-  "id": "activities-29-11",
-  "level": "2",
-  "url": "activities-29.html#activities-29-11",
-  "type": "Activity",
-  "number": "112",
-  "title": "Activity 4.4.3.",
-  "body": " Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?   "
+  "body": "Arctangent "
 },
 {
   "id": "activities-29-12",
   "level": "2",
   "url": "activities-29.html#activities-29-12",
-  "type": "Activity",
-  "number": "113",
-  "title": "Activity 4.4.4.",
-  "body": " Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?   "
+  "type": "Definition",
+  "number": "110",
+  "title": "Definition 4.3.5.",
+  "body": " Definition 4.3.5   Let defined ONLY on the domain , and note the range is all real numbers! For any real number , the arctangent of is denoted and is the angle where and .   "
 },
 {
   "id": "activities-29-13",
   "level": "2",
   "url": "activities-29.html#activities-29-13",
   "type": "Activity",
-  "number": "114",
-  "title": "Activity 4.4.5.",
-  "body": " Activity 4.4.5   A camera is tracking the launch of a rocket. The camera is located 4000 feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle (in radians) is the camera tilted when the rocket is 3000 feet off the ground? Answer both exactly and approximately.  Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height . Determine the camera’s angle, , as a function of , (so and will show up on the right), and use Desmos to help compute the average rate of change of on the intervals , , and . What do you observe about how the camera angle is changing?   "
+  "number": "111",
+  "title": "Activity 4.3.4.",
+  "body": " Activity 4.3.4   The goal of this activity is to understand key properties of the arctangent function.     According to the definition of arctangent above, what is the domain of arctangent? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      The restricted tangent function on the interval is shown. Plot the inverse, on the same graph.  (Note, a vertical asymptote on the original function corresponds to what kind of asymptote on the inverse function?)       Complete the sentence: as increases without bound (as ), the function ...  Practice:      Solve the equations below exactly. Give your answers in radians, and find all possible values for in the interval . There may be more than one answer!    , when  , when  , when        Suppose and is in the first quadrant. Draw a right triangle that matches this criteria. Can you find an expression for ? For ? Both expressions will involve .    "
 },
 {
   "id": "activities-30",
@@ -1464,80 +1419,62 @@ var ptx_lunr_docs = [
   "url": "activities-30.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 5.1: Infinity, Limits, Power Functions",
-  "body": " Section 5.1: Infinity, Limits, Power Functions  Infinity & Limits   Definition 5.1.3.   Limit Notation.   the limit of as goes to infinity is .  ** If doesn’t increase without bound, doesn’t decrease without bound, and doesn’t approach a single value as , we say that does not have a limit as .     Activity 5.1.1   Complete each of the following statements with an appropriate number or the symbols or . Do your best to do so without using a graphing utility; instead use your understanding of the function’s graph.     As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      Activity 5.1.2   Complete the table by entering , , , or no limit as appropriate to identify the function behavior as (increases without bound) or as (decreases without bound). As much as possible, try to do it without a graphing utility.   Power Functions     Definition 5.1.5   A function of the form where is any real number is a power function .     Activity 5.1.3. Power functions with positive integer powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zu . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?     Negative powers    Activity 5.1.4. Power functions with negative powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zv . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ? (Be careful with negative numbers here: e.g., .)      How do your answers change on the interval ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Explain why for any choice of .  Practice finding limits (can you try it first without graphing?)                                                        You hopefully noticed both and as . Graph , and use the graph to find . Any guesses why this is the limit? (Hint: look at the graph of and the graph of separately.)      Graph , what does it approach as ? Any guesses why?      Both and as . Graph and use it to determine . Any guesses why this is the limit?     ** Infinities are weird!  "
-},
-{
-  "id": "activities-30-2",
-  "level": "2",
-  "url": "activities-30.html#activities-30-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Infinity & Limits "
+  "title": "Section 4.4 &amp; 4.5: Finding Angles",
+  "body": " Section 4.4 & 4.5: Finding Angles     6 trig functions:                       Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?     Now let's look at a few applications...   Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?     Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?     Activity 4.4.5   A camera is tracking the launch of a rocket. The camera is located 4000 feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle (in radians) is the camera tilted when the rocket is 3000 feet off the ground? Answer both exactly and approximately.  Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height . Determine the camera’s angle, , as a function of , (so and will show up on the right), and use Desmos to help compute the average rate of change of on the intervals , , and . What do you observe about how the camera angle is changing?    "
 },
 {
   "id": "activities-30-3",
   "level": "2",
   "url": "activities-30.html#activities-30-3",
-  "type": "Definition",
-  "number": "115",
-  "title": "Definition 5.1.3..",
-  "body": " Definition 5.1.3.   Limit Notation.   the limit of as goes to infinity is .  ** If doesn’t increase without bound, doesn’t decrease without bound, and doesn’t approach a single value as , we say that does not have a limit as .   "
-},
-{
-  "id": "activities-30-4",
-  "level": "2",
-  "url": "activities-30.html#activities-30-4",
-  "type": "Activity",
-  "number": "116",
-  "title": "Activity 5.1.1.",
-  "body": " Activity 5.1.1   Complete each of the following statements with an appropriate number or the symbols or . Do your best to do so without using a graphing utility; instead use your understanding of the function’s graph.     As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .    "
-},
-{
-  "id": "activities-30-5",
-  "level": "2",
-  "url": "activities-30.html#activities-30-5",
-  "type": "Activity",
-  "number": "117",
-  "title": "Activity 5.1.2.",
-  "body": " Activity 5.1.2   Complete the table by entering , , , or no limit as appropriate to identify the function behavior as (increases without bound) or as (decreases without bound). As much as possible, try to do it without a graphing utility.   Power Functions   "
-},
-{
-  "id": "activities-30-6",
-  "level": "2",
-  "url": "activities-30.html#activities-30-6",
-  "type": "Definition",
-  "number": "118",
-  "title": "Definition 5.1.5.",
-  "body": " Definition 5.1.5   A function of the form where is any real number is a power function .   "
-},
-{
-  "id": "activities-30-7",
-  "level": "2",
-  "url": "activities-30.html#activities-30-7",
-  "type": "Activity",
-  "number": "119",
-  "title": "Activity 5.1.3. Power functions with positive integer powers.",
-  "body": " Activity 5.1.3. Power functions with positive integer powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zu . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?    "
-},
-{
-  "id": "activities-30-8",
-  "level": "2",
-  "url": "activities-30.html#activities-30-8",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Negative powers "
+  "body": "6 trig functions: "
 },
 {
   "id": "activities-30-9",
   "level": "2",
   "url": "activities-30.html#activities-30-9",
   "type": "Activity",
-  "number": "120",
-  "title": "Activity 5.1.4. Power functions with negative powers.",
-  "body": " Activity 5.1.4. Power functions with negative powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zv . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ? (Be careful with negative numbers here: e.g., .)      How do your answers change on the interval ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Explain why for any choice of .  Practice finding limits (can you try it first without graphing?)                                                        You hopefully noticed both and as . Graph , and use the graph to find . Any guesses why this is the limit? (Hint: look at the graph of and the graph of separately.)      Graph , what does it approach as ? Any guesses why?      Both and as . Graph and use it to determine . Any guesses why this is the limit?    "
+  "number": "112",
+  "title": "Activity 4.4.2. More Practice.",
+  "body": " Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?    "
+},
+{
+  "id": "activities-30-10",
+  "level": "2",
+  "url": "activities-30.html#activities-30-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Now let's look at a few applications... "
+},
+{
+  "id": "activities-30-11",
+  "level": "2",
+  "url": "activities-30.html#activities-30-11",
+  "type": "Activity",
+  "number": "113",
+  "title": "Activity 4.4.3.",
+  "body": " Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?   "
+},
+{
+  "id": "activities-30-12",
+  "level": "2",
+  "url": "activities-30.html#activities-30-12",
+  "type": "Activity",
+  "number": "114",
+  "title": "Activity 4.4.4.",
+  "body": " Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?   "
+},
+{
+  "id": "activities-30-13",
+  "level": "2",
+  "url": "activities-30.html#activities-30-13",
+  "type": "Activity",
+  "number": "115",
+  "title": "Activity 4.4.5.",
+  "body": " Activity 4.4.5   A camera is tracking the launch of a rocket. The camera is located 4000 feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle (in radians) is the camera tilted when the rocket is 3000 feet off the ground? Answer both exactly and approximately.  Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height . Determine the camera’s angle, , as a function of , (so and will show up on the right), and use Desmos to help compute the average rate of change of on the intervals , , and . What do you observe about how the camera angle is changing?   "
 },
 {
   "id": "activities-31",
@@ -1545,35 +1482,62 @@ var ptx_lunr_docs = [
   "url": "activities-31.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 5.2: Polynomials",
-  "body": " Section 5.2: Polynomials   Definition 5.2.1   Polynomial of degree     coefficients  terms  degree  zeros\/roots  turning points      ex:  Factored form:  Sign Chart Example as a Class: , with .   Activity 5.2.2   By experimenting with coefficients in Desmos, find a formula for a polynomial function that has the stated properties, or explain why no such polynomial exists. (If you enter in Desmos, you’ll get prompted to add sliders that make it easy to explore a degree polynomial.)     A polynomial of degree 5 with exactly 3 real zeros, 4 turning points, and such that and .      A polynomial of degree 4 with exactly 4 real zeros, 3 turning points, and such that and .      A polynomial of degree 6 with exactly 2 real zeros, 3 turning points, and such that and .      A polynomial of degree 5 with exactly 5 real zeros, 3 turning points, and such that and .      Activity 5.2.3   Consider the polynomial function given by     What is the degree of ? How can you tell without fully expanding the factored form of the function?      What can you always say about the sign of the factor ? (Positive, negative, either, can you tell?)      What are the zeros of the polynomial ?      Construct a sign chart for by using the zeros you identified in (c) and then analyzing the sign of each factor of .      Without using a graphing utility, construct an approximate graph of that has the zeros of carefully labeled on the -axis.      Use a graphing utility to check your earlier work. What is challenging or misleading when using technology to graph ?     Multiplicities (as a class)       Activity 5.2.4. Multiplicities   For each of the following prompts, try to determine a formula for a polynomial that satisfies the given criteria. If no such polynomial exists, explain why.     A polynomial of degree whose zeros are (multiplicity 3), (multiplicity 2), (multiplicity 4), and (multiplicity 1), and satisfies . What can you say about the values of and ?      A polynomial of degree 9 that satisfies and has the graph shown in the figure below. Assume that all of the zeros of are shown in the figure.       A polynomial of degree 8 with 3 distinct real zeros (possibly of different multiplicities) such that has the sign chart in below and satisfies .       A polynomial of degree 9 with 3 distinct real zeros (possibly of different multiplicities) such that satisfies the sign chart in part (c) and satisfies .      A polynomial of degree 11 that satisfies and has the graph shown in the figure in part (b). Assume that all of the zeros of are shown in the figure.     "
+  "title": "Section 5.1: Infinity, Limits, Power Functions",
+  "body": " Section 5.1: Infinity, Limits, Power Functions  Infinity & Limits   Definition 5.1.3.   Limit Notation.   the limit of as goes to infinity is .  ** If doesn’t increase without bound, doesn’t decrease without bound, and doesn’t approach a single value as , we say that does not have a limit as .     Activity 5.1.1   Complete each of the following statements with an appropriate number or the symbols or . Do your best to do so without using a graphing utility; instead use your understanding of the function’s graph.     As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      Activity 5.1.2   Complete the table by entering , , , or no limit as appropriate to identify the function behavior as (increases without bound) or as (decreases without bound). As much as possible, try to do it without a graphing utility.   Power Functions     Definition 5.1.5   A function of the form where is any real number is a power function .     Activity 5.1.3. Power functions with positive integer powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zu . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?     Negative powers    Activity 5.1.4. Power functions with negative powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zv . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ? (Be careful with negative numbers here: e.g., .)      How do your answers change on the interval ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Explain why for any choice of .  Practice finding limits (can you try it first without graphing?)                                                        You hopefully noticed both and as . Graph , and use the graph to find . Any guesses why this is the limit? (Hint: look at the graph of and the graph of separately.)      Graph , what does it approach as ? Any guesses why?      Both and as . Graph and use it to determine . Any guesses why this is the limit?     ** Infinities are weird!  "
 },
 {
   "id": "activities-31-2",
   "level": "2",
   "url": "activities-31.html#activities-31-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Infinity & Limits "
+},
+{
+  "id": "activities-31-3",
+  "level": "2",
+  "url": "activities-31.html#activities-31-3",
   "type": "Definition",
-  "number": "121",
-  "title": "Definition 5.2.1.",
-  "body": " Definition 5.2.1   Polynomial of degree     coefficients  terms  degree  zeros\/roots  turning points     "
+  "number": "116",
+  "title": "Definition 5.1.3..",
+  "body": " Definition 5.1.3.   Limit Notation.   the limit of as goes to infinity is .  ** If doesn’t increase without bound, doesn’t decrease without bound, and doesn’t approach a single value as , we say that does not have a limit as .   "
+},
+{
+  "id": "activities-31-4",
+  "level": "2",
+  "url": "activities-31.html#activities-31-4",
+  "type": "Activity",
+  "number": "117",
+  "title": "Activity 5.1.1.",
+  "body": " Activity 5.1.1   Complete each of the following statements with an appropriate number or the symbols or . Do your best to do so without using a graphing utility; instead use your understanding of the function’s graph.     As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .    "
+},
+{
+  "id": "activities-31-5",
+  "level": "2",
+  "url": "activities-31.html#activities-31-5",
+  "type": "Activity",
+  "number": "118",
+  "title": "Activity 5.1.2.",
+  "body": " Activity 5.1.2   Complete the table by entering , , , or no limit as appropriate to identify the function behavior as (increases without bound) or as (decreases without bound). As much as possible, try to do it without a graphing utility.   Power Functions   "
 },
 {
   "id": "activities-31-6",
   "level": "2",
   "url": "activities-31.html#activities-31-6",
-  "type": "Activity",
-  "number": "122",
-  "title": "Activity 5.2.2.",
-  "body": " Activity 5.2.2   By experimenting with coefficients in Desmos, find a formula for a polynomial function that has the stated properties, or explain why no such polynomial exists. (If you enter in Desmos, you’ll get prompted to add sliders that make it easy to explore a degree polynomial.)     A polynomial of degree 5 with exactly 3 real zeros, 4 turning points, and such that and .      A polynomial of degree 4 with exactly 4 real zeros, 3 turning points, and such that and .      A polynomial of degree 6 with exactly 2 real zeros, 3 turning points, and such that and .      A polynomial of degree 5 with exactly 5 real zeros, 3 turning points, and such that and .    "
+  "type": "Definition",
+  "number": "119",
+  "title": "Definition 5.1.5.",
+  "body": " Definition 5.1.5   A function of the form where is any real number is a power function .   "
 },
 {
   "id": "activities-31-7",
   "level": "2",
   "url": "activities-31.html#activities-31-7",
   "type": "Activity",
-  "number": "123",
-  "title": "Activity 5.2.3.",
-  "body": " Activity 5.2.3   Consider the polynomial function given by     What is the degree of ? How can you tell without fully expanding the factored form of the function?      What can you always say about the sign of the factor ? (Positive, negative, either, can you tell?)      What are the zeros of the polynomial ?      Construct a sign chart for by using the zeros you identified in (c) and then analyzing the sign of each factor of .      Without using a graphing utility, construct an approximate graph of that has the zeros of carefully labeled on the -axis.      Use a graphing utility to check your earlier work. What is challenging or misleading when using technology to graph ?    "
+  "number": "120",
+  "title": "Activity 5.1.3. Power functions with positive integer powers.",
+  "body": " Activity 5.1.3. Power functions with positive integer powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zu . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?    "
 },
 {
   "id": "activities-31-8",
@@ -1582,16 +1546,16 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Multiplicities "
+  "body": "Negative powers "
 },
 {
-  "id": "activities-31-13",
+  "id": "activities-31-9",
   "level": "2",
-  "url": "activities-31.html#activities-31-13",
+  "url": "activities-31.html#activities-31-9",
   "type": "Activity",
-  "number": "124",
-  "title": "Activity 5.2.4. Multiplicities.",
-  "body": " Activity 5.2.4. Multiplicities   For each of the following prompts, try to determine a formula for a polynomial that satisfies the given criteria. If no such polynomial exists, explain why.     A polynomial of degree whose zeros are (multiplicity 3), (multiplicity 2), (multiplicity 4), and (multiplicity 1), and satisfies . What can you say about the values of and ?      A polynomial of degree 9 that satisfies and has the graph shown in the figure below. Assume that all of the zeros of are shown in the figure.       A polynomial of degree 8 with 3 distinct real zeros (possibly of different multiplicities) such that has the sign chart in below and satisfies .       A polynomial of degree 9 with 3 distinct real zeros (possibly of different multiplicities) such that satisfies the sign chart in part (c) and satisfies .      A polynomial of degree 11 that satisfies and has the graph shown in the figure in part (b). Assume that all of the zeros of are shown in the figure.    "
+  "number": "121",
+  "title": "Activity 5.1.4. Power functions with negative powers.",
+  "body": " Activity 5.1.4. Power functions with negative powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zv . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ? (Be careful with negative numbers here: e.g., .)      How do your answers change on the interval ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Explain why for any choice of .  Practice finding limits (can you try it first without graphing?)                                                        You hopefully noticed both and as . Graph , and use the graph to find . Any guesses why this is the limit? (Hint: look at the graph of and the graph of separately.)      Graph , what does it approach as ? Any guesses why?      Both and as . Graph and use it to determine . Any guesses why this is the limit?    "
 },
 {
   "id": "activities-32",
@@ -1599,49 +1563,103 @@ var ptx_lunr_docs = [
   "url": "activities-32.html",
   "type": "Handout",
   "number": "",
-  "title": "Section 5.3: Modeling with Polynomials",
-  "body": " Section 5.3: Modeling with Polynomials    Volume of a 3D box: length width height  Surface area of a 3D box: add up the area of each of the 6 sides     Activity 5.3.1   A piece of cardboard that is (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the cardboard and the remaining sides are folded up.     Let be the side length of the squares being cut from the corners of the cardboard. Draw a labeled diagram that shows the given information and the variable being used.      Determine a formula for the function whose output is the volume of the box that results from a square of size being cut from each corner of the cardboard.      What familiar kind of function is ?      If we start with a small positive value for and let that value get larger and larger, what is the first value of we encounter that makes it impossible to remove squares from the cardboard and still form a box?      What are the zeros of ? What is the domain of the model in the context of the rectangular box?       Volume of a 3D box: length width height  Surface area of a 3D box: add up the area of each of the 6 sides     Activity 5.3.2   According to a shipping company’s regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed 120 inches, where by girth we mean the perimeter of one end.   Suppose that we want to ship a parcel that has a square end of width and an overall length of , both measured in inches.     Label the provided picture, using for the length of each side of the square end, and for the other edge of the package.      How does the length plus girth of 120 inches result in an equation (often called a constraint equation) that relates and ? Explain, and state the equation.      Solve the equation you found in (b) for one of the variables present.      Hence determine the volume, , of the package as a function of a single variable.      What is the domain of the function in the context of the physical setting of this problem? (Hint: neither nor can equal 0.)       Volume of a cylinder:  Surface area of a cylinder:     Activity 5.3.3   Suppose that we want to construct a cylindrical can using square inches of material for the surface of the can. In this context, how does the can’s volume depend on the radius we choose? Let the cylindrical can have base radius and height .     Use the formula for the surface area of a cylinder and the given constraint that the can’s surface area is 60 square inches to write an equation that connects the radius and height .      Solve the equation you found in (a) for in terms of .      Recall that the volume of a cylinder is . Use your work in (b) to write as a function of the single variable ; simplify the formula as much as possible.      What is the domain of the function in the context of the physical setting of this problem? (Hint: how does the constraint on surface area provide an upper bound for the value of ? Think about the maximum area that can be allocated to the top and bottom of the can.)      Activity   The Heat Index combines the temperature of the air and the relative humidity to determine how hot it feels, that is, what humans would perceive as the temperature.    "
+  "title": "Section 5.2: Polynomials",
+  "body": " Section 5.2: Polynomials   Definition 5.2.1   Polynomial of degree     coefficients  terms  degree  zeros\/roots  turning points      ex:  Factored form:  Sign Chart Example as a Class: , with .   Activity 5.2.2   By experimenting with coefficients in Desmos, find a formula for a polynomial function that has the stated properties, or explain why no such polynomial exists. (If you enter in Desmos, you’ll get prompted to add sliders that make it easy to explore a degree polynomial.)     A polynomial of degree 5 with exactly 3 real zeros, 4 turning points, and such that and .      A polynomial of degree 4 with exactly 4 real zeros, 3 turning points, and such that and .      A polynomial of degree 6 with exactly 2 real zeros, 3 turning points, and such that and .      A polynomial of degree 5 with exactly 5 real zeros, 3 turning points, and such that and .      Activity 5.2.3   Consider the polynomial function given by     What is the degree of ? How can you tell without fully expanding the factored form of the function?      What can you always say about the sign of the factor ? (Positive, negative, either, can you tell?)      What are the zeros of the polynomial ?      Construct a sign chart for by using the zeros you identified in (c) and then analyzing the sign of each factor of .      Without using a graphing utility, construct an approximate graph of that has the zeros of carefully labeled on the -axis.      Use a graphing utility to check your earlier work. What is challenging or misleading when using technology to graph ?     Multiplicities (as a class)       Activity 5.2.4. Multiplicities   For each of the following prompts, try to determine a formula for a polynomial that satisfies the given criteria. If no such polynomial exists, explain why.     A polynomial of degree whose zeros are (multiplicity 3), (multiplicity 2), (multiplicity 4), and (multiplicity 1), and satisfies . What can you say about the values of and ?      A polynomial of degree 9 that satisfies and has the graph shown in the figure below. Assume that all of the zeros of are shown in the figure.       A polynomial of degree 8 with 3 distinct real zeros (possibly of different multiplicities) such that has the sign chart in below and satisfies .       A polynomial of degree 9 with 3 distinct real zeros (possibly of different multiplicities) such that satisfies the sign chart in part (c) and satisfies .      A polynomial of degree 11 that satisfies and has the graph shown in the figure in part (b). Assume that all of the zeros of are shown in the figure.     "
 },
 {
-  "id": "activities-32-3",
+  "id": "activities-32-2",
   "level": "2",
-  "url": "activities-32.html#activities-32-3",
-  "type": "Activity",
-  "number": "125",
-  "title": "Activity 5.3.1.",
-  "body": " Activity 5.3.1   A piece of cardboard that is (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the cardboard and the remaining sides are folded up.     Let be the side length of the squares being cut from the corners of the cardboard. Draw a labeled diagram that shows the given information and the variable being used.      Determine a formula for the function whose output is the volume of the box that results from a square of size being cut from each corner of the cardboard.      What familiar kind of function is ?      If we start with a small positive value for and let that value get larger and larger, what is the first value of we encounter that makes it impossible to remove squares from the cardboard and still form a box?      What are the zeros of ? What is the domain of the model in the context of the rectangular box?    "
+  "url": "activities-32.html#activities-32-2",
+  "type": "Definition",
+  "number": "122",
+  "title": "Definition 5.2.1.",
+  "body": " Definition 5.2.1   Polynomial of degree     coefficients  terms  degree  zeros\/roots  turning points     "
 },
 {
-  "id": "activities-32-5",
+  "id": "activities-32-6",
   "level": "2",
-  "url": "activities-32.html#activities-32-5",
+  "url": "activities-32.html#activities-32-6",
   "type": "Activity",
-  "number": "126",
-  "title": "Activity 5.3.2.",
-  "body": " Activity 5.3.2   According to a shipping company’s regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed 120 inches, where by girth we mean the perimeter of one end.   Suppose that we want to ship a parcel that has a square end of width and an overall length of , both measured in inches.     Label the provided picture, using for the length of each side of the square end, and for the other edge of the package.      How does the length plus girth of 120 inches result in an equation (often called a constraint equation) that relates and ? Explain, and state the equation.      Solve the equation you found in (b) for one of the variables present.      Hence determine the volume, , of the package as a function of a single variable.      What is the domain of the function in the context of the physical setting of this problem? (Hint: neither nor can equal 0.)    "
+  "number": "123",
+  "title": "Activity 5.2.2.",
+  "body": " Activity 5.2.2   By experimenting with coefficients in Desmos, find a formula for a polynomial function that has the stated properties, or explain why no such polynomial exists. (If you enter in Desmos, you’ll get prompted to add sliders that make it easy to explore a degree polynomial.)     A polynomial of degree 5 with exactly 3 real zeros, 4 turning points, and such that and .      A polynomial of degree 4 with exactly 4 real zeros, 3 turning points, and such that and .      A polynomial of degree 6 with exactly 2 real zeros, 3 turning points, and such that and .      A polynomial of degree 5 with exactly 5 real zeros, 3 turning points, and such that and .    "
 },
 {
   "id": "activities-32-7",
   "level": "2",
   "url": "activities-32.html#activities-32-7",
   "type": "Activity",
-  "number": "127",
-  "title": "Activity 5.3.3.",
-  "body": " Activity 5.3.3   Suppose that we want to construct a cylindrical can using square inches of material for the surface of the can. In this context, how does the can’s volume depend on the radius we choose? Let the cylindrical can have base radius and height .     Use the formula for the surface area of a cylinder and the given constraint that the can’s surface area is 60 square inches to write an equation that connects the radius and height .      Solve the equation you found in (a) for in terms of .      Recall that the volume of a cylinder is . Use your work in (b) to write as a function of the single variable ; simplify the formula as much as possible.      What is the domain of the function in the context of the physical setting of this problem? (Hint: how does the constraint on surface area provide an upper bound for the value of ? Think about the maximum area that can be allocated to the top and bottom of the can.)    "
+  "number": "124",
+  "title": "Activity 5.2.3.",
+  "body": " Activity 5.2.3   Consider the polynomial function given by     What is the degree of ? How can you tell without fully expanding the factored form of the function?      What can you always say about the sign of the factor ? (Positive, negative, either, can you tell?)      What are the zeros of the polynomial ?      Construct a sign chart for by using the zeros you identified in (c) and then analyzing the sign of each factor of .      Without using a graphing utility, construct an approximate graph of that has the zeros of carefully labeled on the -axis.      Use a graphing utility to check your earlier work. What is challenging or misleading when using technology to graph ?    "
 },
 {
   "id": "activities-32-8",
   "level": "2",
   "url": "activities-32.html#activities-32-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Multiplicities "
+},
+{
+  "id": "activities-32-13",
+  "level": "2",
+  "url": "activities-32.html#activities-32-13",
   "type": "Activity",
-  "number": "128",
-  "title": "Activity.",
-  "body": " Activity   The Heat Index combines the temperature of the air and the relative humidity to determine how hot it feels, that is, what humans would perceive as the temperature.   "
+  "number": "125",
+  "title": "Activity 5.2.4. Multiplicities.",
+  "body": " Activity 5.2.4. Multiplicities   For each of the following prompts, try to determine a formula for a polynomial that satisfies the given criteria. If no such polynomial exists, explain why.     A polynomial of degree whose zeros are (multiplicity 3), (multiplicity 2), (multiplicity 4), and (multiplicity 1), and satisfies . What can you say about the values of and ?      A polynomial of degree 9 that satisfies and has the graph shown in the figure below. Assume that all of the zeros of are shown in the figure.       A polynomial of degree 8 with 3 distinct real zeros (possibly of different multiplicities) such that has the sign chart in below and satisfies .       A polynomial of degree 9 with 3 distinct real zeros (possibly of different multiplicities) such that satisfies the sign chart in part (c) and satisfies .      A polynomial of degree 11 that satisfies and has the graph shown in the figure in part (b). Assume that all of the zeros of are shown in the figure.    "
 },
 {
   "id": "activities-33",
   "level": "1",
   "url": "activities-33.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Section 5.3: Modeling with Polynomials",
+  "body": " Section 5.3: Modeling with Polynomials    Volume of a 3D box: length width height  Surface area of a 3D box: add up the area of each of the 6 sides     Activity 5.3.1   A piece of cardboard that is (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the cardboard and the remaining sides are folded up.     Let be the side length of the squares being cut from the corners of the cardboard. Draw a labeled diagram that shows the given information and the variable being used.      Determine a formula for the function whose output is the volume of the box that results from a square of size being cut from each corner of the cardboard.      What familiar kind of function is ?      If we start with a small positive value for and let that value get larger and larger, what is the first value of we encounter that makes it impossible to remove squares from the cardboard and still form a box?      What are the zeros of ? What is the domain of the model in the context of the rectangular box?       Volume of a 3D box: length width height  Surface area of a 3D box: add up the area of each of the 6 sides     Activity 5.3.2   According to a shipping company’s regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed 120 inches, where by girth we mean the perimeter of one end.   Suppose that we want to ship a parcel that has a square end of width and an overall length of , both measured in inches.     Label the provided picture, using for the length of each side of the square end, and for the other edge of the package.      How does the length plus girth of 120 inches result in an equation (often called a constraint equation) that relates and ? Explain, and state the equation.      Solve the equation you found in (b) for one of the variables present.      Hence determine the volume, , of the package as a function of a single variable.      What is the domain of the function in the context of the physical setting of this problem? (Hint: neither nor can equal 0.)       Volume of a cylinder:  Surface area of a cylinder:     Activity 5.3.3   Suppose that we want to construct a cylindrical can using square inches of material for the surface of the can. In this context, how does the can’s volume depend on the radius we choose? Let the cylindrical can have base radius and height .     Use the formula for the surface area of a cylinder and the given constraint that the can’s surface area is 60 square inches to write an equation that connects the radius and height .      Solve the equation you found in (a) for in terms of .      Recall that the volume of a cylinder is . Use your work in (b) to write as a function of the single variable ; simplify the formula as much as possible.      What is the domain of the function in the context of the physical setting of this problem? (Hint: how does the constraint on surface area provide an upper bound for the value of ? Think about the maximum area that can be allocated to the top and bottom of the can.)      Activity   The Heat Index combines the temperature of the air and the relative humidity to determine how hot it feels, that is, what humans would perceive as the temperature.    "
+},
+{
+  "id": "activities-33-3",
+  "level": "2",
+  "url": "activities-33.html#activities-33-3",
+  "type": "Activity",
+  "number": "126",
+  "title": "Activity 5.3.1.",
+  "body": " Activity 5.3.1   A piece of cardboard that is (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the cardboard and the remaining sides are folded up.     Let be the side length of the squares being cut from the corners of the cardboard. Draw a labeled diagram that shows the given information and the variable being used.      Determine a formula for the function whose output is the volume of the box that results from a square of size being cut from each corner of the cardboard.      What familiar kind of function is ?      If we start with a small positive value for and let that value get larger and larger, what is the first value of we encounter that makes it impossible to remove squares from the cardboard and still form a box?      What are the zeros of ? What is the domain of the model in the context of the rectangular box?    "
+},
+{
+  "id": "activities-33-5",
+  "level": "2",
+  "url": "activities-33.html#activities-33-5",
+  "type": "Activity",
+  "number": "127",
+  "title": "Activity 5.3.2.",
+  "body": " Activity 5.3.2   According to a shipping company’s regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed 120 inches, where by girth we mean the perimeter of one end.   Suppose that we want to ship a parcel that has a square end of width and an overall length of , both measured in inches.     Label the provided picture, using for the length of each side of the square end, and for the other edge of the package.      How does the length plus girth of 120 inches result in an equation (often called a constraint equation) that relates and ? Explain, and state the equation.      Solve the equation you found in (b) for one of the variables present.      Hence determine the volume, , of the package as a function of a single variable.      What is the domain of the function in the context of the physical setting of this problem? (Hint: neither nor can equal 0.)    "
+},
+{
+  "id": "activities-33-7",
+  "level": "2",
+  "url": "activities-33.html#activities-33-7",
+  "type": "Activity",
+  "number": "128",
+  "title": "Activity 5.3.3.",
+  "body": " Activity 5.3.3   Suppose that we want to construct a cylindrical can using square inches of material for the surface of the can. In this context, how does the can’s volume depend on the radius we choose? Let the cylindrical can have base radius and height .     Use the formula for the surface area of a cylinder and the given constraint that the can’s surface area is 60 square inches to write an equation that connects the radius and height .      Solve the equation you found in (a) for in terms of .      Recall that the volume of a cylinder is . Use your work in (b) to write as a function of the single variable ; simplify the formula as much as possible.      What is the domain of the function in the context of the physical setting of this problem? (Hint: how does the constraint on surface area provide an upper bound for the value of ? Think about the maximum area that can be allocated to the top and bottom of the can.)    "
+},
+{
+  "id": "activities-33-8",
+  "level": "2",
+  "url": "activities-33.html#activities-33-8",
+  "type": "Activity",
+  "number": "129",
+  "title": "Activity.",
+  "body": " Activity   The Heat Index combines the temperature of the air and the relative humidity to determine how hot it feels, that is, what humans would perceive as the temperature.   "
+},
+{
+  "id": "activities-34",
+  "level": "1",
+  "url": "activities-34.html",
   "type": "Handout",
   "number": "",
   "title": "unit_circle",
@@ -1663,7 +1681,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework Expectations",
-  "body": " Homework Expectations    MTH 124    Instructions: Complete all the exercises below and submit your work by the due date.     Directions. By 12:00 PM each Thursday at the beginning of class, a homework problem will be due. You will turn in this paper copy of your homework.   Expectations.    Your solutions should be written as if you are explaining the solution to other students in this class that have not seen this problem before. Remind the reader of relevant facts and details.    Explain your work in complete sentences . You should have complete thoughts.    You do not need to write out every trivial step (too many details can be a bad thing).      Not So Good Example.        Why this is not so good:   You don't know what problem the writer was solving.    You can't tell what's an assumption and what's a conclusion.    Where does one thought end and another begin? There are no sentences!    In the 2nd line: combining two thoughts can create untruths ( is 9 but it isn't 25).    The 3rd line dangles; what's being asserted here? It's not a sentence.    What's the relationship between all these phrases? Connective phrases would help!      Good Example.     Problem: Find a point in the plane on the positive x-axis that has distance 5 from the point .   Solution: To find this, we note that if is a solution, then must satisfy the equation , which follows from the planar distance formula betewen the points and . It follows that . Then Factoring, we obtain which is satisfied by either or . Since we assumed and , then it must be that the desired point is .    "
+  "body": " Homework Expectations    MTH 124    Instructions: Complete all the exercises below and submit your work by the due date.     Directions. By 12:00 PM each Thursday at the beginning of class, a homework problem will be due. You will turn in this paper copy of your homework.   Expectations.    Your solutions should be written as if you are explaining the solution to other students in this class that have not seen this problem before. Remind the reader of relevant facts and details.    Explain your work in complete sentences . You should have complete thoughts.    You do not need to write out every trivial step (too many details can be a bad thing).      Not So Good Example.        Why this is not so good:   You don't know what problem the writer was solving.    You can't tell what's an assumption and what's a conclusion.    Where does one thought end and another begin? There are no sentences!    In the 2nd line: combining two thoughts can create untruths ( is 9 but it isn't 25).    The 3rd line dangles; what's being asserted here? It's not a sentence.    What's the relationship between all these phrases? Connective phrases would help!      Good Example.     Problem: Find a point in the plane on the positive x-axis that has distance 5 from the point .   Solution: To find this, we note that if is a solution, then must satisfy the equation , which follows from the planar distance formula betewen the points and . It follows that . Then Factoring, we obtain which is satisfied by either or . Since we assumed and , then it must be that the desired point is .      Homework Revisions  You are allowed to resubmit up to 2 problems per week. The resubmission can be from any assignment and you submit a problem as many times as you want. Here is what a revised problem requires:   Write your revisions in a different color, or on a new sheet of paper.    Turn in your first draft with the original problem with your revision.   Rewrite your whole solution as if you are doing the problem for the first time.   Write at least 2 sentences about what you learned from redoing the problem. You could say something like \"I used to think that... But now I know that...\".   You must have submitted the first draft by the deadline (or asked for an extension before the deadline) to be able to resubmit.   Hand resubmissions to me in person during class time or office hours.       "
 },
 {
   "id": "homework-3",
