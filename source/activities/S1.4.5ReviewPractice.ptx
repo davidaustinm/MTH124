@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Practice Through Section 1.4</title>
+    <p>
+    <alert>
+        MTH 124
+    </alert>
+    </p>
+    
+ 
+
+    <activity>
+
+
+        <introduction>
+            <p>
+                Consider <m>f(x)=3x^2 + 2x - 1</m>.
+            </p>
+        </introduction>
+
+        <task workspace="0.2in">
+            <statement>
+                <p>
+                    Is <m>f(x)</m> a function?
+                </p>
+            </statement>
+        
+        </task>
+
+        <task workspace="0.2in">
+            <statement>
+                <p>
+                    What is <m>f(-2)</m>?
+                </p>
+            </statement>
+        
+        </task>
+
+        <task workspace="0.2in">
+            <statement>
+                <p>
+                    What is <m>f(\sqrt(2))</m>
+                </p>
+            </statement>
+       
+        </task>
+
+        <task workspace="0.2in">
+            <statement>
+                <p>
+                    How would you find where <m>f(x) = 0</m>?  At minimum, set it up mathematically
+                </p>
+                  
+            </statement>
+            
+        </task>
+        <task workspace="0.3in">
+            <statement>
+                <p>
+                    What is the domain of <m>f</m>?  What is the range?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find <m>AV_{[0,2]}</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the previous problem (hint) to find an equation of 
+                    a line that goes through <m>(0,f(0))</m> and <m>(2, f(2))</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find <m>AV_{[-1,\frac13]}</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Use the previous problem (hint) to find an equation of 
+                    a line that goes through <m>(-1,f(-1))</m> and <m>(\frac13, f(\frac13))</m>.
+                </p>
+            </statement>
+        </task>
+
+       
+    </activity>
+
+   
+
+   
+    </handout>
