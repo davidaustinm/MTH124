@@ -35,6 +35,7 @@
         inverse, <m>f(x)</m> inputs <m>x</m> and outputs <m>y</m>.
         So the inverse of <m>f</m> would input <fillin/> and output <fillin/>.
     </p>
+ 
 
     <p workspace="0.0in">
         Notation: We write the inverse of <m>f</m> as <m>f^{-1}</m>, and we read
@@ -65,6 +66,18 @@
                     <m>F</m>.) Call the resulting function <m>N=E(F)</m>.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    Rearrange and solve for <m>N</m>, so 
+                    <md>
+                        <mrow>F \amp = 40+\frac14N </mrow>
+                        <mrow>F-40 \amp = \frac14N</mrow>
+                        <mrow>4(F-40) \amp = N </mrow>
+                    </md>
+                    so in other words we have a new function <m>N=E(F)=4(F-40)</m> that
+                    inputs <m>F</m> and outputs <m>N</m>.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.8in">
@@ -76,6 +89,12 @@
                     What does it generate as output?
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    This new function inputs the temperature in degrees F and 
+                    outputs the number of chirps per minute.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.8in">
@@ -88,6 +107,26 @@
                     What do you notice about these two composite functions?
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                   Replace <m>F</m> with <m>D(N)=40+\frac14N</m> in the function <m>E(F)</m>, so
+                    <md>
+                        <mrow> E(D(N)) \amp= E(40+\frac14N)</mrow>
+                        <mrow> \amp  = 4\left((40+\frac14N) - 40\right)</mrow>
+                        <mrow> \amp = 4(\frac14N) </mrow>
+                        <mrow> \amp = N </mrow>
+                    </md>
+                    and similarly for <m>D(E(F))</m> replace the <m>N</m>
+                    in <m>D(N)</m> with <m>E(F)=4(F-40)</m>. So
+                    <md>
+                        <mrow>D(E(F)) \amp = D(4(F-40)) </mrow>
+                        <mrow> \amp = 40+\frac14\left(4(F-40)\right) </mrow>
+                        <mrow> \amp = 40+F-40 </mrow>
+                        <mrow> \amp =F.</mrow>
+                    </md>
+                    The <m>F/N</m> you plug in is the same thing you get out!
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.8in">
@@ -101,6 +140,14 @@
                     Explain.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    It's the same relationship from a different perspective. 
+                    For one you know <m>N</m> and find the temp <m>F</m>, 
+                    for the other you know the temp <m>F</m> and find the number 
+                    of chirps per minute <m>N</m>.
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -183,6 +230,15 @@
                     </row>
                 </tabular>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    No inverse function.  The inverse would need to input
+                    <m>f(x)</m> and output <m>x</m>, but if we tried to
+                    start with the 2 for <m>f(x)</m> it would sometimes 
+                    give us <m>x=1</m> and sometimes <m>x=4</m>. In other words, 
+                    <m>{f^{-1}(2) = 1 \text{ or } 4}</m>, we can't do that.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.7in">
@@ -212,6 +268,13 @@
                     </row>
                 </tabular>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    Yes! We have an inverse function!  Each <m>g(x)</m>
+                    has a unique corresponding <m>x</m>!  Ex: <m>g^{-1}(4)=0</m>, 
+                    <m>g^{-1}(0)=1</m>, <m>g^{-1}(3)=2</m>, ...
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.7in">
@@ -222,6 +285,22 @@
                     “all real numbers”.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    Yes inverse function!  There are multiple ways to solve, here's two.
+                
+                </p>
+                <p>
+                    1. You could plot it and check the horizontal line test.  It passes, we 
+                    have an inverse!
+                </p>
+                <p>
+                    2. You could try to solve for <m>t</m> and see if we can do that. (Sometimes this
+                    is not obvious, but here it's ok.) Rearranging we have 
+                    <m>{t=-\frac53(p(t)-7)}</m>, which is totally fine!  We can find 
+                    one equation for <m>t</m>, which represents the inverse function.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.7in">
@@ -232,6 +311,21 @@
                     “all real numbers”.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    No inverse.  Again, to show two ways:
+                </p>
+                <p>
+                    1. Plot it.  It fails the horizontal line test.  Sad.  No inverse.
+                </p>
+                <p>
+                    2. Try to solve for <m>t</m>. We would get 
+                    <m>{t^4 = -\frac53(p(t)-7)}</m>, so either we have 
+                    <m>{t = + (-\frac53(p(t)-7))}</m> or 
+                    <m>{t = - (-\frac53(p(t)-7))}</m>, but there is more than
+                    one solution for <m>t</m>!  No inverse.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.1in">
@@ -304,6 +398,19 @@
                     </image>
                 </sidebyside>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    The left has an inverse function because it passes the 
+                    horizontal line test!  Some examples: <m>r^{-1}(2)=-1</m>, 
+                    <m>r^{-1}(0)=0</m>, <m>r^{-1}(-2)=1</m>, ...
+                </p>
+                <p>
+                    The right has no inverse function since it fails the 
+                    horizontal line test.  Ye can draw a line 
+                    around <m>y=1.5</m> for example and see that the 
+                    y-coordinate corresponds to 2 x-coordinates here.
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -422,6 +529,14 @@
                     its meaning in the given context, including units.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                   Plug in: <m>g(3) = \frac4{3+2}+1 = \frac45+1 = \frac9.5</m> (or 1.8)
+                   cm/hr.  Meaning: At time 3 or 3 hours into measuring, the 
+                   rain is falling at a rate of <m>\frac95</m> cm per hour.  (We expect
+                   about <m>1.8</m> cm of rain for the whole hour starting at hour 3.)
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -436,6 +551,17 @@
                     what you should expect as time goes on.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    Average rate of change formula (i.e. slope between the point when 
+                    <m>x=3</m> and <m>x=5</m>!): 
+                    <md>AV_{[3,5]} = \frac{g(5)-g(3)}{5-3} = -0.115 \frac{cm/hr}{hr}.</md>
+                    On average between hours 3 and 5 the rate of rain fall is decreasing by 
+                    -0.115 cm / hr / hr.  Or in other words, the rate is slowing down. 
+                    The rain falls faster at the beginning of the interval than at the
+                    end of the interval.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -448,6 +574,13 @@
                     Why does the function <m>g</m> have an inverse function?
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    Restrict to <m>0\le t \le 10</m> and ignore the other times. 
+                    The range is then <m>[\frac43, 3]</m>.  It passes the horizontal line
+                    test.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -457,6 +590,12 @@
                     sentence to explain its meaning in the given context.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    So <m>g^{-1}(\frac95)=3 hrs</m>. When the rate of 
+                    rain fall is <m>\frac95</m> cm/hr, the time is 3 hours.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -469,6 +608,14 @@
                     Provide an algebraic justification for your answer.
                 </p>
             </statement>
+            <solution component="S1-7-soln">
+                <p>
+                    Nope!  You can see it from the graph or if <m>R=1</m>, 
+                    then <m>1=\frac{4}{t+2}+1</m>, solving for <m>t</m> gives 
+                    <m>0=\frac{4}{t+1}</m>, or in other words
+                    <m>0=4</m> is not possible.
+                </p>
+            </solution>
         </task>
     </activity>
 </handout>
