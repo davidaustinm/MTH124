@@ -25,6 +25,11 @@
                     Is <m>f(x)</m> a function?
                 </p>
             </statement>
+            <solution component="S1-4-5-Practice-soln">
+                <p>
+                    Yes!  Each <m>x</m> input only corresponds to one unique output.
+                </p>
+            </solution>
         
         </task>
 
@@ -34,16 +39,24 @@
                     What is <m>f(-2)</m>?
                 </p>
             </statement>
-        
+        <solution component="S1-4-5-Practice-soln">
+                <p>
+                    Plug it in. <m>f(-2) = 3(-2)^2+2(-2)-1 = 7</m>
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.2in">
             <statement>
                 <p>
-                    What is <m>f(\sqrt(2))</m>
+                    What is <m>f(\sqrt{2})</m>
                 </p>
             </statement>
-       
+       <solution component="S1-4-5-Practice-soln">
+                <p>
+                    Plug it in. <m>f(\sqrt{2}) = 3(\sqrt{2})^2+2(\sqrt{2})-1 = 6+2\sqrt{2}-1 = 5+2\sqrt{2}</m>.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.2in">
@@ -53,7 +66,18 @@
                 </p>
                   
             </statement>
-            
+            <solution component="S1-4-5-Practice-soln">
+                <p>
+                    You are looking at the <m>x</m> for which <m>f(x)=0</m>.  It's the 
+                    output that is equal to 0, not the input. You are solving 
+                    <md>
+                        0 = 3x^2 + 2x - 1.
+                    </md>
+                    For now, the easiest way to solve this is to plot the function and 
+                    see where it hits the x-axis.  You would find it is true at <m>x=-1</m>
+                    and <m>x=\frac13</m>.
+                </p>
+            </solution>
         </task>
         <task workspace="0.3in">
             <statement>
@@ -61,6 +85,16 @@
                     What is the domain of <m>f</m>?  What is the range?
                 </p>
             </statement>
+            <solution component="S1-4-5-Practice-soln">
+                <p>
+                    We can plug in anything for <m>x</m> (no holes, no dividing
+                    by 0, no attempting to take the square root of a negative number), 
+                    so domain is <m>(-\infty,\infty)</m>. Range is outputs.  For now, 
+                    it's easiest to see by plotting, we cannot get out anything less than 
+                    <m>-1.333</m>.  But we can get that out!  So the range is 
+                    <m>[-1.333, \infty)</m>.
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.5in">
@@ -69,6 +103,16 @@
                     Find <m>AV_{[0,2]}</m>.
                 </p>
             </statement>
+            <solution component="S1-4-5-Practice-soln">
+                <p>
+                    Formula!  Or slope formula.  We will need <m>f(0)=-1</m> and 
+                    <m>f(2) = 15</m>.  Then
+                    <md>
+                        AV_{[0,2]} = \frac{f(2) - f(0)}{2-0} = \frac{15-(-1)}{2}=8
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
         <task workspace="0.5in">
             <statement>
@@ -77,6 +121,18 @@
                     a line that goes through <m>(0,f(0))</m> and <m>(2, f(2))</m>.
                 </p>
             </statement>
+            <solution component="S1-4-5-Practice-soln">
+                <p>
+                    The slope between two points is the average rate of change between
+                    those two points!  So we take <m>{m=AV_{[0,2]}=8}</m>. Now we just need
+                    a point, take either.  I'll use <m>(0,f(0)) = (0,-1)</m>.  Using the 
+                    point-slope form we have
+                    <md>
+                        y = 8(x-0)+(-1) = 8x-1.
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.5in">
@@ -85,6 +141,15 @@
                     Find <m>AV_{[-1,\frac13]}</m>.
                 </p>
             </statement>
+            <solution component="S1-4-5-Practice-soln">
+                <p>
+                    We need <m>f(-1) = 0</m> and <m>f(\frac13)=0</m>.  Then
+                    <md>
+                        AV_{[-1,\frac13]} = \frac{f(\frac13)-f(-1)}{\frac13-(-1)} = \frac{0-0}{\frac43} = 0.
+                    </md>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.5in">
@@ -94,6 +159,17 @@
                     a line that goes through <m>(-1,f(-1))</m> and <m>(\frac13, f(\frac13))</m>.
                 </p>
             </statement>
+            <solution component="S1-4-5-Practice-soln">
+                <p>
+                    Slight challenge!  Since <m>m = AV_{[-1,\frac13]}= 0</m>, the slope is 0!  
+                    Using point-slope form with the point <m>(-1, f(-1))=(-1,0)</m>
+                    (though you could use either point) you get
+                    <md>
+                        y = 0(x-(-1))+0 = 0.
+                    </md>
+                    It's simply <m>y=0</m>, or the x-axis.  Cool.
+                </p>
+            </solution>
         </task>
 
        
