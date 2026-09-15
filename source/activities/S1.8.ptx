@@ -2,7 +2,11 @@
 
 <handout>
     <title>Section 1.8: Transformations of Functions</title>
-    <p><alert>MTH 124</alert></p>
+
+    <p>
+        <alert>MTH 124</alert>
+    </p>
+
     <assemblage>
         <title>Vertical Translation of a Function</title>
 
@@ -40,78 +44,126 @@
 
     <p workspace="0.05in">
         The graph on the left shows the vertical translation of the function
-        <m>{y=f(x)=|x|}</m>, it is shifted vertically downward by 3, so it becomes
-        the graph <m>{g(x) = f(x) - 3}</m>.
+        <m>{y=f(x)=|x|}</m>, it is shifted vertically downward by 3, so it
+        becomes the graph <m>{g(x) = f(x) - 3}</m>.
     </p>
 
     <sidebyside widths="30% 35% 30%">
-      <image>
-        <shortdescription>A piecewise graph f(x) shifted down by 3 under the transformation g(x)=f(x)-3.</shortdescription>
-        <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-0-a">
-                        <diagram dimensions="(200,200)" margins="5">
-                            <definition>
-                                f(x) = abs(x)
-                            </definition>
-                            <definition>g(x)=f(x)-3</definition>
-                            <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes xlabel="x" ylabel="y" decorations="no"/>
-                                <graph function="f" dash="4 4" />
-                                <graph function="g" />
-                                <point p="(-3,3)" alignment="se" style="diamond"></point>
-                                  <point p="(-3,0)" alignment="se" style="diamond"></point>
-                                    <point p="(2,2)" alignment="se" style="box"></point>
-                                      <point p="(2,-1)" alignment="se" style="box"></point>
-                                <point p="(0,0)" alignment="se"><m>(0,0)</m></point>
-                                <point p="(0,-3)" alignment="se" ><m>(0,-3)</m></point>
-                                <vector tail="(-3,3)" v="(0,-3)" stroke="red" dash="4 6"/>
-                                <vector tail="(3,3)" v="(0,-3)" stroke="red" dash="4 6"/>
-                                <label anchor="(-2,2)" alignment="ne"><m>f(x)</m></label>
-                                <label anchor="(-2,-1)" alignment="sw"><m>g(x)</m></label>
+        <image>
+            <shortdescription>
+                A piecewise graph f(x) shifted down by 3 under the
+                transformation g(x)=f(x)-3.
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-0-a">
+                <diagram dimensions="(200,200)" margins="5">
+                    <definition>
+                        f(x) = abs(x)
+                    </definition>
 
-                            </coordinates>
-                        </diagram>
-                    </prefigure>
-      </image>
-       <p>
-        The graph on the right shows the horizontal translation of a function
-        <m>f(x)</m> (given by a piecewise linear equation).
-        Since <m>f</m> is shifted horizontally to the right by <m>2</m>, so it
-        becomes the graph <m>{h(x) = f(x-2)}</m>.
-    </p>
-    <image>
-      <shortdescription>A piecewise graph f(x) shifted right by 2 under the transformation h(x)=f(x-2).</shortdescription>
-      <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-0-b">
-                        <diagram dimensions="(200,200)" margins="5">
-                            <definition>
-                                f(x) = 2*(x+2)+1
-                            </definition>
-                            <definition>g(x)=1/2*(x+2)+1</definition>
-                            <definition>h(x)=f(x-2)</definition>
-                            <definition>k(x)=g(x-2)</definition>
-                            <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes xlabel="x" ylabel="y" decorations="no"/>
-                                <graph function="f" dash="4 4" domain="(-5,-2)"/>
-                                <graph function="g" dash="4 4" domain="(-2,5)"/>
-                                <graph function="h" domain="(-5,0)"/>
-                                <graph function="k"  domain="(0,5)"/>
-                                <point p="(-2,1)" alignment="n"><m>(-2,1)</m></point>
-                                <point p="(0,1)" alignment="se" ><m>(0,1)</m></point>
-                                <point p="(-3.5,-2)" alignment="se" style="diamond"></point>
-                                  <point p="(-1.5,-2)" style="diamond"/>
-                                    <point p="(0,2)" style="box"/>
-                                      <point p="(2,2)" style="box" />
-                                <vector tail="(-3,-1)" v="(2,0)" stroke="red" dash="4 6"/>
-                                <vector tail="(2,3)" v="(2,0)" stroke="red" dash="4 6"/>
-                                <label anchor="(0,2.5)" alignment="ne"><m>f(x)</m></label>
-                                <label anchor="(0,-2)" alignment="sw"><m>h(x)</m></label>
+                    <definition>
+                        g(x)=f(x)-3
+                    </definition>
+                    <coordinates bbox="[-4,-4,4,4]">
+                        <grid-axes xlabel="x" ylabel="y" decorations="no"/>
+                        <graph function="f" dash="4 4"/>
+                        <graph function="g"/>
+                        <point p="(-3,3)" alignment="se" style="diamond"/>
+                        <point p="(-3,0)" alignment="se" style="diamond"/>
+                        <point p="(2,2)" alignment="se" style="box"/>
+                        <point p="(2,-1)" alignment="se" style="box"/>
+                        <point p="(0,0)" alignment="se">
+                            <m>
+                                (0,0)
+                            </m>
+                        </point>
+                        <point p="(0,-3)" alignment="se">
+                            <m>
+                                (0,-3)
+                            </m>
+                        </point>
+                        <vector tail="(-3,3)" v="(0,-3)" stroke="red" dash="4 6"/>
+                        <vector tail="(3,3)" v="(0,-3)" stroke="red" dash="4 6"/>
+                        <label anchor="(-2,2)" alignment="ne">
+                            <m>
+                                f(x)
+                            </m>
+                        </label>
+                        <label anchor="(-2,-1)" alignment="sw">
+                            <m>
+                                g(x)
+                            </m>
+                        </label>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+        </image>
 
-                            </coordinates>
-                        </diagram>
-                    </prefigure>
-    </image>
+        <p>
+            The graph on the right shows the horizontal translation of a
+            function <m>f(x)</m> (given by a piecewise linear equation).
+            Since <m>f</m> is shifted horizontally to the right by <m>2</m>, so
+            it becomes the graph <m>{h(x) = f(x-2)}</m>.
+        </p>
 
+        <image>
+            <shortdescription>
+                A piecewise graph f(x) shifted right by 2 under the
+                transformation h(x)=f(x-2).
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-0-b">
+                <diagram dimensions="(200,200)" margins="5">
+                    <definition>
+                        f(x) = 2*(x+2)+1
+                    </definition>
+
+                    <definition>
+                        g(x)=1/2*(x+2)+1
+                    </definition>
+
+                    <definition>
+                        h(x)=f(x-2)
+                    </definition>
+
+                    <definition>
+                        k(x)=g(x-2)
+                    </definition>
+                    <coordinates bbox="[-4,-4,4,4]">
+                        <grid-axes xlabel="x" ylabel="y" decorations="no"/>
+                        <graph function="f" dash="4 4" domain="(-5,-2)"/>
+                        <graph function="g" dash="4 4" domain="(-2,5)"/>
+                        <graph function="h" domain="(-5,0)"/>
+                        <graph function="k" domain="(0,5)"/>
+                        <point p="(-2,1)" alignment="n">
+                            <m>
+                                (-2,1)
+                            </m>
+                        </point>
+                        <point p="(0,1)" alignment="se">
+                            <m>
+                                (0,1)
+                            </m>
+                        </point>
+                        <point p="(-3.5,-2)" alignment="se" style="diamond"/>
+                        <point p="(-1.5,-2)" style="diamond"/>
+                        <point p="(0,2)" style="box"/>
+                        <point p="(2,2)" style="box"/>
+                        <vector tail="(-3,-1)" v="(2,0)" stroke="red" dash="4 6"/>
+                        <vector tail="(2,3)" v="(2,0)" stroke="red" dash="4 6"/>
+                        <label anchor="(0,2.5)" alignment="ne">
+                            <m>
+                                f(x)
+                            </m>
+                        </label>
+                        <label anchor="(0,-2)" alignment="sw">
+                            <m>
+                                h(x)
+                            </m>
+                        </label>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+        </image>
     </sidebyside>
-   
 
     <p>
         Can plot the original, pick an individual point, transform it, pick
@@ -128,53 +180,62 @@
                 right) given in the figure below.
             </p>
 
-        <sidebyside widths="35% 35%">
-          <image>
-            <shortdescription>A graph r(x) that you will transform in the following problems.</shortdescription>
-            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-2-a">
+            <sidebyside widths="35% 35%">
+                <image>
+                    <shortdescription>
+                        A graph r(x) that you will transform in the following
+                        problems.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-2-a">
                         <diagram dimensions="(200,200)" margins="5">
-                            
                             <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes  decorations="yes"/>
-                                <arc center="(0,-1)" radius = "2" range="(0,180)" />
-                                <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0"
-                                    stroke="blue"  />
+                                <grid-axes decorations="yes"/>
+                                <arc center="(0,-1)" radius="2" range="(0,180)"/>
+                                <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0" stroke="blue"/>
                                 <line endpoints="((-2,-1),(-4,1))" stroke="blue"/>
                                 <line endpoints="((2,-1),(4,1))" stroke="blue"/>
-                                <point p="(-2,-1)" alignment="s"><m>(-2,-1)</m></point>
+                                <point p="(-2,-1)" alignment="s">
+                                    <m>
+                                        (-2,-1)
+                                    </m>
+                                </point>
                                 <point p="(2,-1)"/>
-                                <label anchor="(3,0)" alignment="se"><m>r</m></label>
-                       
-
+                                <label anchor="(3,0)" alignment="se">
+                                    <m>
+                                        r
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
-          </image>
+                </image>
 
-          <image>
-            <shortdescription>A graph s(x) that you will transform in the following problems</shortdescription>
-            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-2-b">
+                <image>
+                    <shortdescription>
+                        A graph s(x) that you will transform in the following
+                        problems
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-2-b">
                         <diagram dimensions="(200,200)" margins="5">
-                            
                             <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes  decorations="yes"/>
-                                
+                                <grid-axes decorations="yes"/>
                                 <line endpoints="((-2,-3),(-4,3))" stroke="blue"/>
                                 <line endpoints="((-2,-3),(4,0))" stroke="blue"/>
-                                <point p="(-2,-3)" alignment="s"><m>(-2,-3)</m></point>
-                                
-                                <label anchor="(-4,3)" alignment="e"><m>s</m></label>
-                       
-
+                                <point p="(-2,-3)" alignment="s">
+                                    <m>
+                                        (-2,-3)
+                                    </m>
+                                </point>
+                                <label anchor="(-4,3)" alignment="e">
+                                    <m>
+                                        s
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
-          </image>
-
-        </sidebyside>
-          
-
-            
+                </image>
+            </sidebyside>
         </introduction>
 
         <task workspace="1in">
@@ -191,6 +252,73 @@
                     and <m>f</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <image width="35%">
+                    <shortdescription>
+                        A graph r(x) with transformation as described in the problems.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-2-a-soln">
+                        <diagram dimensions="(200,200)" margins="5">
+                            <coordinates bbox="[-4,-4,4,4]">
+                                <grid-axes decorations="yes"/>
+                                <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0" stroke="blue"/>
+                                <line endpoints="((-2,-1),(-4,1))" stroke="blue"/>
+                                <line endpoints="((2,-1),(4,1))" stroke="blue"/>
+                                <point p="(-2,-1)" alignment="s">
+                                    <m>
+                                        (-2,-1)
+                                    </m>
+                                </point>
+                                <point p="(2,-1)"/>
+                                <label anchor="(3,0)" alignment="se">
+                                    <m>
+                                        r
+                                    </m>
+                                </label>
+                                <arc center="(0,1)" radius="2" range="(0,180)" arrows="0" stroke="red" dash="4 4"/>
+                                <line endpoints="((-2,1),(-4,3))" stroke="red" dash="4 4"/>
+                                <line endpoints="((2,1),(4,3))" stroke="red" dash="4 4"/>
+                                <point p="(-2,1)" alignment="s"></point>
+                                <point p="(2,1)"/>
+                                <label anchor="(3,2.3)" alignment="se">
+                                    <m>
+                                        g
+                                    </m>
+                                </label>
+                                <arc center="(-1,-1)" radius="2" range="(0,180)" arrows="0" stroke="green" dash="4 2"/>
+                                <line endpoints="((-3,-1),(-5,1))" stroke="green" dash="4 2"/>
+                                <line endpoints="((1,-1),(5,3))" stroke="green" dash="4 2"/>
+                                <point p="(-3,-1)" alignment="s"></point>
+                                <point p="(1,-1)"/>
+                                <label anchor="(3,1.2)" alignment="se">
+                                    <m>
+                                        h
+                                    </m>
+                                </label>
+                                <arc center="(-1,1)" radius="2" range="(0,180)" arrows="0" stroke="black" dash="8 2"/>
+                                <line endpoints="((-3,1),(-5,3))" stroke="black" dash="8 2"/>
+                                <line endpoints="((1,1),(5,5))" stroke="black" dash="8 2"/>
+                                <point p="(-3,1)" alignment="s"></point>
+                                <point p="(1,1)"/>
+                                <label anchor="(3,3.4)" alignment="se">
+                                    <m>
+                                        f
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
+                <p>
+                    <m>g(x)</m> shifts up 2, so <m>(-2,-1)</m> corresponds to <m>(-2,1)</m>.
+                </p>
+                <p>
+                    <m>h(x)</m> shifts left 1, so <m>(-2,-1)</m> corresponds to <m>(-3,-1)</m>.
+                </p>
+                <p>
+                    <m>f(x)</m> shifts up 2 and left 1, so <m>(-2,-1)</m> corresponds to <m>(-3,1)</m>.
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -207,6 +335,11 @@
                     and <m>m</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -218,6 +351,11 @@
                     How is <m>p</m> a transformation of <m>q</m>?
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -230,12 +368,16 @@
             Every point <m>(x,f(x))</m> on the graph of <m>f</m> gets stretched
             vertically to the corresponding point <m>(x,cf(x))</m> on the graph
             of <m>v</m>.
-            </p><p>
+        </p>
+
+        <p>
             If <m>0&lt;c&lt;1</m>, the graph of <m>v</m> is a compression of
             <m>f</m> toward the <m>x</m>-axis.
             If <m>c&gt;1</m>, the graph of <m>v</m> is a stretch of <m>f</m>
             away from the <m>x</m>-axis.
-            </p><p>
+        </p>
+
+        <p>
             If <m>c&lt;0</m>, the transformed function <m>y=v(x)=cf(x)</m> is a
             reflection of the graph of <m>f</m> across the <m>x</m>-axis
             followed by a vertical stretch by a factor of <m>|c|</m>.
@@ -251,50 +393,62 @@
                 right) given in the figure below.
             </p>
 
-             <sidebyside widths="35% 35%">
-          <image>
-            <shortdescription>A graph r(x) that you will transform in the following problems.</shortdescription>
-            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-a">
+            <sidebyside widths="35% 35%">
+                <image>
+                    <shortdescription>
+                        A graph r(x) that you will transform in the following
+                        problems.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-a">
                         <diagram dimensions="(200,200)" margins="5">
-                            
                             <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes  decorations="yes"/>
-                                <arc center="(0,-1)" radius = "2" range="(0,180)" />
-                                <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0"
-                                    stroke="blue"  />
+                                <grid-axes decorations="yes"/>
+                                <arc center="(0,-1)" radius="2" range="(0,180)"/>
+                                <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0" stroke="blue"/>
                                 <line endpoints="((-2,-1),(-4,1))" stroke="blue"/>
                                 <line endpoints="((2,-1),(4,1))" stroke="blue"/>
-                                <point p="(-2,-1)" alignment="s"><m>(-2,-1)</m></point>
+                                <point p="(-2,-1)" alignment="s">
+                                    <m>
+                                        (-2,-1)
+                                    </m>
+                                </point>
                                 <point p="(2,-1)"/>
-                                <label anchor="(3,0)" alignment="se"><m>r</m></label>
-                       
-
+                                <label anchor="(3,0)" alignment="se">
+                                    <m>
+                                        r
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
-          </image>
+                </image>
 
-          <image>
-            <shortdescription>A graph s(x) that you will transform in the following problems</shortdescription>
-            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-b">
+                <image>
+                    <shortdescription>
+                        A graph s(x) that you will transform in the following
+                        problems
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-b">
                         <diagram dimensions="(200,200)" margins="5">
-                            
                             <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes  decorations="yes"/>
-                                
+                                <grid-axes decorations="yes"/>
                                 <line endpoints="((-2,-3),(-4,3))" stroke="blue"/>
                                 <line endpoints="((-2,-3),(4,0))" stroke="blue"/>
-                                <point p="(-2,-3)" alignment="s"><m>(-2,-3)</m></point>
-                                
-                                <label anchor="(-4,3)" alignment="e"><m>s</m></label>
-                       
-
+                                <point p="(-2,-3)" alignment="s">
+                                    <m>
+                                        (-2,-3)
+                                    </m>
+                                </point>
+                                <label anchor="(-4,3)" alignment="e">
+                                    <m>
+                                        s
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
-          </image>
-
-        </sidebyside>
+                </image>
+            </sidebyside>
         </introduction>
 
         <task workspace="1in">
@@ -310,6 +464,11 @@
                     transformations that have resulted in <m>g</m> and <m>h</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -325,6 +484,11 @@
                     transformations that have resulted in <m>k</m> and <m>j</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -339,51 +503,68 @@
                     function.
                 </p>
 
-                 <sidebyside widths="35% 35%">
-          <image>
-            <shortdescription>A graph r(x) that you will transform in the following problems.</shortdescription>
-            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-c">
-                        <diagram dimensions="(200,200)" margins="5">
-                            
-                            <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes  decorations="yes"/>
-                                <arc center="(0,-1)" radius = "2" range="(0,180)" />
-                                <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0"
-                                    stroke="blue"  />
-                                <line endpoints="((-2,-1),(-4,1))" stroke="blue"/>
-                                <line endpoints="((2,-1),(4,1))" stroke="blue"/>
-                                <point p="(-2,-1)" alignment="s"><m>(-2,-1)</m></point>
-                                <point p="(2,-1)"/>
-                                <label anchor="(3,0)" alignment="se"><m>r</m></label>
-                       
+                <sidebyside widths="35% 35%">
+                    <image>
+                        <shortdescription>
+                            A graph r(x) that you will transform in the
+                            following problems.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-c">
+                            <diagram dimensions="(200,200)" margins="5">
+                                <coordinates bbox="[-4,-4,4,4]">
+                                    <grid-axes decorations="yes"/>
+                                    <arc center="(0,-1)" radius="2" range="(0,180)"/>
+                                    <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0" stroke="blue"/>
+                                    <line endpoints="((-2,-1),(-4,1))" stroke="blue"/>
+                                    <line endpoints="((2,-1),(4,1))" stroke="blue"/>
+                                    <point p="(-2,-1)" alignment="s">
+                                        <m>
+                                            (-2,-1)
+                                        </m>
+                                    </point>
+                                    <point p="(2,-1)"/>
+                                    <label anchor="(3,0)" alignment="se">
+                                        <m>
+                                            r
+                                        </m>
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
 
-                            </coordinates>
-                        </diagram>
-                    </prefigure>
-          </image>
-
-          <image>
-            <shortdescription>A graph s(x) that you will transform in the following problems</shortdescription>
-            <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-d">
-                        <diagram dimensions="(200,200)" margins="5">
-                            
-                            <coordinates bbox="[-4,-4,4,4]">
-                                <grid-axes  decorations="yes"/>
-                                
-                                <line endpoints="((-2,-3),(-4,3))" stroke="blue"/>
-                                <line endpoints="((-2,-3),(4,0))" stroke="blue"/>
-                                <point p="(-2,-3)" alignment="s"><m>(-2,-3)</m></point>
-                                
-                                <label anchor="(-4,3)" alignment="e"><m>s</m></label>
-                       
-
-                            </coordinates>
-                        </diagram>
-                    </prefigure>
-          </image>
-
-        </sidebyside>
+                    <image>
+                        <shortdescription>
+                            A graph s(x) that you will transform in the
+                            following problems
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-d">
+                            <diagram dimensions="(200,200)" margins="5">
+                                <coordinates bbox="[-4,-4,4,4]">
+                                    <grid-axes decorations="yes"/>
+                                    <line endpoints="((-2,-3),(-4,3))" stroke="blue"/>
+                                    <line endpoints="((-2,-3),(4,0))" stroke="blue"/>
+                                    <point p="(-2,-3)" alignment="s">
+                                        <m>
+                                            (-2,-3)
+                                        </m>
+                                    </point>
+                                    <label anchor="(-4,3)" alignment="e">
+                                        <m>
+                                            s
+                                        </m>
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </sidebyside>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -396,6 +577,11 @@
                     Why or why not?
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -409,45 +595,62 @@
             </p>
 
             <sidebyside widths="35% 35%">
-              <image>
-                <shortdescription>The function f(x) which you will transform in the following problems.</shortdescription>
-                <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-a">
+                <image>
+                    <shortdescription>
+                        The function f(x) which you will transform in the
+                        following problems.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-a">
                         <diagram dimensions="(200,200)" margins="5">
-                            
                             <coordinates bbox="[-4,-4,4,4]">
                                 <grid-axes xlabel="x" ylabel="y" decorations="yes"/>
-                                
                                 <line endpoints="((-2,2),(-4,-2))" stroke="blue"/>
                                 <line endpoints="((-2,2),(2,2))" stroke="blue"/>
                                 <line endpoints="((4,-2),(2,2))" stroke="blue"/>
-                                <point p="(-2,2)" alignment="n"><m>(-2,-2)</m></point>
+                                <point p="(-2,2)" alignment="n">
+                                    <m>
+                                        (-2,-2)
+                                    </m>
+                                </point>
                                 <point p="(2,2)"/>
-                                <label anchor="(-4,-3)" alignment="ne"><m>f</m></label>
-                       
-
+                                <label anchor="(-4,-3)" alignment="ne">
+                                    <m>
+                                        f
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
-              </image>
-              <image>
-                <shortdescription>The function g(x) which you will transform in the following problems.</shortdescription>
-                <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-b">
+                </image>
+
+                <image>
+                    <shortdescription>
+                        The function g(x) which you will transform in the
+                        following problems.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-b">
                         <diagram dimensions="(200,200)" margins="5">
-                            <definition>f(x)=-1.5*sin(2*pi/2*x)</definition>
+                            <definition>
+                                f(x)=-1.5*sin(2*pi/2*x)
+                            </definition>
                             <coordinates bbox="[-4,-4,4,4]">
                                 <grid-axes xlabel="x" ylabel="y" decorations="yes"/>
-                                
-                                <graph function="f" />
-                                <point p="(1.5,1.5)" alignment="n"><m>(1.5,1.5)</m></point>
+                                <graph function="f"/>
+                                <point p="(1.5,1.5)" alignment="n">
+                                    <m>
+                                        (1.5,1.5)
+                                    </m>
+                                </point>
                                 <point p="(2.5,-1.5)"/>
-                                <label anchor="(-4,-2.5)" alignment="ne"><m>g</m></label>
-                       
-
+                                <label anchor="(-4,-2.5)" alignment="ne">
+                                    <m>
+                                        g
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
-              </image>
-              
+                </image>
             </sidebyside>
         </introduction>
 
@@ -462,6 +665,11 @@
                     of <m>f</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -475,6 +683,11 @@
                     graph of <m>g</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -488,6 +701,11 @@
                     and also discuss how each is a transformation of <m>f</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0in">
@@ -505,29 +723,44 @@
                 </p>
 
                 <image width="30%" margins="5% 65%">
-                  <shortdescription>The graph f(x) for you to transform.</shortdescription>
-                  <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-c">
+                    <shortdescription>
+                        The graph f(x) for you to transform.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-c">
                         <diagram dimensions="(200,200)" margins="5">
-                            <definition>f(x)=-1.5*sin(2*pi/2*x)</definition>
+                            <definition>
+                                f(x)=-1.5*sin(2*pi/2*x)
+                            </definition>
                             <coordinates bbox="[-4,-4,4,4]">
                                 <grid-axes xlabel="x" ylabel="y" decorations="yes"/>
-                                
-                                <graph function="f" />
-                                <point p="(1.5,1.5)" alignment="n"><m>(1.5,1.5)</m></point>
+                                <graph function="f"/>
+                                <point p="(1.5,1.5)" alignment="n">
+                                    <m>
+                                        (1.5,1.5)
+                                    </m>
+                                </point>
                                 <point p="(2.5,-1.5)"/>
-                                <label anchor="(-4,-2.5)" alignment="ne"><m>g</m></label>
-                       
-
+                                <label anchor="(-4,-2.5)" alignment="ne">
+                                    <m>
+                                        g
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
                 </image>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
     </activity>
 
     <paragraphs>
         <title>Combining Functions (Section 1.9)</title>
+
     </paragraphs>
 
     <p>
@@ -562,54 +795,64 @@
                 lies on the graph of <m>p</m>.
             </p>
 
-          <sidebyside widths="40% 35%">
-            <tabular>
-              <row bottom="minor">
-                <cell><m>x</m></cell>
-                <cell>0</cell>
-                <cell>1</cell>
-                <cell>2</cell>
-                <cell>3</cell>
-                <cell>4</cell>
-              </row>
-              <row>
-                <cell><m>f(x)</m></cell>
-                <cell>5</cell>
-                <cell>10</cell>
-                <cell>15</cell>
-                <cell>20</cell>
-                <cell>25</cell>
-              </row>
-              <row>
-                <cell><m>g(x)</m></cell>
-                <cell>9</cell>
-                <cell>5</cell>
-                <cell>3</cell>
-                <cell>2</cell>
-                <cell>3</cell>
-              </row>
-            </tabular>
+            <sidebyside widths="40% 35%">
+                <tabular>
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>4</cell>
+                    </row>
 
-            <image>
-              <shortdescription>The graphs of p and q for you to combine.</shortdescription>
-              <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-5">
+                    <row>
+                        <cell><m>f(x)</m></cell>
+                        <cell>5</cell>
+                        <cell>10</cell>
+                        <cell>15</cell>
+                        <cell>20</cell>
+                        <cell>25</cell>
+                    </row>
+
+                    <row>
+                        <cell><m>g(x)</m></cell>
+                        <cell>9</cell>
+                        <cell>5</cell>
+                        <cell>3</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                    </row>
+                </tabular>
+
+                <image>
+                    <shortdescription>
+                        The graphs of p and q for you to combine.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-5">
                         <diagram dimensions="(200,200)" margins="5">
                             <coordinates bbox="[-4,-4,4,4]">
                                 <grid-axes xlabel="x" ylabel="y" decorations="yes"/>
                                 <line endpoints="((-4,4),(-3,1))" stroke="blue"/>
                                 <line endpoints="((2,-1),(-3,1))" stroke="blue"/>
                                 <line endpoints="((2,-1),(3.5,-4))" stroke="blue"/>
-                                <label anchor="(-4,2.)" alignment="e"><m>p</m></label>
-
+                                <label anchor="(-4,2.)" alignment="e">
+                                    <m>
+                                        p
+                                    </m>
+                                </label>
                                 <line endpoints="((-4,-4),(-2,4))" stroke="red" dash="4 4"/>
                                 <line endpoints="((4,1),(-2,4))" stroke="red" dash="4 4"/>
-                                <label anchor="(-3,-2.)" alignment="s"><m>q</m></label>
-
+                                <label anchor="(-3,-2.)" alignment="s">
+                                    <m>
+                                        q
+                                    </m>
+                                </label>
                             </coordinates>
                         </diagram>
                     </prefigure>
-            </image>
-          </sidebyside>
+                </image>
+            </sidebyside>
         </introduction>
 
         <task workspace="0.2in">
@@ -619,6 +862,11 @@
                     Determine <m>h(3)</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.2in">
@@ -628,6 +876,11 @@
                     Determine <m>r(-1)</m> exactly.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.2in">
@@ -638,6 +891,11 @@
                     justification.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.2in">
@@ -647,6 +905,11 @@
                     Determine <m>k(0)</m>.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.2in">
@@ -656,6 +919,11 @@
                     Determine <m>s(1)</m> exactly.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
 
         <task workspace="0.2in">
@@ -667,6 +935,11 @@
                     justification.
                 </p>
             </statement>
+            <solution component="S1-8-soln">
+                <p>
+                    
+                </p>
+            </solution>
         </task>
     </activity>
 </handout>

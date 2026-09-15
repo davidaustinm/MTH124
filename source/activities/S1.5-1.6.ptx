@@ -33,7 +33,7 @@
                 <p>
                     Open a browser and go to
                     <url href="https://www.desmos.com/calculator">Desmos</url>.
-                    In a cell in Desmos, enter <m>q(x) = ax^2 + bx + c</m> in
+                    In a cell in Desmos, enter <m>{q(x) = ax^2 + bx + c}</m> in
                     exactly that form; you will be prompted to add sliders for
                     <m>a, b,</m> and <m>c</m>.
                     Do so.
@@ -873,9 +873,9 @@
                         FOIL is your friend.
                         <md>
                             <mrow> f(1+h) \amp = 2(1+h)^2 - 3(1+h) + 1 </mrow>
-                            <mrow> \amp 2(1+2h+h^2)-3-3h + 1 </mrow>
-                            <mrow> \amp 2+4h+2h^2-3-3h+1 </mrow>
-                            <mrow> \amp 2h^2+h</mrow>
+                            <mrow> \amp = 2(1+2h+h^2)-3-3h + 1 </mrow>
+                            <mrow> \amp = 2+4h+2h^2-3-3h+1 </mrow>
+                            <mrow> \amp = 2h^2+h</mrow>
                         </md>
                     </p>
                 </solution>
