@@ -336,8 +336,62 @@
                 </p>
             </statement>
             <solution component="S1-8-soln">
+                <image width="35%">
+                    <shortdescription>
+                        A graph s(x) that is transformed three times.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-2-b-soln">
+                        <diagram dimensions="(200,200)" margins="5">
+                            <coordinates bbox="[-4,-4,4,4]">
+                                <grid-axes decorations="yes"/>
+                                <line endpoints="((-2,-3),(-4,3))" stroke="blue"/>
+                                <line endpoints="((-2,-3),(4,0))" stroke="blue"/>
+                                <point p="(-2,-3)" alignment="s">
+                                    <m>
+                                        (-2,-3)
+                                    </m>
+                                </point>
+                                <label anchor="(-4,3)" alignment="e">
+                                    <m>
+                                        s
+                                    </m>
+                                </label>
+                                <line endpoints="((-2,-4),(-4,2))" stroke="red" dash="4 4"/>
+                                <line endpoints="((-2,-4),(4,-1))" stroke="red" dash="4 4"/>
+                                <point p="(-2,-4)" alignment="s"></point>
+                                <label anchor="(-4,.3)" alignment="e">
+                                    <m>
+                                        k
+                                    </m>
+                                </label>
+                                <line endpoints="((0,-3),(-3,6))" stroke="green" dash="4 2"/>
+                                <line endpoints="((0,-3),(6,0))" stroke="green" dash="4 2"/>
+                                <point p="(0,-3)" alignment="s"></point>
+                                <label anchor="(-2,3)" alignment="e">
+                                    <m>
+                                        j
+                                    </m>
+                                </label>
+                                <line endpoints="((0,-4),(-3,5))" stroke="black" dash="8 2"/>
+                                <line endpoints="((0,-4),(6,-1))" stroke="black" dash="8 2"/>
+                                <point p="(0,-4)" alignment="s"></point>
+                                <label anchor="(-2.3,3)" alignment="w">
+                                    <m>
+                                        m
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
                 <p>
-                    
+                    <m>k(x)</m> shifts down 1, so <m>(-2,-3)</m> corresponds to <m>(-2,-4)</m>.
+                </p>
+                <p>
+                    <m>j(x)</m> shifts right 2, so <m>(-2,-3)</m> corresponds to <m>(0,-3)</m>.
+                </p>
+                <p>
+                    <m>k(x)</m> shifts down 1 and right 2, so <m>(-2,-3)</m> corresponds to <m>(0,-4)</m>.
                 </p>
             </solution>
         </task>
@@ -353,6 +407,11 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
+                    <m>p</m> shifts <m>q</m> down by 4 and left by 3.  We plug in 
+                    <m>x+3</m> into <m>q(x)=x^2</m>, so <m>q(x+3)=(x+3)^2</m>, and then we have
+                    <md>
+                        p(x)=q(x+3)-4 = (x+3)^2-4.
+                    </md>
                     
                 </p>
             </solution>
@@ -465,8 +524,61 @@
                 </p>
             </statement>
             <solution component="S1-8-soln">
+                <image width="35%">
+                    <shortdescription>
+                        A graph r(x) transformed 2 times.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-a-soln">
+                        <diagram dimensions="(200,200)" margins="5">
+                          <definition>f(x)=3*(sqrt(4-x^2)-1)</definition>
+                          <definition>g(x)=1/2*(sqrt(4-x^2)-1)</definition>
+                            <coordinates bbox="[-4,-4,4,4]">
+                                <grid-axes decorations="yes"/>
+                                <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0" stroke="blue"/>
+                                <line endpoints="((-2,-1),(-4,1))" stroke="blue"/>
+                                <line endpoints="((2,-1),(4,1))" stroke="blue"/>
+                                <point p="(-2,-1)" alignment="s">
+                                    <m>
+                                        (-2,-1)
+                                    </m>
+                                </point>
+                                <point p="(2,-1)"/>
+                                <label anchor="(3,0)" alignment="se">
+                                    <m>
+                                        r
+                                    </m>
+                                </label>
+                                <graph function="f" stroke="red" dash="4 4"/>
+                                <line endpoints="((-2,-3),(-4,3))" stroke="red" dash="4 4"/>
+                                <line endpoints="((2,-3),(4,3))" stroke="red" dash="4 4"/>
+                                <point p="(-2,-3)" alignment="s">
+                                </point>
+                                <point p="(2,-3)"/>
+                                <label anchor="(3,2)" alignment="se" >
+                                    <m>
+                                        g
+                                    </m>
+                                </label>
+                                <graph function="g" stroke="black" dash="4 2"/>
+                                <line endpoints="((-2,-1/3),(-4,1/3))" stroke="black" dash="4 2"/>
+                                <line endpoints="((2,-1/3),(4,1/3))" stroke="black" dash="4 2"/>
+                                <point p="(-2,-1/3)" alignment="s">
+                                </point>
+                                <point p="(2,-1/3)"/>
+                                <label anchor="(-4,0)" alignment="se">
+                                    <m>
+                                        h
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
                 <p>
-                    
+                    <m>g</m> is a vertical stretch by a factor of 3, so <m>(-2,-1)</m> goes to <m>(-2,-3)</m>.
+                </p>
+                <p>
+                    <m>h</m> is a vertical "shrink"" by a factor of 1/3, so <m>(-2,-1)</m> goes to <m>(-2,-1/3)</m>.
                 </p>
             </solution>
         </task>
@@ -485,8 +597,55 @@
                 </p>
             </statement>
             <solution component="S1-8-soln">
+                <image width="35%">
+                    <shortdescription>
+                        A graph s(x) transformed 2 times.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-b-soln">
+                        <diagram dimensions="(200,200)" margins="5">
+                            <coordinates bbox="[-4,-4,4,4]">
+                                <grid-axes decorations="yes"/>
+                                <line endpoints="((-2,-3),(-4,3))" stroke="blue"/>
+                                <line endpoints="((-2,-3),(4,0))" stroke="blue"/>
+                                <point p="(-2,-3)" alignment="s">
+                                    <m>
+                                        (-2,-3)
+                                    </m>
+                                </point>
+                                <label anchor="(-4,3)" alignment="e">
+                                    <m>
+                                        s
+                                    </m>
+                                </label>
+                                <line endpoints="((-2,3),(-4,-3))" stroke="red" dash="4 4"/>
+                                <line endpoints="((-2,3),(4,0))" stroke="red" dash="4 4"/>
+                                <point p="(-2,3)" alignment="s">
+                                 
+                                </point>
+                                <label anchor="(-4,-3)" alignment="e">
+                                    <m>
+                                        k
+                                    </m>
+                                </label>
+                                <line endpoints="((-2,3/2),(-4,-3/2))" stroke="black" dash="8 2"/>
+                                <line endpoints="((-2,3/2),(4,0))" stroke="black" dash="8 2"/>
+                                <point p="(-2,3/2)" alignment="s">
+                                 
+                                </point>
+                                <label anchor="(-4,-3/2+0.6)" alignment="ne">
+                                    <m>
+                                        j
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
                 <p>
-                    
+                    <m>k</m> flips the graph over the x-axis.  <m>(-2,-3)</m> goes to <m>(-2,3)</m>.
+                </p>
+                <p>
+                    <m>j</m> flips the graph over the x-axis and shrinks by 1/2.  <m>(-2,-3)</m> goes to <m>(-2,3/2)</m>.
                 </p>
             </solution>
         </task>
@@ -561,8 +720,86 @@
                 </sidebyside>
             </statement>
             <solution component="S1-8-soln">
+                <sidebyside widths="35% 35%">
+                    <image >
+                        <shortdescription>
+                            A graph r(x) transformed.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-c-soln">
+                            <diagram dimensions="(200,200)" margins="5">
+                              <definition>f(x)=2*(sqrt(4-(x+1)^2)-1)-1</definition>
+                                <coordinates bbox="[-4,-4,4,4]">
+                                    <grid-axes decorations="yes"/>
+                                    <arc center="(0,-1)" radius="2" range="(0,180)" arrows="0" stroke="blue"/>
+                                    <line endpoints="((-2,-1),(-4,1))" stroke="blue"/>
+                                    <line endpoints="((2,-1),(4,1))" stroke="blue"/>
+                                    <point p="(-2,-1)" alignment="s">
+                                        <m>
+                                            (-2,-1)
+                                        </m>
+                                    </point>
+                                    <point p="(2,-1)"/>
+                                    <label anchor="(3,0)" alignment="se">
+                                        <m>
+                                            r
+                                        </m>
+                                    </label>
+                                    <graph function="f" stroke="red" dash="4 4"/>
+                                    <line endpoints="((-3,-3),(-4,-1))" stroke="red" dash="4 4"/>
+                                    <line endpoints="((1,-3),(4,3))" stroke="red" dash="4 4"/>
+                                    <point p="(-3,-3)" alignment="s">
+                                    </point>
+                                    <point p="(1,-3)"/>
+                                    <label anchor="(3,3)" alignment="se">
+                                        <m>
+                                            m
+                                        </m>
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                    <image>
+                        <shortdescription>
+                            A graph s(x) transformed.
+                        </shortdescription>
+                        <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-3-d-soln">
+                            <diagram dimensions="(200,200)" margins="5">
+                                <coordinates bbox="[-4,-4,4,4]">
+                                    <grid-axes decorations="yes"/>
+                                    <line endpoints="((-2,-3),(-4,3))" stroke="blue"/>
+                                    <line endpoints="((-2,-3),(4,0))" stroke="blue"/>
+                                    <point p="(-2,-3)" alignment="s">
+                                        <m>
+                                            (-2,-3)
+                                        </m>
+                                    </point>
+                                    <label anchor="(-4,3)" alignment="e">
+                                        <m>
+                                            s
+                                        </m>
+                                    </label>
+                                    <line endpoints="((0,1/2),(-3,5))" stroke="red" dash="4 4"/>
+                                    <line endpoints="((0,1/2),(4,1.5))" stroke="red" dash="4 4"/>
+                                    <point p="(0,0.5)" alignment="s">
+                                    </point>
+                                    <label anchor="(-1.8,3)" alignment="w">
+                                        <m>
+                                            n
+                                        </m>
+                                    </label>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+
+                </sidebyside>
                 <p>
-                    
+                    <m>m</m> shifts left 1, stretches vertically by factor of 2, shifts down 1.
+                </p>
+                <p>
+                    <m>n</m> shifts right 2, cuts in half vertically, shifts up 2.
                 </p>
             </solution>
         </task>
@@ -579,7 +816,10 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    <m>m</m> shifts left 1, stretches vertically by factor of 2, shifts down 1.  Yes, the order matters a little.
+                    When you double the y-coordinate (the vertical stretch), it must be done 
+                    before you shift down by 1.  Otherwise you would also be doubling the shift, so you would 
+                    be shifting down by 2 instead of 1.
                 </p>
             </solution>
         </task>
@@ -666,8 +906,47 @@
                 </p>
             </statement>
             <solution component="S1-8-soln">
+                <image width="35%">
+                    <shortdescription>
+                        The function f(x) transformed.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-a-soln">
+                        <diagram dimensions="(200,200)" margins="5">
+                            <coordinates bbox="[-4,-4,4,4]">
+                                <grid-axes xlabel="x" ylabel="y" decorations="yes"/>
+                                <line endpoints="((-2,2),(-4,-2))" stroke="blue"/>
+                                <line endpoints="((-2,2),(2,2))" stroke="blue"/>
+                                <line endpoints="((4,-2),(2,2))" stroke="blue"/>
+                                <point p="(-2,2)" alignment="n">
+                                    <m>
+                                        (-2,-2)
+                                    </m>
+                                </point>
+                                <point p="(2,2)"/>
+                                <label anchor="(-4,-3)" alignment="ne">
+                                    <m>
+                                        f
+                                    </m>
+                                </label>
+                                <line endpoints="((-1,1),(-4,4))" stroke="red" dash="4 4"/>
+                                <line endpoints="((-1,1),(3,1))" stroke="red" dash="4 4"/>
+                                <line endpoints="((3,1),(4,2))" stroke="red" dash="4 4"/>
+                                <point p="(-1,1)" alignment="n">
+                                </point>
+                                <point p="(3,1)"/>
+                                <label anchor="(-4,2.8)" alignment="ne">
+                                    <m>
+                                        p
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
                 <p>
-                    
+                    <m>p</m> shifts right 1, multiplies y-coord by <m>-1/2</m>, 
+                    (cuts in half vertically and flips over x-axis), then shifts up by 2.
+                    <m>(-2,2)</m> goes to <m>(-1,2)</m>, then <m>(-1,-1)</m>, then <m>(-1,1)</m>.
                 </p>
             </solution>
         </task>
@@ -684,8 +963,46 @@
                 </p>
             </statement>
             <solution component="S1-8-soln">
+                 <image width="35%">
+                    <shortdescription>
+                        The function g(x) transformed.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-b-soln">
+                        <diagram dimensions="(200,200)" margins="5">
+                            <definition>
+                                f(x)=-1.5*sin(2*pi/2*x)
+                            </definition>
+                            <definition>g(x)=2*(-1.5*sin(2*pi/2*(x+0.5)))-0.75</definition>
+                            <coordinates bbox="[-4,-4,4,4]">
+                                <grid-axes xlabel="x" ylabel="y" decorations="yes"/>
+                                <graph function="f"/>
+                                <point p="(1.5,1.5)" alignment="n">
+                                    <m>
+                                        (1.5,1.5)
+                                    </m>
+                                </point>
+                                <point p="(2.5,-1.5)"/>
+                                <label anchor="(-4,-2.5)" alignment="ne">
+                                    <m>
+                                        g
+                                    </m>
+                                </label>
+                                <graph function="g" stroke="red" dash="4 4"/>
+                                <point p="(1,2.25)" alignment="n">
+                                </point>
+                                <point p="(2,-3.75)"/>
+                                <label anchor="(-4,-4.0)" alignment="ne">
+                                    <m>
+                                        q
+                                    </m>
+                                </label>
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
                 <p>
-                    
+                    Shifts left by 0.5, doubles vertically, then shifts down by 0.75.
+                    So <m>(1.5,1.5)</m> goes to <m>(1,1.5)</m> then <m>(1,3)</m> then <m>(1,2.25)</m>.
                 </p>
             </solution>
         </task>
@@ -703,7 +1020,9 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    <m>r(x) = -\frac12 f(x-1)-2</m>.  It's almost the same, 
+                    but <m>p(x)=-\frac12 f(x-1)+2</m> instead of -2.  They both
+                    shift <m>f</m> right 1, flip the y-coord and cut it in half, then shift, but one shifts up 2 the other down 2.
                 </p>
             </solution>
         </task>
@@ -751,8 +1070,52 @@
                 </image>
             </statement>
             <solution component="S1-8-soln">
+                <image width="35%" >
+                    <shortdescription>
+                        The graph f(x) transformed.
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-1-8-4-c-soln">
+                        <diagram dimensions="(200,200)" margins="5">
+                            <definition>
+                                f(x)=-1.5*sin(2*pi/2*x)
+                            </definition>
+                            <definition>g(x) = -2.5*(-1.5*sin(2*pi/2*(x+1.25)))+1.75</definition>
+                            <coordinates bbox="[-4,-4,4,4]">
+                                <grid-axes xlabel="x" ylabel="y" decorations="yes"/>
+                                <graph function="f"/>
+                                <point p="(1.5,1.5)" alignment="n">
+                                
+                                </point>
+                                <point p="(2.5,-1.5)"/>
+                                <label anchor="(-4,-2.5)" alignment="ne">
+                                    <m>
+                                        g
+                                    </m>
+                                </label>
+                                <graph function="g" stroke="red" dash="4 4"/>
+                               
+                            </coordinates>
+                        </diagram>
+                    </prefigure>
+                </image>
                 <p>
-                    
+                    <ol>
+                        <li>
+                            <p>
+                                Shift left by 1.25, so <m>s(x+1.25)</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Reflect and stretch by 2.5, so <m>-2.5s(x+1.25)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Shift up by 1.75, so <m>-2.5s(x+1.25)+1.75</m>
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </solution>
         </task>
@@ -864,7 +1227,7 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    <m>h(3)=f(3)+g(3)=20+2=22</m>
                 </p>
             </solution>
         </task>
@@ -878,7 +1241,7 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    <m>r(-1) = p(-1)-q(-1)=0.25-3.5=3.25</m>
                 </p>
             </solution>
         </task>
@@ -893,7 +1256,8 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    If <m>r(x)=0</m>, then <m>p(x)-q(x)=0</m>, or in other words 
+                    <m>p(x)=q(x)</m>.  This only happens at <m>x=-2.75</m>.
                 </p>
             </solution>
         </task>
@@ -907,7 +1271,7 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    <m>k(0)=f(0)\cdot g(0) = (5)(9) = 45</m>
                 </p>
             </solution>
         </task>
@@ -921,7 +1285,7 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    <m>s(1) = \frac{p(1)}{q(1)}=\frac{-0.5}{2.5} = -\frac15</m>
                 </p>
             </solution>
         </task>
@@ -937,7 +1301,10 @@
             </statement>
             <solution component="S1-8-soln">
                 <p>
-                    
+                    If <m>s(x)=\frac{p(x)}{q(x)}</m> is not defined, either <m>p</m>
+                    is not defined, <m>q</m> is not defined, or <m>q(x)=0</m> because you 
+                    cannot divide by 0.  The only possibility here is that <m>q(x)=0</m> 
+                    when <m>x=-3</m>, so <m>s(x)</m> is undefined at <m>x=-3</m>.
                 </p>
             </solution>
         </task>
