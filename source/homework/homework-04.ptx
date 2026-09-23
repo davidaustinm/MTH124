@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+    <title>Homework 04</title>
+
+    <introduction>
+        <p>
+            <alert>MTH 124</alert>
+        </p>
+    </introduction>
+
+    <p>
+        <alert>Due Thursday, 10/1/26 at 12:00pm (the beginning of class)</alert>
+    </p>
+
+    <p>
+        Make sure you are following the homework expectations!
+        Example: complete sentences!
+    </p>
+
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>f(x)</m> be the function that gives the fine for a 
+                speeding ticket as a function of the number of miles per 
+                hour you go over the speed limit <m>x</m>. 
+                According to <url href="https://www.myimprov.com/defensive-driving/michigan/how-much-is-a-speeding-ticket-in-michigan/">
+                this (perhaps unreliable) website</url> the speeding fines are 
+                defined by the following piecewise function of the miles per 
+                hour over the speed limit:
+	<md> f(x) = \begin{cases} 
+	125 \amp 1\le x \le 5 \\
+	135 \amp 5\lt x\leq 10 \\
+	140 \amp 10\lt x\leq 15\\
+	150 \amp 15\lt x\leq 20\\
+	160 \amp20\lt x \leq 25\\
+	170  \amp 25\lt x \leq 30\\
+	180  \amp 30\lt x \leq 35\\
+	190 \amp x \gt 35
+\end{cases}
+</md>
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                   What is the meaning of <m>f(3) = 125</m>? 
+                   Include units in your explanation.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    If the fine is  $140 what can you conclude about the speed of the driver?
+                    </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Is the inverse of <m>f</m> a function? Why or why not? (Explain.)
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                    Suppose the police decided to give a 5 mile per hour "buffer". 
+                    That is, if you were going, say, 17 miles per hour over the speed 
+                    limit, they would write the ticket for 12 mph over.
+                     Which of the following function transformations would this be 
+                     represented by? Explain your answer.
+               
+            <ul>
+                <li>
+                    <p>
+                        <m>f(x) + 5</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>f(x) - 5</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>f(x + 5)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>f(x - 5)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>5f(x)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\frac15f(x)</m>
+                    </p>
+                </li>
+            </ul>   
+             </p>
+            </statement>
+            
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Since speeding in a school zone is considered more 
+                    dangerous, the fines increase by 20%. 
+                    How could you represent this with a function 
+                    transformation? Explain.
+
+            </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Suppose that it costs an additional $100 if you are given a 
+                    ticket for speeding and also have an expired registration. 
+                    How could you represent this with a function transformation?
+                           </p>
+
+            
+            </statement>
+        </task>
+
+        <task workspace="0.05in">
+            <statement>
+                <p>
+Your European friend wants to know how this translates to their homeland. 
+One kilometer  is equivalent to 0.621371 miles. So <m>{m(x) = 0.621371x}</m> 
+is a function that gives miles per hours based on <m>x</m> kilometers 
+per hour. How can you combine <m>m(x)</m> and <m>f(x)</m> 
+to give the speeding fine as a function of kilometers per hour?                </p>
+            </statement>
+        </task>
+
+
+    </exercise>
+</worksheet>
