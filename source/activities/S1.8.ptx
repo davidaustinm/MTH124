@@ -849,7 +849,7 @@
                                 <line endpoints="((4,-2),(2,2))" stroke="blue"/>
                                 <point p="(-2,2)" alignment="n">
                                     <m>
-                                        (-2,-2)
+                                        (-2,2)
                                     </m>
                                 </point>
                                 <point p="(2,2)"/>

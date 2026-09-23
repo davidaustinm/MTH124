@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+    <title>Chapter 1 Review</title>
+
+    <p>
+        <alert>MTH 124</alert>
+    </p>
+<page>
+    <activity>
+        <introduction>
+            <p>
+                A national park records data regarding the total fox population <m>F</m> over a 12 
+                month period, where <m>t=0</m> means January 1, <m>t=1</m> means February 1, and so on. Below is the table of values they recorded:
+            </p>
+            <tabular>
+                <row bottom="minor">
+                    <cell><m>t</m> (month)</cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell>6</cell>
+                    <cell>7</cell>
+                    <cell>8</cell>
+                    <cell>9</cell>
+                    <cell>10</cell>
+                    <cell>11</cell>
+                </row>
+                <row >
+                    <cell><m>F</m> (foxes)</cell>
+                    <cell>150</cell>
+                    <cell>143</cell>
+                    <cell>125</cell>
+                    <cell>100</cell>
+                    <cell>75</cell>
+                    <cell>57</cell>
+                    <cell>50</cell>
+                    <cell>57</cell>
+                    <cell>75</cell>
+                    <cell>100</cell>
+                    <cell>125</cell>
+                    <cell>143</cell>
+                </row>
+            </tabular>
+        </introduction>
+        <task workspace="0cm">
+            <statement>
+                <p>
+                    Is <m>t</m> a function of <m>F</m>?  Is <m>F</m> a function of <m>t</m>?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    Let <m>g(t)=F</m> denote the fox population in month <m>t</m>. 
+                    Find all solutions(s) to the equation <m>{g(t)=125}</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find <m>AV_{[0,11]}</m> for the function <m>g(t)=F</m>.  What does it mean in context?  Does it tell you
+                    everything thing that happened over the year?
+                </p>
+
+            </statement>
+        </task>
+        <task workspace="0.2in">
+            <statement>
+                <p>
+                    Suppose we have a function <m>h(t) = g(t)+50</m>. What kind of transformation
+                    does that apply to <m>g(t)</m>? 
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.2in">
+            <statement>
+                <p>
+                    Consider again <m>h(t) = g(t)+50</m>. What is <m>h(7)</m>?  
+                    Is there a way we can think of <m>h(t)</m> in the context of foxes?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.2in">
+            <statement>
+                <p>
+                    Suppose we have a different function <m>k(t) = g(t-1)</m>. What kind of transformation
+                    does that apply to <m>g(t)</m>? Can we relate that back to context?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    Consider again <m>k(t) = g(t-1)</m>. What is <m>k(5)</m>? 
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    Suppose the same national park records data regarding the total 
+                    wolf population <m>W</m> over the same 12 month period. Below is the table of values 
+                    they recorded:
+                </p>
+                <tabular>
+                <row bottom="minor">
+                    <cell><m>t</m> (month)</cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell>6</cell>
+                    <cell>7</cell>
+                    <cell>8</cell>
+                    <cell>9</cell>
+                    <cell>10</cell>
+                    <cell>11</cell>
+                </row>
+                <row >
+                    <cell><m>W</m> (wolves)</cell>
+                    <cell>110</cell>
+                    <cell>101</cell>
+                    <cell>100</cell>
+                    <cell>92</cell>
+                    <cell>60</cell>
+                    <cell>50</cell>
+                    <cell>32</cell>
+                    <cell>40</cell>
+                    <cell>50</cell>
+                    <cell>60</cell>
+                    <cell>91</cell>
+                    <cell>101</cell>
+                </row>
+            </tabular>
+            <p>
+                Let <m>p(t)=W</m> denote the wolf population in month <m>t</m>.  What 
+                is <m>p(0)</m>?
+            </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    Taking <m>p(t)</m> to be the number of wolves and <m>g(t)</m> to be the number of 
+                    foxes in month <m>t</m>, let's make a new function <m>q(t) = p(t) + g(t)</m> which 
+                    measures the total number of foxes and wolves.  What is 
+                    <m>q(4)</m>?
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    A completely terrible way to represent the fox population is with 
+                    a quadratic function given by the equation <m>{s(t) = 3(t-6)^2+61}</m>.
+                    (While it's terrible for many reasons, it's almost the best quadratic function
+                    we can get, ask your professor if you're interested in why.). What is 
+                    the vertex of this parabola?
+
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    Consider still <m>{s(t) = 3(t-6)^2+61}</m>.
+                    If this function was all we knew about the fox population and 
+                    we didn't know any data, what would this tell us about the fewest number 
+                    of foxes we would find in the park?  That is, what is the range of <m>s(t)</m>?
+
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    Consider still <m>{s(t) = 3(t-6)^2+61}</m>.  Does <m>s(t)</m> 
+                    have an inverse?  If so, find it.  If not, why not.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1cm">
+            <statement>
+                <p>
+                    What about the original function <m>F=g(t)</m> that described
+                    the fox data.  Does that have an inverse?
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    </page>
+    <page>
+        <activity>
+            <introduction>
+                <p>
+                    Find the following.
+                </p>
+            </introduction>
+            <task workspace="0.7in">
+                <statement>
+                    <p>
+                        The equation of a line that goes through the points 
+                        <m>(-14,22)</m> and <m>(100,43)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.7in">
+                <statement>
+                    <p>
+                        The equation of a line that has slope 6 and goes through
+                        the point <m>(2,7)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        The average rate of change <m>AV_{[1,7]}</m> for the function
+                        <m>{f(x)=\frac{7}{x} = 12}</m>.  If <m>f(x)</m> had units of meters 
+                        and <m>x</m> had units of seconds, what would be the units of 
+                        <m>AV_{[1,7]}</m>?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1cm">
+                <statement>
+                    <p>
+                        If <m>f(x) = 3+2x</m> and <m>g(x) = x^2 -1</m>, find 
+                        <m>f(g(0))</m>.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1cm">
+                <statement>
+                    <p>
+                        If <m>f(x) = 3+2x</m> and <m>g(x) = x^2 -1</m>, find an equation for
+                        <m>f(g(x))</m>.  (No need to simplify.)
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1cm">
+                <statement>
+                    <p>
+                        If <m>y = f(x) = 3+2x</m>, find an equation for <m>f^{-1}(y)</m>.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+    </page>
+    
+</handout>
