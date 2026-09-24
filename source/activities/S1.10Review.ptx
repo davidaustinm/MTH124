@@ -52,6 +52,15 @@
                     Is <m>t</m> a function of <m>F</m>?  Is <m>F</m> a function of <m>t</m>?
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    The first one says <m>F</m> would be the input, so <m>t</m>
+                    is not a function of <m>F</m>, since the number of foxes does not
+                    always correspond to one unique month (ex: 143 foxes could be month 1 or 11...)
+                    But <m>F</m> is a function of <m>t</m> since one <m>t</m> always corresponds
+                    to one unique output of foxes.
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -60,6 +69,11 @@
                     Find all solutions(s) to the equation <m>{g(t)=125}</m>.
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    <m>t=2, 10</m>
+                </p>
+            </solution>
         </task>
         <task workspace="1in">
             <statement>
@@ -69,6 +83,15 @@
                 </p>
 
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    <m>AV_{[0,11]}= \frac{g(11)-g(0)}{11-0} = \frac{143-150}{11} = \frac{-7}{11} \approx -0.64</m> foxes per year. 
+                    The population of foxes decreased on average by 0.64 foxes per year 
+                    during the 12 month period.  This only tells us the average between the 
+                    very beginning and very end of the time period, it tells us nothing about what
+                    happened in between.
+                </p>
+            </solution>
         </task>
         <task workspace="0.2in">
             <statement>
@@ -77,6 +100,11 @@
                     does that apply to <m>g(t)</m>? 
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    Shifts <m>g(t)</m> up (vertically) by 50.
+                </p>
+            </solution>
         </task>
         <task workspace="0.2in">
             <statement>
@@ -85,6 +113,13 @@
                     Is there a way we can think of <m>h(t)</m> in the context of foxes?
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    <m>h(7) = g(7)+50 = 57+50 = 107</m> foxes.  In context, 
+                    <m>h(t)</m> adds 50 more foxes to every year of data.  (Maybe 
+                    we missed a bunch?)
+                </p>
+            </solution>
         </task>
         <task workspace="0.2in">
             <statement>
@@ -93,6 +128,13 @@
                     does that apply to <m>g(t)</m>? Can we relate that back to context?
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    Shifts <m>g(t)</m> right by one.  In context, the year is shift one 
+                    to the right, as if we got the month wrong by one.  But the number of 
+                    foxes are unaffected, just shifted by a month.
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -100,6 +142,11 @@
                     Consider again <m>k(t) = g(t-1)</m>. What is <m>k(5)</m>? 
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    <m>k(5) = g(5-1) = g(4) = 75</m>
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -145,6 +192,11 @@
                 is <m>p(0)</m>?
             </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    We just get it from the table: <m>p(0)=110</m>
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -155,6 +207,12 @@
                     <m>q(4)</m>?
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    Plug in 4 to the new function:  <m>q(4) = p(4)+g(4) = 60+75 = 135</m> 
+                    foxes and wolves total in the park in month 4.
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -167,6 +225,12 @@
 
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    This is already in vertex form so we can pick it directly from the equation:
+                    vertex is <m>(6,61)</m>.
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -178,6 +242,15 @@
 
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    The parabola opens upwards and has vertex <m>(6,61)</m>. 
+                    Since it opens up, the vertex is the lowest point on our 
+                    curve, so we will never get below 61 as an output.  That is, 
+                    this tells us the fewest foxes would be 61, and the range 
+                    is <m>[61,\infty)</m>.
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -186,6 +259,11 @@
                     have an inverse?  If so, find it.  If not, why not.
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    No inverse - it fails the horizontal line test.
+                </p>
+            </solution>
         </task>
         <task workspace="0.1cm">
             <statement>
@@ -194,6 +272,12 @@
                     the fox data.  Does that have an inverse?
                 </p>
             </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                     No inverse, because <m>F=125</m> corresponds to <m>t=2, 10</m> for example.
+                   
+                </p>
+            </solution>
         </task>
     </activity>
 
@@ -212,6 +296,13 @@
                         <m>(-14,22)</m> and <m>(100,43)</m>.
                     </p>
                 </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    Slope is <m>AV_{[-14,100]}</m> or <m>m = \frac{43 - 22}{100-(-14)} = \frac{21}{114}</m>. 
+                    So the line is <md>y=\frac{21}{114}(x-(-14))+22.</md>  It will look 
+                    slightly different if you used the other point, or put it in slope-intercept form. 
+                </p>
+            </solution>
             </task>
             <task workspace="0.7in">
                 <statement>
@@ -220,16 +311,27 @@
                         the point <m>(2,7)</m>.
                     </p>
                 </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    We have everything already: <m>y=6(x-2)+7</m>
+                </p>
+            </solution>
             </task>
             <task workspace="1in">
                 <statement>
                     <p>
                         The average rate of change <m>AV_{[1,7]}</m> for the function
-                        <m>{f(x)=\frac{7}{x} = 12}</m>.  If <m>f(x)</m> had units of meters 
+                        <m>{f(x)=\frac{7}{x} + 12}</m>.  If <m>f(x)</m> had units of meters 
                         and <m>x</m> had units of seconds, what would be the units of 
                         <m>AV_{[1,7]}</m>?
                     </p>
                 </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    <m>AV_{[1,7]}=\frac{f(7)-f(1)}{7-1} = \frac{13-19}{6}=-\frac66 = -1</m>. 
+                    Units would be meters per second.
+                </p>
+            </solution>
             </task>
             <task workspace="1cm">
                 <statement>
@@ -238,6 +340,11 @@
                         <m>f(g(0))</m>.
                     </p>
                 </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    Since <m>g(0) = -1</m>, then <m>f(g(0)) = f(-1) =1</m>.
+                </p>
+            </solution>
             </task>
             <task workspace="1cm">
                 <statement>
@@ -246,6 +353,15 @@
                         <m>f(g(x))</m>.  (No need to simplify.)
                     </p>
                 </statement>
+            <solution component="S1-10-Review-soln">
+                <p>
+                    Plug in <m>g(x)</m> into <m>f(x)</m>, so 
+                    <md>
+                        f(g(x)) = f(x^2 - 1) = 3+2(x^2-1)
+                    </md>
+                    
+                </p>
+            </solution>
             </task>
             <task workspace="1cm">
                 <statement>
@@ -253,6 +369,17 @@
                         If <m>y = f(x) = 3+2x</m>, find an equation for <m>f^{-1}(y)</m>.
                     </p>
                 </statement>
+                <solution component="S1-10-Review-soln">
+                    <p>
+                        Start with <m>y=3+2x</m> and solve for x:
+                        <m>{y-3 = 2x}</m>, then <m>{\frac{y-3}{2} = x}</m>. 
+                        So 
+                        <md>
+                            x = f^{-1}(y) = \frac{y-3}{2}
+                        </md>
+                        
+                    </p>
+                </solution>
             </task>
         </activity>
     </page>
