@@ -120,7 +120,7 @@
   <image>
     <shortdescription>A circle for the activity.</shortdescription>
     <prefigure xmlns="https://prefigure.org" label="prefigure-circle5">
-                        <diagram dimensions="(200,200)" margins="5">
+                        <diagram dimensions="(200,200)" margins="25">
                           
                           <definition>c1=0</definition>
                           <definition>c2=7</definition>
@@ -148,7 +148,7 @@
   <image>
     <shortdescription>A circle for the activity.</shortdescription>
     <prefigure xmlns="https://prefigure.org" label="prefigure-circle6">
-                        <diagram dimensions="(200,200)" margins="5">
+                        <diagram dimensions="(200,200)" margins="25">
                           
                           <definition>c1=1</definition>
                           <definition>c2=5</definition>
