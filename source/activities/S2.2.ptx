@@ -1,172 +1,727 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <handout>
   <title>Section 2.2: The Unit Circle</title>
 
-  <sidebyside widths="45% 45%">
-    <image source="images/Unit"/>
-    <p>The <term>unit circle</term> is a circle of radius <m>1</m> that is centered at the origin, <m>(0,0)</m>. A point on the circle has some coordinates <m>(x,y)</m>, and we can form a triangle with the <m>x</m>-axis where the horizontal leg has length <m>|x|</m>, the vertical leg has length <m>|y|</m>, and the hypotenuse (the radius of the circle) is length 1.  Pythagorean Theorem then tells us that <md>x^2 + y^2 = 1!</md> This means we can determine some coordinates <q>nicely.</q></p>
+  <p>
+    <alert>MTH 124</alert>
+  </p>
+
+  <sidebyside widths="25% 70%">
+    <image>
+      <shortdescription>
+        The unit circle, that is a circle centered at the origin with radius 1.
+        A point on the circle has an x and y coordinate, which creates a right
+        triangle with the x-axis with a horizontal length of |x| and a vertical
+        leg of |y| and the hypotenuse of 1.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2">
+        <diagram dimensions="(250,250)" margins="5">
+          <definition>
+            a=cos(0.9)
+          </definition>
+
+          <definition>
+            b=sin(0.9)
+          </definition>
+          <coordinates bbox="(-1.2000,-1.2,1.2,1.2)">
+            <grid-axes decorations="no"/>
+            <circle radius="1" center="(0,0)"/>
+            <point p="(a,b)">
+              <m>
+                (x,y)
+              </m>
+            </point>
+            <line endpoints="((0,0), (a,b))" thickness="5" dash="4 4" stroke="blue" offset="(0,10)"/>
+            <line endpoints="((0,0), (a,0))" stroke="blue" dash="4 4" thickness="5" offset="(0,-20)"><m>x</m></line>
+            <line endpoints="((a,0), (a,b))" stroke="blue" dash="4 4" thickness="5"/>
+            <label anchor="(.25,.5)">
+              <m>
+                1
+              </m>
+            </label>
+            <label anchor="(.73,.3)">
+              <m>
+                y
+              </m>
+            </label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <p>
+      The <term>unit circle</term> is a circle of radius <m>1</m> that is
+      centered at the origin, <m>(0,0)</m>.
+      A point on the circle has some coordinates <m>(x,y)</m>, and we can form a
+      right triangle with the <m>x</m>-axis where the horizontal leg has length
+      <m>|x|</m>, the vertical leg has length <m>|y|</m>, and the hypotenuse
+      (the radius of the circle) is length 1.
+      Pythagorean Theorem then tells us that
+      <md>
+        x^2 + y^2 = 1!
+      </md>
+      This means we can determine some coordinates <q>nicely.</q>
+    </p>
   </sidebyside>
 
   <activity>
     <title>Activity 2.2.1</title>
+
     <statement>
-      <p>
-        <ul>
-          <li><p>We start at the right side of the circle <m>(1,0)</m> and travel around it counter-clockwise.  Label that point <m>t=0</m>.</p></li>
-          <li><p>The circumference of the circle is <m>2\pi</m>, so halfway around the circle is <m>\pi</m>.  Label that point <m>t=\pi</m>.</p></li>
-          <li><p>Similarly, we can divide the circumference (<m>2\pi</m>) nicely into 24 pieces, each with a length of <m>\frac{\pi}{12}</m> around the edge of the circle.  Fill them in (simplify the fractions as much as possible, so <m>\frac{2\pi}{12} = \frac{\pi}{6}</m>, <m>\frac{3\pi}{12} = \frac{\pi}{4}</m>, \ldots.)</p></li>
-        </ul>
-      </p>
-      <image source="images/unit_fill.png" width="50%"/>
+      <sidebyside widths="35% 63%">
+        <p>
+          <ul>
+            <li>
+              <p>
+                We start at the right side of the circle <m>(1,0)</m> and travel
+                around it counter-clockwise.
+                Label that point <m>t=0</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                The circumference of the circle is <m>2\pi</m>, so halfway
+                around the circle is <m>\pi</m>.
+                Label that point <m>t=\pi</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Similarly, we can divide the circumference ( <m>2\pi</m> )
+                nicely into 24 pieces, each with a length of
+                <m>\frac{\pi}{12}</m> around the edge of the circle.
+                Fill them in (simplify the fractions as much as possible, so
+                <m>\frac{2\pi}{12} = \frac{\pi}{6} </m>,
+                <m>\frac{3\pi}{12} = \frac{\pi}{4},  \ldots</m>.)
+              </p>
+            </li>
+          </ul>
+        </p>
+
+        <image>
+          <shortdescription>
+            The unit circle, with 24 equally spaced points around the perimeter.
+            The first two above the x-axis are labeled, t=pi/12 and t=pi/6.
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-1">
+            <diagram dimensions="(250,250)" margins="30">
+              <definition>
+                f(t)=(cos(t*pi/12),sin(t*pi/12))
+              </definition>
+              <coordinates bbox="(-1.3,-1.3,1.3,1.3)">
+                <grid-axes decorations="no" spacings="((-10,1/5,10),(-10,1/5,10))"/>
+                <circle radius="1" center="(0,0)"/>
+                <repeat parameter="k=0..24">
+                  <point at="point" p="f(k)"/>
+                </repeat>
+                <label anchor="f(1)" alignment="e" offset="(3,0)">
+                  <m>
+                    t=\frac{\pi}{12}
+                  </m>
+                </label>
+                <label anchor="f(2)" alignment="e" offset="(3,0)">
+                  <m>
+                    t=\frac{\pi}{6}
+                  </m>
+                </label>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </sidebyside>
     </statement>
   </activity>
 
-  <definition workspace="0.15in">
-    <title>Definition 2.2.5.</title>
+  <definition>
+    <title>Definition 2.2.5</title>
+
     <statement>
-      <p>An angle whose vertex is at the center of a circle measures <term>1 radian</term> provided the arc the angle intercepts on the circle equals the radius of the circle.</p>
+      <p>
+        An angle whose vertex is at the center of a circle measures
+        <term>1 radian</term> provided the arc the angle intercepts on the
+        circle equals the radius of the circle.
+      </p>
+
+      <p>
+        Which just means: the distance along the edge of the circle is the
+        <fillin/> as the angle between the <m>x-</m> axis and the point on the
+        circle!
+        (This is why we use radians...)
+      </p>
     </statement>
   </definition>
 
-  <p workspace="0.15in">Which just means: the distance along the edge of the circle is the <fillin/> as the angle between the <m>x-</m>axis and the point on the circle!  (This is why we use radians...)</p>
-
   <assemblage>
     <title>Converting between radians and degrees</title>
-    <p><m>1</m> radian <m>=</m> <m>\frac{180}{\pi}^{\circ}</m>.</p>
-    <p><m>1^{\circ}</m> <m>=</m> <m>\frac{\pi}{180}</m> radians.</p>
+
+    <p>
+      <md>
+        1 \text{ radian }= \frac{180}{\pi}^{\circ},  
+      \quad \quad \quad \quad 1^{\circ} = \frac{\pi}{180} \text{ radians}
+      </md>
+    </p>
   </assemblage>
+
+  <example workspace="1.1in">
+    <p>
+      (We'll do as a class:)
+    </p>
+
+    <p>
+      Convert <m>\pi</m> radians to degrees.
+      Convert <m>90</m> degrees to radians.
+    </p>
+  </example>
 
   <activity>
     <title>Activity 2.2.2. Converting between radians and degrees</title>
+
     <introduction>
-      <p>Convert each of the following quantities to the alternative measure: degrees to radians or radians to degrees.</p>
+      <p>
+        Convert each of the following quantities to the alternative measure:
+        degrees to radians or radians to degrees.
+      </p>
+
+      <p>
+        <ol cols="3" marker="a.">
+          <li>
+            <p workspace="1.6in">
+              <m>30^\circ</m>
+            </p>
+          </li>
+
+          <li>
+            <p workspace="1.6in">
+              <m>\frac{2\pi}{3}</m> radians
+            </p>
+          </li>
+
+          <li>
+            <p workspace="1.6in">
+              <m>\frac{5\pi}{4}</m> radians
+            </p>
+          </li>
+
+          <li>
+            <p workspace="1.6in">
+              <m>240^\circ</m>
+            </p>
+          </li>
+
+          <li>
+            <p workspace="1.6in">
+              <m>17^\circ</m>
+            </p>
+          </li>
+
+          <li>
+            <p workspace="1.6in">
+              <m>2</m> radians
+            </p>
+          </li>
+        </ol>
+      </p>
     </introduction>
-    <task workspace=".3in">
+    <!--   <task workspace=".3cm">
       <statement>
-        <p><m>30^{\circ}</m></p>
+        <p>
+          <m>30^{\circ}</m>
+        </p>
       </statement>
     </task>
-    <task workspace=".3in">
+
+    <task workspace=".3cm">
       <statement>
-        <p><m>\frac{2\pi}{3}</m> radians</p>
+        <p>
+          <m>\frac{2\pi}{3}</m> radians
+        </p>
       </statement>
     </task>
-    <task workspace=".3in">
+
+    <task workspace=".3cm">
       <statement>
-        <p><m>\frac{5\pi}{4}</m> radians</p>
+        <p>
+          <m>\frac{5\pi}{4}</m> radians
+        </p>
       </statement>
     </task>
-    <task workspace=".3in">
+
+    <task workspace=".3cm">
       <statement>
-        <p><m>240^{\circ}</m></p>
+        <p>
+          <m>240^{\circ}</m>
+        </p>
       </statement>
     </task>
-    <task workspace=".3in">
+
+    <task workspace=".3cm">
       <statement>
-        <p><m>17^{\circ}</m></p>
+        <p>
+          <m>17^{\circ}</m>
+        </p>
       </statement>
     </task>
-    <task workspace=".3in">
+
+    <task workspace=".3cm">
       <statement>
-        <p><m>2</m> radians</p>
+        <p>
+          <m>2</m> radians
+        </p>
       </statement>
-    </task>
+    </task>-->
   </activity>
 
   <activity>
     <title>Activity 2.2.3 Special points on the unit circle</title>
+
     <introduction>
-      <p>In what follows, we work to understand key relationships in <m>45^{\circ} - 45^{\circ} - 90^{\circ}</m>
- and <m>30^{\circ} - 60^{\circ} - 90^{\circ}</m> right
- triangles. (This will help us find exact coordinates on the unit circle.)</p>
-      <image source="images/2.2.3" width="50%"/>
+      <p>
+        In what follows, we work to understand key relationships in
+        <m>45^{\circ} - 45^{\circ} - 90^{\circ}</m> and
+        <m>30^{\circ} - 60^{\circ} - 90^{\circ}</m> right triangles.
+        (This will help us find exact coordinates on the unit circle.)
+      </p>
     </introduction>
-    <task workspace="1in">
+
+    <task workspace=".5in">
       <statement>
-        <p>For the 
-<m>45^{\circ} - 45^{\circ} - 90^{\circ}</m>
- triangle with legs of length <m>x</m> and <m>y</m> 
- and hypotenuse of length 1,
- because the triangle is an isosceles triangle, what is the relationship between <m>x</m> and <m>y</m>?  Use this fact to simplify the Pythagorean Theorem <m>x^2+y^2 = 1</m>  - what are the exact values of <m>x</m> and <m>y</m>?  (Exact means leave <m>\pi</m>'s or square roots or fractions in your answer so you do not round!)</p>
+        <sidebyside widths="40%  60%">
+          <image>
+            <shortdescription>
+              A right trianglewith angles of 45, 45, and 90 degrees with
+              hypotenus 1, and side lengths x and y.
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3">
+              <diagram dimensions="(250,250)" margins="5">
+                <coordinates bbox="(-.3,-.3,1,1)">
+                  <triangle vertices="((0,0),(sqrt(2)/2,sqrt(2)/2),(sqrt(2)/2,0))" closed="yes" stroke="blue" angle-markers="yes"/>
+                  <label anchor="(sqrt(2)/4,0)" alignment="s">
+                    <m>
+                      x
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(2)/2,sqrt(2)/4)" alignment="e">
+                    <m>
+                      y
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(2)/4,sqrt(2)/4)" alignment="nw">
+                    <m>
+                      1
+                    </m>
+                  </label>
+                  <angle-marker points="((0,0),(sqrt(2)/2,sqrt(2)/2),(sqrt(2)/2,0))" offset="(10,-6)">
+                    <m>
+                      45^\circ
+                    </m>
+                  </angle-marker>
+                  <angle-marker points="((sqrt(2)/2,0),(0,0),(sqrt(2)/2,sqrt(2)/2))" offset="(1,-6)">
+                    <m>
+                      45^\circ
+                    </m>
+                  </angle-marker>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+
+          <p>
+            For the <m>45^{\circ} - 45^{\circ} - 90^{\circ}</m> triangle with
+            legs of length <m>x</m> and <m>y</m> and hypotenuse of length 1,
+            because the triangle is an isosceles triangle, what is the
+            relationship between <m>x</m> and <m>y</m>?
+            Use this fact to simplify the Pythagorean Theorem
+            <m>x^2+y^2 = 1</m>- what are the exact values of <m>x</m> and
+            <m>y</m>?
+            (Exact means leave <m>\pi</m> 's or square roots or fractions in
+            your answer so you do not round!)
+          </p>
+        </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+
+    <task workspace=".5in">
       <statement>
-        <p>Now consider the 
-<m>30^{\circ} - 60^{\circ} - 90^{\circ}</m>
- triangle with hypotenuse of length 1
- and the longer leg (of length <m>x</m>
-) lying along the positive <m>x</m>
--axis. Reflect this triangle across the 
--axis, what special triangle is formed (look at the angles)? Can we use this to find the exact length of <m>y</m>?  Once we have <m>y</m>, go back and find the exact value of <m>x</m> using <m>x^2 + y^2 = 1</m>.</p>
+        <sidebyside widths="40% 60%">
+          <image>
+            <shortdescription>
+              A right triangle with angles of 30, 60, 90 degrees with hypotenus
+              1 and side lengths x and y.
+              In the picture, the side length of x is adjacent to the 30 degree
+              angle.
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3-b">
+              <diagram dimensions="(250,250)" margins="5">
+                <coordinates bbox="(-.3,-.3,1,1)">
+                  <triangle vertices="((0,0),(sqrt(3)/2,sqrt(1)/2),(sqrt(3)/2,0))" closed="yes" stroke="blue" angle-markers="yes"/>
+                  <label anchor="(sqrt(3)/4,0)" alignment="s">
+                    <m>
+                      x
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(3)/2,sqrt(1)/4)" alignment="e">
+                    <m>
+                      y
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(3)/4,sqrt(1)/4)" alignment="nw">
+                    <m>
+                      1
+                    </m>
+                  </label>
+                  <angle-marker points="((0,0),(sqrt(3)/2,sqrt(1)/2),(sqrt(3)/2,0))" offset="(10,-6)">
+                    <m>
+                      60^\circ
+                    </m>
+                  </angle-marker>
+                  <angle-marker points="((sqrt(3)/2,0),(0,0),(sqrt(3)/2,sqrt(1)/2))" offset="(1,3)">
+                    <m>
+                      30^\circ
+                    </m>
+                  </angle-marker>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+
+          <p>
+            Now consider the <m>30^{\circ} - 60^{\circ} - 90^{\circ}</m>
+            triangle with hypotenuse of length 1 and the longer leg (of length
+            <m>x</m> ) lying along the positive <m>x</m>-axis.
+            Reflect this triangle across the -axis, what special triangle is
+            formed (look at the angles)?
+            Can we use this to find the exact length of <m>y</m>?
+            Once we have <m>y</m>, go back and find the exact value of <m>x</m>
+            using <m>x^2 + y^2 = 1</m>.
+          </p>
+        </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+
+    <task workspace=".5in">
       <statement>
-        <p>Note we can take the same <m>30^{\circ} - 60^{\circ} - 90^{\circ}</m> and flip it so <m>y</m> corresponds to the smaller, horizontal leg.  What are the <m>x</m> and <m>y</m> values in this case?  (Hint, by looking at (b) you can save yourself a lot of work!)</p>
-        <image source="images/2.2.3c" width="50%"/>
+        <sidebyside widths="40% 60%">
+          <image>
+            <shortdescription>
+              A right triangle with angles of 30, 60, 90 degrees with hypotenus
+              1 and side lengths x and y.
+              In the picture, the side length of x is adjacent to the 60 degree
+              angle.
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3-c">
+              <diagram dimensions="(250,250)" margins="30">
+                <coordinates bbox="(-.3,-.3,1,1)">
+                  <triangle vertices="((0,0),(sqrt(1)/2,sqrt(3)/2),(sqrt(1)/2,0))" closed="yes" stroke="blue" angle-markers="yes"/>
+                  <label anchor="(sqrt(1)/4,0)" alignment="s">
+                    <m>
+                      x
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(1)/2,sqrt(3)/4)" alignment="e">
+                    <m>
+                      y
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(1)/4,sqrt(3)/4)" alignment="nw">
+                    <m>
+                      1
+                    </m>
+                  </label>
+                  <angle-marker points="((0,0),(sqrt(1)/2,sqrt(3)/2),(sqrt(1)/2,0))" offset="(-5,-10)">
+                    <m>
+                      30^\circ
+                    </m>
+                  </angle-marker>
+                  <angle-marker points="((sqrt(1)/2,0),(0,0),(sqrt(1)/2,sqrt(3)/2))" offset="(0,0)">
+                    <m>
+                      60^\circ
+                    </m>
+                  </angle-marker>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+
+          <p>
+            Note we can take the same
+            <m>30^{\circ} - 60^{\circ} - 90^{\circ}</m> and flip it so <m>y</m>
+            corresponds to the smaller, horizontal leg.
+            What are the <m>x</m> and <m>y</m> values in this case?
+            (Hint, by looking at (b) you can save yourself a lot of work!)
+          </p>
+        </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+
+    <task workspace="0.01in">
       <statement>
-        <p>We know from the conversion factor from degrees to radians that an angle of <m>30^{\circ}</m>
- corresponds to an angle measuring <m>\frac{\pi}{6}</m>
- radians,  <m>45^{\circ}</m>
- corresponds to <m>\frac{\pi}{4}</m>
- radians, and <m>60^{\circ}</m>
- corresponds to <m>\frac{\pi}{3}</m> 
- radians.  Use parts (a) - (c) to label the coordinate points <m>(x,y)</m> with the exact values of <m>x</m> and <m>y</m> on the three triangles below.</p>
-        <image source="images/2.2.3e.png" width="50%"/>
+        <p>
+          We know from the conversion factor from degrees to radians that an
+          angle of <m>30^{\circ}</m> corresponds to an angle measuring
+          <m>\frac{\pi}{6}</m> radians, <m>45^{\circ}</m> corresponds to
+          <m>\frac{\pi}{4}</m> radians, and <m>60^{\circ}</m> corresponds to
+          <m>\frac{\pi}{3}</m> radians.
+          Use parts (a) - (c) to label the coordinate points <m>(x,y)</m> with
+          the exact values of <m>x</m> and <m>y</m> on the three triangles
+          below.
+        </p>
+
+        <sidebyside widths="30% 30% 30%">
+          <image>
+            <shortdescription>
+              A central angle on the unit circle with angle pi/6 or 30 degrees.
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3-d">
+              <diagram dimensions="(250,250)" margins="30">
+                <coordinates bbox="(-.3,-.3,1,1)">
+                  <grid-axes decorations="no"/>
+                  <circle center="(0,0)" radius="1" stroke="blue"/>
+                  <triangle vertices="((0,0),(sqrt(3)/2,sqrt(1)/2),(sqrt(3)/2,0))" closed="yes" stroke="blue" angle-markers="yes" thickness="3"/>
+                  <label anchor="(sqrt(3)/4,0)" alignment="s">
+                    <m>
+                      x
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(3)/2,sqrt(1)/4)" alignment="e">
+                    <m>
+                      y
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(3)/4,sqrt(1)/4)" alignment="nw">
+                    <m>
+                      1
+                    </m>
+                  </label>
+                  <angle-marker points="((sqrt(3)/2,0),(0,0),(sqrt(3)/2,sqrt(1)/2))" offset="(0,2)">
+                    <m>
+                      \pi / 6
+                    </m>
+                  </angle-marker>
+                  <point p="(sqrt(3)/2,sqrt(1)/2)"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+
+          <image>
+            <shortdescription>
+              A central angle on the unit circle with angle pi/4 or 45 degrees.
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3-e">
+              <diagram dimensions="(250,250)" margins="30">
+                <coordinates bbox="(-.3,-.3,1,1)">
+                  <grid-axes decorations="no"/>
+                  <circle center="(0,0)" radius="1" stroke="blue"/>
+                  <triangle vertices="((0,0),(sqrt(2)/2,sqrt(2)/2),(sqrt(2)/2,0))" closed="yes" stroke="blue" angle-markers="yes" thickness="3"/>
+                  <label anchor="(sqrt(2)/4,0)" alignment="s">
+                    <m>
+                      x
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(2)/2,sqrt(2)/4)" alignment="e">
+                    <m>
+                      y
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(2)/4,sqrt(2)/4)" alignment="nw">
+                    <m>
+                      1
+                    </m>
+                  </label>
+                  <angle-marker points="((sqrt(2)/2,0),(0,0),(sqrt(2)/2,sqrt(2)/2))" offset="(0,-4)">
+                    <m>
+                      \pi / 4
+                    </m>
+                  </angle-marker>
+                  <point p="(sqrt(2)/2,sqrt(2)/2)"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+
+          <image>
+            <shortdescription>
+              A central angle on the unit circle with angle pi/3 or 60 degrees.
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3-f">
+              <diagram dimensions="(250,250)" margins="30">
+                <coordinates bbox="(-.3,-.3,1,1)">
+                  <grid-axes decorations="no"/>
+                  <circle center="(0,0)" radius="1" stroke="blue"/>
+                  <triangle vertices="((0,0),(sqrt(1)/2,sqrt(3)/2),(sqrt(1)/2,0))" closed="yes" stroke="blue" angle-markers="yes" thickness="3"/>
+                  <label anchor="(sqrt(1)/4,0)" alignment="s">
+                    <m>
+                      x
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(1)/2,sqrt(3)/4)" alignment="e">
+                    <m>
+                      y
+                    </m>
+                  </label>
+                  <label anchor="(sqrt(1)/4,sqrt(3)/4)" alignment="nw">
+                    <m>
+                      1
+                    </m>
+                  </label>
+                  <angle-marker points="((sqrt(1)/2,0),(0,0),(sqrt(1)/2,sqrt(3)/2))" offset="(0,0)">
+                    <m>
+                      \pi/3
+                    </m>
+                  </angle-marker>
+                  <point p="(sqrt(1)/2,sqrt(3)/2)"/>
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </sidebyside>
       </statement>
     </task>
   </activity>
 
-  <sidebyside widths="45% 45%">
-    <stack>
-      <p>The coordinates are called <term>terminal points.</term></p>
-      <p>The far right of the circle we know is terminal point <m>(1,0)</m> because the radius is 1 and we are on the <m>x</m>-axis.  Since we start on the far right of the circle, that corresponds to angle <m>t=0</m>.  Similarly the point at the top of the circle is the terminal point <m>(0,1)</m>, corresponding to <m>t=\frac{\pi}{2}</m>.  Fill in those points to the right.   Then use the previous activity (and symmetry of the coordinates) to fill in the other points on the unit circle to the right. We have 16 specials points total whose location we can determine exactly!</p>
-    </stack>
-    <image source="images/unit2"/>
+  <sidebyside widths="60% 28%">
+    <image>
+      <shortdescription>
+        A unit circle with some coordinate points filled in.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-44">
+        <diagram dimensions="(500,500)" margins="20">
+          <definition>
+            f(t)=(cos(t*pi/12),sin(t*pi/12))
+          </definition>
+          <coordinates bbox="(-1.5,-1.5,1.5,1.5)">
+            <grid-axes decorations="no" spacings="((-10,1/5,10),(-10,1/5,10))"/>
+            <circle center="(0,0)" radius="1" stroke="blue"/>
+            <repeat parameter="k=2..4">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <repeat parameter="k=8..10">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <repeat parameter="k=14..16">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <repeat parameter="k=20..22">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <point p="f(0)"/>
+            <point p="f(6)"/>
+            <point p="f(12)"/>
+            <point p="f(18)"/>
+            <line endpoints="((0,0),(sqrt(3)/2,1/2))" stroke="blue" dash="4 4"/>
+            <label anchor="(.4,.35)">
+              <m>
+                1
+              </m>
+            </label>
+            <label anchor="(sqrt(3)/2,sqrt(1)/2)" alignment="e">
+              <m>
+                (\frac{\sqrt{3}}{2},\frac12), t=\frac{\pi}{6}
+              </m>
+            </label>
+            <label anchor="(sqrt(2)/2,sqrt(2)/2)" alignment="e" offset="(3,0)">
+              <m>
+                (\frac{\sqrt{2}}{2},\frac{\sqrt{2}}2), t=\frac{\pi}{4}
+              </m>
+            </label>
+            <label anchor="(sqrt(1)/2,sqrt(3)/2)" alignment="e" offset="(8,0)">
+              <m>
+                (\frac{1}{2},\frac{\sqrt{3}}2), t=\frac{\pi}{3}
+              </m>
+            </label>
+            <label anchor="(sqrt(4)/2,sqrt(0)/2)" alignment="e">
+              <m>
+                (1,0), t=0
+              </m>
+            </label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <p>
+      The coordinates are called <term>terminal points.</term> The far right of
+      the circle we know is terminal point <m>(1,0)</m> because the radius is 1
+      and we are on the <m>x</m>-axis.
+      Since we start on the far right of the circle, that corresponds to angle
+      <m>t=0</m>.
+      Similarly the point at the top of the circle is the terminal point
+      <m>(0,1)</m>, corresponding to <m>t=\frac{\pi}{2}</m>.
+      Fill in those points in the graph.
+      Then use the previous activity (and symmetry of the coordinates) to fill
+      in the other points on the unit circle.
+      We have 16 specials points total whose location we can determine exactly!
+    </p>
   </sidebyside>
 
   <assemblage>
     <title>Connecting arc length and angles in non-unit circles</title>
-    <p>In a circle of radius <m>r</m>, a central angle measuring <m>\theta</m>
- radians intercepts an arc of the circle, and the arc has length <m>s</m> where <md>s=r\theta.</md></p>
+
+    <p>
+      In a circle of radius <m>r</m>, a central angle measuring <m>\theta</m>
+      radians intercepts an arc of the circle, and the arc has length <m>s</m>
+      where
+      <md>
+        s=r\theta.
+      </md>
+    </p>
   </assemblage>
 
   <activity>
     <title>Activity 2.2.4 Non-unit circles</title>
+
     <introduction>
-      <p>In a circle of radius <m>r</m>, each point of the unit circle is a distance <m>r</m> further away from the origin.  So <m>(1,0)</m> on the unit circle would correspond to <m>(r,0)</m>, and so on.  That is, each terminal point on the unit circle corresponds to the same point, except each coordinate is multiplied by the new radius <m>r</m>.  Find the following values or points on the non-unit circles below exactly.</p>
+      <p>
+        In a circle of radius <m>r</m>, each point of the unit circle is a
+        distance <m>r</m> further away from the origin.
+        So <m>(1,0)</m> on the unit circle would correspond to <m>(r,0)</m>, and
+        so on.
+        That is, each terminal point on the unit circle corresponds to the same
+        point, except each coordinate is multiplied by the new radius <m>r</m>.
+        Find the following values or points on the non-unit circles below
+        exactly.
+      </p>
     </introduction>
-    <task workspace="1in">
+
+    <task workspace=".5in">
       <statement>
-        <p>In a circle of radius <m>11</m>,
- the arc length intercepted by a central angle of 
- <m>\frac{5\pi}{3}</m>.</p>
+        <p>
+          In a circle of radius <m>11</m>, find the arc length intercepted by a
+          central angle of <m>\frac{5\pi}{3}</m>.
+        </p>
       </statement>
     </task>
+
     <task workspace="1in">
       <statement>
-        <p>In a circle of radius <m>3</m>,
- the central angle measure that intercepts an arc of length <m>\frac{\pi}{4}</m>.</p>
+        <p>
+          In a circle of radius <m>3</m>, find the central angle measure that
+          intercepts an arc of length <m>\frac{\pi}{4}</m>.
+        </p>
       </statement>
     </task>
+
     <task workspace="1in">
       <statement>
-        <p>The radius of the circle in which an angle of 
- <m>\frac{7\pi}{6}</m>
- intercepts an arc of length <m>\frac{\pi}{2}</m>.</p>
+        <p>
+          Find the radius of the circle in which an angle of
+          <m>\frac{7\pi}{6}</m> intercepts an arc of length
+          <m>\frac{\pi}{2}</m>.
+        </p>
       </statement>
     </task>
+
     <task workspace="1in">
       <statement>
-        <p>The exact coordinates of the point on the circle of radius <m>5</m>
- that lies <m>\frac{25\pi}{6}</m> 
- units counterclockwise along the circle from <m>(5,0)</m>.</p>
+        <p>
+          Find the exact coordinates of the point on the circle of radius
+          <m>5</m> that lies <m>\frac{25\pi}{6}</m> units counterclockwise along
+          the circle from <m>(5,0)</m>.
+        </p>
       </statement>
     </task>
   </activity>
-
 </handout>
