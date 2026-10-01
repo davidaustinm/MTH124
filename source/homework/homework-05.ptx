@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 05</title>
+
+  <introduction>
+    <p>
+      <alert>MTH 124</alert>
+    </p>
+  </introduction>
+
+  <p>
+    <alert>Due Thursday, 10/8/26 at 12:00pm (the beginning of class)</alert>
+  </p>
+
+  <p>
+    Make sure you are following the homework expectations!
+    Example: complete sentences!
+  </p>
+
+  <p>
+    (This is
+    <url href="https://activecalculus.org/prelude/sec-circular-traversing.html#ez-circular-traversing-WW5">#4 in Section 2.1</url>,
+    you can activate the problem there to check your answers.)
+  </p>
+
+  <exercise>
+    <introduction>
+      <p>
+        The temperature of a chemical reaction oscillates between a low of
+        <m>10^\circ C</m> and a high of <m>135^\circ C</m>.
+        The temperature is at its lowest point at time <m>t=0</m>, and reaches its
+        maximum point over a two and a half hour period.
+        It then takes the same amount of time to return back to its initial
+        temperature.
+        Let <m>y=H(t)</m> denote the temperature of the reaction <m>t</m> hours after the
+        reaction begins.
+      </p>
+    </introduction>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is the period of the function <m>y=H(t)</m>? Include units. Explain how you know in a complete sentence.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What is the midline of the function <m>y=H(t)</m>? Include units.  Explain how you know in a complete sentence.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+           What is the amplitude of the function <m>y=H(t)</m>? Include units.  Explain how you know in a complete sentence.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+         Which of the graphs represents the function <m>y=H(t)</m>?  Explain how you know in at least 2 complete sentences.
+        </p>
+        
+        <ol cols="2" marker="i.">
+            <li>
+            <image>
+            <shortdescription>A possible circular function for y=H(t).
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw5-1">
+                <diagram dimensions="(300,300)" margins="10">
+                   <definition>f(t)=-62.5*cos(2*pi/5*t)+72.5</definition>
+                    <coordinates bbox="(-1,-5,10,145)">
+                      <grid-axes decorations="no" spacings="((-5,2.5,25),(0,100,72.5))" 
+                      xlabel="t (hours)" ylabel="H (temp)"/>
+                      <label anchor="(0,72.5)" alignment="w"><m>72.5</m></label>
+                      <label anchor="(5,0)" alignment="s"><m>5</m></label>
+                      <label anchor="(10,0)" alignment="s"><m>10</m></label>
+                      <graph function="f" domain="(0,10)"/>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+           </image>
+           </li>
+            <li>
+            <image>
+            <shortdescription>A possible circular function for y=H(t).
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw5-2">
+                <diagram dimensions="(300,300)" margins="10">
+                   <definition>f(t)=62.5*cos(2*pi/5*t)+72.5</definition>
+                    <coordinates bbox="(-1,-5,10,145)">
+                      <grid-axes decorations="no" spacings="((-5,2.5,25),(0,100,72.5))" 
+                      xlabel="t (hours)" ylabel="H (temp)"/>
+                      <label anchor="(0,72.5)" alignment="w"><m>72.5</m></label>
+                      <label anchor="(5,0)" alignment="s"><m>5</m></label>
+                      <label anchor="(10,0)" alignment="s"><m>10</m></label>
+                      <graph function="f" domain="(0,10)"/>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+           </image>
+            </li>
+            <li>
+           <image>
+            <shortdescription>A possible circular function for y=H(t).
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw5-3">
+                <diagram dimensions="(300,300)" margins="10">
+                   <definition>f(t)=62.5*cos(2*pi/2.5*t)+72.5</definition>
+                    <coordinates bbox="(-1,-5,10,145)">
+                      <grid-axes decorations="no" spacings="((-5,2.5,25),(0,100,72.5))" 
+                      xlabel="t (hours)" ylabel="H (temp)"/>
+                      <label anchor="(0,72.5)" alignment="w"><m>72.5</m></label>
+                      <label anchor="(5,0)" alignment="s"><m>5</m></label>
+                      <label anchor="(10,0)" alignment="s"><m>10</m></label>
+                      <graph function="f" domain="(0,10)"/>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+           </image>
+            </li>
+            <li>
+           <image>
+            <shortdescription>A possible circular function for y=H(t).
+            </shortdescription>
+            <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw5-4">
+                <diagram dimensions="(300,300)" margins="10">
+                   <definition>f(t)=-62.5*cos(2*pi/2.5*t)+72.5</definition>
+                    <coordinates bbox="(-1,-5,10,145)">
+                      <grid-axes decorations="no" spacings="((-5,2.5,25),(0,100,72.5))" 
+                      xlabel="t (hours)" ylabel="H (temp)"/>
+                      <label anchor="(0,72.5)" alignment="w"><m>72.5</m></label>
+                      <label anchor="(5,0)" alignment="s"><m>5</m></label>
+                      <label anchor="(10,0)" alignment="s"><m>10</m></label>
+                      <graph function="f" domain="(0,10)"/>
+                    </coordinates>
+                </diagram>
+            </prefigure>
+           </image>
+            </li>
+
+
+        </ol>
+      </statement>
+    </task>
+  </exercise>
+</worksheet>
