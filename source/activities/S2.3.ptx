@@ -1,35 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
   <title>Section 2.3: The Sine and Cosine Functions</title>
+  <p>
+    <alert>MTH 124</alert>
+  </p>
 
-  <definition workspace=".5cm">
+  
+<sidebyside widths="20% 60%" >
+<image  >
+      <shortdescription>
+        A unit circle showing the sine function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-3-sine">
+        <diagram dimensions="(300,300)" margins="20">
+          <definition>
+            f(t)=(cos(t*pi/12),sin(t*pi/12))
+          </definition>
+          <coordinates bbox="(-1.2,-1.2,1.2,1.2)">
+            <axes decorations="no"/>
+            <circle center="(0,0)" radius="1" stroke="blue"/>
+            <line endpoints="((0,0),f(3.6))" stroke="red"/>
+            <label anchor="1/2*f(3.6)" alignment="nw" ><m>1</m></label>
+            <angle-marker points="(f(0),(0,0),f(3.6))" offset="(0,-5)">
+              <m>t</m>
+            </angle-marker>  
+            <point p="f(3.6)" alignment="e"><m>(a,b)</m></point>     
+            <label anchor="(.8,1.2)"><m>\sin(t)=b</m></label>   
+            <label anchor="(.8,1.05)"><m>\cos(t)=a</m></label> 
+
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+  <p>
+    Have your unit circles out!  Use them as a reference.  We are going to turn each coordinate 
+    of the points on the unit circle into a new function.
+  </p>
+     </sidebyside>
+
+  <definition>
     <title>Definition 2.3.4</title>
     <statement>
       <p>Given a central angle in the unit circle with angle <m>t</m>
  radians and the terminal point <m>(a,b)</m>,
- as shown to the right, we define the <term>sine of <m>t</m></term>, denoted <m>\sin(t)</m>,
+ as shown in the graph, we define the <term>sine of <m>t</m></term>, denoted <m>\sin(t)</m>,
  by the rule <md>\sin(t) = b.</md>
  That is, the <m>y</m>-coordinate on the unit circle IS the <m>\sin(t)</m>!</p>
     </statement>
   </definition>
 
-  <p>A table of values and a graph of the function <m>\sin(t)</m> are below.</p>
-  <image source="images/sine" width="50%"/>
-  <image source="images/sinetable" width="50%"/>
-  <image source="images/sinegraph" width="50%"/>
+
 
   <definition>
     <title>Definition 2.3.8.</title>
     <statement>
       <p>Given a central angle in the unit circle that measures <m>t</m>
  radians and the terminal point <m>(a,b)</m>,
- as shown to the right, we define the <term>cosine of <m>t</m></term>, denoted <m>\cos(t)</m>,
+ as shown in the graph, we define the <term>cosine of <m>t</m></term>, denoted <m>\cos(t)</m>,
  by the rule <md>\cos(t) = a.</md>
  That is, the <m>x</m>-coordinate on the unit circle IS the <m>\cos(t)</m>!</p>
     </statement>
   </definition>
 
-  <image source="images/cos" width="50%"/>
+    
+
+
+  <p>We'll start with the sine function.  A table of values and a graph of the function <m>\sin(t)</m> are below.</p>
+  
+<tabular>
+  <row bottom="minor">
+    <cell>t</cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{\pi}{6}</m></cell>
+    <cell><m>\frac{\pi}{4}</m></cell>
+    <cell><m>\frac{\pi}{3}</m></cell>
+    <cell><m>\frac{\pi}{2}</m></cell>
+    <cell><m>\frac{2\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{4}</m></cell>
+    <cell><m>\frac{5\pi}{6}</m></cell>
+    <cell><m>\pi</m></cell>
+   
+  </row>
+  <row  bottom="major">
+    <cell><m>\sin(t)</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{1}{2}</m></cell>
+    <cell><m>\frac{\sqrt2}{2}</m></cell>
+    <cell><m>\frac{\sqrt3}{2}</m></cell>
+    <cell><m>1</m></cell>
+    <cell><m>\frac{\sqrt3}{2}</m></cell>
+    <cell><m>\frac{\sqrt2}{2}</m></cell>
+    <cell><m>\frac{1}{2}</m></cell>
+    <cell><m>0</m></cell>
+    
+  </row>
+  
+   <row bottom="minor">
+    <cell>t</cell>
+    
+    <cell><m>\pi</m></cell>
+    <cell><m>\frac{7\pi}{6}</m></cell>
+    <cell><m>\frac{5\pi}{4}</m></cell>
+    <cell><m>\frac{4\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{2}</m></cell>
+    <cell><m>\frac{5\pi}{3}</m></cell>
+    <cell><m>\frac{7\pi}{4}</m></cell>
+    <cell><m>\frac{11\pi}{6}</m></cell>
+    <cell><m>2\pi</m></cell>
+  </row>
+
+
+  <row>
+    <cell><m>\sin(t)</m></cell>
+    
+    <cell><m>0</m></cell>
+    <cell><m>-\frac{1}{2}</m></cell>
+    <cell><m>-\frac{\sqrt2}{2}</m></cell>
+    <cell><m>-\frac{\sqrt3}{2}</m></cell>
+    <cell><m>-1</m></cell>
+    <cell><m>-\frac{\sqrt3}{2}</m></cell>
+    <cell><m>-\frac{\sqrt2}{2}</m></cell>
+    <cell><m>-\frac{\sqrt1}{2}</m></cell>
+    <cell><m>0</m></cell>
+  </row>
+</tabular>
+
+
+ <image width="85%">
+      <shortdescription>
+        A graph of the sine function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-3-b">
+        <diagram dimensions="(500,200)" margins="5">
+          <definition>
+            f(t)=sin(t)
+          </definition>
+          <definition>points=['0','pi/6']</definition>
+          <coordinates bbox="(-pi/4,-1.25,2*pi+pi/4,1.25)">
+            <grid-axes decorations="yes" h-pi-format="yes" 
+            spacings="((-pi/4,pi/4,9*pi/4), (-1.5,.25,1.5))" 
+            hlabels = "(0,pi/4,2*pi)" xlabel="t"/>
+            <graph function="f"/>
+            <label anchor="(4.9,1.1)"><m>f(t) = \sin(t)</m></label>  
+            <point p="(0,f(0))"/>
+            <point p="(pi/6,f(pi/6))"/>
+            <point p="(pi/4,f(pi/4))"/>
+            <point p="(pi/3,f(pi/3))"/>
+            <point p="(pi/2,f(pi/2))"/>
+            <point p="(2*pi/3,f(2*pi/3))"/>
+            <point p="(3*pi/4,f(3*pi/4))"/>
+            <point p="(5*pi/6,f(5*pi/6))" alignment="e"><m>(\frac{5\pi}{6},\frac12)</m></point>
+            <point p="(pi,f(pi))"/>
+            <point p="(7*pi/6,f(7*pi/6))"/>
+            <point p="(5*pi/4,f(5*pi/4))"/>
+            <point p="(4*pi/3,f(4*pi/3))"/>
+            <point p="(3*pi/2,f(3*pi/2))"/>
+            <point p="(5*pi/3,f(5*pi/3))"/>
+            <point p="(7*pi/4,f(7*pi/4))"/>
+            <point p="(11*pi/6,f(11*pi/6))"/>
+            <point p="(2*pi,f(2*pi))"/>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
 
   <activity>
     <title>Activity 2.3.2. The cosine function</title>
@@ -47,21 +182,97 @@
 ? <m>\cos(-\frac{\pi}{3})</m>?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task >
       <statement>
         <p>Complete the following table with the exact values of <m>k=g(t) = \cos(t)</m>
  that correspond to the stated inputs <m>t</m>.</p>
-        <image source="images/2.3.2b" width="50%"/>
+        <tabular>
+          <row bottom="minor">
+    <cell>t</cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{\pi}{6}</m></cell>
+    <cell><m>\frac{\pi}{4}</m></cell>
+    <cell><m>\frac{\pi}{3}</m></cell>
+    <cell><m>\frac{\pi}{2}</m></cell>
+    <cell><m>\frac{2\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{4}</m></cell>
+    <cell><m>\frac{5\pi}{6}</m></cell>
+    <cell><m>\pi</m></cell>
+   
+  </row>
+  <row  bottom="major">
+    <cell><m>\cos(t)</m></cell>
+    <cell><m>1</m></cell>
+    <cell><m>\frac{\sqrt3}2</m></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    
+  </row>
+  
+   <row bottom="minor">
+    <cell>t</cell>
+    
+    <cell><m>\pi</m></cell>
+    <cell><m>\frac{7\pi}{6}</m></cell>
+    <cell><m>\frac{5\pi}{4}</m></cell>
+    <cell><m>\frac{4\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{2}</m></cell>
+    <cell><m>\frac{5\pi}{3}</m></cell>
+    <cell><m>\frac{7\pi}{4}</m></cell>
+    <cell><m>\frac{11\pi}{6}</m></cell>
+    <cell><m>2\pi</m></cell>
+  </row>
+
+
+  <row>
+    <cell><m>\cos(t)</m></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+</tabular>
+        
       </statement>
     </task>
-    <task workspace="1in">
+    <task >
       <statement>
-        <p>On the axes provided below, sketch an accurate graph of <m>k=g(t) = \cos(t)</m>.
+        <p>On the axes provided below, sketch an accurate graph of <m>{k=g(t) = \cos(t)}</m>.
  Label the exact location of several key points on the curve.</p>
-        <image source="images/2.3.2c.png" width="50%"/>
+         <image width="85%">
+      <shortdescription>
+        A graph of the cosine function for you to fill in.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-3-cosine">
+        <diagram dimensions="(500,200)" margins="5">
+          <definition>
+            f(t)=cos(t)
+          </definition>
+          <definition>points=['0','pi/6']</definition>
+          <coordinates bbox="(-pi/4,-1.25,2*pi+pi/4,1.25)">
+            <grid-axes decorations="yes" h-pi-format="yes" 
+            spacings="((-pi/4,pi/4,9*pi/4), (-1.5,.25,1.5))" 
+            hlabels = "(0,pi/4,2*pi)" xlabel="t"/>
+            <graph function="f"/>
+            <label anchor="(2.9,1.1)"><m>g(t) = \cos(t)</m></label>  
+        
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>What is the exact value of 
  <m>\cos(\frac{11\pi}{4})</m>?
@@ -69,13 +280,13 @@
 ?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.6in">
       <statement>
         <p>Give four different values of <m>t</m>
  for which <m>\cos(t) = -\frac{\sqrt{3}}{2}</m>.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.6in">
       <statement>
         <p>How is the graph of <m>\cos(t)</m>
  different from the graph of <m>\sin(t)</m>?
@@ -101,42 +312,72 @@ and click on sine or cosine for an animation.</p>
     </p>
   </assemblage>
 
-  <assemblage>
+  <assemblage >
     <title>The Fundamental Trigonometric Identity</title>
     <p>For any real number <m>t</m>, <md>\sin^2(t) + \cos^2(t) = 1.</md></p>
   </assemblage>
+
+  <p workspace="1in">
+     
+  </p>
 
   <activity>
     <title>Activity 2.3.3</title>
     <introduction>
       <p>Use the graph below that shows both <m>\sin(t)</m> and <m>\cos(t)</m> on the same plot to help answer the following questions.</p>
-      <image source="images/sincos" width="50%"/>
+       <image width = "85%">
+      <shortdescription>
+        A graph of the sine and cosine functions.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-3-both">
+        <diagram dimensions="(500,200)" margins="5">
+          <definition>
+            f(t)=sin(t)
+          </definition>
+          <definition>
+            g(t)=cos(t)
+            </definition>
+          <definition>points=['0','pi/6']</definition>
+          <coordinates bbox="(-pi/4,-1.25,2*pi+pi/4,1.25)">
+            <grid-axes decorations="yes" h-pi-format="yes" 
+            spacings="((-pi/4,pi/4,9*pi/4), (-1.5,.25,1.5))" 
+            hlabels = "(0,pi/4,2*pi)" xlabel="t"/>
+            <graph function="f"/>
+            <label anchor="(2.9,1.1)"><m>f(t) = \sin(t)</m></label>  
+            <graph function="g" dash="4 4" stroke="red"/>
+            <label anchor="(1.9,-1.1)"><m>g(t) = \cos(t)</m></label> 
+            <vector tail="(1.3,g(1.3))" v="(pi/2,0)"/>
+        
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
     </introduction>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>Give an example of the largest interval you can find on which <m>\sin(t)</m>
  is decreasing.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>Give an example of the largest interval you can find on which <m>\sin(t)</m>
  is decreasing and concave down.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>Give an example of the largest interval you can find on which <m>\cos(t)</m>
  is increasing.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>Give an example of the largest interval you can find on which <m>\cos(t)</m>
  is increasing and concave up.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>Without doing any computation, on which interval is the average rate of change of <m>g(t)=\cos(t)</m>
  greater: <m>[\pi,\pi+0.01]</m>
@@ -144,12 +385,12 @@ and click on sine or cosine for an animation.</p>
  Why?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>Thinking from the perspective of the unit circle, for which quadrants of the <m>x</m>-<m>y</m>
  plane is <m>\cos(t)</m>
