@@ -893,7 +893,8 @@
       </statement>
       <solution component="S2-1-soln">
         <p>
-          
+          <m>r=11</m>, <m>\theta=\frac{5\pi}{3}</m>, <m>s = ?</m>.  So 
+          <m>{s = r\theta = 11 (\frac{5\pi}3) = \frac{55\pi}{3}}</m>.
         </p>
       </solution>
     </task>
@@ -907,7 +908,8 @@
       </statement>
       <solution component="S2-1-soln">
         <p>
-          
+          <m>r = 3</m>, <m>s =\frac{\pi}{4}</m>, <m>\theta = ?</m>.  So
+          <m>{s = r\theta \implies \frac{\pi}{4} = 3\theta \implies \theta = \frac{\pi}{4}(\frac13) \implies \theta = \frac{\pi}{12}}</m>
         </p>
       </solution>
     </task>
@@ -922,7 +924,8 @@
       </statement>
       <solution component="S2-1-soln">
         <p>
-          
+          <m>r = ?</m>,<m>\theta = \frac{7\pi}{6}</m>, <m>s = \frac{\pi}{4}</m>.  So
+          <m>{s = r\theta \implies \frac\pi4 = r (\frac{7\pi}{6}) \implies r = \frac37}</m>
         </p>
       </solution>
     </task>
@@ -937,7 +940,12 @@
       </statement>
       <solution component="S2-1-soln">
         <p>
-          
+          <m>r = 5</m>, <m>s = \frac{25\pi}{6}</m>, <m>\theta = ?</m>.  So 
+          <m>{s = r\theta \implies \frac{25\pi}{6} = 5\theta \implies \theta = \frac{5\pi}{6}}</m>. 
+          So on the unit circle the coordinates corresponding to that angle are 
+          <m>{(-\frac{\sqrt3}2,\frac12)}</m>.  But we are on a circle of 
+          radius 5, so the coordinate is 5 times bigger, i.e. 
+          <m>{(-5\frac{\sqrt3}2,\frac52)}</m>.
         </p>
       </solution>
     </task>
