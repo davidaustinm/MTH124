@@ -64,6 +64,7 @@
       This means we can determine some coordinates <q>nicely.</q>
     </p>
   </sidebyside>
+  
 
   <activity>
     <title>Activity 2.2.1</title>
@@ -133,6 +134,43 @@
         </image>
       </sidebyside>
     </statement>
+    <solution component="S2-2-soln">
+      <image width="60%">
+          <shortdescription>
+            The unit circle, with 24 equally spaced points around the perimeter.
+            The first two above the x-axis are labeled, t=pi/12 and t=pi/6.
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-1soln">
+            <diagram dimensions="(250,250)" margins="30">
+              <definition>
+                f(t)=(cos(t*pi/12),sin(t*pi/12))
+              </definition>
+              <definition>
+                alignments=['e','e','e','e','ne','ne','ne','nw', 'nw', 'nw', 'w','w','nw', 'w', 'w', 'sw','sw','sw','sw','s','se','se','se','e']
+              </definition>
+              <definition substitution="no">
+                labels=['0',r'\frac{\pi}{12}',r'\frac{\pi}{6}',r'\frac{\pi}{4}',r'\frac{\pi}{3}',r'\frac{5\pi}{12}',
+                r'\frac{\pi}{2}',r'\frac{7\pi}{12}', r'\frac{2\pi}{3}',r'\frac{3\pi}{4}',r'\frac{5\pi}{6}', r'\frac{11\pi}{12}', 
+                r'\pi', r'\frac{13\pi}{12}', r'\frac{7\pi}{6}', r'\frac{5\pi}{4}', r'\frac{4\pi}{3}', 
+                r'\frac{17\pi}{12}', r'\frac{3\pi}{2}', 
+                r'\frac{19\pi}{12}', r'\frac{5\pi}{3}', r'\frac{7\pi}{4}', r'\frac{11\pi}{6}', 
+                r'\frac{23\pi}{12}']
+              </definition>
+              <coordinates bbox="(-1.3,-1.3,1.3,1.3)">
+                <grid-axes decorations="no" spacings="((-10,1/5,10),(-10,1/5,10))"/>
+                <circle radius="1" center="(0,0)"/>
+            
+                <repeat parameter="k=0..24">
+                  <point at="point" p="f(k)" alignment="alignments[k]">
+                    <m>${labels[k]}</m>
+                  </point>
+                </repeat>
+
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+    </solution>
   </activity>
 
   <definition>
@@ -162,6 +200,11 @@
         1 \text{ radian }= \frac{180}{\pi}^{\circ},  
       \quad \quad \quad \quad 1^{\circ} = \frac{\pi}{180} \text{ radians}
       </md>
+      Equivalent to 
+      <md>
+        \pi \text{ radians } = 180^{\circ}
+      </md>
+      
     </p>
   </assemblage>
 
@@ -179,7 +222,7 @@
   <activity>
     <title>Activity 2.2.2. Converting between radians and degrees</title>
 
-    <introduction>
+    <statement>
       <p>
         Convert each of the following quantities to the alternative measure:
         degrees to radians or radians to degrees.
@@ -224,54 +267,43 @@
           </li>
         </ol>
       </p>
-    </introduction>
-    <!--   <task workspace=".3cm">
-      <statement>
-        <p>
-          <m>30^{\circ}</m>
-        </p>
-      </statement>
-    </task>
-
-    <task workspace=".3cm">
-      <statement>
-        <p>
-          <m>\frac{2\pi}{3}</m> radians
-        </p>
-      </statement>
-    </task>
-
-    <task workspace=".3cm">
-      <statement>
-        <p>
-          <m>\frac{5\pi}{4}</m> radians
-        </p>
-      </statement>
-    </task>
-
-    <task workspace=".3cm">
-      <statement>
-        <p>
-          <m>240^{\circ}</m>
-        </p>
-      </statement>
-    </task>
-
-    <task workspace=".3cm">
-      <statement>
-        <p>
-          <m>17^{\circ}</m>
-        </p>
-      </statement>
-    </task>
-
-    <task workspace=".3cm">
-      <statement>
-        <p>
-          <m>2</m> radians
-        </p>
-      </statement>
-    </task>-->
+    </statement>
+    <solution component="S2-2-soln">
+      <p>
+        <ol cols="3" marker="a.">
+          <li>
+            <p>
+              <m>30^{\circ}\left(\frac{\pi}{180}\right) = \frac{\pi}{6}</m> radians
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\left(\frac{2\pi}{3}\right)\left(\frac{180}\pi\right) = 120^\circ</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\left(\frac{5\pi}{4}\right)\left(\frac{180}\pi\right) = 225^\circ</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>240^{\circ}\left(\frac{\pi}{180}\right) = \frac{4\pi}{3}</m> radians
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>17^{\circ}\left(\frac{\pi}{180}\right) = \frac{17\pi}{180}</m> radians
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>2\left(\frac{180}\pi\right) = \left(\frac{360}{\pi}\right)^\circ</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
   </activity>
 
   <activity>
@@ -341,6 +373,15 @@
           </p>
         </sidebyside>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          <m>x=y</m> on isosceles triangles, so Pythagorean Theorem says 
+          <m>{x^2 + x^2 = 1}</m>, or <m>{2x^2 = 1}</m>.  This means 
+          <m>{x^2 = \frac12}</m> and <m>{x = \sqrt{\frac12} = \frac{\sqrt{1}}{\sqrt{2}} = \frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}}</m>.  (Since <m>x</m>
+          is a length we don't need to include <m>x=\pm\sqrt{\frac12}</m>).  Then 
+          <m>{x = y = \frac{\sqrt 2}{2}}</m>.
+        </p>
+      </solution>
     </task>
 
     <task workspace=".5in">
@@ -399,6 +440,15 @@
           </p>
         </sidebyside>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          With the reflection we have an equilateral triangle with all sides 
+          equal to 1!  Since <m>y</m> is half of the length of this doubled triangle
+          then <m>{y=\frac12}</m>.  Then Pythagorean Theorem: <m>{x^2+(\frac12)^2 = 1}</m>. 
+          That is <m>{x^2 + \frac14 = 1}</m> or <m>{x^2 = \frac34}</m> or 
+          <m>{x = \frac{\sqrt 3}{\sqrt 4} = \frac{\sqrt 3}{4}}</m>.
+        </p>
+      </solution>
     </task>
 
     <task workspace=".5in">
@@ -454,6 +504,11 @@
           </p>
         </sidebyside>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          Switch the <m>x, y</m>!  That is <m>{x = \frac12, \ y=\frac{\sqrt 3}{2}}</m>.
+        </p>
+      </solution>
     </task>
 
     <task workspace="0.01in">
@@ -579,6 +634,23 @@
           </image>
         </sidebyside>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          The first picture corresponds the part b and so knowing we have 
+          the coordinate with the values of <m>(x,y)</m> with the <m>x,y</m> for that 
+          triangle, then the point is at the coordinate <m>(\frac{\sqrt 3}{2}, \frac12)</m>.
+        </p>
+        <p>
+          The second picture corresponds the part a and so knowing we have 
+          the coordinate with the values of <m>(x,y)</m> with the <m>x,y</m> for that 
+          triangle, then the point is at the coordinate <m>(\frac{\sqrt 2}{2}, \frac{\sqrt 2}2)</m>.
+        </p>
+        <p>
+          The third picture corresponds the part c and so knowing we have 
+          the coordinate with the values of <m>(x,y)</m> with the <m>x,y</m> for that 
+          triangle, then the point is at the coordinate <m>(\frac{1}{2}, \frac{\sqrt 3}2)</m>.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -657,6 +729,132 @@
     </p>
   </sidebyside>
 
+  <solution component="S2-2-soln">
+     <image>
+      <shortdescription>
+        A unit circle with some coordinate points filled in.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-44soln">
+        <diagram dimensions="(500,500)" margins="20">
+          <definition>
+            f(t)=(cos(t*pi/12),sin(t*pi/12))
+          </definition>
+          <coordinates bbox="(-1.5,-1.5,1.5,1.5)">
+            <grid-axes decorations="no" spacings="((-10,1/5,10),(-10,1/5,10))"/>
+            <circle center="(0,0)" radius="1" stroke="blue"/>
+            <repeat parameter="k=2..4">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <repeat parameter="k=8..10">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <repeat parameter="k=14..16">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <repeat parameter="k=20..22">
+              <point at="point" p="f(k)"/>
+            </repeat>
+            <point p="f(0)"/>
+            <point p="f(6)"/>
+            <point p="f(12)"/>
+            <point p="f(18)"/>
+            <line endpoints="((0,0),(sqrt(3)/2,1/2))" stroke="blue" dash="4 4"/>
+            <label anchor="(.4,.35)">
+              <m>
+                1
+              </m>
+            </label>
+            <label anchor="(sqrt(3)/2,sqrt(1)/2)" alignment="e">
+              <m>
+                (\frac{\sqrt{3}}{2},\frac12), t=\frac{\pi}{6}
+              </m>
+            </label>
+            <label anchor="(sqrt(2)/2,sqrt(2)/2)" alignment="e" offset="(3,0)">
+              <m>
+                (\frac{\sqrt{2}}{2},\frac{\sqrt{2}}2), t=\frac{\pi}{4}
+              </m>
+            </label>
+            <label anchor="(sqrt(1)/2,sqrt(3)/2)" alignment="e" offset="(8,0)">
+              <m>
+                (\frac{1}{2},\frac{\sqrt{3}}2), t=\frac{\pi}{3}
+              </m>
+            </label>
+            <label anchor="(sqrt(4)/2,sqrt(0)/2)" alignment="ne">
+              <m>
+                (1,0), t=0
+              </m>
+            </label>
+            <label anchor="(sqrt(0)/2,sqrt(4)/2)" alignment="ne">
+              <m>
+                (0,1), t=\frac{\pi}{2}
+              </m>
+            </label>
+
+            <label anchor="(-sqrt(3)/2,sqrt(1)/2)" alignment="w">
+              <m>
+                (-\frac{\sqrt{3}}{2},\frac12), t=\frac{5\pi}{6}
+              </m>
+            </label>
+            <label anchor="(-sqrt(2)/2,sqrt(2)/2)" alignment="w" offset="(-3,0)">
+              <m>
+                (-\frac{\sqrt{2}}{2},\frac{\sqrt{2}}2), t=\frac{3\pi}{4}
+              </m>
+            </label>
+            <label anchor="(-sqrt(1)/2,sqrt(3)/2)" alignment="w" offset="(-8,0)">
+              <m>
+                (-\frac{1}{2},\frac{\sqrt{3}}2), t=\frac{2\pi}{3}
+              </m>
+            </label>
+            <label anchor="(-sqrt(4)/2,sqrt(0)/2)" alignment="nw">
+              <m>
+                (-1,0), t=\pi
+              </m>
+            </label>
+
+            <label anchor="(-sqrt(3)/2,-sqrt(1)/2)" alignment="w">
+              <m>
+                (-\frac{\sqrt{3}}{2},-\frac12), t=\frac{7\pi}{6}
+              </m>
+            </label>
+            <label anchor="(-sqrt(2)/2,-sqrt(2)/2)" alignment="w" offset="(-3,0)">
+              <m>
+                (-\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}2), t=\frac{5\pi}{4}
+              </m>
+            </label>
+            <label anchor="(-sqrt(1)/2,-sqrt(3)/2)" alignment="w" offset="(-8,0)">
+              <m>
+                (-\frac{1}{2},\frac{-\sqrt{3}}2), t=\frac{4\pi}{3}
+              </m>
+            </label>
+            <label anchor="(0,-1)" alignment="sw">
+              <m>
+                (0,-1), t=\pi
+              </m>
+            </label>
+
+            <label anchor="(sqrt(3)/2,-sqrt(1)/2)" alignment="e">
+              <m>
+                (\frac{\sqrt{3}}{2},-\frac12), t=\frac{11\pi}{6}
+              </m>
+            </label>
+            <label anchor="(sqrt(2)/2,-sqrt(2)/2)" alignment="e" offset="(3,0)">
+              <m>
+                (\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}2), t=\frac{7\pi}{4}
+              </m>
+            </label>
+            <label anchor="(sqrt(1)/2,-sqrt(3)/2)" alignment="e" offset="(8,0)">
+              <m>
+                (\frac{1}{2},-\frac{\sqrt{3}}2), t=\frac{5\pi}{3}
+              </m>
+            </label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+
+  </solution>
+
   <assemblage>
     <title>Connecting arc length and angles in non-unit circles</title>
 
@@ -693,6 +891,11 @@
           central angle of <m>\frac{5\pi}{3}</m>.
         </p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          
+        </p>
+      </solution>
     </task>
 
     <task workspace="1in">
@@ -702,6 +905,11 @@
           intercepts an arc of length <m>\frac{\pi}{4}</m>.
         </p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          
+        </p>
+      </solution>
     </task>
 
     <task workspace="1in">
@@ -712,6 +920,11 @@
           <m>\frac{\pi}{2}</m>.
         </p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          
+        </p>
+      </solution>
     </task>
 
     <task workspace="1in">
@@ -722,6 +935,11 @@
           the circle from <m>(5,0)</m>.
         </p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          
+        </p>
+      </solution>
     </task>
   </activity>
 </handout>

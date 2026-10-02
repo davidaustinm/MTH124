@@ -129,11 +129,24 @@
  and amplitude <m>a</m>
  of the function <m>f(t)</m>.</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          Period <m>p=4</m> since that's how long the behavior takes to 
+          repeat exactly. The midline <m>y=8</m>. The amplitude is <m>5</m>. (All of these 
+          are by definition.)
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>What is the greatest distance the weight is displaced from the wall? What is the least distance the weight is displaced from the wall? What is the range of <m>f</m>?</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          The greatest distance is 13 inches from the wall, the smallest 
+          distance is 3 inches from the wall.  Thus the range is <m>[3,13]</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -142,12 +155,37 @@
  and <m>[4.75,5]</m>.
  Write one careful sentence to explain the meaning of each (including units). In addition, write a sentence to compare the two different values you find and what they together say about the motion of the weight.</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          First interval:  (4 seconds has the same output as 0 seconds, and 
+          <m>t=4.25</m> has the same output as <m>t=0.25</m> seconds, and 
+          <m>4.75</m> as <m>0.75</m>, ...
+          because the period is 4.  So a shift of 4 seconds repeats exactly what 
+          happened 4 seconds ago.)
+          <md>
+            AV_{[4, 4.25]} = \frac{f(4.25)-f(4)}{4.25-4}=\frac{6.087-8}{0.25}=-7.652\frac{in}{s}.
+          </md>
+          Second interval:
+          <md>
+            AV_{[4.75,5]} = \frac{f(5)-f(4.75)}{5-4.75}=\frac{3-3.381}{0.25}=-1.524\frac{in}{s}.
+          </md>
+          Both are change in positions, or speeds.  However the speed near the midline
+          <m>y=4</m> is much faster than the speed near the bottom of the motion. We can
+          also see this in the slope of the graph near the midline and near the lowest points.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>Based on the periodicity of the function, what is the value of <m>f(6.75)</m>?
  of <m>f(11.25)</m>?</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          Period 4, so <m>f(6.74) = f(6.75 - 4) = f(2.75) = 12.619</m>. And 
+          <m>{f(11.25) = f(11.25-4*2) = f(3.25) = 12.619}</m>.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -266,29 +304,67 @@
  units on which <m>f</m>
  has its most negative average rate of change. Justify your choice.</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          Know from previous activity that the weight is fastest
+          near the midline, and if it is also decreasing there i.e. going 
+          down instead of up then
+          it is the most negative.  These are around intervals <m>{[0,0.25]}</m>, 
+          or <m>{[4,4.25]}</m>, or <m>{[8,8.25]}</m>, or ....
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>Give an example of the longest interval you can find on which <m>f</m>
  is decreasing.</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          If <m>f</m> is decreasing it is going down, or getting smaller.  If we start 
+          at the highest value and continue until the lowest value, it is decreasing that entire
+          time.  So the intervals (on <m>t</m>) are:
+          <m>{(3,5)}</m>, or <m>{(7,9)}</m>, or <m>{(11,13)}</m>, or ....
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>Give an example of an interval on which <m>f</m>
  is curving up (or speeding up).</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          It's getting faster, or curving up (looks like a smiley face) when 
+          it's below the midline!  So intervals 
+          <m>{(0,2)}</m>, or <m>{(4,6)}</m>, or <m>{(8,10)}</m>, or ....
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>On an interval where <m>f</m>
  is both decreasing and curving down (slowing down), what does this tell us about how the weight is moving on that interval? For instance, is the weight moving toward or away from the wall? is it speeding up or slowing down?</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          Curving down (or a frowny face) happens above the midline.  So 
+          the intervals that are both above the midline and also going down (decreasing) are:
+          <m>{(3,4)}</m> or <m>{(7,8)}</m> or <m>{(11,12)}</m> or .... The weight is moving 
+          towards the wall but getting faster (negative, but still faster).
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>What general conclusions can you make about the average rate of change of a circular function on intervals near its highest or lowest points? about its average rate of change on intervals near the function’s midline?</p>
       </statement>
+      <solution component="S2-1-soln">
+        <p>
+          Near the midline it has the greatest magnitude (fastest speed), and 
+          near the top and bottom points it has the slowest rate of change.
+        </p>
+      </solution>
     </task>
   </activity>
 
