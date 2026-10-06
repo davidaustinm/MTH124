@@ -287,7 +287,10 @@ eBookConfig.enable_chatcodes =  false;
         </label><label><input type="radio" name="papersize" value="letter">Letter
         </label>
 </form>
-<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div></div>
+<div class="header-footer-options">
 <div class="header-option">
 <span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
 </div>
@@ -413,6 +416,17 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="activities-21-9-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
 <div class="para" id="activities-21-9-3-1-1">What is the exact value of <span class="process-math">\(\cos(\frac{\pi}{6})\text{?}\)</span> of <span class="process-math">\(\cos(\frac{5\pi}{6})\)</span> ? <span class="process-math">\(\cos(-\frac{\pi}{3})\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-21-9-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-9-3-2-1">See the x-coordinate on the unit circle that corresponds to those angles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="activities-21-9-3-2-2">
+<span class="process-math">\(\cos(\frac{\pi}{6}) = \frac{\sqrt{3}}{2}\text{.}\)</span> <span class="process-math">\(\cos(\frac{5\pi}{6}) = -\frac{\sqrt3}{2}\text{.}\)</span> <span class="process-math">\(\cos(-\frac{\pi}{3}) = \frac12\)</span> (same angle as <span class="process-math">\(\frac{5\pi}{3}\)</span> or think of it as going "backwards" or clockwise by an angle of <span class="process-math">\(\frac{\pi}{3}\text{.}\)</span>)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 75.a.1"><a tabindex="-1" href="#activities-21-9-3-2" title="Copy heading and permalink for Solution 75.a.1" aria-label="Copy heading and permalink for Solution 75.a.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 75.a"><a tabindex="-1" href="#activities-21-9-3" title="Copy heading and permalink for Task 75.a" aria-label="Copy heading and permalink for Task 75.a">🔗</a></div>
 </article>
@@ -468,15 +482,103 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines"></td>
 </tr>
 </table></div>
+<div class="solutions">
+<details id="activities-21-9-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-9-4-2-1">See your unit circle and pull out the x-coordinates for each angle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines">t</td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{\pi}{6}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{\pi}{4}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{\pi}{3}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{\pi}{2}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{2\pi}{3}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{3\pi}{4}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{5\pi}{6}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\pi\)</span></td>
+</tr>
+<tr>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(\cos(t)\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(\frac{\sqrt3}2\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(\frac{\sqrt2}2\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(\frac12\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(-\frac12\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(-\frac{\sqrt2}2\)</span></td>
+<td class="l m b3 r0 l0 t0 lines"><span class="process-math">\(-\frac{\sqrt3}2\)</span></td>
+<td class="l m b3 r0 l0 t0 lines">-1</td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines">t</td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\pi\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{7\pi}{6}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{5\pi}{4}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{4\pi}{3}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{3\pi}{2}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{5\pi}{3}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{7\pi}{4}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\frac{11\pi}{6}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(2\pi\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(t)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-\frac{\sqrt3}2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-\frac{\sqrt2}2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(-\frac{1}2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{1}2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{\sqrt2}2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{\sqrt3}2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+</tr>
+</table></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 75.b.1"><a tabindex="-1" href="#activities-21-9-4-2" title="Copy heading and permalink for Solution 75.b.1" aria-label="Copy heading and permalink for Solution 75.b.1">🔗</a></div>
+</div></details>
+</div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 75.b"><a tabindex="-1" href="#activities-21-9-4" title="Copy heading and permalink for Task 75.b" aria-label="Copy heading and permalink for Task 75.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-9-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
 <div class="para" id="activities-21-9-5-1-1">On the axes provided below, sketch an accurate graph of <span class="process-math">\({k=g(t) = \cos(t)}\text{.}\)</span> Label the exact location of several key points on the curve.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> <div class="image-box" style="width: 85%; margin-left: 7.5%; margin-right: 7.5%;"><img src="generated/prefigure/prefigure-124-2-3-cosine.svg" role="img" class="contained" alt="A graph of the cosine function for you to fill in."></div>
+<div class="solutions">
+<details id="activities-21-9-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="image-box" style="width: 85%; margin-left: 7.5%; margin-right: 7.5%;"><img src="generated/prefigure/prefigure-124-2-3-cosine-soln.svg" role="img" class="contained" alt="A graph of the cosine function."></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 75.c.1"><a tabindex="-1" href="#activities-21-9-5-2" title="Copy heading and permalink for Solution 75.c.1" aria-label="Copy heading and permalink for Solution 75.c.1">🔗</a></div>
+</div></details>
+</div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 75.c"><a tabindex="-1" href="#activities-21-9-5" title="Copy heading and permalink for Task 75.c" aria-label="Copy heading and permalink for Task 75.c">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-9-6"><h3 class="heading"><span class="codenumber">(d)</span></h3>
 <div class="para" id="activities-21-9-6-1-1">What is the exact value of <span class="process-math">\(\cos(\frac{11\pi}{4})\text{?}\)</span> of <span class="process-math">\(\cos(\frac{14\pi}{3})\)</span> ?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-9-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-21-9-6-2-1">
+<div class="para">*Going around the circle by <span class="process-math">\(2\pi\)</span> doesn’t change the angle, it just changes the number of times around the circle. So an angle of <span class="process-math">\(\frac{11\pi}{4}\)</span> is equivalent to an angle of</div>
+<div class="displaymath process-math" id="activities-21-9-6-2-1-3">
+\begin{equation*}
+\frac{11\pi}{4} - 2\pi = \frac{11\pi}{4}-\frac{2\pi*4}{4} = \frac{11\pi}{4}-\frac{8\pi}{4} = \frac{3\pi}{4}.
+\end{equation*}
+</div>
+<div class="para">So <span class="process-math">\(\cos(\frac{11\pi}{4}) = \cos(\frac{11\pi}{4}-2\pi) = \cos(\frac{3\pi}{4})=-\frac{\sqrt2}{2}\text{.}\)</span> Similarly, <span class="process-math">\(\frac{14\pi}{3}\)</span> is more than two full laps around the circle, so that angle is equivalent to the angle</div>
+<div class="displaymath process-math" id="activities-21-9-6-2-1-6">
+\begin{equation*}
+\frac{14\pi}{3} - 2*(2\pi) = \frac{14\pi}{3} - \frac{4\pi * 3}{1*3} = \frac{14\pi}{3}-\frac{12\pi}{3} = \frac{2\pi}{3}
+\end{equation*}
+</div>
+<div class="para">so <span class="process-math">\(\cos(\frac{14\pi}{3}) = \cos(\frac{14\pi}{3}-2*(2\pi)) = \cos(\frac{2\pi}{3}) = -\frac12\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 75.d.1"><a tabindex="-1" href="#activities-21-9-6-2" title="Copy heading and permalink for Solution 75.d.1" aria-label="Copy heading and permalink for Solution 75.d.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 75.d"><a tabindex="-1" href="#activities-21-9-6" title="Copy heading and permalink for Task 75.d" aria-label="Copy heading and permalink for Task 75.d">🔗</a></div>
@@ -484,11 +586,36 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="activities-21-9-7"><h3 class="heading"><span class="codenumber">(e)</span></h3>
 <div class="para" id="activities-21-9-7-1-1">Give four different values of <span class="process-math">\(t\)</span> for which <span class="process-math">\(\cos(t) = -\frac{\sqrt{3}}{2}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-21-9-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-21-9-7-2-1">
+<div class="para">The easiest ones to see are <span class="process-math">\(t = \frac{5\pi}{6}, \frac{7\pi}{6}\text{,}\)</span> but we can add or subtract any multiple of <span class="process-math">\(2\pi\)</span> to those and be at the same point on the unit circle, so</div>
+<div class="displaymath process-math" id="activities-21-9-7-2-1-3">
+\begin{equation*}
+t = \ldots, \frac{5\pi}{6}, \frac{7\pi}{6}, \frac{17\pi}{6}, \frac{19\pi}{6}, \frac{29\pi}{6}, \frac{31\pi}{6}, \ldots
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 75.e.1"><a tabindex="-1" href="#activities-21-9-7-2" title="Copy heading and permalink for Solution 75.e.1" aria-label="Copy heading and permalink for Solution 75.e.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="0.6in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 75.e"><a tabindex="-1" href="#activities-21-9-7" title="Copy heading and permalink for Task 75.e" aria-label="Copy heading and permalink for Task 75.e">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-9-8"><h3 class="heading"><span class="codenumber">(f)</span></h3>
 <div class="para" id="activities-21-9-8-1-1">How is the graph of <span class="process-math">\(\cos(t)\)</span> different from the graph of <span class="process-math">\(\sin(t)\text{?}\)</span> How are the graphs similar?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-9-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-9-8-2-1">Lots of things you could say.  The biggest difference (according to me) is the starting point - cosine starts at 1 not 0, that is <span class="process-math">\(\cos(0) = 1\)</span> whereas <span class="process-math">\(\sin(0)=0\text{,}\)</span> so cosine starts at the top of its range and goes down first whereas sine starts in the middle and goes up first.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="activities-21-9-8-2-2">They are exactly the same shape, just shifted by <span class="process-math">\(\frac\pi2\)</span> to the right/left!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-9-8-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 75.f.1"><a tabindex="-1" href="#activities-21-9-8-2" title="Copy heading and permalink for Solution 75.f.1" aria-label="Copy heading and permalink for Solution 75.f.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="0.6in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 75.f"><a tabindex="-1" href="#activities-21-9-8" title="Copy heading and permalink for Task 75.f" aria-label="Copy heading and permalink for Task 75.f">🔗</a></div>
@@ -559,11 +686,27 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="activities-21-14-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
 <div class="para" id="activities-21-14-3-1-1">Give an example of the largest interval you can find on which <span class="process-math">\(\sin(t)\)</span> is decreasing.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-21-14-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-14-3-2-1">The most obvious from this graph is <span class="process-math">\(\left(\frac\pi2, \frac{3\pi}2\right)\text{,}\)</span> but there are infinitely many if we shift (right/left) by a multiple of <span class="process-math">\(2\pi\text{.}\)</span>  (Same as <span class="process-math">\(\frac\pi2 \lt t \lt \frac{3\pi}2\)</span>)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 76.a.1"><a tabindex="-1" href="#activities-21-14-3-2" title="Copy heading and permalink for Solution 76.a.1" aria-label="Copy heading and permalink for Solution 76.a.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 76.a"><a tabindex="-1" href="#activities-21-14-3" title="Copy heading and permalink for Task 76.a" aria-label="Copy heading and permalink for Task 76.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-14-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="activities-21-14-4-1-1">Give an example of the largest interval you can find on which <span class="process-math">\(\sin(t)\)</span> is decreasing and concave down.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-14-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-14-4-2-1">The <span class="process-math">\(\sin(t)\)</span> is concave down (pessimistic) whenever it is above the midline <span class="process-math">\(y=0\text{.}\)</span> It is also decreasing in that second half of that interval.  So one example interval is <span class="process-math">\(\left(\frac\pi2, \pi\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 76.b.1"><a tabindex="-1" href="#activities-21-14-4-2" title="Copy heading and permalink for Solution 76.b.1" aria-label="Copy heading and permalink for Solution 76.b.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 76.b"><a tabindex="-1" href="#activities-21-14-4" title="Copy heading and permalink for Task 76.b" aria-label="Copy heading and permalink for Task 76.b">🔗</a></div>
@@ -571,11 +714,27 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="activities-21-14-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
 <div class="para" id="activities-21-14-5-1-1">Give an example of the largest interval you can find on which <span class="process-math">\(\cos(t)\)</span> is increasing.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-21-14-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-14-5-2-1">The most obvious from the graph is <span class="process-math">\((\pi,2\pi)\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 76.c.1"><a tabindex="-1" href="#activities-21-14-5-2" title="Copy heading and permalink for Solution 76.c.1" aria-label="Copy heading and permalink for Solution 76.c.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 76.c"><a tabindex="-1" href="#activities-21-14-5" title="Copy heading and permalink for Task 76.c" aria-label="Copy heading and permalink for Task 76.c">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-14-6"><h3 class="heading"><span class="codenumber">(d)</span></h3>
 <div class="para" id="activities-21-14-6-1-1">Give an example of the largest interval you can find on which <span class="process-math">\(\cos(t)\)</span> is increasing and concave up.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-14-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-14-6-2-1">It is concave up when it is below the midline, and it is also increasing on the second half of that interval, so one example is <span class="process-math">\((\pi,\frac{3\pi}{2})\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 76.d.1"><a tabindex="-1" href="#activities-21-14-6-2" title="Copy heading and permalink for Solution 76.d.1" aria-label="Copy heading and permalink for Solution 76.d.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 76.d"><a tabindex="-1" href="#activities-21-14-6" title="Copy heading and permalink for Task 76.d" aria-label="Copy heading and permalink for Task 76.d">🔗</a></div>
@@ -583,17 +742,41 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="activities-21-14-7"><h3 class="heading"><span class="codenumber">(e)</span></h3>
 <div class="para" id="activities-21-14-7-1-1">Without doing any computation, on which interval is the average rate of change of <span class="process-math">\(g(t)=\cos(t)\)</span> greater: <span class="process-math">\([\pi,\pi+0.01]\)</span> or <span class="process-math">\([\frac{3\pi}{2},\frac{3\pi}{2}+0.01]\text{?}\)</span> Why?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-21-14-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-14-7-2-1">The slope around <span class="process-math">\([\pi,\pi+0.01]\)</span> is about 0 (it’s flat at the top), but between <span class="process-math">\([\frac{3\pi}{2},\frac{3\pi}{2}+0.01]\)</span> it has the steepest slope.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 76.e.1"><a tabindex="-1" href="#activities-21-14-7-2" title="Copy heading and permalink for Solution 76.e.1" aria-label="Copy heading and permalink for Solution 76.e.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 76.e"><a tabindex="-1" href="#activities-21-14-7" title="Copy heading and permalink for Task 76.e" aria-label="Copy heading and permalink for Task 76.e">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-14-8"><h3 class="heading"><span class="codenumber">(f)</span></h3>
 <div class="para" id="activities-21-14-8-1-1">In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-21-14-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-14-8-2-1">Sine is increasing/decreasing most rapidly around <span class="process-math">\(t\approx 0, \pi, 2\pi, \ldots\)</span> and cosine around <span class="process-math">\(t\approx \frac\pi2, \frac{3\pi}{2}, \frac{5\pi}2, \ldots\)</span> that is near the midline for both!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 76.f.1"><a tabindex="-1" href="#activities-21-14-8-2" title="Copy heading and permalink for Solution 76.f.1" aria-label="Copy heading and permalink for Solution 76.f.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 76.f"><a tabindex="-1" href="#activities-21-14-8" title="Copy heading and permalink for Task 76.f" aria-label="Copy heading and permalink for Task 76.f">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-14-9"><h3 class="heading"><span class="codenumber">(g)</span></h3>
 <div class="para" id="activities-21-14-9-1-1">Thinking from the perspective of the unit circle, for which quadrants of the <span class="process-math">\(x\)</span>-<span class="process-math">\(y\)</span> plane is <span class="process-math">\(\cos(t)\)</span> negative for an angle <span class="process-math">\(t\)</span> that lies in that quadrant?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-14-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-14-9-2-1">Cosine is the x-coordinate, which is negative in quadrants II and III.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-14-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 76.g.1"><a tabindex="-1" href="#activities-21-14-9-2" title="Copy heading and permalink for Solution 76.g.1" aria-label="Copy heading and permalink for Solution 76.g.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="0.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 76.g"><a tabindex="-1" href="#activities-21-14-9" title="Copy heading and permalink for Task 76.g" aria-label="Copy heading and permalink for Task 76.g">🔗</a></div>
@@ -607,43 +790,139 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <article class="task exercise-like" id="activities-21-15-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
-<div class="para" id="activities-21-15-3-1-1">The <span class="process-math">\(x\)</span>-coordinate of the point on the unit circle that lies in the third quadrant and whose <span class="process-math">\(y\)</span>-coordinate is <span class="process-math">\(y=-\frac34\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-21-15-3-1-1">Find the <span class="process-math">\(x\)</span>-coordinate of the point on the unit circle that lies in the third quadrant and whose <span class="process-math">\(y\)</span>-coordinate is <span class="process-math">\(y=-\frac34\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-15-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-21-15-3-2-1">
+<div class="para">With <span class="process-math">\(y=-\frac34\text{,}\)</span> the Fundamental Trig Identity says <span class="process-math">\({\ds x^2 + (-\frac34)^2 = 1}\text{,}\)</span> that is <span class="process-math">\({\ds x^2 + \frac9{16} = 1}\text{.}\)</span>  Rearranging: <span class="process-math">\({x^2 = 1-\frac9{16} = \frac{16}{16}-\frac{9}{16} = \frac{7}{16}}\text{.}\)</span>  Thus</div>
+<div class="displaymath process-math" id="activities-21-15-3-2-1-5">
+\begin{equation*}
+x = \pm \frac{\sqrt{7}}{4}
+\end{equation*}
+</div>
+<div class="para">but we are in quadrant III and so the x-coordinate must be negative.  Thus <span class="process-math">\({x = -\frac{\sqrt7}{4}}\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 77.a.1"><a tabindex="-1" href="#activities-21-15-3-2" title="Copy heading and permalink for Solution 77.a.1" aria-label="Copy heading and permalink for Solution 77.a.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 77.a"><a tabindex="-1" href="#activities-21-15-3" title="Copy heading and permalink for Task 77.a" aria-label="Copy heading and permalink for Task 77.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-15-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
-<div class="para" id="activities-21-15-4-1-1">The <span class="process-math">\(y\)</span>-coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive <span class="process-math">\(x\)</span>-axis that measures <span class="process-math">\(t=2\)</span> radians.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-21-15-4-1-1">Find the <span class="process-math">\(y\)</span>-coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive <span class="process-math">\(x\)</span>-axis that measures <span class="process-math">\(t=2\)</span> radians.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-15-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-15-4-2-1">Since <span class="process-math">\(\frac\pi2\approx 1.57\)</span> and <span class="process-math">\(\pi \approx 3.14\)</span> then <span class="process-math">\(2\)</span> radians is in between <span class="process-math">\(\frac\pi2\)</span> and <span class="process-math">\(\pi\text{,}\)</span> that is we are in Quadrant II, where the y-coordinate is positive.  So <span class="process-math">\(y=\sin(2)\)</span> is the exact answer, and it turns into approximately <span class="process-math">\(0.9093\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 77.b.1"><a tabindex="-1" href="#activities-21-15-4-2" title="Copy heading and permalink for Solution 77.b.1" aria-label="Copy heading and permalink for Solution 77.b.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 77.b"><a tabindex="-1" href="#activities-21-15-4" title="Copy heading and permalink for Task 77.b" aria-label="Copy heading and permalink for Task 77.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-15-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
-<div class="para" id="activities-21-15-5-1-1">The <span class="process-math">\(x\)</span>-coordinate of the point on the unit circle generated by a central angle with one side on the positive <span class="process-math">\(x\)</span>-axis that measures <span class="process-math">\(t=-3.05\)</span> radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive <span class="process-math">\(x\)</span>-axis.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-21-15-5-1-1">Find the <span class="process-math">\(x\)</span>-coordinate of the point on the unit circle generated by a central angle with one side on the positive <span class="process-math">\(x\)</span>-axis that measures <span class="process-math">\(t=-3.05\)</span> radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive <span class="process-math">\(x\)</span>-axis.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-15-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-15-5-2-1">We end up in Quadrant III (we go "backwards" or clockwise by <span class="process-math">\(3.05\)</span> radians which is just short of <span class="process-math">\(\pi\)</span> radians). <span class="process-math">\(x = \cos(-3.05) \approx -0.996\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 77.c.1"><a tabindex="-1" href="#activities-21-15-5-2" title="Copy heading and permalink for Solution 77.c.1" aria-label="Copy heading and permalink for Solution 77.c.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 77.c"><a tabindex="-1" href="#activities-21-15-5" title="Copy heading and permalink for Task 77.c" aria-label="Copy heading and permalink for Task 77.c">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-15-6"><h3 class="heading"><span class="codenumber">(d)</span></h3>
-<div class="para" id="activities-21-15-6-1-1">The value of <span class="process-math">\(\cos(t)\)</span> where <span class="process-math">\(t\)</span> is an angle in Quadrant II that satisfies <span class="process-math">\(\sin(t)=\frac12\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-21-15-6-1-1">Find the value of <span class="process-math">\(\cos(t)\)</span> where <span class="process-math">\(t\)</span> is an angle in Quadrant II that satisfies <span class="process-math">\(\sin(t)=\frac12\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-15-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-21-15-6-2-1">We are looking for the point in Quadrant II that corresponds to <span class="process-math">\(\sin(t)=\frac12\text{,}\)</span> or the y-coordinate is <span class="process-math">\(\frac12\text{.}\)</span>  This happens at <span class="process-math">\(t=\frac{5\pi}{6}\)</span> (which I don’t need to know, because the x-y coordinates come in pairs I know...) so the x-coordinate is <span class="process-math">\(-\frac{\sqrt3}{2}\)</span> or in other words <span class="process-math">\({\cos(t) = -\frac{\sqrt3}{2}}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 77.d.1"><a tabindex="-1" href="#activities-21-15-6-2" title="Copy heading and permalink for Solution 77.d.1" aria-label="Copy heading and permalink for Solution 77.d.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 77.d"><a tabindex="-1" href="#activities-21-15-6" title="Copy heading and permalink for Task 77.d" aria-label="Copy heading and permalink for Task 77.d">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-15-7"><h3 class="heading"><span class="codenumber">(e)</span></h3>
-<div class="para" id="activities-21-15-7-1-1">The value of <span class="process-math">\(\sin(t)\)</span> where <span class="process-math">\(t\)</span> is an angle in Quadrant III for which <span class="process-math">\(\cos(t) = -0.7\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-21-15-7-1-1">Find the value of <span class="process-math">\(\sin(t)\)</span> where <span class="process-math">\(t\)</span> is an angle in Quadrant III for which <span class="process-math">\(\cos(t) = -0.7\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-15-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-21-15-7-2-1">
+<div class="para">In Quadrant III, both <span class="process-math">\(\sin(t)\)</span> and <span class="process-math">\(\cos(t)\)</span> are negative. Fundamental Trig Identity: <span class="process-math">\(\sin^2(t)+\cos^2(t) = 1\)</span> or since <span class="process-math">\(\cos(t)=-0.7\)</span> then</div>
+<div class="displaymath process-math" id="activities-21-15-7-2-1-5">
+\begin{equation*}
+\sin^2(t)+(-0.7)^2 = 1
+\end{equation*}
+</div>
+<div class="para">or <span class="process-math">\(\sin^2(t) = 0.51\)</span> and since <span class="process-math">\({\sin^2(t) = (\sin(t))^2}\text{,}\)</span> then <span class="process-math">\({(\sin(t))^2 = 0.51}\)</span> or <span class="process-math">\(\sin(t) =\pm 0.714\text{.}\)</span>  Since we are in Quadrant III, then <span class="process-math">\(\sin(t) = -0.714\text{.}\)</span>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 77.e.1"><a tabindex="-1" href="#activities-21-15-7-2" title="Copy heading and permalink for Solution 77.e.1" aria-label="Copy heading and permalink for Solution 77.e.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 77.e"><a tabindex="-1" href="#activities-21-15-7" title="Copy heading and permalink for Task 77.e" aria-label="Copy heading and permalink for Task 77.e">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-15-8"><h3 class="heading"><span class="codenumber">(f)</span></h3>
-<div class="para" id="activities-21-15-8-1-1">The average rate of change of <span class="process-math">\(f(t) = \sin(t)\)</span> on the intervals <span class="process-math">\([0.1,0.2]\)</span> and <span class="process-math">\([0.8,0.9]\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-21-15-8-1-1">Find the average rate of change of <span class="process-math">\(f(t) = \sin(t)\)</span> on the intervals <span class="process-math">\([0.1,0.2]\)</span> and <span class="process-math">\([0.8,0.9]\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-15-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-21-15-8-2-1">
+<div class="displaymath process-math" id="activities-21-15-8-2-1-1">
+\begin{equation*}
+AV_{[0.1,0.2]} = \frac{\sin(0.2) - \sin(0.1)}{0.2-0.1}\approx 0.988
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="activities-21-15-8-2-1-2">
+\begin{equation*}
+AV_{[0.8,0.9]} = \frac{\sin(0.9) - \sin(0.8)}{0.9-0.8}\approx 0.6597
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 77.f.1"><a tabindex="-1" href="#activities-21-15-8-2" title="Copy heading and permalink for Solution 77.f.1" aria-label="Copy heading and permalink for Solution 77.f.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 77.f"><a tabindex="-1" href="#activities-21-15-8" title="Copy heading and permalink for Task 77.f" aria-label="Copy heading and permalink for Task 77.f">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-21-15-9"><h3 class="heading"><span class="codenumber">(g)</span></h3>
-<div class="para" id="activities-21-15-9-1-1">The average rate of change of <span class="process-math">\(g(t) = \cos(t)\)</span> on the intervals <span class="process-math">\([0.1,0.2]\)</span> and <span class="process-math">\([0.8,0.9]\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="activities-21-15-9-1-1">Find the average rate of change of <span class="process-math">\(g(t) = \cos(t)\)</span> on the intervals <span class="process-math">\([0.1,0.2]\)</span> and <span class="process-math">\([0.8,0.9]\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-21-15-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-21-15-9-2-1">
+<div class="displaymath process-math" id="activities-21-15-9-2-1-1">
+\begin{equation*}
+AV_{[0.1,0.2]} = \frac{\cos(0.2) - \cos(0.1)}{0.2-0.1}\approx -0.149
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="activities-21-15-9-2-1-2">
+\begin{equation*}
+AV_{[0.8,0.9]} = \frac{\cos(0.9) - \cos(0.8)}{0.9-0.8}\approx -0.751
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-21-15-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 77.g.1"><a tabindex="-1" href="#activities-21-15-9-2" title="Copy heading and permalink for Solution 77.g.1" aria-label="Copy heading and permalink for Solution 77.g.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 77.g"><a tabindex="-1" href="#activities-21-15-9" title="Copy heading and permalink for Task 77.g" aria-label="Copy heading and permalink for Task 77.g">🔗</a></div>
