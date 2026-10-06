@@ -181,6 +181,16 @@
  of <m>\cos(\frac{5\pi}{6})</m>
 ? <m>\cos(-\frac{\pi}{3})</m>?</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          See the x-coordinate on the unit circle that corresponds to those angles. 
+
+        </p>
+        <p>
+          <m>\cos(\frac{\pi}{6}) = \frac{\sqrt{3}}{2}</m>. <m>\cos(\frac{5\pi}{6}) = -\frac{\sqrt3}{2}</m>. <m>\cos(-\frac{\pi}{3}) = \frac12</m> (same angle as <m>\frac{5\pi}{3}</m> or think of it as going 
+          "backwards" or clockwise by an angle of <m>\frac{\pi}{3}</m>.)
+        </p>
+      </solution>
     </task>
     <task >
       <statement>
@@ -244,6 +254,68 @@
 </tabular>
         
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          See your unit circle and pull out the x-coordinates for each angle.
+        </p>
+          <tabular>
+          <row bottom="minor">
+    <cell>t</cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{\pi}{6}</m></cell>
+    <cell><m>\frac{\pi}{4}</m></cell>
+    <cell><m>\frac{\pi}{3}</m></cell>
+    <cell><m>\frac{\pi}{2}</m></cell>
+    <cell><m>\frac{2\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{4}</m></cell>
+    <cell><m>\frac{5\pi}{6}</m></cell>
+    <cell><m>\pi</m></cell>
+   
+  </row>
+  <row  bottom="major">
+    <cell><m>\cos(t)</m></cell>
+    <cell><m>1</m></cell>
+    <cell><m>\frac{\sqrt3}2</m></cell>
+    <cell><m>\frac{\sqrt2}2</m></cell>
+    <cell><m>\frac12</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>-\frac12</m></cell>
+    <cell><m>-\frac{\sqrt2}2</m></cell>
+    <cell><m>-\frac{\sqrt3}2</m></cell>
+    <cell>-1</cell>
+    
+  </row>
+  
+   <row bottom="minor">
+    <cell>t</cell>
+    
+    <cell><m>\pi</m></cell>
+    <cell><m>\frac{7\pi}{6}</m></cell>
+    <cell><m>\frac{5\pi}{4}</m></cell>
+    <cell><m>\frac{4\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{2}</m></cell>
+    <cell><m>\frac{5\pi}{3}</m></cell>
+    <cell><m>\frac{7\pi}{4}</m></cell>
+    <cell><m>\frac{11\pi}{6}</m></cell>
+    <cell><m>2\pi</m></cell>
+  </row>
+
+
+  <row>
+    <cell><m>\cos(t)</m></cell>
+    <cell><m>-1</m></cell>
+    <cell><m>-\frac{\sqrt3}2</m></cell>
+    <cell><m>-\frac{\sqrt2}2</m></cell>
+    <cell><m>-\frac{1}2</m></cell>
+    <cell>0</cell>
+    <cell><m>\frac{1}2</m></cell>
+    <cell><m>\frac{\sqrt2}2</m></cell>
+    <cell><m>\frac{\sqrt3}2</m></cell>
+    <cell>1</cell>
+  </row>
+</tabular>
+        
+      </solution>
     </task>
     <task >
       <statement>
@@ -263,7 +335,7 @@
             <grid-axes decorations="yes" h-pi-format="yes" 
             spacings="((-pi/4,pi/4,9*pi/4), (-1.5,.25,1.5))" 
             hlabels = "(0,pi/4,2*pi)" xlabel="t"/>
-            <graph function="f"/>
+            
             <label anchor="(2.9,1.1)"><m>g(t) = \cos(t)</m></label>  
         
           </coordinates>
@@ -271,6 +343,35 @@
       </prefigure>
     </image>
       </statement>
+      <solution component="S2-3-soln">
+        
+        <image width="85%">
+      <shortdescription>
+        A graph of the cosine function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-3-cosine-soln">
+        <diagram dimensions="(500,200)" margins="5">
+          <definition>
+            f(t)=cos(t)
+          </definition>
+          <definition>points=['0','pi/6']</definition>
+          <coordinates bbox="(-pi/4,-1.25,2*pi+pi/4,1.25)">
+            <grid-axes decorations="yes" h-pi-format="yes" 
+            spacings="((-pi/4,pi/4,9*pi/4), (-1.5,.25,1.5))" 
+            hlabels = "(0,pi/4,2*pi)" xlabel="t"/>
+            <graph function="f"/>
+            <label anchor="(2.9,1.1)"><m>g(t) = \cos(t)</m></label> 
+            <point p="(0,1)"><m>(0,1)</m> </point> 
+            <point p="(pi/6,f(pi/6))"><m>(\frac\pi6,\frac{\sqrt3}2)</m> </point> 
+            <point p="(pi/4,f(pi/4))" alignment="sw"><m>(\frac\pi4,\frac{\sqrt2}2)</m> </point> 
+            <point p="(pi/3,f(pi/3))" alignment="e"><m>(\frac\pi3,\frac12)</m> </point> 
+        
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+        
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
@@ -279,12 +380,34 @@
  of <m>\cos(\frac{14\pi}{3})</m>
 ?</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          *Going around the circle by <m>2\pi</m> doesn't change the angle, it just changes the number of times around the circle. 
+          So an angle of <m>\frac{11\pi}{4}</m> is equivalent to an angle of 
+          <md>\frac{11\pi}{4} - 2\pi = \frac{11\pi}{4}-\frac{2\pi*4}{4} = \frac{11\pi}{4}-\frac{8\pi}{4} = \frac{3\pi}{4}.</md>
+          So <m>\cos(\frac{11\pi}{4}) = \cos(\frac{11\pi}{4}-2\pi) = \cos(\frac{3\pi}{4})=-\frac{\sqrt2}{2}</m>. 
+          Similarly, <m>\frac{14\pi}{3}</m> is more than two full laps around the circle, so that angle is 
+          equivalent to the angle 
+          <md>
+            \frac{14\pi}{3} - 2*(2\pi) = \frac{14\pi}{3} - \frac{4\pi * 3}{1*3} = \frac{14\pi}{3}-\frac{12\pi}{3} = \frac{2\pi}{3}
+          </md>
+          so <m>\cos(\frac{14\pi}{3}) = \cos(\frac{14\pi}{3}-2*(2\pi)) = \cos(\frac{2\pi}{3}) = -\frac12</m>.
+          
+        </p>
+      </solution>
     </task>
     <task workspace="0.6in">
       <statement>
         <p>Give four different values of <m>t</m>
  for which <m>\cos(t) = -\frac{\sqrt{3}}{2}</m>.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          The easiest ones to see are <m>t = \frac{5\pi}{6}, \frac{7\pi}{6}</m>, but we can add or subtract any
+          multiple of <m>2\pi</m> to those and be at the same point on the unit circle, so 
+          <md>t = \ldots, \frac{5\pi}{6}, \frac{7\pi}{6}, \frac{17\pi}{6}, \frac{19\pi}{6}, \frac{29\pi}{6}, \frac{31\pi}{6}, \ldots</md>
+        </p>
+      </solution>
     </task>
     <task workspace="0.6in">
       <statement>
@@ -292,6 +415,17 @@
  different from the graph of <m>\sin(t)</m>?
  How are the graphs similar?</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          Lots of things you could say.  The biggest difference (according to me) is the 
+          starting point - cosine starts at 1 not 0, that is <m>\cos(0) = 1</m> whereas 
+          <m>\sin(0)=0</m>, so cosine starts at the top of its range and goes down first whereas sine starts in the middle and goes up first.
+        </p>
+        <p>
+          They are exactly the same shape, just shifted by <m>\frac\pi2</m> to the 
+          right/left!
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -358,24 +492,48 @@ and click on sine or cosine for an animation.</p>
         <p>Give an example of the largest interval you can find on which <m>\sin(t)</m>
  is decreasing.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          The most obvious from this graph is <m>\left(\frac\pi2, \frac{3\pi}2\right)</m>, but there are infinitely many if we 
+          shift (right/left) by a multiple of <m>2\pi</m>.  (Same as <m>\frac\pi2 \lt t \lt \frac{3\pi}2</m>)
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>Give an example of the largest interval you can find on which <m>\sin(t)</m>
  is decreasing and concave down.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          The <m>\sin(t)</m> is concave down (pessimistic) whenever it is above the midline <m>y=0</m>. 
+          It is also decreasing in that second half of that interval.  So one example interval is 
+          <m>\left(\frac\pi2, \pi\right)</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>Give an example of the largest interval you can find on which <m>\cos(t)</m>
  is increasing.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          The most obvious from the graph is <m>(\pi,2\pi)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>Give an example of the largest interval you can find on which <m>\cos(t)</m>
  is increasing and concave up.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          It is concave up when it is below the midline, and it is also increasing on the second half 
+          of that interval, so one example is <m>(\pi,\frac{3\pi}{2})</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
@@ -384,11 +542,24 @@ and click on sine or cosine for an animation.</p>
  or <m>[\frac{3\pi}{2},\frac{3\pi}{2}+0.01]</m>?
  Why?</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          The slope around <m>[\pi,\pi+0.01]</m> is about 0 (it's flat at the top), 
+          but between <m>[\frac{3\pi}{2},\frac{3\pi}{2}+0.01]</m> it has the steepest slope.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>In general, how would you characterize the locations on the sine and cosine graphs where the functions are increasing or decreasingly most rapidly?</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          Sine is increasing/decreasing most rapidly around <m>t\approx 0, \pi, 2\pi, \ldots</m>
+          and cosine around <m>t\approx \frac\pi2, \frac{3\pi}{2}, \frac{5\pi}2, \ldots</m>
+          that is near the midline for both!
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
@@ -397,6 +568,11 @@ and click on sine or cosine for an animation.</p>
  negative for an angle <m>t</m> 
  that lies in that quadrant?</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          Cosine is the x-coordinate, which is negative in quadrants II and III.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -407,55 +583,113 @@ and click on sine or cosine for an animation.</p>
     </introduction>
     <task workspace="1in">
       <statement>
-        <p>The <m>x</m>-coordinate of the point on the unit circle that lies in the third quadrant and whose 
+        <p>Find the <m>x</m>-coordinate of the point on the unit circle that lies in the third quadrant and whose 
 <m>y</m>-coordinate is 
 <m>y=-\frac34</m>.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          With <m>y=-\frac34</m>, the Fundamental Trig Identity says 
+          <m>{\ds x^2 + (-\frac34)^2 = 1}</m>, that is <m>{\ds x^2 + \frac9{16} = 1}</m>.  Rearranging:
+          <m>{x^2 = 1-\frac9{16} = \frac{16}{16}-\frac{9}{16} = \frac{7}{16}}</m>.  Thus 
+          <md>
+            x = \pm \frac{\sqrt{7}}{4}
+          </md>
+          but we are in quadrant III and so the x-coordinate must be negative.  Thus <m>{x = -\frac{\sqrt7}{4}}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
-        <p>The <m>y</m>-coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive 
+        <p>Find the <m>y</m>-coordinate of the point on the unit circle generated by a central angle opening counterclockwise with one side on the positive 
 <m>x</m>-axis that measures 
 <m>t=2</m> radians.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          Since <m>\frac\pi2\approx 1.57</m> and <m>\pi \approx 3.14</m> then 
+          <m>2</m> radians is in between <m>\frac\pi2</m> and <m>\pi</m>, that is we are in 
+          Quadrant II, where the y-coordinate is positive.  So <m>y=\sin(2)</m> is the exact answer, and it turns into 
+          approximately <m>0.9093</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
-        <p>The 
+        <p>Find the 
 <m>x</m>-coordinate of the point on the unit circle generated by a central angle with one side on the positive 
 <m>x</m>-axis that measures 
 <m>t=-3.05</m> radians. (With the negative radian measure, we view the angle as opening clockwise from its initial side on the positive 
 <m>x</m>-axis.)</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          We end up in Quadrant III (we go "backwards" or clockwise by <m>3.05</m> radians which is just short of <m>\pi</m> radians). 
+          <m>x = \cos(-3.05) \approx -0.996</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
-        <p>The value of <m>\cos(t)</m>
+        <p>Find the value of <m>\cos(t)</m>
  where <m>t</m>
  is an angle in Quadrant II that satisfies 
  <m>\sin(t)=\frac12</m>.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          We are looking for the point in Quadrant II that corresponds to <m>\sin(t)=\frac12</m>, or 
+          the y-coordinate is <m>\frac12</m>.  This happens at <m>t=\frac{5\pi}{6}</m> (which I don't need to know, because 
+          the x-y coordinates come in pairs I know...) so the x-coordinate is <m>-\frac{\sqrt3}{2}</m> or in other words 
+          <m>{\cos(t) = -\frac{\sqrt3}{2}}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
-        <p>The value of <m>\sin(t)</m>
+        <p>Find the value of <m>\sin(t)</m>
  where <m>t</m>
  is an angle in Quadrant III for which <m>\cos(t) = -0.7</m>.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          In Quadrant III, both <m>\sin(t)</m> and <m>\cos(t)</m> are negative. 
+          Fundamental Trig Identity: <m>\sin^2(t)+\cos^2(t) = 1</m> or since 
+          <m>\cos(t)=-0.7</m> then 
+          <md>
+            \sin^2(t)+(-0.7)^2 = 1
+          </md>
+          or <m>\sin^2(t) = 0.51</m> and since <m>{\sin^2(t) = (\sin(t))^2}</m>, then
+          <m>{(\sin(t))^2 = 0.51}</m> or <m>\sin(t) =\pm 0.714</m>.  Since we are in 
+          Quadrant III, then <m>\sin(t) = -0.714</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
-        <p>The average rate of change of <m>f(t) = \sin(t)</m>
+        <p>Find the average rate of change of <m>f(t) = \sin(t)</m>
  on the intervals <m>[0.1,0.2]</m>
  and <m>[0.8,0.9]</m>.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          <md>AV_{[0.1,0.2]} = \frac{\sin(0.2) - \sin(0.1)}{0.2-0.1}\approx 0.988</md>
+          <md>AV_{[0.8,0.9]} = \frac{\sin(0.9) - \sin(0.8)}{0.9-0.8}\approx 0.6597</md>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
-        <p>The average rate of change of <m>g(t) = \cos(t)</m> 
+        <p>Find the average rate of change of <m>g(t) = \cos(t)</m> 
  on the intervals <m>[0.1,0.2]</m>
  and <m>[0.8,0.9]</m>.</p>
       </statement>
+      <solution component="S2-3-soln">
+        <p>
+          <md>AV_{[0.1,0.2]} = \frac{\cos(0.2) - \cos(0.1)}{0.2-0.1}\approx -0.149</md>
+          <md>AV_{[0.8,0.9]} = \frac{\cos(0.9) - \cos(0.8)}{0.9-0.8}\approx -0.751</md>
+        </p>
+      </solution>
     </task>
   </activity>
 
