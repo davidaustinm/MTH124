@@ -934,16 +934,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 2.4: Sinusoidal Functions",
-  "body": " Section 2.4: Sinusoidal Functions  Recall transformations of a function , make sure you know what and do to below:  For the normal standard functions and , both are circular functions with the same values:    midline:  amplitude:  period:  range:    The starting point is where the normal and functions start at .    starting point for :  starting point for :     Transformations of sine and cosine  The real numbers , , and with , we transform and by:    horizontal shift by units to the right (if ),  then a vertical stretch by units (if , we also reflect across the -axis),  then by a vertical shift of units.    The resulting circular functions have    midline ,  amplitude ,  range ,  and period .  The point lies on the graph of and the point on .     The anchor point is where the starting point of the standard and functions shift under these transformations.    the anchor point for (the shifted ) is:  the anchor point for (the shifted ) is:     Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, \\ldots) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.  Horizontal Scaling  A horizontal scaling of is , where is a positive, real number.     Horizontal scaling  Given a function and a real number , is a horizontal stretch of the graph of , that is we multiply the coordinate by .  The point then stretches to the point .  If , the graph of is a stretch of away from the -axis by a factor of ; if , the graph of is a compression of toward the -axis by a factor of .  The only point on the graph of that is unchanged by the transformation is .    Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).      On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.       Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?      The period of a circular function  For any constant , the period of the functions and is    Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos, and then use the program to check your work.                             If we are given the period of a sine or cosine function, we can rearrange the equation for the period to solve for the . Do so; what is equal to in terms of the period ?  This will help us build a circular function, see the next activity.   Activity 2.4.5   Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let denote the distance from the ceiling to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet, with a period of , and you know and .  State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for in the form or . Show your work and thinking, and use Desmos appropriately to check that your formula generates the desired behavior.    "
-},
-{
-  "id": "activities-22-8",
-  "level": "2",
-  "url": "activities-22.html#activities-22-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "anchor point "
+  "body": " Section 2.4: Sinusoidal Functions   MTH 124   Recall transformations of a function , make sure you know what and do to below:   For the normal standard functions and , both are circular functions with the same values:      midline:     amplitude:     period:     range:       A blank graph to draw the sine and cosine functions.    points=['0','pi\/6']         The starting point is where the normal and functions start at .     starting point for :     starting point for :       Transformations of sine and cosine  The real numbers , , and with , we transform and by:       horizontal shift by units to the right (if ),    then a vertical stretch by units (if , we also reflect across the -axis),    then by a vertical shift of units.     The resulting circular functions have     midline ,    amplitude ,    range ,    and period .    The point lies on the graph of and the point on .      The anchor point is where the starting point of the standard and functions shift under these transformations.     the anchor point for (the shifted ) is:     the anchor point for (the shifted ) is:       Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, ...) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.     Horizontal scaling  We squish or stretch the function in the horizontal direction around the y-axis.  Given a function and a real number , is a horizontal stretch of the graph of , that is we multiply the coordinate by .  The point then stretches to the point .  If , the graph of is a stretch of away from the -axis by a factor of ; if , the graph of is a compression of toward the -axis by a factor of .  The only point on the graph of that is unchanged by the transformation is .    Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).    A function f for you to transform in the following activities    f(t)=abs(t-2)-2      (2,-2)          A function g for you to transform in the following activities    g(t)=-(t+2)^2+2      (-2,2)             On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.    A function f for you to transform in the following activities    f(t)=abs(t-2)-2      (2,-2)          A function g for you to transform in the following activities    g(t)=-(t+2)^2+2      (-2,2)              Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?      The period of a circular function  For any constant , the period of the functions and is     Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos , and then use the program to check your work.                                       If we are given the period of a sine or cosine function, we can rearrange the equation for the period to solve for the . Do so; what is equal to in terms of the period ?  This will help us build a circular function, see the next activity.   Activity 2.4.5   Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let denote the distance from the ceiling to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet, with a period of , and you know and .  State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for in the form or . Show your work and thinking, and use Desmos appropriately to check that your formula generates the desired behavior.    "
 },
 {
   "id": "activities-22-9",
@@ -952,48 +943,57 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "anchor point anchor point "
+  "body": "anchor point "
 },
 {
   "id": "activities-22-10",
   "level": "2",
   "url": "activities-22.html#activities-22-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "anchor point anchor point "
+},
+{
+  "id": "activities-22-11",
+  "level": "2",
+  "url": "activities-22.html#activities-22-11",
   "type": "Activity",
   "number": "78",
   "title": "Activity 2.4.2.",
-  "body": " Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, \\ldots) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.  Horizontal Scaling  A horizontal scaling of is , where is a positive, real number.   "
+  "body": " Activity 2.4.2   Consider a spring-mass system where a weight is resting on a frictionless table. We let denote the distance from the wall (where the spring is attached) to the weight at time in seconds and know that the weight oscillates periodically with a minimum value of feet and a maximum value of feet with a period of . We also know that and .  Determine a formula for in the form or . (It will help to start with identifying the key information, such as the midline, the amplitude, ...) Is it possible to find two different formulas that work? For any formula you find, identify the anchor point.   "
 },
 {
-  "id": "activities-22-11-2",
+  "id": "activities-22-12-3",
   "level": "2",
-  "url": "activities-22.html#activities-22-11-2",
+  "url": "activities-22.html#activities-22-12-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "horizontal stretch "
 },
 {
-  "id": "activities-22-12",
+  "id": "activities-22-13",
   "level": "2",
-  "url": "activities-22.html#activities-22-12",
+  "url": "activities-22.html#activities-22-13",
   "type": "Activity",
   "number": "79",
   "title": "Activity 2.4.3.",
-  "body": " Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).      On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.       Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?    "
+  "body": " Activity 2.4.3   Consider the functions and given ni the figure below ( on the left, on the right).    A function f for you to transform in the following activities    f(t)=abs(t-2)-2      (2,-2)          A function g for you to transform in the following activities    g(t)=-(t+2)^2+2      (-2,2)             On the same axes as the plot of , sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the same axes as the plot of above, sketch the following graphs: and . Be sure to label several points on each of , , and with arrows to indicate their correspondence. In addition, write one sentence to explain the overall transformations that have resulted in and from .      On the additional copies of the two figures below, sketch the graphs of the following transformed functions: (at left) and (at right). As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.    A function f for you to transform in the following activities    f(t)=abs(t-2)-2      (2,-2)          A function g for you to transform in the following activities    g(t)=-(t+2)^2+2      (-2,2)              Describe in words how the function is the result of composing two elementary transformations of . Does the order in which these transformations are composed matter? Why or why not?    "
 },
 {
-  "id": "activities-22-14",
+  "id": "activities-22-15",
   "level": "2",
-  "url": "activities-22.html#activities-22-14",
+  "url": "activities-22.html#activities-22-15",
   "type": "Activity",
   "number": "80",
   "title": "Activity 2.4.4.",
-  "body": " Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos, and then use the program to check your work.                            "
+  "body": " Activity 2.4.4   Determine the exact period, amplitude, and midline of each of the following functions. In addition, state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point. Make your conclusions without consulting Desmos , and then use the program to check your work.                                      "
 },
 {
-  "id": "activities-22-17",
+  "id": "activities-22-18",
   "level": "2",
-  "url": "activities-22.html#activities-22-17",
+  "url": "activities-22.html#activities-22-18",
   "type": "Activity",
   "number": "81",
   "title": "Activity 2.4.5.",
