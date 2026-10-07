@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 06</title>
+
+  <introduction>
+    <p>
+      <alert>MTH 124</alert>
+    </p>
+  </introduction>
+
+  <p>
+    <alert>Due Thursday, 10/15/26 at 12:00pm (the beginning of class)</alert>
+  </p>
+
+<!--  <p>
+    Make sure you are following the homework expectations!
+    Example: complete sentences!
+  </p>-->
+
+  <exercise>
+    <introduction>
+      <p>
+        In this problem we'll use a periodic function to describe the number of
+        hours of daylight in Grand Rapids throughout the year.
+        In particular, <m>t</m> will denote time as the number of days since
+        January 1 and <m>H</m> will be the number of hours of daylight.
+        So we want to describe a function <m>H=f(t)</m>.
+        Here are some (approximate) facts:
+        <ul>
+          <li>
+            On the vernal equinox (usually March 21, <m>t=80</m> ), there are 12
+            hours of daylight.
+            The same happens on the autumnal equinox (usually September 21).
+          </li>
+
+          <li>
+            On the summer equinox (June 21), there are 15 hours of daylight.
+          </li>
+
+          <li>
+            On the winter equinox (December 21), there are 9 hours of daylight.
+          </li>
+        </ul>
+        <em>Pro tip:</em> I asked
+        <url href="https://www.wolframalpha.com/">Wolfram Alpha</url> what day
+        of the year March 21 is, and it said 81, so I got <m>t=80</m> days since
+        Jan 1.
+      </p>
+
+      <p>
+        We'll build the function <m>f(t)</m> piece by piece below starting with
+        <m>\sin(t)</m> and transforming it.
+      </p>
+    </introduction>
+
+    <task workspace="0.3in">
+      <statement>
+        <p>
+          What is the period <m>p</m> of <m>f(t)</m>?
+          Explain how you know.
+        </p>
+      </statement>
+    </task>
+
+    <task  workspace="0.3in">
+      <statement>
+        <p>
+          What is the midline <m>m</m> and what is the amplitude <m>a</m>?
+          Explain how you got those.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Give a rough sketch of how the final graph of <m>f(t)</m> should
+          behave on the axes below.
+          Include a short sentence about why you chose that particular shape, or
+          starting point, or ... (I'm looking for your thought process, not a final equation here.)
+        </p>
+
+        <image width="55%" margins="0% 45%">
+          <shortdescription>
+            An empty graph to plot a rough sketch of f(t).
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw6-c">
+            <diagram dimensions="(600,200)" margins="10">
+              <definition>
+                f(x)=-2*(-1)^1/(1*pi)*sin(1*x*pi)-2*(-1)^2/(2*pi)*sin(2*x*pi)-2*(-1)^3/(3*pi)*sin(3*pi*x)
+              </definition>
+              <coordinates bbox="(-20,-5,360,20)">
+                <grid-axes decorations="yes" spacings="((0,40,360),(0,5,20))" hlabels="(0,40,360)" vlabels="(0,5,20)" xlabel="t" ylabel="f(t)"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Now transforming <m>\sin(t)</m>.
+          What is the value of <m>k</m> so that <m>\sin(kt)</m> has the proper
+          period as shown below.
+        </p>
+
+        <image width="55%" margins="0% 45%">
+          <shortdescription>A graph of sin(kt).</shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw6-d">
+            <diagram dimensions="(600,200)" margins="10">
+              <definition>
+                f(x)=sin(2*pi/360*x)
+              </definition>
+              <coordinates bbox="(-20,-5,360,20)">
+                <grid-axes decorations="yes" spacings="((0,40,360),(0,5,20))" hlabels="(0,40,360)" vlabels="(0,5,20)" xlabel="t" />
+                <graph function="f"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          How can you modify <m>\sin(kt)</m> to have the proper amplitude?
+          (The resulting graph is shown below.)
+        </p>
+
+        <image width="55%" margins="0% 45%">
+          <shortdescription>A graph of a*sin(kt).</shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw6-e">
+            <diagram dimensions="(600,200)" margins="10">
+              <definition>
+                f(x)=3*sin(2*pi/360*x)
+              </definition>
+              <coordinates bbox="(-20,-5,360,20)">
+                <grid-axes decorations="yes" spacings="((0,40,360),(0,5,20))" hlabels="(0,40,360)" vlabels="(0,5,20)" xlabel="t"/>
+                <graph function="f"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          How can you modify the function from part (e) to have the proper
+          midline?
+          (The resulting graph is shown below.)
+        </p>
+
+        <image width="55%" margins="0% 45%">
+          <shortdescription>
+            A graph of the sine function with the correct amplitude, period, and
+            midline to account for the context of the problem.
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw6-f">
+            <diagram dimensions="(600,200)" margins="10">
+              <definition>
+                f(x)=3*sin(2*pi/360*x)+12
+              </definition>
+              <coordinates bbox="(-20,-5,360,20)">
+                <grid-axes decorations="yes" spacings="((0,40,360),(0,5,20))" hlabels="(0,40,360)" vlabels="(0,5,20)" xlabel="t"/>
+                <graph function="f"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+    </task>
+
+    <task workspace="0.3in">
+      <statement>
+        <p>
+          What is one final modification you can make to part (f) to obtain
+          <m>f(t)</m>?
+          (The resulting graph is shown below.)
+        </p>
+
+        <image width="55%" margins="0% 45%">
+          <shortdescription>
+            A graph of the sine function with appropriate parameters to account
+            for the context of the problem.
+          </shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw6-g">
+            <diagram dimensions="(600,200)" margins="10">
+              <definition>
+                f(x)=3*sin(2*pi/360*(x-80))+12
+              </definition>
+              <coordinates bbox="(-20,-5,360,20)">
+                <grid-axes decorations="yes" spacings="((0,40,360),(0,5,20))" hlabels="(0,40,360)" vlabels="(0,5,20)" xlabel="t" ylabel="f(t)"/>
+                <graph function="f"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          What does your function predict for the number of hours of daylight on
+          October 9 (of 2024, which is a leap year)?
+          (When you compute this <ndash/> should your input be in degrees or
+          radians?) Explain what you did to find this prediction.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace="2in">
+      <statement>
+        <p>
+          Use Desmos to verify that your function is correct.
+          If you think it is what it is supposed to be, tell me why, and if 
+          not then tell me what is different from what you think it should look like and
+          where you think something might have went funky.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+</worksheet>
