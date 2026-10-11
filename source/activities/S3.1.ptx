@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
   <title>Section 3.1: Exponential Functions <m>f(t)=ab^t</m></title>
+<p><alert>MTH 124</alert></p>
 
-  <definition workspace="0.15in">
+
+  <definition workspace="0in">
     <title>Definition 3.1.2</title>
     <statement>
       <p>Let <m>b</m> be a real number such that <m>b&gt;0</m> and <m>b\ne 1</m>. We call the function defined by <md>f(t) = b^t</md>
@@ -11,13 +13,14 @@
   </definition>
 
   <p>Important!  <m>b^0 = </m> <fillin/>  for ANY <m>b\ne 0</m>.  
-We call <m>b</m> the <term>growth factor</term>.  If <m>b=1+r</m>, we call <m>r</m> the <term>growth rate</term>.</p>
-  <p workspace="0.15in">If <m>b&gt;1</m>, we call <m>f(t) = b^t</m>  <q>exponential growth.</q> If <m>0&lt;b&lt;1</m> we call it <q>exponential decay.</q></p>
+We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>r</m> the <term>growth rate</term>.</p>
+  <p>If <m>b\gt 1</m>, we call <m>{f(t) = b^t}</m>  <q>exponential growth.</q> 
+    </p><p>If <m>0\lt b \lt 1</m> we call it <q>exponential decay.</q></p>
 
   <activity>
     <title>Activity 3.1.2</title>
     <introduction>
-      <p>In Desmos, define the function <m>g(t) = ab^t</m>
+      <p>In <url href="desmos.com/calculator">Desmos</url>, define the function <m>g(t) = ab^t</m>
  and create sliders for both <m>a</m>
  and <m>b</m>
  when prompted. Click on the sliders to set the minimum value for each to <m>0.1</m>
@@ -27,62 +30,79 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>b=1+r</m>, we call <m>r<
  even though the slider for <m>b</m>
  will allow this value.</p>
     </introduction>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>What is the domain of <m>g(t) = ab^t</m>?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>What is the range of <m>g(t)=ab^t</m>?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>What is the 
 <m>y</m>-intercept of <m>g(t)=ab^t</m>?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>How does changing the value of <m>b</m>
  affect the shape and behavior of the graph of <m>g(t)=ab^t</m>?
  Write several sentences to explain.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>For what values of the growth factor <m>b</m>
  is the corresponding growth rate positive? For which 
 <m>b</m>-values is the growth rate negative?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
-        <p>Consider the graphs of the exponential functions <m>p</m> 
- and <m>q</m>
+        <p>Consider the graphs of the exponential functions <m>p</m> (solid)
+ and <m>q</m> (dashed)
  provided in the figure below. If <m>p(t)=ab^t</m>
  and <m>q(t)=cd^t</m>,
  what can you say about the values <m>a, b, c,</m> and <m>d</m> 
  (beyond the fact that all are positive and <m>b\ne 1</m>
  and <m>d\ne 1</m>
 )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?</p>
-        <image source="images/3.1.2f" width="50%"/>
+    <image width="30%" margins="0% 70%">
+      <shortdescription>Two exponential functions p and q.  One seems to be growing, the other decaying.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-3-1-2">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>p(t)=1.4*0.2^t</definition>
+          <definition>q(t)=0.7*1.8^t</definition>
+    
+          <coordinates bbox="(-1,-1,2,2)">
+            <axes  decorations="no" xlabel="t" ylabel="y"
+             />
+          <graph function="p" stroke="red"/>
+          <graph function="q" dash="4 4"/>
+          <label anchor="(1.2,0.37)"><m>p(t)</m></label>
+          <label anchor="(1.4,1.4)"><m>q(t)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
       </statement>
     </task>
   </activity>
 
-  <p workspace="0.15in">All you need to find the formula of an exponential function is two points!</p>
+  <p workspace="0in">All you need to find the formula of an exponential function is two points! And algebra...</p>
 
   <activity>
     <title>Activity 3.1.3. Finding Formulas</title>
     <introduction>
       <p>The value of an automobile is depreciating. When the car is 3
- years old, its value is <m>\</m>12500<m>;
+ years old, its value is $<m>12500</m>;
  when the car is 7
- years old, its value is </m>\<m>6500</m>.</p>
+ years old, its value is $<m>6500</m>.</p>
     </introduction>
-    <task workspace="1in">
+    <task workspace="2in">
       <statement>
         <p>Suppose the car’s value <m>t</m>
  years after its purchase is given by the function <m>V(t)</m>
@@ -97,25 +117,64 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>b=1+r</m>, we call <m>r<
     </task>
     <task workspace="1in">
       <statement>
-        <p>Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than <m>\</m>1000$.</p>
+        <p>Using the exponential model determined in (a), determine the purchase value of the car and then use 
+        Desmos to estimate when the car will be worth less than $<m>1000</m>.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="1.5in">
       <statement>
         <p>Suppose instead that the car’s value is modeled by a linear function <m>L</m>
  and satisfies the values stated at the outset of this activity. Find a formula for <m>L(t)</m>
- and determine both the purchase value of the car and when the car will be worth <m>\</m>1000$.</p>
+ and determine both the purchase value of the car and when the car will be worth $<m>1000</m>.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.2in">
       <statement>
         <p>Which model do you think is more realistic? Why?</p>
       </statement>
     </task>
   </activity>
 
-  <p>Notice below we have two exponential functions.  On the left we have exponential growth (<m>b&gt;1</m>), and on the right we have exponential decay (<m>0&lt;b&lt;1</m>). The exponential growth model corresponds to an increasing function, while exponential decay corresponds to a decreasing function. BUT EACH bends upwards always, and therefore each is <term>concave up</term>.</p>
-  <image source="images/3.1exp" width="50%"/>
+  <p>Notice below we have two exponential functions.  
+  On the left we have exponential growth (<m>b \gt 1</m>), 
+  and on the right we have exponential decay (<m>0 \lt b \lt 1</m>). 
+  The exponential growth model corresponds to an increasing function, 
+  while exponential decay corresponds to a decreasing function. 
+  </p><p><em>BUT EACH</em> bends upwards <em>always</em>, 
+  and therefore each is <term>concave up</term>.</p>
+  <sidebyside widths="30% 30%">
+      <image >
+      <shortdescription>An exponential function f that shows exponential growth.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-3-1-3a">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>q(t)=0.3*2.6^t</definition>
+    
+          <coordinates bbox="(-1,-1,2,2)">
+            <axes  decorations="no" xlabel="t" ylabel="y"
+             />
+          <graph function="q" stroke="blue"/>
+          <label anchor="(1.4,1.4)"><m>f(t)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+      <image >
+      <shortdescription>An exponential function g that shows exponential decay.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-3-1-3b">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>q(t)=1.3*0.3^t</definition>
+    
+          <coordinates bbox="(-1,-1,2,2)">
+            <axes  decorations="no" xlabel="t" ylabel="y"
+             />
+          <graph function="q" stroke="blue"/>
+          <label anchor="(1.4,0.4)"><m>g(t)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+  </sidebyside>
 
   <assemblage>
     <title>Trends in exponential function behavior</title>
@@ -127,10 +186,10 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>b=1+r</m>, we call <m>r<
       <ul>
         <li><p>if <m>b&gt;1</m>,
  then <m>f</m>
- is always increasing and always increases at an increasing rate;</p></li>
+ is always <em>increasing</em> and always <em>increases at an increasing rate</em> (<term>increasing and concave up</term>);</p></li>
         <li><p>if <m>0&lt;b&lt;1</m>,
  then <m>f</m>
- is always decreasing and always decreases at an increasing rate.</p></li>
+ is always <em>decreasing</em> and always <em>decreases at an increasing rate</em> (<term>decreasing and concave up</term>).</p></li>
       </ul>
     </p>
   </assemblage>
@@ -138,7 +197,9 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>b=1+r</m>, we call <m>r<
   <activity>
     <title>Activity 3.1.4</title>
     <introduction>
-      <p>For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph.</p>
+      <p>For each of the following prompts, give an example of a function 
+      that satisfies the stated characteristics by both providing a 
+      formula and sketching a graph. (They don't all have to be exponential functions!)</p>
     </introduction>
     <task workspace="1in">
       <statement>
