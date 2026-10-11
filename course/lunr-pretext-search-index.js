@@ -1006,61 +1006,70 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 3.1: Exponential Functions <span class=\"process-math\">\\(f(t)=ab^t\\)<\/span>",
-  "body": " Section 3.1: Exponential Functions   Definition 3.1.2   Let be a real number such that and . We call the function defined by an exponential function with base  . ** So is a vertical stretch of . **    Important!  for ANY . We call the growth factor . If , we call the growth rate .  If , we call  exponential growth. If we call it exponential decay.   Activity 3.1.2   In Desmos, define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions and provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?      All you need to find the formula of an exponential function is two points!   Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is 12500 \\ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than 1000$.      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth 1000$.      Which model do you think is more realistic? Why?     Notice below we have two exponential functions. On the left we have exponential growth ( ), and on the right we have exponential decay ( ). The exponential growth model corresponds to an increasing function, while exponential decay corresponds to a decreasing function. BUT EACH bends upwards always, and therefore each is concave up .    Trends in exponential function behavior  For an exponential function of the form where and are both positive with ,    if , then is always increasing and always increases at an increasing rate;  if , then is always decreasing and always decreases at an increasing rate.      Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph.     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.     "
+  "body": " Section 3.1: Exponential Functions  MTH 124   Definition 3.1.2   Let be a real number such that and . We call the function defined by an exponential function with base  . ** So is a vertical stretch of . **    Important!  for ANY . We call the growth factor . If , we call the growth rate .  If , we call  exponential growth.  If we call it exponential decay.   Activity 3.1.2   In Desmos , define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions (solid) and (dashed) provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?   Two exponential functions p and q. One seems to be growing, the other decaying.    p(t)=1.4*0.2^t  q(t)=0.7*1.8^t      p(t)  q(t)         All you need to find the formula of an exponential function is two points! And algebra...   Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is $ ; when the car is 7 years old, its value is $ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than $ .      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth $ .      Which model do you think is more realistic? Why?     Notice below we have two exponential functions. On the left we have exponential growth ( ), and on the right we have exponential decay ( ). The exponential growth model corresponds to an increasing function, while exponential decay corresponds to a decreasing function. BUT EACH bends upwards always , and therefore each is concave up .    An exponential function f that shows exponential growth.    q(t)=0.3*2.6^t     f(t)       An exponential function g that shows exponential decay.    q(t)=1.3*0.3^t     g(t)        Trends in exponential function behavior  For an exponential function of the form where and are both positive with ,    if , then is always increasing and always increases at an increasing rate ( increasing and concave up );  if , then is always decreasing and always decreases at an increasing rate ( decreasing and concave up ).      Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph. (They don't all have to be exponential functions!)     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.     "
 },
 {
-  "id": "activities-23-2",
+  "id": "activities-23-3",
   "level": "2",
-  "url": "activities-23.html#activities-23-2",
+  "url": "activities-23.html#activities-23-3",
   "type": "Definition",
   "number": "82",
   "title": "Definition 3.1.2.",
   "body": " Definition 3.1.2   Let be a real number such that and . We call the function defined by an exponential function with base  . ** So is a vertical stretch of . **   "
 },
 {
-  "id": "activities-23-3",
+  "id": "activities-23-4",
   "level": "2",
-  "url": "activities-23.html#activities-23-3",
+  "url": "activities-23.html#activities-23-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "growth factor growth rate "
 },
 {
-  "id": "activities-23-5",
-  "level": "2",
-  "url": "activities-23.html#activities-23-5",
-  "type": "Activity",
-  "number": "83",
-  "title": "Activity 3.1.2.",
-  "body": " Activity 3.1.2   In Desmos, define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions and provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?     "
-},
-{
   "id": "activities-23-7",
   "level": "2",
   "url": "activities-23.html#activities-23-7",
   "type": "Activity",
-  "number": "84",
-  "title": "Activity 3.1.3. Finding Formulas.",
-  "body": " Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is 12500 \\ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than 1000$.      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth 1000$.      Which model do you think is more realistic? Why?    "
+  "number": "83",
+  "title": "Activity 3.1.2.",
+  "body": " Activity 3.1.2   In Desmos , define the function and create sliders for both and when prompted. Click on the sliders to set the minimum value for each to and the maximum value to . Note that for to be an exponential function, we require , even though the slider for will allow this value.     What is the domain of ?      What is the range of ?      What is the -intercept of ?      How does changing the value of affect the shape and behavior of the graph of ? Write several sentences to explain.      For what values of the growth factor is the corresponding growth rate positive? For which -values is the growth rate negative?      Consider the graphs of the exponential functions (solid) and (dashed) provided in the figure below. If and , what can you say about the values and (beyond the fact that all are positive and and )? For instance, can you say a certain value is larger than another? Or that one of the values is less than 1?   Two exponential functions p and q. One seems to be growing, the other decaying.    p(t)=1.4*0.2^t  q(t)=0.7*1.8^t      p(t)  q(t)        "
 },
 {
-  "id": "activities-23-8",
+  "id": "activities-23-9",
   "level": "2",
-  "url": "activities-23.html#activities-23-8",
+  "url": "activities-23.html#activities-23-9",
+  "type": "Activity",
+  "number": "84",
+  "title": "Activity 3.1.3. Finding Formulas.",
+  "body": " Activity 3.1.3. Finding Formulas   The value of an automobile is depreciating. When the car is 3 years old, its value is $ ; when the car is 7 years old, its value is $ .     Suppose the car’s value years after its purchase is given by the function and that is exponential with form , what are the values of and ? Find and both exactly and approximately.      Using the exponential model determined in (a), determine the purchase value of the car and then use Desmos to estimate when the car will be worth less than $ .      Suppose instead that the car’s value is modeled by a linear function and satisfies the values stated at the outset of this activity. Find a formula for and determine both the purchase value of the car and when the car will be worth $ .      Which model do you think is more realistic? Why?    "
+},
+{
+  "id": "activities-23-11",
+  "level": "2",
+  "url": "activities-23.html#activities-23-11",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "concave up "
 },
 {
-  "id": "activities-23-11",
+  "id": "activities-23-13-3",
   "level": "2",
-  "url": "activities-23.html#activities-23-11",
+  "url": "activities-23.html#activities-23-13-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "increasing and concave up decreasing and concave up "
+},
+{
+  "id": "activities-23-14",
+  "level": "2",
+  "url": "activities-23.html#activities-23-14",
   "type": "Activity",
   "number": "85",
   "title": "Activity 3.1.4.",
-  "body": " Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph.     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.    "
+  "body": " Activity 3.1.4   For each of the following prompts, give an example of a function that satisfies the stated characteristics by both providing a formula and sketching a graph. (They don't all have to be exponential functions!)     A function that is always decreasing and decreases at a constant rate.      A function that is always increasing and increases at an increasing rate.      A function that is always increasing for , always decreasing for , and is always changing at a decreasing rate.      A function that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)      A function that is always decreasing and decreases at a decreasing rate.    "
 },
 {
   "id": "activities-24",
