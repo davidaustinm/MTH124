@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
   <title>Section 3.2: Modeling with Exponential Functions</title>
+<p><alert>MTH 124 </alert></p>
 
   <assemblage>
     <title>Long-term behavior of exponential functions</title>
@@ -24,9 +25,33 @@
     </p>
   </assemblage>
 
-  <sidebyside widths="45% 45%">
-    <image source="images/3.2"/>
-    <p>Consider <m>q(t) = \left(\frac{1}{2}\right)^t</m>. Note that with a little fraction knowledge we can write <m>\left(\frac{1}{2}\right)^t = \frac{1}{2^t} = 2^{-t}</m>.  So <m>p(t) = 2^t</m> and <m>q(t) = \left(\frac12\right)^t = 2^{-t}</m> are reflections of each other across the <m>y-</m>axis, as seen to the left.  This is true for any positive <m>b\ne 1</m>: <m>b^t</m> and <m>\frac{1}{b^t} = b^{-t}</m> are reflections of each other in this way.</p>
+  <sidebyside widths="30% 65%">
+      <image >
+      <shortdescription>An exponential function and it's reflection across the y-access.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-3-2-0">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>p(t)=2^t</definition>
+          <definition>q(t)=2^(-t)</definition>
+    
+          <coordinates bbox="(-3,-1,3,10)">
+            <grid-axes  decorations="yes" xlabel="t" ylabel="y"
+             />
+          <graph function="q" stroke="blue" dash="4 4"/>
+          <graph function ="p" stroke="red"/>
+          <label anchor="(1.6,4.4)"><m>p(t)</m></label>
+          <label anchor="(-1.6,4.4)"><m>q(t)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+    <p>Consider <m>q(t) = \left(\frac{1}{2}\right)^t</m>. 
+    Note that with a little fraction knowledge we can write
+     <m>\left(\frac{1}{2}\right)^t = \frac{1}{2^t} = 2^{-t}</m>.  
+     So <md>p(t) = 2^t</md> and <md>q(t) = \left(\frac12\right)^t = 2^{-t}</md> 
+     are reflections of each other across the <m>y-</m>axis, 
+     as seen to the left.  This is true for any positive 
+     <m>b\ne 1</m>: <m>b^t</m> and <m>\frac{1}{b^t} = b^{-t}</m> are 
+     reflections of each other in this way.</p>
   </sidebyside>
 
   <assemblage>
@@ -64,12 +89,15 @@
     </tabular>
   </assemblage>
 
+
+  
+
   <activity>
     <title>Activity 3.2.2</title>
     <introduction>
       <p>For each of the following functions, without using graphing technology, determine whether the function is:</p>
       <p>
-        <ol>
+        <ol marker="1.">
           <li><p>always increasing or always decreasing;</p></li>
           <li><p>always concave up or always concave down; and</p></li>
           <li><p>increasing without bound, decreasing without bound, or increasing/decreasing toward a finite value.</p></li>
@@ -79,34 +107,160 @@
         </ol>
       </p>
     </introduction>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p><m>p(t) = 4372(1.000235)^t + 92856</m></p>
+          <sidebyside widths="45% 55%">
+            
+          
+          <p>
+            <ol marker="1.">
+          <li><p>inc/dec</p></li>
+          <li><p>CCU/CCD</p></li>
+          <li><p>End behavior</p></li>
+          <li><p><m>y</m>-intercept and range</p></li>
+        </ol>
+          </p>
+          <p>
+            <dl>
+              <li><title>5.</title>
+                <p>
+                  Sketch
+                </p>
+              </li>
+            </dl>
+          </p>
+          </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p><m>q(t) = 27931(0.97231)^t + 549786</m></p>
+          <sidebyside widths="45% 55%">
+            
+          
+          <p>
+            <ol marker="1.">
+          <li><p>inc/dec</p></li>
+          <li><p>CCU/CCD</p></li>
+          <li><p>End behavior</p></li>
+          <li><p><m>y</m>-intercept and range</p></li>
+        </ol>
+          </p>
+          <p>
+            <dl>
+              <li><title>5.</title>
+                <p>
+                  Sketch
+                </p>
+              </li>
+            </dl>
+          </p>
+          </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p><m>r(t) = -17398(0.85234)^t</m></p>
+          <sidebyside widths="45% 55%">
+            
+          
+          <p>
+            <ol marker="1.">
+          <li><p>inc/dec</p></li>
+          <li><p>CCU/CCD</p></li>
+          <li><p>End behavior</p></li>
+          <li><p><m>y</m>-intercept and range</p></li>
+        </ol>
+          </p>
+          <p>
+            <dl>
+              <li><title>5.</title>
+                <p>
+                  Sketch
+                </p>
+              </li>
+            </dl>
+          </p>
+          </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p><m>s(t) = -17398(0.85234)^t + 19411</m></p>
+          <sidebyside widths="45% 55%">
+            
+          
+          <p>
+            <ol marker="1.">
+          <li><p>inc/dec</p></li>
+          <li><p>CCU/CCD</p></li>
+          <li><p>End behavior</p></li>
+          <li><p><m>y</m>-intercept and range</p></li>
+        </ol>
+          </p>
+          <p>
+            <dl>
+              <li><title>5.</title>
+                <p>
+                  Sketch
+                </p>
+              </li>
+            </dl>
+          </p>
+          </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p><m>u(t) = -7522(1.03817)^t</m></p>
+          <sidebyside widths="45% 55%">
+            
+          
+          <p>
+            <ol marker="1.">
+          <li><p>inc/dec</p></li>
+          <li><p>CCU/CCD</p></li>
+          <li><p>End behavior</p></li>
+          <li><p><m>y</m>-intercept and range</p></li>
+        </ol>
+          </p>
+          <p>
+            <dl>
+              <li><title>5.</title>
+                <p>
+                  Sketch
+                </p>
+              </li>
+            </dl>
+          </p>
+          </sidebyside>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p><m>v(t) = -7522(1.03817)^t + 6731</m></p>
+          <sidebyside widths="45% 55%">
+            
+          
+          <p>
+            <ol marker="1.">
+          <li><p>inc/dec</p></li>
+          <li><p>CCU/CCD</p></li>
+          <li><p>End behavior</p></li>
+          <li><p><m>y</m>-intercept and range</p></li>
+        </ol>
+          </p>
+          <p>
+            <dl>
+              <li><title>5.</title>
+                <p>
+                  Sketch
+                </p>
+              </li>
+            </dl>
+          </p>
+          </sidebyside>
       </statement>
     </task>
   </activity>
@@ -116,10 +270,10 @@
     <introduction>
       <p>A can of soda (at room temperature) is placed in a refrigerator at time <m>t=0</m>
  (in minutes) and its temperature, <m>F(t)</m>,
- in degrees Fahrenheit, is computed at regular intervals. Based on the data, a model is formulated for the object’s temperature, given by
+ in degrees Fahrenheit, is computed at regular intervals. Based on the data, a model is formulated for the object’s temperature, (we'll break it down), given by
  <md>F(t) = 42+30(0.95)^t.</md></p>
     </introduction>
-    <task workspace="1in">
+    <task workspace="0.5in">
       <statement>
         <p>Consider the simpler (parent) function <m>p(t) = (0.95)^t</m>.
  How do you expect the graph of this function to appear? How will it behave as time increases? Without using graphing technology, sketch a rough graph of <m>p</m>
@@ -135,11 +289,27 @@
  and write a sentence of explanation.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
+        <sidebyside widths="70% 25%">
         <p>Finally, how do you expect the graph of <m>F(t) = 42+30(0.95)^t</m>
  to appear? Why? First sketch a rough graph without graphing technology, and then use technology to check your thinking and report an accurate, labeled graph on the axes provided in the figure below.</p>
-        <image source="images/3.2.3c" width="50%"/>
+          <image >
+      <shortdescription>A black graph.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-3-2-3">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>p(t)=2^t</definition>
+          <definition>q(t)=2^(-t)</definition>
+    
+          <coordinates bbox="(-1,-1,6,10)">
+            <grid-axes  decorations="no" xlabel="t" ylabel="F(t)"
+             />
+      
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+    </sidebyside>
       </statement>
     </task>
     <task workspace="1in">
@@ -190,12 +360,30 @@
  Why?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
+        <sidebyside widths="70% 30%">
+          
+        
         <p>Check your work above by plotting the function <m>F</m>
  using graphing technology in an appropriate window. Record your results on the axes provided below, labeling the scale on the axes. Then, use the graph to estimate the time at which the potato’s temperature reaches <m>325</m>
  degrees.</p>
-        <image source="images/3.2.3c" width="50%"/>
+          <image >
+      <shortdescription>A black graph.</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-3-2-4">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>p(t)=2^t</definition>
+          <definition>q(t)=2^(-t)</definition>
+    
+          <coordinates bbox="(-1,-1,6,10)">
+            <grid-axes  decorations="no" xlabel="t" ylabel="F(t)"
+             />
+      
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+    </sidebyside>
       </statement>
     </task>
     <task workspace="1in">
