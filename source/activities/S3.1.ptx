@@ -34,17 +34,32 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
       <statement>
         <p>What is the domain of <m>g(t) = ab^t</m>?</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          All real numbers, or <m>(-\infty, \infty)</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.3in">
       <statement>
         <p>What is the range of <m>g(t)=ab^t</m>?</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          All positive real numbers, or <m>(0,\infty)</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.3in">
       <statement>
         <p>What is the 
 <m>y</m>-intercept of <m>g(t)=ab^t</m>?</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          <m>g(0) = a</m> so the y-intercept is <m>(0,a)</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.3in">
       <statement>
@@ -52,6 +67,12 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
  affect the shape and behavior of the graph of <m>g(t)=ab^t</m>?
  Write several sentences to explain.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          A lot you could say here.  If <m>0\lt b \lt 1</m> the graph is decreasing and approaches 
+          <m>0</m> eventually.  If <m>b \gt 1</m> then the graph is always growing and goes to infinity.
+        </p>
+      </solution>
     </task>
     <task workspace="0.3in">
       <statement>
@@ -59,6 +80,13 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
  is the corresponding growth rate positive? For which 
 <m>b</m>-values is the growth rate negative?</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          If the growth factor <m>b\gt 1</m>, then <m>b=1+r \gt 1</m> so <m>r \gt 0</m>, or in other words
+           the growth rate is positive. Growth!  If <m>0\lt b\lt 1</m> then <m>b=1+r \lt 1</m> so the growth rate 
+           <m>r \lt 0</m>.  Decay!
+        </p>
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -89,6 +117,14 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
       </prefigure>
     </image>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Since <m>a, c</m> are the y-intercepts, we can see that <m>a \gt c</m> 
+          because it's higher up on the y-axis.  But since <m>p</m> shows exponential 
+          decay than <m>0\lt b \lt 1</m>, but <m>q</m> is exponential growth then 
+          <m>d\gt 1</m>.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -114,12 +150,60 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
  and <m>b</m>
  both exactly and approximately.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Point 1: <m>(3,12500)</m> or plugging in <m>12500 = ab^3</m>. 
+        </p>
+        <p>
+          Point 2: <m>(7,6500)</m> or in other words <m>6500 = ab^7</m>.
+        </p>
+        <p>
+          Then we can take the ratio between them:
+          <md>
+            \frac{6500}{12500} = \frac{ab^7}{ab^3}
+          </md>
+          which simplifies to 
+          <md>
+            \frac{13}{25} = b^4.
+          </md>
+          Or in other words, taking the 4th root of each side, we have 
+          <m>{b = (\frac{13}{25})^{1/4}}</m>.
+          
+        </p>
+        <p>
+          Now to find <m>a</m>, we can plug <m>b</m> back into either equation we know.
+          For zero reason whatsoever I'll choose <m>12500 = ab^3</m>, which will then become
+          <md>
+            12500 = a \left((\frac{13}{25})^{1/4}\right)^3 = a \left(\frac{13}{25}\right)^{3/4}
+          </md>
+          and since <m>a</m> is multiplied by stuff we can just divide and get 
+          <md>
+            \frac{12500}{(\frac{13}{25})^{3/4}} = a.
+          </md>
+          Yes they are terrible, but they are exact.  The entire formula would be 
+          <md>
+            V(t) = \frac{12500}{(\frac{13}{25})^{3/4}} \left(\left(\frac{13}{25}\right)^{3/4}\right)^t.
+          </md>
+          If we approximate, <m>a\approx 20413</m> and <m>b\approx 0.8492</m>, so 
+          <m>{V(t)\approx 20413(0.8492)^t}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>Using the exponential model determined in (a), determine the purchase value of the car and then use 
         Desmos to estimate when the car will be worth less than $<m>1000</m>.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          The purchase price is at <m>t=0</m>, and we have <m>V(0) = a \approx 20413</m>.
+        </p>
+        <p>
+          If the worth is $1000, then <m>V(t) = 1000</m>.  Plot <m>V(t)</m> and <m>y=1000</m>
+          in Desmos and see where they intersect.  This happens at <m>t=18.45</m>, so after 
+          about 18.5 years the car is worth less than $1000.
+        </p>
+      </solution>
     </task>
     <task workspace="1.5in">
       <statement>
@@ -127,11 +211,31 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
  and satisfies the values stated at the outset of this activity. Find a formula for <m>L(t)</m>
  and determine both the purchase value of the car and when the car will be worth $<m>1000</m>.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Lines!  Need the slope between our two points <m>(3,125000), (7, 6500)</m>.  Slope is 
+          <md>
+            m = \frac{6500-12500}{7-3} = -1500.
+          </md>
+          Pick a point and do point-slope form:
+          <md>
+            L(t) = -1500 (t-3) + 12500.
+          </md>
+          If <m>L(t) = 1000</m>, this is true when <m>t=10.67</m>, so for a linear function 
+          it would only take a little over 10.5 years before the car is worth less than $1000.
+        </p>
+      </solution>
     </task>
     <task workspace="0.2in">
       <statement>
         <p>Which model do you think is more realistic? Why?</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Car values don't usually decrease linearly, 
+          so probably exponential.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -206,12 +310,25 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
         <p>A function <m>p</m>
  that is always decreasing and decreases at a constant rate.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Something that changes at a constant rate is a line!  And it just needs a 
+          negative slope.  <m>p(x)=-x</m> is one example, there are many.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>A function <m>q</m>
  that is always increasing and increases at an increasing rate.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          This sounds like exponential growth!  Something like <m>q(x)=2^x</m> is always 
+          increasing (growth) and always concave up (or increasing at an increasing rate)!
+          There are many examples that will work.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -220,18 +337,42 @@ We call <m>b</m> the <term>growth factor</term>.  If <m>{b=1+r}</m>, we call <m>
  always decreasing for <m>t&gt;2</m>,
  and is always changing at a decreasing rate.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Always concave down (frowny face) bue first increasing then decreasing. 
+          Draw a picture.... this seems like a parabola will do, as long as it's vertex
+          is at <m>x=2</m> and it's point downward.  Well, <m>r(x)=-(x-2)^2</m> will do that.  (Also many possibilities)
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>A function <m>s</m>
  that is always increasing and increases at a decreasing rate. (Hint: to find a formula, think about how you might use a transformation of a familiar function.)</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Increase at a decreasing rate, that's concave down.  We have done to much with that.
+          But exponential functions are always concave up, so if we flip them they become concave down.
+          So if we take an exponential decay which is always decreasing and concave up, and 
+          we flip it over the x-axis, then it's increasing and concave down.  So <m>s(x)=-(\frac12)^x</m> 
+          should work.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>A function <m>u</m>
  that is always decreasing and decreases at a decreasing rate.</p>
       </statement>
+      <solution component="S3-1-soln">
+        <p>
+          Again concave down, so we'll use the same logic as the previous part and flip 
+          an exponential function.  If we choose exponential growth which is 
+          increasing and concave up, then flipping it would make it decreasing and concave 
+          down.  So for example <m>u(x)=-2^x</m> will work.
+        </p>
+      </solution>
     </task>
   </activity>
 
