@@ -132,6 +132,34 @@
           </p>
           </sidebyside>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          <ol marker="1.">
+            <li><p>increasing (<m>b = 1.000235 \gt 1</m>)</p></li>
+              <li>
+                <p>
+                  Concave up. (exp growth, not flipped)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Increasing without bound, or <m>p(t)\rightarrow \infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  y-int <m>92856+4372=97,228</m>, range <m>(92856,\infty)</m> 
+                </p>
+              </li>
+              <li>
+                <p>
+                  See Desmos, but it will be exp growth with an asymptote of <m>y=72856</m> that it will 
+                  never go below.
+                </p>
+              </li>
+          </ol>
+        </p>
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -158,9 +186,32 @@
           </p>
           </sidebyside>
       </statement>
-      <solution>
+      <solution component="S3-2-soln">
         <p>
-          
+          <ol marker="1.">
+            <li><p>decreasing (<m>b = 0.97231 \lt 1</m>)</p></li>
+              <li>
+                <p>
+                  Concave up. (exp decay, not flipped)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Decreasing toward finite value, or <m>q(t)\rightarrow 549786</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  y-int <m>27931+549786=577,717</m>, range <m>(549786,\infty)</m> 
+                </p>
+              </li>
+              <li>
+                <p>
+                  See Desmos, but it will be exp decay with an asymptote of <m>y=549786</m> that it will 
+                  never go below.
+                </p>
+              </li>
+          </ol>
         </p>
       </solution>
     </task>
@@ -189,6 +240,35 @@
           </p>
           </sidebyside>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          <ol marker="1.">
+            <li><p>Flipped exp decay, and since exp decay is originally decreasing 
+            then flipping it makes it increasing (<m>b = 0.85234 \lt 1</m> but <m>-17398 \lt 0</m>)</p></li>
+              <li>
+                <p>
+                  Concave down. (exp decay, flipped)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Increasing to a finite value of 0, or <m>r(t)\rightarrow 0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  y-int <m>-17398</m>, range <m>(-\infty,0)</m> 
+                </p>
+              </li>
+              <li>
+                <p>
+                  See Desmos, but it will be exp decay flipped over the x-axis with an asymptote of <m>y=0</m> that it will 
+                  never go above.
+                </p>
+              </li>
+          </ol>
+        </p>
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -215,6 +295,34 @@
           </p>
           </sidebyside>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          <ol marker="1.">
+            <li><p>Same as the previous problem just shifted down, so still increasing</p></li>
+              <li>
+                <p>
+                  Same as the previous problem just shifted down, so still concave down
+                </p>
+              </li>
+              <li>
+                <p>
+                  Increasing toward 19411, or <m>s(t)\rightarrow 19411</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  y-int <m>19411-17398=2013</m>, range <m>(-\infty,19411)</m> 
+                </p>
+              </li>
+              <li>
+                <p>
+                  See Desmos, but it will be exp decay flipped over the x-axis with an asymptote of <m>y=19411</m> that it will 
+                  never go above.
+                </p>
+              </li>
+          </ol>
+        </p>
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -241,6 +349,34 @@
           </p>
           </sidebyside>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          <ol marker="1.">
+            <li><p>Is is flipped exp growth, so it will be decreasing</p></li>
+              <li>
+                <p>
+                  flipped exp growth so concave down
+                </p>
+              </li>
+              <li>
+                <p>
+                  Decreasing without bound, or <m>u(t)\rightarrow -\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  y-int <m>-7522</m>, range <m>(-\infty,-7522)</m> 
+                </p>
+              </li>
+              <li>
+                <p>
+                  See Desmos, but it will be exp growth flipped over the x-axis with an asymptote of <m>y=0</m> that it will 
+                  never go above.
+                </p>
+              </li>
+          </ol>
+        </p>
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -267,6 +403,34 @@
           </p>
           </sidebyside>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          <ol marker="1.">
+            <li><p>Is is flipped exp growth, so it will be decreasing</p></li>
+              <li>
+                <p>
+                  flipped exp growth so concave down
+                </p>
+              </li>
+              <li>
+                <p>
+                  Decreasing without bound, or <m>v(t)\rightarrow -\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  y-int <m>-7522+6731=-791</m>, range <m>(-\infty,6731)</m> 
+                </p>
+              </li>
+              <li>
+                <p>
+                  See Desmos, but it will be exp growth flipped over the x-axis with an asymptote of <m>y=6731</m> that it will 
+                  never go above.
+                </p>
+              </li>
+          </ol>
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -284,6 +448,12 @@
  How do you expect the graph of this function to appear? How will it behave as time increases? Without using graphing technology, sketch a rough graph of <m>p</m>
  and write a sentence of explanation.</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          Since <m>b=0.95\lt 1</m> it should look like exponential decay.  That is, as 
+          <m>t\rightarrow\infty</m> then <m>(0.95)^t \rightarrow 0</m> (it decreases to 0.)
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -293,6 +463,12 @@
  increases? Without using graphing technology, sketch a rough graph of <m>r</m>
  and write a sentence of explanation.</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          Take the previous exponential decay and vertically stretch it by a factor 
+          of <m>30</m>.  Still as <m>t\rightarrow \infty</m>, <m>30(0.95)^t\rightarrow 0</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -316,11 +492,24 @@
     </image>
     </sidebyside>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          Same, still stretched exponential decay, but now just shifted up by <m>42</m>.
+          The y-intercept is at <m>30+42=72</m>, and it will never reach 42.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>What is the temperature of the refrigerator? What is the room temperature of the surroundings outside the refrigerator? Why?</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          Since the temperature approaches 42 in the long-run, and the temperature must 
+          also approach the fridge's temperature in the long-run, then the fridge is at 42 degrees. 
+          Since we started at room temp, then <m>F(0) = 72</m> degrees is room temp.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -330,6 +519,24 @@
  and <m>[30,40]</m>.
  Write at least two careful sentences that explain the meaning of the values you found, including units, and discuss any overall trend in how the average rate of change is changing.</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          I'm going to assume you do the calculations for <m>F(t)</m> elsewhere for every <m>t</m> we will need:
+          <md>
+            AV_{[10,20]} = \frac{F(20)-F(10)}{20-10} = -0.721^{\circ} F/min
+          </md>
+          <md>
+            AV_{[20,30]} = \frac{F(30)-F(20)}{30-20} = -0.432^{\circ} F/min
+          </md>
+          <md>
+            AV_{[40,30]} = \frac{F(40)-F(30)}{40-30} = -0.258^{\circ} F/min
+          </md>
+          These are the average decrease in temperature of the soda in degrees F per 
+          minute.  The soda is getting colder, but not at a constant rate.  So 
+          <m>F</m> is decreasing, but at an increasing rate, since the rates are getting bigger 
+          (less negative = bigger).  That is, this is a concave up function.  (Which matches!)
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -350,6 +557,12 @@
         <p>What is the numerical value of <m>F(0)</m>?
  What does this tell you about the value of <m>k-r</m>?</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          <m>F(0) = 68^{\circ}</m>F from context.  And in the equation <m>F(0)=k-r(1)</m>, 
+          so <m>68 = k-r</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -358,12 +571,25 @@
  to determine the value of <m>k</m>.
  Write a sentence to explain your thinking.</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          The temperature should approach the oven's temperature if we let it go 
+          long enough, so we should expect the function to approach 350 in the long term.
+          Since <m>r(0.98)^t \rightarrow 0</m>, then we need to shift it up by 350, 
+          so <m>350-r(0.98)^t\rightarrow 350</m>, or in other words <m>k=350</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>What is the value of <m>r</m>?
  Why?</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          If <m>68=k-r = 350-r</m>, then <m>r=350-68 = 282</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -390,6 +616,13 @@
     </image>
     </sidebyside>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          Plot in Desmos.  It seems consistent to have <m>{F(t) = 350 - 282(0.98)^t}</m>.
+          It appears that the potato reaches a temp (y-coordinate) of 325 when 
+          <m>{t\approx 119.94}</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -397,6 +630,12 @@
  as a transformation of the parent function <m>f(t) = (0.98)^t</m>?
  Explain.</p>
       </statement>
+      <solution component="S3-2-soln">
+        <p>
+          <m>F(t) = 350-282(0.98)^t</m>, so it's a vertical stretch by 282 that 
+          we also flip over the x-axis, and then a vertical shift up by 350.
+        </p>
+      </solution>
     </task>
   </activity>
 
