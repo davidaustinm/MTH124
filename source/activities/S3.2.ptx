@@ -635,6 +635,7 @@
           <m>F(t) = 350-282(0.98)^t</m>, so it's a vertical stretch by 282 that 
           we also flip over the x-axis, and then a vertical shift up by 350.
         </p>
+        
       </solution>
     </task>
   </activity>
