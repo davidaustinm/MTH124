@@ -1114,34 +1114,52 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 3.3: The Special Number <span class=\"process-math\">\\(e\\)<\/span>",
-  "body": " Section 3.3: The Special Number  For any base , we can find some so that  Base is arbitrary! So instead we use .  The function is unique! Why?  What is ?   Definition 3.3.2   The natural base, . The number is the infinite sum It's an irrational number very similar to , and it is approximately      Since and , we expect to be between and for both positive and negative values of . We can see that from the table below, as well as the graph to the right.    t  -2  -1  0  1  2    2^t  0.25  0.5  1  2  4    \\rightarrow e^t  0.135  0.368  1  2.718  7.389 \\leftarrow    3^t  0.111  0.333  1  3  9       For any , we can write it as a scaling of : So there must be a such that How to find it?   Example:   Recall  Average rate of change of on is  **New perspective:** Start with , take a small distance , and look at :    Activity 3.3.2   We'll use the formula above to explore the average rate of change of near and . In a new Desmos worksheet, define (type it in exactly like that). Then in a new cell, type the following:     What is the approximate value of ?      What is the meaning of in terms of the function and its graph?      Compute the value of for at least different small values of , both positive and negative. For instance, one value to try might be , another , a third , and maybe three negative 's. (Use Desmos! Type and so on). Record a table of your results.      What do you notice about the values you found in (b)? How do they compare to an important number? What is ?      Explain why the following sentence makes sense: “The function is increasing at an average rate that is about the same as its value on small intervals near .”      What is the approximate value of ?      Adjust your definition of in Desmos by changing to so that How does the value of compare to for small values of ?      Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                               Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?  (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake    1  10^1 = 10    2  10^2 = 100    2.2  10^2.2 \\approx 158.489    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?  While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake    1  31.6^1 = 31.6    2  31.6^2 = 998.56    2.2  31.6^2.2 \\approx 1992.102    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?     "
+  "body": " Section 3.3: The Special Number   MTH 124   For any base , we can find some so that  Base is arbitrary! So instead we use .  The function is unique! Why?  So what is ? Here's a definition:   Definition 3.3.2   The natural base, . The number is the infinite sum It's an irrational number very similar to , and it is approximately      Since and , we expect to be between and for both positive and negative values of . We can see that from the table below, as well as the graph to the right.                                      A graph of three exponential functions, with one always between the others.    f(t)=e^t  g(t)=2^t  h(t)=3^t       e^t  2^t  3^t         A graph of an exponential function, with a point on the graph connecting vertically to the horizontal axis and horizontally to the vertical axis.    f(t)=e^t       e^t  (k,e^k)        For any , we can write it as a scaling of : So there must be a such that How to find it? For now:   Example:   Recall  Average rate of change of on is  **New perspective:** Start with , take a small distance , and look at :    Activity 3.3.2   We'll use the formula above to explore the average rate of change of near and . In a new Desmos worksheet, define (type it in exactly like that). Then in a new cell, type the following:     What is the approximate value of ?      What is the meaning of in terms of the function and its graph?      Compute the value of for at least different small values of , both positive and negative. For instance, one value to try might be , another , a third , and maybe three negative 's. (Use Desmos! Type and so on). Record a table of your results.      What do you notice about the values you found in (b)? How do they compare to an important number? What is ?      Explain why the following sentence makes sense: “The function is increasing at an average rate that is about the same as its value on small intervals near .”      What is the approximate value of ?      Adjust your definition of in Desmos by changing to so that How does the value of compare to for small values of ?      Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                            Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?       (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.     Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake                                            The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?      While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.  Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake                                            The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?     "
 },
 {
-  "id": "activities-25-6",
+  "id": "activities-25-7",
   "level": "2",
-  "url": "activities-25.html#activities-25-6",
+  "url": "activities-25.html#activities-25-7",
   "type": "Definition",
   "number": "89",
   "title": "Definition 3.3.2.",
   "body": " Definition 3.3.2   The natural base, . The number is the infinite sum It's an irrational number very similar to , and it is approximately   "
 },
 {
-  "id": "activities-25-10",
+  "id": "activities-25-12",
   "level": "2",
-  "url": "activities-25.html#activities-25-10",
+  "url": "activities-25.html#activities-25-12",
   "type": "Activity",
   "number": "90",
   "title": "Activity 3.3.2.",
   "body": " Activity 3.3.2   We'll use the formula above to explore the average rate of change of near and . In a new Desmos worksheet, define (type it in exactly like that). Then in a new cell, type the following:     What is the approximate value of ?      What is the meaning of in terms of the function and its graph?      Compute the value of for at least different small values of , both positive and negative. For instance, one value to try might be , another , a third , and maybe three negative 's. (Use Desmos! Type and so on). Record a table of your results.      What do you notice about the values you found in (b)? How do they compare to an important number? What is ?      Explain why the following sentence makes sense: “The function is increasing at an average rate that is about the same as its value on small intervals near .”      What is the approximate value of ?      Adjust your definition of in Desmos by changing to so that How does the value of compare to for small values of ?    "
 },
 {
-  "id": "activities-25-11",
+  "id": "activities-25-13",
   "level": "2",
-  "url": "activities-25.html#activities-25-11",
+  "url": "activities-25.html#activities-25-13",
   "type": "Activity",
   "number": "91",
   "title": "Activity 3.3.3.",
-  "body": " Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                               Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?  (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake    1  10^1 = 10    2  10^2 = 100    2.2  10^2.2 \\approx 158.489    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?  While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.      Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake    1  31.6^1 = 31.6    2  31.6^2 = 998.56    2.2  31.6^2.2 \\approx 1992.102    3     4     4.5     4.9     5     7         The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?    "
+  "body": " Activity 3.3.3   By graphing and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.                         "
+},
+{
+  "id": "activities-25-14",
+  "level": "2",
+  "url": "activities-25.html#activities-25-14",
+  "type": "Activity",
+  "number": "92",
+  "title": "",
+  "body": "  Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below:      Find the mass at time .      Approximately how much of the mass remains after 15 years?      How much time passes before there are only 100 grams left?    "
+},
+{
+  "id": "activities-25-15",
+  "level": "2",
+  "url": "activities-25.html#activities-25-15",
+  "type": "Activity",
+  "number": "93",
+  "title": "",
+  "body": "  (If Time): Earthquakes are on what's called a logarithmic scale. Which means the difference of 1 on the Richter Scale actually corresponds to seismic waves (vibrations through the earth) that are times greater in amplitude\/magnitude. So an earthquake of 6.5 on the Richter Scale is 10 times the size of one that measures 5.5 on the Richter Scale.     Fill in the rest of the table.    Richter Scale number  Magnitude of Earthquake                                            The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the actual magnitude of that earthquake?      If an earthquake had a magnitude of , what would it measure on the Richter Scale? What about a magnitude of ?      While seismic waves are about 10 times larger, the energy released is even greater. For every whole number increase on the Richter Scale, the energy released increases by a factor of approximately times. So an earthquake of 6.5 on the Richter Scale releases times the energy of one that measures 5.5 on the Richter Scale.  Fill in the rest of the table.    Richter Scale Magnitude  Energy Released by Earthquake                                            The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale. What was the amount of energy release by that earthquake?    "
 },
 {
   "id": "activities-26",
@@ -1150,52 +1168,88 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 3.4: Logarithms",
-  "body": " Section 3.4: Logarithms   Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation `` ” to denote the base-10 logarithm of .    Fill in the following:          - Domain:  - Domain:        - Range:  - Range:        -  -        -  -         ** Note 1. ** Most calculators assume base-10, so log(y) in a calculator is the equivalent of .  ** Note 2. ** Some values of are easier to find than others. The value is an exact number (like or ), where .  Examples:   Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                                    Class Notes ** Now consider      Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote `` ” as the natural logarithm of .    ** is shorthand for Examples: , , .   Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values. Then sketch both and on the graph below.  *Values of    t  -2  -1  0  1  2    e^t  e^-2\\approx0.135        *Values of    x  e^-2\\approx0.135  e^-1\\approx 0.368  1  e^1\\approx 2.718  e^2\\approx 7.389    \\ln(x)  -2 \\         (Both plots have the first row of the table as input, the second row as output.)      Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                                         Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :      If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)     "
+  "body": " Section 3.4: Logarithms   MTH 124    Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation \" ” to denote the base-10 logarithm of .    Fill in the following:        Equation:       Equation:      Domain:    Domain:    Range:    Range:    Composition:    Composition:    0 and 1:    0 and 1:      ** Note 1. ** Most calculators assume base-10, so log(y) in a calculator is the equivalent of .  ** Note 2. ** Some values of are easier to find than others. The value is an exact number (like or ), where .  Examples:   Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                               ** Now we will consider and it's inverse function .    Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote \" ” as the natural logarithm of .     The natural log of y is , which is shorthand for .    Examples:     Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values (the first is done for you). Then sketch both and on the graph below.    *Values of                              *Values of :                              A blank graph to draw e^x and ln(x).    f(t)=e^t         (Both plots have the first row of the table as input, the second row as output.)      Rearranging  The expression is the same thing as the expression     If we want to solve , this is equivalent to . From here we can divide each side by 5 and get , which is an exact solution.  If we want to solve , this is equivalent to . Thus we have the exact solution.    Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                                  Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :     If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)      Now you know and , you know the whole model. How much mass is left after 20 years?     "
 },
 {
-  "id": "activities-26-2",
+  "id": "activities-26-3",
   "level": "2",
-  "url": "activities-26.html#activities-26-2",
+  "url": "activities-26.html#activities-26-3",
   "type": "Definition",
-  "number": "92",
+  "number": "94",
   "title": "Definition 3.4.3.",
-  "body": " Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation `` ” to denote the base-10 logarithm of .   "
-},
-{
-  "id": "activities-26-9",
-  "level": "2",
-  "url": "activities-26.html#activities-26-9",
-  "type": "Activity",
-  "number": "93",
-  "title": "Activity 3.4.2.",
-  "body": " Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                                    Class Notes ** Now consider    "
+  "body": " Definition 3.4.3   Given a positive real number , the base-10 logarithm of is the power to which we raise 10 to get . We use the notation \" ” to denote the base-10 logarithm of .   "
 },
 {
   "id": "activities-26-10",
   "level": "2",
   "url": "activities-26.html#activities-26-10",
-  "type": "Definition",
-  "number": "94",
-  "title": "Definition 3.4.4.",
-  "body": " Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote `` ” as the natural logarithm of .   "
+  "type": "Activity",
+  "number": "95",
+  "title": "Activity 3.4.2.",
+  "body": " Activity 3.4.2   Find the exact value and approximate value of the unknown variable ( or ). For instance, if the exact value is , you can also note that .                            "
 },
 {
   "id": "activities-26-12",
   "level": "2",
   "url": "activities-26.html#activities-26-12",
-  "type": "Activity",
-  "number": "95",
-  "title": "Activity 3.4.3.",
-  "body": " Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values. Then sketch both and on the graph below.  *Values of    t  -2  -1  0  1  2    e^t  e^-2\\approx0.135        *Values of    x  e^-2\\approx0.135  e^-1\\approx 0.368  1  e^1\\approx 2.718  e^2\\approx 7.389    \\ln(x)  -2 \\         (Both plots have the first row of the table as input, the second row as output.)    "
+  "type": "Definition",
+  "number": "96",
+  "title": "Definition 3.4.4.",
+  "body": " Definition 3.4.4   Given a positive real number , the natural logarithm of is the power to which we raise to get . We denote \" ” as the natural logarithm of .   "
 },
 {
   "id": "activities-26-13",
   "level": "2",
   "url": "activities-26.html#activities-26-13",
+  "type": "Note",
+  "number": "97",
+  "title": "",
+  "body": " The natural log of y is , which is shorthand for .  "
+},
+{
+  "id": "activities-26-14",
+  "level": "2",
+  "url": "activities-26.html#activities-26-14",
+  "type": "Example",
+  "number": "98",
+  "title": "",
+  "body": " Examples:   "
+},
+{
+  "id": "activities-26-15",
+  "level": "2",
+  "url": "activities-26.html#activities-26-15",
   "type": "Activity",
-  "number": "96",
+  "number": "99",
+  "title": "Activity 3.4.3.",
+  "body": " Activity 3.4.3   Let and be the natural exponential function and the natural logarithm function, respectively.     What are the domain and range of ?      What are the domain and range of ?      What can you say about ? Think about inverse functions. (Note, this is the composition .)      What can you say about ? (Note, this is the composition .)      Complete the tables below with both exact and approximate values (the first is done for you). Then sketch both and on the graph below.    *Values of                              *Values of :                              A blank graph to draw e^x and ln(x).    f(t)=e^t         (Both plots have the first row of the table as input, the second row as output.)    "
+},
+{
+  "id": "activities-26-17",
+  "level": "2",
+  "url": "activities-26.html#activities-26-17",
+  "type": "Example",
+  "number": "100",
+  "title": "",
+  "body": " If we want to solve , this is equivalent to . From here we can divide each side by 5 and get , which is an exact solution.  If we want to solve , this is equivalent to . Thus we have the exact solution.  "
+},
+{
+  "id": "activities-26-18",
+  "level": "2",
+  "url": "activities-26.html#activities-26-18",
+  "type": "Activity",
+  "number": "101",
   "title": "Activity 3.4.4.",
-  "body": " Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                                         Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :      If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)    "
+  "body": " Activity 3.4.4   Solve each of the following equations for the exact value of the unknown variable ( ). If there is no solution to the equation, explain why not.                               "
+},
+{
+  "id": "activities-26-19",
+  "level": "2",
+  "url": "activities-26.html#activities-26-19",
+  "type": "Activity",
+  "number": "102",
+  "title": "",
+  "body": "  Example: Certain radioactive material decays in such a way that the mass remaining after years is given by the function measured in grams, given below for some unknown values of :     If the mass at time is 200 grams, find .      After 15 years, 100 grams were left. Now that we know from part (a), can we use this to find ? Keep your answer exact, that is, don't round! (Leave as .)      Now you know and , you know the whole model. How much mass is left after 20 years?    "
 },
 {
   "id": "activities-27",
@@ -1211,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-27.html#activities-27-8",
   "type": "Activity",
-  "number": "97",
+  "number": "103",
   "title": "Activity 3.5.2.",
   "body": " Activity 3.5.2   Solve each of the following equations exactly and then find an estimate that is accurate to 5 decimal places.                                 "
 },
@@ -1220,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-27.html#activities-27-11",
   "type": "Activity",
-  "number": "98",
+  "number": "104",
   "title": "Activity 3.5.3.",
   "body": " Activity 3.5.3   In the questions that follow, we compare and contrast the properties and behaviors of exponential and logarithmic functions.     Go to Desmos and plot and . Compare the properties of the two, noting what they have in common and what they don't.              Domain:           Range:           -intercept           -intercept           increasing or decreasing:           concave up or down:           grow to or bounded:            Let , where , , , and are positive constants. Describe as a transformation of the function . (How does transform , ..., think shifts and stretches vertically or horizontally. Can use Desmos to help you)    :  :  :  :        Let , where , , and are positive constants. Describe as a transformation of the function . (Can use Desmos to help you.)    :  :  :        Data for the height of a tree is given in the table below; time is measured in years and height of the tree is given in feet. At gvsu.edu\/s\/0yy , you can find a Desmos worksheet with this data already input.    t  1  2  3  4  5  6  7  8  9  10  11    h(t)  6  9.5  13  15  16.5  17.5  18.5  19  19.5  19.7  19.8    Do you think this data is better modeled by a logarithmic function of form or by an exponential function of form . Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)    "
 },
@@ -1229,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-27.html#activities-27-12",
   "type": "Activity",
-  "number": "99",
+  "number": "105",
   "title": "Activity 3.5.4.",
   "body": " Activity 3.5.4   Solve each of the following equations for the exact value of the unknown variable ( ).                       "
 },
@@ -1238,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-27.html#activities-27-13",
   "type": "Activity",
-  "number": "100",
+  "number": "106",
   "title": "Example: Logs in the “wild.”.",
   "body": " Example: Logs in the wild.   When a population grows (decays) at a rate proportional to the current population, the population follows the model of exponential growth (decay): where is the population at time , and are constants. If we are talking about growth ( is increasing), if we are talking about decay ( is decreasing). Many populations grow\/decay exponentially; one of the most common is bacteria.     Consider a population of bacteria where is measure in millions of cells and is in hours. We know , and . Find a model of the form that fits this data by first plugging in to determine , and then plugging in to determine .      How many bacteria are there after 20 hours ( )?      How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?    "
 },
@@ -1256,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-28.html#activities-28-5",
   "type": "Activity",
-  "number": "101",
+  "number": "107",
   "title": "Example:.",
   "body": " Example:     "
 },
@@ -1265,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-28.html#activities-28-6",
   "type": "Activity",
-  "number": "102",
+  "number": "108",
   "title": "Activity 3.6.2.",
   "body": " Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?    "
 },
@@ -1292,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-28.html#activities-28-9",
   "type": "Activity",
-  "number": "103",
+  "number": "109",
   "title": "Activity 3.6.3. Logistic Model.",
   "body": " Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .       On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?    "
 },
@@ -1301,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-28.html#activities-28-10",
   "type": "Activity",
-  "number": "104",
+  "number": "110",
   "title": "Activity 3.6.4.",
   "body": " Activity 3.6.4   Suppose that a population of animals (measured in thousands) that lives on an island is known to grow according to the logistic model, where is measured in years. We know the following information: , , and given the resources availabe the island cannot support more than thousand animals.     Determine the values of , , and in the logist model below. Try to find exact. (For approximate, if you round, include 4 decimal places).      Find the approximate time value when the population will be (thousand). Show your work. Hint: You may find it easier to not plug in and until you get .      Plot your model from (a) and check that its values match the desired characteristics. Then, use Desmos to compute the average rate of change of on the intervals , , , and . What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?    "
 },
@@ -1337,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-29.html#activities-29-7",
   "type": "Activity",
-  "number": "105",
+  "number": "111",
   "title": "Activity 4.1.2.",
   "body": " Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .      Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .    "
 },
@@ -1346,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-29.html#activities-29-9",
   "type": "Activity",
-  "number": "106",
+  "number": "112",
   "title": "Activity 4.1.3.",
   "body": " Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .    "
 },
@@ -1355,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-29.html#activities-29-11",
   "type": "Activity",
-  "number": "107",
+  "number": "113",
   "title": "Activity 4.1.4.",
   "body": " Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?    "
 },
@@ -1373,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-30.html#activities-30-4",
   "type": "Definition",
-  "number": "108",
+  "number": "114",
   "title": "Definition 4.2.2.",
   "body": " Definition 4.2.2   Tangent.    "
 },
@@ -1382,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-30.html#activities-30-11",
   "type": "Activity",
-  "number": "109",
+  "number": "115",
   "title": "Activity 4.2.2.",
   "body": " Activity 4.2.2   The top of a 225 foot tower is to be anchored by four cables that each make an angle of with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?   "
 },
@@ -1391,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-30.html#activities-30-12",
   "type": "Activity",
-  "number": "110",
+  "number": "116",
   "title": "Activity 4.2.3.",
   "body": " Activity 4.2.3   Supertall high rises have changed the Manhattan skyline. These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most , and some as extreme as . Suppose that a relatively short supertall has been built to a height of 635 feet, as pictured in the figure, and that a second supertall is built nearby. Given the two angles that are computed from the new building, how tall, , is the new building, and how far apart, , are the two towers?    "
 },
@@ -1400,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-30.html#activities-30-13",
   "type": "Activity",
-  "number": "111",
+  "number": "117",
   "title": "Activity 4.2.4.",
   "body": " Activity 4.2.4   Surveyors are trying to determine the height of a hill relative to sea level. First, they choose a point to take an initial measurement with a sextant that shows the angle of elevation from the ground to the peak of the hill is . Next, they move 1000 feet closer to the hill, staying at the same elevation relative to sea level, and find that the angle of elevation has increased to , as pictured in the figure. We let represent the height of the hill relative to the two measurements, and represent the distance from the second measurement location to the “center” of the hill that lies directly under the peak.      Using the right triangle with the angle, find an equation that relates and .      Using the right triangle with the angle, find a second equation that relates and .      Our work in (a) and (b) results in a system of two equations in the two unknowns and . Solve each of the two equations for and then substitute appropriately in order to find a single equation in the variable .      Solve the equation from (c) to find the exact value of and determine an approximate value accurate to 3 decimal places.      Use your preceding work to solve for exactly, plus determine an estimate accurate to 3 decimal places.      If the surveyors’ initial measurements were taken from an elevation of 78 feet above sea level, how high above sea level is the peak of the hill?    "
 },
@@ -1418,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-31.html#activities-31-2",
   "type": "Activity",
-  "number": "112",
+  "number": "118",
   "title": "",
   "body": "   Arccosine  Consider the to be only the part of function restricted to the input      What is the domain of ? (Not !)      What is the range of ?      Does pass the horizontal line test?      Does have an inverse function?      We know , so since is in , then . What then is ?      Use your unit circle to find the following:    "
 },
@@ -1427,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-31.html#activities-31-3",
   "type": "Definition",
-  "number": "113",
+  "number": "119",
   "title": "Definition 4.3.2.",
   "body": " Definition 4.3.2   Let defined ONLY on the domain , and note the range is . For any real number where , the arccosine of is denoted and is the angle where and .   "
 },
@@ -1445,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-31.html#activities-31-6",
   "type": "Activity",
-  "number": "114",
+  "number": "120",
   "title": "Activity 4.3.2.",
   "body": " Activity 4.3.2   Use the special points on the unit circle to determine the exact values of each of the following numerical expressions. Do so without using a computational device.                                                     "
 },
@@ -1463,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-31.html#activities-31-8",
   "type": "Definition",
-  "number": "115",
+  "number": "121",
   "title": "Definition 4.3.3.",
   "body": " Definition 4.3.3   Let defined ONLY on the domain , and note the range is . For any real number where , the arcsine of is denoted and is the angle where and .   "
 },
@@ -1472,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-31.html#activities-31-9",
   "type": "Activity",
-  "number": "116",
+  "number": "122",
   "title": "Activity 4.3.3.",
   "body": " Activity 4.3.3   The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function.     According to the definition of arcsine above, what is the domain of arcsine? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      Sketch a careful plot of the restricted sine function on the interval . Then plot the inverse, on the same graph. (They should look like reflections of each other across the line , do they?)      True or false: . Why\/why not?     "
 },
@@ -1490,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-31.html#activities-31-12",
   "type": "Definition",
-  "number": "117",
+  "number": "123",
   "title": "Definition 4.3.5.",
   "body": " Definition 4.3.5   Let defined ONLY on the domain , and note the range is all real numbers! For any real number , the arctangent of is denoted and is the angle where and .   "
 },
@@ -1499,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-31.html#activities-31-13",
   "type": "Activity",
-  "number": "118",
+  "number": "124",
   "title": "Activity 4.3.4.",
   "body": " Activity 4.3.4   The goal of this activity is to understand key properties of the arctangent function.     According to the definition of arctangent above, what is the domain of arctangent? The range?      Use your unit circle and your knowledge of inverses to determine exactly: (Recall, all answers are angles between and ).      The restricted tangent function on the interval is shown. Plot the inverse, on the same graph.  (Note, a vertical asymptote on the original function corresponds to what kind of asymptote on the inverse function?)       Complete the sentence: as increases without bound (as ), the function ...  Practice:      Solve the equations below exactly. Give your answers in radians, and find all possible values for in the interval . There may be more than one answer!    , when  , when  , when        Suppose and is in the first quadrant. Draw a right triangle that matches this criteria. Can you find an expression for ? For ? Both expressions will involve .    "
 },
@@ -1526,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-32.html#activities-32-9",
   "type": "Activity",
-  "number": "119",
+  "number": "125",
   "title": "Activity 4.4.2. More Practice.",
   "body": " Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?    "
 },
@@ -1544,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-32.html#activities-32-11",
   "type": "Activity",
-  "number": "120",
+  "number": "126",
   "title": "Activity 4.4.3.",
   "body": " Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?   "
 },
@@ -1553,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-32.html#activities-32-12",
   "type": "Activity",
-  "number": "121",
+  "number": "127",
   "title": "Activity 4.4.4.",
   "body": " Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?   "
 },
@@ -1562,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-32.html#activities-32-13",
   "type": "Activity",
-  "number": "122",
+  "number": "128",
   "title": "Activity 4.4.5.",
   "body": " Activity 4.4.5   A camera is tracking the launch of a rocket. The camera is located 4000 feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle (in radians) is the camera tilted when the rocket is 3000 feet off the ground? Answer both exactly and approximately.  Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height . Determine the camera’s angle, , as a function of , (so and will show up on the right), and use Desmos to help compute the average rate of change of on the intervals , , and . What do you observe about how the camera angle is changing?   "
 },
@@ -1589,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-33.html#activities-33-3",
   "type": "Definition",
-  "number": "123",
+  "number": "129",
   "title": "Definition 5.1.3..",
   "body": " Definition 5.1.3.   Limit Notation.   the limit of as goes to infinity is .  ** If doesn’t increase without bound, doesn’t decrease without bound, and doesn’t approach a single value as , we say that does not have a limit as .   "
 },
@@ -1598,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-33.html#activities-33-4",
   "type": "Activity",
-  "number": "124",
+  "number": "130",
   "title": "Activity 5.1.1.",
   "body": " Activity 5.1.1   Complete each of the following statements with an appropriate number or the symbols or . Do your best to do so without using a graphing utility; instead use your understanding of the function’s graph.     As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .      As ,  .    "
 },
@@ -1607,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-33.html#activities-33-5",
   "type": "Activity",
-  "number": "125",
+  "number": "131",
   "title": "Activity 5.1.2.",
   "body": " Activity 5.1.2   Complete the table by entering , , , or no limit as appropriate to identify the function behavior as (increases without bound) or as (decreases without bound). As much as possible, try to do it without a graphing utility.   Power Functions   "
 },
@@ -1616,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-33.html#activities-33-6",
   "type": "Definition",
-  "number": "126",
+  "number": "132",
   "title": "Definition 5.1.5.",
   "body": " Definition 5.1.5   A function of the form where is any real number is a power function .   "
 },
@@ -1625,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-33.html#activities-33-7",
   "type": "Activity",
-  "number": "127",
+  "number": "133",
   "title": "Activity 5.1.3. Power functions with positive integer powers.",
   "body": " Activity 5.1.3. Power functions with positive integer powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zu . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ?    "
 },
@@ -1643,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-33.html#activities-33-9",
   "type": "Activity",
-  "number": "128",
+  "number": "134",
   "title": "Activity 5.1.4. Power functions with negative powers.",
   "body": " Activity 5.1.4. Power functions with negative powers   Point your browser to the Desmos worksheet at gvsu.edu\/s\/0zv . In what follows, we explore the behavior of power functions of the form where .     Press the ``play” button next to the slider labeled ``n.” Watch at least two loops of the animation and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Click the icons next to each of the following 8 functions so that you can see all of , , , \\ldots, graphed at once. On the interval , how do the graphs of and compare if ? (Be careful with negative numbers here: e.g., .)      How do your answers change on the interval ?      Uncheck the icons on each of the 8 functions to hide their graphs. Click the settings icon to change the domain settings for the axes, and change them to and . Play the animation through twice and then discuss the trends that you observe. Write a careful sentence each for at least two different trends.      Explain why for any choice of .  Practice finding limits (can you try it first without graphing?)                                                        You hopefully noticed both and as . Graph , and use the graph to find . Any guesses why this is the limit? (Hint: look at the graph of and the graph of separately.)      Graph , what does it approach as ? Any guesses why?      Both and as . Graph and use it to determine . Any guesses why this is the limit?    "
 },
@@ -1661,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-34.html#activities-34-2",
   "type": "Definition",
-  "number": "129",
+  "number": "135",
   "title": "Definition 5.2.1.",
   "body": " Definition 5.2.1   Polynomial of degree     coefficients  terms  degree  zeros\/roots  turning points     "
 },
@@ -1670,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-34.html#activities-34-6",
   "type": "Activity",
-  "number": "130",
+  "number": "136",
   "title": "Activity 5.2.2.",
   "body": " Activity 5.2.2   By experimenting with coefficients in Desmos, find a formula for a polynomial function that has the stated properties, or explain why no such polynomial exists. (If you enter in Desmos, you’ll get prompted to add sliders that make it easy to explore a degree polynomial.)     A polynomial of degree 5 with exactly 3 real zeros, 4 turning points, and such that and .      A polynomial of degree 4 with exactly 4 real zeros, 3 turning points, and such that and .      A polynomial of degree 6 with exactly 2 real zeros, 3 turning points, and such that and .      A polynomial of degree 5 with exactly 5 real zeros, 3 turning points, and such that and .    "
 },
@@ -1679,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-34.html#activities-34-7",
   "type": "Activity",
-  "number": "131",
+  "number": "137",
   "title": "Activity 5.2.3.",
   "body": " Activity 5.2.3   Consider the polynomial function given by     What is the degree of ? How can you tell without fully expanding the factored form of the function?      What can you always say about the sign of the factor ? (Positive, negative, either, can you tell?)      What are the zeros of the polynomial ?      Construct a sign chart for by using the zeros you identified in (c) and then analyzing the sign of each factor of .      Without using a graphing utility, construct an approximate graph of that has the zeros of carefully labeled on the -axis.      Use a graphing utility to check your earlier work. What is challenging or misleading when using technology to graph ?    "
 },
@@ -1697,7 +1751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-34.html#activities-34-13",
   "type": "Activity",
-  "number": "132",
+  "number": "138",
   "title": "Activity 5.2.4. Multiplicities.",
   "body": " Activity 5.2.4. Multiplicities   For each of the following prompts, try to determine a formula for a polynomial that satisfies the given criteria. If no such polynomial exists, explain why.     A polynomial of degree whose zeros are (multiplicity 3), (multiplicity 2), (multiplicity 4), and (multiplicity 1), and satisfies . What can you say about the values of and ?      A polynomial of degree 9 that satisfies and has the graph shown in the figure below. Assume that all of the zeros of are shown in the figure.       A polynomial of degree 8 with 3 distinct real zeros (possibly of different multiplicities) such that has the sign chart in below and satisfies .       A polynomial of degree 9 with 3 distinct real zeros (possibly of different multiplicities) such that satisfies the sign chart in part (c) and satisfies .      A polynomial of degree 11 that satisfies and has the graph shown in the figure in part (b). Assume that all of the zeros of are shown in the figure.    "
 },
@@ -1715,7 +1769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-35.html#activities-35-3",
   "type": "Activity",
-  "number": "133",
+  "number": "139",
   "title": "Activity 5.3.1.",
   "body": " Activity 5.3.1   A piece of cardboard that is (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the cardboard and the remaining sides are folded up.     Let be the side length of the squares being cut from the corners of the cardboard. Draw a labeled diagram that shows the given information and the variable being used.      Determine a formula for the function whose output is the volume of the box that results from a square of size being cut from each corner of the cardboard.      What familiar kind of function is ?      If we start with a small positive value for and let that value get larger and larger, what is the first value of we encounter that makes it impossible to remove squares from the cardboard and still form a box?      What are the zeros of ? What is the domain of the model in the context of the rectangular box?    "
 },
@@ -1724,7 +1778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-35.html#activities-35-5",
   "type": "Activity",
-  "number": "134",
+  "number": "140",
   "title": "Activity 5.3.2.",
   "body": " Activity 5.3.2   According to a shipping company’s regulations, the girth plus the length of a parcel they transport for their lowest rate may not exceed 120 inches, where by girth we mean the perimeter of one end.   Suppose that we want to ship a parcel that has a square end of width and an overall length of , both measured in inches.     Label the provided picture, using for the length of each side of the square end, and for the other edge of the package.      How does the length plus girth of 120 inches result in an equation (often called a constraint equation) that relates and ? Explain, and state the equation.      Solve the equation you found in (b) for one of the variables present.      Hence determine the volume, , of the package as a function of a single variable.      What is the domain of the function in the context of the physical setting of this problem? (Hint: neither nor can equal 0.)    "
 },
@@ -1733,7 +1787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-35.html#activities-35-7",
   "type": "Activity",
-  "number": "135",
+  "number": "141",
   "title": "Activity 5.3.3.",
   "body": " Activity 5.3.3   Suppose that we want to construct a cylindrical can using square inches of material for the surface of the can. In this context, how does the can’s volume depend on the radius we choose? Let the cylindrical can have base radius and height .     Use the formula for the surface area of a cylinder and the given constraint that the can’s surface area is 60 square inches to write an equation that connects the radius and height .      Solve the equation you found in (a) for in terms of .      Recall that the volume of a cylinder is . Use your work in (b) to write as a function of the single variable ; simplify the formula as much as possible.      What is the domain of the function in the context of the physical setting of this problem? (Hint: how does the constraint on surface area provide an upper bound for the value of ? Think about the maximum area that can be allocated to the top and bottom of the can.)    "
 },
@@ -1742,7 +1796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "activities-35.html#activities-35-8",
   "type": "Activity",
-  "number": "136",
+  "number": "142",
   "title": "Activity.",
   "body": " Activity   The Heat Index combines the temperature of the air and the relative humidity to determine how hot it feels, that is, what humans would perceive as the temperature.   "
 },
