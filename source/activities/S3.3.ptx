@@ -134,6 +134,11 @@ In a new Desmos worksheet, define <m>f(t) = e^t</m> (type it in exactly like tha
       <statement>
         <p>What is the approximate value of <m>f(1) = e^1</m>?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          <m>f(1) = e^1 = e \approx 2.7182818...</m>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -141,6 +146,13 @@ In a new Desmos worksheet, define <m>f(t) = e^t</m> (type it in exactly like tha
  in terms of the function <m>f</m>
  and its graph?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          This is for <m>h=0.5</m>, so it is the average rate of change of 
+          the function <m>f(t)=e^t</m> on the interval <m>[1,1.5]</m> (between
+          <m>t=1</m> and <m>t=1+h = 1 + 0.5</m>.)
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -150,22 +162,73 @@ In a new Desmos worksheet, define <m>f(t) = e^t</m> (type it in exactly like tha
  both positive and negative. For instance, one value to try might be <m>h=0.0001</m>, another <m>h=0.00001</m>, a third <m>h=0.0000001</m>, and maybe three negative <m>h</m>'s.  (Use Desmos!  Type <m>A(0.0001)</m> and so on).
  Record a table of your results.</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          Tables are useful, but necessary. 
+          
+        </p>
+        <tabular>
+          <row bottom="major">
+            <cell><m>h</m></cell>
+            <cell><m>A(h)</m></cell>
+          </row>
+          <row>
+            <cell><m>0.0001</m></cell>
+            <cell><m>2.7184177</m></cell>
+          </row>
+          <row>
+            <cell><m>0.00001</m></cell>
+            <cell><m>2.7182954</m></cell>
+          </row>
+          <row>
+            <cell><m>0.000001</m></cell>
+            <cell><m>2.7182832</m></cell>
+          </row>
+          <row>
+            <cell><m>-0.0001</m></cell>
+            <cell><m>2.7184177</m></cell>
+          </row>
+          <row>
+            <cell><m>-0.00001</m></cell>
+            <cell><m>2.7181459</m></cell>
+          </row>
+          <row>
+            <cell><m>-0.000001</m></cell>
+            <cell><m>2.7182805</m></cell>
+          </row>
+        </tabular>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>What do you notice about the values you found in (b)? How do they compare to an important number?  What is <m>f(1) = e^1 = e</m>?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          The smaller the <m>h</m>, the closer <m>A(h)</m> is to <m>e\approx 2.7182818...</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>Explain why the following sentence makes sense: “The function <m>e^t</m>
  is increasing at an average rate that is about the same as its value <m>f(1)=e</m> on small intervals near <m>t=1</m>.”</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          The slope of <m>f(t) = e^t</m> at <m>t=1</m> is about <m>f(1)=e^1 = e</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1cm">
       <statement>
         <p>What is the approximate value of <m>f(2) = e^2</m>?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          <m>e^2\approx 7.389056099</m>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -178,6 +241,44 @@ How does the value of <m>A(h)</m>
  compare to <m>f(2)</m>
  for small values of <m>h</m>?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          Tables are useful, but necessary. <m>A(h)\approx e^2</m>
+          when <m>h</m> is really small!  The slope at <m>t=2</m> of 
+          <m>f(t)=e^t</m> is about <m>f(2)=e^2</m>!!
+          
+        </p>
+        <tabular>
+          <row bottom="major">
+            <cell><m>h</m></cell>
+            <cell><m>A(h)</m></cell>
+          </row>
+          <row>
+            <cell><m>0.0001</m></cell>
+            <cell><m>7.3894256</m></cell>
+          </row>
+          <row>
+            <cell><m>0.00001</m></cell>
+            <cell><m>7.389090</m></cell>
+          </row>
+          <row>
+            <cell><m>0.000001</m></cell>
+            <cell><m>7.3890598</m></cell>
+          </row>
+          <row>
+            <cell><m>-0.0001</m></cell>
+            <cell><m>7.3886867</m></cell>
+          </row>
+          <row>
+            <cell><m>-0.00001</m></cell>
+            <cell><m>7.3890192</m></cell>
+          </row>
+          <row>
+            <cell><m>-0.000001</m></cell>
+            <cell><m>7.3890524</m></cell>
+          </row>
+        </tabular>
+      </solution>
     </task>
   </activity>
 
@@ -214,6 +315,50 @@ How does the value of <m>A(h)</m>
         </li>
         </ol>
         </statement>
+      <solution component="S3-3-soln">
+        <p>
+          For now, we get to <m>e^{#} = #</m> and then graph <m>y=e^{#}</m> and 
+          <m>y=#</m> and see where they intersect
+        </p>
+        <ol cols="2" marker="a.">
+          <li>
+            <p>
+              Graph <m>y=e^t</m> and <m>y=2</m>, they intersect at <m>t\approx 0.6931</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Graph <m>y=e^{3t}</m> and <m>y=5</m>, they intersect at <m>t\approx 0.5365</m>.
+
+            </p>
+          </li>
+          <li>
+            <p>
+              Solve first.  This simplifies to <m>2e^t = 11</m>, then 
+              <m>e^t = \frac{11}{2}</m>.  <m>t\approx 1.7047</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Simplify to <m>3e^{0.25t} = 4</m>, then <m>e^{0.25t} = \frac43</m>. 
+              Plotting gives <m>t\approx 1.1507</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Simplify, <m>-2e^{-0.7t} = -1</m>, then <m>e^{-0.7t} = \frac12</m>, 
+              and <m>t\approx 0.9902</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Can divide both sides by <m>e^{1.2t}</m> so get <m>{2 = 1.5\frac{e^{1.6t}}{e^{1.2t}}}</m>
+              which will simplify to <m>{2 = 1.5 e^{0.4t}}</m>.  Then we can simplify to
+              <m>{\frac{2}{1.5}} = e^{0.4t}</m>, which gives <m>t\approx 0.7192</m>.
+            </p>
+          </li>
+        </ol>
+      </solution>
 
         </activity>
        
@@ -229,16 +374,37 @@ How does the value of <m>A(h)</m>
       <statement>
         <p>Find the mass at time <m>t=0</m>.</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          <m>m(0)=175e^{-0.015*0} = 175(1) = 175</m> grams.
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>Approximately how much of the mass remains after 15 years?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          <m>m(15) = 175e^{-0.015*15} = 175e^{-0.225}</m> grams.  (This is exact).
+          This is also approximately <m>m(15)\approx 139.74</m> grams.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>How much time passes before there are only 100 grams left?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          Looking for <m>t</m> when <m>m(t) = 100</m>.  So solving
+          <md>
+            100 = 175 e^{-0.015t}
+          </md>
+          which can simplify to <m>{\frac{100}{175} = e^{-0.015t}}</m>.  
+          For now we plot each side and find <m>t\approx 37.30772</m>
+        </p>
+      </solution>
       </task>
       </activity>
       <activity>
@@ -298,12 +464,23 @@ How does the value of <m>A(h)</m>
       <statement>
         <p>The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale.  What was the actual magnitude of that earthquake?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          <m>10^{9.5} \approx 3.162\times 10^9 \approx 3,162,277,660</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.1in">
       <statement>
         <p>If an earthquake had a magnitude of <m>10^{6.2}</m>, what would it measure on the Richter Scale?  What about a magnitude of <m>378</m>?</p>
         
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          <m>6.2</m>!  Looking for <m>10^? = 378</m>, plot <m>y=10^x</m> and 
+          <m>y=378</m> and you find the intersection at <m>? = 2.577</m>.
+        </p>
+      </solution>
     </task>
     
     <task >
@@ -354,11 +531,17 @@ So an earthquake of 6.5 on the Richter Scale releases <m>31.6</m> times the ener
           </row>
         </tabular>
       </statement>
+      
     </task>
     <task workspace="0.1in">
       <statement>
         <p>The biggest earthquake ever recorded happened in Chile in 1960 and measured 9.5 on the Richter scale.  What was the amount of energy release by that earthquake?</p>
       </statement>
+      <solution component="S3-3-soln">
+        <p>
+          <m>31.6^{9.5}\approx 1.766\times 14 \approx 176,614,877,680,000</m>!  That's intense...
+        </p>
+      </solution>
     </task>
   </activity>
 

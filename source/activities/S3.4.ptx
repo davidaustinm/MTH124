@@ -124,6 +124,52 @@
       </ol>
       </p>
     </statement>
+    <solution component="S3-4-soln">
+      <p>
+        <ol cols="2" marker="a.">
+          <li>
+            <p>
+              This is the same as <m>10^t = 10^{-5}</m>.  So <m>t=-5</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              This is the same as <m>\log_{10}(10^6) = t</m>, which <m>t=6</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Use the relationship that <m>10^a = b</m> is equivalent to <m>\log_{10}(b) = a</m>.  
+              So this becomes <m>t = \log_{10}(37)</m> exactly.  Which is approximately
+              <m>t\approx 1.568</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Simplify first, <m>2\log_{10}(y) = -4</m>, and then
+              <m>\log_{10}(y) = -2</m>, which can be rewritten as 
+              <m>y = 10^{-2} = 0.01</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Rearrange: <m>y = 10^{1.375} \approx 23.714</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Rearrange: <m>t = \log_{10}(0.04) \approx -1.398</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Solve first, <m>3 \cdot 10^t = 136</m>, then <m>10^t = \frac{136}{3}</m>, 
+              which rearranges to <m>t = \log_{10}(\frac{136}{3}) \approx 1.656</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
  
   </activity>
 <assemblage xml:id="assemblage-e">
@@ -165,21 +211,47 @@
       <statement>
         <p>What are the domain and range of <m>E(t) = e^t</m>?</p>
       </statement>
+    <solution component="S3-4-soln">
+      <p>
+        Domain: all real numbers or <m>(-\infty, \infty)</m>.
+      </p>
+      <p>
+        Range: all positive real numbers or <m>(0, \infty)</m>.
+      </p>
+    </solution>
     </task>
     <task workspace="0.2in">
       <statement>
         <p>What are the domain and range of <m>N(x) = \ln(x)</m>?</p>
       </statement>
+    <solution component="S3-4-soln">
+      <p>
+        Domain: all positive real numbers i.e. <m>(0,\infty)</m>.
+      </p>
+      <p>
+        Range: all real numbers i.e. <m>(-\infty, \infty)</m>.
+      </p>
+    </solution>
     </task>
     <task workspace="0.2in">
       <statement>
         <p>What can you say about <m>\ln(e^t)</m>?  Think about inverse functions. (Note, this is the composition <m>N(E(t))</m>.)</p>
       </statement>
+    <solution component="S3-4-soln">
+      <p>
+        <m>\ln(e^t) = t</m> because inverses undo each other!
+      </p>
+    </solution>
     </task>
     <task workspace="0.2in">
       <statement>
         <p>What can you say about <m>e^{\ln(x)}</m>?  (Note, this is the composition <m>E(N(x))</m>.)</p>
       </statement>
+    <solution component="S3-4-soln">
+      <p>
+        <m>e^{\ln(x)} = x</m>, yay!
+      </p>
+    </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -268,6 +340,92 @@
       
         <p>(Both plots have the first row of the table as input, the second row as output.)</p>
       </statement>
+    <solution component="S3-4-soln">
+       <sidebyside >
+          <stack>
+          <p>*Values of <m>E(t) = e^t:</m></p>
+            <tabular>
+              <row bottom="major">
+                <cell><m>t</m></cell>
+                <cell><m>e^t</m></cell>
+              </row>
+              <row>
+                <cell><m>-2</m></cell>
+                <cell><m>e^{-2} \approx 0.135</m></cell>
+              </row>
+              <row>
+                <cell><m>-1</m></cell>
+                <cell><m>e^{-1}\approx 0.368</m></cell>
+              </row>
+              <row>
+                <cell><m>0</m></cell>
+                <cell><m>e^0 = 1</m></cell>
+              </row>
+              <row>
+                <cell><m>1</m></cell>
+                <cell><m>e^1\approx 2.718...</m></cell>
+              </row>
+              <row>
+                <cell><m>2</m></cell>
+                <cell><m>e^2\approx 7.389</m></cell>
+              </row>
+            </tabular>
+          </stack>
+
+           <stack>
+          <p>*Values of <m>N(y) = \ln(y)</m>:</p>
+            <tabular>
+              <row bottom="major">
+                <cell><m>y</m></cell>
+                <cell><m>\ln(y)</m></cell>
+              </row>
+              <row>
+                <cell><m>e^{-2}</m></cell>
+                <cell><m>-2</m></cell>
+              </row>
+              <row>
+                <cell><m>e^{-1}</m></cell>
+                <cell><m>-1</m></cell>
+              </row>
+              <row>
+                <cell><m>1</m></cell>
+                <cell><m>0</m></cell>
+              </row>
+              <row>
+                <cell><m>e</m></cell>
+                <cell><m>1</m></cell>
+              </row>
+              <row>
+                <cell><m>e^2</m></cell>
+                <cell><m>2</m></cell>
+              </row>
+            </tabular>
+          </stack>
+          <image>
+      <shortdescription>
+        The graph of draw e^x and ln(x).
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-3-4-3soln">
+        <diagram dimensions="(350,350)" margins="7">
+          <definition>f(t)=e^t</definition>
+          <definition>g(t)=ln(t)</definition>
+          <definition>h(t) = t</definition>
+          
+          <coordinates bbox="(-8,-8,8,8)">
+            <grid-axes decorations="yes"  xlabel="x" ylabel="y" spacings="((-8,1,8),(-8,1,8))"
+            hlabels="(-7,1,7)" vlabels="(-7,1,7)"/>
+            <graph function="f"/>
+            <graph function="g" stroke="red"/>
+            <graph function="h" dash="4 4"/>
+  
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+        </sidebyside>
+       
+    </solution>
     </task>
   </activity>
 
@@ -322,6 +480,67 @@
           </ol>
         </p>
     </statement>
+    <solution component="S3-4-soln">
+      <p>
+        <ol cols="2" marker="a.">
+          <li>
+            <p>
+              Use the relationship that <m>e^a = b</m> is equivalent to 
+              <m>\ln(b) = a</m>.  Here it's ready to go, rearranging gives 
+              <m>t = \ln(\frac1{10})</m> which is the exact solution.  This is
+              approximately <m>t\approx -2.303</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Simplifies to <m>e^t = \frac75</m>, which then rearranges to 
+              <m>t = \ln(\frac75) \approx 0.336</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Rearrange, <m>t = e^{-1/3}\approx 0.717</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Simplify to <m>2\ln(t) = 3</m>, and then <m>\ln(t) = \frac32</m>, 
+              and rearranges to <m>t = e^{3/2}\approx 4.482</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Rearrange right away to <m>1-3t = \ln(4)</m>, and then algebra simplifies to
+              <m>-3t = \ln(4) - 1</m>, then <m>t = \frac{\ln(4) - 1}{-3}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Simplifies to <m>-3e^{2t} = -2</m>, then <m>e^{2t} = \frac23</m>, 
+              then rearranges to <m>2t = \ln(\frac23)</m>. Last step: 
+              <m>t = \frac12 \ln(\frac23) \approx -0.203</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              Simplify to <m>3e^{2t} = -2</m>, then <m>e^{2t} = -\frac23</m>. 
+              There's a problem here.  If you don't see it you could keep going, and 
+              get <m>2t = \ln(-\frac23)</m>.  Here's the same problem.  You cannot 
+              take the natural log of a negative number! It doesn't work!  Similarly, 
+              <m>e^{anything}</m> will never be a negative number!  So this problem 
+              has no solution.
+            </p>
+          </li>
+          <li>
+            <p>
+              Rearrange right away:
+              <m>e^{-2} = 5-6t</m>.  Now solve for <m>t</m> using algebra:
+              <m>{e^{-2} - 5 = -6t}</m>, then <m>{t = \frac{e^{-2}-5}{-6}}</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
 
 </activity>
 <activity>
@@ -336,11 +555,35 @@
       <statement>
         <p>If the mass at time <m>t=0</m> is 200 grams, find <m>A</m>.</p>
       </statement>
+    <solution component="S3-4-soln">
+      <p>
+        Plug in <m>t=0</m> and set <m>m(0)=200</m>, so <md>m(0) = 200 = Ae^{k*0} = A(1) = A</md>
+        so <m>A = 200</m>.
+      </p>
+    </solution>
     </task>
     <task workspace="2in">
       <statement>
         <p>After 15 years, 100 grams were left.  Now that we know <m>A</m> from part (a), can we use this to find <m>k</m>?  Keep your answer exact, that is, don't round!  (Leave <m>\ln(b)</m> as <m>\ln(b)</m>.)</p>
       </statement>
+    <solution component="S3-4-soln">
+      <p>
+        So <m>m(15) = 100</m>, and also then 
+        <md>
+          m(15) = 100 = 200 e^{k*15}.
+        </md>
+        We can solve that resulting equation just like in the previous activity!  Now 
+        we just solve for <m>k</m> instead of <m>t</m>.  Which means we 
+        can first rewrite this as 
+        <m>{\frac{1}2 = e^{k*15}}</m>.  Now we can rearrange to 
+        <md>
+          \ln(\frac12) = k*15.
+        </md>
+        Now finally, <m>{k = \frac{1}{15}\ln(\frac12)}</m>.  That is 
+        the exact solution, but this 
+        is approximately <m>k\approx -0.04621</m>.
+      </p>
+    </solution>
     </task>
     <task workspace="2in">
       <statement>
@@ -348,6 +591,17 @@
           Now you know <m>A</m> and <m>k</m>, you know the whole model. How much mass is left after 20 years?
         </p>
       </statement>
+    <solution component="S3-4-soln">
+      <p>
+        We are looking for <m>m(20)</m>, and our model is 
+        <m>{m(t) = 200e^{\frac1{15}\ln(\frac12) * t}}</m>, so we just plug <m>t</m> in.
+        <md>
+          m(20) = 200e^{\frac1{15}\ln(\frac12) * 20}.
+        </md>
+        This can simplify technically, but this is a number.  It turns out to 
+        be approximately <m>79.37</m> grams.
+      </p>
+    </solution>
     </task>
   </activity>
 
