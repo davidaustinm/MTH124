@@ -12,7 +12,7 @@
   <introduction>
     <p>
       Each of the graphs below shows a function of the form
-      <m>y = a\sin(k(t-b)) + c</m>. All six graphs use the same scale on both axes,
+      <m>{y = a\sin(k(t-b)) + c}</m>. All graphs use the same scales
       so you can compare them directly.
     </p>
 
@@ -196,12 +196,19 @@
       </p>
     </answer>
   </task>
+  <task>
+    <statement>
+      <p>
+        Which graph(s) are concave up on the interval <m>(4,8)</m>? Which graph(s) are increasing on <m>(2,4)</m>?
+      </p>
+    </statement>
+  </task>
 
   <task>
     <statement>
       <p>
-        Choose one (or more) of the graphs and write a possible formula of the form
-        <m>y = a\sin(k(t-b)) + c</m> for it.
+        Choose 1+ of the graphs and write a possible formula of the form
+        <m>{y = a\sin(k(t-b)) + c}</m>.
       </p>
     </statement>
     <answer>
@@ -247,23 +254,23 @@
     <p>
   
 
-<ol cols = "2" marker="a.">
-  <li workspace="1cm"><p><m>e^x = 20</m></p></li>
-  <li workspace="1cm"><p><m>e^{2x} = 50</m></p></li>
-  <li workspace="1cm"><p><m>3e^x = 45</m></p></li>
-  <li workspace="1cm"><p><m>e^{x-1} = 10</m></p></li>
-  <li workspace="1cm"><p><m>2e^{3x} = 14</m></p></li>
-  <li workspace="1cm"><p><m>e^{-x} = 0.5</m></p></li>
-  <li workspace="1cm"><p><m>5e^{2x+1} = 100</m></p></li>
-  <li workspace="1cm"><p><m>e^{3x} = 1</m></p></li>
-  <li workspace="1cm"><p><m>\ln x = 3</m></p></li>
-  <li workspace="1cm"><p><m>\ln(2x) = 5</m></p></li>
-  <li workspace="1cm"><p><m>3\ln x = 12</m></p></li>
-  <li workspace="1cm"><p><m>2\ln(3x) = 8</m></p></li>
-  <li workspace="1cm"><p><m>\ln x = -0.5</m></p></li>
-  <li workspace="1cm"><p><m>5\ln(2x+1) +5= 15</m></p></li>
-  <li workspace="1cm"><p><m>\ln(x^2) = \ln 9</m></p></li>
-  <li workspace="1cm"><p><m>\ln(3x) = 0</m></p></li>
+<ol cols="2" marker="a.">
+  <li workspace="1cm"><p><m>10^x = 70</m></p></li>
+  <li workspace="1cm"><p><m>10^{2x} = 300</m></p></li>
+  <li workspace="1cm"><p><m>4 \cdot 10^x = 60</m></p></li>
+  <li workspace="1cm"><p><m>10^{x-2} = 35</m></p></li>
+  <li workspace="1cm"><p><m>3 \cdot 10^{4x} = 21</m></p></li>
+  <li workspace="1cm"><p><m>10^{-x} = 0.2</m></p></li>
+  <li workspace="1cm"><p><m>6 \cdot 10^{2x+1} = 240</m></p></li>
+  <li workspace="1cm"><p><m>10^{5x} = 1</m></p></li>
+  <li workspace="1cm"><p><m>\log x = 2.5</m></p></li>
+  <li workspace="1cm"><p><m>\log(4x) = 3</m></p></li>
+  <li workspace="1cm"><p><m>2\log x = 9</m></p></li>
+  <li workspace="1cm"><p><m>3\log(2x) = 12</m></p></li>
+  <li workspace="1cm"><p><m>\log x = -1.5</m></p></li>
+  <li workspace="1cm"><p><m>4\log(3x+1) + 2 = 14</m></p></li>
+  <li workspace="1cm"><p><m>\log(x^2) = \log 25</m></p></li>
+  <li workspace="1cm"><p><m>\log(5x) = 0</m></p></li>
 </ol>
     </p>
   </statement>
