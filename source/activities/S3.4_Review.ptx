@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout>
+  <title>Review through Section 3.4</title>
+  <p>
+    <alert>MTH 124</alert>
+  </p>
+
+
+<page>
+  <activity xml:id="act-sinusoid-graphs">
+  <title>Trig Practice</title>
+  <introduction>
+    <p>
+      Each of the graphs below shows a function of the form
+      <m>y = a\sin(k(t-b)) + c</m>. All six graphs use the same scale on both axes,
+      so you can compare them directly.
+    </p>
+
+    <sidebyside widths="25% 25% 25%" margins="0%">
+      <image>
+      <shortdescription>
+        A graph of a sinusoidal function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-review-3-4a">
+        <diagram dimensions="(300,300)" margins="7">
+          <definition>f(t)=3*sin(pi/2*(t-1))+1</definition>
+          <coordinates bbox="(-1,-6,8,6)">
+            <grid-axes decorations="yes"  xlabel="t" ylabel="y"/>
+            <graph function="f"/>
+            <label anchor="(4,4)">Graph A</label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+      <image>
+      <shortdescription>
+        A graph of a sinusoidal function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-review-3-4b">
+        <diagram dimensions="(300,300)" margins="7">
+          <definition>f(t)=2*sin(pi*(t-0.5))-1</definition>
+          <coordinates bbox="(-1,-6,8,6)">
+            <grid-axes decorations="yes"  xlabel="t" ylabel="y"/>
+            <graph function="f"/>
+            <label anchor="(4,4)">Graph B</label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+
+      <image>
+      <shortdescription>
+        A graph of a sinusoidal function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-review-3-4c">
+        <diagram dimensions="(300,300)" margins="7">
+          <definition>f(t)=1*sin(pi/3*(t-2))+2</definition>
+          <coordinates bbox="(-1,-6,8,6)">
+            <grid-axes decorations="yes"  xlabel="t" ylabel="y"/>
+            <graph function="f"/>
+            <label anchor="(4,4)">Graph C</label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+    </sidebyside>
+
+    <sidebyside widths="25% 25% 25%" margins="0%">
+    <image>
+      <shortdescription>
+        A graph of a sinusoidal function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-review-3-4d">
+        <diagram dimensions="(300,300)" margins="7">
+          <definition>f(t)=4*sin(pi/4*(t-0))+0</definition>
+          <coordinates bbox="(-1,-6,8,6)">
+            <grid-axes decorations="yes"  xlabel="t" ylabel="y"/>
+            <graph function="f"/>
+            <label anchor="(4,4)">Graph D</label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <image>
+      <shortdescription>
+        A graph of a sinusoidal function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-review-3-4e">
+        <diagram dimensions="(300,300)" margins="7">
+          <definition>f(t)=2*sin(pi/2*(t+1))+3</definition>
+          <coordinates bbox="(-1,-6,8,6)">
+            <grid-axes decorations="yes"  xlabel="t" ylabel="y"/>
+            <graph function="f"/>
+            <label anchor="(4,5.3)">Graph E</label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <image>
+      <shortdescription>
+        A graph of a sinusoidal function.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-review-3-4f">
+        <diagram dimensions="(300,300)" margins="7">
+          <definition>f(t)=3*sin(pi*(t-1))-2</definition>
+          <coordinates bbox="(-1,-6,8,6)">
+            <grid-axes decorations="yes"  xlabel="t" ylabel="y"/>
+            <graph function="f"/>
+            <label anchor="(4,5.3)">Graph F</label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    </sidebyside>
+  </introduction>
+
+  <task>
+    <statement>
+      <p>
+        Which graph has the greatest amplitude? Which has the smallest amplitude?
+      </p>
+    </statement>
+    <answer>
+      <p>Greatest: D (amplitude 4). Smallest: C (amplitude 1).</p>
+    </answer>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        Which graph(s) have an amplitude of 3?
+      </p>
+    </statement>
+    <answer>
+      <p>A and F.</p>
+    </answer>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        Which graph(s) have the longest period? Which graph(s) have the shortest period?
+      </p>
+    </statement>
+    <answer>
+      <p>Longest: D (period 8). Shortest: B and F (period 2).</p>
+    </answer>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        Which graph(s) have a period of 4?
+      </p>
+    </statement>
+    <answer>
+      <p>A and E.</p>
+    </answer>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        Which graph(s) have the midline <m>y = 0</m>? Which graph(s) have the highest midline?
+        Which have the lowest midline?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Midline <m>y = 0</m>: D. Highest midline (<m>y = 3</m>): E.
+        Lowest midline (<m>y = -2</m>): F.
+      </p>
+    </answer>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        Find two pairs of graphs that have the same amplitude but different periods.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        B and E (amplitude 2, periods 2 and 4); A and F (amplitude 3, periods 4 and 2).
+      </p>
+    </answer>
+  </task>
+
+  <task>
+    <statement>
+      <p>
+        Choose one (or more) of the graphs and write a possible formula of the form
+        <m>y = a\sin(k(t-b)) + c</m> for it.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        For Graph C, one possible formula is
+        <m>y = \sin\left(\frac{\pi}{3}(t-2)\right) + 2</m>.
+      </p>
+    </answer>
+  </task>
+</activity>
+</page>
+
+<page>
+<activity>
+<introduction>
+  <p>
+    Practice finding exponential functions.
+  </p>
+</introduction>
+  <task workspace="3in">
+    <p>
+      Find the equation for the exponential function of the form <m>{p(t) = ab^t}</m> 
+      that goes through the points: 
+      <m>{(4,10)}</m> and <m>{(8,2)}</m>
+    </p>
+  </task>
+  <task workspace="3in">
+    <p>
+      Find the equation for the exponential function of the form <m>{p(t) = ab^t}</m> 
+      that goes through the points: 
+      <m>{(4.4,1.2)}</m> and <m>{(10.4,9)}</m>
+    </p>
+  </task>
+</activity>
+</page>
+<page>
+<activity>
+  <statement>
+    <p>
+      Solve the following exactly:
+    </p>
+
+    <p>
+  
+
+<ol cols = "2" marker="a.">
+  <li workspace="1cm"><p><m>e^x = 20</m></p></li>
+  <li workspace="1cm"><p><m>e^{2x} = 50</m></p></li>
+  <li workspace="1cm"><p><m>3e^x = 45</m></p></li>
+  <li workspace="1cm"><p><m>e^{x-1} = 10</m></p></li>
+  <li workspace="1cm"><p><m>2e^{3x} = 14</m></p></li>
+  <li workspace="1cm"><p><m>e^{-x} = 0.5</m></p></li>
+  <li workspace="1cm"><p><m>5e^{2x+1} = 100</m></p></li>
+  <li workspace="1cm"><p><m>e^{3x} = 1</m></p></li>
+  <li workspace="1cm"><p><m>\ln x = 3</m></p></li>
+  <li workspace="1cm"><p><m>\ln(2x) = 5</m></p></li>
+  <li workspace="1cm"><p><m>3\ln x = 12</m></p></li>
+  <li workspace="1cm"><p><m>2\ln(3x) = 8</m></p></li>
+  <li workspace="1cm"><p><m>\ln x = -0.5</m></p></li>
+  <li workspace="1cm"><p><m>5\ln(2x+1) +5= 15</m></p></li>
+  <li workspace="1cm"><p><m>\ln(x^2) = \ln 9</m></p></li>
+  <li workspace="1cm"><p><m>\ln(3x) = 0</m></p></li>
+</ol>
+    </p>
+  </statement>
+
+
+       
+        </activity>
+
+        </page>
+
+<page>
+
+<activity>
+  <introduction>
+    <p>
+      A bacteria population grows according to <m>P(t) = 1000 \cdot 10^{0.5t}</m>,
+      where <m>t</m> is time in hours.
+    </p>
+  </introduction>
+  <task workspace="0.1in">
+    <statement>
+      <p>
+        Find the initial population.
+      </p>
+    </statement>
+  </task>
+  <task workspace="1in">
+    <statement>
+      <p>
+        Find the population after 2 hours.
+      </p>
+    </statement>
+  </task>
+  <task workspace="1.5in">
+    <statement>
+      <p>
+        Find the exact time when the population is 3000.  (There should be a log in your answer.)
+      </p>
+    </statement>
+  </task>
+</activity>
+
+<activity>
+  <introduction>
+    <p>
+      A radioactive substance in grams decays according to <m>A(t) = 500 \cdot 10^{kt}</m>,
+      where <m>t</m> is time in years and <m>k</m> is some unknown number.
+    </p>
+  </introduction>
+  <task workspace="1in">
+    <statement>
+      <p>
+        If after 5 years there was 250 grams of the substance, what is <m>k</m>?
+      </p>
+    </statement>
+  </task>
+</activity>
+
+<activity>
+  <introduction>
+    <p>
+      An investment grows according to <m>A(t) = 5000 \cdot 10^{0.04t}</m>,
+      where <m>t</m> is time in years.
+    </p>
+  </introduction>
+
+  <task workspace="1in">
+    <statement>
+      <p>
+        When will the investment double?
+      </p>
+    </statement>
+  </task>
+</activity>
+
+
+<activity>
+  <introduction>
+    <p>
+      The intensity of an earthquake is measured as <m>I(M) = I_0 \cdot 10^M</m>,
+      where <m>M</m> is the magnitude and <m>I_0</m> is some unknown initial intensity.
+    </p>
+  </introduction>
+  <task workspace = "1in">
+    <statement>
+      <p>
+        Write the intensity of a magnitude 6 earthquake and of a magnitude 4
+        earthquake in terms of <m>I_0</m>.
+      </p>
+    </statement>
+  </task>
+  <task workspace="0.5in">
+    <statement>
+      <p>
+        How many times more intense is a magnitude 6 earthquake than a magnitude 4 earthquake?
+      </p>
+    </statement>
+  </task>
+</activity>
+
+</page>
+
+<page>
+        
+<activity>
+  <statement>
+    <p>
+      Solve the following exactly.
+    </p>
+    <p>
+      <ol cols="2" marker="a.">
+  <li workspace="1cm"><p><m>e^x = 20</m></p></li>
+  <li workspace="1cm"><p><m>e^{2x} = 50</m></p></li>
+  <li workspace="1cm"><p><m>3e^x = 45</m></p></li>
+  <li workspace="1cm"><p><m>e^{x-1} = 10</m></p></li>
+  <li workspace="1cm"><p><m>2e^{3x} = 14</m></p></li>
+  <li workspace="1cm"><p><m>e^{-x} = 0.5</m></p></li>
+  <li workspace="1cm"><p><m>5e^{2x+1} = 100</m></p></li>
+
+  <li workspace="1cm"><p><m>e^{3x} = 1</m></p></li>
+  <li workspace="1cm"><p><m>\ln x = 3</m></p></li>
+  <li workspace="1cm"><p><m>\ln(2x) = 5</m></p></li>
+  <li workspace="1cm"><p><m>3\ln x = 12</m></p></li>
+  <li workspace="1cm"><p><m>2\ln(3x) = 8</m></p></li>
+  <li workspace="1cm"><p><m>\ln x = -0.5</m></p></li>
+  <li workspace="1cm"><p><m>5\ln(2x+1) +5= 15</m></p></li>
+  <li workspace="1cm"><p><m>\ln(x^2) = \ln 9</m></p></li>
+  <li workspace="1cm"><p><m>\ln(3x) = 0</m></p></li>
+</ol>
+    </p>
+  </statement>
+</activity>
+
+</page>
+      
+        
+<page>
+
+        <activity>
+  <introduction>
+    <p>
+      A cooling object follows <m>T(t) = 20 + 80 \cdot e^{-0.23t}</m>,
+      where <m>T</m> is temperature in Celsius and <m>t</m> is time in minutes.
+    </p>
+  </introduction>
+  <task workspace="0.5in">
+    <statement>
+      <p>
+        What is the initial temperature of the object?
+      </p>
+    </statement>
+  </task>
+  <task workspace="1in">
+    <statement>
+      <p>
+        What is the temperature after 10 minutes?
+      </p>
+    </statement>
+  </task>
+  <task workspace="0.5in">
+    <statement>
+      <p>
+        What will the temperature approach in the long term?
+      </p>
+    </statement>
+  </task>
+</activity>
+
+<activity>
+  <introduction>
+    <p>
+      The population of a city grows according to <m>P(t) = 10000e^{0.03t}</m>,
+      where <m>t</m> is time in years.
+    </p>
+  </introduction>
+  <task workspace="0.5in">
+    <statement>
+      <p>
+        Find the initial population of the city.
+      </p>
+    </statement>
+  </task>
+  <task workspace="1in">
+    <statement>
+      <p>
+        What is the population after 10 years?
+      </p>
+    </statement>
+  </task>
+  <task workspace="1in">
+    <statement>
+      <p>
+        How long until the population reaches 30,000?
+      </p>
+    </statement>
+  </task>
+</activity>
+</page>
+
+<page>
+<activity>
+  <introduction>
+    <p>
+      A radioactive element decays according to <m>N(t) = N_0 e^{kt}</m>,
+      where <m>t</m> is time in days and <m>N_0, k</m> are unknown.
+    </p>
+  </introduction>
+  <task workspace="0.5in">
+    <statement>
+      <p>
+        If there is initially 200 grams, find one of the unknowns. 
+      </p>
+    </statement>
+  </task>
+  <task workspace="1in">
+    <statement>
+      <p>
+        If after 7 days there is 150 grams, find the other unknown.
+      </p>
+    </statement>
+  </task>
+</activity>
+
+<activity>
+  <introduction>
+    <p>
+      Compound interest is calculated as <m>A(t) = 1000e^{0.05t}</m> where <m>t</m> is time in years.
+      
+    </p>
+  </introduction>
+  <task workspace="0.5in">
+    <statement>
+      <p>
+        What is the initial amount you invest?
+      </p>
+    </statement>
+  </task>
+  <task workspace="1in">
+    <statement>
+      <p>
+        How long until the initial amount doubles?
+      </p>
+    </statement>
+  </task>
+</activity>
+
+ </page>
+   
+</handout>
