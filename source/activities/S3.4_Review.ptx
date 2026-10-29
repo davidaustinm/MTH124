@@ -878,6 +878,39 @@
       </p>
       
     </statement>
+    <solution component="S3-4-review-soln">
+      <p>
+        <ol cols="2" marker="a.">
+          <li>
+            <p>
+              (ex: <m>y=x^2</m>). Always concave up, dec until the vertex and 
+              inc after the vertex.
+            </p>
+          </li>
+          <li>
+            <p>
+              (ex: <m>y=-x^2</m>). Always concave down, inc until the vertex, 
+              dec after the vertex
+            </p>
+          </li>
+          <li>
+            <p>
+              (ex: <m>y=x</m>). Always increasing but not concave up or concave down.
+            </p>
+          </li>
+          <li>
+            <p>
+              (ex: <m>y=2^x</m>). Always concave up, always increasing.
+            </p>
+          </li>
+          <li>
+            <p>
+              (ex: <m>y=\sin(x)</m>). Periodically alternating between CCU and CCD, and inc and dec.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
   </activity>
   <activity>
     <statement>
@@ -919,6 +952,39 @@
         </ol>
       </p>
     </statement>
+    <solution component="S3-4-review-soln">
+      <p>
+        Plot the examples in Desmos to see what they look like. There 
+        are many possibilities, these are just a few.
+        <ol cols="2" marker="a.">
+          <li>
+            <p>
+              ex: <m>y=-2^x</m> (flipped exp growth)
+            </p>
+          </li>
+          <li>
+            <p>
+              ex: <m>y=-(x-4)^2</m> (quadratic with vertex at 4)
+            </p>
+          </li>
+          <li>
+            <p>
+              ex: <m>y=x</m> (any line, <m>y=3</m> also works!)
+            </p>
+          </li>
+          <li>
+            <p>
+              ex: <m>y=x^3</m> (or a piecewise function!)
+            </p>
+          </li>
+          <li>
+            <p>
+              ex: <m>y=\sin(x)</m> (or <m>y=\cos(x)</m>)
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
 
   </activity>
  </page>
