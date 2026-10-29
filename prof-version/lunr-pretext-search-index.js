@@ -1258,7 +1258,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Review through Section 3.4",
-  "body": " Review through Section 3.4   MTH 124     Trig Practice   Each of the graphs below shows a function of the form . All graphs use the same scales so you can compare them directly.    A graph of a sinusoidal function.    f(t)=3*sin(pi\/2*(t-1))+1     Graph A       A graph of a sinusoidal function.    f(t)=2*sin(pi*(t-0.5))-1     Graph B       A graph of a sinusoidal function.    f(t)=1*sin(pi\/3*(t-2))+2     Graph C         A graph of a sinusoidal function.    f(t)=4*sin(pi\/4*(t-0))+0     Graph D       A graph of a sinusoidal function.    f(t)=2*sin(pi\/2*(t+1))+3     Graph E       A graph of a sinusoidal function.    f(t)=3*sin(pi*(t-1))-2     Graph F          Which graph has the greatest amplitude? Which has the smallest amplitude?    Greatest: D (amplitude 4). Smallest: C (amplitude 1).      Which graph(s) have an amplitude of 3?    A and F.      Which graph(s) have the longest period? Which graph(s) have the shortest period?    Longest: D (period 8). Shortest: B and F (period 2).      Which graph(s) have a period of 4?    A and E.      Which graph(s) have the midline ? Which graph(s) have the highest midline? Which have the lowest midline?    Midline : D. Highest midline ( ): E. Lowest midline ( ): F.      Find two pairs of graphs that have the same amplitude but different periods.    B and E (amplitude 2, periods 2 and 4); A and F (amplitude 3, periods 4 and 2).      Which graph(s) are concave up on the interval ? Which graph(s) are increasing on ?      Choose 1+ of the graphs and write a possible formula of the form .    For Graph C, one possible formula is .         Practice finding exponential functions.    Find the equation for the exponential function of the form that goes through the points: and     Find the equation for the exponential function of the form that goes through the points: and         Solve the following exactly:                            A bacteria population grows according to , where is time in hours.     Find the initial population.      Find the population after 2 hours.      Find the exact time when the population is 3000. (There should be a log in your answer.)       A radioactive substance in grams decays according to , where is time in years and is some unknown number.     If after 5 years there was 250 grams of the substance, what is ?       An investment grows according to , where is time in years.     When will the investment double?       The intensity of an earthquake is measured as , where is the magnitude and is some unknown initial intensity.     Write the intensity of a magnitude 6 earthquake and of a magnitude 4 earthquake in terms of .      How many times more intense is a magnitude 6 earthquake than a magnitude 4 earthquake?         Solve the following exactly.                            A cooling object follows , where is temperature in Celsius and is time in minutes.     What is the initial temperature of the object?      What is the temperature after 10 minutes?      What will the temperature approach in the long term?       The population of a city grows according to , where is time in years.     Find the initial population of the city.      What is the population after 10 years?      How long until the population reaches 30,000?         A radioactive element decays according to , where is time in days and are unknown.     If there is initially 200 grams, find one of the unknowns.      If after 7 days there is 150 grams, find the other unknown.       Compound interest is calculated as where is time in years.     What is the initial amount you invest?      How long until the initial amount doubles?      "
+  "body": " Review through Section 3.4   MTH 124     Trig Practice   Each of the graphs below shows a function of the form . All graphs use the same scales so you can compare them directly.    A graph of a sinusoidal function.    f(t)=3*sin(pi\/2*(t-1))+1     Graph A       A graph of a sinusoidal function.    f(t)=2*sin(pi*(t-0.5))-1     Graph B       A graph of a sinusoidal function.    f(t)=1*sin(pi\/3*(t-2))+2     Graph C         A graph of a sinusoidal function.    f(t)=4*sin(pi\/4*(t-0))+0     Graph D       A graph of a sinusoidal function.    f(t)=2*sin(pi\/2*(t+1))+3     Graph E       A graph of a sinusoidal function.    f(t)=3*sin(pi*(t-1))-2     Graph F          Which graph has the greatest amplitude? Which has the smallest amplitude?    The amplitude is half the distance from the minimum to the maximum. Graph D runs from to , so its amplitude is 4. This is the largest amplitude. Graph C runs from to , so its amplitude is 1, which is the smallest amplitude.      Which graph(s) have an amplitude of 3?    Graph A and F.      Which graph(s) have the longest period? Which graph(s) have the shortest period?    Longest: D (period 8). Shortest: B and F (period 2). The period is the horizontal length of one full cycle. Graph D completes exactly one cycle on , so its period is 8. Graphs B and F complete four cycles on , so their period is 2.      Which graph(s) have a period of 4?    Graphs A and E.      Which graph(s) have the midline ? Which graph(s) have the highest midline? Which have the lowest midline?    The midline is halfway between the maximum and minimum. The midlines are: A, ; B, ; C, ; D, ; E, ; F, . So Graph D has the highest midline, and graph F has the lowest.      Find two pairs of graphs that have the same amplitude but different periods.    B and E (amplitude 2, periods 2 and 4); A and F (amplitude 3, periods 4 and 2).      Which graph(s) are concave up on the interval ? Which graph(s) are increasing on ?    A sine function (and cosine function) is concave up exactly where it lies below its midline (it's bending upward!). Graph D is concave up on the whole interval from . Others such as A and C are only concave up on part of that interval.  On , Graph E goes from its lowest point (minimum) at up to its highest point (maximum) at , so it is increasing the whole time. Others are not increasing over that whole interval.      Choose 1+ of the graphs and write a possible formula of the form .    The amplitude is almost , though could be positive or negative depending on if it looks like sine or flipped sine. The midline tells us the value of . The value of is . Finally the value of comes from a horizontal shift to find the anchor point. All of these could be rewritten with different values of (and a possible sign change of the value of ), but here are the simplest formulas (i.e. the first positive anchor point is the most common choice from my experience).    A:  B:  C:  D:  E:  F:           Practice finding exponential functions.     Find the equation for the exponential function of the form that goes through the points: and     Divide the two equations: , so and . Then gives , so . So       Find the equation for the exponential function of the form that goes through the points: and     Divide the two equations: , so and . Then gives . So .         Solve the following exactly:                        Note that .       , so    , so    , so    , so    , so    , so and . Since , this simplifies to .   , so       , so    , so    , so and       , so and    , so . Both values are ok, since in each case and so we still have the log of a positive number.   , so          A bacteria population grows according to , where is time in hours.     Find the initial population.     .      Find the population after 2 hours.     .      Find the exact time when the population is 3000. (There should be a log in your answer.)    Solve . Dividing by 1000 gives . Then , so hours (this is approximately hours).       A radioactive substance in grams decays according to , where is time in years and is some unknown number.     If after 5 years there was 250 grams of the substance, what is ?    Plug in and the output . Solve . Then , so and (which is approximately ).       An investment grows according to , where is time in years.     When will the investment double?    Doubling means . So we are solving , which simplifies to get . Then , so years. (This is approximately .)       The intensity of an earthquake is measured as , where is the magnitude and is some unknown initial intensity.     Write the intensity of a magnitude 6 earthquake and of a magnitude 4 earthquake in terms of .    Substitute and into . Thus we get: and .      How many times more intense is a magnitude 6 earthquake than a magnitude 4 earthquake?     . So 100 times bigger.         Solve the following exactly.                             , so    , so    , so    , so    , so    , so and    , so (cool)      , so    , so    , so and       , so , , and    , so . Both values work since we would be taking the log of a positive number in each case.   , so          A cooling object follows , where is temperature in Celsius and is time in minutes.     What is the initial temperature of the object?     degrees.      What is the temperature after 10 minutes?     degrees. This is actually the exact answer. It turns out to be approximately degrees.      What will the temperature approach in the long term?    As , , so . That is, in the long term it will tend towards the horizontal asymptote of degrees.       The population of a city grows according to , where is time in years.     Find the initial population of the city.     .      What is the population after 10 years?     . We would stop here for an exact answer, but this is approximately .      How long until the population reaches 30,000?    We are looking for when , so we solve for . Then this simplifies to , so and years (exactly). This is approximately years.         A radioactive element decays according to , where is time in days and are unknown.     If there is initially 200 grams, find one of the unknowns.    We know from the data point, but from the model we have , so the initial amount is .      If after 7 days there is 150 grams, find the other unknown.    So we plug in and . Thus we solve . Then , so and . This is the exact value. (This is approximately .)       Compound interest is calculated as where is time in years.     What is the initial amount you invest?     . ($1000)      How long until the initial amount doubles?    If it doubles we'll have 2000, so . So we solve , which simplifies to . Then , so years. (Exact). This is approximately years!      "
 },
 {
   "id": "act-sinusoid-graphs",
@@ -1267,7 +1267,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "103",
   "title": "Trig Practice.",
-  "body": " Trig Practice   Each of the graphs below shows a function of the form . All graphs use the same scales so you can compare them directly.    A graph of a sinusoidal function.    f(t)=3*sin(pi\/2*(t-1))+1     Graph A       A graph of a sinusoidal function.    f(t)=2*sin(pi*(t-0.5))-1     Graph B       A graph of a sinusoidal function.    f(t)=1*sin(pi\/3*(t-2))+2     Graph C         A graph of a sinusoidal function.    f(t)=4*sin(pi\/4*(t-0))+0     Graph D       A graph of a sinusoidal function.    f(t)=2*sin(pi\/2*(t+1))+3     Graph E       A graph of a sinusoidal function.    f(t)=3*sin(pi*(t-1))-2     Graph F          Which graph has the greatest amplitude? Which has the smallest amplitude?    Greatest: D (amplitude 4). Smallest: C (amplitude 1).      Which graph(s) have an amplitude of 3?    A and F.      Which graph(s) have the longest period? Which graph(s) have the shortest period?    Longest: D (period 8). Shortest: B and F (period 2).      Which graph(s) have a period of 4?    A and E.      Which graph(s) have the midline ? Which graph(s) have the highest midline? Which have the lowest midline?    Midline : D. Highest midline ( ): E. Lowest midline ( ): F.      Find two pairs of graphs that have the same amplitude but different periods.    B and E (amplitude 2, periods 2 and 4); A and F (amplitude 3, periods 4 and 2).      Which graph(s) are concave up on the interval ? Which graph(s) are increasing on ?      Choose 1+ of the graphs and write a possible formula of the form .    For Graph C, one possible formula is .    "
+  "body": " Trig Practice   Each of the graphs below shows a function of the form . All graphs use the same scales so you can compare them directly.    A graph of a sinusoidal function.    f(t)=3*sin(pi\/2*(t-1))+1     Graph A       A graph of a sinusoidal function.    f(t)=2*sin(pi*(t-0.5))-1     Graph B       A graph of a sinusoidal function.    f(t)=1*sin(pi\/3*(t-2))+2     Graph C         A graph of a sinusoidal function.    f(t)=4*sin(pi\/4*(t-0))+0     Graph D       A graph of a sinusoidal function.    f(t)=2*sin(pi\/2*(t+1))+3     Graph E       A graph of a sinusoidal function.    f(t)=3*sin(pi*(t-1))-2     Graph F          Which graph has the greatest amplitude? Which has the smallest amplitude?    The amplitude is half the distance from the minimum to the maximum. Graph D runs from to , so its amplitude is 4. This is the largest amplitude. Graph C runs from to , so its amplitude is 1, which is the smallest amplitude.      Which graph(s) have an amplitude of 3?    Graph A and F.      Which graph(s) have the longest period? Which graph(s) have the shortest period?    Longest: D (period 8). Shortest: B and F (period 2). The period is the horizontal length of one full cycle. Graph D completes exactly one cycle on , so its period is 8. Graphs B and F complete four cycles on , so their period is 2.      Which graph(s) have a period of 4?    Graphs A and E.      Which graph(s) have the midline ? Which graph(s) have the highest midline? Which have the lowest midline?    The midline is halfway between the maximum and minimum. The midlines are: A, ; B, ; C, ; D, ; E, ; F, . So Graph D has the highest midline, and graph F has the lowest.      Find two pairs of graphs that have the same amplitude but different periods.    B and E (amplitude 2, periods 2 and 4); A and F (amplitude 3, periods 4 and 2).      Which graph(s) are concave up on the interval ? Which graph(s) are increasing on ?    A sine function (and cosine function) is concave up exactly where it lies below its midline (it's bending upward!). Graph D is concave up on the whole interval from . Others such as A and C are only concave up on part of that interval.  On , Graph E goes from its lowest point (minimum) at up to its highest point (maximum) at , so it is increasing the whole time. Others are not increasing over that whole interval.      Choose 1+ of the graphs and write a possible formula of the form .    The amplitude is almost , though could be positive or negative depending on if it looks like sine or flipped sine. The midline tells us the value of . The value of is . Finally the value of comes from a horizontal shift to find the anchor point. All of these could be rewritten with different values of (and a possible sign change of the value of ), but here are the simplest formulas (i.e. the first positive anchor point is the most common choice from my experience).    A:  B:  C:  D:  E:  F:      "
 },
 {
   "id": "activities-27-4-1",
@@ -1276,7 +1276,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "104",
   "title": "",
-  "body": "  Practice finding exponential functions.    Find the equation for the exponential function of the form that goes through the points: and     Find the equation for the exponential function of the form that goes through the points: and    "
+  "body": "  Practice finding exponential functions.     Find the equation for the exponential function of the form that goes through the points: and     Divide the two equations: , so and . Then gives , so . So       Find the equation for the exponential function of the form that goes through the points: and     Divide the two equations: , so and . Then gives . So .    "
 },
 {
   "id": "activities-27-5-1",
@@ -1285,7 +1285,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "105",
   "title": "",
-  "body": "  Solve the following exactly:                       "
+  "body": "  Solve the following exactly:                        Note that .       , so    , so    , so    , so    , so    , so and . Since , this simplifies to .   , so       , so    , so    , so and       , so and    , so . Both values are ok, since in each case and so we still have the log of a positive number.   , so     "
 },
 {
   "id": "activities-27-6-1",
@@ -1294,7 +1294,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "106",
   "title": "",
-  "body": "  A bacteria population grows according to , where is time in hours.     Find the initial population.      Find the population after 2 hours.      Find the exact time when the population is 3000. (There should be a log in your answer.)    "
+  "body": "  A bacteria population grows according to , where is time in hours.     Find the initial population.     .      Find the population after 2 hours.     .      Find the exact time when the population is 3000. (There should be a log in your answer.)    Solve . Dividing by 1000 gives . Then , so hours (this is approximately hours).    "
 },
 {
   "id": "activities-27-6-2",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "107",
   "title": "",
-  "body": "  A radioactive substance in grams decays according to , where is time in years and is some unknown number.     If after 5 years there was 250 grams of the substance, what is ?    "
+  "body": "  A radioactive substance in grams decays according to , where is time in years and is some unknown number.     If after 5 years there was 250 grams of the substance, what is ?    Plug in and the output . Solve . Then , so and (which is approximately ).    "
 },
 {
   "id": "activities-27-6-3",
@@ -1312,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "108",
   "title": "",
-  "body": "  An investment grows according to , where is time in years.     When will the investment double?    "
+  "body": "  An investment grows according to , where is time in years.     When will the investment double?    Doubling means . So we are solving , which simplifies to get . Then , so years. (This is approximately .)    "
 },
 {
   "id": "activities-27-6-4",
@@ -1321,7 +1321,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "109",
   "title": "",
-  "body": "  The intensity of an earthquake is measured as , where is the magnitude and is some unknown initial intensity.     Write the intensity of a magnitude 6 earthquake and of a magnitude 4 earthquake in terms of .      How many times more intense is a magnitude 6 earthquake than a magnitude 4 earthquake?    "
+  "body": "  The intensity of an earthquake is measured as , where is the magnitude and is some unknown initial intensity.     Write the intensity of a magnitude 6 earthquake and of a magnitude 4 earthquake in terms of .    Substitute and into . Thus we get: and .      How many times more intense is a magnitude 6 earthquake than a magnitude 4 earthquake?     . So 100 times bigger.    "
 },
 {
   "id": "activities-27-7-1",
@@ -1330,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "110",
   "title": "",
-  "body": "  Solve the following exactly.                       "
+  "body": "  Solve the following exactly.                             , so    , so    , so    , so    , so    , so and    , so (cool)      , so    , so    , so and       , so , , and    , so . Both values work since we would be taking the log of a positive number in each case.   , so     "
 },
 {
   "id": "activities-27-8-1",
@@ -1339,7 +1339,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "111",
   "title": "",
-  "body": "  A cooling object follows , where is temperature in Celsius and is time in minutes.     What is the initial temperature of the object?      What is the temperature after 10 minutes?      What will the temperature approach in the long term?    "
+  "body": "  A cooling object follows , where is temperature in Celsius and is time in minutes.     What is the initial temperature of the object?     degrees.      What is the temperature after 10 minutes?     degrees. This is actually the exact answer. It turns out to be approximately degrees.      What will the temperature approach in the long term?    As , , so . That is, in the long term it will tend towards the horizontal asymptote of degrees.    "
 },
 {
   "id": "activities-27-8-2",
@@ -1348,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "112",
   "title": "",
-  "body": "  The population of a city grows according to , where is time in years.     Find the initial population of the city.      What is the population after 10 years?      How long until the population reaches 30,000?    "
+  "body": "  The population of a city grows according to , where is time in years.     Find the initial population of the city.     .      What is the population after 10 years?     . We would stop here for an exact answer, but this is approximately .      How long until the population reaches 30,000?    We are looking for when , so we solve for . Then this simplifies to , so and years (exactly). This is approximately years.    "
 },
 {
   "id": "activities-27-9-1",
@@ -1357,7 +1357,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "113",
   "title": "",
-  "body": "  A radioactive element decays according to , where is time in days and are unknown.     If there is initially 200 grams, find one of the unknowns.      If after 7 days there is 150 grams, find the other unknown.    "
+  "body": "  A radioactive element decays according to , where is time in days and are unknown.     If there is initially 200 grams, find one of the unknowns.    We know from the data point, but from the model we have , so the initial amount is .      If after 7 days there is 150 grams, find the other unknown.    So we plug in and . Thus we solve . Then , so and . This is the exact value. (This is approximately .)    "
 },
 {
   "id": "activities-27-9-2",
@@ -1366,7 +1366,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "114",
   "title": "",
-  "body": "  Compound interest is calculated as where is time in years.     What is the initial amount you invest?      How long until the initial amount doubles?    "
+  "body": "  Compound interest is calculated as where is time in years.     What is the initial amount you invest?     . ($1000)      How long until the initial amount doubles?    If it doubles we'll have 2000, so . So we solve , which simplifies to . Then , so years. (Exact). This is approximately years!    "
 },
 {
   "id": "activities-28",
