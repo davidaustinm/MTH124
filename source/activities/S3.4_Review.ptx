@@ -839,5 +839,88 @@
 </activity>
 
  </page>
+ <page>
+  <activity>
+    <statement>
+      <p>
+        Sketch a reference graph.  Describe it's concavity (ex: it is always concave up, or it switches from concave up to concave down at this specific
+        point, or it alternates between concave up in this area and concave down in this area, or...).  Similarly describe if it's increasing/decreasing and 
+        where.
+      </p>
+      <p>
+        <ol marker="a." cols="2">
+          <li workspace="1cm">
+            <p>
+              A quadratic function pointing upward.
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+              A quadratic function pointing downwards.
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+              A linear function with positive slope.
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+              A function showing exponential growth.
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+              A sine function.
+            </p>
+          </li>
+        </ol>
+      </p>
+      
+    </statement>
+  </activity>
+  <activity>
+    <statement>
+      <p>
+        Sketch the following.  Find a possible formula for each.
+      </p>
+      <p>
+        <ol marker="a." cols="2">
+          <li workspace="1cm">
+            <p>
+                        A function that is both concave down and decreasing everywhere.
+
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+              A function that is always concave down, but is increasing until
+          <m>x=4</m> and then is decreasing after <m>x=4</m>.
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+                        A function that is not concave up or concave down.
+
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+              A function that is always increasing but is concave down before
+          <m>x=0</m> and concave up after <m>x=0</m>.
+            </p>
+          </li>
+          <li workspace="1cm">
+            <p>
+                        A function that is periodically changing its concavity from concave up to concave down and over again.
+
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+
+  </activity>
+ </page>
 
 </handout>
