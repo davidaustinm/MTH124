@@ -131,9 +131,15 @@
         Which graph has the greatest amplitude? Which has the smallest amplitude?
       </p>
     </statement>
-    <answer>
-      <p>Greatest: D (amplitude 4). Smallest: C (amplitude 1).</p>
-    </answer>
+    <solution component="S3-4-review-soln">
+      <p>
+        The amplitude is half the distance from the minimum to the maximum.
+        Graph D runs from <m>-4</m> to <m>4</m>, so its amplitude is 4.  This is 
+        the largest amplitude.
+        Graph C runs from <m>1</m> to <m>3</m>, so its amplitude is 1, which is the smallest 
+        amplitude.
+      </p>
+    </solution>
   </task>
 
   <task>
@@ -142,9 +148,12 @@
         Which graph(s) have an amplitude of 3?
       </p>
     </statement>
-    <answer>
-      <p>A and F.</p>
-    </answer>
+
+    <solution component="S3-4-review-soln">
+      <p>
+       Graph A and F.
+      </p>
+    </solution>
   </task>
 
   <task>
@@ -153,9 +162,16 @@
         Which graph(s) have the longest period? Which graph(s) have the shortest period?
       </p>
     </statement>
-    <answer>
-      <p>Longest: D (period 8). Shortest: B and F (period 2).</p>
-    </answer>
+   
+    <solution component="S3-4-review-soln">
+      <p>
+        Longest: D (period 8). Shortest: B and F (period 2).
+
+        The period is the horizontal length of one full cycle.
+        Graph D completes exactly one cycle on <m>[0,8]</m>, so its period is 8.
+        Graphs B and F complete four cycles on <m>[0,8]</m>, so their period is 2.
+      </p>
+    </solution>
   </task>
 
   <task>
@@ -164,9 +180,12 @@
         Which graph(s) have a period of 4?
       </p>
     </statement>
-    <answer>
-      <p>A and E.</p>
-    </answer>
+  
+    <solution component="S3-4-review-soln">
+      <p>
+        Graphs A and E.
+      </p>
+    </solution>
   </task>
 
   <task>
@@ -176,12 +195,15 @@
         Which have the lowest midline?
       </p>
     </statement>
-    <answer>
+
+    <solution component="S3-4-review-soln">
       <p>
-        Midline <m>y = 0</m>: D. Highest midline (<m>y = 3</m>): E.
-        Lowest midline (<m>y = -2</m>): F.
+        The midline is halfway between the maximum and minimum.
+        The midlines are: A, <m>y=1</m>; B, <m>y=-1</m>; C, <m>y=2</m>;
+        D, <m>y=0</m>; E, <m>y=3</m>; F, <m>y=-2</m>. So Graph D has the 
+        highest midline, and graph F has the lowest.
       </p>
-    </answer>
+    </solution>
   </task>
 
   <task>
@@ -190,11 +212,12 @@
         Find two pairs of graphs that have the same amplitude but different periods.
       </p>
     </statement>
-    <answer>
+ 
+    <solution component="S3-4-review-soln">
       <p>
         B and E (amplitude 2, periods 2 and 4); A and F (amplitude 3, periods 4 and 2).
       </p>
-    </answer>
+    </solution>
   </task>
   <task>
     <statement>
@@ -202,6 +225,21 @@
         Which graph(s) are concave up on the interval <m>(4,8)</m>? Which graph(s) are increasing on <m>(2,4)</m>?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        A sine function (and cosine function) is concave up exactly where it lies below its midline
+        (it's bending upward!).
+        Graph D is concave up on the whole interval from <m>(4,8)</m>.  Others such 
+        as A and C are only concave up on part of that interval.
+      
+      </p>
+      <p>
+        On <m>(2,4)</m>, Graph E goes from its lowest point (minimum) at <m>t=2</m> up to its highest point (maximum)
+        at <m>t=4</m>, so it is increasing the whole time.
+        Others are not increasing over that whole interval.
+      </p>
+    </solution>
   </task>
 
   <task>
@@ -211,12 +249,30 @@
         <m>{y = a\sin(k(t-b)) + c}</m>.
       </p>
     </statement>
-    <answer>
+
+    <solution component="S3-4-review-soln">
       <p>
-        For Graph C, one possible formula is
-        <m>y = \sin\left(\frac{\pi}{3}(t-2)\right) + 2</m>.
+        The amplitude is almost <m>a</m>, though <m>a</m> could be positive or negative 
+        depending on if it looks like sine or flipped sine.  The midline tells 
+        us the value of <m>c</m>.  The value of <m>k</m> is <m>\frac{2\pi}{Period}</m>. 
+        Finally the value of <m>b</m> comes from a horizontal shift to find the anchor point. 
+        All of these could be rewritten with different values of <m>b</m> (and a possible 
+        sign change of the value of <m>a</m>), but here are the <q>simplest</q> formulas (i.e. the 
+        first positive anchor point is the most common choice from my experience).
+     
       </p>
-    </answer>
+   
+      <p>
+        <ul>
+          <li><p>A: <m>y = 3\sin\left(\frac{\pi}{2}(t-1)\right) + 1</m></p></li>
+          <li><p>B: <m>y = 2\sin\left(\pi(t-0.5)\right) - 1</m></p></li>
+          <li><p>C: <m>y = \sin\left(\frac{\pi}{3}(t-2)\right)+2</m></p></li>
+          <li><p>D: <m>y = 4\sin\left(\frac{\pi}{4}t\right)</m></p></li>
+          <li><p>E: <m>y = -2\sin\left(\frac{\pi}{2}(t-1)\right) + 3</m></p></li>
+          <li><p>F: <m>y = -3\sin\left(\pi t\right) - 2</m></p></li>
+        </ul>
+      </p>
+    </solution>
   </task>
 </activity>
 </page>
@@ -229,18 +285,41 @@
   </p>
 </introduction>
   <task workspace="3in">
-    <p>
-      Find the equation for the exponential function of the form <m>{p(t) = ab^t}</m> 
-      that goes through the points: 
-      <m>{(4,10)}</m> and <m>{(8,2)}</m>
-    </p>
+    <statement>
+      <p>
+        Find the equation for the exponential function of the form <m>{p(t) = ab^t}</m>
+        that goes through the points:
+        <m>{(4,10)}</m> and <m>{(8,2)}</m>
+      </p>
+    </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        Divide the two equations: <m>\dfrac{ab^8}{ab^4} = \dfrac{2}{10}</m>, so <m>b^4 = \dfrac{1}{5}</m>
+        and <m>b = \left(\dfrac{1}{5}\right)^{1/4}</m>.
+        Then <m>ab^4 = 10</m> gives <m>a\cdot\dfrac{1}{5} = 10</m>, so <m>a = 50</m>. 
+        So <m>{p(t) = 50\left(\frac{1}{5}\right)^{t/4}}</m>
+      </p>
+    </solution>
   </task>
   <task workspace="3in">
-    <p>
-      Find the equation for the exponential function of the form <m>{p(t) = ab^t}</m> 
-      that goes through the points: 
-      <m>{(4.4,1.2)}</m> and <m>{(10.4,9)}</m>
-    </p>
+    <statement>
+      <p>
+        Find the equation for the exponential function of the form <m>{p(t) = ab^t}</m>
+        that goes through the points:
+        <m>{(4.4,1.2)}</m> and <m>{(10.4,9)}</m>
+      </p>
+    </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        Divide the two equations: <m>\dfrac{ab^{10.4}}{ab^{4.4}} = \dfrac{9}{1.2}</m>,
+        so <m>b^6 = 7.5</m> and <m>b = 7.5^{1/6}\approx 1.399</m>.
+        Then <m>ab^{4.4} = 1.2</m> gives
+        <m>a = \dfrac{1.2}{7.5^{4.4/6}} \approx 0.274</m>. So 
+        <m>{p(t)= \dfrac{1.2}{7.5^{4.4/6}} (7.5^{1/6})^t\approx 0.274(1.399)^t}</m>.
+      </p>
+    </solution>
   </task>
 </activity>
 </page>
@@ -252,7 +331,7 @@
     </p>
 
     <p>
-  
+
 
 <ol cols="2" marker="a.">
   <li workspace="1cm"><p><m>10^x = 70</m></p></li>
@@ -275,8 +354,65 @@
     </p>
   </statement>
 
+  <solution component="S3-4-review-soln">
+    <p>
+      Note that <m>\log(x) = \log_{10}(x)</m>.
+    </p>
+    <ol cols="2" marker="a.">
+      <li><p>
+        <m>x = \log 70</m>
+      </p></li>
+      <li><p>
+        <m>2x = \log 300</m>, so <m>x = \dfrac{\log 300}{2}</m>
+      </p></li>
+      <li><p>
+        <m>10^x = 15</m>, so <m>x = \log 15</m>
+      </p></li>
+      <li><p>
+        <m>x - 2 = \log 35</m>, so <m>x = 2 + \log 35</m>
+      </p></li>
+      <li><p>
+        <m>10^{4x} = 7</m>, so <m>x = \dfrac{\log 7}{4}</m>
+      </p></li>
+      <li><p>
+        <m>-x = \log 0.2</m>, so <m>x = -\log 0.2 = \log 5</m>
+      </p></li>
+      <li><p>
+        <m>10^{2x+1} = 40</m>, so <m>2x+1 = \log 40</m> and
+        <m>x = \dfrac{\log 40 - 1}{2}</m>. Since <m>\log 40 = 1 + \log 4</m>,
+        this simplifies to <m>x = \dfrac{\log 4}{2} = \log 2</m>.
+      </p></li>
+      <li><p>
+        <m>5x = \log 1 = 0</m>, so <m>x = 0</m>
+      </p></li>
+      <li><p>
+        <m>x = 10^{2.5}</m>
+      </p></li>
+      <li><p>
+        <m>4x = 10^3</m>, so <m>x = 250</m>
+      </p></li>
+      <li><p>
+        <m>\log x = 4.5</m>, so <m>x = 10^{4.5}</m>
+      </p></li>
+      <li><p>
+        <m>\log(2x) = 4</m>, so <m>2x = 10^4</m> and <m>x = 5000</m>
+      </p></li>
+      <li><p>
+        <m>x = 10^{-1.5} </m>
+      </p></li>
+      <li><p>
+        <m>\log(3x+1) = 3</m>, so <m>3x+1 = 1000</m> and <m>x = 333</m>
+      </p></li>
+      <li><p>
+        <m>x^2 = 25</m>, so <m>x = \pm 5</m>. Both values are ok,
+        since <m>x^2 = 25 \gt 0</m> in each case and so we still have the log of a positive number.
+      </p></li>
+      <li><p>
+        <m>5x = 10^0 = 1</m>, so <m>x = \dfrac{1}{5}</m>
+      </p></li>
+    </ol>
+  </solution>
 
-       
         </activity>
 
         </page>
@@ -296,6 +432,12 @@
         Find the initial population.
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>P(0) = 1000\cdot 10^0 = 1000</m>.
+      </p>
+    </solution>
   </task>
   <task workspace="1in">
     <statement>
@@ -303,6 +445,12 @@
         Find the population after 2 hours.
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>P(2) = 1000\cdot 10^{0.5\cdot 2} = 1000\cdot 10 = 10,000</m>.
+      </p>
+    </solution>
   </task>
   <task workspace="1.5in">
     <statement>
@@ -310,6 +458,13 @@
         Find the exact time when the population is 3000.  (There should be a log in your answer.)
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        Solve <m>1000\cdot 10^{0.5t} = 3000</m>. Dividing by 1000 gives <m>10^{0.5t} = 3</m>.
+        Then <m>0.5t = \log 3</m>, so <m>t = 2\log 3</m> hours (this is approximately <m>0.954</m> hours).
+      </p>
+    </solution>
   </task>
 </activity>
 
@@ -326,6 +481,14 @@
         If after 5 years there was 250 grams of the substance, what is <m>k</m>?
       </p>
     </statement>
+  
+    <solution component="S3-4-review-soln">
+      <p>
+        Plug in <m>t=5</m> and the output <m>250</m>. Solve <m>250 = 500\cdot 10^{5k}</m>. Then <m>\frac{1}{2}  = 10^{5k}</m>,
+        so <m>5k = \log\left(\dfrac{1}{2}\right) </m>
+        and <m>k = \dfrac15\log(\frac12)</m> (which is approximately <m>-0.0602</m>).
+      </p>
+    </solution>
   </task>
 </activity>
 
@@ -343,6 +506,15 @@
         When will the investment double?
       </p>
     </statement>
+ 
+    <solution component="S3-4-review-soln">
+      <p>
+        Doubling means <m>A(t) = 10,000</m>. So we are solving <m>10000 = 5000\cdot 10^{0.04t}</m>,
+        which simplifies
+        to get <m>2 = 10^{0.04t}</m>. Then <m>\log(2) = 0.04t</m>,
+        so <m>t = \frac{1}{0.04}\log(2) = 25\log(2)</m> years.  (This is approximately <m>7.53</m>.)
+      </p>
+    </solution>
   </task>
 </activity>
 
@@ -361,6 +533,14 @@
         earthquake in terms of <m>I_0</m>.
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        Substitute <m>M=6</m> and <m>M=4</m> into <m>I(M) = I_0\cdot 10^M</m>. Thus we 
+        get:
+        <m>I(6) = I_0\cdot 10^6</m> and <m>I(4) = I_0\cdot 10^4</m>.
+      </p>
+    </solution>
   </task>
   <task workspace="0.5in">
     <statement>
@@ -368,13 +548,19 @@
         How many times more intense is a magnitude 6 earthquake than a magnitude 4 earthquake?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>\dfrac{I(6)}{I(4)} = \dfrac{I_0\cdot 10^6}{I_0\cdot 10^4} = 10^2 = 100</m>.  So 100 times bigger.
+      </p>
+    </solution>
   </task>
 </activity>
 
 </page>
 
 <page>
-        
+
 <activity>
   <statement>
     <p>
@@ -402,11 +588,67 @@
 </ol>
     </p>
   </statement>
+
+  <solution component="S3-4-review-soln">
+    <ol cols="2" marker="a.">
+      <li><p>
+        <m>x = \ln 20</m>
+      </p></li>
+      <li><p>
+        <m>2x = \ln 50</m>, so <m>x = \dfrac{1}{2}\ln(50)</m>
+      </p></li>
+      <li><p>
+        <m>e^x = 15</m>, so <m>x = \ln(15)</m>
+      </p></li>
+      <li><p>
+        <m>x - 1 = \ln(10)</m>, so <m>x = 1 + \ln(10)</m>
+      </p></li>
+      <li><p>
+        <m>e^{3x} = 7</m>, so <m>x = \dfrac{1}{3}\ln(7)</m>
+      </p></li>
+      <li><p>
+        <m>-x = \ln 0.5</m>, so <m>x = -\ln(0.5)</m>
+      </p></li>
+      <li><p>
+        <m>e^{2x+1} = 20</m>, so <m>2x + 1 = \ln(20)</m> and
+        <m>x = \dfrac{\ln(20) - 1}{2}</m>
+      </p></li>
+      <li><p>
+        <m>3x = \ln(1) = 0</m>, so <m>x = 0</m> (cool)
+      </p></li>
+      <li><p>
+        <m>x = e^3</m>
+      </p></li>
+      <li><p>
+        <m>2x = e^5</m>, so <m>x = \dfrac{1}{2}e^5</m>
+      </p></li>
+      <li><p>
+        <m>\ln x = 4</m>, so <m>x = e^4</m>
+      </p></li>
+      <li><p>
+        <m>\ln(3x) = 4</m>, so <m>3x = e^4</m> and <m>x = \dfrac{1}{3}e^4</m>
+      </p></li>
+      <li><p>
+        <m>x = e^{-0.5}</m>
+      </p></li>
+      <li><p>
+        <m>5\ln(2x+1) = 10</m>, so <m>\ln(2x+1) = 2</m>,
+        <m>2x + 1 = e^2</m>, and <m>x = \dfrac{e^2 - 1}{2}</m>
+      </p></li>
+      <li><p>
+        <m>x^2 = 9</m>, so <m>x = \pm 3</m>. Both values work since we would be 
+        taking the log of a positive number in each case.
+      </p></li>
+      <li><p>
+        <m>3x = e^0 = 1</m>, so <m>x = \dfrac{1}{3}</m>
+      </p></li>
+    </ol>
+  </solution>
 </activity>
 
 </page>
-      
-        
+
+
 <page>
 
         <activity>
@@ -422,6 +664,12 @@
         What is the initial temperature of the object?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>T(0) = 20 + 80e^0 = 100</m> degrees.
+      </p>
+    </solution>
   </task>
   <task workspace="1in">
     <statement>
@@ -429,6 +677,14 @@
         What is the temperature after 10 minutes?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>T(10) = 20 + 80e^{-0.23\cdot 10} = 20 + 80e^{-2.3}</m> degrees. This is
+        actually the exact answer.  It turns out to be approximately
+         <m>T(10)\approx 28.02</m> degrees.
+      </p>
+    </solution>
   </task>
   <task workspace="0.5in">
     <statement>
@@ -436,6 +692,13 @@
         What will the temperature approach in the long term?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        As <m>t\to\infty</m>, <m>e^{-0.23t}\to 0</m>, so <m>T(t)\to 20 + 0 = 20</m>.
+        That is, in the long term it will tend towards the horizontal asymptote of <m>y=20</m> degrees.
+      </p>
+    </solution>
   </task>
 </activity>
 
@@ -452,6 +715,12 @@
         Find the initial population of the city.
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>P(0) = 10000e^0 = 10,000</m>.
+      </p>
+    </solution>
   </task>
   <task workspace="1in">
     <statement>
@@ -459,6 +728,14 @@
         What is the population after 10 years?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>P(10) = 10000e^{0.03\cdot 10} = 10000e^{0.3}</m>.  We 
+        would stop here for an exact answer, but this is approximately 
+        <m>13,499</m>.
+      </p>
+    </solution>
   </task>
   <task workspace="1in">
     <statement>
@@ -466,6 +743,17 @@
         How long until the population reaches 30,000?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        We are looking for <m>t</m> when <m>P(t) = 30000</m>, so we 
+        solve <m>30000 = 10000e^{0.03t}</m> for <m>t</m>. Then this 
+        simplifies to <m>3 = e^{0.03t}</m>,
+        so <m>0.03t = \ln(3)</m> and
+        <m>t = \dfrac{1}{0.03}\ln(3)</m> years (exactly). This is approximately 
+        <m>36.6</m> years.  
+      </p>
+    </solution>
   </task>
 </activity>
 </page>
@@ -481,9 +769,16 @@
   <task workspace="0.5in">
     <statement>
       <p>
-        If there is initially 200 grams, find one of the unknowns. 
+        If there is initially 200 grams, find one of the unknowns.
       </p>
     </statement>
+    <solution component="S3-4-review-soln">
+      <p>
+        We know 
+        <m>N(0)=200</m> from the data point, but from the model we have <m>N(0) = N_0e^0 = N_0</m>, 
+        so the initial amount is <m>N_0 = 200</m>.
+      </p>
+    </solution>
   </task>
   <task workspace="1in">
     <statement>
@@ -491,6 +786,16 @@
         If after 7 days there is 150 grams, find the other unknown.
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        So we plug in <m>t=7</m> and <m>N(7) = 150</m>.  Thus we solve 
+        <m>150 = 200e^{7k}</m>. Then <m>\frac34 = e^{7k}</m>,
+        so <m>7k = \ln\left(\dfrac{3}{4}\right)</m> and
+        <m>k = \frac17\ln(\frac34)</m>.  This is the exact value. 
+        (This is approximately <m>k\approx -0.0411</m>.)
+      </p>
+    </solution>
   </task>
 </activity>
 
@@ -498,7 +803,7 @@
   <introduction>
     <p>
       Compound interest is calculated as <m>A(t) = 1000e^{0.05t}</m> where <m>t</m> is time in years.
-      
+
     </p>
   </introduction>
   <task workspace="0.5in">
@@ -507,6 +812,12 @@
         What is the initial amount you invest?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        <m>A(0) = 1000e^0 = 1000</m>.  ($1000)
+      </p>
+    </solution>
   </task>
   <task workspace="1in">
     <statement>
@@ -514,9 +825,19 @@
         How long until the initial amount doubles?
       </p>
     </statement>
+
+    <solution component="S3-4-review-soln">
+      <p>
+        If it doubles we'll have 2000, so <m>A(t) = 2000</m>. So we solve 
+        <m>2000 = 1000e^{0.05t}</m>,
+        which simplifies to <m>2 = e^{0.05t}</m>. Then <m>0.05t = \ln(2)</m>,
+        so <m>t = \frac{1}{0.05}\ln(2)= 20\ln(2)</m> years.  (Exact).  
+        This is approximately <m>13.9</m> years!
+      </p>
+    </solution>
   </task>
 </activity>
 
  </page>
-   
+
 </handout>

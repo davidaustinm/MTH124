@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 08</title>
+
+  <introduction>
+    <p>
+      <alert>MTH 124</alert>
+    </p>
+  </introduction>
+
+  <p>
+    <alert>Due Thursday, 11/25/26 at 12:00pm (the beginning of class)</alert>
+  </p>
+
+ <p>
+    Make sure you are following the homework expectations!
+    Example: complete sentences!
+  </p>
+
+  <exercise>
+    <introduction>
+      <p>
+        Grinnell Glacier in Glacier National Park in Montana covered about <m>142</m> 
+        acres in 2007 
+      and was found to be shrinking at a rate of <m>4.4\%</m> per year. Let <m>A(t)</m> denote the area of the Grinnell Glacier in acres in year <m>t</m>, 
+        where <m>t</m> is the number of years since 2007.
+      </p>
+    </introduction>
+
+    <task workspace="0.3in">
+      <statement>
+        <p>
+            Find <m>A(0)</m>, <m>A(1)</m>, 
+        and <m>A(2)</m>, carefully showing your calculations, and writing a sentence 
+        (including units) for what each value means.
+        </p>
+      </statement>
+    </task>
+
+    <task  workspace="1in">
+      <statement>
+        <p>
+          Find an exponential equation of the form <m>A(t) = ab^t</m> to model the number 
+        of acres of ice in the Grinnell Glacier <m>t</m> years after 2007. Make it clear 
+        what the final equation is, and explain your reasoning.
+        </p>
+      </statement>
+    </task>
+
+    <task workspace=".5in">
+      <statement>
+        <p>
+         How many acres of ice were in the glacier in 1997? In 2012? What does the model 
+        predict for 2022? Carefully show your calculations. ("In 1997 there were .... In 2012 ....")
+        </p>
+
+      </statement>
+    </task>
+
+    <task workspace=".5in">
+      <statement>
+        <p>
+          How many total acres of ice were lost from 2007 to 2012? Carefully show your calculations.
+        </p>
+
+       
+      </statement>
+    </task>
+
+    <task workspace=".5in">
+      <statement>
+        <p>
+          What was the average rate of change of <m>A</m> from 2007 to 2012? Carefully show 
+        your calculations and write a sentence to explain the meaning of this number 
+        and include units on your answer.
+        </p>
+
+        
+      </statement>
+    </task>
+
+    <task workspace=".5in">
+      <statement>
+        <p>
+         What was the average rate of change from 2012 to 2017? How does it compare to 
+        the average rate of change from 2007 to 2012?
+        </p>
+
+      
+      </statement>
+    </task>
+
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          When does the model predict the total number of acres 
+          will be less than <m>60</m>? 
+        Use Desmos, describing how you did so.
+        </p>
+
+       
+      </statement>
+    </task>
+
+    
+  </exercise>
+</worksheet>
