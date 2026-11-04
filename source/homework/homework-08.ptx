@@ -10,99 +10,83 @@
   </introduction>
 
   <p>
-    <alert>Due Thursday, 11/25/26 at 12:00pm (the beginning of class)</alert>
+    <alert>Due Thursday, 11/12/26 at 12:00pm (the beginning of class)</alert>
   </p>
 
  <p>
     Make sure you are following the homework expectations!
     Example: complete sentences!
   </p>
+   <p>
+      <em>It will help to have reviewed
+      <url href="https://activecalculus.org/prelude/sec-exp-temp-pop.html#act-exp-temp-pop-logistic-Desmos">Activity 3.6.3</url>
+      and
+      <url href="https://activecalculus.org/prelude/sec-exp-temp-pop.html#act-exp-temp-pop-logistic-exact">Activity 3.6.4</url>
+      in your textbook / worksheets.</em>
+    </p>
 
   <exercise>
-    <introduction>
+  <introduction>
+   
+
+    <p>
+      A popular cruise ship sets sail in the Gulf of Mexico with
+      <m>5000</m> passengers and crew on board. Unfortunately, five family
+      members who board the ship are carrying a highly contagious virus.
+      After interacting with many other passengers in the first few hours of
+      the cruise, all five of them get very sick. Let <m>S(t)</m> be the
+      number of people who have acquired the virus <m>t</m> days after the
+      ship has left port. It turns out that a logistic function is a good
+      model for <m>S</m> and thus we assume that
+      <md>
+        <mrow>S(t) = \dfrac{A}{1+Me^{-kt}}</mrow>
+      </md>
+      for some positive constants <m>A</m>, <m>M</m>, and <m>k</m>. Suppose
+      that after <m>1</m> day, <m>20</m> people have gotten the virus.
+    </p>
+  </introduction>
+
+  <task workspace="3in">
+    <statement>
       <p>
-        Grinnell Glacier in Glacier National Park in Montana covered about <m>142</m> 
-        acres in 2007 
-      and was found to be shrinking at a rate of <m>4.4\%</m> per year. Let <m>A(t)</m> denote the area of the Grinnell Glacier in acres in year <m>t</m>, 
-        where <m>t</m> is the number of years since 2007.
+        Recall we know that <m>S(0) = 5</m> and <m>S(1)=20</m>. In addition,
+        assume that <m>5000</m> is the number of people who will eventually
+        get sick (that is everyone on the cruise!). Use this information to determine the exact values of
+        <m>A</m>, <m>M</m>, and <m>k</m> in the logistic model.
       </p>
-    </introduction>
+    </statement>
+  </task>
 
-    <task workspace="0.3in">
-      <statement>
-        <p>
-            Find <m>A(0)</m>, <m>A(1)</m>, 
-        and <m>A(2)</m>, carefully showing your calculations, and writing a sentence 
-        (including units) for what each value means.
-        </p>
-      </statement>
-    </task>
+  <task workspace="2in">
+    <statement>
+      <p>
+        How many days will it take for <m>4000</m> of the people on the
+        cruise ship to have acquired the virus?  Show your setup clearly, 
+        show clear computations, and your final answer should be extremely
+        clear (like "It will take .... days for ....")
+      </p>
+    </statement>
+  </task>
 
-    <task  workspace="1in">
-      <statement>
-        <p>
-          Find an exponential equation of the form <m>A(t) = ab^t</m> to model the number 
-        of acres of ice in the Grinnell Glacier <m>t</m> years after 2007. Make it clear 
-        what the final equation is, and explain your reasoning.
-        </p>
-      </statement>
-    </task>
+  <task workspace="1.4in">
+    <statement>
+      <p>
+        Compute the average rate of change of <m>S</m> on the intervals
+        <m>[1,2]</m>, <m>[3,4]</m>, and <m>[5,7]</m>. Show your computations carefully.
+ 
+      </p>
+    </statement>
+  </task>
+  <task workspace="0.6in">
+    <statement>
+      <p>
+               What is the meaning of
+        each of the values in (c) (with units) in the context of the question, and
+        what trend(s) do you observe in these average rates of change?
+      </p>
+    </statement>
+  </task>
+</exercise>
 
-    <task workspace=".5in">
-      <statement>
-        <p>
-         How many acres of ice were in the glacier in 1997? In 2012? What does the model 
-        predict for 2022? Carefully show your calculations. ("In 1997 there were .... In 2012 ....")
-        </p>
 
-      </statement>
-    </task>
-
-    <task workspace=".5in">
-      <statement>
-        <p>
-          How many total acres of ice were lost from 2007 to 2012? Carefully show your calculations.
-        </p>
-
-       
-      </statement>
-    </task>
-
-    <task workspace=".5in">
-      <statement>
-        <p>
-          What was the average rate of change of <m>A</m> from 2007 to 2012? Carefully show 
-        your calculations and write a sentence to explain the meaning of this number 
-        and include units on your answer.
-        </p>
-
-        
-      </statement>
-    </task>
-
-    <task workspace=".5in">
-      <statement>
-        <p>
-         What was the average rate of change from 2012 to 2017? How does it compare to 
-        the average rate of change from 2007 to 2012?
-        </p>
-
-      
-      </statement>
-    </task>
-
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          When does the model predict the total number of acres 
-          will be less than <m>60</m>? 
-        Use Desmos, describing how you did so.
-        </p>
-
-       
-      </statement>
-    </task>
-
-    
-  </exercise>
 </worksheet>
