@@ -7,8 +7,8 @@
 
 <p workspace="1in">
   <sidebyside widths="45% 45%">
-    <p><md>b = 10^a ~~~ \iff ~~~ \log_{10}(<fillin characters = "1"/>) = <fillin characters="1"/></md>
-<md>\log_{10}(10^t) = <fillin characters = "1"/></md>
+    <p><md>b = 10^a ~~~ \iff ~~~ \log_{10}(<fillin characters = "1" answer="b"/>) = <fillin characters="1" answer="a"/></md>
+<md>\log_{10}(10^t) = <fillin characters = "1" answer="t"/></md>
 <md>10^{\log_{10}(y)} = <fillin characters = "1"/></md></p>
     <p><md>b = e^a ~~~ \iff ~~~ \ln(<fillin characters = "1"/>) = <fillin characters = "1"/></md>
 <md>\ln(e^t) = <fillin characters = "1"/></md>
@@ -19,6 +19,7 @@
   <assemblage>
     <title>Property 1</title>
     <p>Multiplication inside logs.</p>
+      
   </assemblage>
 <p workspace="0.1in"/>
   <assemblage>
@@ -34,6 +35,7 @@
 
   <p workspace="0.15in">* Use these properties to solve any exponential function, regardless of base!</p>
   <example>
+    <statement>
     <sidebyside>
       <p workspace="1in">
         <md>4^t = 7</md>
@@ -42,6 +44,38 @@
         <md>7\cdot 3^{2t}+4 = 10</md>
       </p>
     </sidebyside>
+    </statement>
+    <solution component="S3-5-soln">
+      <p>
+        <m>4^t = 7</m>.  Since <m>t</m> is in the exponent and we are at 
+        the point where it is #<m>^t = </m>#,  take the log of both sides since 
+        logs get rid of exponents.  We'll use natural log almost exclusively 
+        unless it is directly a power of 10.  Then we get to <md>{\ln(4^t) = \ln(7)}</md>
+        and from here we can use property 3 to get the <m>t</m> out 
+        of the exponent!  This leaves
+        <md>
+        t\ln(4)  = \ln(7).
+        </md>
+        Now divide both sides by <m>\ln(4)</m> and 
+        <md>
+          t = \dfrac{\ln(7)}{\ln(4)}
+        </md>
+        which is exact (<m>\approx 1.40368</m>).
+      </p>
+      <p>
+        <m>7\cdot 3^{2t}+4 = 10</m>. isolate the exponential first, then take the natural log of
+        both sides, just like the first example.
+        <md>
+          <mrow>7\cdot 3^{2t}+4 \amp = 10</mrow>
+          <mrow>7\cdot 3^{2t} \amp = 6</mrow>
+          <mrow>3^{2t} \amp = \dfrac{6}{7}</mrow>
+          <mrow>\ln(3^{2t}) \amp = \ln(\dfrac{6}{7}) </mrow>
+          <mrow>2t\ln(3) \amp = \ln\left(\dfrac{6}{7}\right)</mrow>
+          <mrow>t \amp = \dfrac{\ln(6/7)}{2\ln(3)}</mrow>
+          <mrow> \amp  \approx -0.07016</mrow>
+        </md>
+      </p>
+    </solution>
   </example>
 
   <activity>
@@ -72,6 +106,82 @@
       </p>
       </statement>
 
+    <solution component="S3-5-soln">
+      <ol marker="a.">
+        <li>
+          <p>
+            <md>
+              <mrow>3^t \amp = 5</mrow>
+              <mrow>\ln(3^t) \amp = \ln(5)</mrow>
+              <mrow>t\ln(3) \amp = \ln(5)</mrow>
+              <mrow>t \amp = \dfrac{\ln(5)}{\ln(3)} \text{ (exact)}</mrow>
+              <mrow> \amp  \approx 1.46497  \text{ (approx)}</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            <md>
+              <mrow>4\cdot 2^t-2 \amp = 3</mrow>
+              <mrow>4\cdot 2^t \amp = 5</mrow>
+              <mrow>2^t \amp = \dfrac{5}{4}</mrow>
+              <mrow>\ln(2^t) \amp = \ln(\dfrac{5}{4})</mrow>
+              <mrow>t\ln(2) \amp = \ln(\dfrac{5}{4})</mrow>
+              <mrow>t \amp = \dfrac{\ln(5/4)}{\ln(2)} \text{ (exact)} </mrow>
+              <mrow> \amp \approx 0.32193</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            <md>
+              <mrow>3.7\cdot(0.9)^{0.3t}+1.5 \amp = 2.1</mrow>
+              <mrow>3.7\cdot(0.9)^{0.3t} \amp = 0.6</mrow>
+              <mrow>(0.9)^{0.3t} \amp = \dfrac{6}{37}</mrow>
+              <mrow>\ln((0.9)^{0.3t}) \amp = \ln(\dfrac{6}{37})</mrow>
+              <mrow>0.3t\ln(0.9) \amp = \ln\left(\dfrac{6}{37}\right)</mrow>
+              <mrow>t \amp = \dfrac{\ln(6/37)}{0.3\ln(0.9)} \text{(exact)}</mrow>
+              <mrow> \amp \approx 57.55345</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            <md>
+              <mrow>72 - 30(0.7)^{0.05t} \amp = 60</mrow>
+              <mrow>-30(0.7)^{0.05t} \amp = -12</mrow>
+              <mrow>(0.7)^{0.05t} \amp = \dfrac{12}{30}</mrow>
+              <mrow>\ln((0.7)^{0.05t}) \amp = \ln(\dfrac{12}{30})</mrow>
+              <mrow>0.05t\ln((0.7)) \amp = \ln(\dfrac{12}{30})</mrow>
+              <mrow>t \amp = \dfrac{\ln(2/5)}{0.05\ln(0.7)} \text{(exact)}</mrow>
+              <mrow> \amp \approx 51.37960 </mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p> For this one, we use the relationship between <m>e^a = b</m>
+            and <m>\ln(b)=a</m>:
+            <md>
+              <mrow>\ln(t) \amp = -2</mrow>
+              <mrow>t \amp = e^{-2} \text{(exact)}</mrow>
+              <mrow> \amp \approx 0.13534</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>For this one, we use the relationship between <m>10^a = b</m>
+            and <m>\log_{10}(b)=a</m>:
+            <md>
+              <mrow>3+2\log_{10}(t) \amp = 3.5</mrow>
+              <mrow>2\log_{10}(t) \amp = 0.5</mrow>
+              <mrow>\log_{10}(t) \amp = 0.25</mrow>
+              <mrow>t \amp = 10^{0.25} \text{(exact)}</mrow>
+              <mrow> \amp \approx 1.77828</mrow>
+            </md>
+          </p>
+        </li>
+      </ol>
+    </solution>
   </activity>
 
 
@@ -232,6 +342,54 @@
           </row>
         </tabular>
       </statement>
+      <solution component="S3-5-soln">
+        <tabular>
+          <row bottom="minor">
+            <cell right="minor"></cell>
+            <cell right="minor"><m>\quad f(x)=-e^{-(x-1)}+1 \quad </m></cell>
+            <cell><m>\quad g(x)=\ln(x) \quad </m></cell>
+          </row>
+          <row>
+            <cell right="minor">Domain:</cell>
+            <cell right="minor"><m>(-\infty,\infty)</m></cell>
+            <cell><m>(0,\infty)</m></cell>
+          </row>
+          <row>
+            <cell right="minor">Range:</cell>
+            <cell right="minor"><m>(-\infty,1)</m></cell>
+            <cell><m>(-\infty,\infty)</m></cell>
+          </row>
+          <row>
+            <cell right="minor"><m>x</m>-intercept</cell>
+            <cell right="minor"><m>(1,0)</m></cell>
+            <cell><m>(1,0)</m></cell>
+          </row>
+          <row>
+            <cell right="minor"><m>y</m>-intercept</cell>
+            <cell right="minor"><m>(0,1-e)\approx(0,-1.718)</m></cell>
+            <cell>DNE</cell>
+          </row>
+          <row>
+            <cell right="minor">increasing or decreasing:</cell>
+            <cell right="minor">increasing</cell>
+            <cell>increasing</cell>
+          </row>
+          <row>
+            <cell right="minor">concave up or down:</cell>
+            <cell right="minor">concave down</cell>
+            <cell>concave down</cell>
+          </row>
+          <row>
+            <cell right="minor">grow to <m>\infty</m> or bounded:</cell>
+            <cell right="minor">bounded above by <m>1</m></cell>
+            <cell>grows to <m>\infty</m></cell>
+          </row>
+        </tabular>
+        <p>
+          They have a few things in common and a few things different.  What 
+          do you notice?
+        </p>
+      </solution>
     </task>
     <task workspace="0cm">
       <statement>
@@ -251,6 +409,27 @@
           </ul>
         </p>
       </statement>
+      <solution component="S3-5-soln">
+        <p>
+          
+          <ul>
+            <li><p>
+              <m>a</m>: a vertical stretch, the sign determines whether it flips over the x-axis
+            </p></li>
+            <li><p>
+              <m>b</m>: shifts left/right so a horizontal shift
+            </p></li>
+            <li><p>
+              <m>c</m>: shifts up/down so a vertical shift by <m>c</m>
+            </p></li>
+            <li><p>
+              <m>k</m>: a horizontal stretch, also affects increasing or decreasing 
+              (if it flips over y-axis)
+            </p></li>
+          </ul>
+        </p>
+
+      </solution>
     </task>
     <task workspace="0in">
       <statement>
@@ -268,6 +447,23 @@
           </ul>
         </p>
       </statement>
+      <solution component="S3-5-soln">
+        <p>
+          Start from <m>y=\ln(t)</m>.
+          <ul>
+            <li><p>
+              <m>a</m>: vertical stretch, affects increasing or decreasing (if it 
+              flips over the x-axis or not)
+            </p></li>
+            <li><p>
+              <m>b</m>: horizontal shift left/right
+            </p></li>
+            <li><p>
+              <m>c</m>: vertical shift up/down
+            </p></li>
+          </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -307,6 +503,18 @@
  or by an exponential function of form <m>{q(t)=me^{-rt}+n}</m>.
  Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)</p>
       </statement>
+      <solution component="S3-5-soln">
+        <p>
+          Trees don't grow infinitely tall, they have some max height. So maybe 
+          exponential is the <q>better</q> choice?
+        </p>
+        <p>
+          We can play with the sliders.  Somewhere around the 
+          following ish?
+              <md>q(t) \approx -20.8e^{-0.35t}+20.3 \text{ (ish...)}</md>
+        
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -332,6 +540,68 @@
     </p>
     </statement>
  
+    <solution component="S3-5-soln"><p>For the following problems, 
+    use algebra to get the exponential alone first.  Then either use the relationship
+    between exponential functions of base <m>e</m> and 
+    natural log functions, or take the natural log of both side 
+    and use the relationship of inverses, that <m>\ln(e^a) = a</m>.</p>
+      <ol marker="a.">
+        <li>
+          <p>
+            <md>
+              <mrow>41 \amp = 50e^{-7k}</mrow>
+              <mrow>\dfrac{41}{50} \amp = e^{-7k} </mrow>
+              <mrow>\ln\left(\dfrac{41}{50}\right) \amp = -7k</mrow>
+              <mrow>k \amp = \dfrac{\ln(41/50)}{-7} \text{ (exact)}</mrow>
+              <mrow> \amp  \approx 0.02835</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            <md>
+              <mrow>65 \amp = 34+47e^{-45k}</mrow>
+              <mrow>31 \amp = 47e^{-45k}</mrow>
+              <mrow> \dfrac{31}{47} \amp e^{-45k}</mrow>
+               <mrow> \ln(\dfrac{31}{47}) \amp -45k</mrow>
+              <mrow>k \amp = \dfrac{\ln(31/47)}{-45} \text{ (exact)}</mrow>
+              <mrow> \amp \approx 0.00925</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            <md>
+              <mrow>7e^{2k-1}+4 \amp = 32</mrow>
+              <mrow>7e^{2k-1} \amp = 28</mrow>
+              <mrow>e^{2k-1} \amp = 4</mrow>
+              <mrow>2k-1 \amp = \ln(4)</mrow>
+              <mrow>2k \amp =1+\ln(4) </mrow>
+              <mrow>k \amp = \dfrac{1+\ln(4)}{2} \text{ (exact)}</mrow>
+              <mrow> \amp \approx 1.19315</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>Here we need to do essentially the same thing, get the exponential by 
+          itself first.  To do that, we need to get the whole denominator out of the denominator. 
+          Since it's in the denominator it is being divided, so we can multiply 
+          both sides by the entire denominator first.  On the left they will cancel.
+            <md>
+              <mrow>\dfrac{5}{1+2e^{-10k}} \amp = 4</mrow>
+              <mrow>(1+2e^{-10k})\dfrac{5}{1+2e^{-10k}} \amp = 4(1+2e^{-10k})</mrow>
+              <mrow>5 \amp = 4\left(1+2e^{-10k}\right)</mrow>
+              <mrow>5 \amp = 4+8e^{-10k}</mrow>
+              <mrow>1 \amp = 8e^{-10k}</mrow>
+              <mrow>\frac18 \amp = e^{-10k}</mrow>
+              <mrow>\ln(\dfrac{1}{8}) \amp = {-10k}</mrow>
+              <mrow>k \amp = \dfrac{\ln(1/8)}{-10} \text{(exact)}</mrow>
+              <mrow> \amp \approx 0.20794</mrow>
+            </md>
+          </p>
+        </li>
+      </ol>
+    </solution>
   </activity>
 
   <activity>
@@ -343,16 +613,51 @@
       <statement>
         <p>Consider a population of bacteria <m>P(t)</m> where <m>P</m> is measure in millions of cells and <m>t</m> is in hours.  We know <m>P(0)=2.475</m>, and <m>P(10)=4.298</m>.  Find a model of the form <m>P(t)=Ae^{kt}</m> that fits this data by first plugging in <m>P(0)</m> to determine <m>A</m>, and then plugging in <m>P(10)</m> to determine <m>k</m>.</p>
       </statement>
+      <solution component="S3-5-soln">
+        <p>
+          Since <m>P(0)=Ae^{0}=A</m>, and <m>P(0)=2.475</m> as well, we get <m>A=2.475</m>.  We can plug that 
+          in so <m>P(t)=2.475e^{kt}</m>. Then we know <m>P(10)=4.298</m>, 
+          so we can plug that in and simplify to get:
+          <md>
+            <mrow>4.298 \amp = 2.475e^{10k} </mrow>
+            <mrow>\dfrac{4.298}{2.475}\amp e^{10k}</mrow>
+            <mrow>\ln(\dfrac{4.298}{2.475})\amp {10k}</mrow>
+            <mrow>k \amp = \dfrac{1}{10}\ln\left(\dfrac{4.298}{2.475}\right) \text{ (exact)}</mrow>
+            <mrow> \amp \approx 0.05519</mrow>
+          </md>
+          So <m>P(t) = 2.475 e^{\dfrac{1}{10}\ln\left(\dfrac{4.298}{2.475}\right) t}</m> (or <m>P(t)\approx 2.475e^{0.05519t}</m>).
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>How many bacteria are there after 20 hours (<m>t=20</m>)?</p>
       </statement>
+      <solution component="S3-5-soln">
+        <p>
+          Plug in <m>t=20</m>, and we get <m>P(20)=2.475e^{\frac{1}{10}\ln\left(4.298/2.475\right) (20)}</m>,
+          which is terrible but it turns out to be 
+          approximately <m>7.464</m> million bacteria.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?</p>
       </statement>
+      <solution component="S3-5-soln">
+        <p>No we are looking for <m>t</m> when <m>P(t) = 1000</m>, so we are solving the following for <m>t</m> (we'll leave 
+        <m>k</m> here until the very end, but we know it's exact value as found in part 1):
+          <md>
+            <mrow>1000 \amp = 2.475e^{kt} </mrow>
+            <mrow>\dfrac{1000}{2.475} \amp = e^{kt} </mrow>
+            <mrow>\ln(\dfrac{1000}{2.475}) \amp = {kt} </mrow>
+            <mrow>t \amp = \dfrac{\ln(1000/2.475)}{k} </mrow>
+          </md>
+          And now we can plug in <m>k</m>.  For the sake of not making it too complicated, 
+          it is approximately <m>t\approx 108.741</m> hours (or about 4.5 days).
+        </p>
+      </solution>
     </task>
   </activity>
 
