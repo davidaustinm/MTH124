@@ -291,7 +291,10 @@ eBookConfig.enable_chatcodes =  false;
         </label><label><input type="radio" name="papersize" value="letter">Letter
         </label>
 </form>
-<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<details class="print-options"><summary>Additional printing options</summary><div class="hide-solutions-options"><div class="hide-option">
+<label for="hide-solution-checkbox">Hide solutions</label><input type="checkbox" id="hide-solution-checkbox">
+</div></div>
+<div class="header-footer-options">
 <div class="header-option">
 <span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
 </div>
@@ -394,28 +397,73 @@ e^{\ln(y)} = \fillinmath{X}
 <div class="sidebyside">
 <div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
 <div class="sbspanel sbspanel--top top" style="">
-<div class="para logical" id="activities-28-10-1-1">
-<div class="displaymath process-math" id="activities-28-10-1-1-1">
+<div class="para logical" id="activities-28-10-1-1-1">
+<div class="displaymath process-math" id="activities-28-10-1-1-1-1">
 \begin{equation*}
 4^t = 7
 \end{equation*}
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-10-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <div class="sbspanel sbspanel--top top" style="">
-<div class="para logical" id="activities-28-10-1-2">
-<div class="displaymath process-math" id="activities-28-10-1-2-1">
+<div class="para logical" id="activities-28-10-1-1-2">
+<div class="displaymath process-math" id="activities-28-10-1-1-2-1">
 \begin{equation*}
 7\cdot 3^{2t}+4 = 10
 \end{equation*}
 </div>
 <div class="workspace" data-space="1in"></div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-10-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-10-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 </div>
+</div>
+<div class="solutions">
+<details id="activities-28-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-28-10-2-1">
+<div class="para">
+<span class="process-math">\(4^t = 7\text{.}\)</span>  Since <span class="process-math">\(t\)</span> is in the exponent and we are at the point where it is #<span class="process-math">\(^t = \)</span>#,  take the log of both sides since logs get rid of exponents.  We’ll use natural log almost exclusively unless it is directly a power of 10.  Then we get to</div>
+<div class="displaymath process-math" id="activities-28-10-2-1-4">
+\begin{equation*}
+{\ln(4^t) = \ln(7)}
+\end{equation*}
+</div>
+<div class="para">and from here we can use property 3 to get the <span class="process-math">\(t\)</span> out of the exponent!  This leaves</div>
+<div class="displaymath process-math" id="activities-28-10-2-1-6">
+\begin{equation*}
+t\ln(4)  = \ln(7).
+\end{equation*}
+</div>
+<div class="para">Now divide both sides by <span class="process-math">\(\ln(4)\)</span> and</div>
+<div class="displaymath process-math" id="activities-28-10-2-1-8">
+\begin{equation*}
+t = \dfrac{\ln(7)}{\ln(4)}
+\end{equation*}
+</div>
+<div class="para">which is exact (<span class="process-math">\(\approx 1.40368\)</span>).</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="activities-28-10-2-2">
+<div class="para">
+<span class="process-math">\(7\cdot 3^{2t}+4 = 10\text{.}\)</span> isolate the exponential first, then take the natural log of both sides, just like the first example.</div>
+<div class="displaymath process-math" id="activities-28-10-2-2-2">
+\begin{align*}
+7\cdot 3^{2t}+4 \amp = 10\\
+7\cdot 3^{2t} \amp = 6\\
+3^{2t} \amp = \dfrac{6}{7}\\
+\ln(3^{2t}) \amp = \ln(\dfrac{6}{7}) \\
+2t\ln(3) \amp = \ln\left(\dfrac{6}{7}\right)\\
+t \amp = \dfrac{\ln(6/7)}{2\ln(3)}\\
+\amp  \approx -0.07016
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-10-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 117.1"><a tabindex="-1" href="#activities-28-10-2" title="Copy heading and permalink for Solution 117.1" aria-label="Copy heading and permalink for Solution 117.1">🔗</a></div>
+</div></details>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Example 117"><a tabindex="-1" href="#activities-28-10" title="Copy heading and permalink for Example 117" aria-label="Copy heading and permalink for Example 117">🔗</a></div>
 </article></details>
@@ -470,6 +518,112 @@ e^{\ln(y)} = \fillinmath{X}
 </li>
 </ol>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-11-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-28-11-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<ol class="lower-alpha ol-marker-1" id="activities-28-11-3-1">
+<li id="activities-28-11-3-1-1">
+<div class="para logical" id="activities-28-11-3-1-1-1">
+<div class="displaymath process-math" id="activities-28-11-3-1-1-1-1">
+\begin{align*}
+3^t \amp = 5\\
+\ln(3^t) \amp = \ln(5)\\
+t\ln(3) \amp = \ln(5)\\
+t \amp = \dfrac{\ln(5)}{\ln(3)} \text{ (exact)}\\
+\amp  \approx 1.46497  \text{ (approx)}
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-11-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item a"><a tabindex="-1" href="#activities-28-11-3-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="activities-28-11-3-1-2">
+<div class="para logical" id="activities-28-11-3-1-2-1">
+<div class="displaymath process-math" id="activities-28-11-3-1-2-1-1">
+\begin{align*}
+4\cdot 2^t-2 \amp = 3\\
+4\cdot 2^t \amp = 5\\
+2^t \amp = \dfrac{5}{4}\\
+\ln(2^t) \amp = \ln(\dfrac{5}{4})\\
+t\ln(2) \amp = \ln(\dfrac{5}{4})\\
+t \amp = \dfrac{\ln(5/4)}{\ln(2)} \text{ (exact)} \\
+\amp \approx 0.32193
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-11-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item b"><a tabindex="-1" href="#activities-28-11-3-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="activities-28-11-3-1-3">
+<div class="para logical" id="activities-28-11-3-1-3-1">
+<div class="displaymath process-math" id="activities-28-11-3-1-3-1-1">
+\begin{align*}
+3.7\cdot(0.9)^{0.3t}+1.5 \amp = 2.1\\
+3.7\cdot(0.9)^{0.3t} \amp = 0.6\\
+(0.9)^{0.3t} \amp = \dfrac{6}{37}\\
+\ln((0.9)^{0.3t}) \amp = \ln(\dfrac{6}{37})\\
+0.3t\ln(0.9) \amp = \ln\left(\dfrac{6}{37}\right)\\
+t \amp = \dfrac{\ln(6/37)}{0.3\ln(0.9)} \text{(exact)}\\
+\amp \approx 57.55345
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-11-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item c"><a tabindex="-1" href="#activities-28-11-3-1-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="activities-28-11-3-1-4">
+<div class="para logical" id="activities-28-11-3-1-4-1">
+<div class="displaymath process-math" id="activities-28-11-3-1-4-1-1">
+\begin{align*}
+72 - 30(0.7)^{0.05t} \amp = 60\\
+-30(0.7)^{0.05t} \amp = -12\\
+(0.7)^{0.05t} \amp = \dfrac{12}{30}\\
+\ln((0.7)^{0.05t}) \amp = \ln(\dfrac{12}{30})\\
+0.05t\ln((0.7)) \amp = \ln(\dfrac{12}{30})\\
+t \amp = \dfrac{\ln(2/5)}{0.05\ln(0.7)} \text{(exact)}\\
+\amp \approx 51.37960 
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-11-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item d"><a tabindex="-1" href="#activities-28-11-3-1-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="activities-28-11-3-1-5">
+<div class="para logical" id="activities-28-11-3-1-5-1">
+<div class="para">For this one, we use the relationship between <span class="process-math">\(e^a = b\)</span> and <span class="process-math">\(\ln(b)=a\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="activities-28-11-3-1-5-1-3">
+\begin{align*}
+\ln(t) \amp = -2\\
+t \amp = e^{-2} \text{(exact)}\\
+\amp \approx 0.13534
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-11-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item e"><a tabindex="-1" href="#activities-28-11-3-1-5" title="Copy heading and permalink for Item e" aria-label="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+<li id="activities-28-11-3-1-6">
+<div class="para logical" id="activities-28-11-3-1-6-1">
+<div class="para">For this one, we use the relationship between <span class="process-math">\(10^a = b\)</span> and <span class="process-math">\(\log_{10}(b)=a\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="activities-28-11-3-1-6-1-3">
+\begin{align*}
+3+2\log_{10}(t) \amp = 3.5\\
+2\log_{10}(t) \amp = 0.5\\
+\log_{10}(t) \amp = 0.25\\
+t \amp = 10^{0.25} \text{(exact)}\\
+\amp \approx 1.77828
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-11-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item f"><a tabindex="-1" href="#activities-28-11-3-1-6" title="Copy heading and permalink for Item f" aria-label="Copy heading and permalink for Item f">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 118.1"><a tabindex="-1" href="#activities-28-11-3" title="Copy heading and permalink for Solution 118.1" aria-label="Copy heading and permalink for Solution 118.1">🔗</a></div>
+</div></details>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Activity 118: Activity 3.5.2"><a tabindex="-1" href="#activities-28-11" title="Copy heading and permalink for Activity 118: Activity 3.5.2" aria-label="Copy heading and permalink for Activity 118: Activity 3.5.2">🔗</a></div>
 </article>
@@ -609,6 +763,60 @@ e^{\ln(y)} = \fillinmath{X}
 <td class="l m b0 r0 l0 t0 lines"></td>
 </tr>
 </table></div>
+<div class="solutions">
+<details id="activities-28-13-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\quad f(x)=-e^{-(x-1)}+1 \quad \)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\quad g(x)=\ln(x) \quad \)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r1 l0 t0 lines">Domain:</td>
+<td class="l m b0 r1 l0 t0 lines"><span class="process-math">\((-\infty,\infty)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,\infty)\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r1 l0 t0 lines">Range:</td>
+<td class="l m b0 r1 l0 t0 lines"><span class="process-math">\((-\infty,1)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((-\infty,\infty)\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r1 l0 t0 lines">
+<span class="process-math">\(x\)</span>-intercept</td>
+<td class="l m b0 r1 l0 t0 lines"><span class="process-math">\((1,0)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((1,0)\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r1 l0 t0 lines">
+<span class="process-math">\(y\)</span>-intercept</td>
+<td class="l m b0 r1 l0 t0 lines"><span class="process-math">\((0,1-e)\approx(0,-1.718)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">DNE</td>
+</tr>
+<tr>
+<td class="l m b0 r1 l0 t0 lines">increasing or decreasing:</td>
+<td class="l m b0 r1 l0 t0 lines">increasing</td>
+<td class="l m b0 r0 l0 t0 lines">increasing</td>
+</tr>
+<tr>
+<td class="l m b0 r1 l0 t0 lines">concave up or down:</td>
+<td class="l m b0 r1 l0 t0 lines">concave down</td>
+<td class="l m b0 r0 l0 t0 lines">concave down</td>
+</tr>
+<tr>
+<td class="l m b0 r1 l0 t0 lines">grow to <span class="process-math">\(\infty\)</span> or bounded:</td>
+<td class="l m b0 r1 l0 t0 lines">bounded above by <span class="process-math">\(1\)</span>
+</td>
+<td class="l m b0 r0 l0 t0 lines">grows to <span class="process-math">\(\infty\)</span>
+</td>
+</tr>
+</table></div>
+<div class="para" id="activities-28-13-3-2-2">They have a few things in common and a few things different.  What do you notice?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 119.a.1"><a tabindex="-1" href="#activities-28-13-3-2" title="Copy heading and permalink for Solution 119.a.1" aria-label="Copy heading and permalink for Solution 119.a.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="0cm"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 119.a"><a tabindex="-1" href="#activities-28-13-3" title="Copy heading and permalink for Task 119.a" aria-label="Copy heading and permalink for Task 119.a">🔗</a></div>
 </article>
@@ -644,6 +852,41 @@ e^{\ln(y)} = \fillinmath{X}
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-28-13-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-28-13-4-2-1">
+<ul class="disc" id="activities-28-13-4-2-1-1">
+<li id="activities-28-13-4-2-1-1-1">
+<div class="para" id="activities-28-13-4-2-1-1-1-1">
+<span class="process-math">\(a\text{:}\)</span> a vertical stretch, the sign determines whether it flips over the x-axis<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-4-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-28-13-4-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-28-13-4-2-1-1-2">
+<div class="para" id="activities-28-13-4-2-1-1-2-1">
+<span class="process-math">\(b\text{:}\)</span> shifts left/right so a horizontal shift<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-4-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-28-13-4-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-28-13-4-2-1-1-3">
+<div class="para" id="activities-28-13-4-2-1-1-3-1">
+<span class="process-math">\(c\text{:}\)</span> shifts up/down so a vertical shift by <span class="process-math">\(c\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-4-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-28-13-4-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-28-13-4-2-1-1-4">
+<div class="para" id="activities-28-13-4-2-1-1-4-1">
+<span class="process-math">\(k\text{:}\)</span> a horizontal stretch, also affects increasing or decreasing (if it flips over y-axis)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-4-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-28-13-4-2-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 119.b.1"><a tabindex="-1" href="#activities-28-13-4-2" title="Copy heading and permalink for Solution 119.b.1" aria-label="Copy heading and permalink for Solution 119.b.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="0cm"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 119.b"><a tabindex="-1" href="#activities-28-13-4" title="Copy heading and permalink for Task 119.b" aria-label="Copy heading and permalink for Task 119.b">🔗</a></div>
 </article>
@@ -672,6 +915,37 @@ e^{\ln(y)} = \fillinmath{X}
 </li>
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-28-13-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-28-13-5-2-1">
+<div class="para">Start from <span class="process-math">\(y=\ln(t)\text{.}\)</span>
+</div>
+<ul class="disc" id="activities-28-13-5-2-1-2">
+<li id="activities-28-13-5-2-1-2-1">
+<div class="para" id="activities-28-13-5-2-1-2-1-1">
+<span class="process-math">\(a\text{:}\)</span> vertical stretch, affects increasing or decreasing (if it flips over the x-axis or not)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-5-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-28-13-5-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-28-13-5-2-1-2-2">
+<div class="para" id="activities-28-13-5-2-1-2-2-1">
+<span class="process-math">\(b\text{:}\)</span> horizontal shift left/right<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-5-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-28-13-5-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="activities-28-13-5-2-1-2-3">
+<div class="para" id="activities-28-13-5-2-1-2-3-1">
+<span class="process-math">\(c\text{:}\)</span> vertical shift up/down<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-5-2-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#activities-28-13-5-2-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 119.c.1"><a tabindex="-1" href="#activities-28-13-5-2" title="Copy heading and permalink for Solution 119.c.1" aria-label="Copy heading and permalink for Solution 119.c.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="0in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 119.c"><a tabindex="-1" href="#activities-28-13-5" title="Copy heading and permalink for Task 119.c" aria-label="Copy heading and permalink for Task 119.c">🔗</a></div>
@@ -709,6 +983,23 @@ e^{\ln(y)} = \fillinmath{X}
 </tr>
 </table></div> 
 <div class="para" id="activities-28-13-6-1-3">Do you think this data is better modeled by a logarithmic function of form  <span class="process-math">\({p(t)=a\ln(t-b)+c}\)</span> or by an exponential function of form <span class="process-math">\({q(t)=me^{-rt}+n}\text{.}\)</span> Provide reasons based in how the data appears and how you think a tree grows, as well as by experimenting with sliders appropriately in Desmos. (Note: you may need to adjust the upper and lower bounds of several of the sliders in order to match the data well.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-6-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-28-13-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-28-13-6-2-1">Trees don’t grow infinitely tall, they have some max height. So maybe exponential is the “better” choice?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="activities-28-13-6-2-2">
+<div class="para">We can play with the sliders.  Somewhere around the following ish?</div>
+<div class="displaymath process-math" id="activities-28-13-6-2-2-1">
+\begin{equation*}
+q(t) \approx -20.8e^{-0.35t}+20.3 \text{ (ish...)}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-13-6-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 119.d.1"><a tabindex="-1" href="#activities-28-13-6-2" title="Copy heading and permalink for Solution 119.d.1" aria-label="Copy heading and permalink for Solution 119.d.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 119.d"><a tabindex="-1" href="#activities-28-13-6" title="Copy heading and permalink for Task 119.d" aria-label="Copy heading and permalink for Task 119.d">🔗</a></div>
@@ -752,6 +1043,84 @@ e^{\ln(y)} = \fillinmath{X}
 </ol>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-14-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-28-14-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-28-14-3-1">For the following problems, use algebra to get the exponential alone first.  Then either use the relationship between exponential functions of base <span class="process-math">\(e\)</span> and natural log functions, or take the natural log of both side and use the relationship of inverses, that <span class="process-math">\(\ln(e^a) = a\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-14-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="lower-alpha ol-marker-1" id="activities-28-14-3-2">
+<li id="activities-28-14-3-2-1">
+<div class="para logical" id="activities-28-14-3-2-1-1">
+<div class="displaymath process-math" id="activities-28-14-3-2-1-1-1">
+\begin{align*}
+41 \amp = 50e^{-7k}\\
+\dfrac{41}{50} \amp = e^{-7k} \\
+\ln\left(\dfrac{41}{50}\right) \amp = -7k\\
+k \amp = \dfrac{\ln(41/50)}{-7} \text{ (exact)}\\
+\amp  \approx 0.02835
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-14-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item a"><a tabindex="-1" href="#activities-28-14-3-2-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="activities-28-14-3-2-2">
+<div class="para logical" id="activities-28-14-3-2-2-1">
+<div class="displaymath process-math" id="activities-28-14-3-2-2-1-1">
+\begin{align*}
+65 \amp = 34+47e^{-45k}\\
+31 \amp = 47e^{-45k}\\
+\dfrac{31}{47} \amp e^{-45k}\\
+\ln(\dfrac{31}{47}) \amp -45k\\
+k \amp = \dfrac{\ln(31/47)}{-45} \text{ (exact)}\\
+\amp \approx 0.00925
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-14-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item b"><a tabindex="-1" href="#activities-28-14-3-2-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="activities-28-14-3-2-3">
+<div class="para logical" id="activities-28-14-3-2-3-1">
+<div class="displaymath process-math" id="activities-28-14-3-2-3-1-1">
+\begin{align*}
+7e^{2k-1}+4 \amp = 32\\
+7e^{2k-1} \amp = 28\\
+e^{2k-1} \amp = 4\\
+2k-1 \amp = \ln(4)\\
+2k \amp =1+\ln(4) \\
+k \amp = \dfrac{1+\ln(4)}{2} \text{ (exact)}\\
+\amp \approx 1.19315
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-14-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item c"><a tabindex="-1" href="#activities-28-14-3-2-3" title="Copy heading and permalink for Item c" aria-label="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="activities-28-14-3-2-4">
+<div class="para logical" id="activities-28-14-3-2-4-1">
+<div class="para">Here we need to do essentially the same thing, get the exponential by itself first.  To do that, we need to get the whole denominator out of the denominator. Since it’s in the denominator it is being divided, so we can multiply both sides by the entire denominator first.  On the left they will cancel.</div>
+<div class="displaymath process-math" id="activities-28-14-3-2-4-1-1">
+\begin{align*}
+\dfrac{5}{1+2e^{-10k}} \amp = 4\\
+(1+2e^{-10k})\dfrac{5}{1+2e^{-10k}} \amp = 4(1+2e^{-10k})\\
+5 \amp = 4\left(1+2e^{-10k}\right)\\
+5 \amp = 4+8e^{-10k}\\
+1 \amp = 8e^{-10k}\\
+\frac18 \amp = e^{-10k}\\
+\ln(\dfrac{1}{8}) \amp = {-10k}\\
+k \amp = \dfrac{\ln(1/8)}{-10} \text{(exact)}\\
+\amp \approx 0.20794
+\end{align*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-14-3-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item d"><a tabindex="-1" href="#activities-28-14-3-2-4" title="Copy heading and permalink for Item d" aria-label="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 120.1"><a tabindex="-1" href="#activities-28-14-3" title="Copy heading and permalink for Solution 120.1" aria-label="Copy heading and permalink for Solution 120.1">🔗</a></div>
+</div></details>
+</div>
 <div class="autopermalink" aria-hidden="true" data-description="Activity 120: Activity 3.5.4"><a tabindex="-1" href="#activities-28-14" title="Copy heading and permalink for Activity 120: Activity 3.5.4" aria-label="Copy heading and permalink for Activity 120: Activity 3.5.4">🔗</a></div>
 </article>
 <article class="activity project-like" id="activities-28-15"><h2 class="heading">
@@ -772,17 +1141,64 @@ P(t)=Ae^{kt}
 <article class="task exercise-like" id="activities-28-15-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
 <div class="para" id="activities-28-15-3-1-1">Consider a population of bacteria <span class="process-math">\(P(t)\)</span> where <span class="process-math">\(P\)</span> is measure in millions of cells and <span class="process-math">\(t\)</span> is in hours.  We know <span class="process-math">\(P(0)=2.475\text{,}\)</span> and <span class="process-math">\(P(10)=4.298\text{.}\)</span>  Find a model of the form <span class="process-math">\(P(t)=Ae^{kt}\)</span> that fits this data by first plugging in <span class="process-math">\(P(0)\)</span> to determine <span class="process-math">\(A\text{,}\)</span> and then plugging in <span class="process-math">\(P(10)\)</span> to determine <span class="process-math">\(k\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-15-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-28-15-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-28-15-3-2-1">
+<div class="para">Since <span class="process-math">\(P(0)=Ae^{0}=A\text{,}\)</span> and <span class="process-math">\(P(0)=2.475\)</span> as well, we get <span class="process-math">\(A=2.475\text{.}\)</span>  We can plug that in so <span class="process-math">\(P(t)=2.475e^{kt}\text{.}\)</span> Then we know <span class="process-math">\(P(10)=4.298\text{,}\)</span> so we can plug that in and simplify to get:</div>
+<div class="displaymath process-math" id="activities-28-15-3-2-1-6">
+\begin{align*}
+4.298 \amp = 2.475e^{10k} \\
+\dfrac{4.298}{2.475}\amp e^{10k}\\
+\ln(\dfrac{4.298}{2.475})\amp {10k}\\
+k \amp = \dfrac{1}{10}\ln\left(\dfrac{4.298}{2.475}\right) \text{ (exact)}\\
+\amp \approx 0.05519
+\end{align*}
+</div>
+<div class="para">So <span class="process-math">\(P(t) = 2.475 e^{\dfrac{1}{10}\ln\left(\dfrac{4.298}{2.475}\right) t}\)</span> (or <span class="process-math">\(P(t)\approx 2.475e^{0.05519t}\)</span>).</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-15-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 121.a.1"><a tabindex="-1" href="#activities-28-15-3-2" title="Copy heading and permalink for Solution 121.a.1" aria-label="Copy heading and permalink for Solution 121.a.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1.5in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 121.a"><a tabindex="-1" href="#activities-28-15-3" title="Copy heading and permalink for Task 121.a" aria-label="Copy heading and permalink for Task 121.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-28-15-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
 <div class="para" id="activities-28-15-4-1-1">How many bacteria are there after 20 hours (<span class="process-math">\(t=20\)</span>)?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-15-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="solutions">
+<details id="activities-28-15-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="activities-28-15-4-2-1">Plug in <span class="process-math">\(t=20\text{,}\)</span> and we get <span class="process-math">\(P(20)=2.475e^{\frac{1}{10}\ln\left(4.298/2.475\right) (20)}\text{,}\)</span> which is terrible but it turns out to be approximately <span class="process-math">\(7.464\)</span> million bacteria.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-15-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 121.b.1"><a tabindex="-1" href="#activities-28-15-4-2" title="Copy heading and permalink for Solution 121.b.1" aria-label="Copy heading and permalink for Solution 121.b.1">🔗</a></div>
+</div></details>
+</div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 121.b"><a tabindex="-1" href="#activities-28-15-4" title="Copy heading and permalink for Task 121.b" aria-label="Copy heading and permalink for Task 121.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="activities-28-15-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
 <div class="para" id="activities-28-15-5-1-1">How long does it take the population of bacteria to reach 1 billion cells (1000 million cells)?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-15-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="activities-28-15-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para logical" id="activities-28-15-5-2-1">
+<div class="para">No we are looking for <span class="process-math">\(t\)</span> when <span class="process-math">\(P(t) = 1000\text{,}\)</span> so we are solving the following for <span class="process-math">\(t\)</span> (we’ll leave <span class="process-math">\(k\)</span> here until the very end, but we know it’s exact value as found in part 1):</div>
+<div class="displaymath process-math" id="activities-28-15-5-2-1-5">
+\begin{align*}
+1000 \amp = 2.475e^{kt} \\
+\dfrac{1000}{2.475} \amp = e^{kt} \\
+\ln(\dfrac{1000}{2.475}) \amp = {kt} \\
+t \amp = \dfrac{\ln(1000/2.475)}{k} 
+\end{align*}
+</div>
+<div class="para">And now we can plug in <span class="process-math">\(k\text{.}\)</span>  For the sake of not making it too complicated, it is approximately <span class="process-math">\(t\approx 108.741\)</span> hours (or about 4.5 days).</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activities-28-15-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 121.c.1"><a tabindex="-1" href="#activities-28-15-5-2" title="Copy heading and permalink for Solution 121.c.1" aria-label="Copy heading and permalink for Solution 121.c.1">🔗</a></div>
+</div></details>
 </div>
 <div class="workspace" data-space="1in"></div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 121.c"><a tabindex="-1" href="#activities-28-15-5" title="Copy heading and permalink for Task 121.c" aria-label="Copy heading and permalink for Task 121.c">🔗</a></div>
