@@ -1510,16 +1510,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 4.1: Right Triangles",
-  "body": " Section 4.1: Right Triangles    Pythagorean Theorem for right triangles: Fundamental Trig Identity:   Angles of a triangle:  Right Triangles:  Similar Triangles:  (Brief and incomplete) explanation of trig inverse:   Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .      Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .      Ratios in right triangles    In a right triangle where one of the non-right angles is :    “adj” is the length of the leg adjacent to ,  “opp” is the length the side opposite ,  “hyp” is the length of the hypotenuse,          Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .      Missing info in right triangles    Known  Can Find    Two leg lengths  Third leg length    One non-right angle  Remaining non-right angle    One non-right angle & hypotenuse  Remaining angle and both leg lengths      Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?     "
-},
-{
-  "id": "activities-30-5",
-  "level": "2",
-  "url": "activities-30.html#activities-30-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Similar Triangles: "
+  "body": " Section 4.1: Right Triangles   MTH 124     The unit circle with central angle t and x coordinate cos(t) and y coordinate sin(t).        (\\cos(t), \\sin(t))  (1,0)  1  t       The unit circle with central angle t and x coordinate cos(t) and y coordinate sin(t).            1  \\theta  \\sin(\\theta)  \\cos(\\theta)      Pythagorean Theorem for right triangles: Fundamental Trig Identity:   Angles of a triangle:  Right Triangles:  Similar Triangles: One triangle is a magnification of the other. Same angles!  (Brief and incomplete) explanation of trig inverse:   Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .   Two right triangles which share vertex 𝑂: a larger one, △𝑂⁢𝑃⁢𝑄 whose hypotenuse is r, and a smaller one, △𝑂⁢𝑀⁢𝑁 whose hypotenuse is 1         \\theta  1  y  x  r         Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .      Ratios in right triangles    In a right triangle where one of the non-right angles is :    “adj” is the length of the leg adjacent to ,  “opp” is the length the side opposite ,  “hyp” is the length of the hypotenuse,       A right triangle with a non-right angle theta and sides labeled adjacent, opposite, and hypotenuse.       \\theta  opp  adj  hyp         Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .      Missing info in right triangles    Known  Can Find    Two leg lengths  Third leg length    One non-right angle  Remaining non-right angle    One non-right angle & hypotenuse  Remaining angle and both leg lengths      Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?   A right triangle with a non-right angle 56.4.       56.4^\\circ  50          "
 },
 {
   "id": "activities-30-6",
@@ -1528,34 +1519,43 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "(Brief and incomplete) explanation of trig inverse: "
+  "body": "Similar Triangles: "
 },
 {
   "id": "activities-30-7",
   "level": "2",
   "url": "activities-30.html#activities-30-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "(Brief and incomplete) explanation of trig inverse: "
+},
+{
+  "id": "activities-30-8",
+  "level": "2",
+  "url": "activities-30.html#activities-30-8",
   "type": "Activity",
   "number": "125",
   "title": "Activity 4.1.2.",
-  "body": " Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .      Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .    "
+  "body": " Activity 4.1.2   Consider right triangle given in the figure below, and assume that the length of the hypotenuse is for some constant . The point lies on the line segment between and in such a way that the length , and point lies on the line segment between and so that the angle is a right angle, as pictured. In addition, assume that point corresponds to , point to , and point to so that and . Finally, let be the measure of angle .   Two right triangles which share vertex 𝑂: a larger one, △𝑂⁢𝑃⁢𝑄 whose hypotenuse is r, and a smaller one, △𝑂⁢𝑀⁢𝑁 whose hypotenuse is 1         \\theta  1  y  x  r         Explain why and are similar triangles.      What is the value of the ratio ? According to the definition of similar triangles, what does this tell you about the ratios and ?      What is the value of in terms of ? What is the value of in terms of ? (Think unit circle! Top of page!)      Use your conclusions in (b) and (c) to express the values of and in terms of and .    "
 },
 {
-  "id": "activities-30-9",
+  "id": "activities-30-10",
   "level": "2",
-  "url": "activities-30.html#activities-30-9",
+  "url": "activities-30.html#activities-30-10",
   "type": "Activity",
   "number": "126",
   "title": "Activity 4.1.3.",
   "body": " Activity 4.1.3   In each of the following scenarios involving a right triangle, determine the exact values of as many of the remaining side lengths and angle measures (in radians) that you can. If there are quantities that you cannot determine, explain why. For every prompt, draw a labeled diagram of the situation. (Pictures help!)     A right triangle with hypotenuse and one non-right angle of measure .      A right triangle with non-right angle that satisfies .      A right triangle where one of the non-right angles has measure and the hypotenuse has length .      A right triangle with hypotenuse and one leg of length .      A right triangle with legs of length and .      A right triangle where one of the non-right angles has measure and the leg opposite this angle has length .    "
 },
 {
-  "id": "activities-30-11",
+  "id": "activities-30-12",
   "level": "2",
-  "url": "activities-30.html#activities-30-11",
+  "url": "activities-30.html#activities-30-12",
   "type": "Activity",
   "number": "127",
   "title": "Activity 4.1.4.",
-  "body": " Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?    "
+  "body": " Activity 4.1.4   We want to determine the distance between two points and that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk meters downstream from to point and use the bubble level app on your phone to measure . If the measure of is , how wide is the river? What other information about the situation can you determine?   A right triangle with a non-right angle 56.4.       56.4^\\circ  50         "
 },
 {
   "id": "activities-31",
