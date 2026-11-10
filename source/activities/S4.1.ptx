@@ -1,17 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
   <title>Section 4.1: Right Triangles</title>
+  <p>
+    <alert>MTH 124</alert>
+  </p>
 
-  <sidebyside widths="45% 45%">
-    <image source="images/4.1"/>
+  <sidebyside widths="25% 25% 30%">
+    <image>
+      <shortdescription>
+        The unit circle with central angle t and x coordinate cos(t) and y coordinate sin(t).
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-1-0a">
+        <diagram dimensions="(300,300)" margins="18">
+          <coordinates bbox="(-1.2,-1.2,1.2,1.2)">
+            <axes decorations="no"/>
+            <circle radius="1" center="(0,0)" stroke="blue"/>
+            <line endpoints="((0,0),(cos(0.4*pi),sin(0.4*pi)))" dash="4 4" stroke="red"/>
+            <point p="(cos(0.4*pi),sin(0.4*pi))"><m>(\cos(t), \sin(t))</m></point>
+            <point p="(cos(0),sin(0))"><m>(1,0)</m></point>
+            <label anchor="(0.1,0.6)"><m>1</m></label>
+            <label anchor="(0.1,0.1)"><m>t</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <image>
+      <shortdescription>
+        The unit circle with central angle t and x coordinate cos(t) and y coordinate sin(t).
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-1-0b">
+        <diagram dimensions="(300,300)" margins="18">
+          <coordinates bbox="(-1.2,-1.2,1.2,1.2)">
+            <axes decorations="no"/>
+            <circle radius="1" center="(0,0)" stroke="blue"/>
+            <line endpoints="((0,0),(cos(0.4*pi),sin(0.4*pi)))" stroke="red" thickness="3"/>
+            <line endpoints="((0,0),(cos(0.4*pi),sin(0)))" stroke="red" thickness="5"/>
+            <line endpoints="((cos(0.4*pi),0),(cos(0.4*pi),sin(0.4*pi)))" stroke="red" thickness="3"></line>
+            <point p="(cos(0.4*pi),sin(0.4*pi))"></point>
+            <point p="(cos(0.4*pi),sin(0))"></point>
+            <label anchor="(0.1,0.6)"><m>1</m></label>
+            <label anchor="(0.1,0.1)"><m>\theta</m></label>
+            <label anchor="(0.55,0.4)"><m>\sin(\theta)</m></label>
+            <label anchor="(0.2,-0.15)"><m>\cos(\theta)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+    
     <p>Pythagorean Theorem for right triangles:
 <md>a^2+b^2 = c^2</md>
 Fundamental Trig Identity:
 <md>\cos^2(\theta) + \sin^2(\theta) = 1</md></p>
   </sidebyside>
-  <p workspace=".8in">Angles of a triangle:</p>
-  <p workspace=".8in">Right Triangles:</p>
-  <p workspace="3in"><term>Similar Triangles:</term></p>
+
+  <p workspace=".5in">Angles of a triangle:</p>
+  <p workspace=".5in">Right Triangles:</p>
+  <p workspace="1.5in"><term>Similar Triangles:</term> One triangle is a magnification of the other.  Same angles!</p>
   <p workspace="1in"><term>(Brief and incomplete) explanation of trig inverse:</term></p>
 
   <activity>
@@ -24,7 +69,7 @@ Fundamental Trig Identity:
  lies on the line segment between 
  <m>O</m> and <m>P</m> in such a way that the length <m>OM=1</m> , and point <m>N</m>
  lies on the line segment between <m>O</m> and <m>Q</m>
- so that the angle <m>\langle ONM</m> 
+ so that the angle <m>\angle ONM</m> 
  is a right angle, as pictured. In addition, assume that point <m>O</m>
  corresponds to <m>(0,0)</m>,
  point <m>Q</m>
@@ -34,8 +79,29 @@ Fundamental Trig Identity:
  so that <m>OQ=x</m>
  and <m>PQ=y</m>.
  Finally, let <m>\theta</m>
- be the measure of angle <m>\langle POQ</m>.</p>
-      <image source="images/4.1.2" width="50%"/>
+ be the measure of angle <m>\angle POQ</m>.</p>
+          <image width="55%" margins="0% 45%">
+      <shortdescription>
+        Two right triangles which share vertex 𝑂: a larger one, △𝑂⁢𝑃⁢𝑄 whose hypotenuse is r, and a smaller one, △𝑂⁢𝑀⁢𝑁 whose hypotenuse is 1
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-1-2">
+        <diagram dimensions="(300,150)" margins="18">
+          <coordinates bbox="(-1,-1,13,5)">
+            <triangle vertices="((0,0),(12,0),(12,4))"  stroke="blue" labels="O,Q,P"
+              show-vertices="yes" point-fill="orange"/>
+              <triangle vertices="((0,0),(4,0),(4,4/3))"  stroke="blue" labels="O,N,M"
+              show-vertices="yes" point-fill="orange"/>
+              <angle-marker points="((12,4),(12,0),(0,0))" stroke="red"/>
+              <angle-marker points="((4,4/3),(4,0),(0,0))" stroke="red"/>
+              <label anchor="(1.8,.29)"><m>\theta</m></label>
+              <label anchor="(1.8,1.29)"><m>1</m></label>
+              <label anchor="(12.4,2.)"><m>y</m></label>
+              <label anchor="(4.3,-1)"><m>x</m></label>
+              <label anchor="(3.8,2.8)"><m>r</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
     </introduction>
     <task workspace="1in">
       <statement>
@@ -73,7 +139,7 @@ Fundamental Trig Identity:
 
   <assemblage>
     <title>Ratios in right triangles</title>
-    <sidebyside widths="45% 45%">
+    <sidebyside widths="60% 30%">
       <stack>
         <p>In a right triangle where one of the non-right angles is <m>\theta</m>:</p>
         <p>
@@ -85,7 +151,24 @@ Fundamental Trig Identity:
         </p>
         <p><md>\cos(\theta) = \frac{\text{adj}}{\text{hyp}} \ \ \ \text{ and } \ \ \ \sin(\theta) = \frac{\text{opp}}{\text{hyp}}</md></p>
       </stack>
-      <image source="images/4.1r"/>
+          <image>
+      <shortdescription>
+        A right triangle with a non-right angle theta and sides labeled adjacent, opposite, and hypotenuse.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-1-ratios">
+        <diagram dimensions="(200,200)" margins="18">
+          <coordinates bbox="(-1,-1.5,13,19)">
+            <triangle vertices="((0,0),(12,0),(12,18))" stroke="blue" 
+              show-vertices="no"/>
+              <angle-marker points="((12,4),(12,0),(0,0))" stroke="red"/>
+              <label anchor="(1.8,1.29)"><m>\theta</m></label>
+              <label anchor="(12.8,9.)"><m>opp</m></label>
+              <label anchor="(6.3,-1)"><m>adj</m></label>
+              <label anchor="(5.8,10.8)"><m>hyp</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
     </sidebyside>
   </assemblage>
 
@@ -159,17 +242,34 @@ Fundamental Trig Identity:
 
   <activity>
     <title>Activity 4.1.4</title>
-    <statement>
+    <statement workspace="1in">
       <p>We want to determine the distance between two points <m>A</m>
  and <m>B</m>
  that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk <m>50</m>
  meters downstream from <m>B</m>
  to point <m>P</m> 
- and use the bubble level app on your phone to measure <m>\langle BPA</m>.
- If the measure of <m>\langle BPA</m>
+ and use the bubble level app on your phone to measure <m>\angle BPA</m>.
+ If the measure of <m>\angle BPA</m>
  is <m>56.4^{\circ}</m>,
  how wide is the river? What other information about the situation can you determine?</p>
-      <image source="images/4.1.4" width="50%"/>
+          <image width="35%" margins="0% 65%">
+      <shortdescription>
+        A right triangle with a non-right angle 56.4.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-1-4">
+        <diagram dimensions="(300,300)" margins="18">
+          <coordinates bbox="(-2,-1.5,14,20)">
+            <triangle vertices="((0,0),(12,0),(12,18))"  stroke="blue" 
+              show-vertices="yes" dash="4 4" labels="P,B,A" />
+              <angle-marker points="((12,4),(12,0),(0,0))" stroke="red"/>
+              <label anchor="(1.9,1.)"><m>56.4^\circ</m></label>
+              <label anchor="(6.3,-1)"><m>50</m></label>
+              <line endpoints="((-2,0),(14,0))"/>
+              <line endpoints="((-2,18),(14,18))"/>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
     </statement>
   </activity>
 
