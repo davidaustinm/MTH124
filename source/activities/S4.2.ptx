@@ -1,58 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <handout>
   <title>Section 4.2: The Tangent Function</title>
+  <p>
+    <alert>MTH 124</alert>
+  </p>
 
-  <image source="images/4.2c" width="50%"/>
-  <image source="images/4.2t" width="50%"/>
+<sidebyside widths="25% 25% 35%">
+  
 
-  <definition>
-    <title>Definition 4.2.2</title>
-    <statement>
-      <p><term>Tangent.</term>
-    <md>\tan(\theta)=\frac{\sin(\theta)}{\cos(\theta)}, \ \ \ \text{if } \cos(\theta)\ne 0</md></p>
-    </statement>
-  </definition>
+  <image>
+      <shortdescription>
+        The unit circle with central angle t and x coordinate cos(t) and y coordinate sin(t).
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-2-0a">
+        <diagram dimensions="(250,250)" margins="18">
+          <coordinates bbox="(-1.2,-1.2,1.2,1.2)">
+            <axes decorations="no"/>
+            <circle radius="1" center="(0,0)" stroke="blue"/>
+            <line endpoints="((0,0),(cos(0.4*pi),sin(0.4*pi)))" stroke="red" thickness="3"/>
+            <line endpoints="((0,0),(cos(0.4*pi),sin(0)))" stroke="red" thickness="5"/>
+            <line endpoints="((cos(0.4*pi),0),(cos(0.4*pi),sin(0.4*pi)))" stroke="red" thickness="3"></line>
+            <point p="(cos(0.4*pi),sin(0.4*pi))"></point>
+            <point p="(cos(0.4*pi),sin(0))"></point>
+            <label anchor="(0.1,0.6)"><m>1</m></label>
+            <label anchor="(0.1,0.1)"><m>\theta</m></label>
+            <label anchor="(0.55,0.4)"><m>\sin(\theta)</m></label>
+            <label anchor="(0.2,-0.15)"><m>\cos(\theta)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+      <image>
+      <shortdescription>
+        A right triangle with a non-right angle theta and sides labeled adjacent, opposite, and hypotenuse.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-2-0b">
+        <diagram dimensions="(250,250)" margins="18">
+          <coordinates bbox="(-2,-1.5,14,18)">
+            <triangle vertices="((0,0),(12,0),(12,18))"  stroke="blue" 
+              show-vertices="no" />
+              <angle-marker points="((12,4),(12,0),(0,0))" stroke="red"/>
+              <label anchor="(1.9,1.)"><m>\theta</m></label>
+              <label anchor="(6.3,-1)"><m>adj</m></label>
+               <label anchor="(13,9)"><m>opp</m></label>
+                <label anchor="(6.3, 11)"><m>hyp</m></label>
+              
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
 
-  <p workspace="1in">For triangles:</p>
+  <p>
+    <term>Definition 4.2.2: Tangent.</term>
+    <md>
+    <mrow>\tan(\theta) \amp =\frac{\sin(\theta)}{\cos(\theta)}, </mrow>
+    <mrow>\amp \text{if } \cos(\theta)\ne 0 </mrow> </md>
+    </p>
+
+  </sidebyside>
+
+  <p workspace="0.5in">For triangles:</p>
   <p>The special values on the unit circle for angles <m>t</m> are shown below:</p>
-  <image source="images/4.2t1" width="50%"/>
-  <image source="images/4.2t2" width="50%"/>
-  <image source="images/4.2g" width="50%"/>
+  
+    <p>
+    Top half of unit circle:
+  </p>
+  <tabular>
+  <row bottom="major">
+    <cell>t</cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{\pi}{6}</m></cell>
+    <cell><m>\frac{\pi}{4}</m></cell>
+    <cell><m>\frac{\pi}{3}</m></cell>
+    <cell><m>\frac{\pi}{2}</m></cell>
+    <cell><m>\frac{2\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{4}</m></cell>
+    <cell><m>\frac{5\pi}{6}</m></cell>
+    <cell><m>\pi</m></cell>
+   
+  </row>
+  
+     <row  bottom="minor">
+    <cell><m>\sin(t)</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{1}{2}</m></cell>
+    <cell><m>\frac{\sqrt2}{2}</m></cell>
+    <cell><m>\frac{\sqrt3}{2}</m></cell>
+    <cell><m>1</m></cell>
+    <cell><m>\frac{\sqrt3}{2}</m></cell>
+    <cell><m>\frac{\sqrt2}{2}</m></cell>
+    <cell><m>\frac{1}{2}</m></cell>
+    <cell><m>0</m></cell>
+   
+ </row>
 
+ <row  bottom="minor">
+    <cell><m>\cos(t)</m></cell>
+    <cell><m>1</m></cell>
+    <cell><m>\frac{\sqrt3}2</m></cell>
+    <cell><m>\frac{\sqrt2}2</m></cell>
+    <cell><m>\frac{1}2</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>-\frac{1}2</m></cell>
+    <cell><m>-\frac{\sqrt2}2</m></cell>
+    <cell><m>-\frac{\sqrt3}2</m></cell>
+    <cell><m>-1</m></cell>
+    
+  </row>
+
+  <row  bottom="minor">
+    <cell><m>\tan(t)</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{1}{\sqrt3}</m></cell>
+    <cell><m>1</m></cell>
+    <cell><m>\sqrt{3}</m></cell>
+    <cell><m>undef</m></cell>
+    <cell><m>-\sqrt3</m></cell>
+    <cell><m>-1</m></cell>
+    <cell><m>-\frac{1}{\sqrt3}</m></cell>
+    <cell><m>0</m></cell>
+    
+  </row>
+</tabular>
+
+  <p>
+    Bottom half of unit circle:
+  </p>
+  <tabular>
+
+  <row bottom="major">
+    <cell>t</cell>
+    
+    <cell><m>\pi</m></cell>
+    <cell><m>\frac{7\pi}{6}</m></cell>
+    <cell><m>\frac{5\pi}{4}</m></cell>
+    <cell><m>\frac{4\pi}{3}</m></cell>
+    <cell><m>\frac{3\pi}{2}</m></cell>
+    <cell><m>\frac{5\pi}{3}</m></cell>
+    <cell><m>\frac{7\pi}{4}</m></cell>
+    <cell><m>\frac{11\pi}{6}</m></cell>
+    <cell><m>2\pi</m></cell>
+  </row>
+
+
+  <row bottom="minor">
+    <cell><m>\sin(t)</m></cell>
+    
+    <cell><m>0</m></cell>
+    <cell><m>-\frac{1}{2}</m></cell>
+    <cell><m>-\frac{\sqrt2}{2}</m></cell>
+    <cell><m>-\frac{\sqrt3}{2}</m></cell>
+    <cell><m>-1</m></cell>
+    <cell><m>-\frac{\sqrt3}{2}</m></cell>
+    <cell><m>-\frac{\sqrt2}{2}</m></cell>
+    <cell><m>-\frac{\sqrt1}{2}</m></cell>
+    <cell><m>0</m></cell>
+  </row>
+
+<row  bottom="minor">
+    <cell><m>\cos(t)</m></cell>
+    <cell><m>-1</m></cell>
+    <cell><m>-\frac{\sqrt3}2</m></cell>
+    <cell><m>-\frac{\sqrt2}2</m></cell>
+    <cell><m>-\frac{1}2</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{1}2</m></cell>
+    <cell><m>\frac{\sqrt2}2</m></cell>
+    <cell><m>\frac{\sqrt3}2</m></cell>
+    <cell><m>1</m></cell>
+    
+  </row>
+    <row  bottom="minor">
+    <cell><m>\tan(t)</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{1}{\sqrt3}</m></cell>
+    <cell><m>1</m></cell>
+    <cell><m>\sqrt{3}</m></cell>
+    <cell><m>undef</m></cell>
+    <cell><m>-\sqrt3</m></cell>
+    <cell><m>-1</m></cell>
+    <cell><m>-\frac{1}{\sqrt3}</m></cell>
+    <cell><m>0</m></cell>
+    
+  </row>
+  </tabular>
+  
   <assemblage>
     <title>Properties of the tangent function: <m>h(t)=\tan(t)</m></title>
+<sidebyside widths="40% 50%">
+      <image>
+      <shortdescription>
+        The tangent function plotted.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-2-0c">
+        <diagram dimensions="(350,350)" margins="18">
+          <definition>h(t)=tan(t)</definition>
+          <coordinates bbox="(-pi/2,-5,5*pi/2,5)">
+            <grid-axes h-pi-format="yes" spacings="((-pi/2,pi/4,5*pi/2),(-5,1,5))" 
+            xlabel="t" ylabel="y" hticks="(-pi/2,pi/4,5*pi/2)" hlabels="(-pi/2,pi/4,5*pi/2)"/>
+            <graph function="h"/>
+            <label anchor="(3,4)"><m>h(t)=\tan(t)</m></label>
+            <repeat parameter="k=0..12">
+             <point  p="(2*pi*k/12,h(2*pi*k/12))" size="4" fill="orange" />
+             </repeat>
+             <repeat parameter="k=1..8">
+             <point  p="(k*pi/4,h(k*pi/4))" size="4" fill="orange" />
+             </repeat>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+  
     <p>
       <ul>
-        <li><p>Domain:  all real numbers except 
- <m>t=\frac{\pi}{2}\pm k\pi</m>
+        <li><p><em>Domain:</em>  all real numbers except 
+ <m>{t=\frac{\pi}{2}\pm k\pi}</m>
  where <m>k</m>
  is any whole number;</p></li>
-        <li><p>Range: all real numbers;</p></li>
-        <li><p>Period: <m>\pi</m>;</p></li>
+        <li><p><em>Range:</em> all real numbers;</p></li>
+        <li><p><em>Period:</em> <m>\pi</m>;</p></li>
         <li><p>it is increasing on any interval on which the function is defined at every point in the interval.</p></li>
       </ul>
     </p>
-  </assemblage>
+
+  </sidebyside>
+    </assemblage>
 
   <activity>
     <title>Activity 4.2.2</title>
     <statement>
-      <p workspace="1in">The top of a 225
+      <p workspace="2in">The top of a 225
  foot tower is to be anchored by four cables that each make an angle of <m>32.5^{\circ}</m>
  with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?</p>
     </statement>
   </activity>
 
-  <activity>
+  <activity workspace="1in">
     <title>Activity 4.2.3</title>
-    <statement>
+    <statement >
       <p><q>Supertall</q> high rises have changed the Manhattan skyline. These skyscrapers are known for their small footprint in proportion to their height, with their ratio of width to height at most <m>1:10</m>,
  and some as extreme as <m>1:25</m>.
  Suppose that a relatively short <q>supertall</q> has been built to a height of 635
  feet, as pictured in the figure, and that a second <q>supertall</q> is built nearby. Given the two angles that are computed from the new building, how tall, <m>s</m>,
  is the new building, and how far apart, <m>d</m>,
  are the two towers?</p>
-      <image source="images/4.2.3" width="50%"/>
+          <image width = "35%" margins="0% 65%">
+      <shortdescription>
+        Two rectangles representing "supertall" high rises with the angles shown between them.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-2-3">
+        <diagram dimensions="(250,250)" margins="18">
+          <coordinates bbox="(-1,-1,6,11)">
+            <line endpoints="((0,0),(0,10))" thickness="6"/>
+            <label anchor="(-0.3,5)"><m>s</m></label>
+            <line endpoints="((5,0),(5,4))" thickness="6"/>
+            <label anchor="(5.5,2)"><m>635</m></label>
+            <label anchor="(2.5,-0.3)"><m>d</m></label>
+            <line endpoints="((0,0),(5,0))" thickness="1"/>
+            <line endpoints="((0,0),(5,4))" thickness="1" dash="4 4"/>
+            <line endpoints="((5,0),(0,10))" thickness="1" dash="4 4"/>
+            <label anchor="(0.5,8.1)"><m>34^\circ</m></label>
+            <label anchor="(1.2,.34)"><m>31^\circ</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
     </statement>
   </activity>
 
@@ -65,16 +278,36 @@
  as pictured in the figure. We let <m>h</m>
  represent the height of the hill relative to the two measurements, and <m>x</m>
  represent the distance from the second measurement location to the “center” of the hill that lies directly under the peak.</p>
-      <image source="images/4.2.4" width="50%"/>
+          <image width="45%" margins="0% 55%">
+      <shortdescription>
+        Triangle with various lengths and angles labeled
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-2-4">
+        <diagram dimensions="(350,200)" margins="18">
+          <coordinates bbox="(-1,-1,11,5)">
+            <triangle vertices="((0,0),(10,0),(10,4))"/>
+            <label anchor="(1.25,-0.7)"><m>1000</m></label>
+            <label anchor="(10.5,2)"><m>h</m></label>
+            <label anchor="(7,-0.7)"><m>x</m></label>
+            
+            <line endpoints="((2.5,0),(10,4))" thickness="1" dash="4 4"/>
+            <label anchor="(1.8,.3)"><m>19^\circ</m></label>
+            <label anchor="(4,.3)"><m>25^\circ</m></label>
+            <line endpoints="((0,-0.3),(2.5,-0.3))" thickness="1" arrows="2"/>
+            <line endpoints="((10,-0.3),(2.5,-0.3))" thickness="1" arrows="2"/>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
     </introduction>
-    <task workspace="1in">
+    <task workspace="0.2in">
       <statement>
         <p>Using the right triangle with the <m>25^{\circ}</m>
  angle, find an equation that relates <m>x</m>
  and <m>h</m>.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.2in">
       <statement>
         <p>Using the right triangle with the <m>19^{\circ}</m>
  angle, find a second equation that relates <m>x</m>
@@ -96,14 +329,14 @@
  decimal places.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.6in">
       <statement>
         <p>Use your preceding work to solve for <m>h</m>
  exactly, plus determine an estimate accurate to 3
  decimal places.</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.2in">
       <statement>
         <p>If the surveyors’ initial measurements were taken from an elevation of 78
  feet above sea level, how high above sea level is the peak of the hill?</p>
