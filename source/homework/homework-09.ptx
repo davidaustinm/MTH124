@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+    <title>Homework 09</title>
+
+    <introduction>
+        <p>
+            <alert>MTH 124</alert>
+        </p>
+    </introduction>
+
+    <p>
+        <alert>Due Thursday, 11/19/26 at 12:00pm (the beginning of class)</alert>
+    </p>
+
+    <p>
+        Make sure you are following the homework expectations!
+        Example: complete sentences!
+    </p>
+
+    <p>
+        Note: This is similar to Problem 5 from Section 4.1 in your text.
+    </p>
+
+    <exercise>
+        <introduction>
+            <p>
+                A trough (like one that feeds domestic animals) is constructed
+                by bending a <m>{4' \times 18'}</m> rectangular sheet of metal (that is, 4
+                feet by 18 feet).
+                Two symmetric folds 2 feet apart are made parallel to the
+                longest side of the rectangle so that the trough has
+                cross-sections in the shape of a trapezoid, as pictured below.
+                (This is the cross-sectional area that comes from bending the 
+                4 foot side, the trough in this picture
+                goes back 18 feet into the page.)
+            </p>
+                <image width="45%">
+      <shortdescription>
+        A cross-section of the trough.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw9-a">
+        <diagram dimensions="(350,100)" margins="18">
+          <coordinates bbox="(-.5,-.1,4,0.8)">
+            <line endpoints="((1,0),(3,0))" thickness="5"/>
+            <line endpoints="((0.51,0.7),(1,0))" thickness="5"/>
+            <line endpoints="((3.51,0.7),(3,0))" thickness="5"/>
+            <line endpoints="((3.51,0.7),(0.51,0.7))" thickness="1" dash="4 4"/>
+            <line endpoints="((0,0),(4,0))" thickness="1" dash="4 4"/>
+            <label anchor="(2,-0.1)"><m>2</m></label>
+            <label anchor="(0.75,0.1)"><m>\theta</m></label>
+            <label anchor="(3.4,.3)"><m>1</m></label>
+            <label anchor="(0.5,.4)"><m>1</m></label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+        </introduction>
+
+
+        <task workspace="0in">
+            <statement>
+                <p>
+                   Start by looking at the following triangle which corresponds to 
+                   the left edge of the trough.  Label the 3 missing angles (in degrees!) and the 2 missing sides. 
+                   All of your answers will depend on <m>\theta</m>.  (Make it very clear what your sides and angles are,
+                   and what each value you found corresponds to on the picture.)
+
+                </p>
+                  <image width="45%" margins="0% 55%">
+      <shortdescription>
+        The left side of the trough which forms a right triangle.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-hw9-b">
+        <diagram dimensions="(200,150)" margins="18">
+          <coordinates bbox="(-.1,-.1,1.2,0.8)">
+            <line endpoints="((0.51,0.7),(1,0))" thickness="5"/>
+            <line endpoints="((1,0.7),(0.51,0.7))" thickness="1" dash="4 4"/>
+            <line endpoints="((0,0),(4,0))" thickness="1" dash="4 4"/>
+            <line endpoints="((1,0.7),(1,0))" thickness="1" dash="4 4"/>
+
+            <label anchor="(0.75,0.1)"><m>\theta</m></label>
+            <label anchor="(3.4,.3)"><m>1</m></label>
+            <label anchor="(0.6,.4)"><m>1</m></label>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Draw a picture that divides the cross-section of the trough into two right triangles and a rectangle that you think will help determine the volume of the tank.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The volume of the <q>rectangular part</q> of the trough will be
+                                        <m>\ell\cdot w \cdot h</m> where <m>\ell</m> is the length/depth that goes back into the page, <m>w</m> is the
+                                        width, and <m>h</m> is the height.
+                                        Find the volume of the rectangular part.
+                                        Your answer will depend on <m>\theta</m>!  Write a quick sentence to explain
+                                        where you got your <m>\ell</m>, <m>w</m>, and <m>h</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    The volume of each of the <q>triangular</q> parts are
+                                        <m>\frac{1}{2}b\cdot h\cdot \ell</m> where <m>b</m> is the base of the triangle, <m>h</m> is the
+                                        height of the triangle, and <m>\ell</m> is the length/depth of the triangular part that 
+                                        goes back into the page.
+                                        Find the volume of the triangular parts (your answer, will, surprise, depend on
+                                        <m>\theta</m>). Write a quick sentence to explain
+                                        where you got your <m>b</m>, <m>h</m>, and <m>\ell</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Determine a formula for <m>V(\theta)</m> the volume of the trough as a function
+                            of <m>\theta</m>.
+                            (Hint: Just add together your answers for c and d, making sure to take into
+                            account both triangular parts.)
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              What is the volume of the trough when <m>\theta = 45^{\circ}</m>?
+                            Make sure your calculator or Desmos is in degrees if you are using computing
+                            technology!  Write a short sentence to tell me what you did.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Graph <m>V(\theta)</m> in Desmos.
+                            You can type V(theta) = ...(your answer)...
+                            Your boss wants to know what angle you would use to get the maximum volume of
+                            the trough.
+                            What would you tell them? (Complete sentences, include an answer and a justification
+                            as if talking to your future boss who isn't as good at math as you are.)
+            </p>
+          </statement>
+        </task>
+    </exercise>
+</worksheet>
