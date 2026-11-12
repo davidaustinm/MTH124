@@ -109,6 +109,12 @@ Fundamental Trig Identity:
  and <m>\triangle OMN</m>
  are similar triangles.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          One is a magnification of the other.  Same angles, one of 
+          the sides are some <m>k</m> times larger than the other.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -118,6 +124,19 @@ Fundamental Trig Identity:
  <m>\frac{OQ}{ON}</m>
  and <m>\frac{PQ}{MN}</m>?</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          <m>\dfrac{OP}{OM}=\dfrac{larger-hyp}{smaller-hyp}=\dfrac{r}{1}=r</m>. So the 
+          larger triangle is <m>r</m> times larger than the smaller triangle!
+          So all the rations must be the same since they are similar triangles:
+          <md>
+            \dfrac{OQ}{ON}=\dfrac{larger-horiz}{smaller-horiz} = \dfrac{r}{1}.
+          </md>
+          <md>
+            \dfrac{PQ}{MN}=\dfrac{larger-vert}{smaller-vert} = \dfrac{r}{1}.
+          </md>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -126,6 +145,16 @@ Fundamental Trig Identity:
  What is the value of <m>MN</m>
  in terms of <m>\theta</m>? (Think unit circle! Top of page!)</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          Since the hypotenuse is <m>1</m>, we can embed this triangle into the unit 
+          circle!  And the y-coordinate will correspond to the vertical 
+          side of the triangle and is given by <m>\sin(\theta)</m>.  Similarly
+          the x-coordinate on the unit circle will correspond to the 
+          horizontal side of the triangle and is given by <m>\cos(\theta)</m>.
+          
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -134,6 +163,22 @@ Fundamental Trig Identity:
  in terms of <m>r</m>
  and <m>\theta</m>.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          Since we know all three sides of the smaller triangle, and the larger triangle sides 
+          are <m>r</m> times as larger.  So the 
+          hypotenuse is <m>r * 1</m> or just <m>r</m>, 
+          the vertical side is <m>r*\sin(\theta)</m> so <m>y=r\sin(\theta)</m>, 
+          and the horizontal side is <m>r*\cos(\theta)</m> so <m>x=r\cos(\theta)</m>.
+                  </p>
+                  <p>
+                    This leads us to some cool relationships if we think of 
+                    <m>x</m> as the adjacent side (since it is next to the angle <m>\theta</m>)
+                    and we think of <m>y</m> as the opposite side since it is opposite of <m>\theta</m>
+                    and <m>r</m> as the hypotenuse (since it is) this leads us to the 
+                    relationships on the following page.
+                  </p>
+      </solution>
     </task>
   </activity>
 
@@ -183,6 +228,53 @@ Fundamental Trig Identity:
  and one non-right angle of measure 
  <m>\frac{\pi}{7}</m>.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          Would recommend drawing a picture and sticking <m>\frac{\pi}{7}</m>
+          in one corner of the triangle (not the right angle but one of the others)
+          and labeling which side is opposite that angle, and which is adjacent to 
+          that angle. 
+          </p><p>
+            We'll call the other non-right angle <m>B</m> for no reason 
+            whatsoever.  Since the 2 non-right angles have to add up 
+            to <m>90^\circ = \frac{\pi}{2}</m>.  That is 
+          <m>{B+\dfrac{\pi}{7} = \dfrac{\pi}{2}}</m>, or <m>{B = \frac{\pi}2 - \frac{\pi}7=\frac{5\pi}{14}}</m>.  
+          </p><p>
+          Let's think about the adjacent side, and we have the hypotenuse and 
+          the angle.  So we can look at cosine:
+          <md>
+            \cos(\frac{\pi}7) = \frac{adj}{7}.
+          </md>
+          Then we can solve for <m>adj</m> by multiplying both sides by 7: 
+          <m>{\adj = 7\cos(\frac{\pi}{7})}</m> (exact) or <m>\approx 6.307</m>.
+          </p><p>
+          There are two ways to find the third side (possibly more).  Pick one, 
+          you don't need both, but here they are just because:
+          <ul>
+            <li>
+              <p>
+                Use sine!  <m>\sin(\frac{\pi}{7}) = \frac{opp}{7}</m> so 
+                <m>{opp = 7\sin(\frac{\pi}{7})}</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Pythagorean Theorem!  
+                <md>
+                  (opp)^2 + (7\cos(\frac{\pi}{7}))^2 = 7^2
+                </md>
+                which can be solved by 
+                <md>
+                  opp = \sqrt{49 -(7\cos(\frac{\pi}{7}))^2}
+                </md>
+                which doesn't simplify nicely.
+              </p>
+            </li>
+          </ul>
+          Either will get you approximately <m>opp \approx 3.072</m>.
+  
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -190,24 +282,99 @@ Fundamental Trig Identity:
  that satisfies 
 <m>\sin(\alpha)=\frac35</m>.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          One way to think of this is <m>\sin(\alpha)=\frac{3}5 =\frac{opp}{hyp}</m>
+          so we can think of the opposite side as 3 and the hypotenuse as 5.  However, 
+          we can also think of the opposite side as <m>3/5</m> and the hypotenuse as 1...
+          or the opposite side as 6 and the hypotenuse as 10<ellipsis/> or<ellipsis/> 
+          Really any multiple.  So we cannot determine the side lengths, only the ratios.  
+          Any multiple of a 3-4-5 right triangle will satisfy this.
+        </p>
+        <p>
+          Angles though we can do a little.  Since 
+          <m>{\sin(\alpha)=\dfrac{3}{5}}</m>, we can essentially take the inverse (
+            which we will talk more about so for now we are being hand-wavey
+          ), to get 
+          <m>{\alpha=\arcsin\left(\dfrac{3}{5}\right)}</m> radians.  This is an exact answer.
+          It is also approximately <m>\alpha\approx 0.6435</m> radians.
+          </p><p>
+          There are multiple ways to get the other angle, which I'll name <m>B</m>. 
+          Here's the simplest:
+                Non-right angles have to add to 90 degrees or <m>\pi/2</m>.
+                <m>{B+\arcsin\left(\dfrac{3}{5}\right) = \frac{\pi}{2}}</m> which means
+                <m>{B = \frac{\pi}{2} - \arcsin\left(\dfrac{3}{5}\right)}</m>.
+     (<m>B\approx 0.9273</m>.)
+        </p>
+    
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>A right triangle where one of the non-right angles has measure 
  <m>1.2</m> and the hypotenuse has length <m>2.7</m>.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          The other non-right angle <m>B</m> is found from 
+          <m>{B+1.2 = \frac{\pi}{2}}</m>, or <m>{B=\frac\pi2-1.2}</m> (this is 
+          in radians). 
+          </p><p>
+          Then <m>\cos(1.2) = \frac{adj}{2.7}</m>, or <m>{adj = 2.7\cos(1.2)}</m>
+          or about 0.978.
+          </p><p>
+          There are multiple ways to find the other side.  
+          One of the cleanest is <m>{\sin(1.2)=\frac{opp}{2.7}}</m>, 
+          which gives <m>{opp = 2.7\sin(1.2)}</m> or about 2.517.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>A right triangle with hypotenuse <m>13</m>
  and one leg of length <m>6.5</m>.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          The other leg can be found using Pythagorean Theorem:
+          <md>(adj)^2+6.5^2 = 13^2</md>, or <m>{adj=\sqrt{13^2-6.5^2}}\approx 11.26</m>.
+        </p>
+        <p>
+          We put an angle <m>A</m> in the triangle so that it is 
+          opposite from 6.5.  Then we can use
+          <m>\sin(A)=\dfrac{6.5}{13}</m>, so
+          we can find the angle by taking 
+          <m>A=\arcsin(\dfrac{6.5}{13})</m> (exact). We could stop here
+          for this but if you're interested, <m>\frac{6.5}{13}=\frac12</m>, 
+          and so we have <m>sin(A)=\frac12</m>, and this is something we can find 
+          from the unit circle (<m>\frac{\pi}{6}</m>).  
+          </p><p>
+          The other angle <m>B</m> would satisfy <m>A+B=\frac{\pi}{2}</m>, so 
+          <m>B = \dfrac{\pi}{2}-\arcsin(\dfrac{6.5}{13})</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>A right triangle with legs of length <m>5</m>
  and <m>12</m>.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+         The other leg can be found using Pythagorean Theorem:
+          <md>5^2+12^2 = (hyp)^2</md>, or <m>{hyp=13}</m>.
+        </p>
+        <p>
+         The angle <m>A</m> we'll take to be the one opposite the leg of length
+          <m>5</m>. Then <m>\sin(A)=\frac5{13}</m>, and we can get 
+          <m>A=\arcsin(\frac{5}{13})\approx 0.395</m> radians.
+        </p>
+        <p>
+         Then the last angle <m>B</m> we can find from <m>A+B=\frac{\pi}{2}</m>, or 
+         <m>B = \frac{\pi}{2} - \arcsin(\frac{5}{13})</m>.
+        
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -215,6 +382,29 @@ Fundamental Trig Identity:
  <m>\frac{\pi}{5}</m>
  and the leg opposite this angle has length <m>4</m>.</p>
       </statement>
+      <solution component="S4-1-soln">
+        <p>
+          The other non-right angle we'll call <m>B</m> has to have 
+          <m>B+\frac{\pi}{5} = \frac{\pi}{2}</m>, so 
+          <m>B = \dfrac{\pi}{2}-\dfrac{\pi}{5}=\dfrac{3\pi}{10}</m>.
+        </p>
+        <p>
+          Then 
+          <m>\sin\left(\dfrac{\pi}{5}\right)=\dfrac{4}{\text{hyp}}</m>, which 
+          we can solve by multiplying both sides by the hypotenuse:
+          <md>
+            (hyp)\sin\left(\dfrac{\pi}{5}\right)  = {4}
+          </md>
+          or <m>{hyp = \frac{4}{\sin\left(\dfrac{\pi}{5}\right)}}</m>.
+        </p>
+        <p>
+          Similarly <m>\cos\left(\dfrac{\pi}{5}\right) = \dfrac{adj}{\text{hyp}} = \dfrac{adj}{\frac{4}{\sin\left(\dfrac{\pi}{5}\right)}}</m>
+          which is a little gross but we can get <md>
+            adj = \frac{4\cos(\pi/5)}{\sin(\pi/5)}.
+          </md>
+          
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -271,6 +461,49 @@ Fundamental Trig Identity:
       </prefigure>
     </image>
     </statement>
+    <solution component="S4-1-soln">
+      <p>
+        If we call the vertical side (the width of the river) <m>y</m>
+        and the hypotenuse <m>h</m>, then we are looking for <m>y</m> which is 
+        the width of the river.  For the angle that we are given, we want the opposite side <m>y</m>
+        and we have the adjacent side <m>50</m>, and we don't know the hypotenuse.
+        Ok well sine uses the opposite side and since we want the opposite side 
+        let's try that and try to solve for <m>y</m>:
+        <md>
+          \sin(56.4) = \frac{y}{h}
+        </md>
+        or rearranging <md>
+          y = h\sin(56.4).
+        </md>
+        But now the problem is we don't know <m>h</m>.
+      </p>
+      <p>
+        However, we know the adjacent side and an angle, so cosine is much more 
+        promising:
+        <md>
+          \cos(56.4) = \frac{50}{h}
+        </md>
+        or solving for <m>h</m> we have <m>{h\cos(56.4) = 50}</m> or 
+        <md>
+          h = \frac{50}{\cos(56.4)}.
+        </md>
+      </p>
+      <p>
+        How we can go back and plug in <m>h</m> to find <m>y</m>:
+        <md>
+          y = h\sin(56.4) = (\frac{50}{\cos(56.4)})\sin(56.4).
+        </md>
+        It turns out the river is approximately <m>75.26</m> meters wide.
+      </p>
+      <p>
+        Note we can also find the other non-right angle <m>B</m> by doing
+        <m>{B+56.4 = 90}</m>, or in other words <m>B = 33.6^\circ</m>.
+      </p>
+      <p>
+        It would be lovely if we had a function that used the opposite 
+        and adjacent sides and didn't use the hypotenuse...
+      </p>
+    </solution>
   </activity>
 
 </handout>

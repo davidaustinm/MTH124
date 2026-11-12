@@ -78,6 +78,53 @@
       After 50 minutes the turkey is <m>100^\circ</m> F.  What 
       is the temperature after 80 minutes?</p>
     </statement>
+    <solution component="S3-6-soln">
+      <p>
+        We know the following: our model has the form <m>F(t)=ae^{-kt}+c</m> (Newton's Law of Cooling).
+        </p>
+        <p>  
+          The initial temperature is <m>68^\circ</m> so <m>F(0)=68</m>.
+          </p>
+          <p>
+            The long-term temperature is the temp of the oven which is <m>350^\circ</m>.
+            </p>
+            <p>
+              When <m>t=50</m>, <m>F(50) = 100^\circ</m>.
+              </p><p>
+              Step 1: Long term temperature is long term behavior which is <m>c</m>, so <m>c=350</m>.
+              The model then becomes <m>{F(t)=ae^{-kt}+350}</m>.
+              </p><p>
+          Step 2: Initial temp is not <m>a</m>, but <m>F(0)=68</m> and plugging 
+          <m>0</m> into the model it is also <m>F(0)=a+350</m>, so 
+          <m>68 = a+350</m>.  Rearranging, we get
+        <m>a=68-350=-282</m>. Thus the model becomes
+        <m>{F(t)=-282e^{-kt}+350}</m>.
+      </p>
+      <p>
+        Step 3: The last point.  We know <m>F(50)=100</m>, so plugging in
+        <md>
+          <mrow>100 \amp = -282e^{-50k}+350</mrow>
+          <mrow>-250 \amp = -282e^{-50k}</mrow>
+          <mrow>\frac{250}{282} \amp = e^{-50k}</mrow>
+          <mrow>\ln(\frac{250}{282}) \amp = {-50k}</mrow>
+          <mrow>k \amp = \dfrac{\ln(250/282)}{-50} </mrow>
+  
+        </md>
+        So the entire model becomes 
+        <md>
+          F(t) = -282e^{-\frac{\ln(250/282)}{-50} t} + 350.
+        </md>
+      </p>
+      <p>
+        Now the final piece is that we want the temp after 80 minutes, 
+        we want <m>F(80)</m>, so we plug in:
+        <md>
+          F(80) = -282e^{-\frac{\ln(250/282)}{-50} (80)} + 350.
+        </md>
+        In more sensible, approximate terms, <m>F(80)\approx 117.4</m>, so 
+        the turkey is about <m>117.4^\circ</m> after 80 minutes.
+      </p>
+    </solution>
   </example>
   </page>
 
@@ -103,6 +150,29 @@
  in the model <m>F(t)=ae^{-kt}+c</m>.</p>
         <p>(Find <m>c</m> then <m>a</m> then <m>k</m>.)</p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          Step 1: 
+          The long-term temperature is the temperature of the refrigerator which is also <m>c</m> (the 
+          horizontal asymptote/vertical shift), so
+          <m>c=37.7</m>.  
+          </p><p>Step 2: Initial value. Since <m>F(0)=a+37.7=72.3</m>, we get
+          <m>a=72.3-37.7=34.6</m>.  So <m>F(t)=34.6e^{-kt}+37.7</m>.
+        </p>
+        <p>
+          Step 3: Another point.
+          We know <m>F(30)=59.5</m>, so we plug in and are left with 
+          <m>k</m> as the only variable, which we can solve for:
+          <md>
+            <mrow>59.5 \amp = 34.6e^{-30k}+37.7</mrow>
+            <mrow>21.8 \amp = 34.6e^{-30k}</mrow>
+            <mrow>\dfrac{21.8}{34.6} \amp = e^{-30k}</mrow>
+            <mrow>\ln(\dfrac{21.8}{34.6}) \amp = {-30k}</mrow>
+            <mrow>k \amp = \dfrac{\ln(21.8/34.6)}{-30}</mrow>
+          </md>
+          So we can plug that into our model, and we know an equation for <m>F(t)</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2.5in">
       <statement>
@@ -110,6 +180,28 @@
  Clearly show your work. 
  Hint: it may help to leave <m>k</m> as <m>k</m> until you get <m>t=...</m>, then plug in <m>k</m>.</p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          We're going to leave <m>k</m> as <m>k</m> for now, and then plug 
+          it in at the very last step, because that seems a lot easier.  So 
+          we want to find the time <m>t</m> when <m>F(t)=42.4</m> and note that 
+          we are solving for <m>t</m>:
+          <md>
+            <mrow>42.4 \amp = 34.6e^{-kt}+37.7 </mrow>
+            <mrow>4.7 \amp = 34.6e^{-kt} </mrow>
+            <mrow>\dfrac{4.7}{34.6} \amp =e^{-kt}</mrow>
+            <mrow>\ln(\dfrac{4.7}{34.6}) \amp ={-kt}</mrow>
+            <mrow>-kt \amp = \ln\left(\dfrac{4.7}{34.6}\right)</mrow>
+            <mrow>t \amp = \dfrac{\ln(4.7/34.6)}{-k}</mrow>
+          </md>
+          That seems nicer.  Now we can plug in <m>k=\dfrac{\ln(21.8/34.6)}{-30}</m>:
+          <md>
+            <mrow>t = \dfrac{\ln(4.7/34.6)}{-(\dfrac{\ln(21.8/34.6)}{-30})}  </mrow>
+          </md>
+          Still gross, but kind of great at the same time.  It turns out this is approximately
+          <m>t\approx 129.6</m> minutes.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -121,6 +213,17 @@
  on the interval <m>[25,30]</m>.
  What is the meaning (with units) of this value?</p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          The average rate of change on <m>[25,30]</m> is
+          <md>
+            AV_{[25,30]} = \dfrac{F(30)-F(25)}{30-25} \approx \dfrac{59.5-61.24}{5} \approx -0.349.
+          </md>
+          The units are <m>^\circ F/min</m>.  Between <m>t=25</m> and
+          <m>t=30</m> minutes, the soda's temperature drops on
+          average about <m>0.349^\circ</m> F each minute.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -173,11 +276,45 @@
       </prefigure>
     </image>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          See Desmos to see what it looks like, but it should look like and S-like curve.
+          It is always increasing, and appears to level off over time.
+        </p>
+        <p>
+          <ul>
+            <li><p>
+              <m>A</m>: the carrying capacity, this acts as a vertical stretch and 
+              a maximum output, so this also is the long-term behavior.
+            </p></li>
+            <li><p>
+              <m>M</m>: appears to affect the starting value, and acts similar to 
+              a horizontal shift (left/right).  Not exactly, but it does affect the 
+              horizontal direction only.
+            </p></li>
+            <li><p>
+              <m>k</m>: this appears to act like a horizontal stretch, and makes
+              the S-curve either steeper or shallower depending on the value.
+            </p></li>
+          </ul>
+        </p>
+      
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, <m>A</m>?</p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          
+          The population appears grows most fastest (the steepest part of the
+          graph), in the middle, which looks to be halfway between 0 and 
+          the carrying capacity <m>A</m>, so around <m>y=A/2</m>.  
+          Notice also this middle point appears to be where the graph changes from concave up to
+          concave down.  
+        </p>
+      </solution>
     </task>
     <task workspace="0.5in">
       <statement>
@@ -193,6 +330,12 @@
  that make the function <m>P</m>
  fit these criteria?</p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          Somewhere around 
+          <m>P(t)= \frac{9}{1+\frac72 e^{-0.516t}}</m>.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -213,6 +356,50 @@
  and <m>k</m> in the logist model below. Try to find exact. (For approximate, if you round, include 4 decimal places).
  <md>P(t) = \frac{A}{1+Me^{-kt}}.</md></p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          The order is actually very similar to solving Newton's Law of Cooling 
+          Model.  Since <m>A</m> is the long-term behavior or eventual outcome, 
+          this is the easiest to find and ideally the first step.  So <m>A = 11.7</m>, 
+          and <m>{P(t)= \frac{11.7}{1+Me^{-kt}}}</m>.
+          </p><p>
+          Zeros are lovely, so just like in earlier problems we want to use 
+          the initial condition (which is not equal to <m>M</m>!). 
+          But <m>P(0)=2.45</m> so plugging in we have:
+          <md>
+            <mrow>2.45 \amp = \dfrac{11.7}{1+Me^0}</mrow>
+            <mrow>2.45 \amp = \dfrac{11.7}{1+M}</mrow>
+            </md>
+            So getting the <m>M</m> out of the denominator by 
+            multiplying both sides by <m>(1+M)</m>:
+            <md>
+            <mrow>2.45(1+M) \amp = 11.7</mrow>
+            <mrow>2.45+2.45M \amp = 11.7</mrow>
+            <mrow>2.45M \amp = 9.25</mrow>
+            <mrow>M \amp = \dfrac{9.25}{2.45}</mrow>
+          </md>
+          so the model becomes <m>{P(t)= \frac{11.7}{1+\frac{9.25}{2.45}e^{-kt}}}</m>.
+          </p><p>
+          Now we only have one thing left to find, <m>k</m>, so we go to the 
+          last piece of info which is the hardest (no zeros), and we know that 
+          <m>P(3)=4.52</m>.  So plugging in (and sticking to the theme of solving exactly):
+          <md>
+            4.52 = \dfrac{11.7}{1+\frac{9.25}{2.45}e^{-3k}}
+            </md>but to get the gross stuff out of the denominator we 
+            can multiply both sides by the entire denom:
+            <md>
+            <mrow>4.52  ({1+\frac{9.25}{2.45}e^{-3k}}) \amp = 11.7 </mrow>
+            <mrow>1+\frac{9.25}{2.45}e^{-3k} \amp = \frac{11.7}{4.52} </mrow>
+            <mrow>\frac{9.25}{2.45}e^{-3k} \amp = \frac{11.7}{4.52} - 1 </mrow>
+            <mrow>e^{-3k} \amp = \frac{2.45}{9.25}(\frac{11.7}{4.52} - 1) </mrow>
+            <mrow>{-3k} \amp = \ln\left(\frac{2.45}{9.25}(\frac{11.7}{4.52} - 1)\right) </mrow>
+            <mrow>{k} \amp = \frac{-1}{3}\ln\left(\frac{2.45}{9.25}(\frac{11.7}{4.52} - 1)\right) </mrow>
+           
+          </md>
+          Eek.  This should be
+          <m>k\approx 0.2886</m>.  Unless I have a typo, which is likely.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -220,6 +407,27 @@
  (thousand). Show your work.
  Hint: You may find it easier to not plug in <m>k</m> and <m>M</m> until you get <m>t=...</m>.</p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          We will leave <m>k,M</m> and deal with them later!  That seems nicer.
+          </p><p>
+          So we need to solve for time <m>t</m> when <m>P(t)=10</m>, plugging in
+          and remembering that we are trying to get <m>t=...</m>:
+          
+          <md>
+            <mrow>10 \amp = \dfrac{11.7}{1+Me^{-kt}}</mrow>
+            <mrow>10(1+Me^{-kt}) \amp = 11.7</mrow>
+            <mrow>1+Me^{-kt} \amp = 1.17</mrow>
+            <mrow>Me^{-kt} \amp = 0.17</mrow>
+            <mrow>e^{-kt} \amp = \dfrac{0.17}{M}</mrow>
+            <mrow>{-kt} \amp = \ln(\dfrac{0.17}{M})</mrow>
+            <mrow>t \amp = -\frac{1}{k}\ln\left(\dfrac{0.17}{M}\right)</mrow>
+          </md>
+          Now we have <m>t</m>, let's plug in <m>M, k</m>, and let's just approximate here 
+          since it doesn't ask for exact.  With the help of a calculator:
+          <m>{t \approx 10.743}</m> years.
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -230,6 +438,26 @@
  and <m>[6,8]</m>.
  What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?</p>
       </statement>
+      <solution component="S3-6-soln">
+        <p>
+          See Desmos for a plot.
+          We find
+          <ul>
+            <li><p><m>AV_{[0,2]}=\frac{P(2)-P(0)}{2-0}\approx0.65</m></p></li>
+            <li><p><m>AV_{[2,4]}\approx 0.796</m></p></li>
+            <li><p><m>AV_{[4,6]}\approx 0.836</m></p></li>
+            <li><p><m>AV_{[6,8]}\approx 0.747</m></p></li>
+          </ul>
+          All of these are in thousands with units of animals per year, so the first one says that 
+          on average between years 0 and 2 the population was growing 
+          by about 650 animals each year.
+        </p>
+        <p>
+          The population always growing since the average rate of change 
+          is always positive, but it seems to grow faster and then slow down at 
+          some point.  
+        </p>
+      </solution>
     </task>
   </activity>
 </page>
