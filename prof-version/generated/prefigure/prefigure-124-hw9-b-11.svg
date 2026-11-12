@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-124-hw9-b-figure" width="236" height="186" viewBox="0 0 236 186">
+  <defs>
+    <clipPath id="prefigure-124-hw9-b-__clipPath-0">
+      <rect x="18.0" y="18.0" width="200.0" height="150.0"/>
+    </clipPath>
+    <clipPath id="prefigure-124-hw9-b-__clipPath-1">
+      <rect x="18.0" y="18.0" width="200.0" height="150.0"/>
+    </clipPath>
+  </defs>
+  <line id="prefigure-124-hw9-b-__line-0" x1="111.8" y1="34.7" x2="187.2" y2="151.3" stroke="black" stroke-width="5" fill="none"/>
+  <line id="prefigure-124-hw9-b-__line-1" x1="187.2" y1="34.7" x2="111.8" y2="34.7" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  <line id="prefigure-124-hw9-b-__line-2" x1="33.4" y1="151.3" x2="648.8" y2="151.3" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  <line id="prefigure-124-hw9-b-__line-3" x1="187.2" y1="34.7" x2="187.2" y2="151.3" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  <g id="prefigure-124-hw9-b-__label-0" transform="translate(148.8,134.7) translate(-4.2,-6.5)">
+    <g id="prefigure-124-hw9-b-__g-0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.184px" width="8.488px" height="12.944px" role="img" focusable="false" viewBox="0 -705 469 715" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-124-hw9-b-MJX-2-TEX-I-1D703" d="M35 200Q35 302 74 415T180 610T319 704Q320 704 327 704T339 705Q393 701 423 656Q462 596 462 495Q462 380 417 261T302 66T168 -10H161Q125 -10 99 10T60 63T41 130T35 200ZM383 566Q383 668 330 668Q294 668 260 623T204 521T170 421T157 371Q206 370 254 370L351 371Q352 372 359 404T375 484T383 566ZM113 132Q113 26 166 26Q181 26 198 36T239 74T287 161T335 307L340 324H145Q145 321 136 286T120 208T113 132Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="theta">
+              <use data-c="1D703" xlink:href="#prefigure-124-hw9-b-MJX-2-TEX-I-1D703"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-124-hw9-b-__label-1" transform="translate(556.5,101.3) translate(-4.5,-6.0)">
+    <g id="prefigure-124-hw9-b-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-124-hw9-b-MJX-3-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#prefigure-124-hw9-b-MJX-3-TEX-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-124-hw9-b-__label-2" transform="translate(125.7,84.7) translate(-4.5,-6.0)">
+    <g id="prefigure-124-hw9-b-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-124-hw9-b-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#prefigure-124-hw9-b-MJX-4-TEX-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>
