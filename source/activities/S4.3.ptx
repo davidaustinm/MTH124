@@ -2,31 +2,105 @@
 <handout>
   <title>Section 4.3: Inverses of Trig Functions</title>
 
+  <p>
+    <alert>MTH 124</alert>
+  </p>
+
+  <p>
+    Sine, cosine, and tangent all fail the horizontal line test unless we 
+    restrict the angle.  So we <em>only</em> have an inverse trig function
+    if the angle is chosen very carefully. See below:
+  </p>
+
+    <image width="35%" margins="0% 65%">
+      <shortdescription>
+        The graph of sine.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-0a">
+      
+        <diagram dimensions="(300,150)" margins="5">
+          <definition>f(x)=sin(x)</definition>
+          <coordinates bbox="(-pi-1,-1.4,3*pi/2+1,1.4)">
+            <grid-axes ylabel="y=sin(x)" h-pi-format="yes" spacings="((-pi,pi/2,3*pi/2),(-1,1,1))" hlabels="(-pi,pi/2,3*pi/2)"/>
+            <graph function="f" />
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+
+  <image width="35%" margins="0% 65%">
+      <shortdescription>
+        The graph of cosine.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-0b">
+      
+        <diagram dimensions="(300,150)" margins="5">
+          <definition>f(x)=cos(x)</definition>
+          <coordinates bbox="(-pi-1,-1.4,3*pi/2+1,1.4)">
+            <grid-axes ylabel="y=cos(x)" h-pi-format="yes" spacings="((-pi,pi/2,3*pi/2),(-1,1,1))" hlabels="(-pi,pi/2,3*pi/2)"/>
+            <graph function="f" />
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <image width="35%" margins="0% 65%">
+      <shortdescription>
+        The graph of sine.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-0c">
+      
+        <diagram dimensions="(300,150)" margins="5">
+          <definition>f(x)=tan(x)</definition>
+          <coordinates bbox="(-pi-1,-4.4,3*pi/2+1,4.4)">
+            <grid-axes  h-pi-format="yes" spacings="((-pi,pi/2,3*pi/2),(-1,1,1))" hlabels="(-pi,pi/2,3*pi/2)"/>
+            <graph function="f" />
+            <label anchor="(3,4)"><m>y=\tan(x)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+  
+
   <activity>
+  <title>Arccosine</title>
+  
+  
     <introduction>
-      <image source="images/alltrig.png" width="50%"/>
-      <p><term>Arccosine</term></p>
-      <p>Consider the <m>g(t)</m> to be only the part of <m>\cos(t)</m> function restricted to the input <m>[0,\pi]</m></p>
-      <image source="images/4.3.1" width="50%"/>
+      
+      <p>Consider the <m>g(t)</m> to be only the part of 
+      <m>\cos(t)</m> function restricted to 
+      <m>[0,\pi]</m>:</p>
+      
+      
     </introduction>
-    <task workspace=".8cm">
+
+    
+    <task workspace="0cm">
+    
       <statement>
-        <p>What is the domain of <m>g</m>? (Not <m>\cos(t)</m>!)</p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p>What is the range of <m>g</m>?</p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p>Does <m>g</m> pass the horizontal line test?</p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p>Does <m>g</m> have an inverse function?</p>
+        <p>What is the domain of <m>g</m>? (Not <m>\cos(t)</m>!) What is the 
+        range of <m>g</m>?  Does <m>g</m> pass the horizontal line test? Does <m>g</m> have 
+        an inverse function?</p> 
+
+        <image width="45%" margins="0% 55%">
+      <shortdescription>
+        The graph of cosine and g(t) which is cosine restricted between [0,pi].
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-0d">
+      
+        <diagram dimensions="(300,150)" margins="18">
+          <definition>f(x)=cos(x)</definition>
+          <coordinates bbox="(-pi-1,-1.4,3*pi/2+1,1.5)">
+            <grid-axes xlabel="t" ylabel="g(t)" h-pi-format="yes" spacings="((-pi,pi/2,3*pi/2),(-1,1,1))" hlabels="(-pi,pi/2,3*pi/2)"/>
+            <graph function="f" dash="4 4" />
+            <graph function="f" domain="(0,pi)" thickness="4" stroke="red"/>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
       </statement>
     </task>
     <task workspace=".8cm">
@@ -37,10 +111,30 @@
     <task workspace="2cm">
       <statement>
         <p>Use your unit circle to find the following:  
-    <md>g^{-1}(-\frac{\sqrt{2}}{2})  ~~~ g^{-1}(-\frac12) ~~~g^{-1}(0) ~~~</md></p>
+        <ul cols="3">
+          <li>
+            <p>
+              <m>g^{-1}(-\frac{\sqrt{2}}{2}) </m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g^{-1}(-\frac12)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g^{-1}(0) </m>
+            </p>
+          </li>
+        </ul>
+        </p>
       </statement>
     </task>
   </activity>
+
+
+  
 
   <definition>
     <title>Definition 4.3.2</title>
@@ -49,72 +143,88 @@
     </statement>
   </definition>
 
-  <image source="images/ac" width="50%"/>
+<sidebyside widths="50% 40%">
+  
+
+  <image >
+      <shortdescription>
+        The graph of restricted cosine on [0,pi] and arccosine.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-0e">
+      
+        <diagram dimensions="(300,150)" margins="18">
+          <definition>f(x)=cos(x)</definition>
+          <definition>g(x)=acos(x)</definition>
+          <definition>h(x)=x</definition>
+          <coordinates bbox="(-pi-1,-1.4,3*pi/2+1,3.4)">
+            <grid-axes xlabel="t"  h-pi-format="yes" spacings="((-pi,pi/2,3*pi/2),(-1,1,1))" hlabels="(-pi,pi/2,3*pi/2)"/>
+            <graph function="f" domain="(0,pi)" thickness="2" stroke="red"/>
+            <graph function="g" domain="(-1,1)" stroke="blue" thickness="4"/>
+            <graph function="h" dash="4 4" stroke="black"/>
+            <label anchor="(-2.4,2.2)"><m>y=arccos(t)</m></label>
+            <label anchor="(3.9,-1.4)"><m>y=cos(t)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+
+
   <p workspace=".15in"><term>** What does arccosine output???  An ANGLE! **</term></p>
+</sidebyside>
 
   <activity>
     <title>Activity 4.3.2</title>
-    <introduction>
+    <statement>
       <p>Use the special points on the unit circle to determine the exact values of each of the following numerical expressions. Do so without using a computational device.</p>
-    </introduction>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(\frac12)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(\frac{\sqrt{2}}2)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(\frac{\sqrt{3}}2)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(-\frac12)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(-\frac{\sqrt{2}}2)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(-\frac{\sqrt{3}}2)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(-1)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(0)</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\cos(\arccos(-\frac12))</m></p>
-      </statement>
-    </task>
-    <task workspace=".8cm">
-      <statement>
-        <p><m>\arccos(\cos(\frac{7\pi}6))</m></p>
-      </statement>
-    </task>
-  </activity>
+
+        <p>
+          <ol cols="3" marker="a.">
+            <li>
+              <p><m>\arccos(\frac12)</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(\frac{\sqrt{2}}2)</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(\frac{\sqrt{3}}2)</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(-\frac12)</m></p>
+            </li>
+  
+            <li>
+              <p><m>\arccos(-\frac{\sqrt{3}}2)</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(-1)</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(0)</m></p>
+            </li>
+            <li>
+              <p><m>\cos(\arccos(-\frac12))</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(\cos(\frac{7\pi}6))</m></p>
+            </li>
+          </ol>
+        </p>
+    </statement>
+   </activity>
 
   <p><term>Arcsine</term></p>
 
-  <definition workspace="0.15in">
+  <definition workspace="0in">
     <title>Definition 4.3.3</title>
     <statement>
-      <p>Let <m>f(t)=\sin(t)</m> defined ONLY on the domain <m>[-\frac{\pi}2,\frac{\pi}2]</m>, and note the range is <m>[-1,1]</m>.  For any real number <m>y</m> where <m>-1\le y \le 1</m>, the <term>arcsine of <m>y</m></term> is denoted <md>t=\arcsin(y)</md> and is the angle <m>t</m> where <m>-\frac{\pi}2 \le t \le \frac{\pi}2</m> and <m>\sin(t)=y</m>.</p>
+      <p>Let <m>f(t)=\sin(t)</m> defined <em>only</em> on the 
+      domain <m>[-\frac{\pi}2,\frac{\pi}2]</m>, and note the 
+      range is <m>[-1,1]</m>.  For any real number <m>y</m> 
+      where <m>-1\le y \le 1</m>, the <term>arcsine of <m>y</m></term> 
+      is denoted <md>t=\arcsin(y)</md> and is the angle <m>t</m> 
+      where <m>-\frac{\pi}2 \le t \le \frac{\pi}2</m> and 
+      <m>\sin(t)=y</m>.</p>
     </statement>
   </definition>
 
@@ -123,27 +233,72 @@
     <introduction>
       <p>The goal of this activity is to understand key properties of the arcsine function in a way similar to our discussion of the arccosine function.</p>
     </introduction>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>According to the definition of arcsine above, what is the domain of arcsine?  The range?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>Use your unit circle and your knowledge of inverses to determine exactly:  (Recall, all answers are angles between <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2}</m>).
-        <m>\arcsin(-1) ~~~\arcsin(-\frac{\sqrt{2}}{2})~~~\arcsin(0)~~~\arcsin(\frac12)~~~\arcsin(\frac{\sqrt{3}}{2})~~~</m></p>
+        <ul cols="5">
+          <li>
+            <p>
+              <m>\arcsin(-1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(-\frac{\sqrt{2}}{2})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(\frac12)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(\frac{\sqrt{3}}{2})</m>
+            </p>
+          </li>
+        </ul>
+        </p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0in">
       <statement>
         <p>Sketch a careful plot of the restricted sine function on the interval <m>-\frac{\pi}2 \le t \le \frac{\pi}2</m>.  Then plot the inverse, <m>\arcsin(t)</m> on the same graph.  
  (They should look like reflections of each other across the line <m>y=x</m>, do they?)</p>
+<image width="35%" margins="0% 65%">
+      <shortdescription>
+        The graph of restricted cosine on [0,pi] and arccosine.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-3">
+      
+        <diagram dimensions="(250,200)" margins="15">
+          <definition>f(x)=sin(x)</definition>
+
+          <coordinates bbox="(-2,-2,2,2)">
+            <grid-axes xlabel="t"  ylabel="y"  />
+            <graph function="f" domain="(-pi/2,pi/2)" thickness="2" stroke="red"/>
+            <graph function="g" domain="(-1,1)" stroke="blue" thickness="4"/>
+            <label anchor="(1.8,.8)"><m>sin(t)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+ 
       </statement>
     </task>
-    <task workspace="1cm">
+    <task workspace=".5cm">
       <statement>
         <p>True or false:  <m>\arcsin(\sin(5\pi)) = 5\pi</m>.  Why/why not?</p>
-        <image source="images/4.3.3" width="50%"/>
       </statement>
     </task>
   </activity>
@@ -163,33 +318,84 @@
     <introduction>
       <p>The goal of this activity is to understand key properties of the arctangent function.</p>
     </introduction>
-    <task workspace="1in">
+    <task workspace=".3in">
       <statement>
         <p>According to the definition of arctangent above, what is the domain of arctangent?  The range?</p>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace=".4in">
       <statement>
         <p>Use your unit circle and your knowledge of inverses to determine exactly:  (Recall, all answers are angles between <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2}</m>).
-        <m>\arctan(-\sqrt{3}) ~~~ \arctan(-1)~~~\arctan(0)~~~\arctan(\frac1{\sqrt{3}})~~~</m></p>
+        <ul cols="4">
+          <li>
+            <p>
+              <m>\arctan(-\sqrt{3})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arctan(-1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arctan(0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arctan(\frac1{\sqrt{3}})</m>
+            </p>
+          </li>
+        </ul>
+        </p>
       </statement>
     </task>
     <task workspace="1cm">
       <statement>
         <p>The restricted tangent function on the interval <m>-\frac{\pi}2 &lt; t &lt; \frac{\pi}2</m> is shown.  Plot the inverse, <m>\arctan(t)</m> on the same graph.</p>
         <p>(Note, a vertical asymptote on the original function corresponds to what kind of asymptote on the inverse function?)</p>
-        <image source="images/4.3.4" width="50%"/>
+        <image width="35%" margins="0% 65%">
+      <shortdescription>
+        The graph of restricted tangent on (-pi/2,pi/2).
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-4">
+      
+        <diagram dimensions="(250,200)" margins="5">
+          <definition>f(x)=tan(x)</definition>
+
+          <coordinates bbox="(-4,-4,4,4)">
+            <grid-axes xlabel="t"  ylabel="y"  />
+            <graph function="f" domain="(-pi/2,pi/2)" thickness="2" stroke="red"/>
+            <label anchor="(2.3,3.4)"><m>tan(t)</m></label>
+            <line dash="2 2" endpoints="((-pi/2,-5),(-pi/2,5))"/>
+            <line dash="2 2" endpoints="((pi/2,-5),(pi/2,5))"/>
+            <label anchor="(2.3,3.4)"><m>tan(t)</m></label>
+            <label anchor="(-2.5,-3.4)"><m>t=-\frac{\pi}{2}</m></label>
+            <label anchor="(2.5,-3.4)"><m>t=\frac{\pi}{2}</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
       </statement>
     </task>
-    <task workspace="1in">
+    <task workspace="0.3in">
       <statement>
         <p>Complete the sentence: <q>as <m>t</m> increases without bound (as <m>t\rightarrow \infty</m>), the function <m>\arctan(t)</m>...</q></p>
-        <p><term>Practice:</term></p>
+
+  
       </statement>
     </task>
-    <task workspace="1in">
+    
+  </activity>
+
+  <activity>
+  <title>Practice</title>
+  
+  
+    <task workspace="0in">
       <statement>
-        <p>Solve the equations below exactly. Give your answers in radians, and find all possible values for <m>t</m>
+        <p>Solve the equations below exactly. Give your answers in radians, and find <em>all</em> possible values for <m>t</m>
  in the interval <m>0\le t\le 2\pi</m>.
  There may be more than one answer!</p>
         <p>

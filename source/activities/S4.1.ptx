@@ -246,7 +246,7 @@ Fundamental Trig Identity:
             \cos(\frac{\pi}7) = \frac{adj}{7}.
           </md>
           Then we can solve for <m>adj</m> by multiplying both sides by 7: 
-          <m>{\adj = 7\cos(\frac{\pi}{7})}</m> (exact) or <m>\approx 6.307</m>.
+          <m>{adj = 7\cos(\frac{\pi}{7})}</m> (exact) or <m>\approx 6.307</m>.
           </p><p>
           There are two ways to find the third side (possibly more).  Pick one, 
           you don't need both, but here they are just because:
