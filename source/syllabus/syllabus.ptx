@@ -4,7 +4,7 @@
     <title>Syllabus</title>
     <p><alert>MTH 124</alert></p>
 
-    
+ 
     <!-- Include chapters -->
     <subsection xml:id="subsec-First-Things">
         <title>First Things First</title>
@@ -404,15 +404,14 @@
           <em>Your Brain on ChatGPT</em>.
         </url>
                 From the abstract:
-                <blockquote>
-                    <em>
+               <em> <q>
                         Over four months, LLM users consistently underperformed at
             neural, linguistic, and behavioral levels. These results
             raise concerns about the long-term educational
             implications of LLM reliance and underscore the need for
             deeper inquiry into AI's role in learning.
-                    </em>
-                </blockquote>
+                                  
+</q></em>
             </p>
             <p>
                 <url href="https://arxiv.org/pdf/2608.16753">"In some areas, particularly in education and in the training of young mathematicians, it will be crucial to emphasize the irreducibly human aspect of our work, and to restrict the use of AI tools quite tightly; the goal of training a mathematician is not achieved by producing correct homework."- Terry Tao
@@ -1431,7 +1430,7 @@ insightful, carefully qualified conclusions.
         </paragraphs>
 
         <paragraphs>
-            <title>Religious Accomodation</title>
+            <title>Religious Accommodation</title>
 
             <p>
                 In accordance with the
