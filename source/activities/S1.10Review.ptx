@@ -6,7 +6,7 @@
     <p>
         <alert>MTH 124</alert>
     </p>
-<page>
+<!--<page>-->
     <activity>
         <introduction>
             <p>
@@ -281,8 +281,7 @@
         </task>
     </activity>
 
-    </page>
-    <page>
+    <!--</page><page>-->
         <activity>
             <introduction>
                 <p>
@@ -382,6 +381,6 @@
                 </solution>
             </task>
         </activity>
-    </page>
+    <!--</page>-->
     
 </handout>

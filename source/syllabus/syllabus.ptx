@@ -6,7 +6,11 @@
 
  
     <!-- Include chapters -->
-    <subsection xml:id="subsec-First-Things">
+   <!-- <subsection xml:id="subsec-First-Things"> -->
+      <paragraphs>
+  
+        
+      
         <title>First Things First</title>
 
         <p>
@@ -123,10 +127,16 @@
                 </li>
             </ol>
         </p>
-    </subsection>
+    <!--</subsection>-->
+    </paragraphs>
 
-    <subsection xml:id="sec-course-info">
+    <!--<subsection xml:id="sec-course-info">-->
+    <paragraphs>
         <title>Course Information</title>
+        <p>
+            
+        </p>
+        </paragraphs>
             <paragraphs>
         <title>Timing</title>
         <p>
@@ -623,10 +633,16 @@
       </url>
             </p>
         </paragraphs>
-    </subsection>
+    <!--</subsection>-->
 
-    <subsection xml:id="subsec-">
+    <!--<subsection xml:id="subsec-">-->
+    <paragraphs>
         <title>About this course</title>
+        <p>
+            
+        </p>
+    </paragraphs>
+        
 
         <paragraphs>
             <title>What is PreCalculus?</title>
@@ -741,10 +757,16 @@
                 answered to the best of abilities.
             </p>
         </paragraphs>
-    </subsection>
+    <!--</subsection>-->
     <!-- Other subsections for larger dividers -->
-    <subsection xml:id="sec-assessments">
+    <!--<subsection xml:id="sec-assessments">-->
+    <paragraphs>
         <title>Assessments and Grades</title>
+        <p>
+            
+        </p>
+    </paragraphs>
+        
 
         <paragraphs>
             <title>The overall grades</title>
@@ -1062,10 +1084,16 @@
                 for you or if I can be doing better.
             </p>
         </paragraphs>
-    </subsection>
+    <!--</subsection>-->
 
-    <subsection xml:id="subsec-Other-Information">
+    <!--<subsection xml:id="subsec-Other-Information">-->
+    <paragraphs>
         <title>Other Information</title>
+        <p>
+            
+        </p>
+    </paragraphs>
+       
 
         <paragraphs>
             <title>Resources</title>
@@ -1458,5 +1486,5 @@ insightful, carefully qualified conclusions.
                 well as marked in this file.
             </p>
         </paragraphs>
-    </subsection>
+   <!--</subsection>--> 
 </section>

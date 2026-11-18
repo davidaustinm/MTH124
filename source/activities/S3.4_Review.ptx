@@ -6,7 +6,7 @@
   </p>
 
 
-<page>
+<!--<page>-->
   <activity xml:id="act-sinusoid-graphs">
   <title>Trig Practice</title>
   <introduction>
@@ -275,9 +275,7 @@
     </solution>
   </task>
 </activity>
-</page>
-
-<page>
+<!--</page><page>-->
 <activity>
 <introduction>
   <p>
@@ -322,8 +320,7 @@
     </solution>
   </task>
 </activity>
-</page>
-<page>
+<!--</page><page>-->
 <activity>
   <statement>
     <p>
@@ -334,22 +331,22 @@
 
 
 <ol cols="2" marker="a.">
-  <li workspace="1cm"><p><m>10^x = 70</m></p></li>
-  <li workspace="1cm"><p><m>10^{2x} = 300</m></p></li>
-  <li workspace="1cm"><p><m>4 \cdot 10^x = 60</m></p></li>
-  <li workspace="1cm"><p><m>10^{x-2} = 35</m></p></li>
-  <li workspace="1cm"><p><m>3 \cdot 10^{4x} = 21</m></p></li>
-  <li workspace="1cm"><p><m>10^{-x} = 0.2</m></p></li>
-  <li workspace="1cm"><p><m>6 \cdot 10^{2x+1} = 240</m></p></li>
-  <li workspace="1cm"><p><m>10^{5x} = 1</m></p></li>
-  <li workspace="1cm"><p><m>\log x = 2.5</m></p></li>
-  <li workspace="1cm"><p><m>\log(4x) = 3</m></p></li>
-  <li workspace="1cm"><p><m>2\log x = 9</m></p></li>
-  <li workspace="1cm"><p><m>3\log(2x) = 12</m></p></li>
-  <li workspace="1cm"><p><m>\log x = -1.5</m></p></li>
-  <li workspace="1cm"><p><m>4\log(3x+1) + 2 = 14</m></p></li>
-  <li workspace="1cm"><p><m>\log(x^2) = \log 25</m></p></li>
-  <li workspace="1cm"><p><m>\log(5x) = 0</m></p></li>
+  <li><p workspace="1cm"><m>10^x = 70</m></p></li>
+  <li><p workspace="1cm"><m>10^{2x} = 300</m></p></li>
+  <li><p workspace="1cm"><m>4 \cdot 10^x = 60</m></p></li>
+  <li><p workspace="1cm"><m>10^{x-2} = 35</m></p></li>
+  <li><p workspace="1cm"><m>3 \cdot 10^{4x} = 21</m></p></li>
+  <li><p workspace="1cm"><m>10^{-x} = 0.2</m></p></li>
+  <li><p workspace="1cm"><m>6 \cdot 10^{2x+1} = 240</m></p></li>
+  <li><p workspace="1cm"><m>10^{5x} = 1</m></p></li>
+  <li><p workspace="1cm"><m>\log x = 2.5</m></p></li>
+  <li><p workspace="1cm"><m>\log(4x) = 3</m></p></li>
+  <li><p workspace="1cm"><m>2\log x = 9</m></p></li>
+  <li><p workspace="1cm"><m>3\log(2x) = 12</m></p></li>
+  <li><p workspace="1cm"><m>\log x = -1.5</m></p></li>
+  <li><p workspace="1cm"><m>4\log(3x+1) + 2 = 14</m></p></li>
+  <li><p workspace="1cm"><m>\log(x^2) = \log 25</m></p></li>
+  <li><p workspace="1cm"><m>\log(5x) = 0</m></p></li>
 </ol>
     </p>
   </statement>
@@ -358,6 +355,9 @@
     <p>
       Note that <m>\log(x) = \log_{10}(x)</m>.
     </p>
+    <p>
+      
+   
     <ol cols="2" marker="a.">
       <li><p>
         <m>x = \log 70</m>
@@ -411,13 +411,12 @@
         <m>5x = 10^0 = 1</m>, so <m>x = \dfrac{1}{5}</m>
       </p></li>
     </ol>
+     </p>
   </solution>
 
         </activity>
 
-        </page>
-
-<page>
+        <!--</page><page>-->
 
 <activity>
   <introduction>
@@ -557,9 +556,7 @@
   </task>
 </activity>
 
-</page>
-
-<page>
+<!--</page><page>-->
 
 <activity>
   <statement>
@@ -568,28 +565,29 @@
     </p>
     <p>
       <ol cols="2" marker="a.">
-  <li workspace="1cm"><p><m>e^x = 20</m></p></li>
-  <li workspace="1cm"><p><m>e^{2x} = 50</m></p></li>
-  <li workspace="1cm"><p><m>3e^x = 45</m></p></li>
-  <li workspace="1cm"><p><m>e^{x-1} = 10</m></p></li>
-  <li workspace="1cm"><p><m>2e^{3x} = 14</m></p></li>
-  <li workspace="1cm"><p><m>e^{-x} = 0.5</m></p></li>
-  <li workspace="1cm"><p><m>5e^{2x+1} = 100</m></p></li>
+  <li><p workspace="1cm"><m>e^x = 20</m></p></li>
+  <li><p workspace="1cm"><m>e^{2x} = 50</m></p></li>
+  <li><p workspace="1cm"><m>3e^x = 45</m></p></li>
+  <li><p workspace="1cm"><m>e^{x-1} = 10</m></p></li>
+  <li><p workspace="1cm"><m>2e^{3x} = 14</m></p></li>
+  <li><p workspace="1cm"><m>e^{-x} = 0.5</m></p></li>
+  <li><p workspace="1cm"><m>5e^{2x+1} = 100</m></p></li>
 
-  <li workspace="1cm"><p><m>e^{3x} = 1</m></p></li>
-  <li workspace="1cm"><p><m>\ln x = 3</m></p></li>
-  <li workspace="1cm"><p><m>\ln(2x) = 5</m></p></li>
-  <li workspace="1cm"><p><m>3\ln x = 12</m></p></li>
-  <li workspace="1cm"><p><m>2\ln(3x) = 8</m></p></li>
-  <li workspace="1cm"><p><m>\ln x = -0.5</m></p></li>
-  <li workspace="1cm"><p><m>5\ln(2x+1) +5= 15</m></p></li>
-  <li workspace="1cm"><p><m>\ln(x^2) = \ln 9</m></p></li>
-  <li workspace="1cm"><p><m>\ln(3x) = 0</m></p></li>
+  <li><p workspace="1cm"><m>e^{3x} = 1</m></p></li>
+  <li><p workspace="1cm"><m>\ln x = 3</m></p></li>
+  <li><p workspace="1cm"><m>\ln(2x) = 5</m></p></li>
+  <li><p workspace="1cm"><m>3\ln x = 12</m></p></li>
+  <li><p workspace="1cm"><m>2\ln(3x) = 8</m></p></li>
+  <li><p workspace="1cm"><m>\ln x = -0.5</m></p></li>
+  <li><p workspace="1cm"><m>5\ln(2x+1) +5= 15</m></p></li>
+  <li><p workspace="1cm"><m>\ln(x^2) = \ln 9</m></p></li>
+  <li><p workspace="1cm"><m>\ln(3x) = 0</m></p></li>
 </ol>
     </p>
   </statement>
 
   <solution component="S3-4-review-soln">
+    <p>
     <ol cols="2" marker="a.">
       <li><p>
         <m>x = \ln 20</m>
@@ -643,13 +641,11 @@
         <m>3x = e^0 = 1</m>, so <m>x = \dfrac{1}{3}</m>
       </p></li>
     </ol>
+    </p>
   </solution>
 </activity>
 
-</page>
-
-
-<page>
+<!--</page><page>-->
 
         <activity>
   <introduction>
@@ -756,9 +752,7 @@
     </solution>
   </task>
 </activity>
-</page>
-
-<page>
+<!--</page><page>-->
 <activity>
   <introduction>
     <p>
@@ -838,8 +832,7 @@
   </task>
 </activity>
 
- </page>
- <page>
+ <!--</page><page>-->
   <activity>
     <statement>
       <p>
@@ -849,28 +842,28 @@
       </p>
       <p>
         <ol marker="a." cols="2">
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
               A quadratic function pointing upward.
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
               A quadratic function pointing downwards.
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
               A linear function with positive slope.
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
               A function showing exponential growth.
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
               A sine function.
             </p>
           </li>
@@ -919,32 +912,32 @@
       </p>
       <p>
         <ol marker="a." cols="2">
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
                         A function that is both concave down and decreasing everywhere.
 
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
               A function that is always concave down, but is increasing until
           <m>x=4</m> and then is decreasing after <m>x=4</m>.
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
                         A function that is not concave up or concave down.
 
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
               A function that is always increasing but is concave down before
           <m>x=0</m> and concave up after <m>x=0</m>.
             </p>
           </li>
-          <li workspace="1cm">
-            <p>
+          <li>
+            <p workspace="1cm">
                         A function that is periodically changing its concavity from concave up to concave down and over again.
 
             </p>
@@ -987,6 +980,6 @@
     </solution>
 
   </activity>
- </page>
+ <!--</page>-->
 
 </handout>
