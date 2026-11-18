@@ -5,15 +5,16 @@
     <alert>MTH 124</alert>
   </p>
 
-<p workspace="1in">
+
   <sidebyside widths="45% 45%">
-    <p><md>b = 10^a ~~~ \iff ~~~ \log_{10}(<fillin characters = "1" answer="b"/>) = <fillin characters="1" answer="a"/></md>
-<md>\log_{10}(10^t) = <fillin characters = "1" answer="t"/></md>
+    <p><md>b = 10^a ~~~ \iff ~~~ \log_{10}(<fillin characters = "1" />) = <fillin characters="1" /></md>
+<md>\log_{10}(10^t) = <fillin characters = "1" /></md>
 <md>10^{\log_{10}(y)} = <fillin characters = "1"/></md></p>
     <p><md>b = e^a ~~~ \iff ~~~ \ln(<fillin characters = "1"/>) = <fillin characters = "1"/></md>
 <md>\ln(e^t) = <fillin characters = "1"/></md>
 <md>e^{\ln(y)} = <fillin characters = "1"/></md></p>
   </sidebyside>
+  <p workspace="1in">
   </p>
 
   <assemblage>
@@ -107,7 +108,7 @@
       </statement>
 
     <solution component="S3-5-soln">
-      <ol marker="a.">
+      <p><ol marker="a.">
         <li>
           <p>
             <md>
@@ -181,6 +182,7 @@
           </p>
         </li>
       </ol>
+      </p>
     </solution>
   </activity>
 
@@ -189,7 +191,7 @@
     <title>The graph of <m>y=\ln(x)</m></title>
         <p>Graph <m>e^x</m> is shown above the line <m>y=x</m>, and <m>\ln(x)</m> is shown below the line <m>y=x</m>. Left is zoomed in, right is zoomed out.</p>
 
-    <p>
+    
   <sidebyside widths="28% 28% 40%">
     <image>
       <shortdescription>
@@ -249,7 +251,7 @@
     </p>
   </sidebyside>
 
- </p>
+ 
 
     
   </assemblage>
@@ -545,6 +547,7 @@
     between exponential functions of base <m>e</m> and 
     natural log functions, or take the natural log of both side 
     and use the relationship of inverses, that <m>\ln(e^a) = a</m>.</p>
+    <p>
       <ol marker="a.">
         <li>
           <p>
@@ -601,6 +604,7 @@
           </p>
         </li>
       </ol>
+      </p>
     </solution>
   </activity>
 

@@ -287,7 +287,7 @@ How does the value of <m>A(h)</m>
     <statement>
       <p>By graphing <m>E(t) = e^t</m>
  and appropriate horizontal lines, estimate the solution to each of the following equations (i.e. find the value of <m>t</m> that satisfies the equation). Note that in some parts, you may need to do some algebraic work in addition to using the graph.</p>
-    <ol cols="2" marker="a.">
+    <p><ol cols="2" marker="a.">
           <li>
             <p workspace="1in">
               <m>e^t = 2</m>
@@ -314,12 +314,14 @@ How does the value of <m>A(h)</m>
         <p workspace="1in"><m>2e^{1.2t} = 1.5e^{1.6t}</m></p>
         </li>
         </ol>
+        </p>
         </statement>
       <solution component="S3-3-soln">
         <p>
           For now, we get to <m>e^{#} = #</m> and then graph <m>y=e^{#}</m> and 
           <m>y=#</m> and see where they intersect
         </p>
+        <p>
         <ol cols="2" marker="a.">
           <li>
             <p>
@@ -358,6 +360,7 @@ How does the value of <m>A(h)</m>
             </p>
           </li>
         </ol>
+        </p>
       </solution>
 
         </activity>

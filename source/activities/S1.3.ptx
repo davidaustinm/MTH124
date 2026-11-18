@@ -330,7 +330,7 @@
                 </p>
             </statement>
             <solution component="S1-3-soln">
-                <p>
+                
                     <sidebyside widths="30% 30%">
               <image>
                         <shortdescription>
@@ -378,7 +378,7 @@
                         </prefigure>
                     </image>
             </sidebyside>
-                </p>
+                
             </solution>
         </task>
 

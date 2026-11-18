@@ -430,9 +430,9 @@ Fundamental Trig Identity:
     </tabular>
   </assemblage>
 
-  <activity>
+  <activity  workspace="1in">
     <title>Activity 4.1.4</title>
-    <statement workspace="1in">
+    <statement>
       <p>We want to determine the distance between two points <m>A</m>
  and <m>B</m>
  that are directly across from one another on opposite sides of a river, as pictured in the figure. We mark the locations of those points and walk <m>50</m>

@@ -323,13 +323,13 @@
         <sidebyside widths="40%  60%">
           <image>
             <shortdescription>
-              A right trianglewith angles of 45, 45, and 90 degrees with
-              hypotenus 1, and side lengths x and y.
+              A right triangle with angles of 45, 45, and 90 degrees with
+              hypotenuse 1, and side lengths x and y.
             </shortdescription>
             <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3">
               <diagram dimensions="(250,250)" margins="5">
                 <coordinates bbox="(-.3,-.3,1,1)">
-                  <triangle vertices="((0,0),(sqrt(2)/2,sqrt(2)/2),(sqrt(2)/2,0))" closed="yes" stroke="blue" angle-markers="yes"/>
+                  <triangle vertices="((0,0),(sqrt(2)/2,sqrt(2)/2),(sqrt(2)/2,0))" stroke="blue" angle-markers="yes"/>
                   <label anchor="(sqrt(2)/4,0)" alignment="s">
                     <m>
                       x
@@ -389,7 +389,7 @@
         <sidebyside widths="40% 60%">
           <image>
             <shortdescription>
-              A right triangle with angles of 30, 60, 90 degrees with hypotenus
+              A right triangle with angles of 30, 60, 90 degrees with hypotenuse
               1 and side lengths x and y.
               In the picture, the side length of x is adjacent to the 30 degree
               angle.
@@ -397,7 +397,7 @@
             <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3-b">
               <diagram dimensions="(250,250)" margins="5">
                 <coordinates bbox="(-.3,-.3,1,1)">
-                  <triangle vertices="((0,0),(sqrt(3)/2,sqrt(1)/2),(sqrt(3)/2,0))" closed="yes" stroke="blue" angle-markers="yes"/>
+                  <triangle vertices="((0,0),(sqrt(3)/2,sqrt(1)/2),(sqrt(3)/2,0))" stroke="blue" angle-markers="yes"/>
                   <label anchor="(sqrt(3)/4,0)" alignment="s">
                     <m>
                       x
@@ -456,7 +456,7 @@
         <sidebyside widths="40% 60%">
           <image>
             <shortdescription>
-              A right triangle with angles of 30, 60, 90 degrees with hypotenus
+              A right triangle with angles of 30, 60, 90 degrees with hypotenuse
               1 and side lengths x and y.
               In the picture, the side length of x is adjacent to the 60 degree
               angle.
@@ -464,7 +464,7 @@
             <prefigure xmlns="https://prefigure.org" label="prefigure-124-2-2-3-c">
               <diagram dimensions="(250,250)" margins="30">
                 <coordinates bbox="(-.3,-.3,1,1)">
-                  <triangle vertices="((0,0),(sqrt(1)/2,sqrt(3)/2),(sqrt(1)/2,0))" closed="yes" stroke="blue" angle-markers="yes"/>
+                  <triangle vertices="((0,0),(sqrt(1)/2,sqrt(3)/2),(sqrt(1)/2,0))" stroke="blue" angle-markers="yes"/>
                   <label anchor="(sqrt(1)/4,0)" alignment="s">
                     <m>
                       x
@@ -534,7 +534,7 @@
                 <coordinates bbox="(-.3,-.3,1,1)">
                   <grid-axes decorations="no"/>
                   <circle center="(0,0)" radius="1" stroke="blue"/>
-                  <triangle vertices="((0,0),(sqrt(3)/2,sqrt(1)/2),(sqrt(3)/2,0))" closed="yes" stroke="blue" angle-markers="yes" thickness="3"/>
+                  <triangle vertices="((0,0),(sqrt(3)/2,sqrt(1)/2),(sqrt(3)/2,0))" stroke="blue" angle-markers="yes" thickness="3"/>
                   <label anchor="(sqrt(3)/4,0)" alignment="s">
                     <m>
                       x
@@ -570,7 +570,7 @@
                 <coordinates bbox="(-.3,-.3,1,1)">
                   <grid-axes decorations="no"/>
                   <circle center="(0,0)" radius="1" stroke="blue"/>
-                  <triangle vertices="((0,0),(sqrt(2)/2,sqrt(2)/2),(sqrt(2)/2,0))" closed="yes" stroke="blue" angle-markers="yes" thickness="3"/>
+                  <triangle vertices="((0,0),(sqrt(2)/2,sqrt(2)/2),(sqrt(2)/2,0))"  stroke="blue" angle-markers="yes" thickness="3"/>
                   <label anchor="(sqrt(2)/4,0)" alignment="s">
                     <m>
                       x
@@ -606,7 +606,7 @@
                 <coordinates bbox="(-.3,-.3,1,1)">
                   <grid-axes decorations="no"/>
                   <circle center="(0,0)" radius="1" stroke="blue"/>
-                  <triangle vertices="((0,0),(sqrt(1)/2,sqrt(3)/2),(sqrt(1)/2,0))" closed="yes" stroke="blue" angle-markers="yes" thickness="3"/>
+                  <triangle vertices="((0,0),(sqrt(1)/2,sqrt(3)/2),(sqrt(1)/2,0))" stroke="blue" angle-markers="yes" thickness="3"/>
                   <label anchor="(sqrt(1)/4,0)" alignment="s">
                     <m>
                       x
@@ -653,6 +653,12 @@
       </solution>
     </task>
   </activity>
+
+
+<activity>
+  <title>Fill in the unit circle</title>
+  
+  <statement>
 
   <sidebyside widths="60% 28%">
     <image>
@@ -728,6 +734,7 @@
       We have 16 specials points total whose location we can determine exactly!
     </p>
   </sidebyside>
+  </statement>
 
   <solution component="S2-2-soln">
      <image>
@@ -854,6 +861,7 @@
 
 
   </solution>
+  </activity>
 
   <assemblage>
     <title>Connecting arc length and angles in non-unit circles</title>

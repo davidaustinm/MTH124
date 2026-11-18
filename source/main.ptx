@@ -90,6 +90,9 @@
       <title>Handouts</title>
       <!-- Include handouts -->
       <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+      <p>
+        
+      </p>
     </chapter>
 
     <chapter xml:id="homework">
@@ -106,6 +109,7 @@
       <xi:include href="./homework/homework-07.ptx"/>
       <xi:include href="./homework/homework-08.ptx"/>
       <xi:include href="./homework/homework-09.ptx"/>
+      <xi:include href="./homework/homework-10.ptx"/>
 
     </chapter>
 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+    <title>Homework 10</title>
+
+    <introduction>
+        <p>
+            <alert>MTH 124</alert>
+        </p>
+    </introduction>
+
+    <p>
+        <alert>Due Thursday, 11/19/26 at 12:00pm (the beginning of class)</alert>
+    </p>
+
+    <p>
+        Make sure you are following the homework expectations!
+        Example: complete sentences!
+    </p>
+
+    <p>
+        Note: This is similar to Problem 5 from Section 4.1 in your text.
+    </p>
+
+    <exercise>
+        <introduction>
+            <p>
+                You're building a wheelchair ramp from the ground to a patio that is 3 feet above the ground. According to the Americans with Disabilities Act it must have a  ratio of 1:12 maximum slope, or one foot in elevation change for every 12 feet along the ground. 
+
+            </p>
+  
+
+        </introduction>
+
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                  Draw a right triangle that models the ramp you will build to 3 feet above the ground and label the two legs with information given in the problem.
+                </p>
+
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                  Find the (minimum) length of the ramp.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the angle (in degrees) that the ramp will make with the ground. (Use an inverse trig function!)
+                           </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                   <url href="https://www.braunability.com/us/en/blog/disability-rights/wheelchair-ramp-slope.html#">This website</url>
+                                      says ``The commercial and public facility standard for slope is 1:12 (in inches)
+                                      or about 5 degrees of incline.'' Is that accurate?
+                                      If a builder built a ramp with a 5 degree incline, would it be ADA compliant?
+                              </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              he same website says ``For those building ramps at home, the ratio can be as steep as 3:12." What angle will the ramp make with the ground if complying with this slope?
+            </p>
+          </statement>
+        </task>
+
+        
+
+    </exercise>
+</worksheet>
