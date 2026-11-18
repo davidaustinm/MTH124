@@ -601,12 +601,12 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 1.9: Combining Functions",
-  "body": " Section 1.9: Combining Functions   MTH 124    The first activity is a repeat from last worksheet:   Activity 1.9.1   Consider the functions and defined by the table below and the piecewise linear functions and defined by the graph below. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, lies on the graph of , and lies on the graph of .      0  1  2  3  4     5  10  15  20  25     9  5  3  2  3     The graphs of p and q for you to combine.          p      q           Let . Determine .      Let . Determine exactly.      Are there any values of for which ? If not, explain why; if so, determine all such values, with justification.      Let . Determine .      Let . Determine exactly.      Are there any values of in the interval for which is not defined? If not, explain why; if so, determine all such values, with justification.           The sum of f and g is the function defined by .    The difference of f and g is the function defined by .    The product of f and g is the function defined by .    The quotient of f and g is the function defined by .        Activity 1.9.2   Consider the functions and defined by the following figures.    A piecewise graph f(x).    g(x)=1\/sqrt(x)                 A piecewise graph g(x).    g(x)=-x^2+4                   Determine the value of .      Determine the value of .      Determine the value of .      Are there any values of for which is undefined? If not, explain why. If so, determine the values.      For what values of is ?      Are there any values of for which ? Why or why not?       Activity 1.9.3   Let be a function that measures a car's fuel economy in the following way. Given an input velocity in miles per hour, is the number of gallons of fuel that the car consumes per mile (i.e., “gallons per mile”). We know that .     What is the meaning of the statement “ ” in the context of the problem? That is, what does this say about the car's fuel economy? Write a complete sentence to explain.      Consider the function . What is the value of ? What are the units on ? What does measure?      Consider the function . What is the value of ? What are the units on ? What does measure?      Do tell us fundamentally different information, or are they all essentially saying the same thing? Explain.      "
+  "body": " Section 1.9: Combining Functions   MTH 124    The first activity is a repeat from last worksheet:   Activity 1.9.1   Consider the functions and defined by the table below and the piecewise linear functions and defined by the graph below. Assume that the lines in the figure pass through whole number coordinates where they appear to do so; for example, lies on the graph of , and lies on the graph of .      0  1  2  3  4     5  10  15  20  25     9  5  3  2  3     The graphs of p and q for you to combine.          p      q           Let . Determine .      Let . Determine exactly.      Are there any values of for which ? If not, explain why; if so, determine all such values, with justification.      Let . Determine .      Let . Determine exactly.      Are there any values of in the interval for which is not defined? If not, explain why; if so, determine all such values, with justification.            The sum of f and g is the function defined by .    The difference of f and g is the function defined by .    The product of f and g is the function defined by .    The quotient of f and g is the function defined by .        Activity 1.9.2   Consider the functions and defined by the following figures.    A piecewise graph f(x).    g(x)=1\/sqrt(x)                 A piecewise graph g(x).    g(x)=-x^2+4                   Determine the value of .      Determine the value of .      Determine the value of .      Are there any values of for which is undefined? If not, explain why. If so, determine the values.      For what values of is ?      Are there any values of for which ? Why or why not?       Activity 1.9.3   Let be a function that measures a car's fuel economy in the following way. Given an input velocity in miles per hour, is the number of gallons of fuel that the car consumes per mile (i.e., “gallons per mile”). We know that .     What is the meaning of the statement “ ” in the context of the problem? That is, what does this say about the car's fuel economy? Write a complete sentence to explain.      Consider the function . What is the value of ? What are the units on ? What does measure?      Consider the function . What is the value of ? What are the units on ? What does measure?      Do tell us fundamentally different information, or are they all essentially saying the same thing? Explain.      "
 },
 {
-  "id": "activities-14-4",
+  "id": "activities-14-3-2",
   "level": "2",
-  "url": "activities-14.html#activities-14-4",
+  "url": "activities-14.html#activities-14-3-2",
   "type": "Activity",
   "number": "50",
   "title": "Activity 1.9.1.",
@@ -622,18 +622,18 @@ var ptx_lunr_docs = [
   "body": "     The sum of f and g is the function defined by .    The difference of f and g is the function defined by .    The product of f and g is the function defined by .    The quotient of f and g is the function defined by .      "
 },
 {
-  "id": "activities-14-6",
+  "id": "activities-14-4-2",
   "level": "2",
-  "url": "activities-14.html#activities-14-6",
+  "url": "activities-14.html#activities-14-4-2",
   "type": "Activity",
   "number": "52",
   "title": "Activity 1.9.2.",
   "body": " Activity 1.9.2   Consider the functions and defined by the following figures.    A piecewise graph f(x).    g(x)=1\/sqrt(x)                 A piecewise graph g(x).    g(x)=-x^2+4                   Determine the value of .      Determine the value of .      Determine the value of .      Are there any values of for which is undefined? If not, explain why. If so, determine the values.      For what values of is ?      Are there any values of for which ? Why or why not?    "
 },
 {
-  "id": "activities-14-7",
+  "id": "activities-14-5-1",
   "level": "2",
-  "url": "activities-14.html#activities-14-7",
+  "url": "activities-14.html#activities-14-5-1",
   "type": "Activity",
   "number": "53",
   "title": "Activity 1.9.3.",
@@ -649,18 +649,18 @@ var ptx_lunr_docs = [
   "body": " Chapter 1 Review   MTH 124      A national park records data regarding the total fox population over a 12 month period, where means January 1, means February 1, and so on. Below is the table of values they recorded:    (month)  0  1  2  3  4  5  6  7  8  9  10  11    (foxes)  150  143  125  100  75  57  50  57  75  100  125  143       Is a function of ? Is a function of ?      Let denote the fox population in month . Find all solutions(s) to the equation .      Find for the function . What does it mean in context? Does it tell you everything thing that happened over the year?      Suppose we have a function . What kind of transformation does that apply to ?      Consider again . What is ? Is there a way we can think of in the context of foxes?      Suppose we have a different function . What kind of transformation does that apply to ? Can we relate that back to context?      Consider again . What is ?      Suppose the same national park records data regarding the total wolf population over the same 12 month period. Below is the table of values they recorded:    (month)  0  1  2  3  4  5  6  7  8  9  10  11    (wolves)  110  101  100  92  60  50  32  40  50  60  91  101    Let denote the wolf population in month . What is ?      Taking to be the number of wolves and to be the number of foxes in month , let's make a new function which measures the total number of foxes and wolves. What is ?      A completely terrible way to represent the fox population is with a quadratic function given by the equation . (While it's terrible for many reasons, it's almost the best quadratic function we can get, ask your professor if you're interested in why.). What is the vertex of this parabola?      Consider still . If this function was all we knew about the fox population and we didn't know any data, what would this tell us about the fewest number of foxes we would find in the park? That is, what is the range of ?      Consider still . Does have an inverse? If so, find it. If not, why not.      What about the original function that described the fox data. Does that have an inverse?        Find the following.     The equation of a line that goes through the points and .      The equation of a line that has slope 6 and goes through the point .      The average rate of change for the function . If had units of meters and had units of seconds, what would be the units of ?      If and , find .      If and , find an equation for . (No need to simplify.)      If , find an equation for .      "
 },
 {
-  "id": "activities-15-3",
+  "id": "activities-15-3-1",
   "level": "2",
-  "url": "activities-15.html#activities-15-3",
+  "url": "activities-15.html#activities-15-3-1",
   "type": "Activity",
   "number": "54",
   "title": "",
   "body": "  A national park records data regarding the total fox population over a 12 month period, where means January 1, means February 1, and so on. Below is the table of values they recorded:    (month)  0  1  2  3  4  5  6  7  8  9  10  11    (foxes)  150  143  125  100  75  57  50  57  75  100  125  143       Is a function of ? Is a function of ?      Let denote the fox population in month . Find all solutions(s) to the equation .      Find for the function . What does it mean in context? Does it tell you everything thing that happened over the year?      Suppose we have a function . What kind of transformation does that apply to ?      Consider again . What is ? Is there a way we can think of in the context of foxes?      Suppose we have a different function . What kind of transformation does that apply to ? Can we relate that back to context?      Consider again . What is ?      Suppose the same national park records data regarding the total wolf population over the same 12 month period. Below is the table of values they recorded:    (month)  0  1  2  3  4  5  6  7  8  9  10  11    (wolves)  110  101  100  92  60  50  32  40  50  60  91  101    Let denote the wolf population in month . What is ?      Taking to be the number of wolves and to be the number of foxes in month , let's make a new function which measures the total number of foxes and wolves. What is ?      A completely terrible way to represent the fox population is with a quadratic function given by the equation . (While it's terrible for many reasons, it's almost the best quadratic function we can get, ask your professor if you're interested in why.). What is the vertex of this parabola?      Consider still . If this function was all we knew about the fox population and we didn't know any data, what would this tell us about the fewest number of foxes we would find in the park? That is, what is the range of ?      Consider still . Does have an inverse? If so, find it. If not, why not.      What about the original function that described the fox data. Does that have an inverse?    "
 },
 {
-  "id": "activities-15-4",
+  "id": "activities-15-4-1",
   "level": "2",
-  "url": "activities-15.html#activities-15-4",
+  "url": "activities-15.html#activities-15-4-1",
   "type": "Activity",
   "number": "55",
   "title": "",
@@ -712,9 +712,9 @@ var ptx_lunr_docs = [
   "body": " S2.1 Activity: Traversing Circles  MTH 124     Circle Activity Instructions To be completed with your table.   Fill in the circumference (given on your circle page), the radius of your circle, and the coordinates for the center of your circle on the notes sheet.    On the circle itself, fill in the EXACT (no rounding for ) coordinates for the top, bottom, left, and right of the circle.   At the starting point, the \"Fraction of the Circle\" is 0. The distance traveled will also be . At what height is the starting point? Put this in the first row of the table. (You can round the heights here or not!)   At 1\/4 of the way around, you’ve traveled 1\/4 of the circumference. Write this value under in the 1\/4 row. At what height are you at now? Can you find it exactly? (No rounding, leave as ).   Fill in the whole table, filling in as many values as you can exactly.   Plot the points on the graph on the notes sheet. -------- CHECK YOUR POINTS WITH DR. BAILEY! ---------   Connect the dots to make the height graph. Consider whether the curve is “speeding up”\/ “curving up” at each point.   If the graph continued, what would it look like? (Fill this in with a dotted line.)   On the bottom write (at least) one thing you notice, and one thing you wonder.   Discuss: How would a different circle change your graph? -------- TAPE YOUR WORK AND CIRCLE TO A WALL! ---------    Walk around and see other graphs. Check the first couple of points - does the work look correct?   What’s similar about the graph? What’s different?    Definitions we'll fill in together       A circular function       The midline of a circular function      The amplitude of a circular function      When a function is periodic       The period of a periodic function       Pick a circle as a table and write on the notes sheet the midline, amplitude, and period.      Pick another circle and check another team’s work.      Discuss - how do the numbers found for each correspond to the circle given?      "
 },
 {
-  "id": "activities-17-3",
+  "id": "activities-17-3-1",
   "level": "2",
-  "url": "activities-17.html#activities-17-3",
+  "url": "activities-17.html#activities-17-3-1",
   "type": "Activity",
   "number": "58",
   "title": "",
@@ -766,9 +766,9 @@ var ptx_lunr_docs = [
   "body": "  The period of a periodic function   "
 },
 {
-  "id": "activities-17-10",
+  "id": "activities-17-4-7",
   "level": "2",
-  "url": "activities-17.html#activities-17-10",
+  "url": "activities-17.html#activities-17-4-7",
   "type": "Activity",
   "number": "64",
   "title": "",
@@ -1270,117 +1270,117 @@ var ptx_lunr_docs = [
   "body": " Trig Practice   Each of the graphs below shows a function of the form . All graphs use the same scales so you can compare them directly.    A graph of a sinusoidal function.    f(t)=3*sin(pi\/2*(t-1))+1     Graph A       A graph of a sinusoidal function.    f(t)=2*sin(pi*(t-0.5))-1     Graph B       A graph of a sinusoidal function.    f(t)=1*sin(pi\/3*(t-2))+2     Graph C         A graph of a sinusoidal function.    f(t)=4*sin(pi\/4*(t-0))+0     Graph D       A graph of a sinusoidal function.    f(t)=2*sin(pi\/2*(t+1))+3     Graph E       A graph of a sinusoidal function.    f(t)=3*sin(pi*(t-1))-2     Graph F          Which graph has the greatest amplitude? Which has the smallest amplitude?      Which graph(s) have an amplitude of 3?      Which graph(s) have the longest period? Which graph(s) have the shortest period?      Which graph(s) have a period of 4?      Which graph(s) have the midline ? Which graph(s) have the highest midline? Which have the lowest midline?      Find two pairs of graphs that have the same amplitude but different periods.      Which graph(s) are concave up on the interval ? Which graph(s) are increasing on ?      Choose 1+ of the graphs and write a possible formula of the form .    "
 },
 {
-  "id": "activities-27-4",
+  "id": "activities-27-4-1",
   "level": "2",
-  "url": "activities-27.html#activities-27-4",
+  "url": "activities-27.html#activities-27-4-1",
   "type": "Activity",
   "number": "103",
   "title": "",
   "body": "  Practice finding exponential functions.     Find the equation for the exponential function of the form that goes through the points: and       Find the equation for the exponential function of the form that goes through the points: and     "
 },
 {
-  "id": "activities-27-5",
+  "id": "activities-27-5-1",
   "level": "2",
-  "url": "activities-27.html#activities-27-5",
+  "url": "activities-27.html#activities-27-5-1",
   "type": "Activity",
   "number": "104",
   "title": "",
   "body": "  Solve the following exactly:                       "
 },
 {
-  "id": "activities-27-6",
+  "id": "activities-27-6-1",
   "level": "2",
-  "url": "activities-27.html#activities-27-6",
+  "url": "activities-27.html#activities-27-6-1",
   "type": "Activity",
   "number": "105",
   "title": "",
   "body": "  A bacteria population grows according to , where is time in hours.     Find the initial population.      Find the population after 2 hours.      Find the exact time when the population is 3000. (There should be a log in your answer.)    "
 },
 {
-  "id": "activities-27-7",
+  "id": "activities-27-6-2",
   "level": "2",
-  "url": "activities-27.html#activities-27-7",
+  "url": "activities-27.html#activities-27-6-2",
   "type": "Activity",
   "number": "106",
   "title": "",
   "body": "  A radioactive substance in grams decays according to , where is time in years and is some unknown number.     If after 5 years there was 250 grams of the substance, what is ?    "
 },
 {
-  "id": "activities-27-8",
+  "id": "activities-27-6-3",
   "level": "2",
-  "url": "activities-27.html#activities-27-8",
+  "url": "activities-27.html#activities-27-6-3",
   "type": "Activity",
   "number": "107",
   "title": "",
   "body": "  An investment grows according to , where is time in years.     When will the investment double?    "
 },
 {
-  "id": "activities-27-9",
+  "id": "activities-27-6-4",
   "level": "2",
-  "url": "activities-27.html#activities-27-9",
+  "url": "activities-27.html#activities-27-6-4",
   "type": "Activity",
   "number": "108",
   "title": "",
   "body": "  The intensity of an earthquake is measured as , where is the magnitude and is some unknown initial intensity.     Write the intensity of a magnitude 6 earthquake and of a magnitude 4 earthquake in terms of .      How many times more intense is a magnitude 6 earthquake than a magnitude 4 earthquake?    "
 },
 {
-  "id": "activities-27-10",
+  "id": "activities-27-7-1",
   "level": "2",
-  "url": "activities-27.html#activities-27-10",
+  "url": "activities-27.html#activities-27-7-1",
   "type": "Activity",
   "number": "109",
   "title": "",
   "body": "  Solve the following exactly.                       "
 },
 {
-  "id": "activities-27-11",
+  "id": "activities-27-8-1",
   "level": "2",
-  "url": "activities-27.html#activities-27-11",
+  "url": "activities-27.html#activities-27-8-1",
   "type": "Activity",
   "number": "110",
   "title": "",
   "body": "  A cooling object follows , where is temperature in Celsius and is time in minutes.     What is the initial temperature of the object?      What is the temperature after 10 minutes?      What will the temperature approach in the long term?    "
 },
 {
-  "id": "activities-27-12",
+  "id": "activities-27-8-2",
   "level": "2",
-  "url": "activities-27.html#activities-27-12",
+  "url": "activities-27.html#activities-27-8-2",
   "type": "Activity",
   "number": "111",
   "title": "",
   "body": "  The population of a city grows according to , where is time in years.     Find the initial population of the city.      What is the population after 10 years?      How long until the population reaches 30,000?    "
 },
 {
-  "id": "activities-27-13",
+  "id": "activities-27-9-1",
   "level": "2",
-  "url": "activities-27.html#activities-27-13",
+  "url": "activities-27.html#activities-27-9-1",
   "type": "Activity",
   "number": "112",
   "title": "",
   "body": "  A radioactive element decays according to , where is time in days and are unknown.     If there is initially 200 grams, find one of the unknowns.      If after 7 days there is 150 grams, find the other unknown.    "
 },
 {
-  "id": "activities-27-14",
+  "id": "activities-27-9-2",
   "level": "2",
-  "url": "activities-27.html#activities-27-14",
+  "url": "activities-27.html#activities-27-9-2",
   "type": "Activity",
   "number": "113",
   "title": "",
   "body": "  Compound interest is calculated as where is time in years.     What is the initial amount you invest?      How long until the initial amount doubles?    "
 },
 {
-  "id": "activities-27-15",
+  "id": "activities-27-10-1",
   "level": "2",
-  "url": "activities-27.html#activities-27-15",
+  "url": "activities-27.html#activities-27-10-1",
   "type": "Activity",
   "number": "114",
   "title": "",
   "body": "  Sketch a reference graph. Describe it's concavity (ex: it is always concave up, or it switches from concave up to concave down at this specific point, or it alternates between concave up in this area and concave down in this area, or...). Similarly describe if it's increasing\/decreasing and where.     A quadratic function pointing upward.    A quadratic function pointing downwards.    A linear function with positive slope.    A function showing exponential growth.    A sine function.      "
 },
 {
-  "id": "activities-27-16",
+  "id": "activities-27-10-2",
   "level": "2",
-  "url": "activities-27.html#activities-27-16",
+  "url": "activities-27.html#activities-27-10-2",
   "type": "Activity",
   "number": "115",
   "title": "",
@@ -1447,57 +1447,57 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 3.6: Modeling Temperature and Population",
-  "body": " Section 3.6: Modeling Temperature and Population   MTH 124     Recall Properties and Newton's Law of Cooling      Relation:     Inverses:     Multi. inside:     Division inside:     Powers come out:     Long term:      Temp of a warming\/cooling object ( ):     is surrounding temp\/long-term behavior     is NOT initial temp! But      is found from one other temp at          You're cooking a turkey. It is initially room temperature which is F. You cook it in a F oven. After 50 minutes the turkey is F. What is the temperature after 80 minutes?      Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?       Reality check: Populations don't usually grow forever with no limits, resources limit growth. Calculus can help us develop a more realistic model called the Logistic Model .    Logistic Model  of population growth with positive constants :  Since, , then ! Thus in the long-term.  ** is the carrying capacity of the population, i.e. the long-term behavior\/max capacity.    Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .   A blank graph with horizontal axis for time t and vertical axis for population P.              On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?       Activity 3.6.4   Suppose that a population of animals (measured in thousands) that lives on an island is known to grow according to the logistic model, where is measured in years. We know the following information: , , and given the resources available the island cannot support more than thousand animals.     Determine the values of , , and in the logistic model below. Try to find exact. (For approximate, if you round, include 4 decimal places).      Find the approximate time value when the population will be (thousand). Show your work. Hint: You may find it easier to not plug in and until you get .      Plot your model from (a) and check that its values match the desired characteristics. Then, use Desmos to compute the average rate of change of on the intervals , , , and . What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?      "
+  "body": " Section 3.6: Modeling Temperature and Population   MTH 124     Recall Properties and Newton's Law of Cooling      Relation:     Inverses:     Multi. inside:     Division inside:     Powers come out:     Long term:      Temp of a warming\/cooling object ( ):     is surrounding temp\/long-term behavior     is NOT initial temp! But      is found from one other temp at          You're cooking a turkey. It is initially room temperature which is F. You cook it in a F oven. After 50 minutes the turkey is F. What is the temperature after 80 minutes?       Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?       Reality check: Populations don't usually grow forever with no limits, resources limit growth. Calculus can help us develop a more realistic model called the Logistic Model .    Logistic Model  of population growth with positive constants :  Since, , then ! Thus in the long-term.  ** is the carrying capacity of the population, i.e. the long-term behavior\/max capacity.    Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .   A blank graph with horizontal axis for time t and vertical axis for population P.              On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?       Activity 3.6.4   Suppose that a population of animals (measured in thousands) that lives on an island is known to grow according to the logistic model, where is measured in years. We know the following information: , , and given the resources available the island cannot support more than thousand animals.     Determine the values of , , and in the logistic model below. Try to find exact. (For approximate, if you round, include 4 decimal places).      Find the approximate time value when the population will be (thousand). Show your work. Hint: You may find it easier to not plug in and until you get .      Plot your model from (a) and check that its values match the desired characteristics. Then, use Desmos to compute the average rate of change of on the intervals , , , and . What is the meaning (with units) of the values you’ve found? How is the population growing on these intervals?      "
 },
 {
-  "id": "activities-29-4",
+  "id": "activities-29-3-2",
   "level": "2",
-  "url": "activities-29.html#activities-29-4",
+  "url": "activities-29.html#activities-29-3-2",
   "type": "Example",
   "number": "121",
   "title": "",
   "body": "  You're cooking a turkey. It is initially room temperature which is F. You cook it in a F oven. After 50 minutes the turkey is F. What is the temperature after 80 minutes?   "
 },
 {
-  "id": "activities-29-5",
+  "id": "activities-29-4-1",
   "level": "2",
-  "url": "activities-29.html#activities-29-5",
+  "url": "activities-29.html#activities-29-4-1",
   "type": "Activity",
   "number": "122",
   "title": "Activity 3.6.2.",
   "body": " Activity 3.6.2   A can of soda is initially at room temperature, Fahrenheit, and at time is placed in a refrigerator set at . In addition, we know that after minutes, the soda’s temperature has dropped to . Let represent the temperature of the soda in degrees Fahrenheit at time in minutes.     Use algebraic reasoning and your understanding of the physical situation to determine the exact values of , , and in the model .  (Find then then .)      Determine the exact time the object’s temperature is . Clearly show your work. Hint: it may help to leave as until you get , then plug in .      In Desmos, enter the values you found for , , and in order to define the function . Then, use Desmos to find the average rate of change of on the interval . What is the meaning (with units) of this value?    "
 },
 {
-  "id": "activities-29-6",
+  "id": "activities-29-5-1",
   "level": "2",
-  "url": "activities-29.html#activities-29-6",
+  "url": "activities-29.html#activities-29-5-1",
   "type": "Note",
   "number": "123",
   "title": "",
   "body": " Reality check: Populations don't usually grow forever with no limits, resources limit growth. Calculus can help us develop a more realistic model called the Logistic Model .  "
 },
 {
-  "id": "activities-29-7-4",
+  "id": "activities-29-5-2-4",
   "level": "2",
-  "url": "activities-29.html#activities-29-7-4",
+  "url": "activities-29.html#activities-29-5-2-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "carrying capacity "
 },
 {
-  "id": "activities-29-8",
+  "id": "activities-29-5-3",
   "level": "2",
-  "url": "activities-29.html#activities-29-8",
+  "url": "activities-29.html#activities-29-5-3",
   "type": "Activity",
   "number": "124",
   "title": "Activity 3.6.3. Logistic Model.",
   "body": " Activity 3.6.3. Logistic Model   In Desmos, define and accept sliders for , , and . Set the slider ranges for these parameters as follows: ; ; .     Sketch a typical graph of on the axes provided and write several sentences to explain the effects of , , and on the graph of .   A blank graph with horizontal axis for time t and vertical axis for population P.              On a typical logistic graph, where does it appear that the population is growing most rapidly? How is this value connected to the carrying capacity, ?      Use your Desmos worksheet to find a logistic function that has the following properties: , , and approaches as increases without bound. What are the approximate values of , , and that make the function fit these criteria?    "
 },
 {
-  "id": "activities-29-9",
+  "id": "activities-29-6-1",
   "level": "2",
-  "url": "activities-29.html#activities-29-9",
+  "url": "activities-29.html#activities-29-6-1",
   "type": "Activity",
   "number": "125",
   "title": "Activity 3.6.4.",
@@ -2149,7 +2149,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework 10",
-  "body": " Homework 10    MTH 124     Due Thursday, 11\/19\/26 at 12:00pm (the beginning of class)   Make sure you are following the homework expectations! Example: complete sentences!  Note: This is similar to Problem 5 from Section 4.1 in your text.    You're building a wheelchair ramp from the ground to a patio that is 3 feet above the ground. According to the Americans with Disabilities Act it must have a ratio of 1:12 maximum slope, or one foot in elevation change for every 12 feet along the ground.     Draw a right triangle that models the ramp you will build to 3 feet above the ground and label the two legs with information given in the problem.      Find the (minimum) length of the ramp.      Find the angle (in degrees) that the ramp will make with the ground. (Use an inverse trig function!)       This website says ``The commercial and public facility standard for slope is 1:12 (in inches) or about 5 degrees of incline.'' Is that accurate? If a builder built a ramp with a 5 degree incline, would it be ADA compliant?      The same website says ``For those building ramps at home, the ratio can be as steep as 3:12.\" What angle will the ramp make with the ground if complying with this slope?     "
+  "body": " Homework 10    MTH 124     Due Thursday, 11\/?\/26 at 12:00pm (the beginning of class)   Make sure you are following the homework expectations! Example: complete sentences!  Note: This is similar to Problem 5 from Section 4.1 in your text.    You're building a wheelchair ramp from the ground to a patio that is 3 feet above the ground. According to the Americans with Disabilities Act it must have a ratio of 1:12 maximum slope, or one foot in elevation change for every 12 feet along the ground.     Draw a right triangle that models the ramp you will build to 3 feet above the ground and label the two legs with information given in the problem.      Find the (minimum) length of the ramp.      Find the angle (in degrees) that the ramp will make with the ground. (Use an inverse trig function!)       This website says ``The commercial and public facility standard for slope is 1:12 (in inches) or about 5 degrees of incline.'' Is that accurate? If a builder built a ramp with a 5 degree incline, would it be ADA compliant?      The same website says ``For those building ramps at home, the ratio can be as steep as 3:12.\" What angle will the ramp make with the ground if complying with this slope?     "
 },
 {
   "id": "homework-12-6",
