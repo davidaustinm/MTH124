@@ -2,7 +2,7 @@
 <handout>
   <title>S2.1 Activity: Traversing Circles</title>
   <p><alert>MTH 124</alert></p>
-<!--<page>-->
+<page>
   <activity>
     <introduction>
       
@@ -45,7 +45,7 @@ look correct?</p></statement></task>
      
 
       </activity>
-      <!--</page><page>-->
+      </page><page>
       
       <paragraphs><title>Definitions we'll fill in together</title>
         <p>
@@ -107,6 +107,6 @@ look correct?</p></statement></task>
       </statement>
     </task>
   </activity>
-  <!--</page>-->
+  </page>
 
 </handout>

@@ -6,7 +6,7 @@
   </p>
 
 
-<!--<page>-->
+<page>
   <activity xml:id="act-sinusoid-graphs">
   <title>Trig Practice</title>
   <introduction>
@@ -275,7 +275,7 @@
     </solution>
   </task>
 </activity>
-<!--</page><page>-->
+</page><page>
 <activity>
 <introduction>
   <p>
@@ -320,7 +320,7 @@
     </solution>
   </task>
 </activity>
-<!--</page><page>-->
+</page><page>
 <activity>
   <statement>
     <p>
@@ -416,7 +416,7 @@
 
         </activity>
 
-        <!--</page><page>-->
+        </page><page>
 
 <activity>
   <introduction>
@@ -556,7 +556,7 @@
   </task>
 </activity>
 
-<!--</page><page>-->
+</page><page>
 
 <activity>
   <statement>
@@ -645,7 +645,7 @@
   </solution>
 </activity>
 
-<!--</page><page>-->
+</page><page>
 
         <activity>
   <introduction>
@@ -752,7 +752,7 @@
     </solution>
   </task>
 </activity>
-<!--</page><page>-->
+</page><page>
 <activity>
   <introduction>
     <p>
@@ -832,7 +832,7 @@
   </task>
 </activity>
 
- <!--</page><page>-->
+ </page><page>
   <activity>
     <statement>
       <p>
@@ -980,6 +980,6 @@
     </solution>
 
   </activity>
- <!--</page>-->
+ </page>
 
 </handout>

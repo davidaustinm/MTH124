@@ -6,7 +6,7 @@
     <p>
         <alert>MTH 124</alert>
     </p>
-    <!--<page>-->
+    <page>
     <p>
         The first activity is a repeat from last worksheet:
     </p>
@@ -175,7 +175,7 @@
             </solution>
         </task>
     </activity>
-    <!--</page> <page>-->
+    </page> <page>
 
     <definition xml:id="def-sum-functions">
         <statement>
@@ -349,7 +349,7 @@
         </task>
 
     </activity>
-<!--</page><page>-->
+</page><page>
     <activity>
         <title>Activity 1.9.3</title>
         <introduction>
@@ -427,5 +427,5 @@
         </task>
         
     </activity>
-    <!--</page>-->
+    </page>
 </handout>
