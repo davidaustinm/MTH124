@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-hw2-g5-figure" width="270" height="270" viewBox="0 0 270 270">
+  <defs>
+    <clipPath id="prefigure-hw2-g5-__clipPath-0">
+      <rect x="10.0" y="10.0" width="250.0" height="250.0"/>
+    </clipPath>
+    <clipPath id="prefigure-hw2-g5-__clipPath-1">
+      <rect x="10.0" y="10.0" width="250.0" height="250.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-hw2-g5-grid-axes">
+    <g id="prefigure-hw2-g5-grid" stroke="#ccc" stroke-width="1">
+      <line x1="10.0" y1="260.0" x2="10.0" y2="10.0"/>
+      <line x1="51.7" y1="260.0" x2="51.7" y2="10.0"/>
+      <line x1="93.3" y1="260.0" x2="93.3" y2="10.0"/>
+      <line x1="135.0" y1="260.0" x2="135.0" y2="10.0"/>
+      <line x1="176.7" y1="260.0" x2="176.7" y2="10.0"/>
+      <line x1="218.3" y1="260.0" x2="218.3" y2="10.0"/>
+      <line x1="260.0" y1="260.0" x2="260.0" y2="10.0"/>
+      <line x1="10.0" y1="260.0" x2="260.0" y2="260.0"/>
+      <line x1="10.0" y1="218.3" x2="260.0" y2="218.3"/>
+      <line x1="10.0" y1="176.7" x2="260.0" y2="176.7"/>
+      <line x1="10.0" y1="135.0" x2="260.0" y2="135.0"/>
+      <line x1="10.0" y1="93.3" x2="260.0" y2="93.3"/>
+      <line x1="10.0" y1="51.7" x2="260.0" y2="51.7"/>
+      <line x1="10.0" y1="10.0" x2="260.0" y2="10.0"/>
+    </g>
+    <g id="prefigure-hw2-g5-axes" stroke="black" stroke-width="2">
+      <line id="prefigure-hw2-g5-__line-14" x1="10.0" y1="260.0" x2="260.0" y2="260.0" stroke="black" stroke-width="2"/>
+      <line id="prefigure-hw2-g5-__line-15" x1="10.0" y1="260.0" x2="10.0" y2="10.0" stroke="black" stroke-width="2"/>
+    </g>
+    <g id="prefigure-hw2-g5-__label-0" transform="translate(14.0,14.0) translate(0.0,-0.0)">
+      <g id="prefigure-hw2-g5-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="22.856px" height="18.024px" role="img" focusable="false" viewBox="0 -748 1263 996" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-hw2-g5-MJX-2-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+            <path id="prefigure-hw2-g5-MJX-2-NCM-I-1D463" d="M369 391C369 383 378 370 394 350C410 330 418 307 418 281C418 252 404 203 375 134C354 86 306 18 247 18C201 18 178 45 178 100C178 139 197 208 235 307C243 328 247 345 247 357C247 407 213 442 163 442C119 442 84 417 59 367C39 326 29 300 29 287C29 278 34 273 45 273C58 273 60 279 64 293C87 373 119 413 160 413C173 413 180 404 180 385C180 369 175 347 164 318C127 219 108 152 108 115C108 64 125 29 159 10C186-4 214-11 243-11C332-11 394 85 420 162C452 256 468 325 468 369C468 418 452 442 421 442C396 442 369 416 369 391Z"/>
+            <path id="prefigure-hw2-g5-MJX-2-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="fences:paren;depth:1" data-semantic-id="3" data-semantic-children="1" data-semantic-content="0,2" data-semantic-attributes="latex:(v)" data-semantic-speech="left parenthesis v right parenthesis">
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:2" data-semantic-id="0" data-semantic-parent="3" data-semantic-attributes="latex:(" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                <use data-c="28" xlink:href="#prefigure-hw2-g5-MJX-2-NCM-N-28"/>
+              </g>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="3" data-semantic-attributes="latex:v" data-semantic-speech="v" transform="translate(389,0)">
+                <use data-c="1D463" xlink:href="#prefigure-hw2-g5-MJX-2-NCM-I-1D463"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-parent="3" data-semantic-attributes="latex:)" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(874,0)">
+                <use data-c="29" xlink:href="#prefigure-hw2-g5-MJX-2-NCM-N-29"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefigure-hw2-g5-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 10.0 260.0 L 12.5 257.5 L 15.0 255.0 L 17.5 252.5 L 20.0 250.0 L 22.5 247.5 L 25.0 245.0 L 27.5 242.5 L 30.0 240.0 L 32.5 237.5 L 35.0 235.0 L 37.5 232.5 L 40.0 230.0 L 42.5 227.5 L 45.0 225.0 L 47.5 222.5 L 50.0 220.0 L 52.5 217.5 L 55.0 215.0 L 57.5 212.5 L 60.0 210.0 L 62.5 207.5 L 65.0 205.0 L 67.5 202.5 L 70.0 200.0 L 72.5 197.5 L 75.0 195.0 L 77.5 192.5 L 80.0 190.0 L 82.5 187.5 L 85.0 185.0 L 87.5 182.5 L 90.0 180.0 L 92.5 177.5 L 95.0 175.0 L 97.5 172.5 L 100.0 170.0 L 102.5 167.5 L 105.0 165.0 L 107.5 162.5 L 110.0 160.0 L 112.5 157.5 L 115.0 155.0 L 117.5 152.5 L 120.0 150.0 L 122.5 147.5 L 125.0 145.0 L 127.5 142.5 L 130.0 140.0 L 132.5 137.5 L 135.0 135.0 L 137.5 132.5 L 140.0 130.0 L 142.5 127.5 L 145.0 125.0 L 147.5 122.5 L 150.0 120.0 L 152.5 117.5 L 155.0 115.0 L 157.5 112.5 L 160.0 110.0 L 162.5 107.5 L 165.0 105.0 L 167.5 102.5 L 170.0 100.0 L 172.5 97.5 L 175.0 95.0 L 177.5 92.5 L 180.0 90.0 L 182.5 87.5 L 185.0 85.0 L 187.5 82.5 L 190.0 80.0 L 192.5 77.5 L 195.0 75.0 L 197.5 72.5 L 200.0 70.0 L 202.5 67.5 L 205.0 65.0 L 207.5 62.5 L 210.0 60.0 L 212.5 57.5 L 215.0 55.0 L 217.5 52.5 L 220.0 50.0 L 222.5 47.5 L 225.0 45.0 L 227.5 42.5 L 230.0 40.0 L 232.5 37.5 L 235.0 35.0 L 237.5 32.5 L 240.0 30.0 L 242.5 27.5 L 245.0 25.0 L 247.5 22.5 L 250.0 20.0 L 252.5 17.5 L 255.0 15.0 L 257.5 12.5 L 260.0 10.0" clip-path="url(#prefigure-hw2-g5-__clipPath-1)"/>
+</svg>

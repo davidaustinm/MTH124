@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-plot-circle-figure" width="310" height="210" viewBox="0 0 310 210">
+  <defs>
+    <clipPath id="prefigure-plot-circle-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="200.0"/>
+    </clipPath>
+    <clipPath id="prefigure-plot-circle-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="200.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-plot-circle-grid-axes">
+    <g id="prefigure-plot-circle-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="205.0" x2="5.0" y2="5.0"/>
+      <line x1="21.7" y1="205.0" x2="21.7" y2="5.0"/>
+      <line x1="38.3" y1="205.0" x2="38.3" y2="5.0"/>
+      <line x1="55.0" y1="205.0" x2="55.0" y2="5.0"/>
+      <line x1="71.7" y1="205.0" x2="71.7" y2="5.0"/>
+      <line x1="88.3" y1="205.0" x2="88.3" y2="5.0"/>
+      <line x1="105.0" y1="205.0" x2="105.0" y2="5.0"/>
+      <line x1="121.7" y1="205.0" x2="121.7" y2="5.0"/>
+      <line x1="138.3" y1="205.0" x2="138.3" y2="5.0"/>
+      <line x1="155.0" y1="205.0" x2="155.0" y2="5.0"/>
+      <line x1="171.7" y1="205.0" x2="171.7" y2="5.0"/>
+      <line x1="188.3" y1="205.0" x2="188.3" y2="5.0"/>
+      <line x1="205.0" y1="205.0" x2="205.0" y2="5.0"/>
+      <line x1="221.7" y1="205.0" x2="221.7" y2="5.0"/>
+      <line x1="238.3" y1="205.0" x2="238.3" y2="5.0"/>
+      <line x1="255.0" y1="205.0" x2="255.0" y2="5.0"/>
+      <line x1="271.7" y1="205.0" x2="271.7" y2="5.0"/>
+      <line x1="288.3" y1="205.0" x2="288.3" y2="5.0"/>
+      <line x1="305.0" y1="205.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="205.0" x2="305.0" y2="205.0"/>
+      <line x1="5.0" y1="190.7" x2="305.0" y2="190.7"/>
+      <line x1="5.0" y1="176.4" x2="305.0" y2="176.4"/>
+      <line x1="5.0" y1="162.1" x2="305.0" y2="162.1"/>
+      <line x1="5.0" y1="147.9" x2="305.0" y2="147.9"/>
+      <line x1="5.0" y1="133.6" x2="305.0" y2="133.6"/>
+      <line x1="5.0" y1="119.3" x2="305.0" y2="119.3"/>
+      <line x1="5.0" y1="105.0" x2="305.0" y2="105.0"/>
+      <line x1="5.0" y1="90.7" x2="305.0" y2="90.7"/>
+      <line x1="5.0" y1="76.4" x2="305.0" y2="76.4"/>
+      <line x1="5.0" y1="62.1" x2="305.0" y2="62.1"/>
+      <line x1="5.0" y1="47.9" x2="305.0" y2="47.9"/>
+      <line x1="5.0" y1="33.6" x2="305.0" y2="33.6"/>
+      <line x1="5.0" y1="19.3" x2="305.0" y2="19.3"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="prefigure-plot-circle-axes" stroke="black" stroke-width="2">
+      <line id="prefigure-plot-circle-__line-34" x1="5.0" y1="147.9" x2="305.0" y2="147.9" stroke="black" stroke-width="2"/>
+      <line id="prefigure-plot-circle-__line-35" x1="21.7" y1="205.0" x2="21.7" y2="5.0" stroke="black" stroke-width="2"/>
+    </g>
+    <g id="prefigure-plot-circle-__label-0" transform="translate(301.0,143.9) translate(-9.4,-12.7)">
+      <g id="prefigure-plot-circle-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.184px" width="9.408px" height="12.744px" role="img" focusable="false" viewBox="0 -694 520 704" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-plot-circle-MJX-2-TEX-I-1D451" d="M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="d">
+                <use data-c="1D451" xlink:href="#prefigure-plot-circle-MJX-2-TEX-I-1D451"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-plot-circle-__label-1" transform="translate(25.7,9.0) translate(0.0,-0.0)">
+      <g id="prefigure-plot-circle-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.424px" height="12.760px" role="img" focusable="false" viewBox="0 -694 576 705" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-plot-circle-MJX-3-TEX-I-210E" d="M137 683Q138 683 209 688T282 694Q294 694 294 685Q294 674 258 534Q220 386 220 383Q220 381 227 388Q288 442 357 442Q411 442 444 415T478 336Q478 285 440 178T402 50Q403 36 407 31T422 26Q450 26 474 56T513 138Q516 149 519 151T535 153Q555 153 555 145Q555 144 551 130Q535 71 500 33Q466 -10 419 -10H414Q367 -10 346 17T325 74Q325 90 361 192T398 345Q398 404 354 404H349Q266 404 205 306L198 293L164 158Q132 28 127 16Q114 -11 83 -11Q69 -11 59 -2T48 16Q48 30 121 320L195 616Q195 629 188 632T149 637H128Q122 643 122 645T124 664Q129 683 137 683Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="h">
+                <use data-c="210E" xlink:href="#prefigure-plot-circle-MJX-3-TEX-I-210E"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+</svg>

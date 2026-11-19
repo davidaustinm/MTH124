@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-124-hw9-b-figure" width="236" height="186" viewBox="0 0 236 186">
+  <defs>
+    <clipPath id="prefigure-124-hw9-b-__clipPath-0">
+      <rect x="18.0" y="18.0" width="200.0" height="150.0"/>
+    </clipPath>
+    <clipPath id="prefigure-124-hw9-b-__clipPath-1">
+      <rect x="18.0" y="18.0" width="200.0" height="150.0"/>
+    </clipPath>
+  </defs>
+  <line id="prefigure-124-hw9-b-__line-0" x1="111.8" y1="34.7" x2="187.2" y2="151.3" stroke="black" stroke-width="5" fill="none"/>
+  <line id="prefigure-124-hw9-b-__line-1" x1="187.2" y1="34.7" x2="111.8" y2="34.7" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  <line id="prefigure-124-hw9-b-__line-2" x1="33.4" y1="151.3" x2="648.8" y2="151.3" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  <line id="prefigure-124-hw9-b-__line-3" x1="187.2" y1="34.7" x2="187.2" y2="151.3" stroke="black" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  <g id="prefigure-124-hw9-b-__label-0" transform="translate(148.8,134.7) translate(-4.2,-6.5)">
+    <g id="prefigure-124-hw9-b-__g-0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="8.488px" height="12.960px" role="img" focusable="false" viewBox="0 -705 469 716" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-124-hw9-b-MJX-2-NCM-I-1D703" d="M164-11C209-11 256 16 302 70C382 163 455 335 455 498C455 539 448 582 434 625C416 678 382 705 333 705C288 705 243 678 196 624C116 532 42 360 42 196C42 94 75-11 164-11M332 675C365 675 382 637 382 560C382 517 372 452 352 367L155 367C180 460 204 529 229 574C266 641 301 675 332 675M145 327L341 327C322 246 299 181 274 132C235 57 199 19 164 19C131 19 115 58 115 135C115 185 125 249 145 327Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\theta" data-semantic-speech="theta">
+              <use data-c="1D703" xlink:href="#prefigure-124-hw9-b-MJX-2-NCM-I-1D703"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-124-hw9-b-__label-1" transform="translate(556.5,101.3) translate(-4.5,-6.0)">
+    <g id="prefigure-124-hw9-b-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-124-hw9-b-MJX-3-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:1" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#prefigure-124-hw9-b-MJX-3-NCM-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="prefigure-124-hw9-b-__label-2" transform="translate(125.7,84.7) translate(-4.5,-6.0)">
+    <g id="prefigure-124-hw9-b-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-124-hw9-b-MJX-4-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:1" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#prefigure-124-hw9-b-MJX-4-NCM-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>
