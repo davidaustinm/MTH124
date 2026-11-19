@@ -102,11 +102,34 @@
       </prefigure>
     </image>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          Domain: <m>[0,\pi]</m> or <m>0\le t \le \pi</m>
+        </p>
+        <p>
+          Range: <m>[-1,1]</m> or <m>-1\le y \le 1</m>
+        </p>
+        <p>
+          Does <m>g</m> pass the H.L.T.: YES!
+        </p>
+        <p>
+          Does <m>g</m> have an inverse: YES!
+        </p>
+      </solution>
     </task>
     <task workspace=".8cm">
       <statement>
         <p>We know <m>\cos(\frac{\pi}{4}) = \frac{\sqrt{2}}{2}</m>, so since <m>\frac{\pi}{4}</m> is in <m>[0,\pi]</m>, then <m>g(\frac{\pi}{4}) = \frac{\sqrt{2}}{2}</m>.  What then is <m>g^{-1}(\frac{\sqrt{2}}{2})</m>?</p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          <m>g^{-1}(\frac{\sqrt{2}}{2}) = \frac{\pi}{4}</m> i.e. the angle 
+          of <m>\frac{\pi}{4}</m> corresponds to the x-coordinate on the top half of the unit 
+          circle with a value of <m>\frac{\sqrt2}{2}</m>, i.e. it's the angle of cosine that is 
+          between 0 and <m>\pi</m>
+          with <m>\cos(angle) = \sqrt2/2</m>.
+        </p>
+      </solution>
     </task>
     <task workspace="2cm">
       <statement>
@@ -130,6 +153,29 @@
         </ul>
         </p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          Top have of unit circle, find the corresponding x-coordinate, determine
+          the angle that matches:
+        <ul cols="3">
+          <li>
+            <p>
+              <m>g^{-1}(-\frac{\sqrt{2}}{2}) = \frac{3\pi}{4} </m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g^{-1}(-\frac12) = \frac{2\pi}{3}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g^{-1}(0) =\frac{\pi}{2}</m>
+            </p>
+          </li>
+        </ul>
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -211,6 +257,41 @@
           </ol>
         </p>
     </statement>
+    <solution component="S4-3-soln">
+        <p> Same as before, look at the top half of the unit circle, find 
+        the point with an x-coordinate that matches, determine the angle of that point.
+          <ol cols="3" marker="a.">
+            <li>
+              <p><m>\arccos(\frac12) = \frac{\pi}{3}</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(\frac{\sqrt{2}}2)= \frac{\pi}{4}</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(\frac{\sqrt{3}}2)= \frac{\pi}{6}</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(-\frac12)= \frac{2\pi}{3}</m></p>
+            </li>
+  
+            <li>
+              <p><m>\arccos(-\frac{\sqrt{3}}2)= \frac{5\pi}{6}</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(-1) = \pi</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(0)= \frac{\pi}{2}</m></p>
+            </li>
+            <li>
+              <p><m>\cos(\arccos(-\frac12)) = \cos(\frac{2\pi}{3}) = -\frac12</m></p>
+            </li>
+            <li>
+              <p><m>\arccos(\cos(\frac{7\pi}6)) = arccos(-\frac{\sqrt{3}}{2})=\frac{5\pi}{6}</m></p>
+            </li>
+          </ol> careful about angle restrictions especially in the last one!
+        </p>
+      </solution>
    </activity>
 
   <p><term>Arcsine</term></p>
@@ -237,6 +318,14 @@
       <statement>
         <p>According to the definition of arcsine above, what is the domain of arcsine?  The range?</p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          Domain: <m>[-1,1]</m>
+        </p>
+        <p>
+          Range: <m>[-\frac\pi2,\frac\pi2]</m>
+        </p>
+      </solution>
     </task>
     <task workspace="0.3in">
       <statement>
@@ -270,14 +359,56 @@
         </ul>
         </p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          Now we are on the right half of the unit circle, but in quadrant IV
+          we need to be careful: consider an angle of <m>\frac{11\pi}{6}</m> which 
+          means we go almost all the way around the circle.  That is not between 
+          <m>-\frac\pi2</m> and <m>\frac\pi2</m>.  So instead start at the central
+          angle of 0 and instead of going counterclockwise all the way around, go clockwise!
+          Going clockwise, or <q>backwards</q> around the unit circle just means you 
+          have a negative angle, so <m>\frac{11\pi}{6}</m> forwards is the same 
+          angle as <m>-\frac{\pi}{6}</m> where you go backwards.  And <m>-\frac\pi6</m> is 
+          in the interval we need.  The same is true for any of the angles in quadrant IV, but 
+          in Quadrant I we can just go normally around the unit circle.
+          <ul cols="5">
+          <li>
+            <p>
+              <m>\arcsin(-1) = -\frac\pi2</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(-\frac{\sqrt{2}}{2}) = -\frac\pi4</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(0) = 0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(\frac12) = \frac\pi6</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arcsin(\frac{\sqrt{3}}{2}) = \frac\pi3</m>
+            </p>
+          </li>
+        </ul>
+        </p>
+      </solution>
     </task>
+    
     <task workspace="0in">
       <statement>
         <p>Sketch a careful plot of the restricted sine function on the interval <m>-\frac{\pi}2 \le t \le \frac{\pi}2</m>.  Then plot the inverse, <m>\arcsin(t)</m> on the same graph.  
  (They should look like reflections of each other across the line <m>y=x</m>, do they?)</p>
 <image width="35%" margins="0% 65%">
       <shortdescription>
-        The graph of restricted cosine on [0,pi] and arccosine.
+        The graph of restricted sine on [-pi/2,pi/2] and arcsine.
       </shortdescription>
       <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-3">
       
@@ -295,11 +426,44 @@
     </image>
  
       </statement>
+      <solution component="S4-3-soln">
+        
+          <image width="35%" margins="0% 65%">
+      <shortdescription>
+        The graph of restricted sine on [-pi/2,pi/2] and arcsine.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-3soln">
+      
+        <diagram dimensions="(250,200)" margins="15">
+          <definition>f(x)=sin(x)</definition>
+          <definition>g(x)=asin(x)</definition>
+
+          <coordinates bbox="(-2,-2,2,2)">
+            <grid-axes xlabel="t"  ylabel="y"  />
+            <graph function="f" domain="(-pi/2,pi/2)" thickness="2" stroke="red"/>
+            <graph function="g" domain="(-1,1)" stroke="blue" thickness="4" dash="4 4"/>
+            <label anchor="(1.8,.8)"><m>sin(t)</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+        <p>
+          Arcsine is the thicker, dashed curve.
+        </p>
+      </solution>
     </task>
     <task workspace=".5cm">
       <statement>
         <p>True or false:  <m>\arcsin(\sin(5\pi)) = 5\pi</m>.  Why/why not?</p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          False! Even though they are inverses, arcsine has angle restrictions and 
+          <m>5\pi</m> is not within those restrictions.  Since <m>5\pi</m> is at the 
+          same angle of <m>\pi</m> on the unit circle, then <m>{\sin(5\pi)=\sin(\pi)=0}</m>. 
+          So <m>\arcsin(\sin(5\pi)) = \arcsin(0) = 0</m>.
+        </p>
+      </solution>
     </task>
   </activity>
 
@@ -322,6 +486,14 @@
       <statement>
         <p>According to the definition of arctangent above, what is the domain of arctangent?  The range?</p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          Domain: <m>(-\infty, \infty)</m>
+        </p>
+        <p>
+          Range: <m>(-\frac\pi2, \frac\pi2)</m>
+        </p>
+      </solution>
     </task>
     <task workspace=".4in">
       <statement>
@@ -350,6 +522,36 @@
         </ul>
         </p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          Similar to arcsine, we restrict to the right half of the unit circle, 
+          but we do not include angles <m>-\pi/2, \pi/2</m>, and in the 
+          fourth quadrant we have to go backwards, or negative angles.  And 
+          <m>{\tan(t) = \frac{\sin(t)}{\cos(t)} = \frac{\text{x-coord on unit circle}}{\text{y-coord on unit circle}}}</m>
+          <ul cols="4">
+          <li>
+            <p>
+              <m>\arctan(-\sqrt{3}) = -\frac\pi3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arctan(-1) = -\frac\pi4</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arctan(0) = 0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\arctan(\frac1{\sqrt{3}}) = \frac\pi6</m>
+            </p>
+          </li>
+        </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="1cm">
       <statement>
@@ -378,13 +580,39 @@
       </prefigure>
     </image>
       </statement>
+      <solution component="S4-3-soln">
+            <image width="35%" margins="0% 65%">
+      <shortdescription>
+        The graph of arctangent.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-3-4soln">
+      
+        <diagram dimensions="(250,200)" margins="5">
+          <definition>f(x)=atan(x)</definition>
+
+          <coordinates bbox="(-4,-4,4,4)">
+            <grid-axes xlabel="t"  ylabel="y"  />
+            <graph function="f"  thickness="2" stroke="red"/>
+            <line dash="2 2" endpoints="((-5,-pi/2),(5,-pi/2))"/>
+            <line dash="2 2" endpoints="((-5,pi/2),(5,pi/2))"/>
+            <label anchor="(2.3,3.4)"><m>arctan(t)</m></label>
+            <label anchor="(-2.9,-2.1)"><m>y=-\frac{\pi}{2}</m></label>
+            <label anchor="(-2.9,2.1)"><m>y=\frac{\pi}{2}</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+      </solution>
     </task>
     <task workspace="0.3in">
       <statement>
         <p>Complete the sentence: <q>as <m>t</m> increases without bound (as <m>t\rightarrow \infty</m>), the function <m>\arctan(t)</m>...</q></p>
-
-  
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          <ellipsis/> the function <m>arctan(t) \rightarrow \frac\pi2</m>!
+        </p>
+      </solution>
     </task>
     
   </activity>
@@ -406,11 +634,43 @@
           </ul>
         </p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          Now we're just on the normal unit circle:
+          <ul>
+            <li><p><m>\sin(t)=\frac{\sqrt3}{2}</m>, when <m>t= \frac{\pi}{3}, \frac{2\pi}{3}</m></p></li>
+            <li><p><m>\cos(t)=\frac{\sqrt2}{2}</m>, when <m>t= \frac\pi4, \frac{7\pi}{4}</m></p></li>
+            <li><p><m>\tan(t)=-\sqrt3</m>, when <m>t=\frac{2\pi}{3}, \frac{5\pi}{3}</m></p></li>
+          </ul>
+        </p>
+      </solution>
     </task>
     <task workspace="1in">
       <statement>
         <p>Suppose <m>\sin(t)=\frac{x}{5}</m> and <m>t</m> is in the first quadrant.  Draw a right triangle that matches this criteria.  Can you find an expression for <m>\cos(t)</m>?  For <m>\tan(t)</m>?  Both expressions will involve <m>x</m>.</p>
       </statement>
+      <solution component="S4-3-soln">
+        <p>
+          There are a few ways to picture this.  One is to have the angle <m>t</m>, 
+          a hypotenuse of <m>5</m>, and the side opposite angle <m>t</m> with the value of <m>x</m>. 
+          (This way we also don't have fractions.). Then Pythagorean Theorem says that 
+          we can get the last side, which will be adjacent to angle <m>t</m>. That is, 
+          <md>
+            (adj)^2 + x^2 = 5^2
+          </md>
+          or solving for <m>adj</m>: <m>{(adj)^2 = 25 - x^2}</m> and thus 
+          <m>adj = \sqrt{25-x^2}</m>.  This does not simplify!  Not even a little!
+          But now we have all the sides of the triangle (in terms of <m>x</m>). 
+          So 
+          <md>
+            \cos(t) = \frac{adj}{hyp} = \frac{\sqrt{25-x^2}}{5}
+          </md>
+          <md>
+            \tan(t) = \frac{opp}{adj} = \frac{x}{\sqrt{25-x^2}}
+          </md>
+          
+        </p>
+      </solution>
     </task>
   </activity>
 
