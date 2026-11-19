@@ -234,6 +234,39 @@
  foot tower is to be anchored by four cables that each make an angle of <m>32.5^{\circ}</m>
  with the ground. How long do the cables have to be and how far from the base of the tower must they be anchored?</p>
     </statement>
+    <solution component="S4-2-soln">
+      <p>
+        We only really need to consider one anchor.  That anchor will go from the top of the 
+        tower down to the ground, and form an angle of <m>32.5^\circ</m> with
+        the ground.  So our triangle has a vertical side corresponding to the tower 
+        (straight up and down) of 225 ft, a horizontal edge on the ground 
+        that I will call <m>x</m> ft, and the hypotenuse of the triangle is 
+        the length of the cable which I will call <m>L</m>.  So the 
+        ground is adjacent to the angle <m>32.5^\circ</m>, and that angle 
+        is touching the ground (not up in the air).  
+      </p>
+      <p>
+        We can find <m>x</m> or <m>L</m> first, it doesn't matter which, but we want both. 
+        Notice 
+        <md>
+          \tan(32.5)=\frac{225}{x}
+        </md>
+        which we can rearrange to <m>x\tan(32.5)=225</m>, and one more time to get
+        <m>{x=\frac{225}{\tan(32.5)}}</m>.  That's an exact answer, which
+        turns out to be approximately <m>353.18</m> ft. 
+      </p>
+      <p>
+        There are many ways to find <m>L</m>.  One of the cleanest is to use 
+        sine, since that will use information we were given instead of information we 
+        had to find (on the off chance we made a mistake it's a tiny bit <q>safer</q>). So
+        <md>
+          \sin(32.5)=\frac{225}{L}
+        </md>
+         which can be rearranged as <m>{L\sin(32.5)=225}</m> and finally
+         <m>{L=\frac{225}{\sin(32.5)}}</m> feet (exact) or approximately <m>418.76</m>ft is the 
+         length of one cable.
+      </p>
+    </solution>
   </activity>
 
   <activity workspace="1in">
@@ -267,6 +300,29 @@
       </prefigure>
     </image>
     </statement>
+    <solution component="S4-2-soln">
+      <p>
+        There are two right triangles here, but the one with the 
+        <m>31^\circ</m> angle has more info, so start with that one. 
+        We know the side opposite the angle, and adjacent, so let's use 
+        tangent. <md>
+          \tan(31)=\frac{635}{d}
+        </md>
+        which rearranged goes to <m>d\tan(31)=635</m>, or <m>{d=]frac{635}{\tan(31)}}</m> feet. (Approximately 1056.82 ft)
+      </p>
+      <p>
+        Now we know <m>d</m> we have enough info to use the other right 
+        triangle:
+        <md>
+          \tan(34) = \frac{d}{s}=\frac{635/\tan(31)}{s}
+        </md>
+        which rearranged gives <m>{s \tan(34) = \frac{635}{\tan(31)}}</m>, 
+        which rearranged one more time: <m>s = \frac{635}{\tan(34)\tan(31)}</m> feet.
+        (Approximately 1566.80 ft.)
+      </p>
+
+
+    </solution>
   </activity>
 
   <activity>
@@ -306,6 +362,11 @@
  angle, find an equation that relates <m>x</m>
  and <m>h</m>.</p>
       </statement>
+      <solution component="S4-2-soln">
+      <p>
+        <m>\tan(25^\circ) = \frac{h}{x}</m>.  That's it.
+      </p>
+    </solution>
     </task>
     <task workspace="0.2in">
       <statement>
@@ -313,6 +374,11 @@
  angle, find a second equation that relates <m>x</m>
  and <m>h</m>.</p>
       </statement>
+      <solution component="S4-2-soln">
+      <p>
+        <m>\tan(19^\circ) = \frac{h}{1000+x}</m>. Also it.
+      </p>
+    </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -321,6 +387,14 @@
  Solve each of the two equations for <m>h</m>
  and then substitute appropriately in order to find a single equation in the variable <m>x</m>.</p>
       </statement>
+      <solution component="S4-2-soln">
+      <p>
+        <m>h = x\tan(25^\circ)</m> and <m>h=(1000+x)\tan(19^\circ)</m>.  Since 
+        <m>h</m> is the same, we can substitute one <m>h</m> for the other and we have the 
+        equation <md>x\tan(25^\circ) = (1000+x)\tan(19^\circ).</md>
+        This is one equation with <m>x</m> as the only variable.
+      </p>
+    </solution>
     </task>
     <task workspace="1in">
       <statement>
@@ -328,6 +402,26 @@
  and determine an approximate value accurate to 3
  decimal places.</p>
       </statement>
+      <solution component="S4-2-soln">
+      <p>
+        If I asked you to solve <m>{5x = (1000+x)(3)}</m>, you would distribute 
+        to get <m>{5x=3000+3x}</m>, move the <m>x</m>'s to one
+        side <m>{2x=3000}</m>, then get <m>{x=1500}</m>.  This is exactly the 
+        same equation as 
+        <md>x\tan(25^\circ) = (1000+x)\tan(19^\circ)</md>
+        just with different numbers.  We can solve it the same way.  Distribute:
+        <md>x\tan(25^\circ) = 1000\tan(19^\circ) + x\tan(19^\circ)</md>
+        then get the x's to one side:
+        <md>x\tan(25^\circ) - x\tan(19^\circ) = 1000\tan(19^\circ)</md>
+        ah well we can't combine the two tangents since they are evaluated at 
+        different angles, but we can factor out an <m>x</m>:
+        <md>x(\tan(25^\circ) - \tan(19^\circ)) = 1000\tan(19^\circ)</md>
+        and now <m>x</m> is multiplied by that giant thing which is just a number, so we 
+        can divide by that number and get 
+        <md>x = \frac{1000\tan(19^\circ)}{(\tan(25^\circ) - \tan(19^\circ))}.</md>
+        Is doesn't simplify, but it is exact.  It is approximately 2822.819 feet.
+      </p>
+    </solution>
     </task>
     <task workspace="0.6in">
       <statement>
@@ -335,12 +429,24 @@
  exactly, plus determine an estimate accurate to 3
  decimal places.</p>
       </statement>
+      <solution component="S4-2-soln">
+      <p>
+        We already have <m>h=x\tan(25^\circ)</m>, plug in <m>x</m>:
+        <m>{h = \frac{1000\tan(19^\circ)}{(\tan(25^\circ) - \tan(19^\circ))}\tan(25^\circ)}</m>
+        which is approximately 1316.302 feet.
+      </p>
+    </solution>
     </task>
     <task workspace="0.2in">
       <statement>
         <p>If the surveyors’ initial measurements were taken from an elevation of 78
  feet above sea level, how high above sea level is the peak of the hill?</p>
       </statement>
+      <solution component="S4-2-soln">
+      <p>
+        <m>h+78\approx 1394</m> feet.
+      </p>
+    </solution>
     </task>
   </activity>
 
