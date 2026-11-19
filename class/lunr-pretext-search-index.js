@@ -1717,57 +1717,57 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Section 4.4 &amp; 4.5: Finding Angles",
-  "body": " Section 4.4 & 4.5: Finding Angles     6 trig functions:                       Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?     Now let's look at a few applications...   Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?     Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?     Activity 4.4.5   A camera is tracking the launch of a rocket. The camera is located 4000 feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle (in radians) is the camera tilted when the rocket is 3000 feet off the ground? Answer both exactly and approximately.  Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height . Determine the camera’s angle, , as a function of , (so and will show up on the right), and use Desmos to help compute the average rate of change of on the intervals , , and . What do you observe about how the camera angle is changing?    "
+  "body": " Section 4.4 & 4.5: Finding Angles   MTH 124         6 trig functions:                                                The graph of cosecant.    f(x)=csc(x)  g(x)=sin(x)                The graph of secant.    f(x)=sec(x)  g(x)=cos(x)            Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?      Now let's look at a few applications...    Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?     Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?     Activity 4.4.5   A camera is tracking the launch of a rocket. The camera is located 4000 feet from the rocket’s launching pad, and the camera angle changes in order to keep the rocket in focus. At what angle (in radians) is the camera tilted when the rocket is 3000 feet off the ground? Answer both exactly and approximately.  Now, rather than considering the rocket at a fixed height of 3000 feet, let its height vary and call the rocket’s height . Determine the camera’s angle, , as a function of , (so and will show up on the right), and use Desmos to help compute the average rate of change of on the intervals , , and . What do you observe about how the camera angle is changing?    "
 },
 {
-  "id": "activities-33-3",
+  "id": "activities-33-4",
   "level": "2",
-  "url": "activities-33.html#activities-33-3",
+  "url": "activities-33.html#activities-33-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "6 trig functions: "
 },
 {
-  "id": "activities-33-9",
+  "id": "activities-33-8",
   "level": "2",
-  "url": "activities-33.html#activities-33-9",
+  "url": "activities-33.html#activities-33-8",
   "type": "Activity",
   "number": "140",
   "title": "Activity 4.4.2. More Practice.",
   "body": " Activity 4.4.2. More Practice   For each of the following different scenarios, draw a picture of the situation and use inverse trigonometric functions appropriately to determine the missing information both exactly and approximately.     Consider an angle in standard position on the unit circle (vertex at the origin, one side on the positive -axis (making the angle more than radians)) for which we know and lies in quadrant III. What is the measure of in radians? In addition, what is the value of ?      Consider an angle in standard position on the unit circle for which we know and lies in quadrant II. What is the measure of in radians? In addition, what is the value of ?      Consider a right triangle with legs of length and . What are the measures (in radians) of the non-right angles and what is the length of the hypotenuse?    "
 },
 {
-  "id": "activities-33-10",
+  "id": "activities-33-9",
   "level": "2",
-  "url": "activities-33.html#activities-33-10",
+  "url": "activities-33.html#activities-33-9",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Now let's look at a few applications... "
 },
 {
-  "id": "activities-33-11",
+  "id": "activities-33-10",
   "level": "2",
-  "url": "activities-33.html#activities-33-11",
+  "url": "activities-33.html#activities-33-10",
   "type": "Activity",
   "number": "141",
   "title": "Activity 4.4.3.",
   "body": " Activity 4.4.3   A roof is being built with a ``7-12 pitch.” This means that the roof rises 7 inches vertically for every 12 inches of horizontal span; in other words, the slope of the roof is . What is the exact measure (in degrees) of the angle the roof makes with the horizontal? What is the approximate measure? What are the exact and approximate measures of the angle at the peak of the roof (made by the front and back portions of the roof that meet to form the ridge)?   "
 },
 {
-  "id": "activities-33-12",
+  "id": "activities-33-11",
   "level": "2",
-  "url": "activities-33.html#activities-33-12",
+  "url": "activities-33.html#activities-33-11",
   "type": "Activity",
   "number": "142",
   "title": "Activity 4.4.4.",
   "body": " Activity 4.4.4   On a baseball diamond (which is a square with 90-foot sides), the third baseman fields the ball right on the line from third base to home plate and 10 feet away from third base (towards home plate). When he throws the ball to first base, what angle (in degrees) does the line the ball travels make with the first base line? What angle does it make with the third base line? Draw a well-labeled diagram to support your thinking.  What angles arise if he throws the ball to second base instead?   "
 },
 {
-  "id": "activities-33-13",
+  "id": "activities-33-12",
   "level": "2",
-  "url": "activities-33.html#activities-33-13",
+  "url": "activities-33.html#activities-33-12",
   "type": "Activity",
   "number": "143",
   "title": "Activity 4.4.5.",
