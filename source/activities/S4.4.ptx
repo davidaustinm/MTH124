@@ -140,6 +140,14 @@
                     In addition, what is the value of <m>\sin(\alpha)</m>?
                 </p>
             </statement>
+            <solution component="S4-4-soln">
+              <p>
+                In quadrant III, since <m>\cos(\alpha)=-\frac12</m> then the 
+                x-coordinate has to be <m>-\frac12</m>, which corresponds to the 
+                point <m>(-\frac12, -\frac{\sqrt3}{2})</m>.  This happens when 
+                <m>\alpha=\frac{4\pi}{3}</m>, and <m>\sin(\frac{4\pi}{3}) = -\frac{\sqrt3}{2}</m>.
+              </p>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -152,6 +160,48 @@
                     In addition, what is the value of <m>\cos(\beta)</m>?
                 </p>
             </statement>
+            <solution component="S4-4-soln">
+              <p>
+                Ideally we would just take <m>\arcsin(0.1)</m> and get out our angle, 
+                but that will be about <m>0.100167</m> radians and will land us in quadrant I, 
+                not quadrant II, since arcsine gives us angles between <m>-\frac\pi2</m> and 
+                <m>\frac{\pi}2</m>.  The nice thing though, is the unit circle is extremely symmetric, 
+                so <m>arcsin(0.1)</m> is the angle starting at 0 and going a little bit counterclockwise
+                along the unit circle. If we reflect the point over the y-axis into quadrant II, 
+                then it would be exactly the same as starting at angle <m>\pi</m> and going backwards by that 
+                same amount, or in other words <m>{\beta = \pi - \arcsin(0.1)}</m>.
+              </p>
+              <p>
+                If we tried to take <m>\cos(\arcsin(0.1))</m>, it is about 0.9949, 
+                which would put us in the first quadrant!  The value will be the same, but 
+                negative since we are in the second quadrant where cosine/x-coordinate of the unit circle is negative, 
+                so <m>{\cos(\beta)\approx -0.9949}</m>.  See picture with a slightly exaggerated angle to see the symmetry.
+              </p>
+                  <image width="35%">
+      <shortdescription>
+        The graph of the unit circle showing the symmetry.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-4-2bsoln">
+      
+        <diagram dimensions="(200,200)" margins="5">
+          <definition>beta= pi - asin(0.3)</definition>
+          <definition>gamma= asin(0.3)</definition>
+          <coordinates bbox="(-1,-1,1,1)">
+            <axes hlabels="(2,2,2)" vlabels="(2,2,2)" />
+            <circle center="(0,0)" radius="1"/>
+            <line dash="2 2" endpoints="((0,0),(cos(beta),sin(beta)))"/>
+            <line dash="2 2" endpoints="((0,0),(cos(gamma),sin(gamma)))"/>
+            <angle-marker points="((cos(beta),sin(beta)),(0,0),(-1,0))"  clear-background="yes">   </angle-marker>
+            <angle-marker points="((1,0),(0,0),(cos(gamma),sin(gamma)))"  clear-background="yes">   </angle-marker>
+            <angle-marker points="((1,0),(0,0),(cos(beta),sin(beta)))" clear-background="no" alignment="ne"><m>\beta</m>   </angle-marker>
+            <point p="(cos(gamma), sin(gamma))" alignment="nw"><m>(x, 0.1)</m></point>
+            <point p="(cos(beta), sin(beta))" alignment="ne"><m>(-x, 0.1)</m></point>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+            </solution>
         </task>
 
         <task workspace="1in">
@@ -163,6 +213,21 @@
                     and what is the length of the hypotenuse?
                 </p>
             </statement>
+            <solution component="S4-4-soln">
+              <p>
+                Pythagorean Theorem: <m>{11^2 + 13^2 = (hyp)^2}</m> so <m>{hyp=\sqrt{290}}</m>.
+              </p>
+              <p>
+                Pick an angle, I'll call mine <m>\theta</m>, and I will make 
+                <m>\theta</m> adjacent to the side of 13 and opposite to the side of 11.
+                Since <m>{\tan(\theta)=\frac{11}{13}}</m> then <m>{\theta=\arctan(\frac{11}{13})}</m>.
+              </p>
+              <p>
+                The other angle is <m>\frac\pi2 - \arctan(\frac{11}{13})</m>, or 
+                if you like this is actually the same thing as <m>\arctan(\frac{13}{11})</m> 
+                if you just take the tangent with respect to this final angle.
+              </p>
+            </solution>
         </task>
     </activity>
 
@@ -187,6 +252,43 @@
                 roof that meet to form the ridge)?
             </p>
         </statement>
+        <solution component="S4-4-soln">
+              <p>
+                I have a right triangle with a horizontal leg of 12, a vertical leg of 7, 
+                and I called the angle <m>\theta</m> as the one adjacent to the side of 12.
+                So <m>{\tan(\theta) = \frac{7}{12}}</m>, and so <m>{\theta=\arctan(\frac{7}{12})}</m>. 
+                If the angle at the top of the triangle is <m>\beta</m>, we can find 
+                it many ways, but one of the simplest is <m>\tan(\beta)=\frac{12}{7}</m>
+                so <m>\beta=\arctan(\frac{12}{7})</m>.  This is only half of the angle 
+                of the roof though, since the roof will rise with this slope but then 
+                will fall with this same slope, so there is a mirror image of this triangle as if you 
+                reflect over the vertical leg.  So the peak is actually <m>2\beta = 2\arctan(\frac{12}{7})</m>.
+              </p>
+                  <image width="45%">
+      <shortdescription>
+        The triangles representing the roof.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-4-3bsoln">
+      
+        <diagram dimensions="(300,150)" margins="5">
+
+          <coordinates bbox="(-1,0,1,1)">
+            <triangle vertices="((-1,0),(1,0),(0,1))"/>
+
+            <line  endpoints="((0,0),(0,1))"/>
+            <angle-marker points="((0,0),(-1,0),(0,1))"  clear-background="no"> <m>\theta</m>  </angle-marker>
+            <angle-marker points="((0,1),(1,0),(0,0))"  clear-background="no"> <m>\theta</m>  </angle-marker>
+            <angle-marker points="((-1,0),(0,1),(0,0))"  clear-background="no"> <m>\beta</m>  </angle-marker>
+            <angle-marker points="((0,0),(0,1),(1,0))"  clear-background="no"> <m>\beta</m>  </angle-marker>
+            <angle-marker points="((1,0),(0,0),(0,1))"  clear-background="no">  </angle-marker>
+            <angle-marker points="((0,1),(0,0),(-1,0))"  clear-background="no">  </angle-marker>
+            <label anchor="(0,.4)" alignment="e"><m>7</m></label>
+            <label anchor="(-0.5,.06)" alignment="e"><m>12</m></label>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+            </solution>
     </activity>
 
     <activity>
@@ -208,6 +310,71 @@
                 What angles arise if he throws the ball to second base instead?
             </p>
         </statement>
+        <solution component="S4-4-soln">
+              <image width="45%">
+      <shortdescription>
+        The baseball diamond if the third baseman throws to first base.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-4-4asoln">
+      
+        <diagram dimensions="(300,300)" margins="5">
+
+          <coordinates bbox="(-1,-1,1,1)">
+            <line endpoints="((-1,0),(0,1))"/>
+            <line endpoints="((0,1),(1,0))"/>
+            <line endpoints="((1,0),(0,-1))"/>
+            <line endpoints="((0,-1),(-1,0))"/>
+            <line  endpoints="((1,0),(-0.8,-0.2))"/>
+            <angle-marker points="((-0.8,-0.2),(1,0),(0,-1))"  clear-background="no"> <m>\theta</m>  </angle-marker>
+            <angle-marker points="((1,0),(0,-1),(-1,0))"  clear-background="no">  </angle-marker>
+            <label anchor="(0.5,-.5)" alignment="se"><m>90</m></label>
+            <label anchor="(-0.4,-0.6)" alignment="sw"><m>80</m></label>
+            <label anchor="(-0.9,-0.1)" alignment="sw"><m>10</m></label>
+            <point p="(-1,0)" alignment="e">third</point>
+            <point p="(1,0)" alignment="nw" offset="(-6,0)">first</point>
+            <point p="(0,-1)" alignment="n" offset="(0,10)">home</point>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+              <p>
+                First part. See image above.  We have <m>{\tan(\theta)=\frac{80}{90}}</m>
+                so the angle with the first base line is <m>{\theta=\arctan(\frac{80}{90})}</m> 
+                or about <m>41.63^\circ</m>. Since the non-right angles have to 
+                add to 90 degrees, the angle with the third-base line is <m>90^\circ - \arctan(\frac{80}{90})</m>
+                or about <m>48.4^\circ</m>.
+              </p>
+              <p>
+                Second part.  See image below. Same reasoning as above, <m>{\tan(\theta)=\frac{10}{90}}</m>
+                so <m>{\theta=\arctan(\frac{1}{9})\approx6.3^\circ}</m>.  
+                The other angle is <m>{90^\circ - \arctan(\frac19)\approx 87.3^\circ}</m>.
+              </p>
+                  <image width="45%">
+      <shortdescription>
+        The baseball diamond if the third baseman throws to second base.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-4-4bsoln">
+      
+        <diagram dimensions="(300,300)" margins="5">
+
+          <coordinates bbox="(-1,-1,1,1)">
+            <line endpoints="((-1,0),(0,1))"/>
+            <line endpoints="((0,1),(1,0))"/>
+            <line endpoints="((1,0),(0,-1))"/>
+            <line endpoints="((0,-1),(-1,0))"/>
+            <line  endpoints="((0,1),(-0.8,-0.2))"/>
+            <angle-marker points="((-1,0),(0,1),(-0.8,-0.2))" offset="(-10,-11)" clear-background="no"> <m>\theta</m>  </angle-marker>
+            <angle-marker points="((1,0),(0,-1),(-1,0))"  clear-background="no">  </angle-marker>
+            <label anchor="(-0.5,.5)" alignment="nw"><m>90</m></label>
+            <label anchor="(-0.9,-0.1)" alignment="sw"><m>10</m></label>
+            <point p="(-1,0)" alignment="e">third</point>
+            <point p="(1,0)" alignment="nw" offset="(-6,0)">first</point>
+            <point p="(0,-1)" alignment="n" offset="(0,10)">home</point>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+            </solution>
     </activity>
 
     <activity>
@@ -236,5 +403,51 @@
                 What do you observe about how the camera angle is changing?
             </p>
         </statement>
+        <solution component="S4-4-soln">
+              <image width="45%">
+      <shortdescription>
+        The triangle representing the rocket launch.
+      </shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="prefigure-124-4-4-5soln">
+      
+        <diagram dimensions="(300,100)" margins="15">
+
+          <coordinates bbox="(-1,0,1,1)">
+            <triangle vertices="((-1,0),(1,0),(1,1))" />
+            <angle-marker points="((1,0),(-1,0),(1,1))" offset="(10,3)" clear-background="no"> <m>\theta</m>  </angle-marker>
+            <angle-marker points="((1,1),(1,0),(-1,0))"  clear-background="no">  </angle-marker>
+            <label anchor="(0,0)" alignment="n"><m>4000</m>ft</label>
+            <label anchor="(1,0.5)" alignment="w"><m>h</m></label>
+            <point p="(-1,0)" alignment="ne" offset="(0,10)">camera</point>
+            <point p="(1,1)" alignment="sw" offset="(-10,4)">rocket</point>
+            <point p="(1,0)" alignment="sw" offset="(-0,2)">launch</point>
+
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+              <p>
+                First part.  Take the height <m>h=3000</m> in the image above.
+                Then <m>{\tan(\theta)= \frac{3000}{4000}}</m>, and <m>{\theta=\arctan(\frac34)approx 0.6345}</m> radians.
+              </p>
+              <p>
+                Second part.  Same picture but leave <m>h</m> as <m>h</m>.  So 
+                Then <m>{\tan(\theta)= \frac{h}{4000}}</m>, and <m>{\theta=\arctan(\frac{h}{4})}</m> radians.
+              </p>
+              <p>
+                If we define a function <m>\theta(h)=\arctan(\frac{h}{4})</m>, then we go back
+                to the average rate of change formula:
+                <md>
+                  AV_{[3000,3500]}=\frac{\theta(3500)-\theta(3000)}{3500-3000} \approx 0.00015 \frac{radians}{foot}
+                </md>
+                <md>
+                  AV_{[5000,5500]}=\frac{\theta(5500)-\theta(5000)}{5500-5000} \approx 0.000092 \frac{radians}{foot}
+                </md>
+                <md>
+                  AV_{[7000,7500]}=\frac{\theta(7500)-\theta(7000)}{7500-7000} \approx 0.000058 \frac{radians}{foot}
+                </md>
+                so it seems to be slowing down from the camera's perspective.
+              </p>
+            </solution>
     </activity>
 </handout>
